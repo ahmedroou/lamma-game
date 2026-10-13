@@ -1,0 +1,4205 @@
+{
+  "categoryId": "islamic_history",
+  "questions": [
+    {
+      "id": "islamic_history-easy-0201",
+      "categoryId": "islamic_history",
+      "difficulty": "easy",
+      "text": "أي فن جعل الحروف العربية نفسها عنصراً جمالياً رئيسياً على المصاحف والعمائر والتحف الإسلامية؟",
+      "answer": "الخط العربي",
+      "acceptedAnswers": [],
+      "hint": "يؤدي وظيفة نقل الكلام، ثم يمنحه شكلاً جمالياً.",
+      "clues": [],
+      "explanation": "الخط نقل النص وزخرفته، وهو عنصر أساسي في الفن الإسلامي.",
+      "sources": [
+        "https://www.metmuseum.org/essays/calligraphy-in-islamic-art"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "الخط العربي"
+        },
+        {
+          "id": "B",
+          "text": "التذهيب"
+        },
+        {
+          "id": "C",
+          "text": "التوريق"
+        },
+        {
+          "id": "D",
+          "text": "التطعيم"
+        },
+        {
+          "id": "E",
+          "text": "التصوير"
+        },
+        {
+          "id": "F",
+          "text": "التزجيج"
+        }
+      ],
+      "correctOptionId": "A",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "islamic_history-easy-0202",
+      "categoryId": "islamic_history",
+      "difficulty": "easy",
+      "text": "أي نوع من الزخرفة الإسلامية يعتمد تكرار النجوم والمضلعات والدوائر المتشابكة؟",
+      "answer": "الزخرفة الهندسية",
+      "acceptedAnswers": [],
+      "hint": "بنيته تقوم على علاقات بين أشكال منتظمة.",
+      "clues": [],
+      "explanation": "الأشكال الهندسية المتكررة والمتداخلة أساس هذا النوع.",
+      "sources": [
+        "https://www.metmuseum.org/essays/geometric-patterns-in-islamic-art"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "الزخرفة النباتية"
+        },
+        {
+          "id": "B",
+          "text": "الزخرفة الهندسية"
+        },
+        {
+          "id": "C",
+          "text": "الزخرفة الكتابية"
+        },
+        {
+          "id": "D",
+          "text": "الزخرفة الآدمية"
+        },
+        {
+          "id": "E",
+          "text": "الزخرفة الحيوانية"
+        },
+        {
+          "id": "F",
+          "text": "الزخرفة السردية"
+        }
+      ],
+      "correctOptionId": "B",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "islamic_history-easy-0203",
+      "categoryId": "islamic_history",
+      "difficulty": "easy",
+      "text": "إلى أي نوع تنتمي زخرفة إسلامية تتكون من أغصان ملتفة وأوراق وأزهار محورة؟",
+      "answer": "الزخرفة النباتية",
+      "acceptedAnswers": [],
+      "hint": "تستلهم الكائنات التي تنمو في الحدائق، وقد تجرد أشكالها.",
+      "clues": [],
+      "explanation": "التوريق والزخرفة النباتية يستخدمان الأوراق والأغصان والأزهار.",
+      "sources": [
+        "https://www.metmuseum.org/essays/vegetal-patterns-in-islamic-art"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "الزخرفة الهندسية"
+        },
+        {
+          "id": "B",
+          "text": "الزخرفة الكتابية"
+        },
+        {
+          "id": "C",
+          "text": "الزخرفة النباتية"
+        },
+        {
+          "id": "D",
+          "text": "الزخرفة الآدمية"
+        },
+        {
+          "id": "E",
+          "text": "الزخرفة الحيوانية"
+        },
+        {
+          "id": "F",
+          "text": "الزخرفة المعمارية"
+        }
+      ],
+      "correctOptionId": "C",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "islamic_history-easy-0204",
+      "categoryId": "islamic_history",
+      "difficulty": "easy",
+      "text": "ما اسم المنسوجات الإسلامية ذات الأشرطة الكتابية التي قد تحمل اسم الخليفة وتاريخ الصناعة؟",
+      "answer": "الطراز",
+      "acceptedAnswers": [],
+      "hint": "المصطلح يطلق أيضاً على الشريط وعلى مصنع النسيج.",
+      "clues": [],
+      "explanation": "الطراز نسيج ذو كتابة، ويشمل الاسم أشرطته ومصانعه.",
+      "sources": [
+        "https://www.metmuseum.org/essays/tiraz-inscribed-textiles-from-the-early-islamic-period"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "الديباج"
+        },
+        {
+          "id": "B",
+          "text": "القطيفة"
+        },
+        {
+          "id": "C",
+          "text": "الزردخان"
+        },
+        {
+          "id": "D",
+          "text": "الطراز"
+        },
+        {
+          "id": "E",
+          "text": "الكسوة"
+        },
+        {
+          "id": "F",
+          "text": "النسيج السادة"
+        }
+      ],
+      "correctOptionId": "D",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "islamic_history-easy-0205",
+      "categoryId": "islamic_history",
+      "difficulty": "easy",
+      "text": "ما اسم مراسم منح ثياب التشريف للحاشية والسفراء في البلاطات الإسلامية؟",
+      "answer": "الخلعة",
+      "acceptedAnswers": [],
+      "hint": "الثوب الممنوح علامة تكريم وإقرار بالولاء.",
+      "clues": [],
+      "explanation": "منح الخلع كان مراسم تكريم تستعمل فيها ثياب الطراز.",
+      "sources": [
+        "https://www.metmuseum.org/essays/tiraz-inscribed-textiles-from-the-early-islamic-period"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "البيعة"
+        },
+        {
+          "id": "B",
+          "text": "الموكب"
+        },
+        {
+          "id": "C",
+          "text": "التقليد"
+        },
+        {
+          "id": "D",
+          "text": "المراسلة"
+        },
+        {
+          "id": "E",
+          "text": "الخلعة"
+        },
+        {
+          "id": "F",
+          "text": "الاستقبال"
+        }
+      ],
+      "correctOptionId": "E",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "islamic_history-easy-0206",
+      "categoryId": "islamic_history",
+      "difficulty": "easy",
+      "text": "ما تقنية الخزف التي انتشرت من العراق وتعطي السطح لمعاناً يشبه المعدن النفيس؟",
+      "answer": "البريق المعدني",
+      "acceptedAnswers": [],
+      "hint": "اسمها يصف أثرها اللامع على سطح الإناء.",
+      "clues": [],
+      "explanation": "البريق المعدني يرسم فوق التزجيج ويمنح الخزف تألقاً معدنياً.",
+      "sources": [
+        "https://www.metmuseum.org/essays/the-art-of-the-abbasid-period-750-1258"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "التزجيج الملحي"
+        },
+        {
+          "id": "B",
+          "text": "الحفر تحت الطلاء"
+        },
+        {
+          "id": "C",
+          "text": "الرسم تحت التزجيج"
+        },
+        {
+          "id": "D",
+          "text": "التطعيم بالصدف"
+        },
+        {
+          "id": "E",
+          "text": "الصب في القالب"
+        },
+        {
+          "id": "F",
+          "text": "البريق المعدني"
+        }
+      ],
+      "correctOptionId": "F",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "islamic_history-easy-0207",
+      "categoryId": "islamic_history",
+      "difficulty": "easy",
+      "text": "أي مادة شفافة طبيعية اشتهر الحرفيون الفاطميون بنحت أباريق نفيسة منها؟",
+      "answer": "البلور الصخري",
+      "acceptedAnswers": [],
+      "hint": "حجر طبيعي يشبه الزجاج في شفافيته.",
+      "clues": [],
+      "explanation": "نحت البلور الصخري من الحرف الفنية البارزة في العصر الفاطمي.",
+      "sources": [
+        "https://www.metmuseum.org/essays/the-art-of-the-fatimid-period-909-1171"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "البلور الصخري"
+        },
+        {
+          "id": "B",
+          "text": "الزجاج المنفوخ"
+        },
+        {
+          "id": "C",
+          "text": "الرخام الأبيض"
+        },
+        {
+          "id": "D",
+          "text": "العقيق الأحمر"
+        },
+        {
+          "id": "E",
+          "text": "المرمر المعتم"
+        },
+        {
+          "id": "F",
+          "text": "حجر الصابون"
+        }
+      ],
+      "correctOptionId": "A",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "islamic_history-easy-0208",
+      "categoryId": "islamic_history",
+      "difficulty": "easy",
+      "text": "ما الخامة الأساسية لمصابيح المساجد المملوكية المزينة بالمينا والتذهيب؟",
+      "answer": "الزجاج",
+      "acceptedAnswers": [],
+      "hint": "تسمح بمرور الضوء، ويمكن نفخها قبل تزيينها.",
+      "clues": [],
+      "explanation": "المصابيح المملوكية الشهيرة زجاج منفوخ مزين بالمينا والذهب.",
+      "sources": [
+        "https://www.metmuseum.org/essays/the-art-of-the-mamluk-period-1250-1517"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "الخزف"
+        },
+        {
+          "id": "B",
+          "text": "الزجاج"
+        },
+        {
+          "id": "C",
+          "text": "النحاس"
+        },
+        {
+          "id": "D",
+          "text": "البلور الصخري"
+        },
+        {
+          "id": "E",
+          "text": "الحجر الجيري"
+        },
+        {
+          "id": "F",
+          "text": "الخشب"
+        }
+      ],
+      "correctOptionId": "B",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "islamic_history-easy-0209",
+      "categoryId": "islamic_history",
+      "difficulty": "easy",
+      "text": "أي علم قدم قواعد مهمة لإنشاء الزخارف النجمية المتناظرة في الفنون الإسلامية؟",
+      "answer": "الرياضيات",
+      "acceptedAnswers": [],
+      "hint": "يربط عدد الزوايا بالتناظر وتقسيم الدائرة.",
+      "clues": [],
+      "explanation": "إسهامات الرياضيين والفلكيين أساسية لبناء الأنماط الهندسية.",
+      "sources": [
+        "https://www.metmuseum.org/essays/geometric-patterns-in-islamic-art"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "الطب"
+        },
+        {
+          "id": "B",
+          "text": "البلاغة"
+        },
+        {
+          "id": "C",
+          "text": "الرياضيات"
+        },
+        {
+          "id": "D",
+          "text": "علم النبات"
+        },
+        {
+          "id": "E",
+          "text": "علم المعادن"
+        },
+        {
+          "id": "F",
+          "text": "فقه اللغة"
+        }
+      ],
+      "correctOptionId": "C",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "islamic_history-easy-0210",
+      "categoryId": "islamic_history",
+      "difficulty": "easy",
+      "text": "ما الكتاب الذي كان انتقال نصه بالعربية سبباً رئيسياً في المكانة العالية للخط في الفن الإسلامي؟",
+      "answer": "القرآن الكريم",
+      "acceptedAnswers": [],
+      "hint": "كتابة النص المقدس محور مهم في هذا الفن.",
+      "clues": [],
+      "explanation": "لغة القرآن العربية أسهمت في مركزية الخط بالفن الإسلامي.",
+      "sources": [
+        "https://www.metmuseum.org/essays/calligraphy-in-islamic-art"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "صحيح البخاري"
+        },
+        {
+          "id": "B",
+          "text": "الموطأ"
+        },
+        {
+          "id": "C",
+          "text": "نهج البلاغة"
+        },
+        {
+          "id": "D",
+          "text": "القرآن الكريم"
+        },
+        {
+          "id": "E",
+          "text": "جامع التواريخ"
+        },
+        {
+          "id": "F",
+          "text": "الشاهنامة"
+        }
+      ],
+      "correctOptionId": "D",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "islamic_history-easy-0211",
+      "categoryId": "islamic_history",
+      "difficulty": "easy",
+      "text": "ما الذي كان يدل عليه منح ثوب طراز يحمل اسم الخليفة إلى أحد رجال البلاط؟",
+      "answer": "التكريم وإظهار الولاء للخليفة",
+      "acceptedAnswers": [],
+      "hint": "يجمع الثوب وظيفة اجتماعية ورسالة سياسية.",
+      "clues": [],
+      "explanation": "الخلعة تشريف، والكتابة تؤكد الارتباط بالسلطة المانحة.",
+      "sources": [
+        "https://www.metmuseum.org/essays/tiraz-inscribed-textiles-from-the-early-islamic-period"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "الإعفاء الدائم من الضرائب"
+        },
+        {
+          "id": "B",
+          "text": "وراثة الخلافة تلقائيا"
+        },
+        {
+          "id": "C",
+          "text": "التنازل عن المنصب العسكري"
+        },
+        {
+          "id": "D",
+          "text": "إلغاء البيعة للخليفة"
+        },
+        {
+          "id": "E",
+          "text": "التكريم وإظهار الولاء للخليفة"
+        },
+        {
+          "id": "F",
+          "text": "الاستقلال المالي عن الدولة"
+        }
+      ],
+      "correctOptionId": "E",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "islamic_history-easy-0212",
+      "categoryId": "islamic_history",
+      "difficulty": "easy",
+      "text": "أي مبدأ عمراني يفسر تكدس بيوت شبام التاريخية في أبنية عالية متعددة الطوابق؟",
+      "answer": "البناء الرأسي",
+      "acceptedAnswers": [],
+      "hint": "توزيع السكان يتم باتجاه الارتفاع أكثر من الامتداد.",
+      "clues": [],
+      "explanation": "شبام نموذج تاريخي بارز للتخطيط القائم على البناء الرأسي.",
+      "sources": [
+        "https://whc.unesco.org/en/list/192/"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "التوسع الشعاعي"
+        },
+        {
+          "id": "B",
+          "text": "التخطيط الدائري"
+        },
+        {
+          "id": "C",
+          "text": "الامتداد الأفقي"
+        },
+        {
+          "id": "D",
+          "text": "البناء المتناثر"
+        },
+        {
+          "id": "E",
+          "text": "التخطيط المحوري"
+        },
+        {
+          "id": "F",
+          "text": "البناء الرأسي"
+        }
+      ],
+      "correctOptionId": "F",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "islamic_history-easy-0213",
+      "categoryId": "islamic_history",
+      "difficulty": "easy",
+      "text": "أي خامة من البيئة البحرية دخلت في تقاليد بناء بيوت جدة التاريخية؟",
+      "answer": "الحجر المرجاني",
+      "acceptedAnswers": [],
+      "hint": "مصدرها التكوينات القريبة من ساحل البحر الأحمر.",
+      "clues": [],
+      "explanation": "عمارة جدة جمعت الحجر المرجاني الساحلي بخبرات التجارة.",
+      "sources": [
+        "https://whc.unesco.org/en/list/1361/"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "الحجر المرجاني"
+        },
+        {
+          "id": "B",
+          "text": "الحجر البركاني"
+        },
+        {
+          "id": "C",
+          "text": "الحجر الرملي"
+        },
+        {
+          "id": "D",
+          "text": "الحجر الجيري الصحراوي"
+        },
+        {
+          "id": "E",
+          "text": "الحجر الجرانيتي"
+        },
+        {
+          "id": "F",
+          "text": "الحجر السماقي"
+        }
+      ],
+      "correctOptionId": "A",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "islamic_history-easy-0214",
+      "categoryId": "islamic_history",
+      "difficulty": "easy",
+      "text": "لماذا بنيت منازل جنّة التاريخية في مالي فوق تلال صغيرة؟",
+      "answer": "للحماية من الفيضانات الموسمية",
+      "acceptedAnswers": [],
+      "hint": "يتصل ارتفاع أرض المنزل بمشكلة تتكرر عند ارتفاع المياه.",
+      "clues": [],
+      "explanation": "التلال الصغيرة المعروفة بتوغير تحمي البيوت من الفيضانات.",
+      "sources": [
+        "https://whc.unesco.org/en/list/116/"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "للحماية من العواصف الرملية"
+        },
+        {
+          "id": "B",
+          "text": "للحماية من الفيضانات الموسمية"
+        },
+        {
+          "id": "C",
+          "text": "لخفض حرارة الغرف"
+        },
+        {
+          "id": "D",
+          "text": "لتسهيل استخراج المعادن"
+        },
+        {
+          "id": "E",
+          "text": "لمنع توسع الأسواق"
+        },
+        {
+          "id": "F",
+          "text": "لمراقبة القوافل التجارية"
+        }
+      ],
+      "correctOptionId": "B",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "islamic_history-easy-0215",
+      "categoryId": "islamic_history",
+      "difficulty": "easy",
+      "text": "أي خطر بيئي تذكره اليونسكو بصفته مهدداً لمساجد تمبكتو التاريخية؟",
+      "answer": "التصحر وتقدم الرمال",
+      "acceptedAnswers": [],
+      "hint": "الخطر يأتي من البيئة الصحراوية المحيطة.",
+      "clues": [],
+      "explanation": "الموقع يواجه التصحر وتقدم الرمال رغم أعمال الترميم.",
+      "sources": [
+        "https://whc.unesco.org/en/list/119/"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "ارتفاع أمواج البحر"
+        },
+        {
+          "id": "B",
+          "text": "ذوبان الجليد"
+        },
+        {
+          "id": "C",
+          "text": "التصحر وتقدم الرمال"
+        },
+        {
+          "id": "D",
+          "text": "حمم البراكين"
+        },
+        {
+          "id": "E",
+          "text": "انهيار الشواطئ"
+        },
+        {
+          "id": "F",
+          "text": "الأعاصير المدارية"
+        }
+      ],
+      "correctOptionId": "C",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "islamic_history-easy-0216",
+      "categoryId": "islamic_history",
+      "difficulty": "easy",
+      "text": "مم صنعت الأسوار المرتفعة التي تحمي المدينة الداخلية التاريخية في خيوة؟",
+      "answer": "الآجر",
+      "acceptedAnswers": [],
+      "hint": "وحدات بناء تصنع من الطين ثم تشوى.",
+      "clues": [],
+      "explanation": "تحمي إيتشان كالا أسوار آجرية يصل ارتفاعها إلى نحو عشرة أمتار.",
+      "sources": [
+        "https://whc.unesco.org/en/list/543/"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "الحجر الرملي"
+        },
+        {
+          "id": "B",
+          "text": "المرمر"
+        },
+        {
+          "id": "C",
+          "text": "الحجر البركاني"
+        },
+        {
+          "id": "D",
+          "text": "الآجر"
+        },
+        {
+          "id": "E",
+          "text": "الخشب"
+        },
+        {
+          "id": "F",
+          "text": "الحجر الجرانيتي"
+        }
+      ],
+      "correctOptionId": "D",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "islamic_history-easy-0217",
+      "categoryId": "islamic_history",
+      "difficulty": "easy",
+      "text": "أي نوع من الطلاء يقوم عليه خزف البريق المعدني العباسي المذكور في سامراء؟",
+      "answer": "تزجيج أبيض",
+      "acceptedAnswers": [],
+      "hint": "الأرضية الفاتحة تظهر أثر اللون اللامع.",
+      "clues": [],
+      "explanation": "وصفت مقالة المتحف البريق فوق تزجيج أبيض في سامراء.",
+      "sources": [
+        "https://www.metmuseum.org/essays/the-art-of-the-abbasid-period-750-1258"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "تزجيج أسود"
+        },
+        {
+          "id": "B",
+          "text": "تزجيج أحمر"
+        },
+        {
+          "id": "C",
+          "text": "تزجيج أخضر"
+        },
+        {
+          "id": "D",
+          "text": "تزجيج بنفسجي"
+        },
+        {
+          "id": "E",
+          "text": "تزجيج أبيض"
+        },
+        {
+          "id": "F",
+          "text": "تزجيج بني"
+        }
+      ],
+      "correctOptionId": "E",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "islamic_history-easy-0218",
+      "categoryId": "islamic_history",
+      "difficulty": "easy",
+      "text": "هل اقتصرت النقوش الكتابية في الفن الإسلامي على الصفحات الورقية؟",
+      "answer": "لا، ظهرت على العمائر والتحف والمنسوجات أيضا",
+      "acceptedAnswers": [],
+      "hint": "تأمل اتساع المواد التي يمكن نقش الحروف أو نسجها عليها.",
+      "clues": [],
+      "explanation": "الخط استخدم على مبان وأشياء متنوعة، إضافة للمخطوطات.",
+      "sources": [
+        "https://www.metmuseum.org/essays/calligraphy-in-islamic-art"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "نعم، اقتصرت على الورق"
+        },
+        {
+          "id": "B",
+          "text": "نعم، اقتصرت على الرق"
+        },
+        {
+          "id": "C",
+          "text": "لا، لكنها اقتصرت على المساجد"
+        },
+        {
+          "id": "D",
+          "text": "لا، لكنها اقتصرت على العملات"
+        },
+        {
+          "id": "E",
+          "text": "لا، لكنها اقتصرت على شواهد القبور"
+        },
+        {
+          "id": "F",
+          "text": "لا، ظهرت على العمائر والتحف والمنسوجات أيضا"
+        }
+      ],
+      "correctOptionId": "F",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "islamic_history-easy-0219",
+      "categoryId": "islamic_history",
+      "difficulty": "easy",
+      "text": "أي عنصر نباتي زخرفي ارتبط غالباً بالإشارة إلى الجنة في الفن الإسلامي؟",
+      "answer": "الحديقة",
+      "acceptedAnswers": [],
+      "hint": "الرمز هنا يشمل مساحة مزروعة كاملة.",
+      "clues": [],
+      "explanation": "الحديقة استثناء بارز من عدم لزوم معنى رمزي للزخارف النباتية.",
+      "sources": [
+        "https://www.metmuseum.org/essays/vegetal-patterns-in-islamic-art"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "الحديقة"
+        },
+        {
+          "id": "B",
+          "text": "ورقة منفردة"
+        },
+        {
+          "id": "C",
+          "text": "غصن مجرد"
+        },
+        {
+          "id": "D",
+          "text": "زهرة منفردة"
+        },
+        {
+          "id": "E",
+          "text": "ساق ملتفة"
+        },
+        {
+          "id": "F",
+          "text": "جذر متشعب"
+        }
+      ],
+      "correctOptionId": "A",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "islamic_history-easy-0220",
+      "categoryId": "islamic_history",
+      "difficulty": "easy",
+      "text": "ما أداة التأريخ التي توفرها أشرطة الطراز إذا ذكرت سنة الإنتاج؟",
+      "answer": "تأريخ المنسوجة من نقشها",
+      "acceptedAnswers": [],
+      "hint": "المعلومة جزء من كتابة مثبتة على القطعة.",
+      "clues": [],
+      "explanation": "أسماء الحكام والتواريخ وأماكن الإنتاج تعين الباحث في التأريخ.",
+      "sources": [
+        "https://www.metmuseum.org/essays/tiraz-inscribed-textiles-from-the-early-islamic-period"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "تأريخها من وزنها وحده"
+        },
+        {
+          "id": "B",
+          "text": "تأريخ المنسوجة من نقشها"
+        },
+        {
+          "id": "C",
+          "text": "تأريخها من لونها وحده"
+        },
+        {
+          "id": "D",
+          "text": "تأريخها من مقاسها وحده"
+        },
+        {
+          "id": "E",
+          "text": "تأريخها من رائحتها"
+        },
+        {
+          "id": "F",
+          "text": "تأريخها من اتجاه نسجها وحده"
+        }
+      ],
+      "correctOptionId": "B",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "islamic_history-easy-0221",
+      "categoryId": "islamic_history",
+      "difficulty": "easy",
+      "text": "أي صناعة أوروبية يذكر متحف المتروبوليتان تأثرها بزجاج المماليك المزخرف؟",
+      "answer": "صناعة الزجاج في البندقية",
+      "acceptedAnswers": [],
+      "hint": "مدينة اشتهرت بأعمال الزجاج على البحر الأدرياتيكي.",
+      "clues": [],
+      "explanation": "الزجاج المملوكي أثر في صناعة الزجاج البندقية.",
+      "sources": [
+        "https://www.metmuseum.org/essays/the-art-of-the-mamluk-period-1250-1517"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "صناعة الزجاج في قرطبة"
+        },
+        {
+          "id": "B",
+          "text": "صناعة الزجاج في ليون"
+        },
+        {
+          "id": "C",
+          "text": "صناعة الزجاج في البندقية"
+        },
+        {
+          "id": "D",
+          "text": "صناعة الزجاج في لشبونة"
+        },
+        {
+          "id": "E",
+          "text": "صناعة الزجاج في براغ"
+        },
+        {
+          "id": "F",
+          "text": "صناعة الزجاج في نابولي"
+        }
+      ],
+      "correctOptionId": "C",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "islamic_history-easy-0222",
+      "categoryId": "islamic_history",
+      "difficulty": "easy",
+      "text": "ما الهيئة التي تشبهها المآذن العثمانية الرشيقة في وصف نمط القرن السادس عشر؟",
+      "answer": "قلم الرصاص",
+      "acceptedAnswers": [],
+      "hint": "الوصف يبرز نحافتها ونهايتها المدببة.",
+      "clues": [],
+      "explanation": "المقالة تصف المآذن العثمانية بأنها قلمية الشكل.",
+      "sources": [
+        "https://www.metmuseum.org/essays/the-art-of-the-ottomans-before-1600"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "الجذع المربع"
+        },
+        {
+          "id": "B",
+          "text": "القبة الكروية"
+        },
+        {
+          "id": "C",
+          "text": "الحلزون المفتوح"
+        },
+        {
+          "id": "D",
+          "text": "قلم الرصاص"
+        },
+        {
+          "id": "E",
+          "text": "المخروط المتدرج العريض"
+        },
+        {
+          "id": "F",
+          "text": "المكعب المصمت"
+        }
+      ],
+      "correctOptionId": "D",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "islamic_history-easy-0223",
+      "categoryId": "islamic_history",
+      "difficulty": "easy",
+      "text": "أي شكل هندسي غلب على القباب في العمارة العثمانية الكلاسيكية التي انتشرت عبر أقاليم الدولة؟",
+      "answer": "نصف الكرة",
+      "acceptedAnswers": [],
+      "hint": "قوسها يبرز جزءاً دائرياً منتظماً.",
+      "clues": [],
+      "explanation": "من خصائص النمط العثماني القباب النصف كروية.",
+      "sources": [
+        "https://www.metmuseum.org/essays/the-art-of-the-ottomans-before-1600"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "نصف المخروط"
+        },
+        {
+          "id": "B",
+          "text": "الهرم الرباعي"
+        },
+        {
+          "id": "C",
+          "text": "المخروط الكامل"
+        },
+        {
+          "id": "D",
+          "text": "الهرم المدرج"
+        },
+        {
+          "id": "E",
+          "text": "نصف الكرة"
+        },
+        {
+          "id": "F",
+          "text": "القبة البصلية الطويلة"
+        }
+      ],
+      "correctOptionId": "E",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "islamic_history-easy-0224",
+      "categoryId": "islamic_history",
+      "difficulty": "easy",
+      "text": "لماذا يمكن تمديد كثير من الأنماط الهندسية الإسلامية على مساحة أكبر دون تغيير وحدة تصميمها؟",
+      "answer": "لأن وحداتها قابلة للتكرار والتشابك",
+      "acceptedAnswers": [],
+      "hint": "ابدأ من الوحدة الصغيرة التي يعاد استخدامها.",
+      "clues": [],
+      "explanation": "التكرار والتشابك يتيحان نمو النمط واستيعاب مساحة جديدة.",
+      "sources": [
+        "https://www.metmuseum.org/essays/geometric-patterns-in-islamic-art"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "لأن كل وحدة تعزل عن الأخرى"
+        },
+        {
+          "id": "B",
+          "text": "لأنها تحظر التناظر"
+        },
+        {
+          "id": "C",
+          "text": "لأنها لا تستعمل وحدات متكررة"
+        },
+        {
+          "id": "D",
+          "text": "لأنها تعتمد صورة واحدة ثابتة"
+        },
+        {
+          "id": "E",
+          "text": "لأنها لا تقبل مزج أشكال مختلفة"
+        },
+        {
+          "id": "F",
+          "text": "لأن وحداتها قابلة للتكرار والتشابك"
+        }
+      ],
+      "correctOptionId": "F",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "islamic_history-easy-0225",
+      "categoryId": "islamic_history",
+      "difficulty": "easy",
+      "text": "لماذا لا يكفي وجود اسم الخليفة على قطعة طراز للجزم أنها صنعت في مصنعه الخاص؟",
+      "answer": "لأن المصانع العامة قد تنسج اسمه أيضا",
+      "acceptedAnswers": [],
+      "hint": "توجد فئتان من المصانع، وقد تتشارك بعض النقوش.",
+      "clues": [],
+      "explanation": "الطراز الخاص والعام قد يحملان اسم الخليفة ذاته.",
+      "sources": [
+        "https://www.metmuseum.org/essays/tiraz-inscribed-textiles-from-the-early-islamic-period"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "لأن المصانع العامة قد تنسج اسمه أيضا"
+        },
+        {
+          "id": "B",
+          "text": "لأن أسماء الخلفاء لا تنسج قط"
+        },
+        {
+          "id": "C",
+          "text": "لأن كل المصانع خاصة حصرا"
+        },
+        {
+          "id": "D",
+          "text": "لأن النقش يذكر التاجر فقط"
+        },
+        {
+          "id": "E",
+          "text": "لأن الطراز يكتب بعد القرن العشرين"
+        },
+        {
+          "id": "F",
+          "text": "لأن الاسم يدل على بلد مختلف دائما"
+        }
+      ],
+      "correctOptionId": "A",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "islamic_history-medium-0201",
+      "categoryId": "islamic_history",
+      "difficulty": "medium",
+      "text": "ما شكل مئذنة جامع سامراء التي جعلتها مختلفة عن المآذن ذات السلالم الداخلية المستقيمة؟",
+      "answer": "شكل حلزوني",
+      "acceptedAnswers": [],
+      "hint": "مسار الصعود يلتف حول جسم المئذنة.",
+      "clues": [],
+      "explanation": "الجامع العباسي مشهور بمئذنته الملوية ذات الشكل الحلزوني.",
+      "sources": [
+        "https://whc.unesco.org/en/list/276/"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "شكل مثمن مستقيم"
+        },
+        {
+          "id": "B",
+          "text": "شكل حلزوني"
+        },
+        {
+          "id": "C",
+          "text": "شكل مربع مصمت"
+        },
+        {
+          "id": "D",
+          "text": "شكل هرمي مدرج"
+        },
+        {
+          "id": "E",
+          "text": "شكل أسطواني أملس"
+        },
+        {
+          "id": "F",
+          "text": "شكل برجي مزدوج"
+        }
+      ],
+      "correctOptionId": "B",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "islamic_history-medium-0202",
+      "categoryId": "islamic_history",
+      "difficulty": "medium",
+      "text": "على أي نهر امتد الموقع الأثري للعاصمة العباسية سامراء؟",
+      "answer": "نهر دجلة",
+      "acceptedAnswers": [],
+      "hint": "هو أحد نهري العراق الرئيسيين.",
+      "clues": [],
+      "explanation": "يقع موقع سامراء الأثري على جانبي دجلة شمال بغداد.",
+      "sources": [
+        "https://whc.unesco.org/en/list/276/"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "نهر الفرات"
+        },
+        {
+          "id": "B",
+          "text": "نهر ديالى"
+        },
+        {
+          "id": "C",
+          "text": "نهر دجلة"
+        },
+        {
+          "id": "D",
+          "text": "نهر الزاب الكبير"
+        },
+        {
+          "id": "E",
+          "text": "نهر الخابور"
+        },
+        {
+          "id": "F",
+          "text": "نهر العاصي"
+        }
+      ],
+      "correctOptionId": "C",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "islamic_history-medium-0203",
+      "categoryId": "islamic_history",
+      "difficulty": "medium",
+      "text": "ما الدوران اللذان أسهما معاً في ازدهار جدة التاريخية وتنوع ثقافاتها؟",
+      "answer": "التجارة البحرية واستقبال الحجاج",
+      "acceptedAnswers": [],
+      "hint": "كانت المدينة تستقبل البضائع والأشخاص من البحر.",
+      "clues": [],
+      "explanation": "تجارة المحيط الهندي وبوابة الحج البحرية أساسا ازدهار جدة.",
+      "sources": [
+        "https://whc.unesco.org/en/list/1361/"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "الزراعة الجبلية واستقبال الحجاج"
+        },
+        {
+          "id": "B",
+          "text": "التجارة البرية واستخراج المعادن"
+        },
+        {
+          "id": "C",
+          "text": "صيد اللؤلؤ وبناء القلاع"
+        },
+        {
+          "id": "D",
+          "text": "التجارة البحرية واستقبال الحجاج"
+        },
+        {
+          "id": "E",
+          "text": "صناعة السلاح وحراسة القوافل"
+        },
+        {
+          "id": "F",
+          "text": "الرعي الصحراوي والتجارة النهرية"
+        }
+      ],
+      "correctOptionId": "D",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "islamic_history-medium-0204",
+      "categoryId": "islamic_history",
+      "difficulty": "medium",
+      "text": "ما الاسم الذي يطلق على المدينة الداخلية المسورة في واحة خيوة التاريخية؟",
+      "answer": "إيتشان كالا",
+      "acceptedAnswers": [],
+      "hint": "الاسم يخص الحيز الداخلي لا كامل الواحة.",
+      "clues": [],
+      "explanation": "إيتشان كالا هي المدينة الداخلية المحمية بأسوار خيوة.",
+      "sources": [
+        "https://whc.unesco.org/en/list/543/"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "ديشان كالا"
+        },
+        {
+          "id": "B",
+          "text": "قلعة أرك"
+        },
+        {
+          "id": "C",
+          "text": "غور أمير"
+        },
+        {
+          "id": "D",
+          "text": "شاه زنده"
+        },
+        {
+          "id": "E",
+          "text": "إيتشان كالا"
+        },
+        {
+          "id": "F",
+          "text": "ريجستان"
+        }
+      ],
+      "correctOptionId": "E",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "islamic_history-medium-0205",
+      "categoryId": "islamic_history",
+      "difficulty": "medium",
+      "text": "إلى أي بلد كانت القوافل تتجه بعد استراحتها في خيوة واجتياز الصحراء وفق وصف اليونسكو؟",
+      "answer": "إيران",
+      "acceptedAnswers": [],
+      "hint": "الوجهة تقع إلى الجنوب الغربي من منطقة خوارزم.",
+      "clues": [],
+      "explanation": "كانت خيوة آخر محطة قوافل قبل الصحراء باتجاه إيران.",
+      "sources": [
+        "https://whc.unesco.org/en/list/543/"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "أفغانستان"
+        },
+        {
+          "id": "B",
+          "text": "الهند"
+        },
+        {
+          "id": "C",
+          "text": "الصين"
+        },
+        {
+          "id": "D",
+          "text": "العراق"
+        },
+        {
+          "id": "E",
+          "text": "الأناضول"
+        },
+        {
+          "id": "F",
+          "text": "إيران"
+        }
+      ],
+      "correctOptionId": "F",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "islamic_history-medium-0206",
+      "categoryId": "islamic_history",
+      "difficulty": "medium",
+      "text": "أي نمط حضري يجعل وسط بخارى مثالاً مهماً في تاريخ مدن آسيا الوسطى الإسلامية؟",
+      "answer": "مدينة من العصور الوسطى بقي نسيجها العمراني متماسكا",
+      "acceptedAnswers": [],
+      "hint": "القيمة تتعلق بتكامل الشوارع والمباني لا بمبنى منفرد.",
+      "clues": [],
+      "explanation": "تؤكد اليونسكو سلامة النسيج الحضري الوسيط في بخارى.",
+      "sources": [
+        "https://whc.unesco.org/en/list/602/"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "مدينة من العصور الوسطى بقي نسيجها العمراني متماسكا"
+        },
+        {
+          "id": "B",
+          "text": "مدينة صناعية بنيت في القرن العشرين"
+        },
+        {
+          "id": "C",
+          "text": "مدينة صحراوية متنقلة بلا عمارة"
+        },
+        {
+          "id": "D",
+          "text": "مدينة مخططة حصرا على شبكة رومانية"
+        },
+        {
+          "id": "E",
+          "text": "مدينة حديثة محاطة بآثار منفصلة"
+        },
+        {
+          "id": "F",
+          "text": "مدينة ساحلية قائمة على جزر"
+        }
+      ],
+      "correctOptionId": "A",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "islamic_history-medium-0207",
+      "categoryId": "islamic_history",
+      "difficulty": "medium",
+      "text": "في أي قرن ميلادي يؤرخ وصف اليونسكو لضريح إسماعيل الساماني في بخارى؟",
+      "answer": "القرن العاشر الميلادي",
+      "acceptedAnswers": [],
+      "hint": "يقع بعد القرن التاسع وقبل الحادي عشر.",
+      "clues": [],
+      "explanation": "تصف الصفحة الإنجليزية الضريح بتحفة من القرن العاشر.",
+      "sources": [
+        "https://whc.unesco.org/en/list/602/"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "القرن الثامن الميلادي"
+        },
+        {
+          "id": "B",
+          "text": "القرن العاشر الميلادي"
+        },
+        {
+          "id": "C",
+          "text": "القرن التاسع الميلادي"
+        },
+        {
+          "id": "D",
+          "text": "القرن الحادي عشر الميلادي"
+        },
+        {
+          "id": "E",
+          "text": "القرن الثاني عشر الميلادي"
+        },
+        {
+          "id": "F",
+          "text": "القرن الثالث عشر الميلادي"
+        }
+      ],
+      "correctOptionId": "B",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "islamic_history-medium-0208",
+      "categoryId": "islamic_history",
+      "difficulty": "medium",
+      "text": "ما الساحة التاريخية في سمرقند التي اشتهرت بمجموعة مدارسها الإسلامية؟",
+      "answer": "ريجستان",
+      "acceptedAnswers": [],
+      "hint": "اسمها يشير إلى أحد أشهر مجمعات العمارة التعليمية في آسيا الوسطى.",
+      "clues": [],
+      "explanation": "تضم معالم سمرقند مدارس ريجستان ومجمعها العمراني.",
+      "sources": [
+        "https://whc.unesco.org/en/list/603/"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "شاه زنده"
+        },
+        {
+          "id": "B",
+          "text": "غور أمير"
+        },
+        {
+          "id": "C",
+          "text": "ريجستان"
+        },
+        {
+          "id": "D",
+          "text": "باب تاش"
+        },
+        {
+          "id": "E",
+          "text": "قلعة أرك"
+        },
+        {
+          "id": "F",
+          "text": "إيتشان كالا"
+        }
+      ],
+      "correctOptionId": "C",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "islamic_history-medium-0209",
+      "categoryId": "islamic_history",
+      "difficulty": "medium",
+      "text": "أي معلم في سمرقند ارتبط بالمشاهدة العلمية للسماء في العصر التيموري؟",
+      "answer": "مرصد أولوغ بك",
+      "acceptedAnswers": [],
+      "hint": "الوظيفة تتعلق بقياس مواقع الأجرام لا بالتدريس الفقهي وحده.",
+      "clues": [],
+      "explanation": "مرصد أولوغ بك أحد معالم سمرقند المذكورة لدى اليونسكو.",
+      "sources": [
+        "https://whc.unesco.org/en/list/603/"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "مدرسة شيردار"
+        },
+        {
+          "id": "B",
+          "text": "مسجد بيبي خانم"
+        },
+        {
+          "id": "C",
+          "text": "مجمع شاه زنده"
+        },
+        {
+          "id": "D",
+          "text": "مرصد أولوغ بك"
+        },
+        {
+          "id": "E",
+          "text": "ضريح غور أمير"
+        },
+        {
+          "id": "F",
+          "text": "مدرسة تيلا كاري"
+        }
+      ],
+      "correctOptionId": "D",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "islamic_history-medium-0210",
+      "categoryId": "islamic_history",
+      "difficulty": "medium",
+      "text": "ما الاسم القديم لسمرقند الوارد في وصف اليونسكو لتأسيسها قبل العصر الإسلامي؟",
+      "answer": "أفراسياب",
+      "acceptedAnswers": [],
+      "hint": "الاسم يخص المدينة الأثرية السابقة للازدهار التيموري.",
+      "clues": [],
+      "explanation": "عرفت سمرقند القديمة باسم أفراسياب.",
+      "sources": [
+        "https://whc.unesco.org/en/list/603/"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "سغناق"
+        },
+        {
+          "id": "B",
+          "text": "بلخ"
+        },
+        {
+          "id": "C",
+          "text": "مرو"
+        },
+        {
+          "id": "D",
+          "text": "نسا"
+        },
+        {
+          "id": "E",
+          "text": "أفراسياب"
+        },
+        {
+          "id": "F",
+          "text": "أورغنش"
+        }
+      ],
+      "correctOptionId": "E",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "islamic_history-medium-0211",
+      "categoryId": "islamic_history",
+      "difficulty": "medium",
+      "text": "ما نوعا الحجر اللذان يذكرهما وصف اليونسكو لأعمدة جامع القيروان؟",
+      "answer": "الرخام والحجر السماقي",
+      "acceptedAnswers": [],
+      "hint": "أحدهما رخام، والثاني صخر معروف بلونه وبنيته.",
+      "clues": [],
+      "explanation": "تذكر الصفحة أعمدة الرخام والبرفير، أي الحجر السماقي.",
+      "sources": [
+        "https://whc.unesco.org/en/list/499/"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "الرخام والحجر الرملي"
+        },
+        {
+          "id": "B",
+          "text": "الرخام والجرانيت"
+        },
+        {
+          "id": "C",
+          "text": "المرمر والحجر الجيري"
+        },
+        {
+          "id": "D",
+          "text": "الجرانيت والحجر الرملي"
+        },
+        {
+          "id": "E",
+          "text": "الرخام والحجر البركاني"
+        },
+        {
+          "id": "F",
+          "text": "الرخام والحجر السماقي"
+        }
+      ],
+      "correctOptionId": "F",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "islamic_history-medium-0212",
+      "categoryId": "islamic_history",
+      "difficulty": "medium",
+      "text": "إلى أي قرن ميلادي يعود مسجد الأبواب الثلاثة بالقيروان في وصف اليونسكو؟",
+      "answer": "القرن التاسع الميلادي",
+      "acceptedAnswers": [],
+      "hint": "ينتمي إلى مرحلة ازدهار المدينة تحت الأغالبة.",
+      "clues": [],
+      "explanation": "تؤرخ اليونسكو مسجد الأبواب الثلاثة بالقرن التاسع.",
+      "sources": [
+        "https://whc.unesco.org/en/list/499/"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "القرن التاسع الميلادي"
+        },
+        {
+          "id": "B",
+          "text": "القرن السابع الميلادي"
+        },
+        {
+          "id": "C",
+          "text": "القرن الثامن الميلادي"
+        },
+        {
+          "id": "D",
+          "text": "القرن العاشر الميلادي"
+        },
+        {
+          "id": "E",
+          "text": "القرن الحادي عشر الميلادي"
+        },
+        {
+          "id": "F",
+          "text": "القرن الثاني عشر الميلادي"
+        }
+      ],
+      "correctOptionId": "A",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "islamic_history-medium-0213",
+      "categoryId": "islamic_history",
+      "difficulty": "medium",
+      "text": "أي فئة اجتماعية شيدت بيوت جدة البرجية البارزة في أواخر القرن التاسع عشر؟",
+      "answer": "نخبة التجار",
+      "acceptedAnswers": [],
+      "hint": "مصدر الثراء متصل بدور الميناء وتبادل البضائع.",
+      "clues": [],
+      "explanation": "تذكر اليونسكو بيوتاً برجية بنتها النخبة التجارية.",
+      "sources": [
+        "https://whc.unesco.org/en/list/1361/"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "نخبة المزارعين"
+        },
+        {
+          "id": "B",
+          "text": "نخبة التجار"
+        },
+        {
+          "id": "C",
+          "text": "قادة الحاميات"
+        },
+        {
+          "id": "D",
+          "text": "كبار المنقبين"
+        },
+        {
+          "id": "E",
+          "text": "موظفو البريد"
+        },
+        {
+          "id": "F",
+          "text": "قبائل الرعاة"
+        }
+      ],
+      "correctOptionId": "B",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "islamic_history-medium-0214",
+      "categoryId": "islamic_history",
+      "difficulty": "medium",
+      "text": "ما المؤسسة التي منحت زبيد أهمية علمية طويلة في العالم الإسلامي؟",
+      "answer": "جامعتها الإسلامية",
+      "acceptedAnswers": [],
+      "hint": "الدور المرتبط بها هو التعليم وانتقال المعرفة.",
+      "clues": [],
+      "explanation": "تربط اليونسكو مكانة زبيد التاريخية بجامعتها الإسلامية.",
+      "sources": [
+        "https://whc.unesco.org/en/list/611/"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "دار ضربها"
+        },
+        {
+          "id": "B",
+          "text": "ترسانتها البحرية"
+        },
+        {
+          "id": "C",
+          "text": "جامعتها الإسلامية"
+        },
+        {
+          "id": "D",
+          "text": "مكتب بريدها"
+        },
+        {
+          "id": "E",
+          "text": "دار تجارتها"
+        },
+        {
+          "id": "F",
+          "text": "حصنها الحدودي"
+        }
+      ],
+      "correctOptionId": "C",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "islamic_history-medium-0215",
+      "categoryId": "islamic_history",
+      "difficulty": "medium",
+      "text": "كيف تختلف البيئة الطبيعية لصنعاء القديمة عن بيئة مدينة ميناء ساحلي؟",
+      "answer": "تقع في واد جبلي مرتفع",
+      "acceptedAnswers": [],
+      "hint": "الموقع الداخلي يرتبط بارتفاع كبير عن سطح البحر.",
+      "clues": [],
+      "explanation": "تقع صنعاء في واد جبلي على ارتفاع نحو 2200 متر.",
+      "sources": [
+        "https://whc.unesco.org/en/list/385/"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "تقع على دلتا نهر منخفضة"
+        },
+        {
+          "id": "B",
+          "text": "تقع فوق جزيرة مرجانية"
+        },
+        {
+          "id": "C",
+          "text": "تقع على سهل ساحلي"
+        },
+        {
+          "id": "D",
+          "text": "تقع في واد جبلي مرتفع"
+        },
+        {
+          "id": "E",
+          "text": "تقع في سبخة تحت مستوى البحر"
+        },
+        {
+          "id": "F",
+          "text": "تقع على مصب نهر"
+        }
+      ],
+      "correctOptionId": "D",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "islamic_history-medium-0216",
+      "categoryId": "islamic_history",
+      "difficulty": "medium",
+      "text": "ما اللقب الذي أطلق على شبام التاريخية بسبب بيوتها البرجية؟",
+      "answer": "مانهاتن الصحراء",
+      "acceptedAnswers": [],
+      "hint": "يشبه عمرانها مدينة معروفة بأبنيتها الشاهقة.",
+      "clues": [],
+      "explanation": "ارتفاع بيوت شبام أكسبها هذا اللقب المتداول.",
+      "sources": [
+        "https://whc.unesco.org/en/list/192/"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "فينيسيا الصحراء"
+        },
+        {
+          "id": "B",
+          "text": "أثينا الصحراء"
+        },
+        {
+          "id": "C",
+          "text": "قرطبة الصحراء"
+        },
+        {
+          "id": "D",
+          "text": "باريس الصحراء"
+        },
+        {
+          "id": "E",
+          "text": "مانهاتن الصحراء"
+        },
+        {
+          "id": "F",
+          "text": "روما الصحراء"
+        }
+      ],
+      "correctOptionId": "E",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "islamic_history-medium-0217",
+      "categoryId": "islamic_history",
+      "difficulty": "medium",
+      "text": "أي مجموعة تضم المساجد الثلاثة التي تذكرها اليونسكو شاهداً على عصر تمبكتو الذهبي؟",
+      "answer": "جينغارايبير وسانكوري وسيدي يحيى",
+      "acceptedAnswers": [],
+      "hint": "تجمع مسجد الجامعة باسم أحد أحياء المدينة ومسجداً باسم ولي.",
+      "clues": [],
+      "explanation": "هذه الأسماء الثلاثة مذكورة في وصف تراث تمبكتو.",
+      "sources": [
+        "https://whc.unesco.org/en/list/119/"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "جينغارايبير وسانكوري وسيدي بومدين"
+        },
+        {
+          "id": "B",
+          "text": "جينغارايبير وسيدي يحيى ومسجد جنة"
+        },
+        {
+          "id": "C",
+          "text": "سانكوري وسيدي يحيى ومسجد أغاديس"
+        },
+        {
+          "id": "D",
+          "text": "جينغارايبير وسانكوري ومسجد ديولاسو"
+        },
+        {
+          "id": "E",
+          "text": "سانكوري وسيدي يحيى ومسجد كاولاك"
+        },
+        {
+          "id": "F",
+          "text": "جينغارايبير وسانكوري وسيدي يحيى"
+        }
+      ],
+      "correctOptionId": "F",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "islamic_history-medium-0218",
+      "categoryId": "islamic_history",
+      "difficulty": "medium",
+      "text": "أي سلعة أساسية ربطت جنّة التاريخية بشبكة التجارة عبر الصحراء؟",
+      "answer": "الذهب",
+      "acceptedAnswers": [],
+      "hint": "سلعة ثمينة ربطت أسواق غرب إفريقيا بشمالها.",
+      "clues": [],
+      "explanation": "كانت جنّة حلقة مهمة في تجارة الذهب عبر الصحراء.",
+      "sources": [
+        "https://whc.unesco.org/en/list/116/"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "الذهب"
+        },
+        {
+          "id": "B",
+          "text": "الفضة"
+        },
+        {
+          "id": "C",
+          "text": "النحاس"
+        },
+        {
+          "id": "D",
+          "text": "الحديد"
+        },
+        {
+          "id": "E",
+          "text": "العاج"
+        },
+        {
+          "id": "F",
+          "text": "التوابل"
+        }
+      ],
+      "correctOptionId": "A",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "islamic_history-medium-0219",
+      "categoryId": "islamic_history",
+      "difficulty": "medium",
+      "text": "على أي نهر قامت قونيا أورغنش ذات المعالم الإسلامية في خوارزم؟",
+      "answer": "أمو داريا",
+      "acceptedAnswers": [],
+      "hint": "يعرف تاريخياً في المصادر العربية بجيحون.",
+      "clues": [],
+      "explanation": "تقع قونيا أورغنش على الضفة اليسرى لأمو داريا.",
+      "sources": [
+        "https://whc.unesco.org/en/list/1199/"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "سير داريا"
+        },
+        {
+          "id": "B",
+          "text": "أمو داريا"
+        },
+        {
+          "id": "C",
+          "text": "زرافشان"
+        },
+        {
+          "id": "D",
+          "text": "مرغاب"
+        },
+        {
+          "id": "E",
+          "text": "هلمند"
+        },
+        {
+          "id": "F",
+          "text": "تجن"
+        }
+      ],
+      "correctOptionId": "B",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "islamic_history-medium-0220",
+      "categoryId": "islamic_history",
+      "difficulty": "medium",
+      "text": "ما الوصف الجغرافي الذي يلائم مرو التاريخية على طريق الحرير؟",
+      "answer": "مدينة واحة",
+      "acceptedAnswers": [],
+      "hint": "ارتبط العمران بموضع ماء في مجال جاف.",
+      "clues": [],
+      "explanation": "تصف اليونسكو مرو ضمن المدن الواحات في آسيا الوسطى.",
+      "sources": [
+        "https://whc.unesco.org/en/list/886/"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "مدينة جزيرة"
+        },
+        {
+          "id": "B",
+          "text": "مدينة مصب"
+        },
+        {
+          "id": "C",
+          "text": "مدينة واحة"
+        },
+        {
+          "id": "D",
+          "text": "مدينة ساحلية"
+        },
+        {
+          "id": "E",
+          "text": "مدينة قطبية"
+        },
+        {
+          "id": "F",
+          "text": "مدينة دلتا"
+        }
+      ],
+      "correctOptionId": "C",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "islamic_history-medium-0221",
+      "categoryId": "islamic_history",
+      "difficulty": "medium",
+      "text": "أي مدينة عباسية توفر بقاياها فهماً أوضح لعمارة العصر بعدما بقي القليل من بغداد المبكرة؟",
+      "answer": "سامراء",
+      "acceptedAnswers": [],
+      "hint": "ما تزال آثار قصورها ومساجدها تكشف تخطيط العاصمة.",
+      "clues": [],
+      "explanation": "أهمية سامراء الأثرية تعوض قلة الباقي من بغداد العباسية.",
+      "sources": [
+        "https://www.metmuseum.org/essays/the-art-of-the-abbasid-period-750-1258"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "الكوفة"
+        },
+        {
+          "id": "B",
+          "text": "البصرة"
+        },
+        {
+          "id": "C",
+          "text": "واسط"
+        },
+        {
+          "id": "D",
+          "text": "سامراء"
+        },
+        {
+          "id": "E",
+          "text": "الأنبار"
+        },
+        {
+          "id": "F",
+          "text": "الموصل"
+        }
+      ],
+      "correctOptionId": "D",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "islamic_history-medium-0222",
+      "categoryId": "islamic_history",
+      "difficulty": "medium",
+      "text": "في أي مركز قرب القاهرة ازدهرت صناعة الخزف والزجاج والمعادن في العصر الفاطمي؟",
+      "answer": "الفسطاط",
+      "acceptedAnswers": [],
+      "hint": "هي المدينة الأقدم المجاورة للعاصمة الجديدة.",
+      "clues": [],
+      "explanation": "الفسطاط مركز صناعات حرفية مهم في مصر الفاطمية.",
+      "sources": [
+        "https://www.metmuseum.org/essays/the-art-of-the-fatimid-period-909-1171"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "الإسكندرية"
+        },
+        {
+          "id": "B",
+          "text": "دمياط"
+        },
+        {
+          "id": "C",
+          "text": "قوص"
+        },
+        {
+          "id": "D",
+          "text": "رشيد"
+        },
+        {
+          "id": "E",
+          "text": "الفسطاط"
+        },
+        {
+          "id": "F",
+          "text": "الفيوم"
+        }
+      ],
+      "correctOptionId": "E",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "islamic_history-medium-0223",
+      "categoryId": "islamic_history",
+      "difficulty": "medium",
+      "text": "أي مدينة عثمانية اشتهرت بإنتاج الحرير والمنسوجات في القرن السادس عشر؟",
+      "answer": "بورصة",
+      "acceptedAnswers": [],
+      "hint": "مركز تجاري سابق على تحول العاصمة إلى إسطنبول.",
+      "clues": [],
+      "explanation": "تصف مقالة المتحف بورصة مركزاً للحرير والمنسوجات.",
+      "sources": [
+        "https://www.metmuseum.org/essays/the-art-of-the-ottomans-before-1600"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "أدرنة"
+        },
+        {
+          "id": "B",
+          "text": "قونية"
+        },
+        {
+          "id": "C",
+          "text": "أنقرة"
+        },
+        {
+          "id": "D",
+          "text": "طرابزون"
+        },
+        {
+          "id": "E",
+          "text": "أماصيا"
+        },
+        {
+          "id": "F",
+          "text": "بورصة"
+        }
+      ],
+      "correctOptionId": "F",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "islamic_history-medium-0224",
+      "categoryId": "islamic_history",
+      "difficulty": "medium",
+      "text": "أي مدينة عثمانية اقترن اسمها بصناعة الخزف المزخرف في القرن السادس عشر؟",
+      "answer": "إزنيق",
+      "acceptedAnswers": [],
+      "hint": "اسمها يطلق على نوع خزف عثماني شهير.",
+      "clues": [],
+      "explanation": "إزنيق مركز خزف بارز في المقالة المتحفية.",
+      "sources": [
+        "https://www.metmuseum.org/essays/the-art-of-the-ottomans-before-1600"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "إزنيق"
+        },
+        {
+          "id": "B",
+          "text": "كوتاهية"
+        },
+        {
+          "id": "C",
+          "text": "بورصة"
+        },
+        {
+          "id": "D",
+          "text": "أدرنة"
+        },
+        {
+          "id": "E",
+          "text": "قونية"
+        },
+        {
+          "id": "F",
+          "text": "سيواس"
+        }
+      ],
+      "correctOptionId": "A",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "islamic_history-medium-0225",
+      "categoryId": "islamic_history",
+      "difficulty": "medium",
+      "text": "ما القطاع التجاري الذي دعم رعاية المماليك للفنون بحسب مقال المتروبوليتان؟",
+      "answer": "تجارة الحرير والتوابل بين الشرق والغرب",
+      "acceptedAnswers": [],
+      "hint": "تتصل البضائع الفاخرة بموقع مصر والشام بين طرق التجارة.",
+      "clues": [],
+      "explanation": "وفرت هذه التجارة موارد للرعاية الفنية المملوكية.",
+      "sources": [
+        "https://www.metmuseum.org/essays/the-art-of-the-mamluk-period-1250-1517"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "تجارة الفحم والصلب بين الشرق والغرب"
+        },
+        {
+          "id": "B",
+          "text": "تجارة الحرير والتوابل بين الشرق والغرب"
+        },
+        {
+          "id": "C",
+          "text": "تجارة الأخشاب والجلود بين الشمال والجنوب"
+        },
+        {
+          "id": "D",
+          "text": "تجارة القمح والملح داخل مصر وحدها"
+        },
+        {
+          "id": "E",
+          "text": "تجارة النفط والغاز عبر المتوسط"
+        },
+        {
+          "id": "F",
+          "text": "تجارة الماس والذهب عبر الأطلسي"
+        }
+      ],
+      "correctOptionId": "B",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "islamic_history-hard-0201",
+      "categoryId": "islamic_history",
+      "difficulty": "hard",
+      "text": "ما اسم أسلوب النحت ذي الأسطح المائلة الذي انتشر من سامراء إلى الخشب والمعادن والخزف؟",
+      "answer": "الأسلوب المشطوف",
+      "acceptedAnswers": [],
+      "hint": "اسم الأسلوب يصف معالجة الحواف بقطع مائل.",
+      "clues": [],
+      "explanation": "النحت المشطوف من ابتكارات الزخرفة العباسية في سامراء.",
+      "sources": [
+        "https://www.metmuseum.org/essays/the-art-of-the-abbasid-period-750-1258"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "الأسلوب المخدد"
+        },
+        {
+          "id": "B",
+          "text": "الأسلوب المحفور الغائر"
+        },
+        {
+          "id": "C",
+          "text": "الأسلوب المشطوف"
+        },
+        {
+          "id": "D",
+          "text": "الأسلوب المجسم الكامل"
+        },
+        {
+          "id": "E",
+          "text": "الأسلوب المخرم"
+        },
+        {
+          "id": "F",
+          "text": "الأسلوب المقرنص"
+        }
+      ],
+      "correctOptionId": "C",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "islamic_history-hard-0202",
+      "categoryId": "islamic_history",
+      "difficulty": "hard",
+      "text": "ما اسم القصر العباسي في سامراء الذي بدأت عمارته نحو 836م في مقال المتحف؟",
+      "answer": "الجوسق الخاقاني",
+      "acceptedAnswers": [],
+      "hint": "اسم القصر يجمع لفظاً للقصر ولقباً ذا أصل آسيوي.",
+      "clues": [],
+      "explanation": "الجوسق الخاقاني من المنشآت المؤسسة للنمط العباسي بسامراء.",
+      "sources": [
+        "https://www.metmuseum.org/essays/the-art-of-the-abbasid-period-750-1258"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "قصر العاشق"
+        },
+        {
+          "id": "B",
+          "text": "قصر الأخيضر"
+        },
+        {
+          "id": "C",
+          "text": "قصر بلكوارا"
+        },
+        {
+          "id": "D",
+          "text": "الجوسق الخاقاني"
+        },
+        {
+          "id": "E",
+          "text": "قصر باب الذهب"
+        },
+        {
+          "id": "F",
+          "text": "قصر الخلد"
+        }
+      ],
+      "correctOptionId": "D",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "islamic_history-hard-0203",
+      "categoryId": "islamic_history",
+      "difficulty": "hard",
+      "text": "أي جامع في سامراء يؤرخه متحف المتروبوليتان بالفترة 859–861م؟",
+      "answer": "جامع أبي دلف",
+      "acceptedAnswers": [],
+      "hint": "الجامع غير الجامع الكبير ذي الملوية الأشهر.",
+      "clues": [],
+      "explanation": "تذكر المقالة جامع أبي دلف ضمن آثار سامراء العباسية.",
+      "sources": [
+        "https://www.metmuseum.org/essays/the-art-of-the-abbasid-period-750-1258"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "جامع المتوكل"
+        },
+        {
+          "id": "B",
+          "text": "جامع المنصور"
+        },
+        {
+          "id": "C",
+          "text": "جامع ابن طولون"
+        },
+        {
+          "id": "D",
+          "text": "جامع المستنصر"
+        },
+        {
+          "id": "E",
+          "text": "جامع أبي دلف"
+        },
+        {
+          "id": "F",
+          "text": "جامع المهدي"
+        }
+      ],
+      "correctOptionId": "E",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "islamic_history-hard-0204",
+      "categoryId": "islamic_history",
+      "difficulty": "hard",
+      "text": "أي نمط من الزخرفة العباسية تكرر على الجدران قبل شيوع تسميته الغربية «أرابيسك»؟",
+      "answer": "أشكال هندسية ونباتية مجردة متكررة",
+      "acceptedAnswers": [],
+      "hint": "الموضوع ليس مشهداً قصصياً محدداً.",
+      "clues": [],
+      "explanation": "سامراء نشرت الأنماط التجريدية المتكررة في وسائط متعددة.",
+      "sources": [
+        "https://www.metmuseum.org/essays/the-art-of-the-abbasid-period-750-1258"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "صور بشرية واقعية متسلسلة"
+        },
+        {
+          "id": "B",
+          "text": "خرائط جغرافية مفصلة"
+        },
+        {
+          "id": "C",
+          "text": "رسوم معارك متصلة"
+        },
+        {
+          "id": "D",
+          "text": "نقوش حيوانية طبيعية حصرا"
+        },
+        {
+          "id": "E",
+          "text": "صور شخصية للحكام حصرا"
+        },
+        {
+          "id": "F",
+          "text": "أشكال هندسية ونباتية مجردة متكررة"
+        }
+      ],
+      "correctOptionId": "F",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "islamic_history-hard-0205",
+      "categoryId": "islamic_history",
+      "difficulty": "hard",
+      "text": "ما شكل مخطط مدينة المنصورية الفاطمية الذي جعله المتحف قابلاً للمقارنة ببغداد العباسية؟",
+      "answer": "مخطط دائري",
+      "acceptedAnswers": [],
+      "hint": "المقارنة تتعلق بالشكل العام للعاصمة.",
+      "clues": [],
+      "explanation": "فسر المقال التصميم الدائري للمنصورية في سياق منافسة بغداد.",
+      "sources": [
+        "https://www.metmuseum.org/essays/the-art-of-the-fatimid-period-909-1171"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "مخطط دائري"
+        },
+        {
+          "id": "B",
+          "text": "مخطط شبكي"
+        },
+        {
+          "id": "C",
+          "text": "مخطط خطي"
+        },
+        {
+          "id": "D",
+          "text": "مخطط مثلث"
+        },
+        {
+          "id": "E",
+          "text": "مخطط بيضاوي"
+        },
+        {
+          "id": "F",
+          "text": "مخطط شعاعي مفتوح"
+        }
+      ],
+      "correctOptionId": "A",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "islamic_history-hard-0206",
+      "categoryId": "islamic_history",
+      "difficulty": "hard",
+      "text": "ما دلالة توقيع بعض صانعي الخزف الفاطمي على أعمالهم في قراءة المقال المتحفي؟",
+      "answer": "مكانة الحرفيين والتقدير الذي حظوا به",
+      "acceptedAnswers": [],
+      "hint": "وجود الاسم يعين على نسبة العمل إلى صاحبه.",
+      "clues": [],
+      "explanation": "يربط المقال التوقيعات بتقدير صناع الخزف.",
+      "sources": [
+        "https://www.metmuseum.org/essays/the-art-of-the-fatimid-period-909-1171"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "انعدام مكانة الحرفيين تماما"
+        },
+        {
+          "id": "B",
+          "text": "مكانة الحرفيين والتقدير الذي حظوا به"
+        },
+        {
+          "id": "C",
+          "text": "حظر بيع الخزف في الأسواق"
+        },
+        {
+          "id": "D",
+          "text": "أن كل الأواني صنعت خارج مصر"
+        },
+        {
+          "id": "E",
+          "text": "أن الصانع كان خليفة بالضرورة"
+        },
+        {
+          "id": "F",
+          "text": "أن التوقيع يغني عن فحص أسلوب القطعة"
+        }
+      ],
+      "correctOptionId": "B",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "islamic_history-hard-0207",
+      "categoryId": "islamic_history",
+      "difficulty": "hard",
+      "text": "أي تراث معماري مصري سابق أفاد منه الفاطميون في تقنيات البناء والمواد؟",
+      "answer": "التراث الطولوني",
+      "acceptedAnswers": [],
+      "hint": "الدولة السابقة حكمت مصر في القرن التاسع.",
+      "clues": [],
+      "explanation": "أفاد البناء الفاطمي من تقنيات العمارة الطولونية وطورها.",
+      "sources": [
+        "https://www.metmuseum.org/essays/the-art-of-the-fatimid-period-909-1171"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "التراث المملوكي"
+        },
+        {
+          "id": "B",
+          "text": "التراث العثماني"
+        },
+        {
+          "id": "C",
+          "text": "التراث الطولوني"
+        },
+        {
+          "id": "D",
+          "text": "التراث الأيوبي"
+        },
+        {
+          "id": "E",
+          "text": "التراث الصفوي"
+        },
+        {
+          "id": "F",
+          "text": "التراث التيموري"
+        }
+      ],
+      "correctOptionId": "C",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "islamic_history-hard-0208",
+      "categoryId": "islamic_history",
+      "difficulty": "hard",
+      "text": "أي لفظ كان يميز مصانع الطراز التي تنتج للخليفة وبلاطه عن مصانع الإنتاج العام؟",
+      "answer": "الخاصة",
+      "acceptedAnswers": [],
+      "hint": "يقابل المصطلح «العامة» في تصنيف المصانع.",
+      "clues": [],
+      "explanation": "الخاصة للخليفة وحاشيته، والعامة لفئات أوسع.",
+      "sources": [
+        "https://www.metmuseum.org/essays/tiraz-inscribed-textiles-from-the-early-islamic-period"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "الحسبة"
+        },
+        {
+          "id": "B",
+          "text": "الوقف"
+        },
+        {
+          "id": "C",
+          "text": "النظارة"
+        },
+        {
+          "id": "D",
+          "text": "الخاصة"
+        },
+        {
+          "id": "E",
+          "text": "الخزينة"
+        },
+        {
+          "id": "F",
+          "text": "الحاشية"
+        }
+      ],
+      "correctOptionId": "D",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "islamic_history-hard-0209",
+      "categoryId": "islamic_history",
+      "difficulty": "hard",
+      "text": "ما تركيب نسيج «الملحم» المذكور ضمن مواد الطراز؟",
+      "answer": "سدى حريري ولحمة من القطن أو مادة أخرى",
+      "acceptedAnswers": [],
+      "hint": "يمزج النسيج نوعين من الخيط في اتجاهين.",
+      "clues": [],
+      "explanation": "تعرف المقالة الملحم بسدى حريري ولحمة قطنية أو غيرها.",
+      "sources": [
+        "https://www.metmuseum.org/essays/tiraz-inscribed-textiles-from-the-early-islamic-period"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "سدى قطني ولحمة حريرية حصرا"
+        },
+        {
+          "id": "B",
+          "text": "سدى صوفي ولحمة كتان حصرا"
+        },
+        {
+          "id": "C",
+          "text": "سدى كتاني ولحمة معدنية"
+        },
+        {
+          "id": "D",
+          "text": "سدى حريري ولحمة حريرية حصرا"
+        },
+        {
+          "id": "E",
+          "text": "سدى حريري ولحمة من القطن أو مادة أخرى"
+        },
+        {
+          "id": "F",
+          "text": "سدى قطني ولحمة قطنية حصرا"
+        }
+      ],
+      "correctOptionId": "E",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "islamic_history-hard-0210",
+      "categoryId": "islamic_history",
+      "difficulty": "hard",
+      "text": "أي تقنية صباغة قاومت اللون في أجزاء من الخيوط لزخرفة كثير من الطراز اليمني؟",
+      "answer": "الإيكات",
+      "acceptedAnswers": [],
+      "hint": "النمط يتكون قبل اكتمال النسج بفعل منع وصول الصبغة.",
+      "clues": [],
+      "explanation": "استعمل الطراز اليمني الصباغة المقاومة بتقنية الإيكات.",
+      "sources": [
+        "https://www.metmuseum.org/essays/tiraz-inscribed-textiles-from-the-early-islamic-period"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "الباتيك على القماش المنسوج"
+        },
+        {
+          "id": "B",
+          "text": "الطباعة بالقالب"
+        },
+        {
+          "id": "C",
+          "text": "التطريز بالخيط الأحمر"
+        },
+        {
+          "id": "D",
+          "text": "التذهيب بورق الذهب"
+        },
+        {
+          "id": "E",
+          "text": "الرسم المباشر بالفرشاة"
+        },
+        {
+          "id": "F",
+          "text": "الإيكات"
+        }
+      ],
+      "correctOptionId": "F",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "islamic_history-hard-0211",
+      "categoryId": "islamic_history",
+      "difficulty": "hard",
+      "text": "أي خطين شاعا في نقوش الطراز المبكرة قبل استعمال النسخ والثلث لاحقاً؟",
+      "answer": "الكوفي والكوفي المورق",
+      "acceptedAnswers": [],
+      "hint": "كلاهما من عائلة كتابية زاوية ارتبطت بالمصاحف المبكرة.",
+      "clues": [],
+      "explanation": "تذكر المقالة الكوفي والكوفي المورق في هذه النقوش.",
+      "sources": [
+        "https://www.metmuseum.org/essays/tiraz-inscribed-textiles-from-the-early-islamic-period"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "الكوفي والكوفي المورق"
+        },
+        {
+          "id": "B",
+          "text": "الرقعة والديواني"
+        },
+        {
+          "id": "C",
+          "text": "النسخ والتعليق"
+        },
+        {
+          "id": "D",
+          "text": "الديواني والجلي"
+        },
+        {
+          "id": "E",
+          "text": "الثلث والرقعة"
+        },
+        {
+          "id": "F",
+          "text": "التعليق والنستعليق"
+        }
+      ],
+      "correctOptionId": "A",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "islamic_history-hard-0212",
+      "categoryId": "islamic_history",
+      "difficulty": "hard",
+      "text": "ما اللونان اللذان يذكرهما المتحف لخيوط كتابة كثير من الطراز المصري غير المصبوغ؟",
+      "answer": "الأحمر والأسود",
+      "acceptedAnswers": [],
+      "hint": "الأشرطة قد تطرز بلون داكن أو لون قوي بارز.",
+      "clues": [],
+      "explanation": "شاعت الكتابة بخيط أحمر أو أسود على الطراز المصري.",
+      "sources": [
+        "https://www.metmuseum.org/essays/tiraz-inscribed-textiles-from-the-early-islamic-period"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "الأزرق والأخضر"
+        },
+        {
+          "id": "B",
+          "text": "الأحمر والأسود"
+        },
+        {
+          "id": "C",
+          "text": "الأبيض والذهبي"
+        },
+        {
+          "id": "D",
+          "text": "الأصفر والبنفسجي"
+        },
+        {
+          "id": "E",
+          "text": "البرتقالي والفضي"
+        },
+        {
+          "id": "F",
+          "text": "البني والوردي"
+        }
+      ],
+      "correctOptionId": "B",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "islamic_history-hard-0213",
+      "categoryId": "islamic_history",
+      "difficulty": "hard",
+      "text": "لماذا حفظت قبور مصر كثيراً من شظايا الطراز الكتاني المستعمل أكفاناً؟",
+      "answer": "بسبب المناخ الجاف",
+      "acceptedAnswers": [],
+      "hint": "العامل البيئي يقلل تحلل الألياف.",
+      "clues": [],
+      "explanation": "ساعد جفاف البيئة المصرية على حفظ المنسوجات المدفونة.",
+      "sources": [
+        "https://www.metmuseum.org/essays/tiraz-inscribed-textiles-from-the-early-islamic-period"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "بسبب الرطوبة العالية"
+        },
+        {
+          "id": "B",
+          "text": "بسبب المياه الجوفية الدائمة"
+        },
+        {
+          "id": "C",
+          "text": "بسبب المناخ الجاف"
+        },
+        {
+          "id": "D",
+          "text": "بسبب التربة البحرية المالحة وحدها"
+        },
+        {
+          "id": "E",
+          "text": "بسبب غياب الأكسجين عن مصر كلها"
+        },
+        {
+          "id": "F",
+          "text": "بسبب درجات التجمد المستمرة"
+        }
+      ],
+      "correctOptionId": "C",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "islamic_history-hard-0214",
+      "categoryId": "islamic_history",
+      "difficulty": "hard",
+      "text": "ما الزوج الذي يمثل شكلين أوليين مهمين لبناء الزخرفة الهندسية الإسلامية؟",
+      "answer": "الدائرة والمربع",
+      "acceptedAnswers": [],
+      "hint": "يمكن اشتقاق وحدات نجمية ومضلعات منهما.",
+      "clues": [],
+      "explanation": "تؤكد المقالة دور الدائرة والمربع في بناء الأنماط.",
+      "sources": [
+        "https://www.metmuseum.org/essays/geometric-patterns-in-islamic-art"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "اللولب والقطع المكافئ"
+        },
+        {
+          "id": "B",
+          "text": "المخروط والأسطوانة"
+        },
+        {
+          "id": "C",
+          "text": "الكرة والمكعب"
+        },
+        {
+          "id": "D",
+          "text": "الدائرة والمربع"
+        },
+        {
+          "id": "E",
+          "text": "المنحنى الحر والمجسم"
+        },
+        {
+          "id": "F",
+          "text": "البيضاوي والمخروط"
+        }
+      ],
+      "correctOptionId": "D",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "islamic_history-hard-0215",
+      "categoryId": "islamic_history",
+      "difficulty": "hard",
+      "text": "متى بلغ الأسلوب النباتي الإسلامي التجريدي المعروف لاحقاً بالأرابيسك نضجه في مقال المتحف؟",
+      "answer": "بين القرنين العاشر والثاني عشر الميلاديين",
+      "acceptedAnswers": [],
+      "hint": "الفترة من العصور الوسطى قبل التوسع المغولي.",
+      "clues": [],
+      "explanation": "يضع المقال اكتمال الأسلوب في القرون العاشر إلى الثاني عشر.",
+      "sources": [
+        "https://www.metmuseum.org/essays/vegetal-patterns-in-islamic-art"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "بين القرنين السابع والثامن الميلاديين"
+        },
+        {
+          "id": "B",
+          "text": "بين القرنين الثامن والتاسع الميلاديين"
+        },
+        {
+          "id": "C",
+          "text": "بين القرنين الثالث عشر والرابع عشر الميلاديين"
+        },
+        {
+          "id": "D",
+          "text": "بين القرنين الخامس عشر والسادس عشر الميلاديين"
+        },
+        {
+          "id": "E",
+          "text": "بين القرنين العاشر والثاني عشر الميلاديين"
+        },
+        {
+          "id": "F",
+          "text": "بين القرنين السابع عشر والثامن عشر الميلاديين"
+        }
+      ],
+      "correctOptionId": "E",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "islamic_history-hard-0216",
+      "categoryId": "islamic_history",
+      "difficulty": "hard",
+      "text": "أي مصدر خارجي أغنى الزخرفة النباتية الإسلامية بعد قيام البلاطات المغولية في إيران؟",
+      "answer": "الفنون الصينية",
+      "acceptedAnswers": [],
+      "hint": "الاتصال جاء من جهة شرق آسيا.",
+      "clues": [],
+      "explanation": "أدخل العصر المغولي أنماطاً وزخارف مستلهمة من الصين.",
+      "sources": [
+        "https://www.metmuseum.org/essays/vegetal-patterns-in-islamic-art"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "الفنون الإسكندنافية"
+        },
+        {
+          "id": "B",
+          "text": "الفنون الإيبيرية"
+        },
+        {
+          "id": "C",
+          "text": "الفنون الإترورية"
+        },
+        {
+          "id": "D",
+          "text": "الفنون القوطية"
+        },
+        {
+          "id": "E",
+          "text": "الفنون الرومانية وحدها"
+        },
+        {
+          "id": "F",
+          "text": "الفنون الصينية"
+        }
+      ],
+      "correctOptionId": "F",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "islamic_history-hard-0217",
+      "categoryId": "islamic_history",
+      "difficulty": "hard",
+      "text": "لماذا اهتم الإيلخانيون بالمؤلفات التاريخية بعد استقرارهم في إيران والعراق؟",
+      "answer": "لتدعيم دعوى حكمهم للبلاد",
+      "acceptedAnswers": [],
+      "hint": "التاريخ قد يستخدم لبناء شرعية سياسية.",
+      "clues": [],
+      "explanation": "يربط المقال الرعاية التاريخية بتثبيت شرعية الحكام الجدد.",
+      "sources": [
+        "https://www.metmuseum.org/essays/the-art-of-the-book-in-the-ilkhanid-period"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "لتدعيم دعوى حكمهم للبلاد"
+        },
+        {
+          "id": "B",
+          "text": "لإلغاء كل تاريخ إيراني سابق"
+        },
+        {
+          "id": "C",
+          "text": "لمنع تسجيل أسماء الملوك"
+        },
+        {
+          "id": "D",
+          "text": "لقصر التعليم على الطب"
+        },
+        {
+          "id": "E",
+          "text": "لإحلال الرواية الشفوية محل المخطوط"
+        },
+        {
+          "id": "F",
+          "text": "لمنع تصوير الكتب نهائيا"
+        }
+      ],
+      "correctOptionId": "A",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "islamic_history-hard-0218",
+      "categoryId": "islamic_history",
+      "difficulty": "hard",
+      "text": "أي نوع فني محلي استوعب التأثيرات الصينية الوافدة إلى إيران الإيلخانية؟",
+      "answer": "تصوير المخطوطات",
+      "acceptedAnswers": [],
+      "hint": "نقلت اللفائف والرسوم تأثيرات دمجها الرسامون في وسيط مألوف.",
+      "clues": [],
+      "explanation": "دمج الفنانون العناصر الصينية في رسوم الكتب.",
+      "sources": [
+        "https://www.metmuseum.org/essays/the-art-of-the-book-in-the-ilkhanid-period"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "نحت التماثيل الرخامية"
+        },
+        {
+          "id": "B",
+          "text": "تصوير المخطوطات"
+        },
+        {
+          "id": "C",
+          "text": "تصميم النقود المعدنية وحده"
+        },
+        {
+          "id": "D",
+          "text": "نسج أشرعة السفن"
+        },
+        {
+          "id": "E",
+          "text": "صياغة أدوات الجراحة"
+        },
+        {
+          "id": "F",
+          "text": "الرسم على الزجاج وحده"
+        }
+      ],
+      "correctOptionId": "B",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "islamic_history-hard-0219",
+      "categoryId": "islamic_history",
+      "difficulty": "hard",
+      "text": "ما الكتاب الإيراني الذي اتخذه الإيلخانيون نموذجاً يربطهم بملوك إيران وأبطالها القدماء؟",
+      "answer": "الشاهنامة",
+      "acceptedAnswers": [],
+      "hint": "عنوانه يعني كتاب الملوك.",
+      "clues": [],
+      "explanation": "وظف الإيلخانيون ملحمة الشاهنامة لبناء صلة بالماضي الإيراني.",
+      "sources": [
+        "https://www.metmuseum.org/essays/the-art-of-the-book-in-the-ilkhanid-period"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "كليلة ودمنة"
+        },
+        {
+          "id": "B",
+          "text": "خمسة نظامي"
+        },
+        {
+          "id": "C",
+          "text": "الشاهنامة"
+        },
+        {
+          "id": "D",
+          "text": "گلستان سعدي"
+        },
+        {
+          "id": "E",
+          "text": "بستان سعدي"
+        },
+        {
+          "id": "F",
+          "text": "منطق الطير"
+        }
+      ],
+      "correctOptionId": "C",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "islamic_history-hard-0220",
+      "categoryId": "islamic_history",
+      "difficulty": "hard",
+      "text": "ما السلعة التي عدها المتحف أهم صادرات إيران في عهد الشاه عباس الأول؟",
+      "answer": "الحرير",
+      "acceptedAnswers": [],
+      "hint": "كانت الدولة تشجع التجارة مع أوروبا وتنتج المنسوجات الفاخرة.",
+      "clues": [],
+      "explanation": "الحرير أهم صادرات إيران في وصف المقالة.",
+      "sources": [
+        "https://www.metmuseum.org/essays/the-art-of-the-safavids-before-1600"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "القطن"
+        },
+        {
+          "id": "B",
+          "text": "الكتان"
+        },
+        {
+          "id": "C",
+          "text": "الصوف"
+        },
+        {
+          "id": "D",
+          "text": "الحرير"
+        },
+        {
+          "id": "E",
+          "text": "الجلود"
+        },
+        {
+          "id": "F",
+          "text": "السكر"
+        }
+      ],
+      "correctOptionId": "D",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "islamic_history-hard-0221",
+      "categoryId": "islamic_history",
+      "difficulty": "hard",
+      "text": "أي مهارة فنية تعلمها الشاه طهماسب في صغره وساعدت على اهتمامه برعاية الكتب؟",
+      "answer": "الرسم",
+      "acceptedAnswers": [],
+      "hint": "ارتبطت رعايته بورش تصوير المخطوطات.",
+      "clues": [],
+      "explanation": "تلقى طهماسب تدريباً على الرسم مبكراً.",
+      "sources": [
+        "https://www.metmuseum.org/essays/the-art-of-the-safavids-before-1600"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "نحت الرخام"
+        },
+        {
+          "id": "B",
+          "text": "نفخ الزجاج"
+        },
+        {
+          "id": "C",
+          "text": "صياغة الذهب"
+        },
+        {
+          "id": "D",
+          "text": "صب المدافع"
+        },
+        {
+          "id": "E",
+          "text": "الرسم"
+        },
+        {
+          "id": "F",
+          "text": "حفر النقود"
+        }
+      ],
+      "correctOptionId": "E",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "islamic_history-hard-0222",
+      "categoryId": "islamic_history",
+      "difficulty": "hard",
+      "text": "أي نوع من التصوير صار أكثر رواجاً من تصوير المخطوطات في أواخر رعاية الشاه عباس؟",
+      "answer": "الصور والرسوم على صفحات منفردة",
+      "acceptedAnswers": [],
+      "hint": "لم يعد العمل مرتبطاً دائماً بكتاب كامل.",
+      "clues": [],
+      "explanation": "ازداد رواج اللوحات والرسوم المفردة في عصره.",
+      "sources": [
+        "https://www.metmuseum.org/essays/the-art-of-the-safavids-before-1600"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "جداريات المعابد القديمة"
+        },
+        {
+          "id": "B",
+          "text": "صور على العملات حصرا"
+        },
+        {
+          "id": "C",
+          "text": "نقوش القبور حصرا"
+        },
+        {
+          "id": "D",
+          "text": "تصوير المخطوطات الطبية وحده"
+        },
+        {
+          "id": "E",
+          "text": "رسم الخرائط البحرية وحده"
+        },
+        {
+          "id": "F",
+          "text": "الصور والرسوم على صفحات منفردة"
+        }
+      ],
+      "correctOptionId": "F",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "islamic_history-hard-0223",
+      "categoryId": "islamic_history",
+      "difficulty": "hard",
+      "text": "ما الذي كانت تجمعه المجمعات الوقفية المملوكية الكبرى إلى جانب المدرسة والضريح؟",
+      "answer": "المستشفى والمئذنة",
+      "acceptedAnswers": [],
+      "hint": "الرعاية جمعت مؤسسات خيرية وعناصر دينية معمارية.",
+      "clues": [],
+      "explanation": "يعدد المقال المدارس والأضرحة والمآذن والمستشفيات.",
+      "sources": [
+        "https://www.metmuseum.org/essays/the-art-of-the-mamluk-period-1250-1517"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "المستشفى والمئذنة"
+        },
+        {
+          "id": "B",
+          "text": "المرصد والترسانة البحرية"
+        },
+        {
+          "id": "C",
+          "text": "دار الضرب ومكتب الجمارك"
+        },
+        {
+          "id": "D",
+          "text": "المسرح وحلبة السباق"
+        },
+        {
+          "id": "E",
+          "text": "السجن ومخزن الأسلحة"
+        },
+        {
+          "id": "F",
+          "text": "المنجم ودار البريد"
+        }
+      ],
+      "correctOptionId": "A",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "islamic_history-hard-0224",
+      "categoryId": "islamic_history",
+      "difficulty": "hard",
+      "text": "ما أثر السيطرة البرتغالية على تجارة المحيط الهندي في أواخر دولة المماليك؟",
+      "answer": "أضعفت أحد أغنى مصادر دخل الدولة",
+      "acceptedAnswers": [],
+      "hint": "المورد مرتبط بمرور بضائع الشرق إلى المتوسط.",
+      "clues": [],
+      "explanation": "اعتراض التجارة أضر بمصدر مالي رئيسي للمماليك.",
+      "sources": [
+        "https://www.metmuseum.org/essays/the-art-of-the-mamluk-period-1250-1517"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "ضاعفت موارد الدولة من التوابل"
+        },
+        {
+          "id": "B",
+          "text": "أضعفت أحد أغنى مصادر دخل الدولة"
+        },
+        {
+          "id": "C",
+          "text": "ألغت حاجة مصر إلى التجارة"
+        },
+        {
+          "id": "D",
+          "text": "زادت احتكار المماليك للمحيط"
+        },
+        {
+          "id": "E",
+          "text": "حولت الدخل كله إلى الزراعة"
+        },
+        {
+          "id": "F",
+          "text": "أنهت التجارة مع الهند قبل القرن العاشر"
+        }
+      ],
+      "correctOptionId": "B",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "islamic_history-hard-0225",
+      "categoryId": "islamic_history",
+      "difficulty": "hard",
+      "text": "أي مجال فني اشتهرت به بغداد ضمن مراكز الدولة العثمانية في القرن السادس عشر؟",
+      "answer": "فنون الكتاب",
+      "acceptedAnswers": [],
+      "hint": "يشمل المجال الخط والتزيين والتصوير والتجليد.",
+      "clues": [],
+      "explanation": "تذكر المقالة بغداد مركزاً لفنون الكتاب.",
+      "sources": [
+        "https://www.metmuseum.org/essays/the-art-of-the-ottomans-before-1600"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "خزف إزنيق"
+        },
+        {
+          "id": "B",
+          "text": "نسج الحرير وحده"
+        },
+        {
+          "id": "C",
+          "text": "فنون الكتاب"
+        },
+        {
+          "id": "D",
+          "text": "صناعة السجاد وحدها"
+        },
+        {
+          "id": "E",
+          "text": "نفخ الزجاج وحده"
+        },
+        {
+          "id": "F",
+          "text": "صناعة السفن وحدها"
+        }
+      ],
+      "correctOptionId": "C",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "islamic_history-legendary-0201",
+      "categoryId": "islamic_history",
+      "difficulty": "legendary",
+      "text": "إذا قارنت زخرفة سامراء الجدارية بخزف البريق العباسي، فما الذي يفسر انتقال أسلوب العاصمة بين مواد مختلفة؟",
+      "answer": "انتشار النمط الزخرفي إلى الخشب والمعادن والخزف",
+      "acceptedAnswers": [],
+      "hint": "لا يرتبط التصميم بسطح معماري واحد.",
+      "clues": [],
+      "explanation": "يصف المصدر تعميم الأنماط العباسية عبر عدة وسائط.",
+      "sources": [
+        "https://www.metmuseum.org/essays/the-art-of-the-abbasid-period-750-1258"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "انتقال الحرف اقتصر على أنماط الخزف"
+        },
+        {
+          "id": "B",
+          "text": "انتشار المادة الخام دون انتقال الزخارف"
+        },
+        {
+          "id": "C",
+          "text": "نقل تصميم كل تحفة دون إعادة صياغته"
+        },
+        {
+          "id": "D",
+          "text": "انتشار النمط الزخرفي إلى الخشب والمعادن والخزف"
+        },
+        {
+          "id": "E",
+          "text": "انتشار النمط بين المدن دون اختلاف وسائطه"
+        },
+        {
+          "id": "F",
+          "text": "انتقال التقنيات دون أي تكرار للمفردات الزخرفية"
+        }
+      ],
+      "correctOptionId": "D",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "islamic_history-legendary-0202",
+      "categoryId": "islamic_history",
+      "difficulty": "legendary",
+      "text": "ما الفرق التقني بين تقليد لمعان الذهب بالبريق المعدني وبين صنع إناء من ذهب خالص؟",
+      "answer": "الأول تأثير على خزف مزجج والثاني مادته ذهب",
+      "acceptedAnswers": [],
+      "hint": "ميز بين زينة السطح ومادة الجسم.",
+      "clues": [],
+      "explanation": "البريق يمنح الخزف لمعاناً معدنياً ولا يجعله إناء ذهبياً.",
+      "sources": [
+        "https://www.metmuseum.org/essays/the-art-of-the-abbasid-period-750-1258"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "الأول زخرفة معدنية على معدن والثاني خزف مزجج"
+        },
+        {
+          "id": "B",
+          "text": "الأول طلاؤه رقائق ذهب والثاني خليط ذهب وطين"
+        },
+        {
+          "id": "C",
+          "text": "الأول إناء زجاجي مصبوغ والثاني إناء معدني"
+        },
+        {
+          "id": "D",
+          "text": "الأول معدن مطلي بالأبيض والثاني معدن غير مطلي"
+        },
+        {
+          "id": "E",
+          "text": "الأول تأثير على خزف مزجج والثاني مادته ذهب"
+        },
+        {
+          "id": "F",
+          "text": "الأول فخار غير مزجج والثاني خزف مطلي بالذهب"
+        }
+      ],
+      "correctOptionId": "E",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "islamic_history-legendary-0203",
+      "categoryId": "islamic_history",
+      "difficulty": "legendary",
+      "text": "ما الوظيفة التي تبقى أصلية للخط الإسلامي حتى عندما تتحول الحروف إلى زخرفة شديدة التعقيد؟",
+      "answer": "نقل نص مكتوب",
+      "acceptedAnswers": [],
+      "hint": "الشكل الجمالي لا يلغي سبب وجود الكتابة.",
+      "clues": [],
+      "explanation": "يؤكد المتحف أن الوظيفة الأساسية للخط نقل النص.",
+      "sources": [
+        "https://www.metmuseum.org/essays/calligraphy-in-islamic-art"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "تحديد نسب البناء الهندسية"
+        },
+        {
+          "id": "B",
+          "text": "تمييز رتبة مالك التحفة دائما"
+        },
+        {
+          "id": "C",
+          "text": "توثيق التاريخ فقط دون بقية النص"
+        },
+        {
+          "id": "D",
+          "text": "ضبط إيقاع الزخارف فقط"
+        },
+        {
+          "id": "E",
+          "text": "تحديد مكان صناعة التحفة دائما"
+        },
+        {
+          "id": "F",
+          "text": "نقل نص مكتوب"
+        }
+      ],
+      "correctOptionId": "F",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "islamic_history-legendary-0204",
+      "categoryId": "islamic_history",
+      "difficulty": "legendary",
+      "text": "ما الاستنتاج الصحيح بشأن أصل بعض وحدات الزخرفة الهندسية الإسلامية؟",
+      "answer": "استفادت من تقاليد قديمة ثم أعادت تطويرها",
+      "acceptedAnswers": [],
+      "hint": "الابتكار يمكن أن يبدأ بعناصر مأخوذة من تراث سابق.",
+      "clues": [],
+      "explanation": "ذكرت المقالة أصولاً يونانية ورومانية وساسانية وطورتها الحرف الإسلامية.",
+      "sources": [
+        "https://www.metmuseum.org/essays/geometric-patterns-in-islamic-art"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "استفادت من تقاليد قديمة ثم أعادت تطويرها"
+        },
+        {
+          "id": "B",
+          "text": "استفادت من تقاليد قديمة ونقلتها دون تطوير"
+        },
+        {
+          "id": "C",
+          "text": "نشأت حصرا من رسوم المصاحف الأولى"
+        },
+        {
+          "id": "D",
+          "text": "استمدت جميع وحداتها من العمارة البيزنطية وحدها"
+        },
+        {
+          "id": "E",
+          "text": "تطورت من وحدات نباتية دون صلة بالأشكال القديمة"
+        },
+        {
+          "id": "F",
+          "text": "اقتصرت أصولها على الفنون الساسانية وحدها"
+        }
+      ],
+      "correctOptionId": "A",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "islamic_history-legendary-0205",
+      "categoryId": "islamic_history",
+      "difficulty": "legendary",
+      "text": "هل يلزم أن يكون لكل ورقة أو زهرة في الزخارف الإسلامية معنى ديني رمزي محدد؟",
+      "answer": "لا، يغلب استعمالها للزينة دون رمز ثابت",
+      "acceptedAnswers": [],
+      "hint": "فرق بين الشكل الزخرفي وبين التأويل الملزم.",
+      "clues": [],
+      "explanation": "معظم الزخارف النباتية لا تحمل معنى رمزياً لازماً لكل عنصر.",
+      "sources": [
+        "https://www.metmuseum.org/essays/vegetal-patterns-in-islamic-art"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "نعم، لكل عنصر نباتي تفسير ثابت في جميع الأقاليم"
+        },
+        {
+          "id": "B",
+          "text": "لا، يغلب استعمالها للزينة دون رمز ثابت"
+        },
+        {
+          "id": "C",
+          "text": "نعم، يتحدد المعنى من نوع النبات وحده"
+        },
+        {
+          "id": "D",
+          "text": "نعم، كل زهرة ترمز إلى الجنة دون استثناء"
+        },
+        {
+          "id": "E",
+          "text": "نعم، النبات الطبيعي رمزي والمجرد خال من المعنى دائما"
+        },
+        {
+          "id": "F",
+          "text": "نعم، يتحدد المعنى من لون الورقة وحده"
+        }
+      ],
+      "correctOptionId": "B",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "islamic_history-legendary-0206",
+      "categoryId": "islamic_history",
+      "difficulty": "legendary",
+      "text": "ما الخطأ في نسبة ثوب طراز إلى مصنع خاص بناءً على جودة نسيجه وحدها؟",
+      "answer": "الجودة والمواد قد تتشابه في إنتاج المصنعين",
+      "acceptedAnswers": [],
+      "hint": "التصنيف المؤسسي يحتاج قرائن إضافية.",
+      "clues": [],
+      "explanation": "المقال يحذر من الحسم بالصفات التقنية أو النقوش وحدها.",
+      "sources": [
+        "https://www.metmuseum.org/essays/tiraz-inscribed-textiles-from-the-early-islamic-period"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "المصانع العامة استعملت الكتان وحده دائما"
+        },
+        {
+          "id": "B",
+          "text": "الجودة تحدد مدينة الصناعة وحدها قطعا"
+        },
+        {
+          "id": "C",
+          "text": "الجودة والمواد قد تتشابه في إنتاج المصنعين"
+        },
+        {
+          "id": "D",
+          "text": "النقش وحده يثبت المصنع الخاص دون حاجة لقرائن"
+        },
+        {
+          "id": "E",
+          "text": "الخيط الذهبي يدل قطعا على نسيج خاص"
+        },
+        {
+          "id": "F",
+          "text": "الحرير وحده يثبت أن الثوب للخليفة"
+        }
+      ],
+      "correctOptionId": "C",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "islamic_history-legendary-0207",
+      "categoryId": "islamic_history",
+      "difficulty": "legendary",
+      "text": "لماذا لا يعني وجود كتابة على طراز أن جميع حروفها مقروءة أو صحيحة بالضرورة؟",
+      "answer": "قد تؤدي الكتابة دورا زخرفيا حتى مع أخطاء",
+      "acceptedAnswers": [],
+      "hint": "قيمة الشكل قد تكون مقصودة إلى جانب المحتوى.",
+      "clues": [],
+      "explanation": "بعض النقوش غير واضحة أو تتضمن أخطاء مع اهتمامها بالإيقاع البصري.",
+      "sources": [
+        "https://www.metmuseum.org/essays/tiraz-inscribed-textiles-from-the-early-islamic-period"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "لأن كل النقوش أضيفت بعد العثور على القطعة"
+        },
+        {
+          "id": "B",
+          "text": "لأن وظيفتها دائما رقمية وليست لغوية"
+        },
+        {
+          "id": "C",
+          "text": "لأن النقوش تقتصر دائما على أسماء المصانع"
+        },
+        {
+          "id": "D",
+          "text": "قد تؤدي الكتابة دورا زخرفيا حتى مع أخطاء"
+        },
+        {
+          "id": "E",
+          "text": "لأن وضوح الحروف يحدد مكان الصناعة وحده"
+        },
+        {
+          "id": "F",
+          "text": "لأن كل نص طراز ترجمة حرفية لنص فارسي"
+        }
+      ],
+      "correctOptionId": "D",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "islamic_history-legendary-0208",
+      "categoryId": "islamic_history",
+      "difficulty": "legendary",
+      "text": "كيف تساعد البقع على شظايا الطراز المكتشفة في قبور مصر الباحثين في فهم استعمالها؟",
+      "answer": "قد تكشف تماس النسيج مع الجسد المدفون",
+      "acceptedAnswers": [],
+      "hint": "الدليل مادي مرتبط بمكان العثور على القطعة.",
+      "clues": [],
+      "explanation": "يذكر المصدر بقع التماس مع الأجساد بوصفها قرينة على ممارسات الدفن.",
+      "sources": [
+        "https://www.metmuseum.org/essays/tiraz-inscribed-textiles-from-the-early-islamic-period"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "تحدد سنة نسج القطعة من لون البقعة وحده"
+        },
+        {
+          "id": "B",
+          "text": "تثبت أن القطعة استعملت لباس بلاط دون غيره"
+        },
+        {
+          "id": "C",
+          "text": "تثبت أن الصباغة تمت بعد دفن الجسد"
+        },
+        {
+          "id": "D",
+          "text": "تحدد رتبة المتوفى السياسية وحدها"
+        },
+        {
+          "id": "E",
+          "text": "قد تكشف تماس النسيج مع الجسد المدفون"
+        },
+        {
+          "id": "F",
+          "text": "تحدد نوع المصنع دون قراءة النسيج"
+        }
+      ],
+      "correctOptionId": "E",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "islamic_history-legendary-0209",
+      "categoryId": "islamic_history",
+      "difficulty": "legendary",
+      "text": "ما الفرق المقصود بين سدى النسيج ولحمته عند وصف الملحم؟",
+      "answer": "السدى مجموعة الخيوط الطولية واللحمة خيوط تتقاطع معها",
+      "acceptedAnswers": [],
+      "hint": "يختلف اتجاه مجموعتي الخيوط ووظيفتهما في النسج.",
+      "clues": [],
+      "explanation": "وصف الملحم يجمع سدى حريرياً بلحمة من مادة أخرى.",
+      "sources": [
+        "https://www.metmuseum.org/essays/tiraz-inscribed-textiles-from-the-early-islamic-period"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "السدى خيوط عرضية واللحمة خيوط طولية"
+        },
+        {
+          "id": "B",
+          "text": "السدى واللحمة مجموعتان متوازيتان لا تتقاطعان"
+        },
+        {
+          "id": "C",
+          "text": "السدى خيوط الزخرفة واللحمة خيوط أرضية الثوب حصرا"
+        },
+        {
+          "id": "D",
+          "text": "السدى خيوط التطريز واللحمة خيوط النسيج الأصلي"
+        },
+        {
+          "id": "E",
+          "text": "السدى هو الخيط الحريري واللحمة هو القطن في كل نسيج"
+        },
+        {
+          "id": "F",
+          "text": "السدى مجموعة الخيوط الطولية واللحمة خيوط تتقاطع معها"
+        }
+      ],
+      "correctOptionId": "F",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "islamic_history-legendary-0210",
+      "categoryId": "islamic_history",
+      "difficulty": "legendary",
+      "text": "ما الرابط الاقتصادي بين دور مصر وسيطاً تجارياً بين المتوسط والهند ورعاية الفن الفاطمي؟",
+      "answer": "عوائد التجارة ساعدت على تمويل الصناعات والرعاية الفنية",
+      "acceptedAnswers": [],
+      "hint": "فكر في العلاقة بين الرخاء وطلب التحف الفاخرة.",
+      "clues": [],
+      "explanation": "تربط المقالة الرخاء التجاري بثراء البلاط وازدهار الحرف.",
+      "sources": [
+        "https://www.metmuseum.org/essays/the-art-of-the-fatimid-period-909-1171"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "عوائد التجارة ساعدت على تمويل الصناعات والرعاية الفنية"
+        },
+        {
+          "id": "B",
+          "text": "الطلب الخارجي جعل جميع الورش تنتج للتصدير وحده"
+        },
+        {
+          "id": "C",
+          "text": "رخاء التجارة نقل كل الصناعات من مصر إلى الهند"
+        },
+        {
+          "id": "D",
+          "text": "الثروة التجارية ألغت حاجة البلاط لرعاية الحرفيين"
+        },
+        {
+          "id": "E",
+          "text": "التجارة عوضت كل إنتاج محلي بواردات أجنبية"
+        },
+        {
+          "id": "F",
+          "text": "التجارة حصرت الرعاية الفنية في المنسوجات وحدها"
+        }
+      ],
+      "correctOptionId": "A",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "islamic_history-legendary-0211",
+      "categoryId": "islamic_history",
+      "difficulty": "legendary",
+      "text": "ما الذي يميز تفسير مخطط المنصورية كتحدٍّ لبغداد في المقال المتحفي؟",
+      "answer": "هو قراءة تاريخية لدلالة التشابه وليس مجرد قياس هندسي",
+      "acceptedAnswers": [],
+      "hint": "الشكل قد يحمل رسالة منافسة بين عاصمتين.",
+      "clues": [],
+      "explanation": "يعرض المقال التشابه الدائري كتفسير سياسي ممكن لا كدليل وحيد.",
+      "sources": [
+        "https://www.metmuseum.org/essays/the-art-of-the-fatimid-period-909-1171"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "هو إثبات تطابق جميع شوارع المدينتين"
+        },
+        {
+          "id": "B",
+          "text": "هو قراءة تاريخية لدلالة التشابه وليس مجرد قياس هندسي"
+        },
+        {
+          "id": "C",
+          "text": "هو دليل مباشر على اشتراكهما في المعماري نفسه"
+        },
+        {
+          "id": "D",
+          "text": "هو حسم أن المنصورية اقتبست كل وظائف بغداد"
+        },
+        {
+          "id": "E",
+          "text": "هو برهان أن جميع مدن الدولة دائرية"
+        },
+        {
+          "id": "F",
+          "text": "هو دليل أن بغداد بنيت بعد المنصورية"
+        }
+      ],
+      "correctOptionId": "B",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "islamic_history-legendary-0212",
+      "categoryId": "islamic_history",
+      "difficulty": "legendary",
+      "text": "أي كتاب لرشيد الدين عده المتحف من ذرى تصوير المخطوطات الإيلخانية؟",
+      "answer": "جامع التواريخ",
+      "acceptedAnswers": [],
+      "hint": "عمل موسوعي يجمع تاريخ شعوب متعددة.",
+      "clues": [],
+      "explanation": "جامع التواريخ مع الشاهنامة المغولية الكبرى مثالان بارزان.",
+      "sources": [
+        "https://www.metmuseum.org/essays/the-art-of-the-book-in-the-ilkhanid-period"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "تاريخ جهانگشاي"
+        },
+        {
+          "id": "B",
+          "text": "روضة الصفا"
+        },
+        {
+          "id": "C",
+          "text": "جامع التواريخ"
+        },
+        {
+          "id": "D",
+          "text": "حبيب السير"
+        },
+        {
+          "id": "E",
+          "text": "ظفرنامه"
+        },
+        {
+          "id": "F",
+          "text": "تاريخ بيهقي"
+        }
+      ],
+      "correctOptionId": "C",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "islamic_history-legendary-0213",
+      "categoryId": "islamic_history",
+      "difficulty": "legendary",
+      "text": "ما الوسيطان اللذان نقلا كثيراً من المؤثرات التصويرية الصينية إلى رسامي إيران الإيلخانية؟",
+      "answer": "اللفائف والرسوم",
+      "acceptedAnswers": [],
+      "hint": "وسائط يمكن نقلها وتداولها قبل دمج موضوعاتها في الكتب.",
+      "clues": [],
+      "explanation": "يذكر المصدر اللفائف والرسوم بوصفها وسائل نقل مؤثرات الصين.",
+      "sources": [
+        "https://www.metmuseum.org/essays/the-art-of-the-book-in-the-ilkhanid-period"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "التماثيل الرخامية والفسيفساء"
+        },
+        {
+          "id": "B",
+          "text": "النقود والأسلحة"
+        },
+        {
+          "id": "C",
+          "text": "الأواني الخشبية والمرايا فقط"
+        },
+        {
+          "id": "D",
+          "text": "اللفائف والرسوم"
+        },
+        {
+          "id": "E",
+          "text": "الأختام والبرديات الفرعونية"
+        },
+        {
+          "id": "F",
+          "text": "الخرائط البحرية والمدافع"
+        }
+      ],
+      "correctOptionId": "D",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "islamic_history-legendary-0214",
+      "categoryId": "islamic_history",
+      "difficulty": "legendary",
+      "text": "كيف يصف المقال الفرق بين التصوير الإيلخاني المتأخر والتصوير الجلائري اللاحق؟",
+      "answer": "انتقال نحو عالم أهدأ ومشاهد أكثر رمزية",
+      "acceptedAnswers": [],
+      "hint": "الحركة الدرامية خفت بعد ذروة المرحلة السابقة.",
+      "clues": [],
+      "explanation": "استبدلت الروح الدرامية بصور هادئة ومشاهد رمزية شبه ساكنة.",
+      "sources": [
+        "https://www.metmuseum.org/essays/the-art-of-the-book-in-the-ilkhanid-period"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "انتقال إلى صور فوتوغرافية"
+        },
+        {
+          "id": "B",
+          "text": "إلغاء الرسم من الكتب تماما"
+        },
+        {
+          "id": "C",
+          "text": "تحويل كل الصور إلى خرائط"
+        },
+        {
+          "id": "D",
+          "text": "تزايد الحركة الدرامية في كل مشهد"
+        },
+        {
+          "id": "E",
+          "text": "انتقال نحو عالم أهدأ ومشاهد أكثر رمزية"
+        },
+        {
+          "id": "F",
+          "text": "قصر الرسم على الزجاج"
+        }
+      ],
+      "correctOptionId": "E",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "islamic_history-legendary-0215",
+      "categoryId": "islamic_history",
+      "difficulty": "legendary",
+      "text": "أي أسرة لعبت دور الجسر الفني بين الإيلخانيين والتيموريين بحسب المقال المتحفي؟",
+      "answer": "الجلائريون",
+      "acceptedAnswers": [],
+      "hint": "ازدهرت رعايتهم في العراق وإيران في القرن الرابع عشر.",
+      "clues": [],
+      "explanation": "ينص المقال على دور الجلائريين في هذا الانتقال.",
+      "sources": [
+        "https://www.metmuseum.org/essays/the-art-of-the-book-in-the-ilkhanid-period"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "الطولونيون"
+        },
+        {
+          "id": "B",
+          "text": "الأغالبة"
+        },
+        {
+          "id": "C",
+          "text": "المرينيون"
+        },
+        {
+          "id": "D",
+          "text": "الإخشيديون"
+        },
+        {
+          "id": "E",
+          "text": "الزنكيون"
+        },
+        {
+          "id": "F",
+          "text": "الجلائريون"
+        }
+      ],
+      "correctOptionId": "F",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "islamic_history-legendary-0216",
+      "categoryId": "islamic_history",
+      "difficulty": "legendary",
+      "text": "كيف وصلت تصاميم مرسم البلاط الصفوي إلى مجالات تتجاوز المخطوطات؟",
+      "answer": "استلهمت منها صناعة المنسوجات والسجاد",
+      "acceptedAnswers": [],
+      "hint": "انتقلت الرسوم من الورقة إلى الأسطح المنسوجة.",
+      "clues": [],
+      "explanation": "استفادت المنسوجات والسجاد من تصميمات الورشة الملكية.",
+      "sources": [
+        "https://www.metmuseum.org/essays/the-art-of-the-safavids-before-1600"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "استلهمت منها صناعة المنسوجات والسجاد"
+        },
+        {
+          "id": "B",
+          "text": "استعملت حصرا في سبك المدافع"
+        },
+        {
+          "id": "C",
+          "text": "انتقلت حصرا إلى خرائط البحر"
+        },
+        {
+          "id": "D",
+          "text": "ألغت زخارف المنسوجات القديمة تماما"
+        },
+        {
+          "id": "E",
+          "text": "طبعت على الصحف الحديثة فقط"
+        },
+        {
+          "id": "F",
+          "text": "حفظت دون استعمال خارج الورشة"
+        }
+      ],
+      "correctOptionId": "A",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "islamic_history-legendary-0217",
+      "categoryId": "islamic_history",
+      "difficulty": "legendary",
+      "text": "ما الوظيفة الأولى التي صمم من أجلها الميدان الملكي الجديد في أصفهان في عهد الشاه عباس؟",
+      "answer": "المراسم الرسمية والرياضة",
+      "acceptedAnswers": [],
+      "hint": "الساحة مهيأة لأنشطة البلاط والعرض العام.",
+      "clues": [],
+      "explanation": "تصف المقالة الميدان بأنه أنشئ أولاً للمراسم والرياضة.",
+      "sources": [
+        "https://www.metmuseum.org/essays/the-art-of-the-safavids-before-1600"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "دفن الأسرة الحاكمة"
+        },
+        {
+          "id": "B",
+          "text": "المراسم الرسمية والرياضة"
+        },
+        {
+          "id": "C",
+          "text": "حصر صناعة الخزف"
+        },
+        {
+          "id": "D",
+          "text": "استخراج المياه الجوفية"
+        },
+        {
+          "id": "E",
+          "text": "إقامة سجن عام"
+        },
+        {
+          "id": "F",
+          "text": "عزل الأسواق عن المدينة"
+        }
+      ],
+      "correctOptionId": "B",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "islamic_history-legendary-0218",
+      "categoryId": "islamic_history",
+      "difficulty": "legendary",
+      "text": "أي ثلاث تقاليد ورشية جمعتها رعاية طهماسب لتكوين الأسلوب الصفوي في التصوير؟",
+      "answer": "القرا قويونلو والآق قويونلو والتيموريون",
+      "acceptedAnswers": [],
+      "hint": "جمعت الرعاية فنانين من بلاطات سابقة في إيران وما جاورها.",
+      "clues": [],
+      "explanation": "يعدد المقال هذه التقاليد الثلاثة أساساً للتركيب الصفوي.",
+      "sources": [
+        "https://www.metmuseum.org/essays/the-art-of-the-safavids-before-1600"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "الأمويون والأغالبة والمرابطون"
+        },
+        {
+          "id": "B",
+          "text": "الفاطميون والأيوبيون والمماليك"
+        },
+        {
+          "id": "C",
+          "text": "القرا قويونلو والآق قويونلو والتيموريون"
+        },
+        {
+          "id": "D",
+          "text": "الطولونيون والإخشيديون والحفصيون"
+        },
+        {
+          "id": "E",
+          "text": "المرينيون والزيانيون والسعديون"
+        },
+        {
+          "id": "F",
+          "text": "الجلائريون والعثمانيون والأغالبة"
+        }
+      ],
+      "correctOptionId": "C",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "islamic_history-legendary-0219",
+      "categoryId": "islamic_history",
+      "difficulty": "legendary",
+      "text": "كيف أثرت الفتوحات العثمانية في إيران والشام ومصر في تركيبة أهل الفن ببلاط سليم الأول؟",
+      "answer": "زاد حضور الفنانين والعلماء الإيرانيين والعرب",
+      "acceptedAnswers": [],
+      "hint": "الانتقال السياسي سمح بانتقال المهارات والأشخاص.",
+      "clues": [],
+      "explanation": "تربط المقالة ضم المناطق بزيادة وجود أهل الفن والعلم من إيران والعالم العربي.",
+      "sources": [
+        "https://www.metmuseum.org/essays/the-art-of-the-ottomans-before-1600"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "زاد حضور فناني أوروبا دون انتقال عرب أو إيرانيين"
+        },
+        {
+          "id": "B",
+          "text": "اقتصر انتقال الفنانين على صناعة السلاح"
+        },
+        {
+          "id": "C",
+          "text": "انحصر انتقال الخبرات في خزف إزنيق فقط"
+        },
+        {
+          "id": "D",
+          "text": "زاد حضور الفنانين والعلماء الإيرانيين والعرب"
+        },
+        {
+          "id": "E",
+          "text": "انتقلت فنون الكتب دون أن ينتقل الفنانون"
+        },
+        {
+          "id": "F",
+          "text": "قل التنوع الفني بعد ضم جميع هذه الأقاليم"
+        }
+      ],
+      "correctOptionId": "D",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "islamic_history-legendary-0220",
+      "categoryId": "islamic_history",
+      "difficulty": "legendary",
+      "text": "لماذا جمع مجمع الفاتح في إسطنبول بين وظائف دينية وتعليمية واجتماعية وتجارية؟",
+      "answer": "لأنه مشروع عمراني متعدد المؤسسات لا مسجد منفرد",
+      "acceptedAnswers": [],
+      "hint": "اسم المجمع أوسع من وظيفة قاعة الصلاة.",
+      "clues": [],
+      "explanation": "تصف المقالة مشروع محمد الفاتح بجمع هذه الوظائف.",
+      "sources": [
+        "https://www.metmuseum.org/essays/the-art-of-the-ottomans-before-1600"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "لأنه اقتصر على وظيفة التعليم دون خدمة اجتماعية"
+        },
+        {
+          "id": "B",
+          "text": "لأنه جمع قاعة الصلاة والسوق دون مؤسسة تعليمية"
+        },
+        {
+          "id": "C",
+          "text": "لأنه أنشئ قصر إقامة أضيفت إليه صلاة خاصة"
+        },
+        {
+          "id": "D",
+          "text": "لأنه استعمل مدرسة فقط ثم تحول كله إلى مسجد"
+        },
+        {
+          "id": "E",
+          "text": "لأنه مشروع عمراني متعدد المؤسسات لا مسجد منفرد"
+        },
+        {
+          "id": "F",
+          "text": "لأنه خصص للمراسم الرسمية دون خدمات عامة"
+        }
+      ],
+      "correctOptionId": "E",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "islamic_history-legendary-0221",
+      "categoryId": "islamic_history",
+      "difficulty": "legendary",
+      "text": "كيف أسهم إنشاء مجمع وقفي يحمل اسم راعيه في حفظ مكانته عبر الزمن؟",
+      "answer": "أبقى اسمه على مؤسسة عامة مستمرة",
+      "acceptedAnswers": [],
+      "hint": "الغاية تتجاوز المبنى إلى أثره الاجتماعي والاسم المرتبط به.",
+      "clues": [],
+      "explanation": "يذكر المقال دوام اسم الراعي وحماية ثروته ضمن أثر المؤسسة.",
+      "sources": [
+        "https://www.metmuseum.org/essays/the-art-of-the-mamluk-period-1250-1517"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "جعل إرثه مرتبطا بتجارة خاصة تزول بوفاته"
+        },
+        {
+          "id": "B",
+          "text": "ربط اسمه بمؤسسة مغلقة على أسرته حصرا"
+        },
+        {
+          "id": "C",
+          "text": "استبدل جميع الوظائف الخيرية بوظائف عسكرية"
+        },
+        {
+          "id": "D",
+          "text": "أوجب إزالة النقوش بعد وفاة المؤسس"
+        },
+        {
+          "id": "E",
+          "text": "حصر تقديم خدماته في موظفي الدولة وحدهم"
+        },
+        {
+          "id": "F",
+          "text": "أبقى اسمه على مؤسسة عامة مستمرة"
+        }
+      ],
+      "correctOptionId": "F",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "islamic_history-legendary-0222",
+      "categoryId": "islamic_history",
+      "difficulty": "legendary",
+      "text": "ما نوع المباني الذي ازداد في أقاليم المماليك الشرقية لاستيعاب توسع التجارة في القرن الخامس عشر؟",
+      "answer": "الخانات والمخازن التجارية الكبيرة",
+      "acceptedAnswers": [],
+      "hint": "يوفر المكان إقامة أو تخزيناً للتجار وبضائعهم.",
+      "clues": [],
+      "explanation": "مثال المقال خان القاضي المؤرخ 1441م.",
+      "sources": [
+        "https://www.metmuseum.org/essays/the-art-of-the-mamluk-period-1250-1517"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "الخانات والمخازن التجارية الكبيرة"
+        },
+        {
+          "id": "B",
+          "text": "المدارس البحرية"
+        },
+        {
+          "id": "C",
+          "text": "الأبراج الفلكية"
+        },
+        {
+          "id": "D",
+          "text": "قصور الصيد"
+        },
+        {
+          "id": "E",
+          "text": "المسارح الحجرية"
+        },
+        {
+          "id": "F",
+          "text": "حمامات القصور الخاصة"
+        }
+      ],
+      "correctOptionId": "A",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "islamic_history-legendary-0223",
+      "categoryId": "islamic_history",
+      "difficulty": "legendary",
+      "text": "إلى أي تقليد معماري هندي امتد أثر حرف وعمارة قونيا أورغنش بعد مروره بإيران وأفغانستان؟",
+      "answer": "عمارة المغول المسلمين في الهند",
+      "acceptedAnswers": [],
+      "hint": "التأثير وصل إلى إمبراطورية نشأت في الهند في القرن السادس عشر.",
+      "clues": [],
+      "explanation": "تذكر اليونسكو امتداد التأثير إلى عمارة المغول الهندية.",
+      "sources": [
+        "https://whc.unesco.org/en/list/1199/"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "عمارة الموريين القديمة"
+        },
+        {
+          "id": "B",
+          "text": "عمارة المغول المسلمين في الهند"
+        },
+        {
+          "id": "C",
+          "text": "عمارة الغوبتا القديمة"
+        },
+        {
+          "id": "D",
+          "text": "عمارة الممالك الإغريقية"
+        },
+        {
+          "id": "E",
+          "text": "عمارة المغول في الصين حصرا"
+        },
+        {
+          "id": "F",
+          "text": "عمارة الممالك البوذية الأولى"
+        }
+      ],
+      "correctOptionId": "B",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "islamic_history-legendary-0224",
+      "categoryId": "islamic_history",
+      "difficulty": "legendary",
+      "text": "ما قيمة إيتشان كالا التراثية رغم قلة ما بقي فيها من أبنية شديدة القِدم؟",
+      "answer": "تماسك مثال العمارة الإسلامية الآسيوية وحسن حفظه",
+      "acceptedAnswers": [],
+      "hint": "القيمة في وحدة النسيج العمراني لا في عمر أقدم مبنى وحده.",
+      "clues": [],
+      "explanation": "تؤكد اليونسكو تكامل الموقع وحفظ نموذج عمارة آسيا الوسطى.",
+      "sources": [
+        "https://whc.unesco.org/en/list/543/"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "قدم أقدم مبنى وحده دون اعتبار النسيج العمراني"
+        },
+        {
+          "id": "B",
+          "text": "تطابق جميع مبانيها في العصر ومواد البناء"
+        },
+        {
+          "id": "C",
+          "text": "تماسك مثال العمارة الإسلامية الآسيوية وحسن حفظه"
+        },
+        {
+          "id": "D",
+          "text": "عدم احتوائها على أي إضافة من القرن التاسع عشر"
+        },
+        {
+          "id": "E",
+          "text": "بقاء كل منشآتها دون أي ترميم عبر القرون"
+        },
+        {
+          "id": "F",
+          "text": "اقتصار تاريخها على التحصين دون وظائف مدنية"
+        }
+      ],
+      "correctOptionId": "C",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "islamic_history-legendary-0225",
+      "categoryId": "islamic_history",
+      "difficulty": "legendary",
+      "text": "ما العلاقة بين تجارة الذهب عبر الصحراء ومكانة جنّة بوصفها مركزاً لنشر الإسلام؟",
+      "answer": "تعدد أدوار المدينة بين التبادل التجاري والانتشار الثقافي",
+      "acceptedAnswers": [],
+      "hint": "الموقع يجمع شبكة أسواق ووظيفة دينية تاريخية.",
+      "clues": [],
+      "explanation": "الصفحة تصف دورين تجارياً ودينياً في تاريخ المدينة دون اختزالهما.",
+      "sources": [
+        "https://whc.unesco.org/en/list/116/"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "أن نشأة المدينة التجارية كانت بعد انتهاء دورها الديني"
+        },
+        {
+          "id": "B",
+          "text": "أن مكانتها نتجت حصرا عن استقبال حجاج البحر"
+        },
+        {
+          "id": "C",
+          "text": "أن شهرتها التجارية استندت إلى التوابل الهندية وحدها"
+        },
+        {
+          "id": "D",
+          "text": "تعدد أدوار المدينة بين التبادل التجاري والانتشار الثقافي"
+        },
+        {
+          "id": "E",
+          "text": "أن التجارة كانت عبر المحيط لا عبر القوافل الصحراوية"
+        },
+        {
+          "id": "F",
+          "text": "أن وظائفها التجارية كانت منفصلة عن عمرانها القديم"
+        }
+      ],
+      "correctOptionId": "D",
+      "qualityStatus": "reviewed"
+    }
+  ]
+}

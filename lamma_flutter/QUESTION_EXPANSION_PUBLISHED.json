@@ -1,0 +1,119 @@
+{
+  "totalQuestions": 12600,
+  "addedQuestions": 1400,
+  "categories": [
+    {
+      "categoryId": "breaking_news",
+      "questions": 900,
+      "authoredRecords": 100,
+      "added": 100,
+      "reviewed": 0,
+      "sha256": "ba9cd9aa8b18fb91768967b8eb8df501fbc8e67648c088f63ac458eed86303a0"
+    },
+    {
+      "categoryId": "complete_hadith",
+      "questions": 900,
+      "authoredRecords": 100,
+      "added": 100,
+      "reviewed": 110,
+      "sha256": "d7adbe41d89c29fc71d5fca0ce46b8e12c833ba0284fcb379c4cbb7c17f840e0"
+    },
+    {
+      "categoryId": "complete_verse",
+      "questions": 900,
+      "authoredRecords": 100,
+      "added": 100,
+      "reviewed": 105,
+      "sha256": "35f2e960e37f90f8966573c9e7a6a8c010edb008247117f0973bcc7ca2542115"
+    },
+    {
+      "categoryId": "flags",
+      "questions": 900,
+      "authoredRecords": 100,
+      "added": 100,
+      "reviewed": 100,
+      "sha256": "ee9d8a4d4950c4a346180bd854102ddf1c3cb2c8a54fed4cf05f8f9f2485fef0"
+    },
+    {
+      "categoryId": "geography",
+      "questions": 900,
+      "authoredRecords": 100,
+      "added": 100,
+      "reviewed": 0,
+      "sha256": "5f124063f36a57e94795039ddf2e8e1f280089ce9961ca33f0b33753dcac27d5"
+    },
+    {
+      "categoryId": "how_it_works",
+      "questions": 900,
+      "authoredRecords": 648,
+      "added": 100,
+      "reviewed": 1,
+      "sha256": "6d60f7448bce2dea7cb141a31153d0c281f0a42d49642037084368b2cf51995c"
+    },
+    {
+      "categoryId": "islamic_history",
+      "questions": 900,
+      "authoredRecords": 100,
+      "added": 100,
+      "reviewed": 103,
+      "sha256": "0af789c705f9c905c50c3cd9df05b1e052881442a51562ed293d38e4fc6bbdef"
+    },
+    {
+      "categoryId": "maps",
+      "questions": 900,
+      "authoredRecords": 369,
+      "added": 100,
+      "reviewed": 0,
+      "sha256": "0f4f81649b8279daa77a2fb48129fb20c4e09ec8cc060f061b62dc7c827aeb16"
+    },
+    {
+      "categoryId": "meanings",
+      "questions": 900,
+      "authoredRecords": 295,
+      "added": 100,
+      "reviewed": 295,
+      "sha256": "946b3575a8551756da75b02f1310391e8dceaa5178b29c929501b0d344856e70"
+    },
+    {
+      "categoryId": "myths",
+      "questions": 900,
+      "authoredRecords": 100,
+      "added": 100,
+      "reviewed": 100,
+      "sha256": "ab180f595261466af735c553dd83e56418834fa9b2ec314ec1d457cadef6bb05"
+    },
+    {
+      "categoryId": "notable_figures",
+      "questions": 900,
+      "authoredRecords": 297,
+      "added": 100,
+      "reviewed": 2,
+      "sha256": "7a5538fece4ffece38b6b0ce574e0ee125612e035d814c1d3552fc3daaee5056"
+    },
+    {
+      "categoryId": "riddles",
+      "questions": 900,
+      "authoredRecords": 592,
+      "added": 100,
+      "reviewed": 4,
+      "sha256": "e00b5453bea8c81ac738e3e2a12e32c73b4ebf589625e8614ea03342e57a1771"
+    },
+    {
+      "categoryId": "spacetoon",
+      "questions": 900,
+      "authoredRecords": 100,
+      "added": 100,
+      "reviewed": 100,
+      "sha256": "4d2a99aac7eb3d6bb2eb78c1d0d5a8bef21a4d3e645a7f927f06ade70b4217ad"
+    },
+    {
+      "categoryId": "who_am_i",
+      "questions": 900,
+      "authoredRecords": 405,
+      "added": 100,
+      "reviewed": 405,
+      "sha256": "291e95f767b0ec07fdd78718b6da83930051aa0d2d31736a47277b3cbf7fdc85"
+    }
+  ],
+  "scope": "Authored batches plus retained legacy content; draft status preserves outstanding editorial review."
+}

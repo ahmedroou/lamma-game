@@ -1,0 +1,4307 @@
+{
+  "categoryId": "notable_figures",
+  "questions": [
+    {
+      "id": "notable_figures-easy-0201",
+      "categoryId": "notable_figures",
+      "difficulty": "easy",
+      "text": "من صاحب كتاب الجبر الذي شرح في مقدمته أن الحساب يخدم المواريث والتجارة ومسح الأراضي وحفر القنوات، ثم عالج هذه المسائل عملياً؟",
+      "answer": "محمد بن موسى الخوارزمي",
+      "acceptedAnswers": [],
+      "hint": "عمل في بغداد تحت رعاية الخليفة المأمون.",
+      "clues": [],
+      "explanation": "تذكر مقدمة كتاب الخوارزمي هذه الاستخدامات اليومية؛ لم يكن الكتاب عرضاً رمزياً مجرداً.",
+      "sources": [
+        "https://mathshistory.st-andrews.ac.uk/Biographies/Al-Khwarizmi/ — MacTutor، جامعة سانت أندروز، السيرة المقروءة."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "محمد بن موسى الخوارزمي"
+        },
+        {
+          "id": "B",
+          "text": "يعقوب بن إسحاق الكندي"
+        },
+        {
+          "id": "C",
+          "text": "أبو عبد الله المهاني"
+        },
+        {
+          "id": "D",
+          "text": "ثابت بن قرة"
+        },
+        {
+          "id": "E",
+          "text": "أبو كامل شجاع بن أسلم"
+        },
+        {
+          "id": "F",
+          "text": "محمد البتاني"
+        }
+      ],
+      "correctOptionId": "A",
+      "qualityStatus": "unreviewed"
+    },
+    {
+      "id": "notable_figures-easy-0202",
+      "categoryId": "notable_figures",
+      "difficulty": "easy",
+      "text": "أي فيلسوف من بيت الحكمة عهد إليه الخليفة المعتصم بتعليم ابنه أحمد، فجمع العمل العلمي وتربية أمير عباسي؟",
+      "answer": "يعقوب بن إسحاق الكندي",
+      "acceptedAnswers": [],
+      "hint": "نشأ في الكوفة قبل انتقاله إلى بغداد.",
+      "clues": [],
+      "explanation": "تذكر السيرة تكليف المعتصم للكندي بتعليم أحمد؛ الواقعة تخص دوره التعليمي في البلاط.",
+      "sources": [
+        "https://mathshistory.st-andrews.ac.uk/Biographies/Al-Kindi/ — MacTutor، جامعة سانت أندروز، السيرة المقروءة."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "أبو عبد الله المهاني"
+        },
+        {
+          "id": "B",
+          "text": "يعقوب بن إسحاق الكندي"
+        },
+        {
+          "id": "C",
+          "text": "محمد بن موسى الخوارزمي"
+        },
+        {
+          "id": "D",
+          "text": "ثابت بن قرة"
+        },
+        {
+          "id": "E",
+          "text": "أبو كامل شجاع بن أسلم"
+        },
+        {
+          "id": "F",
+          "text": "محمد البتاني"
+        }
+      ],
+      "correctOptionId": "B",
+      "qualityStatus": "unreviewed"
+    },
+    {
+      "id": "notable_figures-easy-0203",
+      "categoryId": "notable_figures",
+      "difficulty": "easy",
+      "text": "أي صاحب مؤلفات في الجبر انتقل لاحقاً من بغداد إلى البلاد الجبلية واهتم بمسائل هندسية مثل حفر الآبار؟",
+      "answer": "أبو بكر الكرجي",
+      "acceptedAnswers": [],
+      "hint": "درس العمليات الحسابية على المقادير الجبرية، ثم اهتم بهندسة المياه.",
+      "clues": [],
+      "explanation": "تربط سيرة الكرجي مرحلته اللاحقة بالموضوعات الهندسية وحفر الآبار، إلى جانب أعماله الرياضية.",
+      "sources": [
+        "https://mathshistory.st-andrews.ac.uk/Biographies/Al-Karaji/ — MacTutor، جامعة سانت أندروز، السيرة المقروءة."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "ابن يونس المصري"
+        },
+        {
+          "id": "B",
+          "text": "أبو سعيد السجزي"
+        },
+        {
+          "id": "C",
+          "text": "أبو بكر الكرجي"
+        },
+        {
+          "id": "D",
+          "text": "الحسن بن الهيثم"
+        },
+        {
+          "id": "E",
+          "text": "أبو الوفاء البوزجاني"
+        },
+        {
+          "id": "F",
+          "text": "أبو سهل القوهي"
+        }
+      ],
+      "correctOptionId": "C",
+      "qualityStatus": "unreviewed"
+    },
+    {
+      "id": "notable_figures-easy-0204",
+      "categoryId": "notable_figures",
+      "difficulty": "easy",
+      "text": "أي فلكي ترد معظم أرصاده في مدينة الرقة على الفرات، مع أرصاد أخرى في أنطاكية، في أواخر القرن التاسع الميلادي؟",
+      "answer": "محمد البتاني",
+      "acceptedAnswers": [],
+      "hint": "نشأ في حران، واستند في عمله إلى رصد الشمس والقمر.",
+      "clues": [],
+      "explanation": "تحدد السيرة الرقة موضعاً لمعظم أرصاد البتاني، وتذكر أنطاكية أيضاً.",
+      "sources": [
+        "https://mathshistory.st-andrews.ac.uk/Biographies/Al-Battani/ — MacTutor، جامعة سانت أندروز، السيرة المقروءة."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "أبو كامل شجاع بن أسلم"
+        },
+        {
+          "id": "B",
+          "text": "ثابت بن قرة"
+        },
+        {
+          "id": "C",
+          "text": "أبو عبد الله المهاني"
+        },
+        {
+          "id": "D",
+          "text": "محمد البتاني"
+        },
+        {
+          "id": "E",
+          "text": "أبو جعفر الخازن"
+        },
+        {
+          "id": "F",
+          "text": "إبراهيم بن سنان"
+        }
+      ],
+      "correctOptionId": "D",
+      "qualityStatus": "unreviewed"
+    },
+    {
+      "id": "notable_figures-medium-0201",
+      "categoryId": "notable_figures",
+      "difficulty": "medium",
+      "text": "من العالم الذي كتب وهو شاب رسالة عن إسقاطات الخرائط، ناقش فيها طرق غيره وأضاف إسقاطاً لنصف الكرة على سطح مستوٍ؟",
+      "answer": "أبو الريحان البيروني",
+      "acceptedAnswers": [],
+      "hint": "أجرى من أعماله المبكرة تحديد خط عرض كاث برصد ارتفاع الشمس.",
+      "clues": [],
+      "explanation": "تذكر السيرة رسالة البيروني في رسم الخرائط قبل عام 995 ومناقشتها إسقاطات جغرافية متعددة.",
+      "sources": [
+        "https://mathshistory.st-andrews.ac.uk/Biographies/Al-Biruni/ — MacTutor، جامعة سانت أندروز، السيرة المقروءة."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "ابن سينا"
+        },
+        {
+          "id": "B",
+          "text": "الحسن بن الهيثم"
+        },
+        {
+          "id": "C",
+          "text": "أبو بكر الكرجي"
+        },
+        {
+          "id": "D",
+          "text": "ابن يونس المصري"
+        },
+        {
+          "id": "E",
+          "text": "أبو الريحان البيروني"
+        },
+        {
+          "id": "F",
+          "text": "أبو سعيد السجزي"
+        }
+      ],
+      "correctOptionId": "E",
+      "qualityStatus": "unreviewed"
+    },
+    {
+      "id": "notable_figures-medium-0202",
+      "categoryId": "notable_figures",
+      "difficulty": "medium",
+      "text": "من الحاسب المصري الذي خصص جزءاً من كتابه في الجبر لتطبيقاته على الخماسي والعشاري المنتظمين، ثم أثرت أعماله في فيبوناتشي؟",
+      "answer": "أبو كامل شجاع بن أسلم",
+      "acceptedAnswers": [],
+      "hint": "يمثل حلقة بين أعمال الخوارزمي والمدرسة الجبرية اللاحقة.",
+      "clues": [],
+      "explanation": "تقسم السيرة كتاب أبي كامل إلى أجزاء، منها تطبيق الجبر على هذين المضلعين، وتبين صلته بأعمال فيبوناتشي.",
+      "sources": [
+        "https://mathshistory.st-andrews.ac.uk/Biographies/Abu_Kamil/ — MacTutor، جامعة سانت أندروز، السيرة المقروءة."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "محمد البتاني"
+        },
+        {
+          "id": "B",
+          "text": "ثابت بن قرة"
+        },
+        {
+          "id": "C",
+          "text": "أبو عبد الله المهاني"
+        },
+        {
+          "id": "D",
+          "text": "يعقوب بن إسحاق الكندي"
+        },
+        {
+          "id": "E",
+          "text": "أبو جعفر الخازن"
+        },
+        {
+          "id": "F",
+          "text": "أبو كامل شجاع بن أسلم"
+        }
+      ],
+      "correctOptionId": "F",
+      "qualityStatus": "unreviewed"
+    },
+    {
+      "id": "notable_figures-medium-0203",
+      "categoryId": "notable_figures",
+      "difficulty": "medium",
+      "text": "من عالم سمرقند الذي تكشف رسائله إلى أبيه في كاشان مجالس أولوغ بيك العلمية وبداية بناء المرصد؟",
+      "answer": "غياث الدين الكاشي",
+      "acceptedAnswers": [],
+      "hint": "كانت رسائله بالفارسية، وتحدث فيها عن تقديره لقاضي زاده بين علماء المجلس.",
+      "clues": [],
+      "explanation": "حفظت رسائل الكاشي إلى أبيه وصفاً للحياة العلمية في سمرقند عند بناء المرصد.",
+      "sources": [
+        "https://mathshistory.st-andrews.ac.uk/Biographies/Al-Kashi/ — MacTutor، جامعة سانت أندروز، السيرة المقروءة."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "غياث الدين الكاشي"
+        },
+        {
+          "id": "B",
+          "text": "أولوغ بيك"
+        },
+        {
+          "id": "C",
+          "text": "قاضي زاده الرومي"
+        },
+        {
+          "id": "D",
+          "text": "أبو الحسن القلصادي"
+        },
+        {
+          "id": "E",
+          "text": "أحمد بن البناء المراكشي"
+        },
+        {
+          "id": "F",
+          "text": "نصير الدين الطوسي"
+        }
+      ],
+      "correctOptionId": "A",
+      "qualityStatus": "unreviewed"
+    },
+    {
+      "id": "notable_figures-medium-0204",
+      "categoryId": "notable_figures",
+      "difficulty": "medium",
+      "text": "من الرياضي الذي تجاوز ما تعلمه من معلميه في بغداد، فتابع بنفسه كتب أبي كامل والكرجي، وكان اهتمامه بالطب قد بدأ بتأثير عم له طبيب؟",
+      "answer": "السموأل المغربي",
+      "acceptedAnswers": [],
+      "hint": "جمع دراسة الطب والرياضيات منذ سن مبكرة في أسرة تهتم بالعلم.",
+      "clues": [],
+      "explanation": "تذكر السيرة الدراسة الذاتية للسموأل بعدما استنفد تعليم معلميه، وتأثير عمه الطبيب في بداياته.",
+      "sources": [
+        "https://mathshistory.st-andrews.ac.uk/Biographies/Al-Samawal/ — MacTutor، جامعة سانت أندروز، السيرة المقروءة."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "شرف الدين الطوسي"
+        },
+        {
+          "id": "B",
+          "text": "السموأل المغربي"
+        },
+        {
+          "id": "C",
+          "text": "نصير الدين الطوسي"
+        },
+        {
+          "id": "D",
+          "text": "عمر الخيام"
+        },
+        {
+          "id": "E",
+          "text": "أحمد بن البناء المراكشي"
+        },
+        {
+          "id": "F",
+          "text": "ابن سينا"
+        }
+      ],
+      "correctOptionId": "B",
+      "qualityStatus": "unreviewed"
+    },
+    {
+      "id": "notable_figures-medium-0205",
+      "categoryId": "notable_figures",
+      "difficulty": "medium",
+      "text": "أي عالم جمع الرياضيات والأخلاق، وكتب «أخلاق ناصري» سنة 1232 وأهداه إلى الحاكم الإسماعيلي ناصر الدين عبد الرحيم؟",
+      "answer": "نصير الدين الطوسي",
+      "acceptedAnswers": [],
+      "hint": "درس في طوس ونيسابور قبل إقامته في الحصون الإسماعيلية.",
+      "clues": [],
+      "explanation": "تذكر السيرة تأليف الطوسي هذا الكتاب الأخلاقي وإهداءه؛ السؤال عن عمله في الفلسفة الأخلاقية.",
+      "sources": [
+        "https://mathshistory.st-andrews.ac.uk/Biographies/Al-Tusi_Nasir/ — MacTutor، جامعة سانت أندروز، السيرة المقروءة."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "أحمد بن البناء المراكشي"
+        },
+        {
+          "id": "B",
+          "text": "شرف الدين الطوسي"
+        },
+        {
+          "id": "C",
+          "text": "نصير الدين الطوسي"
+        },
+        {
+          "id": "D",
+          "text": "السموأل المغربي"
+        },
+        {
+          "id": "E",
+          "text": "عمر الخيام"
+        },
+        {
+          "id": "F",
+          "text": "غياث الدين الكاشي"
+        }
+      ],
+      "correctOptionId": "C",
+      "qualityStatus": "unreviewed"
+    },
+    {
+      "id": "notable_figures-hard-0201",
+      "categoryId": "notable_figures",
+      "difficulty": "hard",
+      "text": "أي مدرس للرياضيات تنقل بين دمشق وحلب والموصل، وتتلمذ عليه كمال الدين بن يونس الذي علّم لاحقاً نصير الدين الطوسي؟",
+      "answer": "شرف الدين الطوسي",
+      "acceptedAnswers": [],
+      "hint": "الاسم العائلي مشترك بين عالمين، لكن المطلوب المعلم الأقدم المتخصص بالجبر.",
+      "clues": [],
+      "explanation": "تصل السيرة شرف الدين بكمال الدين بن يونس ثم بنصير الدين؛ ليست الشخصية المطلوبة مؤسس مرصد مراغة.",
+      "sources": [
+        "https://mathshistory.st-andrews.ac.uk/Biographies/Al-Tusi_Sharaf/ — MacTutor، جامعة سانت أندروز، السيرة المقروءة."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "السموأل المغربي"
+        },
+        {
+          "id": "B",
+          "text": "نصير الدين الطوسي"
+        },
+        {
+          "id": "C",
+          "text": "عمر الخيام"
+        },
+        {
+          "id": "D",
+          "text": "شرف الدين الطوسي"
+        },
+        {
+          "id": "E",
+          "text": "أحمد بن البناء المراكشي"
+        },
+        {
+          "id": "F",
+          "text": "ابن سينا"
+        }
+      ],
+      "correctOptionId": "D",
+      "qualityStatus": "unreviewed"
+    },
+    {
+      "id": "notable_figures-hard-0202",
+      "categoryId": "notable_figures",
+      "difficulty": "hard",
+      "text": "أي رياضي كتب كتاباً عملياً للكتّاب والعمال مستخدماً الأعداد بالكلمات والحساب الذهني، رغم معرفته الجيدة بالأرقام الهندية؟",
+      "answer": "أبو الوفاء البوزجاني",
+      "acceptedAnswers": [],
+      "hint": "كيّف أسلوب الكتاب مع حاجة الدوائر التجارية والإدارية في عصره.",
+      "clues": [],
+      "explanation": "اختار أبو الوفاء حساب الأصابع والأسلوب اللفظي لقرائه، ولا يعني ذلك أنه كان يجهل الأرقام الهندية.",
+      "sources": [
+        "https://mathshistory.st-andrews.ac.uk/Biographies/Abul-Wafa/ — MacTutor، جامعة سانت أندروز، السيرة المقروءة."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "أبو سهل القوهي"
+        },
+        {
+          "id": "B",
+          "text": "أبو محمود الخجندي"
+        },
+        {
+          "id": "C",
+          "text": "أبو سعيد السجزي"
+        },
+        {
+          "id": "D",
+          "text": "ابن يونس المصري"
+        },
+        {
+          "id": "E",
+          "text": "أبو الوفاء البوزجاني"
+        },
+        {
+          "id": "F",
+          "text": "أبو بكر الكرجي"
+        }
+      ],
+      "correctOptionId": "E",
+      "qualityStatus": "unreviewed"
+    },
+    {
+      "id": "notable_figures-hard-0203",
+      "categoryId": "notable_figures",
+      "difficulty": "hard",
+      "text": "من العالم الذي راجع الترجمة العربية التي أنجزها حنين بن إسحاق لكتاب إقليدس «الأصول»، وكانت السريانية لغته الأم مع إتقانه العربية واليونانية؟",
+      "answer": "ثابت بن قرة",
+      "acceptedAnswers": [],
+      "hint": "انتقل من حران إلى بغداد بعد اتصاله ببني موسى.",
+      "clues": [],
+      "explanation": "تذكر السيرة مراجعة ثابت لهذه الترجمة ومهاراته اللغوية؛ لا تنسب إليه أول ترجمة عربية للكتاب.",
+      "sources": [
+        "https://mathshistory.st-andrews.ac.uk/Biographies/Thabit/ — MacTutor، جامعة سانت أندروز، السيرة المقروءة."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "أبو عبد الله المهاني"
+        },
+        {
+          "id": "B",
+          "text": "أبو كامل شجاع بن أسلم"
+        },
+        {
+          "id": "C",
+          "text": "يعقوب بن إسحاق الكندي"
+        },
+        {
+          "id": "D",
+          "text": "محمد البتاني"
+        },
+        {
+          "id": "E",
+          "text": "محمد بن موسى الخوارزمي"
+        },
+        {
+          "id": "F",
+          "text": "ثابت بن قرة"
+        }
+      ],
+      "correctOptionId": "F",
+      "qualityStatus": "unreviewed"
+    },
+    {
+      "id": "notable_figures-hard-0204",
+      "categoryId": "notable_figures",
+      "difficulty": "hard",
+      "text": "أي فلكي تصف سيرته كتاب «زيج الصفائح» بأنه يعرض أسطرلاباً مزوداً بصفائح تحمل جداول وشرحاً لاستخدامها؟",
+      "answer": "أبو جعفر الخازن",
+      "acceptedAnswers": [],
+      "hint": "عمل في مدينة الري تحت رعاية البويهيين.",
+      "clues": [],
+      "explanation": "تناولت جداول الخازن صفائح الأسطرلاب وأداة الرصد؛ المطلوب أبو جعفر الخازن لا عبد الرحمن الخازني.",
+      "sources": [
+        "https://mathshistory.st-andrews.ac.uk/Biographies/Al-Khazin/ — MacTutor، جامعة سانت أندروز، السيرة المقروءة."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "أبو جعفر الخازن"
+        },
+        {
+          "id": "B",
+          "text": "إبراهيم بن سنان"
+        },
+        {
+          "id": "C",
+          "text": "أبو الحسن الإقليدسي"
+        },
+        {
+          "id": "D",
+          "text": "أبو الوفاء البوزجاني"
+        },
+        {
+          "id": "E",
+          "text": "أبو سهل القوهي"
+        },
+        {
+          "id": "F",
+          "text": "أبو محمود الخجندي"
+        }
+      ],
+      "correctOptionId": "A",
+      "qualityStatus": "unreviewed"
+    },
+    {
+      "id": "notable_figures-hard-0205",
+      "categoryId": "notable_figures",
+      "difficulty": "hard",
+      "text": "من العالم الذي صمم أدوات مرصد حديقة القصر في بغداد وصار مديره عند افتتاحه سنة 988 ، قبل أن يتوقف بعد وفاة شرف الدولة؟",
+      "answer": "أبو سهل القوهي",
+      "acceptedAnswers": [],
+      "hint": "اشتهر أيضاً بحل مشكلات هندسية باستعمال القطوع المخروطية.",
+      "clues": [],
+      "explanation": "تذكر السيرة تكليف القوهي وإنشاء المرصد وإدارته، مع حضور أبي الوفاء للافتتاح.",
+      "sources": [
+        "https://mathshistory.st-andrews.ac.uk/Biographies/Al-Quhi/ — MacTutor، جامعة سانت أندروز، السيرة المقروءة."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "أبو الوفاء البوزجاني"
+        },
+        {
+          "id": "B",
+          "text": "أبو سهل القوهي"
+        },
+        {
+          "id": "C",
+          "text": "أبو محمود الخجندي"
+        },
+        {
+          "id": "D",
+          "text": "أبو سعيد السجزي"
+        },
+        {
+          "id": "E",
+          "text": "ابن يونس المصري"
+        },
+        {
+          "id": "F",
+          "text": "أبو بكر الكرجي"
+        }
+      ],
+      "correctOptionId": "B",
+      "qualityStatus": "unreviewed"
+    },
+    {
+      "id": "notable_figures-hard-0206",
+      "categoryId": "notable_figures",
+      "difficulty": "hard",
+      "text": "من الرياضي الأندلسي الذي درس في تلمسان ثم مصر، وأتم رحلة الحج إلى مكة قبل عودته إلى غرناطة في زمن اشتداد الحرب؟",
+      "answer": "أبو الحسن القلصادي",
+      "acceptedAnswers": [],
+      "hint": "بدأ تعليمه في بسطة، وشملت دراسته الفقه وتقسيم المواريث.",
+      "clues": [],
+      "explanation": "تتبع السيرة سفر القلصادي للدراسة والحج ثم عودته إلى غرناطة؛ لا تختزل دوره في الرموز الرياضية.",
+      "sources": [
+        "https://mathshistory.st-andrews.ac.uk/Biographies/Al-Qalasadi/ — MacTutor، جامعة سانت أندروز، السيرة المقروءة."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "غياث الدين الكاشي"
+        },
+        {
+          "id": "B",
+          "text": "أحمد بن البناء المراكشي"
+        },
+        {
+          "id": "C",
+          "text": "أبو الحسن القلصادي"
+        },
+        {
+          "id": "D",
+          "text": "نصير الدين الطوسي"
+        },
+        {
+          "id": "E",
+          "text": "شرف الدين الطوسي"
+        },
+        {
+          "id": "F",
+          "text": "السموأل المغربي"
+        }
+      ],
+      "correctOptionId": "C",
+      "qualityStatus": "unreviewed"
+    },
+    {
+      "id": "notable_figures-hard-0207",
+      "categoryId": "notable_figures",
+      "difficulty": "hard",
+      "text": "من صاحب «الفصول في الحساب الهندي» الذي عدّل طرق الحساب لتناسب القلم والورق بدلاً من لوحة الغبار التي تمحى عليها الأرقام؟",
+      "answer": "أبو الحسن الإقليدسي",
+      "acceptedAnswers": [],
+      "hint": "ألف الكتاب في دمشق في القرن العاشر الميلادي.",
+      "clues": [],
+      "explanation": "عرض الإقليدسي تحويل الحساب الهندي من لوحة الغبار إلى الكتابة بالقلم والورق.",
+      "sources": [
+        "https://mathshistory.st-andrews.ac.uk/Biographies/Al-Uqlidisi/ — MacTutor، جامعة سانت أندروز، السيرة المقروءة."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "إبراهيم بن سنان"
+        },
+        {
+          "id": "B",
+          "text": "أبو الوفاء البوزجاني"
+        },
+        {
+          "id": "C",
+          "text": "أبو جعفر الخازن"
+        },
+        {
+          "id": "D",
+          "text": "أبو الحسن الإقليدسي"
+        },
+        {
+          "id": "E",
+          "text": "أبو سهل القوهي"
+        },
+        {
+          "id": "F",
+          "text": "أبو محمود الخجندي"
+        }
+      ],
+      "correctOptionId": "D",
+      "qualityStatus": "unreviewed"
+    },
+    {
+      "id": "notable_figures-hard-0208",
+      "categoryId": "notable_figures",
+      "difficulty": "hard",
+      "text": "من الرياضي الذي انتقل إلى سمرقند سنة 1070 ، وأتاح له دعم القاضي أبي طاهر تأليف عمله الشهير في براهين مسائل الجبر؟",
+      "answer": "عمر الخيام",
+      "acceptedAnswers": [],
+      "hint": "عاش في زمن السلاجقة، وجمع البحث الرياضي والاهتمام بالشعر.",
+      "clues": [],
+      "explanation": "تذكر السيرة انتقال الخيام ورعاية أبي طاهر؛ الواقعة تخص ظروف التأليف لا اسم التقويم.",
+      "sources": [
+        "https://mathshistory.st-andrews.ac.uk/Biographies/Khayyam/ — MacTutor، جامعة سانت أندروز، السيرة المقروءة."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "ابن سينا"
+        },
+        {
+          "id": "B",
+          "text": "أبو الريحان البيروني"
+        },
+        {
+          "id": "C",
+          "text": "السموأل المغربي"
+        },
+        {
+          "id": "D",
+          "text": "الحسن بن الهيثم"
+        },
+        {
+          "id": "E",
+          "text": "عمر الخيام"
+        },
+        {
+          "id": "F",
+          "text": "شرف الدين الطوسي"
+        }
+      ],
+      "correctOptionId": "E",
+      "qualityStatus": "unreviewed"
+    },
+    {
+      "id": "notable_figures-legendary-0201",
+      "categoryId": "notable_figures",
+      "difficulty": "legendary",
+      "text": "من الرياضي الذي أثبت أن مساحة القطعة المكافئية تساوي أربعة أثلاث مساحة المثلث المحاط بها، وكان حفيد ثابت بن قرة؟",
+      "answer": "إبراهيم بن سنان",
+      "acceptedAnswers": [],
+      "hint": "تناول أيضاً منهجي التحليل والتركيب في حل المسائل الهندسية.",
+      "clues": [],
+      "explanation": "تذكر السيرة هذا البرهان في كتاب إبراهيم عن قياس القطع المكافئ؛ كان امتداداً لدراسة التكامل الهندسي القديم.",
+      "sources": [
+        "https://mathshistory.st-andrews.ac.uk/Biographies/Ibrahim/ — MacTutor، جامعة سانت أندروز، السيرة المقروءة."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "أبو جعفر الخازن"
+        },
+        {
+          "id": "B",
+          "text": "أبو الحسن الإقليدسي"
+        },
+        {
+          "id": "C",
+          "text": "أبو الوفاء البوزجاني"
+        },
+        {
+          "id": "D",
+          "text": "أبو سهل القوهي"
+        },
+        {
+          "id": "E",
+          "text": "أبو محمود الخجندي"
+        },
+        {
+          "id": "F",
+          "text": "إبراهيم بن سنان"
+        }
+      ],
+      "correctOptionId": "F",
+      "qualityStatus": "unreviewed"
+    },
+    {
+      "id": "notable_figures-legendary-0202",
+      "categoryId": "notable_figures",
+      "difficulty": "legendary",
+      "text": "من الرياضي الذي درّس الحساب والجبر والهندسة والفلك في فاس تحت حكم المرينيين، وكانت معظم حياته العلمية في المغرب؟",
+      "answer": "أحمد بن البناء المراكشي",
+      "acceptedAnswers": [],
+      "hint": "كان من أصحاب المصنفات الحسابية التي شرحت أعمال المتقدمين.",
+      "clues": [],
+      "explanation": "تثبت السيرة تدريسه فروع الرياضيات في فاس؛ تتجنب الصياغة الجزم بمدينة مولده المختلف فيها.",
+      "sources": [
+        "https://mathshistory.st-andrews.ac.uk/Biographies/Al-Banna/ — MacTutor، جامعة سانت أندروز، السيرة المقروءة."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "أحمد بن البناء المراكشي"
+        },
+        {
+          "id": "B",
+          "text": "نصير الدين الطوسي"
+        },
+        {
+          "id": "C",
+          "text": "شرف الدين الطوسي"
+        },
+        {
+          "id": "D",
+          "text": "غياث الدين الكاشي"
+        },
+        {
+          "id": "E",
+          "text": "السموأل المغربي"
+        },
+        {
+          "id": "F",
+          "text": "أبو الحسن القلصادي"
+        }
+      ],
+      "correctOptionId": "A",
+      "qualityStatus": "unreviewed"
+    },
+    {
+      "id": "notable_figures-legendary-0203",
+      "categoryId": "notable_figures",
+      "difficulty": "legendary",
+      "text": "من الطبيب الذي أتاحت له معالجة الحاكم الساماني نوح بن منصور دخول مكتبته الملكية، مما وسع اطلاعه في علوم تتجاوز الطب؟",
+      "answer": "ابن سينا",
+      "acceptedAnswers": [],
+      "hint": "تعلم في محيط بخارى، ووصف مراحل من تعليمه في سيرته الذاتية.",
+      "clues": [],
+      "explanation": "تذكر السيرة مكافأة ابن سينا بإتاحة المكتبة بعد العلاج؛ السؤال عن أثر الرعاية في تعليمه.",
+      "sources": [
+        "https://mathshistory.st-andrews.ac.uk/Biographies/Avicenna/ — MacTutor، جامعة سانت أندروز، السيرة المقروءة."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "أبو الريحان البيروني"
+        },
+        {
+          "id": "B",
+          "text": "ابن سينا"
+        },
+        {
+          "id": "C",
+          "text": "الحسن بن الهيثم"
+        },
+        {
+          "id": "D",
+          "text": "أبو بكر الكرجي"
+        },
+        {
+          "id": "E",
+          "text": "ابن يونس المصري"
+        },
+        {
+          "id": "F",
+          "text": "أبو سعيد السجزي"
+        }
+      ],
+      "correctOptionId": "B",
+      "qualityStatus": "unreviewed"
+    },
+    {
+      "id": "notable_figures-legendary-0204",
+      "categoryId": "notable_figures",
+      "difficulty": "legendary",
+      "text": "إلى أي عالم تنسب المسألة التي تطلب تحديد نقطة على مرآة كروية ينعكس عندها ضوء مصدر معلوم نحو عين مشاهد معلوم؟",
+      "answer": "الحسن بن الهيثم",
+      "acceptedAnswers": [],
+      "hint": "تجمع المسألة بين الهندسة والبصريات، وحمل صاحبها اسماً لاتينياً في المراجع الأوروبية.",
+      "clues": [],
+      "explanation": "تعرف هذه باسم مسألة الحسن أو Alhazen ، وهو الاسم اللاتيني لابن الهيثم.",
+      "sources": [
+        "https://mathshistory.st-andrews.ac.uk/Biographies/Al-Haytham/ — MacTutor، جامعة سانت أندروز، السيرة المقروءة."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "أبو الريحان البيروني"
+        },
+        {
+          "id": "B",
+          "text": "أبو بكر الكرجي"
+        },
+        {
+          "id": "C",
+          "text": "الحسن بن الهيثم"
+        },
+        {
+          "id": "D",
+          "text": "ابن سينا"
+        },
+        {
+          "id": "E",
+          "text": "ابن يونس المصري"
+        },
+        {
+          "id": "F",
+          "text": "أبو سعيد السجزي"
+        }
+      ],
+      "correctOptionId": "C",
+      "qualityStatus": "unreviewed"
+    },
+    {
+      "id": "notable_figures-legendary-0205",
+      "categoryId": "notable_figures",
+      "difficulty": "legendary",
+      "text": "أي فلكي ينقل «الزيج الحاكمي الكبير» الذي وضعه أرصاد المهاني المفقودة عن خسوفات بين سنتي 853 و 866 ، فحفظ لنا جزءاً من عمل سابق؟",
+      "answer": "ابن يونس المصري",
+      "acceptedAnswers": [],
+      "hint": "عمل في مصر بدعم الخليفتين العزيز والحاكم.",
+      "clues": [],
+      "explanation": "تذكر سيرة المهاني أن ابن يونس حفظ هذه الأرصاد في زيجه؛ السؤال عن نقل المعرفة الرصدية.",
+      "sources": [
+        "https://mathshistory.st-andrews.ac.uk/Biographies/Yunus/ — MacTutor، جامعة سانت أندروز، السيرة المقروءة.",
+        "https://mathshistory.st-andrews.ac.uk/Biographies/Al-Mahani/ — بيان نقل أرصاد المهاني في الزيج الحاكمي."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "أبو بكر الكرجي"
+        },
+        {
+          "id": "B",
+          "text": "أبو سعيد السجزي"
+        },
+        {
+          "id": "C",
+          "text": "أبو الوفاء البوزجاني"
+        },
+        {
+          "id": "D",
+          "text": "ابن يونس المصري"
+        },
+        {
+          "id": "E",
+          "text": "أبو سهل القوهي"
+        },
+        {
+          "id": "F",
+          "text": "أبو محمود الخجندي"
+        }
+      ],
+      "correctOptionId": "D",
+      "qualityStatus": "unreviewed"
+    },
+    {
+      "id": "notable_figures-legendary-0206",
+      "categoryId": "notable_figures",
+      "difficulty": "legendary",
+      "text": "من الرياضي الذي حوّل مسألة أرخميدس في تقسيم الكرة بنسبة حجمية معينة إلى معادلة تكعيبية، لكنه لم يتمكن من حلها آنذاك؟",
+      "answer": "أبو عبد الله المهاني",
+      "acceptedAnswers": [],
+      "hint": "وصف الخيام هذه الخطوة، ثم نسب الحل بالقطوع المخروطية إلى الخازن.",
+      "clues": [],
+      "explanation": "تذكر السيرة تحويل المهاني المسألة إلى الجبر، وتميز ذلك عن الحل الذي قدمه الخازن لاحقاً.",
+      "sources": [
+        "https://mathshistory.st-andrews.ac.uk/Biographies/Al-Mahani/ — MacTutor، جامعة سانت أندروز، السيرة المقروءة."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "ثابت بن قرة"
+        },
+        {
+          "id": "B",
+          "text": "يعقوب بن إسحاق الكندي"
+        },
+        {
+          "id": "C",
+          "text": "أبو كامل شجاع بن أسلم"
+        },
+        {
+          "id": "D",
+          "text": "محمد البتاني"
+        },
+        {
+          "id": "E",
+          "text": "أبو عبد الله المهاني"
+        },
+        {
+          "id": "F",
+          "text": "محمد بن موسى الخوارزمي"
+        }
+      ],
+      "correctOptionId": "E",
+      "qualityStatus": "unreviewed"
+    },
+    {
+      "id": "notable_figures-legendary-0207",
+      "categoryId": "notable_figures",
+      "difficulty": "legendary",
+      "text": "من صاحب رسالة مؤرخة سنة 969 درست كرة كبيرة تحوي كرات أصغر متماسة، وحسبت حجم الفراغ بينها بدلالة أنصاف أقطارها؟",
+      "answer": "أبو سعيد السجزي",
+      "acceptedAnswers": [],
+      "hint": "عمل في شيراز وتراسل مع البيروني.",
+      "clues": [],
+      "explanation": "تذكر السيرة رسالة السجزي عن قياس الكرات؛ لا تجزم بأنه درس فضاءات رباعية الأبعاد لأن تلك قراءة مختلف فيها.",
+      "sources": [
+        "https://mathshistory.st-andrews.ac.uk/Biographies/Al-Sijzi/ — MacTutor، جامعة سانت أندروز، السيرة المقروءة."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "أبو الوفاء البوزجاني"
+        },
+        {
+          "id": "B",
+          "text": "أبو سهل القوهي"
+        },
+        {
+          "id": "C",
+          "text": "ابن يونس المصري"
+        },
+        {
+          "id": "D",
+          "text": "أبو محمود الخجندي"
+        },
+        {
+          "id": "E",
+          "text": "أبو بكر الكرجي"
+        },
+        {
+          "id": "F",
+          "text": "أبو سعيد السجزي"
+        }
+      ],
+      "correctOptionId": "F",
+      "qualityStatus": "unreviewed"
+    },
+    {
+      "id": "notable_figures-legendary-0208",
+      "categoryId": "notable_figures",
+      "difficulty": "legendary",
+      "text": "من الفلكي الذي بنى في الري سدساً جدارياً ضخماً ذا تدريج للثواني، ثم ناقش البيروني أثر هبوط فتحته بسبب ثقل الأداة في دقة الرصد؟",
+      "answer": "أبو محمود الخجندي",
+      "acceptedAnswers": [],
+      "hint": "حظي برعاية فخر الدولة البويهي عند إنشاء أداة الرصد.",
+      "clues": [],
+      "explanation": "تصف السيرة أداة الخجندي وأرصاد 994 ، وتذكر تفسير البيروني لمصدر الخطأ في قياس الميل.",
+      "sources": [
+        "https://mathshistory.st-andrews.ac.uk/Biographies/Al-Khujandi/ — MacTutor، جامعة سانت أندروز، السيرة المقروءة."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "أبو محمود الخجندي"
+        },
+        {
+          "id": "B",
+          "text": "أبو الوفاء البوزجاني"
+        },
+        {
+          "id": "C",
+          "text": "أبو سهل القوهي"
+        },
+        {
+          "id": "D",
+          "text": "أبو سعيد السجزي"
+        },
+        {
+          "id": "E",
+          "text": "ابن يونس المصري"
+        },
+        {
+          "id": "F",
+          "text": "أبو بكر الكرجي"
+        }
+      ],
+      "correctOptionId": "A",
+      "qualityStatus": "unreviewed"
+    },
+    {
+      "id": "notable_figures-easy-0205",
+      "categoryId": "notable_figures",
+      "difficulty": "easy",
+      "text": "أي شاعر فرنسي أوقف مرض في العين دراسته للهندسة، فعمل مدة في القانون قبل أن يتفرغ للشعر؟",
+      "answer": "سولي برودوم",
+      "acceptedAnswers": [
+        "Sully Prudhomme"
+      ],
+      "hint": "كتب الشعر منذ دراسته، وظهر ديوانه الأول في ستينيات القرن التاسع عشر.",
+      "clues": [],
+      "explanation": "تذكر السيرة تأثير مرض العين في دراسة برودوم، وعمله بالقانون قبل مسيرته الأدبية.",
+      "sources": [
+        "https://www.nobelprize.org/prizes/literature/1901/prudhomme/facts/ — NobelPrize.org، السيرة والنص المؤسسي المقروء."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "جوزويه كاردوتشي"
+        },
+        {
+          "id": "B",
+          "text": "سولي برودوم"
+        },
+        {
+          "id": "C",
+          "text": "روديارد كبلنغ"
+        },
+        {
+          "id": "D",
+          "text": "رابندرانات طاغور"
+        },
+        {
+          "id": "E",
+          "text": "فيرنر فون هايدنستام"
+        },
+        {
+          "id": "F",
+          "text": "كارل شبيتلر"
+        }
+      ],
+      "correctOptionId": "B",
+      "qualityStatus": "unreviewed"
+    },
+    {
+      "id": "notable_figures-easy-0206",
+      "categoryId": "notable_figures",
+      "difficulty": "easy",
+      "text": "أي كاتبة سويدية بدأت الكتابة عملاً جانبياً أثناء التدريس في لاندسكرونا، ثم انتقلت إلى فالون لتعيش من التأليف وحده؟",
+      "answer": "سلمى لاغرلوف",
+      "acceptedAnswers": [
+        "Selma Lagerlöf"
+      ],
+      "hint": "استمدت كثيراً من عالمها السردي من حكايات فارملاند وتقاليدها.",
+      "clues": [],
+      "explanation": "تذكر السيرة انتقال لاغرلوف إلى فالون سنة 1895 وتفرغها للكتابة بعد عملها معلمة.",
+      "sources": [
+        "https://www.nobelprize.org/prizes/literature/1909/lagerlof/facts/ — NobelPrize.org، السيرة والنص المؤسسي المقروء."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "غراتسيا ديليدا"
+        },
+        {
+          "id": "B",
+          "text": "سيغريد أوندست"
+        },
+        {
+          "id": "C",
+          "text": "سلمى لاغرلوف"
+        },
+        {
+          "id": "D",
+          "text": "بيرل باك"
+        },
+        {
+          "id": "E",
+          "text": "غابرييلا ميسترال"
+        },
+        {
+          "id": "F",
+          "text": "توني موريسون"
+        }
+      ],
+      "correctOptionId": "C",
+      "qualityStatus": "unreviewed"
+    },
+    {
+      "id": "notable_figures-easy-0207",
+      "categoryId": "notable_figures",
+      "difficulty": "easy",
+      "text": "من الأديب الذي أسس مدرسة تجريبية في شانتينيكيتان تمزج بين التقاليد التعليمية الهندية والغربية؟",
+      "answer": "رابندرانات طاغور",
+      "acceptedAnswers": [
+        "Rabindranath Tagore"
+      ],
+      "hint": "كتب أصلاً بالبنغالية، وانتشرت أعماله بعد إعادة تقديمها بالإنجليزية.",
+      "clues": [],
+      "explanation": "تذكر سيرة طاغور تأسيس المدرسة سنة 1901 وهدفها في الجمع بين التقاليد التعليمية.",
+      "sources": [
+        "https://www.nobelprize.org/prizes/literature/1913/tagore/facts/ — NobelPrize.org، السيرة والنص المؤسسي المقروء."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "فيرنر فون هايدنستام"
+        },
+        {
+          "id": "B",
+          "text": "روديارد كبلنغ"
+        },
+        {
+          "id": "C",
+          "text": "كارل شبيتلر"
+        },
+        {
+          "id": "D",
+          "text": "رابندرانات طاغور"
+        },
+        {
+          "id": "E",
+          "text": "جوزويه كاردوتشي"
+        },
+        {
+          "id": "F",
+          "text": "وليام بتلر ييتس"
+        }
+      ],
+      "correctOptionId": "D",
+      "qualityStatus": "unreviewed"
+    },
+    {
+      "id": "notable_figures-easy-0208",
+      "categoryId": "notable_figures",
+      "difficulty": "easy",
+      "text": "أي شاعرة تشيلية اتخذت اسماً أدبياً مستلهماً من شاعرين تحبهما هما غابرييله دانونتسيو وفريدريك ميسترال؟",
+      "answer": "غابرييلا ميسترال",
+      "acceptedAnswers": [
+        "Gabriela Mistral"
+      ],
+      "hint": "كان اسمها الأصلي لوسيلا غودوي ألكاياغا، وبدأت عملها بالتعليم.",
+      "clues": [],
+      "explanation": "اشتقت الشاعرة اسم غابرييلا ميسترال من اسمي الشاعرين، وتولت أيضاً وظائف تعليمية وقنصلية.",
+      "sources": [
+        "https://www.nobelprize.org/prizes/literature/1945/mistral/facts/ — NobelPrize.org، السيرة والنص المؤسسي المقروء."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "سلمى لاغرلوف"
+        },
+        {
+          "id": "B",
+          "text": "غراتسيا ديليدا"
+        },
+        {
+          "id": "C",
+          "text": "سيغريد أوندست"
+        },
+        {
+          "id": "D",
+          "text": "بيرل باك"
+        },
+        {
+          "id": "E",
+          "text": "غابرييلا ميسترال"
+        },
+        {
+          "id": "F",
+          "text": "توني موريسون"
+        }
+      ],
+      "correctOptionId": "E",
+      "qualityStatus": "unreviewed"
+    },
+    {
+      "id": "notable_figures-easy-0209",
+      "categoryId": "notable_figures",
+      "difficulty": "easy",
+      "text": "من الروائية التي نشأت متحدثة الصينية والإنجليزية، ثم أسست وكالة «ويلكم هاوس» للتبني إلى جانب نشاطها الأدبي؟",
+      "answer": "بيرل باك",
+      "acceptedAnswers": [
+        "Pearl Buck"
+      ],
+      "hint": "وصفت في رواياتها الحياة اليومية في الصين والتحولات بين التقليد والحداثة.",
+      "clues": [],
+      "explanation": "نشأت بيرل باك في الصين وأسست Welcome House عام 1949 ؛ السؤال عن نشاطها الاجتماعي.",
+      "sources": [
+        "https://www.nobelprize.org/prizes/literature/1938/buck/facts/ — NobelPrize.org، السيرة والنص المؤسسي المقروء."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "سلمى لاغرلوف"
+        },
+        {
+          "id": "B",
+          "text": "غراتسيا ديليدا"
+        },
+        {
+          "id": "C",
+          "text": "سيغريد أوندست"
+        },
+        {
+          "id": "D",
+          "text": "غابرييلا ميسترال"
+        },
+        {
+          "id": "E",
+          "text": "توني موريسون"
+        },
+        {
+          "id": "F",
+          "text": "بيرل باك"
+        }
+      ],
+      "correctOptionId": "F",
+      "qualityStatus": "unreviewed"
+    },
+    {
+      "id": "notable_figures-easy-0210",
+      "categoryId": "notable_figures",
+      "difficulty": "easy",
+      "text": "أي روائي أمريكي نجا من حادثي طائرة سنة 1954 ، لكن الإصابات خلفت ألماً شديداً رافقه بقية حياته؟",
+      "answer": "إرنست همنغواي",
+      "acceptedAnswers": [
+        "Ernest Hemingway"
+      ],
+      "hint": "سبق أن عمل مراسلاً في أوروبا وكتب عن الحرب والبرية والفقد.",
+      "clues": [],
+      "explanation": "تذكر السيرة حادثي الطائرة اللذين نجا منهما همنغواي عام 1954 وآثارهما طويلة الأمد.",
+      "sources": [
+        "https://www.nobelprize.org/prizes/literature/1954/hemingway/facts/ — NobelPrize.org، السيرة والنص المؤسسي المقروء."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "إرنست همنغواي"
+        },
+        {
+          "id": "B",
+          "text": "هالدور لاكسنس"
+        },
+        {
+          "id": "C",
+          "text": "فرانسوا مورياك"
+        },
+        {
+          "id": "D",
+          "text": "بار لاغركفيست"
+        },
+        {
+          "id": "E",
+          "text": "ألبير كامو"
+        },
+        {
+          "id": "F",
+          "text": "برتراند راسل"
+        }
+      ],
+      "correctOptionId": "A",
+      "qualityStatus": "unreviewed"
+    },
+    {
+      "id": "notable_figures-easy-0211",
+      "categoryId": "notable_figures",
+      "difficulty": "easy",
+      "text": "من الروائي الأمريكي صاحب «اللؤلؤة» المنشورة سنة 1947 و«شرق عدن» المنشورة سنة 1952 ؟",
+      "answer": "جون شتاينبك",
+      "acceptedAnswers": [
+        "John Steinbeck"
+      ],
+      "hint": "تعاطف في عالمه الأدبي مع الفقراء، وصور الظلم الاجتماعي بحس فكاهي وملاحظة دقيقة.",
+      "clues": [],
+      "explanation": "تذكر مؤسسة نوبل هذين العملين ضمن أبرز مؤلفات شتاينبك؛ هما واقعتان مختلفتان عن خبرته الزراعية.",
+      "sources": [
+        "https://www.nobelprize.org/prizes/literature/1962/steinbeck/facts/ — NobelPrize.org، السيرة والنص المؤسسي المقروء."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "إيفو أندريتش"
+        },
+        {
+          "id": "B",
+          "text": "جون شتاينبك"
+        },
+        {
+          "id": "C",
+          "text": "بوريس باسترناك"
+        },
+        {
+          "id": "D",
+          "text": "ألبير كامو"
+        },
+        {
+          "id": "E",
+          "text": "هالدور لاكسنس"
+        },
+        {
+          "id": "F",
+          "text": "إرنست همنغواي"
+        }
+      ],
+      "correctOptionId": "B",
+      "qualityStatus": "unreviewed"
+    },
+    {
+      "id": "notable_figures-medium-0206",
+      "categoryId": "notable_figures",
+      "difficulty": "medium",
+      "text": "أي شاعر إيطالي بدأ كتابة الشعر صغيراً ونشر مجموعته الأولى Rime سنة 1857 ، ثم انتخب عضواً في مجلس الشيوخ؟",
+      "answer": "جوزويه كاردوتشي",
+      "acceptedAnswers": [
+        "Giosuè Carducci"
+      ],
+      "hint": "استلهم الشعر الكلاسيكي والإيطالي، وكان أيضاً ناقداً أدبياً واجتماعياً.",
+      "clues": [],
+      "explanation": "تذكر السيرة مجموعة كاردوتشي الأولى وانتخابه للشيوخ سنة 1890.",
+      "sources": [
+        "https://www.nobelprize.org/prizes/literature/1906/carducci/facts/ — NobelPrize.org، السيرة والنص المؤسسي المقروء."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "روديارد كبلنغ"
+        },
+        {
+          "id": "B",
+          "text": "سولي برودوم"
+        },
+        {
+          "id": "C",
+          "text": "جوزويه كاردوتشي"
+        },
+        {
+          "id": "D",
+          "text": "رابندرانات طاغور"
+        },
+        {
+          "id": "E",
+          "text": "فيرنر فون هايدنستام"
+        },
+        {
+          "id": "F",
+          "text": "كارل شبيتلر"
+        }
+      ],
+      "correctOptionId": "C",
+      "qualityStatus": "unreviewed"
+    },
+    {
+      "id": "notable_figures-medium-0207",
+      "categoryId": "notable_figures",
+      "difficulty": "medium",
+      "text": "أي أديب ولد في مومباي وتحدث في طفولته الإنجليزية والهندية والبرتغالية، مما ظهر في اهتمام كتابته باللغة والهوية؟",
+      "answer": "روديارد كبلنغ",
+      "acceptedAnswers": [
+        "Rudyard Kipling"
+      ],
+      "hint": "تشكلت حياته المبكرة بين الهند والإقامة عند أقارب في إنجلترا.",
+      "clues": [],
+      "explanation": "تذكر السيرة طفولة كبلنغ متعددة اللغات وأثرها في عالمه الأدبي.",
+      "sources": [
+        "https://www.nobelprize.org/prizes/literature/1907/kipling/facts/ — NobelPrize.org، السيرة والنص المؤسسي المقروء."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "جوزويه كاردوتشي"
+        },
+        {
+          "id": "B",
+          "text": "سولي برودوم"
+        },
+        {
+          "id": "C",
+          "text": "رابندرانات طاغور"
+        },
+        {
+          "id": "D",
+          "text": "روديارد كبلنغ"
+        },
+        {
+          "id": "E",
+          "text": "فيرنر فون هايدنستام"
+        },
+        {
+          "id": "F",
+          "text": "كارل شبيتلر"
+        }
+      ],
+      "correctOptionId": "D",
+      "qualityStatus": "unreviewed"
+    },
+    {
+      "id": "notable_figures-medium-0208",
+      "categoryId": "notable_figures",
+      "difficulty": "medium",
+      "text": "من الكاتب النرويجي الذي بدأ ناقداً أدبياً ومسرحياً، ثم أتاح نجاح روايته Synnøve Solbakken أن يعيش من الكتابة؟",
+      "answer": "بيورنستيارنه بيورنسون",
+      "acceptedAnswers": [
+        "Bjørnstjerne Bjørnson"
+      ],
+      "hint": "صورت أعماله المبكرة حياة الفلاحين في الريف النرويجي.",
+      "clues": [],
+      "explanation": "تذكر السيرة أن نجاح هذه الرواية أتاح لبيورنسون إعالة نفسه من التأليف.",
+      "sources": [
+        "https://www.nobelprize.org/prizes/literature/1903/bjornson/facts/ — NobelPrize.org، السيرة والنص المؤسسي المقروء."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "تيودور مومسن"
+        },
+        {
+          "id": "B",
+          "text": "هنريك شينكيفيتش"
+        },
+        {
+          "id": "C",
+          "text": "رودولف أوكن"
+        },
+        {
+          "id": "D",
+          "text": "سلمى لاغرلوف"
+        },
+        {
+          "id": "E",
+          "text": "بيورنستيارنه بيورنسون"
+        },
+        {
+          "id": "F",
+          "text": "بول هايزه"
+        }
+      ],
+      "correctOptionId": "E",
+      "qualityStatus": "unreviewed"
+    },
+    {
+      "id": "notable_figures-medium-0209",
+      "categoryId": "notable_figures",
+      "difficulty": "medium",
+      "text": "من الأديب الألماني الذي نال دكتوراه عن الشعر البروفنسالي، ثم أتاحت له منحة بروسية مواصلة البحث في مكتبات إيطالية؟",
+      "answer": "بول هايزه",
+      "acceptedAnswers": [
+        "Paul Heyse"
+      ],
+      "hint": "درس فقه اللغات الرومانسية واشتهر لاحقاً بالقصة القصيرة.",
+      "clues": [],
+      "explanation": "تذكر السيرة دراسة هايزه في بون ومنحته الإيطالية؛ الواقعة عن تكوينه العلمي.",
+      "sources": [
+        "https://www.nobelprize.org/prizes/literature/1910/heyse/facts/ — NobelPrize.org، السيرة والنص المؤسسي المقروء."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "سلمى لاغرلوف"
+        },
+        {
+          "id": "B",
+          "text": "رودولف أوكن"
+        },
+        {
+          "id": "C",
+          "text": "هنريك شينكيفيتش"
+        },
+        {
+          "id": "D",
+          "text": "رومان رولان"
+        },
+        {
+          "id": "E",
+          "text": "بيورنستيارنه بيورنسون"
+        },
+        {
+          "id": "F",
+          "text": "بول هايزه"
+        }
+      ],
+      "correctOptionId": "F",
+      "qualityStatus": "unreviewed"
+    },
+    {
+      "id": "notable_figures-medium-0210",
+      "categoryId": "notable_figures",
+      "difficulty": "medium",
+      "text": "أي كاتب مسرحي تخلى عن العمل القانوني، وأقام بعض عروض مسرحياته في دير قديم بالنورماندي تحت إخراج الممثلة جورجيت لوبلان؟",
+      "answer": "موريس ماترلينك",
+      "acceptedAnswers": [
+        "Maurice Maeterlinck"
+      ],
+      "hint": "اتبعت مسرحياته الرمزية أكثر من الوصف الواقعي المباشر.",
+      "clues": [],
+      "explanation": "تذكر السيرة إقامة ماترلينك ولوبلان في الدير خلال الصيف وعروض مسرحياته هناك.",
+      "sources": [
+        "https://www.nobelprize.org/prizes/literature/1911/maeterlinck/facts/ — NobelPrize.org، السيرة والنص المؤسسي المقروء."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "موريس ماترلينك"
+        },
+        {
+          "id": "B",
+          "text": "غيرهارت هاوبتمان"
+        },
+        {
+          "id": "C",
+          "text": "خاثينتو بينافينتي"
+        },
+        {
+          "id": "D",
+          "text": "جورج برنارد شو"
+        },
+        {
+          "id": "E",
+          "text": "لويجي بيرانديللو"
+        },
+        {
+          "id": "F",
+          "text": "يوجين أونيل"
+        }
+      ],
+      "correctOptionId": "A",
+      "qualityStatus": "unreviewed"
+    },
+    {
+      "id": "notable_figures-medium-0211",
+      "categoryId": "notable_figures",
+      "difficulty": "medium",
+      "text": "أي شاعر أيرلندي نشأ في بيت فنانين بدبلن، وكونت إجازاته الصيفية في كوناخت علاقته بالطبيعة والحكايات المحلية؟",
+      "answer": "وليام بتلر ييتس",
+      "acceptedAnswers": [
+        "William Butler Yeats"
+      ],
+      "hint": "ساهم اهتمامه بالتراث المحلي في حركة إحياء الأدب الأيرلندي.",
+      "clues": [],
+      "explanation": "تذكر السيرة أثر صيف ييتس في كوناخت وحكايات المنطقة في تطوره الشعري.",
+      "sources": [
+        "https://www.nobelprize.org/prizes/literature/1923/yeats/facts/ — NobelPrize.org، السيرة والنص المؤسسي المقروء."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "كارل شبيتلر"
+        },
+        {
+          "id": "B",
+          "text": "وليام بتلر ييتس"
+        },
+        {
+          "id": "C",
+          "text": "فيرنر فون هايدنستام"
+        },
+        {
+          "id": "D",
+          "text": "إريك أكسل كارلفلت"
+        },
+        {
+          "id": "E",
+          "text": "رابندرانات طاغور"
+        },
+        {
+          "id": "F",
+          "text": "روديارد كبلنغ"
+        }
+      ],
+      "correctOptionId": "B",
+      "qualityStatus": "unreviewed"
+    },
+    {
+      "id": "notable_figures-hard-0209",
+      "categoryId": "notable_figures",
+      "difficulty": "hard",
+      "text": "من الأديب السويدي الذي درس الرسم في روما وباريس، ثم أخذ الشعر يشغل دفاتر رسومه حتى اختاره مهنة؟",
+      "answer": "فيرنر فون هايدنستام",
+      "acceptedAnswers": [
+        "Verner von Heidenstam"
+      ],
+      "hint": "شارك لاحقاً في تيار أدبي سويدي يميل إلى الرومانسية في تسعينيات القرن التاسع عشر.",
+      "clues": [],
+      "explanation": "تذكر السيرة انتقال هايدنستام من دراسة الرسم إلى الكتابة؛ ليست واقعة عن عمله التاريخي الأشهر.",
+      "sources": [
+        "https://www.nobelprize.org/prizes/literature/1916/heidenstam/facts/ — NobelPrize.org، السيرة والنص المؤسسي المقروء."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "رابندرانات طاغور"
+        },
+        {
+          "id": "B",
+          "text": "كارل شبيتلر"
+        },
+        {
+          "id": "C",
+          "text": "فيرنر فون هايدنستام"
+        },
+        {
+          "id": "D",
+          "text": "وليام بتلر ييتس"
+        },
+        {
+          "id": "E",
+          "text": "روديارد كبلنغ"
+        },
+        {
+          "id": "F",
+          "text": "جوزويه كاردوتشي"
+        }
+      ],
+      "correctOptionId": "C",
+      "qualityStatus": "unreviewed"
+    },
+    {
+      "id": "notable_figures-hard-0210",
+      "categoryId": "notable_figures",
+      "difficulty": "hard",
+      "text": "من الكاتب السويسري الذي رفض وظيفة قس كي يتفرغ للأدب، وعمل مدرساً خاصاً في روسيا قبل عودته إلى بلاده؟",
+      "answer": "كارل شبيتلر",
+      "acceptedAnswers": [
+        "Carl Spitteler"
+      ],
+      "hint": "كتب الشعر والصحافة واستقر لاحقاً في لوتسرن.",
+      "clues": [],
+      "explanation": "تذكر السيرة دراسة شبيتلر للقانون واللاهوت ورفضه الوظيفة ثم عمله في روسيا.",
+      "sources": [
+        "https://www.nobelprize.org/prizes/literature/1919/spitteler/facts/ — NobelPrize.org، السيرة والنص المؤسسي المقروء."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "فيرنر فون هايدنستام"
+        },
+        {
+          "id": "B",
+          "text": "وليام بتلر ييتس"
+        },
+        {
+          "id": "C",
+          "text": "رابندرانات طاغور"
+        },
+        {
+          "id": "D",
+          "text": "كارل شبيتلر"
+        },
+        {
+          "id": "E",
+          "text": "روديارد كبلنغ"
+        },
+        {
+          "id": "F",
+          "text": "إريك أكسل كارلفلت"
+        }
+      ],
+      "correctOptionId": "D",
+      "qualityStatus": "unreviewed"
+    },
+    {
+      "id": "notable_figures-hard-0211",
+      "categoryId": "notable_figures",
+      "difficulty": "hard",
+      "text": "أي روائي فرنسي تولى أمانة مكتبة مجلس الشيوخ، وكان قد نشأ في متجر كتب يديره أبوه ويختص بمواد الثورة الفرنسية؟",
+      "answer": "أناتول فرانس",
+      "acceptedAnswers": [
+        "Anatole France"
+      ],
+      "hint": "عرف أيضاً بالصحافة والشعر ودعمه موقف إميل زولا في قضية دريفوس.",
+      "clues": [],
+      "explanation": "تذكر السيرة متجر الأب وعمل فرانس أميناً للمكتبة سنة 1876.",
+      "sources": [
+        "https://www.nobelprize.org/prizes/literature/1921/france/facts/ — NobelPrize.org، السيرة والنص المؤسسي المقروء."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "كنوت هامسون"
+        },
+        {
+          "id": "B",
+          "text": "غراتسيا ديليدا"
+        },
+        {
+          "id": "C",
+          "text": "رومان رولان"
+        },
+        {
+          "id": "D",
+          "text": "هنري برغسون"
+        },
+        {
+          "id": "E",
+          "text": "أناتول فرانس"
+        },
+        {
+          "id": "F",
+          "text": "سيغريد أوندست"
+        }
+      ],
+      "correctOptionId": "E",
+      "qualityStatus": "unreviewed"
+    },
+    {
+      "id": "notable_figures-hard-0212",
+      "categoryId": "notable_figures",
+      "difficulty": "hard",
+      "text": "من الفيلسوف الحائز نوبل الأدب الذي درّس في بازل قبل انتقاله إلى يينا، وكان موضوع دكتوراه دراسته فقه اللغة الكلاسيكية والتاريخ؟",
+      "answer": "رودولف أوكن",
+      "acceptedAnswers": [
+        "Rudolf Eucken"
+      ],
+      "hint": "ركز فلسفياً على تجربة الإنسان ولقاء الطبيعة بالحياة الروحية.",
+      "clues": [],
+      "explanation": "تذكر السيرة انتقال أوكن من بازل إلى يينا وتكوينه الدراسي؛ الجائزة كانت في الأدب.",
+      "sources": [
+        "https://www.nobelprize.org/prizes/literature/1908/eucken/facts/ — NobelPrize.org، السيرة والنص المؤسسي المقروء."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "سلمى لاغرلوف"
+        },
+        {
+          "id": "B",
+          "text": "بول هايزه"
+        },
+        {
+          "id": "C",
+          "text": "هنريك شينكيفيتش"
+        },
+        {
+          "id": "D",
+          "text": "بيورنستيارنه بيورنسون"
+        },
+        {
+          "id": "E",
+          "text": "تيودور مومسن"
+        },
+        {
+          "id": "F",
+          "text": "رودولف أوكن"
+        }
+      ],
+      "correctOptionId": "F",
+      "qualityStatus": "unreviewed"
+    },
+    {
+      "id": "notable_figures-hard-0213",
+      "categoryId": "notable_figures",
+      "difficulty": "hard",
+      "text": "أي أديب آيسلندي اختار اسم المنطقة الريفية التي نشأ فيها لقباً له، وعاش في الولايات المتحدة أواخر عشرينيات القرن العشرين؟",
+      "answer": "هالدور لاكسنس",
+      "acceptedAnswers": [
+        "Halldór Laxness"
+      ],
+      "hint": "انتقل في حياته بين الاهتمام بالكاثوليكية والاشتراكية.",
+      "clues": [],
+      "explanation": "تذكر السيرة أن لاكسنس اتخذ اسم Laxnes لقباً وأن إقامته الأمريكية ساهمت في تغير اهتماماته.",
+      "sources": [
+        "https://www.nobelprize.org/prizes/literature/1955/laxness/facts/ — NobelPrize.org، السيرة والنص المؤسسي المقروء."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "هالدور لاكسنس"
+        },
+        {
+          "id": "B",
+          "text": "إرنست همنغواي"
+        },
+        {
+          "id": "C",
+          "text": "ألبير كامو"
+        },
+        {
+          "id": "D",
+          "text": "فرانسوا مورياك"
+        },
+        {
+          "id": "E",
+          "text": "بوريس باسترناك"
+        },
+        {
+          "id": "F",
+          "text": "بار لاغركفيست"
+        }
+      ],
+      "correctOptionId": "A",
+      "qualityStatus": "unreviewed"
+    },
+    {
+      "id": "notable_figures-hard-0214",
+      "categoryId": "notable_figures",
+      "difficulty": "hard",
+      "text": "من الشاعر الإسباني الذي استقر في بورتوريكو بعد إقامته في كوبا والولايات المتحدة، وأصبح أستاذاً للأدب الإسباني في جامعتها؟",
+      "answer": "خوان رامون خيمينيث",
+      "acceptedAnswers": [
+        "Juan Ramón Jiménez"
+      ],
+      "hint": "كان قد غادر إسبانيا بعد الحرب الأهلية، وتزوج المترجمة زنوبيا كامبروبي.",
+      "clues": [],
+      "explanation": "تذكر السيرة رحلة خيمينيث بعد الحرب الأهلية واستقراره وعمله الجامعي في بورتوريكو.",
+      "sources": [
+        "https://www.nobelprize.org/prizes/literature/1956/jimenez/facts/ — NobelPrize.org، السيرة والنص المؤسسي المقروء."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "سالفاتوري كوازيمودو"
+        },
+        {
+          "id": "B",
+          "text": "خوان رامون خيمينيث"
+        },
+        {
+          "id": "C",
+          "text": "سان جون بيرس"
+        },
+        {
+          "id": "D",
+          "text": "توماس ستيرنز إليوت"
+        },
+        {
+          "id": "E",
+          "text": "غابرييلا ميسترال"
+        },
+        {
+          "id": "F",
+          "text": "إريك أكسل كارلفلت"
+        }
+      ],
+      "correctOptionId": "B",
+      "qualityStatus": "unreviewed"
+    },
+    {
+      "id": "notable_figures-legendary-0209",
+      "categoryId": "notable_figures",
+      "difficulty": "legendary",
+      "text": "أي روائي بولندي اشترى له اكتتاب شعبي قلعة عام 1900 تكريماً لشعبيته، وكانت مرتبطة بتاريخ أسرته؟",
+      "answer": "هنريك شينكيفيتش",
+      "acceptedAnswers": [
+        "Henryk Sienkiewicz"
+      ],
+      "hint": "اشتهر بالرواية التاريخية وبدأ أيضاً بالصحافة وأدب الرحلة.",
+      "clues": [],
+      "explanation": "تذكر السيرة الحملة الشعبية التي اشترت قلعة لشينكيفيتش؛ السؤال عن تكريم مجتمعي لا جائزة أدبية.",
+      "sources": [
+        "https://www.nobelprize.org/prizes/literature/1905/sienkiewicz/facts/ — NobelPrize.org، السيرة والنص المؤسسي المقروء."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "بيورنستيارنه بيورنسون"
+        },
+        {
+          "id": "B",
+          "text": "تيودور مومسن"
+        },
+        {
+          "id": "C",
+          "text": "هنريك شينكيفيتش"
+        },
+        {
+          "id": "D",
+          "text": "رودولف أوكن"
+        },
+        {
+          "id": "E",
+          "text": "سلمى لاغرلوف"
+        },
+        {
+          "id": "F",
+          "text": "بول هايزه"
+        }
+      ],
+      "correctOptionId": "C",
+      "qualityStatus": "unreviewed"
+    },
+    {
+      "id": "notable_figures-legendary-0210",
+      "categoryId": "notable_figures",
+      "difficulty": "legendary",
+      "text": "من المسرحي الإسباني الذي ترك دراسة القانون بعد وفاة أبيه الطبيب وحصوله على ميراث، ثم عمل محرراً وكاتباً بعد سفره في أوروبا؟",
+      "answer": "خاثينتو بينافينتي",
+      "acceptedAnswers": [
+        "Jacinto Benavente"
+      ],
+      "hint": "كانت معظم أعماله المنشورة مسرحيات، ومن بيئاتها بلدة خيالية تدعى موراليدا.",
+      "clues": [],
+      "explanation": "تذكر السيرة قرار بينافينتي بعد الميراث ورحلته ثم عمله الصحفي والأدبي.",
+      "sources": [
+        "https://www.nobelprize.org/prizes/literature/1922/benavente/facts/ — NobelPrize.org، السيرة والنص المؤسسي المقروء."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "جورج برنارد شو"
+        },
+        {
+          "id": "B",
+          "text": "غيرهارت هاوبتمان"
+        },
+        {
+          "id": "C",
+          "text": "موريس ماترلينك"
+        },
+        {
+          "id": "D",
+          "text": "خاثينتو بينافينتي"
+        },
+        {
+          "id": "E",
+          "text": "لويجي بيرانديللو"
+        },
+        {
+          "id": "F",
+          "text": "يوجين أونيل"
+        }
+      ],
+      "correctOptionId": "D",
+      "qualityStatus": "unreviewed"
+    },
+    {
+      "id": "notable_figures-legendary-0211",
+      "categoryId": "notable_figures",
+      "difficulty": "legendary",
+      "text": "أي أديب فنلندي عاد إلى قريته بعد خمس سنوات من دراسة الطب دون درجة، وصارت مشاركاته الإذاعية لاحقاً محبوبة؟",
+      "answer": "فرانس إميل سيلانبا",
+      "acceptedAnswers": [
+        "Frans Eemil Sillanpää"
+      ],
+      "hint": "نشأ في أسرة زراعية وتأثر بمنظور علمي في تصوير الإنسان والطبيعة.",
+      "clues": [],
+      "explanation": "تذكر السيرة دراسة سيلانبا الطبية وعودته للكتابة ونجاح ظهوره الإذاعي.",
+      "sources": [
+        "https://www.nobelprize.org/prizes/literature/1939/sillanpaa/facts/ — NobelPrize.org، السيرة والنص المؤسسي المقروء."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "بيرل باك"
+        },
+        {
+          "id": "B",
+          "text": "روجيه مارتان دو غار"
+        },
+        {
+          "id": "C",
+          "text": "يوهانس فلهلم ينسن"
+        },
+        {
+          "id": "D",
+          "text": "إيفان بونين"
+        },
+        {
+          "id": "E",
+          "text": "فرانس إميل سيلانبا"
+        },
+        {
+          "id": "F",
+          "text": "جون غالزورثي"
+        }
+      ],
+      "correctOptionId": "E",
+      "qualityStatus": "unreviewed"
+    },
+    {
+      "id": "notable_figures-legendary-0212",
+      "categoryId": "notable_figures",
+      "difficulty": "legendary",
+      "text": "أي أديب دنماركي ترك دراسة الطب في كوبنهاغن للأدب، وعمل فترة قصيرة مراسلاً في إسبانيا لصحيفة «بوليتيكن»؟",
+      "answer": "يوهانس فلهلم ينسن",
+      "acceptedAnswers": [
+        "Johannes V. Jensen"
+      ],
+      "hint": "رسم قصصاً من منطقة هيمرلاند التي ولد فيها.",
+      "clues": [],
+      "explanation": "تذكر السيرة دراسة ينسن ورحلاته وعمله مراسلاً لهذه الصحيفة في إسبانيا.",
+      "sources": [
+        "https://www.nobelprize.org/prizes/literature/1944/jensen/facts/ — NobelPrize.org، السيرة والنص المؤسسي المقروء."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "هيرمان هسه"
+        },
+        {
+          "id": "B",
+          "text": "أندريه جيد"
+        },
+        {
+          "id": "C",
+          "text": "فرانس إميل سيلانبا"
+        },
+        {
+          "id": "D",
+          "text": "بيرل باك"
+        },
+        {
+          "id": "E",
+          "text": "برتراند راسل"
+        },
+        {
+          "id": "F",
+          "text": "يوهانس فلهلم ينسن"
+        }
+      ],
+      "correctOptionId": "F",
+      "qualityStatus": "unreviewed"
+    },
+    {
+      "id": "notable_figures-legendary-0213",
+      "categoryId": "notable_figures",
+      "difficulty": "legendary",
+      "text": "أي شاعر فرنسي ولد في غوادلوب لأسرة تملك مزرعة قهوة وأخرى لقصب السكر، ثم درس القانون في جامعة بوردو؟",
+      "answer": "سان جون بيرس",
+      "acceptedAnswers": [
+        "Saint-John Perse"
+      ],
+      "hint": "اختار اسماً أدبياً، بينما حمل في عمله الرسمي اسم ألكسيس ليجيه.",
+      "clues": [],
+      "explanation": "تذكر السيرة طفولة سان جون بيرس في غوادلوب ومزارع أسرته ثم دراسة القانون في بوردو.",
+      "sources": [
+        "https://www.nobelprize.org/prizes/literature/1960/perse/facts/ — NobelPrize.org، السيرة والنص المؤسسي المقروء."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "سان جون بيرس"
+        },
+        {
+          "id": "B",
+          "text": "سالفاتوري كوازيمودو"
+        },
+        {
+          "id": "C",
+          "text": "خوان رامون خيمينيث"
+        },
+        {
+          "id": "D",
+          "text": "توماس ستيرنز إليوت"
+        },
+        {
+          "id": "E",
+          "text": "غابرييلا ميسترال"
+        },
+        {
+          "id": "F",
+          "text": "إريك أكسل كارلفلت"
+        }
+      ],
+      "correctOptionId": "A",
+      "qualityStatus": "unreviewed"
+    },
+    {
+      "id": "notable_figures-legendary-0214",
+      "categoryId": "notable_figures",
+      "difficulty": "legendary",
+      "text": "من الروائي الذي درس في زغرب وفيينا وغراتس وكراكوف، ثم خدم دبلوماسياً ليوغوسلافيا قبل تفرغه الأكبر للكتابة؟",
+      "answer": "إيفو أندريتش",
+      "acceptedAnswers": [
+        "Ivo Andrić"
+      ],
+      "hint": "نشأ في البوسنة، وكان التاريخ خلفية رئيسية لأعماله السردية.",
+      "clues": [],
+      "explanation": "تذكر السيرة محطات دراسة أندريتش وخدمته الدبلوماسية قبل الأربعينيات.",
+      "sources": [
+        "https://www.nobelprize.org/prizes/literature/1961/andric/facts/ — NobelPrize.org، السيرة والنص المؤسسي المقروء."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "جون شتاينبك"
+        },
+        {
+          "id": "B",
+          "text": "إيفو أندريتش"
+        },
+        {
+          "id": "C",
+          "text": "بوريس باسترناك"
+        },
+        {
+          "id": "D",
+          "text": "ألبير كامو"
+        },
+        {
+          "id": "E",
+          "text": "هالدور لاكسنس"
+        },
+        {
+          "id": "F",
+          "text": "إرنست همنغواي"
+        }
+      ],
+      "correctOptionId": "B",
+      "qualityStatus": "unreviewed"
+    },
+    {
+      "id": "notable_figures-easy-0212",
+      "categoryId": "notable_figures",
+      "difficulty": "easy",
+      "text": "من الفيزيائي الذي نجح سنة 1987 في إمساك بكتيريا حية بشعاع ليزر دون إيذائها، باستخدام الملاقط الضوئية؟",
+      "answer": "آرثر أشكين",
+      "acceptedAnswers": [
+        "Arthur Ashkin"
+      ],
+      "hint": "أجرى معظم مسيرته البحثية في مختبرات بيل بعد دراسة الفيزياء في كولومبيا وكورنيل.",
+      "clues": [],
+      "explanation": "تذكر السيرة نجاح أشكين في احتجاز بكتيريا حية بالملاقط الضوئية؛ الضغط الضوئي يحبس الأجسام الدقيقة.",
+      "sources": [
+        "https://www.nobelprize.org/prizes/physics/2018/ashkin/facts/ — NobelPrize.org، السيرة والنص المؤسسي المقروء."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "دينيس غابور"
+        },
+        {
+          "id": "B",
+          "text": "ألفريد كاستلر"
+        },
+        {
+          "id": "C",
+          "text": "آرثر أشكين"
+        },
+        {
+          "id": "D",
+          "text": "فريتس زيرنيكه"
+        },
+        {
+          "id": "E",
+          "text": "سيرج أروش"
+        },
+        {
+          "id": "F",
+          "text": "ديفيد وينلاند"
+        }
+      ],
+      "correctOptionId": "C",
+      "qualityStatus": "unreviewed"
+    },
+    {
+      "id": "notable_figures-easy-0213",
+      "categoryId": "notable_figures",
+      "difficulty": "easy",
+      "text": "أي عالمة درست الهندسة الميكانيكية والطيران، ثم استخدمت التغيير الوراثي والانتقاء لتطوير إنزيمات نافعة وصناعة وقود متجدد؟",
+      "answer": "فرانسيس أرنولد",
+      "acceptedAnswers": [
+        "Frances H. Arnold"
+      ],
+      "hint": "انتقلت من هندسة الطاقة إلى تطوير البروتينات في معهد كاليفورنيا للتقنية.",
+      "clues": [],
+      "explanation": "جمعت أرنولد التكوين الهندسي بالتطور الموجّه للإنزيمات وأسست شركة لإنتاج الوقود المتجدد.",
+      "sources": [
+        "https://www.nobelprize.org/prizes/chemistry/2018/arnold/facts/ — NobelPrize.org، السيرة والنص المؤسسي المقروء."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "كارولين بيرتوزي"
+        },
+        {
+          "id": "B",
+          "text": "آدا يوناث"
+        },
+        {
+          "id": "C",
+          "text": "دوروثي كروفوت هودجكن"
+        },
+        {
+          "id": "D",
+          "text": "فرانسيس أرنولد"
+        },
+        {
+          "id": "E",
+          "text": "روزالين يالو"
+        },
+        {
+          "id": "F",
+          "text": "باربرا مكلينتوك"
+        }
+      ],
+      "correctOptionId": "D",
+      "qualityStatus": "unreviewed"
+    },
+    {
+      "id": "notable_figures-easy-0214",
+      "categoryId": "notable_figures",
+      "difficulty": "easy",
+      "text": "أي كيميائية طورت تفاعلات يمكن إجراؤها داخل كائن حي دون تعطيل الكيمياء الطبيعية لخلية، لتتبع العمليات الحيوية؟",
+      "answer": "كارولين بيرتوزي",
+      "acceptedAnswers": [
+        "Carolyn Bertozzi"
+      ],
+      "hint": "وسعت استعمال كيمياء النقر إلى أنظمة حية.",
+      "clues": [],
+      "explanation": "طورت بيرتوزي التفاعلات المتعامدة حيوياً، بحيث لا تتداخل مع التفاعلات الطبيعية المعتادة داخل الخلية.",
+      "sources": [
+        "https://www.nobelprize.org/prizes/chemistry/2022/bertozzi/facts/ — NobelPrize.org، السيرة والنص المؤسسي المقروء."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "فرانسيس أرنولد"
+        },
+        {
+          "id": "B",
+          "text": "آدا يوناث"
+        },
+        {
+          "id": "C",
+          "text": "دوروثي كروفوت هودجكن"
+        },
+        {
+          "id": "D",
+          "text": "روزالين يالو"
+        },
+        {
+          "id": "E",
+          "text": "كارولين بيرتوزي"
+        },
+        {
+          "id": "F",
+          "text": "باربرا مكلينتوك"
+        }
+      ],
+      "correctOptionId": "E",
+      "qualityStatus": "unreviewed"
+    },
+    {
+      "id": "notable_figures-easy-0215",
+      "categoryId": "notable_figures",
+      "difficulty": "easy",
+      "text": "أي مخترع عمل ضمن فرق ابتكرت الحاسبة المحمولة والطابعة الحرارية، ثم درس خلال إجازة من شركته توليد الكهرباء من ضوء الشمس بتقنية السيليكون؟",
+      "answer": "جاك كيلبي",
+      "acceptedAnswers": [
+        "Jack Kilby"
+      ],
+      "hint": "ارتبطت مسيرته بشركة تكساس إنسترومنتس وتصغير المكونات الإلكترونية.",
+      "clues": [],
+      "explanation": "تذكر سيرة كيلبي عمله ضمن فرق الحاسبة والطابعة، ثم أبحاث الطاقة الشمسية خلال إجازته؛ لم يكن المخترع الوحيد لهذه الأجهزة.",
+      "sources": [
+        "https://www.nobelprize.org/prizes/physics/2000/kilby/facts/ — NobelPrize.org، السيرة والنص المؤسسي المقروء.",
+        "https://www.nobelprize.org/prizes/physics/2000/kilby/biographical/ — السيرة الذاتية، فقرة فرق الحاسبة والطابعة والطاقة الشمسية."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "جورج شارباك"
+        },
+        {
+          "id": "B",
+          "text": "دينيس غابور"
+        },
+        {
+          "id": "C",
+          "text": "لويس ألفاريز"
+        },
+        {
+          "id": "D",
+          "text": "كلاوس فون كليتسينغ"
+        },
+        {
+          "id": "E",
+          "text": "دونالد غلاسر"
+        },
+        {
+          "id": "F",
+          "text": "جاك كيلبي"
+        }
+      ],
+      "correctOptionId": "F",
+      "qualityStatus": "unreviewed"
+    },
+    {
+      "id": "notable_figures-medium-0212",
+      "categoryId": "notable_figures",
+      "difficulty": "medium",
+      "text": "أي عالم طور في الثمانينيات طرقاً لتحديد بنية جزيئات حيوية كبيرة بدراسة رنين النوى الذي يتغير مع بيئتها الكيميائية؟",
+      "answer": "كورت فوتريش",
+      "acceptedAnswers": [
+        "Kurt Wüthrich"
+      ],
+      "hint": "عاد إلى المعهد التقني في زيورخ بعد العمل في بيركلي ومختبرات بيل.",
+      "clues": [],
+      "explanation": "طور فوتريش استخدام الرنين المغناطيسي النووي في رسم بنى الجزيئات الحيوية الكبيرة.",
+      "sources": [
+        "https://www.nobelprize.org/prizes/chemistry/2002/wuthrich/facts/ — NobelPrize.org، السيرة والنص المؤسسي المقروء."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "كورت فوتريش"
+        },
+        {
+          "id": "B",
+          "text": "ريتشارد إرنست"
+        },
+        {
+          "id": "C",
+          "text": "جون فين"
+        },
+        {
+          "id": "D",
+          "text": "كويتشي تاناكا"
+        },
+        {
+          "id": "E",
+          "text": "روجر كورنبرغ"
+        },
+        {
+          "id": "F",
+          "text": "آرنه تيسيليوس"
+        }
+      ],
+      "correctOptionId": "A",
+      "qualityStatus": "unreviewed"
+    },
+    {
+      "id": "notable_figures-medium-0213",
+      "categoryId": "notable_figures",
+      "difficulty": "medium",
+      "text": "من قاد الجزء من مشروع «كوبي» الذي كشف اختلافات طفيفة في إشعاع الخلفية الكونية بين اتجاهات السماء، بدلاً من قياس الشكل العام للطيف فقط؟",
+      "answer": "جورج سموت",
+      "acceptedAnswers": [
+        "George F. Smoot"
+      ],
+      "hint": "تركز النتيجة على بذور التكتلات التي نشأت منها البنى الكونية.",
+      "clues": [],
+      "explanation": "قاد سموت قياس التفاوتات الاتجاهية التي أعلنت سنة 1992 ؛ يختلف ذلك عن قياس الطيف المرتبط بماذر.",
+      "sources": [
+        "https://www.nobelprize.org/prizes/physics/2006/smoot/facts/ — NobelPrize.org، السيرة والنص المؤسسي المقروء."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "جون ماذر"
+        },
+        {
+          "id": "B",
+          "text": "جورج سموت"
+        },
+        {
+          "id": "C",
+          "text": "ريموند ديفيس"
+        },
+        {
+          "id": "D",
+          "text": "ماساتوشي كوشيبا"
+        },
+        {
+          "id": "E",
+          "text": "ريكاردو جياكوني"
+        },
+        {
+          "id": "F",
+          "text": "آدم ريس"
+        }
+      ],
+      "correctOptionId": "B",
+      "qualityStatus": "unreviewed"
+    },
+    {
+      "id": "notable_figures-medium-0214",
+      "categoryId": "notable_figures",
+      "difficulty": "medium",
+      "text": "من عزل البروتين الفلوري الأخضر من قنديل البحر Aequorea victoria ، ولاحظ وهجه الأخضر عند إضاءته بالأشعة فوق البنفسجية؟",
+      "answer": "أوسامو شيمومورا",
+      "acceptedAnswers": [
+        "Osamu Shimomura"
+      ],
+      "hint": "كانت هذه بداية الطريق قبل نقل جين البروتين إلى كائنات أخرى.",
+      "clues": [],
+      "explanation": "عزل شيمومورا GFP في الستينيات ودرس خاصيته الضوئية؛ تميز هذه الخطوة دوره عن تطوير التطبيقات والألوان لاحقاً.",
+      "sources": [
+        "https://www.nobelprize.org/prizes/chemistry/2008/shimomura/facts/ — NobelPrize.org، السيرة والنص المؤسسي المقروء."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "مارتن تشالفي"
+        },
+        {
+          "id": "B",
+          "text": "روجر تسين"
+        },
+        {
+          "id": "C",
+          "text": "أوسامو شيمومورا"
+        },
+        {
+          "id": "D",
+          "text": "روجر كورنبرغ"
+        },
+        {
+          "id": "E",
+          "text": "غريغوري وينتر"
+        },
+        {
+          "id": "F",
+          "text": "كورت فوتريش"
+        }
+      ],
+      "correctOptionId": "C",
+      "qualityStatus": "unreviewed"
+    },
+    {
+      "id": "notable_figures-medium-0215",
+      "categoryId": "notable_figures",
+      "difficulty": "medium",
+      "text": "من نقل جين البروتين الفلوري الأخضر إلى الدودة C. elegans ، فأضاء خلايا محددة أمكن تتبعها بدلاً من الاكتفاء بدراسته في قنديل البحر؟",
+      "answer": "مارتن تشالفي",
+      "acceptedAnswers": [
+        "Martin Chalfie"
+      ],
+      "hint": "جمع دراسة الكيمياء الحيوية والبحث في كامبريدج قبل عمله بكولومبيا.",
+      "clues": [],
+      "explanation": "استعمل تشالفي GFP علامة في كائن آخر، وأظهرت تجربته إمكان تتبع خلايا معينة.",
+      "sources": [
+        "https://www.nobelprize.org/prizes/chemistry/2008/chalfie/facts/ — NobelPrize.org، السيرة والنص المؤسسي المقروء."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "أوسامو شيمومورا"
+        },
+        {
+          "id": "B",
+          "text": "روجر تسين"
+        },
+        {
+          "id": "C",
+          "text": "روجر كورنبرغ"
+        },
+        {
+          "id": "D",
+          "text": "مارتن تشالفي"
+        },
+        {
+          "id": "E",
+          "text": "جورج بي سميث"
+        },
+        {
+          "id": "F",
+          "text": "غريغوري وينتر"
+        }
+      ],
+      "correctOptionId": "D",
+      "qualityStatus": "unreviewed"
+    },
+    {
+      "id": "notable_figures-medium-0216",
+      "categoryId": "notable_figures",
+      "difficulty": "medium",
+      "text": "من فسر آلية الضوء في البروتين الفلوري الأخضر وطور تغيير ألوانه، ليسمح بمتابعة بروتينات وعمليات عدة في الوقت نفسه؟",
+      "answer": "روجر تسين",
+      "acceptedAnswers": [
+        "Roger Y. Tsien"
+      ],
+      "hint": "جاءت مساهمته بعد عزل البروتين وإثبات إمكان استعماله علامة حيوية.",
+      "clues": [],
+      "explanation": "طوّر تسين فهم الآلية والألوان المختلفة للبروتينات الفلورية، فوسع تطبيقها في التصوير الحيوي.",
+      "sources": [
+        "https://www.nobelprize.org/prizes/chemistry/2008/tsien/facts/ — NobelPrize.org، السيرة والنص المؤسسي المقروء."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "أوسامو شيمومورا"
+        },
+        {
+          "id": "B",
+          "text": "مارتن تشالفي"
+        },
+        {
+          "id": "C",
+          "text": "روجر كورنبرغ"
+        },
+        {
+          "id": "D",
+          "text": "كورت فوتريش"
+        },
+        {
+          "id": "E",
+          "text": "روجر تسين"
+        },
+        {
+          "id": "F",
+          "text": "غريغوري وينتر"
+        }
+      ],
+      "correctOptionId": "E",
+      "qualityStatus": "unreviewed"
+    },
+    {
+      "id": "notable_figures-medium-0217",
+      "categoryId": "notable_figures",
+      "difficulty": "medium",
+      "text": "من استخدم العرض بالعاثيات في التطور الموجه للأجسام المضادة، مما قاد إلى أدوية استعملت منذ 2002 ضد أمراض مثل التهاب المفاصل الروماتويدي؟",
+      "answer": "غريغوري وينتر",
+      "acceptedAnswers": [
+        "Sir Gregory P. Winter"
+      ],
+      "hint": "عمل في مختبر البيولوجيا الجزيئية بكامبريدج وأنشأ شركات مرتبطة بالأجسام المضادة.",
+      "clues": [],
+      "explanation": "وسع وينتر استعمال العرض بالعاثيات إلى الأجسام المضادة العلاجية؛ يختلف دوره عن ابتكار وسيلة العرض نفسها.",
+      "sources": [
+        "https://www.nobelprize.org/prizes/chemistry/2018/winter/facts/ — NobelPrize.org، السيرة والنص المؤسسي المقروء."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "جورج بي سميث"
+        },
+        {
+          "id": "B",
+          "text": "فرانسيس أرنولد"
+        },
+        {
+          "id": "C",
+          "text": "روجر كورنبرغ"
+        },
+        {
+          "id": "D",
+          "text": "مارتن تشالفي"
+        },
+        {
+          "id": "E",
+          "text": "كورت فوتريش"
+        },
+        {
+          "id": "F",
+          "text": "غريغوري وينتر"
+        }
+      ],
+      "correctOptionId": "F",
+      "qualityStatus": "unreviewed"
+    },
+    {
+      "id": "notable_figures-hard-0215",
+      "categoryId": "notable_figures",
+      "difficulty": "hard",
+      "text": "أي عالم أثبت أن رش العينة في مجال كهربائي ينتج قطرات مشحونة، ثم يترك تبخر الماء أيونات غازية يمكن تحليلها بمطياف الكتلة؟",
+      "answer": "جون فين",
+      "acceptedAnswers": [
+        "John B. Fenn"
+      ],
+      "hint": "أتاحت طريقته التعامل مع جزيئات حيوية كبيرة كان تحليلها بهذه الوسيلة صعباً.",
+      "clues": [],
+      "explanation": "عرض فين التأين بالرش الكهربائي سنة 1988 ؛ ليس هو دور تاناكا المرتبط بالنبضات الليزرية.",
+      "sources": [
+        "https://www.nobelprize.org/prizes/chemistry/2002/fenn/facts/ — NobelPrize.org، السيرة والنص المؤسسي المقروء."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "جون فين"
+        },
+        {
+          "id": "B",
+          "text": "كويتشي تاناكا"
+        },
+        {
+          "id": "C",
+          "text": "كورت فوتريش"
+        },
+        {
+          "id": "D",
+          "text": "ريتشارد إرنست"
+        },
+        {
+          "id": "E",
+          "text": "جورج بي سميث"
+        },
+        {
+          "id": "F",
+          "text": "روجر كورنبرغ"
+        }
+      ],
+      "correctOptionId": "A",
+      "qualityStatus": "unreviewed"
+    },
+    {
+      "id": "notable_figures-hard-0216",
+      "categoryId": "notable_figures",
+      "difficulty": "hard",
+      "text": "أي باحث بشركة شيمادزو نال نوبل الكيمياء 2002 لدوره في طرائق التأين اللينة بالجزيئات الحيوية الكبيرة، مستعملاً النبضات الليزرية في عمله؟",
+      "answer": "كويتشي تاناكا",
+      "acceptedAnswers": [
+        "Koichi Tanaka"
+      ],
+      "hint": "كان يعمل في كيوتو؛ شارك الجائزة مع باحثين استخدموا الرش الكهربائي والرنين النووي.",
+      "clues": [],
+      "explanation": "يرتبط عمل تاناكا بالتأين الليزري اللين للعينات الكبيرة؛ يميز ذلك طريقته عن طريقة جون فين.",
+      "sources": [
+        "https://www.nobelprize.org/prizes/chemistry/2002/tanaka/facts/ — NobelPrize.org، السيرة والنص المؤسسي المقروء."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "جون فين"
+        },
+        {
+          "id": "B",
+          "text": "كويتشي تاناكا"
+        },
+        {
+          "id": "C",
+          "text": "كورت فوتريش"
+        },
+        {
+          "id": "D",
+          "text": "هيديكي شيراكاوا"
+        },
+        {
+          "id": "E",
+          "text": "أوسامو شيمومورا"
+        },
+        {
+          "id": "F",
+          "text": "روجر تسين"
+        }
+      ],
+      "correctOptionId": "B",
+      "qualityStatus": "unreviewed"
+    },
+    {
+      "id": "notable_figures-hard-0217",
+      "categoryId": "notable_figures",
+      "difficulty": "hard",
+      "text": "من ربط جزيئين حلقيين في «كاتينان» كحلقتي سلسلة يمكنهما الحركة النسبية، في خطوة نحو الآلات الجزيئية؟",
+      "answer": "جان بيير سوفاج",
+      "acceptedAnswers": [
+        "Jean-Pierre Sauvage"
+      ],
+      "hint": "نال دكتوراه في ستراسبورغ بإشراف جان ماري لين.",
+      "clues": [],
+      "explanation": "قدم سوفاج الكاتينان سنة 1983 ؛ يختلف عن الحلقة المثبتة على محور في الروتاكسان.",
+      "sources": [
+        "https://www.nobelprize.org/prizes/chemistry/2016/sauvage/facts/ — NobelPrize.org، السيرة والنص المؤسسي المقروء."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "فريزر ستودارت"
+        },
+        {
+          "id": "B",
+          "text": "برنارد فيرينغا"
+        },
+        {
+          "id": "C",
+          "text": "جان بيير سوفاج"
+        },
+        {
+          "id": "D",
+          "text": "كورت فوتريش"
+        },
+        {
+          "id": "E",
+          "text": "جون فين"
+        },
+        {
+          "id": "F",
+          "text": "كارولين بيرتوزي"
+        }
+      ],
+      "correctOptionId": "C",
+      "qualityStatus": "unreviewed"
+    },
+    {
+      "id": "notable_figures-hard-0218",
+      "categoryId": "notable_figures",
+      "difficulty": "hard",
+      "text": "من طور «روتاكسان» تكون فيه حلقة جزيئية مثبتة حول جزيء يعمل كمحور، لتتحرك أجزاء الآلة الصغيرة بعضها بالنسبة إلى بعض؟",
+      "answer": "فريزر ستودارت",
+      "acceptedAnswers": [
+        "Sir J. Fraser Stoddart"
+      ],
+      "hint": "ولد في إدنبرة وعمل في جامعات بريطانية وأمريكية.",
+      "clues": [],
+      "explanation": "طور ستودارت الروتاكسان سنة 1991 ؛ ليس بنية الحلقتين المتشابكتين التي طورها سوفاج.",
+      "sources": [
+        "https://www.nobelprize.org/prizes/chemistry/2016/stoddart/facts/ — NobelPrize.org، السيرة والنص المؤسسي المقروء."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "جان بيير سوفاج"
+        },
+        {
+          "id": "B",
+          "text": "برنارد فيرينغا"
+        },
+        {
+          "id": "C",
+          "text": "كارولين بيرتوزي"
+        },
+        {
+          "id": "D",
+          "text": "فريزر ستودارت"
+        },
+        {
+          "id": "E",
+          "text": "كورت فوتريش"
+        },
+        {
+          "id": "F",
+          "text": "كويتشي تاناكا"
+        }
+      ],
+      "correctOptionId": "D",
+      "qualityStatus": "unreviewed"
+    },
+    {
+      "id": "notable_figures-hard-0219",
+      "categoryId": "notable_figures",
+      "difficulty": "hard",
+      "text": "من بنى محركاً جزيئياً تدور فيه شفرة باستمرار في اتجاه واحد، بدلاً من حركة تتبدل عشوائياً بين اتجاهين؟",
+      "answer": "برنارد فيرينغا",
+      "acceptedAnswers": [
+        "Bernard L. Feringa"
+      ],
+      "hint": "درس في غرونينغن ثم عمل في شركة شل قبل العودة إلى الجامعة.",
+      "clues": [],
+      "explanation": "قدم فيرينغا نموذج المحرك الجزيئي سنة 1999 ، وكان اتجاه الدوران المنتظم عنصره المميز.",
+      "sources": [
+        "https://www.nobelprize.org/prizes/chemistry/2016/feringa/facts/ — NobelPrize.org، السيرة والنص المؤسسي المقروء."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "جان بيير سوفاج"
+        },
+        {
+          "id": "B",
+          "text": "فريزر ستودارت"
+        },
+        {
+          "id": "C",
+          "text": "كارولين بيرتوزي"
+        },
+        {
+          "id": "D",
+          "text": "فرانسيس أرنولد"
+        },
+        {
+          "id": "E",
+          "text": "برنارد فيرينغا"
+        },
+        {
+          "id": "F",
+          "text": "جون فين"
+        }
+      ],
+      "correctOptionId": "E",
+      "qualityStatus": "unreviewed"
+    },
+    {
+      "id": "notable_figures-hard-0220",
+      "categoryId": "notable_figures",
+      "difficulty": "hard",
+      "text": "من طور عام 1985 طريقة «العرض بالعاثيات» التي تستعمل فيروسات البكتيريا لعرض بروتينات وتطويرها، قبل توسيعها للأجسام المضادة العلاجية؟",
+      "answer": "جورج بي سميث",
+      "acceptedAnswers": [
+        "George P. Smith"
+      ],
+      "hint": "حصل على دكتوراه في علم البكتيريا والمناعة، وأمضى معظم مسيرته بجامعة ميسوري.",
+      "clues": [],
+      "explanation": "ابتكر جورج بي سميث وسيلة العرض بالعاثيات؛ يختلف عن جورج إي سميث المرتبط بمستشعر CCD.",
+      "sources": [
+        "https://www.nobelprize.org/prizes/chemistry/2018/smith/facts/ — NobelPrize.org، السيرة والنص المؤسسي المقروء."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "غريغوري وينتر"
+        },
+        {
+          "id": "B",
+          "text": "فرانسيس أرنولد"
+        },
+        {
+          "id": "C",
+          "text": "مارتن تشالفي"
+        },
+        {
+          "id": "D",
+          "text": "روجر كورنبرغ"
+        },
+        {
+          "id": "E",
+          "text": "كورت فوتريش"
+        },
+        {
+          "id": "F",
+          "text": "جورج بي سميث"
+        }
+      ],
+      "correctOptionId": "F",
+      "qualityStatus": "unreviewed"
+    },
+    {
+      "id": "notable_figures-legendary-0215",
+      "categoryId": "notable_figures",
+      "difficulty": "legendary",
+      "text": "من كان مسؤولاً في مشروع «كوبي» عن القياس الذي أثبت توافق طيف الخلفية الكونية مع إشعاع الجسم الأسود، لا عن اختلافه بين اتجاهات السماء؟",
+      "answer": "جون ماذر",
+      "acceptedAnswers": [
+        "John C. Mather"
+      ],
+      "hint": "عمل في مركز غودارد التابع لناسا، وكان قياسه دليلاً على أصل الإشعاع القديم.",
+      "clues": [],
+      "explanation": "تحدد سيرة ماذر مسؤوليته عن قياس الطيف الذي ظهرت نتيجته سنة 1989 ، مقابل التفاوتات التي قاد سموت قياسها.",
+      "sources": [
+        "https://www.nobelprize.org/prizes/physics/2006/mather/facts/ — NobelPrize.org، السيرة والنص المؤسسي المقروء."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "جون ماذر"
+        },
+        {
+          "id": "B",
+          "text": "جورج سموت"
+        },
+        {
+          "id": "C",
+          "text": "ريموند ديفيس"
+        },
+        {
+          "id": "D",
+          "text": "ماساتوشي كوشيبا"
+        },
+        {
+          "id": "E",
+          "text": "ريكاردو جياكوني"
+        },
+        {
+          "id": "F",
+          "text": "آدم ريس"
+        }
+      ],
+      "correctOptionId": "A",
+      "qualityStatus": "unreviewed"
+    },
+    {
+      "id": "notable_figures-legendary-0216",
+      "categoryId": "notable_figures",
+      "difficulty": "legendary",
+      "text": "من درس الخميرة ليكشف التفاصيل الجزيئية لنسخ المعلومات من DNA إلى RNA في الخلايا حقيقية النواة، ومنها بنية إنزيم بوليميراز RNA ؟",
+      "answer": "روجر كورنبرغ",
+      "acceptedAnswers": [
+        "Roger D. Kornberg"
+      ],
+      "hint": "كان أبوه أيضاً حائزاً نوبل، لكن عمل الابن يتعلق بالنسخ لا عزل بوليميراز DNA.",
+      "clues": [],
+      "explanation": "رسم روجر كورنبرغ آلية النسخ في الخلايا حقيقية النواة ونال نوبل الكيمياء 2006.",
+      "sources": [
+        "https://www.nobelprize.org/prizes/chemistry/2006/kornberg/facts/ — NobelPrize.org، السيرة والنص المؤسسي المقروء."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "روبرت ليفكوفيتز"
+        },
+        {
+          "id": "B",
+          "text": "روجر كورنبرغ"
+        },
+        {
+          "id": "C",
+          "text": "برايان كوبيْلكا"
+        },
+        {
+          "id": "D",
+          "text": "كورت فوتريش"
+        },
+        {
+          "id": "E",
+          "text": "مارتن تشالفي"
+        },
+        {
+          "id": "F",
+          "text": "روجر تسين"
+        }
+      ],
+      "correctOptionId": "B",
+      "qualityStatus": "unreviewed"
+    },
+    {
+      "id": "notable_figures-legendary-0217",
+      "categoryId": "notable_figures",
+      "difficulty": "legendary",
+      "text": "من ربط نظيراً مشعاً لليود بالأدرينالين، واستخدم الإشعاع لتحديد المستقبل الذي يستقبل الهرمون على الخلية؟",
+      "answer": "روبرت ليفكوفيتز",
+      "acceptedAnswers": [
+        "Robert J. Lefkowitz"
+      ],
+      "hint": "تدرب طبيباً في كولومبيا ثم عمل في جامعة ديوك.",
+      "clues": [],
+      "explanation": "استعمل ليفكوفيتز الوسم الإشعاعي لتتبع مستقبل الأدرينالين، في دراسة مبكرة لمستقبلات مقترنة بالبروتين G.",
+      "sources": [
+        "https://www.nobelprize.org/prizes/chemistry/2012/lefkowitz/facts/ — NobelPrize.org، السيرة والنص المؤسسي المقروء."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "برايان كوبيْلكا"
+        },
+        {
+          "id": "B",
+          "text": "روجر كورنبرغ"
+        },
+        {
+          "id": "C",
+          "text": "روبرت ليفكوفيتز"
+        },
+        {
+          "id": "D",
+          "text": "كورت فوتريش"
+        },
+        {
+          "id": "E",
+          "text": "غريغوري وينتر"
+        },
+        {
+          "id": "F",
+          "text": "جورج بي سميث"
+        }
+      ],
+      "correctOptionId": "C",
+      "qualityStatus": "unreviewed"
+    },
+    {
+      "id": "notable_figures-legendary-0218",
+      "categoryId": "notable_figures",
+      "difficulty": "legendary",
+      "text": "من حدد في الثمانينيات الجين المنظم لتكوين مستقبل الأدرينالين، بعدما انتقل من التدريب الطبي إلى البحث مع روبرت ليفكوفيتز في ديوك؟",
+      "answer": "برايان كوبيْلكا",
+      "acceptedAnswers": [
+        "Brian Kobilka"
+      ],
+      "hint": "درس الطب في ييل، ثم انتقل لاحقاً إلى ستانفورد.",
+      "clues": [],
+      "explanation": "تميز دور كوبيْلكا بتحديد الجين وبحث المستقبل، بينما استخدم ليفكوفيتز الوسم الإشعاعي في خطوة سابقة.",
+      "sources": [
+        "https://www.nobelprize.org/prizes/chemistry/2012/kobilka/facts/ — NobelPrize.org، السيرة والنص المؤسسي المقروء."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "روبرت ليفكوفيتز"
+        },
+        {
+          "id": "B",
+          "text": "روجر كورنبرغ"
+        },
+        {
+          "id": "C",
+          "text": "غريغوري وينتر"
+        },
+        {
+          "id": "D",
+          "text": "برايان كوبيْلكا"
+        },
+        {
+          "id": "E",
+          "text": "كورت فوتريش"
+        },
+        {
+          "id": "F",
+          "text": "جورج بي سميث"
+        }
+      ],
+      "correctOptionId": "D",
+      "qualityStatus": "unreviewed"
+    },
+    {
+      "id": "notable_figures-legendary-0219",
+      "categoryId": "notable_figures",
+      "difficulty": "legendary",
+      "text": "أي حائز لنوبل الكيمياء درس علم المواد في التخنيون، ثم ارتبط أيضاً بجامعة ولاية آيوا في مدينة آميس منذ 2004 ؟",
+      "answer": "دان شيختمان",
+      "acceptedAnswers": [
+        "Dan Shechtman"
+      ],
+      "hint": "تخصص في البنية الذرية للمواد الصلبة وخالف اكتشافه تصوراً سائداً عن التكرار البلوري.",
+      "clues": [],
+      "explanation": "تذكر السيرة مسار شيختمان الدراسي وصلته بجامعة ولاية آيوا؛ الواقعة مختلفة عن السؤال العام عن شبه البلورات.",
+      "sources": [
+        "https://www.nobelprize.org/prizes/chemistry/2011/shechtman/facts/ — NobelPrize.org، السيرة والنص المؤسسي المقروء."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "بيير جيل دي جين"
+        },
+        {
+          "id": "B",
+          "text": "كلاوس فون كليتسينغ"
+        },
+        {
+          "id": "C",
+          "text": "كينيث ويلسون"
+        },
+        {
+          "id": "D",
+          "text": "جورج شارباك"
+        },
+        {
+          "id": "E",
+          "text": "دان شيختمان"
+        },
+        {
+          "id": "F",
+          "text": "دينيس غابور"
+        }
+      ],
+      "correctOptionId": "E",
+      "qualityStatus": "unreviewed"
+    },
+    {
+      "id": "notable_figures-legendary-0220",
+      "categoryId": "notable_figures",
+      "difficulty": "legendary",
+      "text": "من رصد نيوترينوات قادمة من الفضاء بعدّ ذرات الأرغون المتولدة في خزان غني بالكلور داخل منجم؟",
+      "answer": "ريموند ديفيس",
+      "acceptedAnswers": [
+        "Raymond Davis Jr."
+      ],
+      "hint": "تفاعل نادر جداً حوّل الكشف من رؤية الجسيم إلى عدّ أثره الكيميائي.",
+      "clues": [],
+      "explanation": "استعمل ديفيس تفاعل النيوترينو مع الكلور لتكوين الأرغون؛ يختلف عن الكشف الضوئي في خزان الماء.",
+      "sources": [
+        "https://www.nobelprize.org/prizes/physics/2002/davis/facts/ — NobelPrize.org، السيرة والنص المؤسسي المقروء."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "جون ماذر"
+        },
+        {
+          "id": "B",
+          "text": "جورج سموت"
+        },
+        {
+          "id": "C",
+          "text": "ماساتوشي كوشيبا"
+        },
+        {
+          "id": "D",
+          "text": "ريكاردو جياكوني"
+        },
+        {
+          "id": "E",
+          "text": "آدم ريس"
+        },
+        {
+          "id": "F",
+          "text": "ريموند ديفيس"
+        }
+      ],
+      "correctOptionId": "F",
+      "qualityStatus": "unreviewed"
+    },
+    {
+      "id": "notable_figures-legendary-0221",
+      "categoryId": "notable_figures",
+      "difficulty": "legendary",
+      "text": "من استخدم خزان ماء هائلاً داخل منجم لالتقاط ومضات ناتجة عن تفاعلات نادرة للنيوترينوات، في طريقة تختلف عن عدّ الأرغون؟",
+      "answer": "ماساتوشي كوشيبا",
+      "acceptedAnswers": [
+        "Masatoshi Koshiba"
+      ],
+      "hint": "تلقى تعليمه بين طوكيو وروتشستر ثم عاد إلى اليابان.",
+      "clues": [],
+      "explanation": "استند كشف كوشيبا إلى الضوء في الماء؛ بينما كان كاشف ديفيس يعتمد الكلور والأرغون.",
+      "sources": [
+        "https://www.nobelprize.org/prizes/physics/2002/koshiba/facts/ — NobelPrize.org، السيرة والنص المؤسسي المقروء."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "ماساتوشي كوشيبا"
+        },
+        {
+          "id": "B",
+          "text": "جون ماذر"
+        },
+        {
+          "id": "C",
+          "text": "جورج سموت"
+        },
+        {
+          "id": "D",
+          "text": "ريموند ديفيس"
+        },
+        {
+          "id": "E",
+          "text": "ريكاردو جياكوني"
+        },
+        {
+          "id": "F",
+          "text": "آدم ريس"
+        }
+      ],
+      "correctOptionId": "A",
+      "qualityStatus": "unreviewed"
+    },
+    {
+      "id": "notable_figures-legendary-0222",
+      "categoryId": "notable_figures",
+      "difficulty": "legendary",
+      "text": "من طور تلسكوبات لدراسة مصادر الأشعة السينية الكونية فوق الغلاف الجوي، فكشف مصادر خارج النظام الشمسي؟",
+      "answer": "ريكاردو جياكوني",
+      "acceptedAnswers": [
+        "Riccardo Giacconi"
+      ],
+      "hint": "تمنع امتصاصات الجو استخدام رصد أرضي عادي لهذه الأشعة.",
+      "clues": [],
+      "explanation": "كان جياكوني رائداً في فلك الأشعة السينية وتطوير أدواته الفضائية، ونال نوبل الفيزياء 2002.",
+      "sources": [
+        "https://www.nobelprize.org/prizes/physics/2002/giacconi/facts/ — NobelPrize.org، السيرة والنص المؤسسي المقروء."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "جون ماذر"
+        },
+        {
+          "id": "B",
+          "text": "ريكاردو جياكوني"
+        },
+        {
+          "id": "C",
+          "text": "جورج سموت"
+        },
+        {
+          "id": "D",
+          "text": "ريموند ديفيس"
+        },
+        {
+          "id": "E",
+          "text": "ماساتوشي كوشيبا"
+        },
+        {
+          "id": "F",
+          "text": "آدم ريس"
+        }
+      ],
+      "correctOptionId": "B",
+      "qualityStatus": "unreviewed"
+    },
+    {
+      "id": "notable_figures-legendary-0223",
+      "categoryId": "notable_figures",
+      "difficulty": "legendary",
+      "text": "أي كيميائي ياباني شارك آلان هيغر وآلان ماكديارميد في إثبات إمكان جعل البوليمرات موصلة للكهرباء بسلاسل مناسبة وتطعيم كيميائي؟",
+      "answer": "هيديكي شيراكاوا",
+      "acceptedAnswers": [
+        "Hideki Shirakawa"
+      ],
+      "hint": "كان ارتباطه الجامعي في تسوكوبا، وشارك نوبل الكيمياء 2000.",
+      "clues": [],
+      "explanation": "شارك شيراكاوا في تطوير البوليمرات الموصلة؛ لا تنسب الصياغة الاكتشاف الجماعي إليه وحده.",
+      "sources": [
+        "https://www.nobelprize.org/prizes/chemistry/2000/shirakawa/facts/ — NobelPrize.org، السيرة والنص المؤسسي المقروء."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "كويتشي تاناكا"
+        },
+        {
+          "id": "B",
+          "text": "أوسامو شيمومورا"
+        },
+        {
+          "id": "C",
+          "text": "هيديكي شيراكاوا"
+        },
+        {
+          "id": "D",
+          "text": "روجر تسين"
+        },
+        {
+          "id": "E",
+          "text": "كورت فوتريش"
+        },
+        {
+          "id": "F",
+          "text": "برنارد فيرينغا"
+        }
+      ],
+      "correctOptionId": "C",
+      "qualityStatus": "unreviewed"
+    },
+    {
+      "id": "notable_figures-easy-0216",
+      "categoryId": "notable_figures",
+      "difficulty": "easy",
+      "text": "أي رئيس أمريكي لاحق ساعد في مسح أراضي وادي شيناندواه للورد فيرفاكس وهو في السادسة عشرة، قبل مسيرته العسكرية والسياسية؟",
+      "answer": "جورج واشنطن",
+      "acceptedAnswers": [],
+      "hint": "ارتبطت حياته بولاية فرجينيا وبمزرعة ماونت فيرنون.",
+      "clues": [],
+      "explanation": "تذكر السيرة عمل واشنطن المبكر في المساحة؛ السؤال عن خبرته قبل الرئاسة.",
+      "sources": [
+        "https://obamawhitehouse.archives.gov/1600/presidents/georgewashington — السيرة الرسمية المقروءة؛ أرشيف البيت الأبيض أو الموقع الملكي."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "جون آدامز"
+        },
+        {
+          "id": "B",
+          "text": "توماس جيفرسون"
+        },
+        {
+          "id": "C",
+          "text": "جيمس ماديسون"
+        },
+        {
+          "id": "D",
+          "text": "جورج واشنطن"
+        },
+        {
+          "id": "E",
+          "text": "جيمس مونرو"
+        },
+        {
+          "id": "F",
+          "text": "جون كوينسي آدامز"
+        }
+      ],
+      "correctOptionId": "D",
+      "qualityStatus": "unreviewed"
+    },
+    {
+      "id": "notable_figures-easy-0217",
+      "categoryId": "notable_figures",
+      "difficulty": "easy",
+      "text": "في عهد أي رئيس أمريكي ظهرت أزمة «إكس واي زد» بعد اشتراط وسطاء فرنسيين دفع رشوة لبدء التفاوض مع المبعوثين الأمريكيين؟",
+      "answer": "جون آدامز",
+      "acceptedAnswers": [],
+      "hint": "اختار لاحقاً إرسال بعثة سلام جديدة رغم غضب بعض حلفائه السياسيين.",
+      "clues": [],
+      "explanation": "كشفت مراسلات إدارة آدامز المطالب الفرنسية، وأشير إلى أصحابها بالحروف X و Y و Z.",
+      "sources": [
+        "https://obamawhitehouse.archives.gov/1600/presidents/johnadams — السيرة الرسمية المقروءة؛ أرشيف البيت الأبيض أو الموقع الملكي."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "جورج واشنطن"
+        },
+        {
+          "id": "B",
+          "text": "توماس جيفرسون"
+        },
+        {
+          "id": "C",
+          "text": "جيمس ماديسون"
+        },
+        {
+          "id": "D",
+          "text": "جيمس مونرو"
+        },
+        {
+          "id": "E",
+          "text": "جون آدامز"
+        },
+        {
+          "id": "F",
+          "text": "جون كوينسي آدامز"
+        }
+      ],
+      "correctOptionId": "E",
+      "qualityStatus": "unreviewed"
+    },
+    {
+      "id": "notable_figures-easy-0218",
+      "categoryId": "notable_figures",
+      "difficulty": "easy",
+      "text": "من الرئيس الأمريكي اللاحق الذي خلف بنجامين فرانكلين سفيراً في فرنسا، قبل أن يصبح وزير خارجية جورج واشنطن؟",
+      "answer": "توماس جيفرسون",
+      "acceptedAnswers": [],
+      "hint": "كان قلمه وسيلته الأبرز في العمل السياسي، وأقام في مونتيسيلو.",
+      "clues": [],
+      "explanation": "خلف جيفرسون فرانكلين في المنصب الفرنسي سنة 1785 ، ثم عمل وزيراً للخارجية.",
+      "sources": [
+        "https://obamawhitehouse.archives.gov/1600/presidents/thomasjefferson — السيرة الرسمية المقروءة؛ أرشيف البيت الأبيض أو الموقع الملكي."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "جون آدامز"
+        },
+        {
+          "id": "B",
+          "text": "جيمس ماديسون"
+        },
+        {
+          "id": "C",
+          "text": "جورج واشنطن"
+        },
+        {
+          "id": "D",
+          "text": "جيمس مونرو"
+        },
+        {
+          "id": "E",
+          "text": "جون كوينسي آدامز"
+        },
+        {
+          "id": "F",
+          "text": "توماس جيفرسون"
+        }
+      ],
+      "correctOptionId": "F",
+      "qualityStatus": "unreviewed"
+    },
+    {
+      "id": "notable_figures-easy-0219",
+      "categoryId": "notable_figures",
+      "difficulty": "easy",
+      "text": "أي رئيس أمريكي طلب من الكونغرس إعلان الحرب على بريطانيا سنة 1812 ، ثم دخلت قوات بريطانية واشنطن وأحرقت البيت الأبيض أثناء الحرب؟",
+      "answer": "جيمس ماديسون",
+      "acceptedAnswers": [],
+      "hint": "كان وزير خارجية سلفه قبل توليه الرئاسة.",
+      "clues": [],
+      "explanation": "كان ماديسون رئيساً خلال حرب 1812 ؛ السؤال عن رئاسته في الحرب لا عن دوره في وضع الدستور.",
+      "sources": [
+        "https://obamawhitehouse.archives.gov/1600/presidents/jamesmadison — السيرة الرسمية المقروءة؛ أرشيف البيت الأبيض أو الموقع الملكي."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "جيمس ماديسون"
+        },
+        {
+          "id": "B",
+          "text": "توماس جيفرسون"
+        },
+        {
+          "id": "C",
+          "text": "جيمس مونرو"
+        },
+        {
+          "id": "D",
+          "text": "جون آدامز"
+        },
+        {
+          "id": "E",
+          "text": "جون كوينسي آدامز"
+        },
+        {
+          "id": "F",
+          "text": "جورج واشنطن"
+        }
+      ],
+      "correctOptionId": "A",
+      "qualityStatus": "unreviewed"
+    },
+    {
+      "id": "notable_figures-easy-0220",
+      "categoryId": "notable_figures",
+      "difficulty": "easy",
+      "text": "من الرئيس الأمريكي اللاحق الذي شارك روبرت ليفينغستون في التفاوض على شراء لويزيانا من فرنسا؟",
+      "answer": "جيمس مونرو",
+      "acceptedAnswers": [],
+      "hint": "كان دبلوماسياً، ثم تولى الرئاسة بعد ماديسون.",
+      "clues": [],
+      "explanation": "تذكر سيرة مونرو مشاركته في التفاوض على الصفقة التي تمت خلال رئاسة جيفرسون، ولا تنسب رئاسة ذلك العهد إليه.",
+      "sources": [
+        "https://obamawhitehouse.archives.gov/1600/presidents/jamesmonroe — السيرة الرسمية المقروءة؛ أرشيف البيت الأبيض أو الموقع الملكي."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "جيمس ماديسون"
+        },
+        {
+          "id": "B",
+          "text": "جيمس مونرو"
+        },
+        {
+          "id": "C",
+          "text": "جون كوينسي آدامز"
+        },
+        {
+          "id": "D",
+          "text": "توماس جيفرسون"
+        },
+        {
+          "id": "E",
+          "text": "أندرو جاكسون"
+        },
+        {
+          "id": "F",
+          "text": "جون آدامز"
+        }
+      ],
+      "correctOptionId": "B",
+      "qualityStatus": "unreviewed"
+    },
+    {
+      "id": "notable_figures-easy-0221",
+      "categoryId": "notable_figures",
+      "difficulty": "easy",
+      "text": "أي رئيس أمريكي سابق عاد إلى مجلس النواب وحارب ثماني سنوات قاعدة إسكات العرائض المناهضة للعبودية حتى ألغاها؟",
+      "answer": "جون كوينسي آدامز",
+      "acceptedAnswers": [],
+      "hint": "قضى سنوات طويلة في الدبلوماسية، وكان أبوه أيضاً رئيساً.",
+      "clues": [],
+      "explanation": "عاد جون كوينسي آدامز إلى مجلس النواب بعد الرئاسة، وقاد إلغاء قاعدة الإسكـات التي فرضت سنة 1836.",
+      "sources": [
+        "https://obamawhitehouse.archives.gov/1600/presidents/johnquincyadams — السيرة الرسمية المقروءة؛ أرشيف البيت الأبيض أو الموقع الملكي."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "جيمس مونرو"
+        },
+        {
+          "id": "B",
+          "text": "أندرو جاكسون"
+        },
+        {
+          "id": "C",
+          "text": "جون كوينسي آدامز"
+        },
+        {
+          "id": "D",
+          "text": "جيمس ماديسون"
+        },
+        {
+          "id": "E",
+          "text": "مارتن فان بورين"
+        },
+        {
+          "id": "F",
+          "text": "توماس جيفرسون"
+        }
+      ],
+      "correctOptionId": "C",
+      "qualityStatus": "unreviewed"
+    },
+    {
+      "id": "notable_figures-easy-0222",
+      "categoryId": "notable_figures",
+      "difficulty": "easy",
+      "text": "أي رئيس أمريكي استخدم حق النقض لمنع تجديد امتياز البنك الثاني للولايات المتحدة، واتهمه بمنح امتياز اقتصادي غير عادل؟",
+      "answer": "أندرو جاكسون",
+      "acceptedAnswers": [],
+      "hint": "قاده النزاع مع هنري كلاي إلى معركة سياسية كبيرة قبل إعادة انتخابه.",
+      "clues": [],
+      "explanation": "عارض جاكسون إعادة ترخيص البنك واستخدم النقض؛ تميزت هذه القضية في سياسته المالية.",
+      "sources": [
+        "https://obamawhitehouse.archives.gov/1600/presidents/andrewjackson — السيرة الرسمية المقروءة؛ أرشيف البيت الأبيض أو الموقع الملكي."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "جون كوينسي آدامز"
+        },
+        {
+          "id": "B",
+          "text": "مارتن فان بورين"
+        },
+        {
+          "id": "C",
+          "text": "جيمس مونرو"
+        },
+        {
+          "id": "D",
+          "text": "أندرو جاكسون"
+        },
+        {
+          "id": "E",
+          "text": "وليام هنري هاريسون"
+        },
+        {
+          "id": "F",
+          "text": "جيمس ماديسون"
+        }
+      ],
+      "correctOptionId": "D",
+      "qualityStatus": "unreviewed"
+    },
+    {
+      "id": "notable_figures-easy-0223",
+      "categoryId": "notable_figures",
+      "difficulty": "easy",
+      "text": "أي رئيس أمريكي واجه ذعر 1837 ودافع عن خزينة مستقلة لإدارة أموال الحكومة، مع رفض وضعها في بنوك الولايات؟",
+      "answer": "مارتن فان بورين",
+      "acceptedAnswers": [],
+      "hint": "كان وزير خارجية ونائباً للرئيس جاكسون قبل توليه الرئاسة.",
+      "clues": [],
+      "explanation": "كان نظام الخزينة المستقلة محور رد فان بورين على الأزمة المصرفية.",
+      "sources": [
+        "https://obamawhitehouse.archives.gov/1600/presidents/martinvanburen — السيرة الرسمية المقروءة؛ أرشيف البيت الأبيض أو الموقع الملكي."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "أندرو جاكسون"
+        },
+        {
+          "id": "B",
+          "text": "وليام هنري هاريسون"
+        },
+        {
+          "id": "C",
+          "text": "جون كوينسي آدامز"
+        },
+        {
+          "id": "D",
+          "text": "جون تايلر"
+        },
+        {
+          "id": "E",
+          "text": "مارتن فان بورين"
+        },
+        {
+          "id": "F",
+          "text": "جيمس مونرو"
+        }
+      ],
+      "correctOptionId": "E",
+      "qualityStatus": "unreviewed"
+    },
+    {
+      "id": "notable_figures-easy-0224",
+      "categoryId": "notable_figures",
+      "difficulty": "easy",
+      "text": "أي مرشح رئاسي صوّرته حملة الويغ عام 1840 بوصفه رجلاً بسيطاً يعيش في كوخ خشبي، رغم انتمائه في الواقع لأرستقراطية فرجينيا الزراعية؟",
+      "answer": "وليام هنري هاريسون",
+      "acceptedAnswers": [],
+      "hint": "ارتبطت صورته الانتخابية بالخدمة العسكرية في المناطق الحدودية.",
+      "clues": [],
+      "explanation": "توضح السيرة التباين بين صورة حملة هاريسون وخلفيته العائلية؛ ليس الكوخ وصفاً دقيقاً لأصله الاجتماعي.",
+      "sources": [
+        "https://obamawhitehouse.archives.gov/1600/presidents/williamhenryharrison — السيرة الرسمية المقروءة؛ أرشيف البيت الأبيض أو الموقع الملكي."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "مارتن فان بورين"
+        },
+        {
+          "id": "B",
+          "text": "جون تايلر"
+        },
+        {
+          "id": "C",
+          "text": "أندرو جاكسون"
+        },
+        {
+          "id": "D",
+          "text": "زكاري تايلر"
+        },
+        {
+          "id": "E",
+          "text": "جون كوينسي آدامز"
+        },
+        {
+          "id": "F",
+          "text": "وليام هنري هاريسون"
+        }
+      ],
+      "correctOptionId": "F",
+      "qualityStatus": "unreviewed"
+    },
+    {
+      "id": "notable_figures-easy-0225",
+      "categoryId": "notable_figures",
+      "difficulty": "easy",
+      "text": "أي رئيس أمريكي طرده حزب الويغ بعد أن نقض مشروعين لإنشاء بنك وطني، ثم استقال معظم أعضاء حكومته؟",
+      "answer": "جون تايلر",
+      "acceptedAnswers": [],
+      "hint": "تولى الرئاسة في أعقاب وفاة وليام هنري هاريسون.",
+      "clues": [],
+      "explanation": "رفض تايلر مشروعي البنك بسبب موقفه من حقوق الولايات، فأقصاه الحزب؛ بقي دانييل ويبستر في الحكومة أولاً.",
+      "sources": [
+        "https://obamawhitehouse.archives.gov/1600/presidents/johntyler — السيرة الرسمية المقروءة؛ أرشيف البيت الأبيض أو الموقع الملكي."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "جون تايلر"
+        },
+        {
+          "id": "B",
+          "text": "وليام هنري هاريسون"
+        },
+        {
+          "id": "C",
+          "text": "زكاري تايلر"
+        },
+        {
+          "id": "D",
+          "text": "مارتن فان بورين"
+        },
+        {
+          "id": "E",
+          "text": "ميلارد فيلمور"
+        },
+        {
+          "id": "F",
+          "text": "أندرو جاكسون"
+        }
+      ],
+      "correctOptionId": "A",
+      "qualityStatus": "unreviewed"
+    },
+    {
+      "id": "notable_figures-medium-0218",
+      "categoryId": "notable_figures",
+      "difficulty": "medium",
+      "text": "من الجنرال الأمريكي الذي اشتهر بانتصاري مونتيري وبوينا فيستا في الحرب مع المكسيك، ثم رشحه حزب الويغ للرئاسة؟",
+      "answer": "زكاري تايلر",
+      "acceptedAnswers": [],
+      "hint": "كان ضابطاً محترفاً، واشتهر بلقب يقارب «الخشن الجاهز».",
+      "clues": [],
+      "explanation": "كان تايلر قائد الانتصارين قبل انتخابه رئيساً؛ يختلف عن وينفيلد سكوت قائد حملة مكسيكو سيتي.",
+      "sources": [
+        "https://obamawhitehouse.archives.gov/1600/presidents/zacharytaylor — السيرة الرسمية المقروءة؛ أرشيف البيت الأبيض أو الموقع الملكي."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "جون تايلر"
+        },
+        {
+          "id": "B",
+          "text": "زكاري تايلر"
+        },
+        {
+          "id": "C",
+          "text": "ميلارد فيلمور"
+        },
+        {
+          "id": "D",
+          "text": "وليام هنري هاريسون"
+        },
+        {
+          "id": "E",
+          "text": "فرانكلين بيرس"
+        },
+        {
+          "id": "F",
+          "text": "مارتن فان بورين"
+        }
+      ],
+      "correctOptionId": "B",
+      "qualityStatus": "unreviewed"
+    },
+    {
+      "id": "notable_figures-medium-0219",
+      "categoryId": "notable_figures",
+      "difficulty": "medium",
+      "text": "من الرئيس الأمريكي الذي عمل صبياً في تجهيز الأقمشة، ثم تزوج لاحقاً معلمته أبيغيل باورز قبل صعوده في القانون والسياسة؟",
+      "answer": "ميلارد فيلمور",
+      "acceptedAnswers": [],
+      "hint": "بدأ حياته في منطقة البحيرات الإصبعية بولاية نيويورك.",
+      "clues": [],
+      "explanation": "تذكر السيرة تدريب فيلمور المهني ومدرسته وعلاقته بأبيغيل، التي أصبحت زوجته.",
+      "sources": [
+        "https://obamawhitehouse.archives.gov/1600/presidents/millardfillmore — السيرة الرسمية المقروءة؛ أرشيف البيت الأبيض أو الموقع الملكي."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "زكاري تايلر"
+        },
+        {
+          "id": "B",
+          "text": "فرانكلين بيرس"
+        },
+        {
+          "id": "C",
+          "text": "ميلارد فيلمور"
+        },
+        {
+          "id": "D",
+          "text": "جون تايلر"
+        },
+        {
+          "id": "E",
+          "text": "جيمس بوكانان"
+        },
+        {
+          "id": "F",
+          "text": "وليام هنري هاريسون"
+        }
+      ],
+      "correctOptionId": "C",
+      "qualityStatus": "unreviewed"
+    },
+    {
+      "id": "notable_figures-medium-0220",
+      "categoryId": "notable_figures",
+      "difficulty": "medium",
+      "text": "أي مرشح اختاره الديمقراطيون للرئاسة عام 1852 بعد 48 اقتراعاً لم يحسمها المرشحون المعروفون، فجاء كمرشح مفاجئ؟",
+      "answer": "فرانكلين بيرس",
+      "acceptedAnswers": [],
+      "hint": "كان من نيوهامبشير وخدم في الحرب مع المكسيك.",
+      "clues": [],
+      "explanation": "تذكر السيرة أن بيرس اختير بعد 48 اقتراعاً سابقاً؛ لا تصف الصياغة فوزه بالاقتراع الثامن والأربعين.",
+      "sources": [
+        "https://obamawhitehouse.archives.gov/1600/presidents/franklinpierce — السيرة الرسمية المقروءة؛ أرشيف البيت الأبيض أو الموقع الملكي."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "ميلارد فيلمور"
+        },
+        {
+          "id": "B",
+          "text": "جيمس بوكانان"
+        },
+        {
+          "id": "C",
+          "text": "زكاري تايلر"
+        },
+        {
+          "id": "D",
+          "text": "فرانكلين بيرس"
+        },
+        {
+          "id": "E",
+          "text": "أبراهام لنكولن"
+        },
+        {
+          "id": "F",
+          "text": "جون تايلر"
+        }
+      ],
+      "correctOptionId": "D",
+      "qualityStatus": "unreviewed"
+    },
+    {
+      "id": "notable_figures-medium-0221",
+      "categoryId": "notable_figures",
+      "difficulty": "medium",
+      "text": "من الرئيس الأمريكي الذي سبقت رئاسته خدمة سفيراً في روسيا، ثم وزير خارجية لبولك، ثم سفيراً في بريطانيا في عهد بيرس؟",
+      "answer": "جيمس بوكانان",
+      "acceptedAnswers": [],
+      "hint": "ساعده الابتعاد في الخارج على تجنب بعض النزاعات الداخلية قبل ترشيحه.",
+      "clues": [],
+      "explanation": "تعدد سيرة بوكانان هذه المناصب الدبلوماسية والوزارية قبل رئاسته.",
+      "sources": [
+        "https://obamawhitehouse.archives.gov/1600/presidents/jamesbuchanan — السيرة الرسمية المقروءة؛ أرشيف البيت الأبيض أو الموقع الملكي."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "فرانكلين بيرس"
+        },
+        {
+          "id": "B",
+          "text": "أبراهام لنكولن"
+        },
+        {
+          "id": "C",
+          "text": "ميلارد فيلمور"
+        },
+        {
+          "id": "D",
+          "text": "أندرو جونسون"
+        },
+        {
+          "id": "E",
+          "text": "جيمس بوكانان"
+        },
+        {
+          "id": "F",
+          "text": "زكاري تايلر"
+        }
+      ],
+      "correctOptionId": "E",
+      "qualityStatus": "unreviewed"
+    },
+    {
+      "id": "notable_figures-medium-0222",
+      "categoryId": "notable_figures",
+      "difficulty": "medium",
+      "text": "من السياسي الذي خسر سباق مجلس الشيوخ أمام ستيفن دوغلاس، لكن مناظراتهما سنة 1858 منحته شهرة ساعدت طريقه إلى الرئاسة؟",
+      "answer": "أبراهام لنكولن",
+      "acceptedAnswers": [],
+      "hint": "كان محامياً في إلينوي ومرشحاً للحزب الجمهوري لاحقاً.",
+      "clues": [],
+      "explanation": "خسر لنكولن مقعد الشيوخ لكن المناظرات عززت سمعته الوطنية، قبل ترشيحه للرئاسة 1860.",
+      "sources": [
+        "https://obamawhitehouse.archives.gov/1600/presidents/abrahamlincoln — السيرة الرسمية المقروءة؛ أرشيف البيت الأبيض أو الموقع الملكي."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "جيمس بوكانان"
+        },
+        {
+          "id": "B",
+          "text": "أندرو جونسون"
+        },
+        {
+          "id": "C",
+          "text": "فرانكلين بيرس"
+        },
+        {
+          "id": "D",
+          "text": "يوليسيس غرانت"
+        },
+        {
+          "id": "E",
+          "text": "ميلارد فيلمور"
+        },
+        {
+          "id": "F",
+          "text": "أبراهام لنكولن"
+        }
+      ],
+      "correctOptionId": "F",
+      "qualityStatus": "unreviewed"
+    },
+    {
+      "id": "notable_figures-medium-0223",
+      "categoryId": "notable_figures",
+      "difficulty": "medium",
+      "text": "من السناتور الذي بقي في مجلس الشيوخ بعدما انفصلت ولايته تينيسي، ثم عينه لنكولن حاكماً عسكرياً لتلك الولاية؟",
+      "answer": "أندرو جونسون",
+      "acceptedAnswers": [],
+      "hint": "عمل في الخياطة قبل السياسة، ثم صار نائباً للرئيس.",
+      "clues": [],
+      "explanation": "بقي جونسون موالياً للاتحاد خلال انفصال تينيسي، فعينه لنكولن حاكماً عسكرياً سنة 1862.",
+      "sources": [
+        "https://obamawhitehouse.archives.gov/1600/presidents/andrewjohnson — السيرة الرسمية المقروءة؛ أرشيف البيت الأبيض أو الموقع الملكي."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "أندرو جونسون"
+        },
+        {
+          "id": "B",
+          "text": "أبراهام لنكولن"
+        },
+        {
+          "id": "C",
+          "text": "يوليسيس غرانت"
+        },
+        {
+          "id": "D",
+          "text": "جيمس بوكانان"
+        },
+        {
+          "id": "E",
+          "text": "رذرفورد هايز"
+        },
+        {
+          "id": "F",
+          "text": "فرانكلين بيرس"
+        }
+      ],
+      "correctOptionId": "A",
+      "qualityStatus": "unreviewed"
+    },
+    {
+      "id": "notable_figures-medium-0224",
+      "categoryId": "notable_figures",
+      "difficulty": "medium",
+      "text": "أي رئيس أمريكي سابق تسابق مع مرضه لكتابة مذكراته بعد إفلاس شركته المالية، كي يوفر دخلاً لأسرته؟",
+      "answer": "يوليسيس غرانت",
+      "acceptedAnswers": [],
+      "hint": "سبق أن قاد جيوش الاتحاد في الحرب الأهلية.",
+      "clues": [],
+      "explanation": "كتب غرانت مذكراته في آخر حياته بعد خسارته المالية، وأكملها قبل وفاته سنة 1885.",
+      "sources": [
+        "https://obamawhitehouse.archives.gov/1600/presidents/ulyssessgrant — السيرة الرسمية المقروءة؛ أرشيف البيت الأبيض أو الموقع الملكي."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "أندرو جونسون"
+        },
+        {
+          "id": "B",
+          "text": "يوليسيس غرانت"
+        },
+        {
+          "id": "C",
+          "text": "رذرفورد هايز"
+        },
+        {
+          "id": "D",
+          "text": "أبراهام لنكولن"
+        },
+        {
+          "id": "E",
+          "text": "تشستر آرثر"
+        },
+        {
+          "id": "F",
+          "text": "جيمس بوكانان"
+        }
+      ],
+      "correctOptionId": "B",
+      "qualityStatus": "unreviewed"
+    },
+    {
+      "id": "notable_figures-medium-0225",
+      "categoryId": "notable_figures",
+      "difficulty": "medium",
+      "text": "من الرئيس الذي حسمت لجنة انتخابية متنازع عليها فوزه على صمويل تيلدن بفارق صوت انتخابي واحد، 185 مقابل 184 ؟",
+      "answer": "رذرفورد هايز",
+      "acceptedAnswers": [],
+      "hint": "شغل حاكمية أوهايو قبل انتخابات 1876 المثيرة للنزاع.",
+      "clues": [],
+      "explanation": "حسمت اللجنة الأصوات المتنازع عليها لمصلحة هايز؛ النتيجة تخص المجمع الانتخابي لا التصويت الشعبي.",
+      "sources": [
+        "https://obamawhitehouse.archives.gov/1600/presidents/rutherfordbhayes — السيرة الرسمية المقروءة؛ أرشيف البيت الأبيض أو الموقع الملكي."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "يوليسيس غرانت"
+        },
+        {
+          "id": "B",
+          "text": "تشستر آرثر"
+        },
+        {
+          "id": "C",
+          "text": "رذرفورد هايز"
+        },
+        {
+          "id": "D",
+          "text": "أندرو جونسون"
+        },
+        {
+          "id": "E",
+          "text": "بنجامين هاريسون"
+        },
+        {
+          "id": "F",
+          "text": "أبراهام لنكولن"
+        }
+      ],
+      "correctOptionId": "C",
+      "qualityStatus": "unreviewed"
+    },
+    {
+      "id": "notable_figures-hard-0221",
+      "categoryId": "notable_figures",
+      "difficulty": "hard",
+      "text": "أي رئيس أمريكي كان مسؤول جمارك معروفاً بنظام المحسوبية، ثم دعم إصلاح الخدمة المدنية وقانون بندلتون الذي أدخل امتحانات تنافسية لبعض الوظائف؟",
+      "answer": "تشستر آرثر",
+      "acceptedAnswers": [],
+      "hint": "تولى الرئاسة بعد اغتيال جيمس غارفيلد.",
+      "clues": [],
+      "explanation": "شهد عهد آرثر قانون بندلتون سنة 1883 ، وهو تحول عن ممارسات توزيع الوظائف الحزبية التي ارتبط بها سابقاً.",
+      "sources": [
+        "https://obamawhitehouse.archives.gov/1600/presidents/chesterarthur — السيرة الرسمية المقروءة؛ أرشيف البيت الأبيض أو الموقع الملكي."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "رذرفورد هايز"
+        },
+        {
+          "id": "B",
+          "text": "بنجامين هاريسون"
+        },
+        {
+          "id": "C",
+          "text": "يوليسيس غرانت"
+        },
+        {
+          "id": "D",
+          "text": "تشستر آرثر"
+        },
+        {
+          "id": "E",
+          "text": "وليام ماكينلي"
+        },
+        {
+          "id": "F",
+          "text": "أندرو جونسون"
+        }
+      ],
+      "correctOptionId": "D",
+      "qualityStatus": "unreviewed"
+    },
+    {
+      "id": "notable_figures-hard-0222",
+      "categoryId": "notable_figures",
+      "difficulty": "hard",
+      "text": "من المرشح الذي أدار حملة «الشرفة الأمامية» باستقبال الوفود وإلقاء خطب قصيرة عليها في إنديانابوليس خلال انتخابات 1888 ؟",
+      "answer": "بنجامين هاريسون",
+      "acceptedAnswers": [],
+      "hint": "كان حفيد رئيس أمريكي، وخدم في مجلس الشيوخ قبل ترشيحه.",
+      "clues": [],
+      "explanation": "أدار بنجامين هاريسون هذه الحملة في إنديانابوليس؛ حملة ماكينلي اللاحقة كانت في كانتون.",
+      "sources": [
+        "https://obamawhitehouse.archives.gov/1600/presidents/benjaminharrison — السيرة الرسمية المقروءة؛ أرشيف البيت الأبيض أو الموقع الملكي."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "تشستر آرثر"
+        },
+        {
+          "id": "B",
+          "text": "وليام ماكينلي"
+        },
+        {
+          "id": "C",
+          "text": "رذرفورد هايز"
+        },
+        {
+          "id": "D",
+          "text": "ثيودور روزفلت"
+        },
+        {
+          "id": "E",
+          "text": "بنجامين هاريسون"
+        },
+        {
+          "id": "F",
+          "text": "يوليسيس غرانت"
+        }
+      ],
+      "correctOptionId": "E",
+      "qualityStatus": "unreviewed"
+    },
+    {
+      "id": "notable_figures-hard-0223",
+      "categoryId": "notable_figures",
+      "difficulty": "hard",
+      "text": "أي رئيس أمريكي لاحق كان خبيراً بالتعريفات الجمركية في مجلس النواب وحملت تعريفة 1890 اسمه، ثم أصبح حاكم أوهايو؟",
+      "answer": "وليام ماكينلي",
+      "acceptedAnswers": [],
+      "hint": "استقبل لاحقاً وفود حملته الرئاسية في شرفة منزله بكانتون.",
+      "clues": [],
+      "explanation": "عمل ماكينلي طويلاً في تشريعات الجمارك قبل انتقاله إلى حاكمية أوهايو ثم الرئاسة.",
+      "sources": [
+        "https://obamawhitehouse.archives.gov/1600/presidents/williammckinley — السيرة الرسمية المقروءة؛ أرشيف البيت الأبيض أو الموقع الملكي."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "بنجامين هاريسون"
+        },
+        {
+          "id": "B",
+          "text": "ثيودور روزفلت"
+        },
+        {
+          "id": "C",
+          "text": "تشستر آرثر"
+        },
+        {
+          "id": "D",
+          "text": "رذرفورد هايز"
+        },
+        {
+          "id": "E",
+          "text": "يوليسيس غرانت"
+        },
+        {
+          "id": "F",
+          "text": "وليام ماكينلي"
+        }
+      ],
+      "correctOptionId": "F",
+      "qualityStatus": "unreviewed"
+    },
+    {
+      "id": "notable_figures-hard-0224",
+      "categoryId": "notable_figures",
+      "difficulty": "hard",
+      "text": "أي رئيس أمريكي سابق عاد إلى سباق الرئاسة مرشحاً تقدمياً عام 1912 ، واشتهر حزبه باسم «الموظ»، ثم نجا من رصاصة أثناء حملته في ميلووكي؟",
+      "answer": "ثيودور روزفلت",
+      "acceptedAnswers": [],
+      "hint": "ذهب بعد مغادرة الرئاسة إلى رحلة صيد في إفريقيا قبل العودة إلى السياسة.",
+      "clues": [],
+      "explanation": "تذكر السيرة حملة روزفلت التقدمية المعروفة باسم Bull Moose وإصابته خلال الحملة وتعافيه.",
+      "sources": [
+        "https://obamawhitehouse.archives.gov/1600/presidents/theodoreroosevelt — السيرة الرسمية المقروءة؛ أرشيف البيت الأبيض أو الموقع الملكي."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "ثيودور روزفلت"
+        },
+        {
+          "id": "B",
+          "text": "وليام ماكينلي"
+        },
+        {
+          "id": "C",
+          "text": "بنجامين هاريسون"
+        },
+        {
+          "id": "D",
+          "text": "تشستر آرثر"
+        },
+        {
+          "id": "E",
+          "text": "رذرفورد هايز"
+        },
+        {
+          "id": "F",
+          "text": "يوليسيس غرانت"
+        }
+      ],
+      "correctOptionId": "A",
+      "qualityStatus": "unreviewed"
+    },
+    {
+      "id": "notable_figures-hard-0225",
+      "categoryId": "notable_figures",
+      "difficulty": "hard",
+      "text": "أي حاكم بريطاني كان أول حاكم من ملوك بريطانيا يستخدم القطار أثناء حكمه، وقام برحلته الأولى سنة 1842 ؟",
+      "answer": "الملكة فيكتوريا",
+      "acceptedAnswers": [],
+      "hint": "تزامن عهده مع انتشار السكك الحديدية والتوسع الصناعي.",
+      "clues": [],
+      "explanation": "تذكر السيرة الملكية أن فيكتوريا أول حاكم بريطاني يستخدم القطار وهو على العرش؛ لا تعمم النسبة على ملوك العالم.",
+      "sources": [
+        "https://www.royal.uk/victoria-r-1837-1901 — السيرة الرسمية المقروءة؛ أرشيف البيت الأبيض أو الموقع الملكي."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "الملك إدوارد السابع"
+        },
+        {
+          "id": "B",
+          "text": "الملكة فيكتوريا"
+        },
+        {
+          "id": "C",
+          "text": "الملك وليام الرابع"
+        },
+        {
+          "id": "D",
+          "text": "الملك جورج الرابع"
+        },
+        {
+          "id": "E",
+          "text": "الملك جورج الثالث"
+        },
+        {
+          "id": "F",
+          "text": "الملكة آن"
+        }
+      ],
+      "correctOptionId": "B",
+      "qualityStatus": "unreviewed"
+    },
+    {
+      "id": "notable_figures-legendary-0224",
+      "categoryId": "notable_figures",
+      "difficulty": "legendary",
+      "text": "أي ملك بريطاني أسس الأكاديمية الملكية للفنون سنة 1768 وتكفل بنفقاتها الأولى، وفتح مكتبته للعلماء؟",
+      "answer": "الملك جورج الثالث",
+      "acceptedAnswers": [],
+      "hint": "لقّب أيضاً بجورج المزارع بسبب اهتمامه بالزراعة.",
+      "clues": [],
+      "explanation": "تذكر السيرة رعاية جورج الثالث الأكاديمية والفنون ومكتبته الكبيرة؛ الواقعة عن دوره الثقافي.",
+      "sources": [
+        "https://www.royal.uk/george-iii-r-1760-1820 — السيرة الرسمية المقروءة؛ أرشيف البيت الأبيض أو الموقع الملكي."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "الملك جورج الثاني"
+        },
+        {
+          "id": "B",
+          "text": "الملك جورج الرابع"
+        },
+        {
+          "id": "C",
+          "text": "الملك جورج الثالث"
+        },
+        {
+          "id": "D",
+          "text": "الملك وليام الرابع"
+        },
+        {
+          "id": "E",
+          "text": "الملك إدوارد السابع"
+        },
+        {
+          "id": "F",
+          "text": "الأمير ألبرت"
+        }
+      ],
+      "correctOptionId": "C",
+      "qualityStatus": "unreviewed"
+    },
+    {
+      "id": "notable_figures-legendary-0225",
+      "categoryId": "notable_figures",
+      "difficulty": "legendary",
+      "text": "من عضو الأسرة الملكية البريطانية المرتبط بمشروع المعرض الكبير لعام 1851 ، الذي ساعدت أرباحه في تأسيس مجمع متاحف جنوب كنسينغتون؟",
+      "answer": "الأمير ألبرت",
+      "acceptedAnswers": [],
+      "hint": "اهتم بالفن والعلم والتجارة، وكان زوجاً لحاكمة بريطانية.",
+      "clues": [],
+      "explanation": "تحدد السيرة الملكية الأمير ألبرت بوصفه الشخصية الأبرز في المشروع، وتذكر أثر أرباحه في المتاحف.",
+      "sources": [
+        "https://www.royal.uk/victoria-r-1837-1901 — السيرة الرسمية المقروءة؛ أرشيف البيت الأبيض أو الموقع الملكي."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "الملك إدوارد السابع"
+        },
+        {
+          "id": "B",
+          "text": "الملك وليام الرابع"
+        },
+        {
+          "id": "C",
+          "text": "الملك جورج الرابع"
+        },
+        {
+          "id": "D",
+          "text": "الأمير ألبرت"
+        },
+        {
+          "id": "E",
+          "text": "الأمير ألبرت فيكتور"
+        },
+        {
+          "id": "F",
+          "text": "الأمير إرنست أوغست"
+        }
+      ],
+      "correctOptionId": "D",
+      "qualityStatus": "unreviewed"
+    }
+  ]
+}

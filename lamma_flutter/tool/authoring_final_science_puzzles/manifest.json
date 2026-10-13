@@ -1,0 +1,14 @@
+{
+  "riddles": {
+    "sha256": "e93e1f1be197f2695d7d30bfbd781c3db2ced27447432819e38f80b2bc670aab",
+    "count": 900
+  },
+  "maps": {
+    "sha256": "bbf5add8a4901d5c499bcc6e7bbd1713ca2e0e6d80743b59e45ca183773727b3",
+    "count": 900
+  },
+  "how_it_works": {
+    "sha256": "56b2a0782859d772600d44c6092b56dcf6c2ef50eb110d84feb479ace95592c0",
+    "count": 900
+  }
+}

@@ -1,0 +1,24 @@
+# Generated dependencies and build output
+**/node_modules/
+**/.dart_tool/
+**/build/
+**/dist/
+**/.next/
+**/coverage/
+**/__pycache__/
+**/*.pyc
+**/*.log
+**/.DS_Store
+
+# Machine-specific configuration and credentials
+**/.env
+**/.env.*
+!**/.env.example
+**/local.properties
+**/key.properties
+**/*.jks
+**/*.keystore
+**/*.pem
+**/*.key
+**/.idea/
+

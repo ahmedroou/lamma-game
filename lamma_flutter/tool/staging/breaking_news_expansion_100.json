@@ -1,0 +1,4202 @@
+[
+  {
+    "id": "breaking_news-easy-0201",
+    "categoryId": "breaking_news",
+    "difficulty": "easy",
+    "text": "خبر من يوليو 2022: كشفت ناسا حزمة صور ملونة وبيانات طيفية افتتحت العمليات العلمية لمرصد جديد يدرس الكون بالأشعة تحت الحمراء. ما المرصد؟",
+    "answer": "جيمس ويب",
+    "acceptedAnswers": [],
+    "hint": "اسمه يكرّم مسؤولاً سابقاً في وكالة الفضاء الأمريكية.",
+    "clues": [],
+    "explanation": "كانت حزمة الصور والبيانات المعلنة في يوليو 2022 بدء العمليات العلمية لتلسكوب جيمس ويب.",
+    "sources": [
+      "https://www.nasa.gov/news-release/nasa-reveals-webb-telescopes-first-images-of-unseen-universe/ — بيان رسمي قُرئ في2026-10-13؛ المرجع يثبت الحدث والجانب المطلوب فيه، ولا يُقدّم التقدير المستقبلي كحدث وقع."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "جيمس ويب"
+      },
+      {
+        "id": "B",
+        "text": "هابل"
+      },
+      {
+        "id": "C",
+        "text": "سبتزر"
+      },
+      {
+        "id": "D",
+        "text": "شاندرا"
+      },
+      {
+        "id": "E",
+        "text": "كبلر"
+      },
+      {
+        "id": "F",
+        "text": "تيس"
+      }
+    ],
+    "correctOptionId": "A",
+    "qualityStatus": "unreviewed"
+  },
+  {
+    "id": "breaking_news-medium-0201",
+    "categoryId": "breaking_news",
+    "difficulty": "medium",
+    "text": "في خبر أول صور جيمس ويب عام 2022 ، ما الوكالتان الشريكتان لناسا في التلسكوب؟",
+    "answer": "وكالتا الفضاء الأوروبية والكندية",
+    "acceptedAnswers": [],
+    "hint": "إحدى الشريكتين وكالة قارية والأخرى تتبع دولة في أمريكا الشمالية.",
+    "clues": [],
+    "explanation": "توضح ناسا أن جيمس ويب شراكة بين ناسا و ESA الأوروبية و CSA الكندية.",
+    "sources": [
+      "https://www.nasa.gov/news-release/nasa-reveals-webb-telescopes-first-images-of-unseen-universe/ — بيان رسمي قُرئ في2026-10-13؛ المرجع يثبت الحدث والجانب المطلوب فيه، ولا يُقدّم التقدير المستقبلي كحدث وقع."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "وكالتا الفضاء الأوروبية واليابانية"
+      },
+      {
+        "id": "B",
+        "text": "وكالتا الفضاء الأوروبية والكندية"
+      },
+      {
+        "id": "C",
+        "text": "وكالتا الفضاء الكندية واليابانية"
+      },
+      {
+        "id": "D",
+        "text": "وكالتا الفضاء الهندية والأوروبية"
+      },
+      {
+        "id": "E",
+        "text": "وكالتا الفضاء الروسية والكندية"
+      },
+      {
+        "id": "F",
+        "text": "وكالتا الفضاء اليابانية والهندية"
+      }
+    ],
+    "correctOptionId": "B",
+    "qualityStatus": "unreviewed"
+  },
+  {
+    "id": "breaking_news-hard-0201",
+    "categoryId": "breaking_news",
+    "difficulty": "hard",
+    "text": "في خبر حزمة الصور الأولى لويب عام 2022، ما عمليتا ضبط البصريات وأدوات القياس اللتان أُنجزتا خلال مرحلة التجهيز قبل بدء العمليات العلمية؟",
+    "answer": "محاذاة المرايا ومعايرة الأدوات",
+    "acceptedAnswers": [],
+    "hint": "كان الانتقال من نشر البنية إلى التأكد من دقة القياس.",
+    "clues": [],
+    "explanation": "خضع ويب بعد نشر أجزائه لأشهر من محاذاة المرايا ومعايرة الأدوات لبيئة الفضاء قبل بدء التشغيل العلمي.",
+    "sources": [
+      "https://www.nasa.gov/news-release/nasa-reveals-webb-telescopes-first-images-of-unseen-universe/ — بيان رسمي قُرئ في2026-10-13؛ المرجع يثبت الحدث والجانب المطلوب فيه، ولا يُقدّم التقدير المستقبلي كحدث وقع."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "تصحيح المسار ومحاذاة المرايا دون معايرة الأدوات"
+      },
+      {
+        "id": "B",
+        "text": "معايرة الأدوات وحدها قبل نشر المرايا"
+      },
+      {
+        "id": "C",
+        "text": "محاذاة المرايا ومعايرة الأدوات"
+      },
+      {
+        "id": "D",
+        "text": "اختبار اتصالات الأرض دون ضبط البصريات"
+      },
+      {
+        "id": "E",
+        "text": "تبريد المرصد دون محاذاة المرايا"
+      },
+      {
+        "id": "F",
+        "text": "ضبط اتجاه الهوائي بدل معايرة أدوات الرصد"
+      }
+    ],
+    "correctOptionId": "C",
+    "qualityStatus": "unreviewed"
+  },
+  {
+    "id": "breaking_news-legendary-0201",
+    "categoryId": "breaking_news",
+    "difficulty": "legendary",
+    "text": "في بيان حزمة الصور الأولى لويب، كم أداة علمية كانت الحزمة تُظهر قدراتها؟",
+    "answer": "أربع أدوات",
+    "acceptedAnswers": [],
+    "hint": "الحزمة لم تكن عرضاً لكاميرا تصوير واحدة فحسب.",
+    "clues": [],
+    "explanation": "تذكر ناسا أن المشاهد المختارة أظهرت قدرات الأدوات العلمية الأربع على المرصد.",
+    "sources": [
+      "https://www.nasa.gov/news-release/nasa-reveals-webb-telescopes-first-images-of-unseen-universe/ — بيان رسمي قُرئ في2026-10-13؛ المرجع يثبت الحدث والجانب المطلوب فيه، ولا يُقدّم التقدير المستقبلي كحدث وقع."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "أداتان"
+      },
+      {
+        "id": "B",
+        "text": "ثلاث أدوات"
+      },
+      {
+        "id": "C",
+        "text": "خمس أدوات"
+      },
+      {
+        "id": "D",
+        "text": "أربع أدوات"
+      },
+      {
+        "id": "E",
+        "text": "ست أدوات"
+      },
+      {
+        "id": "F",
+        "text": "سبع أدوات"
+      }
+    ],
+    "correctOptionId": "D",
+    "qualityStatus": "unreviewed"
+  },
+  {
+    "id": "breaking_news-easy-0202",
+    "categoryId": "breaking_news",
+    "difficulty": "easy",
+    "text": "عندما أعلنت ناسا نتيجة اختبار دارت في أكتوبر 2022، أي قياس مداري أكد تغيير حركة ديمورفوس؟",
+    "answer": "زمن دورانه حول الكويكب الأكبر",
+    "acceptedAnswers": [],
+    "hint": "المقياس يتعلق بعلاقة الجسم المستهدف بشريكه القريب.",
+    "clues": [],
+    "explanation": "قارن الفريق زمن دوران ديمورفوس حول ديديموس قبل الاصطدام وبعده، فثبت تقصيره.",
+    "sources": [
+      "https://www.nasa.gov/news-release/nasa-confirms-dart-mission-impact-changed-asteroids-motion-in-space/ — بيان رسمي قُرئ في2026-10-13؛ المرجع يثبت الحدث والجانب المطلوب فيه، ولا يُقدّم التقدير المستقبلي كحدث وقع."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "زمن دورانه حول محوره"
+      },
+      {
+        "id": "B",
+        "text": "زمن دورانه حول الشمس"
+      },
+      {
+        "id": "C",
+        "text": "مقدار تغير قطره"
+      },
+      {
+        "id": "D",
+        "text": "زاوية ميل محور دورانه"
+      },
+      {
+        "id": "E",
+        "text": "زمن دورانه حول الكويكب الأكبر"
+      },
+      {
+        "id": "F",
+        "text": "سرعة ابتعاده عن الأرض"
+      }
+    ],
+    "correctOptionId": "E",
+    "qualityStatus": "unreviewed"
+  },
+  {
+    "id": "breaking_news-medium-0202",
+    "categoryId": "breaking_news",
+    "difficulty": "medium",
+    "text": "حول أي كويكب كان ديمورفوس يدور عندما أكدت ناسا تغيير زمن مداره باختبار دارت؟",
+    "answer": "ديديموس",
+    "acceptedAnswers": [],
+    "hint": "هو الجسم الأكبر في الزوج المستهدف، وليس القمر الذي اصطدمت به المركبة.",
+    "clues": [],
+    "explanation": "ديمورفوس قمر صغير للكويكب ديديموس، وهو المدار الذي قُيس تغيّره.",
+    "sources": [
+      "https://www.nasa.gov/news-release/nasa-confirms-dart-mission-impact-changed-asteroids-motion-in-space/ — بيان رسمي قُرئ في2026-10-13؛ المرجع يثبت الحدث والجانب المطلوب فيه، ولا يُقدّم التقدير المستقبلي كحدث وقع."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "بينو"
+      },
+      {
+        "id": "B",
+        "text": "ريوغو"
+      },
+      {
+        "id": "C",
+        "text": "إيروس"
+      },
+      {
+        "id": "D",
+        "text": "فيستا"
+      },
+      {
+        "id": "E",
+        "text": "سايكي"
+      },
+      {
+        "id": "F",
+        "text": "ديديموس"
+      }
+    ],
+    "correctOptionId": "F",
+    "qualityStatus": "unreviewed"
+  },
+  {
+    "id": "breaking_news-hard-0202",
+    "categoryId": "breaking_news",
+    "difficulty": "hard",
+    "text": "وفق التقدير المركزي المعلن في 11 أكتوبر 2022 تحديداً، كم دقيقة قصّر اصطدام دارت زمن مدار ديمورفوس؟",
+    "answer": "32 دقيقة",
+    "acceptedAnswers": [],
+    "hint": "جاءت النتيجة أكبر كثيراً من معيار النجاح المحدد بالثواني.",
+    "clues": [],
+    "explanation": "أعلن الفريق آنذاك تقصير الفترة من 11 ساعة و 55 دقيقة إلى 11 ساعة و 23 دقيقة، أي 32 دقيقة، مع عدم يقين نحو دقيقتين.",
+    "sources": [
+      "https://www.nasa.gov/news-release/nasa-confirms-dart-mission-impact-changed-asteroids-motion-in-space/ — بيان رسمي قُرئ في2026-10-13؛ المرجع يثبت الحدث والجانب المطلوب فيه، ولا يُقدّم التقدير المستقبلي كحدث وقع."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "32 دقيقة"
+      },
+      {
+        "id": "B",
+        "text": "24 دقيقة"
+      },
+      {
+        "id": "C",
+        "text": "28 دقيقة"
+      },
+      {
+        "id": "D",
+        "text": "36 دقيقة"
+      },
+      {
+        "id": "E",
+        "text": "40 دقيقة"
+      },
+      {
+        "id": "F",
+        "text": "44 دقيقة"
+      }
+    ],
+    "correctOptionId": "A",
+    "qualityStatus": "unreviewed"
+  },
+  {
+    "id": "breaking_news-legendary-0202",
+    "categoryId": "breaking_news",
+    "difficulty": "legendary",
+    "text": "في تفسير نتيجة دارت المنشور في أكتوبر 2022 ، لماذا كان دفع ديمورفوس أكبر من أثر الاصطدام وحده؟",
+    "answer": "ارتداد الصخور المقذوفة عزز الدفع",
+    "acceptedAnswers": [],
+    "hint": "قارِن بالمبدأ الذي يدفع بالوناً عند خروج الهواء منه.",
+    "clues": [],
+    "explanation": "توضح ناسا أن ارتداد الحطام الذي انطلق بعد الاصطدام زاد نقل الزخم إلى الكويكب.",
+    "sources": [
+      "https://www.nasa.gov/news-release/nasa-confirms-dart-mission-impact-changed-asteroids-motion-in-space/ — بيان رسمي قُرئ في2026-10-13؛ المرجع يثبت الحدث والجانب المطلوب فيه، ولا يُقدّم التقدير المستقبلي كحدث وقع."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "كانت كتلة دارت أكبر من الكتلة المستخدمة في التقدير"
+      },
+      {
+        "id": "B",
+        "text": "ارتداد الصخور المقذوفة عزز الدفع"
+      },
+      {
+        "id": "C",
+        "text": "زاد شد الجاذبية بين الكويكبين بصورة مفاجئة"
+      },
+      {
+        "id": "D",
+        "text": "امتص الهدف المقذوفات بدل أن تخرج منه"
+      },
+      {
+        "id": "E",
+        "text": "ازدادت سرعة دوران ديديموس بفعل الاصطدام"
+      },
+      {
+        "id": "F",
+        "text": "غيّر ضغط الإشعاع الشمسي مدار الهدف أثناء القياس"
+      }
+    ],
+    "correctOptionId": "B",
+    "qualityStatus": "unreviewed"
+  },
+  {
+    "id": "breaking_news-easy-0203",
+    "categoryId": "breaking_news",
+    "difficulty": "easy",
+    "text": "خبر عودة عينة أوسايرس ريكس في سبتمبر 2023: في أي ولاية أمريكية هبطت كبسولة العودة؟",
+    "answer": "يوتا",
+    "acceptedAnswers": [],
+    "hint": "هبطت في ميدان اختبار وتدريب تابع لوزارة الدفاع قرب سولت ليك سيتي.",
+    "clues": [],
+    "explanation": "هبطت الكبسولة في Utah Test and Training Range بولاية يوتا.",
+    "sources": [
+      "https://www.nasa.gov/news-release/nasas-first-asteroid-sample-has-landed-now-secure-in-clean-room/ — بيان رسمي قُرئ في2026-10-13؛ المرجع يثبت الحدث والجانب المطلوب فيه، ولا يُقدّم التقدير المستقبلي كحدث وقع."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "نيفادا"
+      },
+      {
+        "id": "B",
+        "text": "أريزونا"
+      },
+      {
+        "id": "C",
+        "text": "يوتا"
+      },
+      {
+        "id": "D",
+        "text": "نيو مكسيكو"
+      },
+      {
+        "id": "E",
+        "text": "كولورادو"
+      },
+      {
+        "id": "F",
+        "text": "كاليفورنيا"
+      }
+    ],
+    "correctOptionId": "C",
+    "qualityStatus": "unreviewed"
+  },
+  {
+    "id": "breaking_news-medium-0203",
+    "categoryId": "breaking_news",
+    "difficulty": "medium",
+    "text": "ما وسيلة نقل كبسولة أوسايرس ريكس من موضع هبوطها إلى الغرفة النظيفة المؤقتة يوم عودتها عام 2023 ؟",
+    "answer": "مروحية",
+    "acceptedAnswers": [],
+    "hint": "تم النقل سريعاً داخل ميدان التدريب إلى حظيرة مجهزة.",
+    "clues": [],
+    "explanation": "تذكر ناسا أن الكبسولة نُقلت بمروحية إلى الغرفة النظيفة خلال نحو ساعة ونصف.",
+    "sources": [
+      "https://www.nasa.gov/news-release/nasas-first-asteroid-sample-has-landed-now-secure-in-clean-room/ — بيان رسمي قُرئ في2026-10-13؛ المرجع يثبت الحدث والجانب المطلوب فيه، ولا يُقدّم التقدير المستقبلي كحدث وقع."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "طائرة نقل ثابتة الجناح"
+      },
+      {
+        "id": "B",
+        "text": "شاحنة مدرعة"
+      },
+      {
+        "id": "C",
+        "text": "مركبة مجنزرة"
+      },
+      {
+        "id": "D",
+        "text": "مروحية"
+      },
+      {
+        "id": "E",
+        "text": "طائرة مسيّرة صغيرة"
+      },
+      {
+        "id": "F",
+        "text": "عربة قطار"
+      }
+    ],
+    "correctOptionId": "D",
+    "qualityStatus": "unreviewed"
+  },
+  {
+    "id": "breaking_news-hard-0203",
+    "categoryId": "breaking_news",
+    "difficulty": "hard",
+    "text": "أي غاز استُخدم بتدفق مستمر لحماية عينة بينو فور وضعها في الغرفة النظيفة المؤقتة عام 2023 ؟",
+    "answer": "النيتروجين",
+    "acceptedAnswers": [],
+    "hint": "استُخدم غاز محدود التفاعل مع معظم المواد للحفاظ على نقاء العينة.",
+    "clues": [],
+    "explanation": "وُصلت الكبسولة بتدفق نيتروجين مستمر، وهي عملية تصفها ناسا بالتطهير بالنيتروجين.",
+    "sources": [
+      "https://www.nasa.gov/news-release/nasas-first-asteroid-sample-has-landed-now-secure-in-clean-room/ — بيان رسمي قُرئ في2026-10-13؛ المرجع يثبت الحدث والجانب المطلوب فيه، ولا يُقدّم التقدير المستقبلي كحدث وقع."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "الأرجون"
+      },
+      {
+        "id": "B",
+        "text": "الهيليوم"
+      },
+      {
+        "id": "C",
+        "text": "النيون"
+      },
+      {
+        "id": "D",
+        "text": "ثاني أكسيد الكربون"
+      },
+      {
+        "id": "E",
+        "text": "النيتروجين"
+      },
+      {
+        "id": "F",
+        "text": "الأكسجين"
+      }
+    ],
+    "correctOptionId": "E",
+    "qualityStatus": "unreviewed"
+  },
+  {
+    "id": "breaking_news-legendary-0203",
+    "categoryId": "breaking_news",
+    "difficulty": "legendary",
+    "text": "لماذا عُدّ إدخال عينة بينو في تدفق نيتروجين مهمة عاجلة بعد الهبوط، وفق بيان العودة؟",
+    "answer": "لمنع دخول ملوثات أرضية إلى العينة",
+    "acceptedAnswers": [],
+    "hint": "الهدف حفظ ما جاء من الكويكب، لا إحداث تركيب جديد فيه.",
+    "clues": [],
+    "explanation": "يساعد التدفق على منع تلوث المادة بمواد أرضية، بحيث تعكس التحاليل تركيب العينة الأصلي قدر الإمكان.",
+    "sources": [
+      "https://www.nasa.gov/news-release/nasas-first-asteroid-sample-has-landed-now-secure-in-clean-room/ — بيان رسمي قُرئ في2026-10-13؛ المرجع يثبت الحدث والجانب المطلوب فيه، ولا يُقدّم التقدير المستقبلي كحدث وقع."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "لإزالة المركبات المتطايرة الأصلية قبل التحليل"
+      },
+      {
+        "id": "B",
+        "text": "لإزالة كل المركبات العضوية من المادة"
+      },
+      {
+        "id": "C",
+        "text": "لإتمام أكسدة المعادن داخل الكبسولة"
+      },
+      {
+        "id": "D",
+        "text": "لإعادة ضغط المادة إلى كثافة الكويكب"
+      },
+      {
+        "id": "E",
+        "text": "لتحديد عمر العينة من سرعة تدفق الغاز"
+      },
+      {
+        "id": "F",
+        "text": "لمنع دخول ملوثات أرضية إلى العينة"
+      }
+    ],
+    "correctOptionId": "F",
+    "qualityStatus": "unreviewed"
+  },
+  {
+    "id": "breaking_news-easy-0204",
+    "categoryId": "breaking_news",
+    "difficulty": "easy",
+    "text": "عند إطلاق يوروبا كليبر في أكتوبر 2024 ، ما الصاروخ الذي حمله من كينيدي؟",
+    "answer": "فالكون هيفي",
+    "acceptedAnswers": [],
+    "hint": "احتاجت المهمة إلى صاروخ من عائلة فالكون ذي معززات جانبية.",
+    "clues": [],
+    "explanation": "انطلق يوروبا كليبر على صاروخ SpaceX Falcon Heavy من المجمع 39A.",
+    "sources": [
+      "https://science.nasa.gov/mission/europa-clipper/ — بيان رسمي قُرئ في2026-10-13؛ المرجع يثبت الحدث والجانب المطلوب فيه، ولا يُقدّم التقدير المستقبلي كحدث وقع."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "فالكون هيفي"
+      },
+      {
+        "id": "B",
+        "text": "فالكون 9"
+      },
+      {
+        "id": "C",
+        "text": "أطلس 5"
+      },
+      {
+        "id": "D",
+        "text": "دلتا 4 هيفي"
+      },
+      {
+        "id": "E",
+        "text": "أريان 5"
+      },
+      {
+        "id": "F",
+        "text": "SLS"
+      }
+    ],
+    "correctOptionId": "A",
+    "qualityStatus": "unreviewed"
+  },
+  {
+    "id": "breaking_news-medium-0204",
+    "categoryId": "breaking_news",
+    "difficulty": "medium",
+    "text": "في أي يوم من أكتوبر 2024 انطلق يوروبا كليبر وفق سجل المهمة الرسمي؟",
+    "answer": "14 أكتوبر",
+    "acceptedAnswers": [],
+    "hint": "وقع الإطلاق في النصف الأول من الشهر، بعد تغيّر الاستعدادات الجوية.",
+    "clues": [],
+    "explanation": "يسجل مصدر ناسا إطلاق المهمة يوم 14 أكتوبر 2024 من فلوريدا.",
+    "sources": [
+      "https://science.nasa.gov/mission/europa-clipper/ — بيان رسمي قُرئ في2026-10-13؛ المرجع يثبت الحدث والجانب المطلوب فيه، ولا يُقدّم التقدير المستقبلي كحدث وقع."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "10 أكتوبر"
+      },
+      {
+        "id": "B",
+        "text": "14 أكتوبر"
+      },
+      {
+        "id": "C",
+        "text": "12 أكتوبر"
+      },
+      {
+        "id": "D",
+        "text": "16 أكتوبر"
+      },
+      {
+        "id": "E",
+        "text": "18 أكتوبر"
+      },
+      {
+        "id": "F",
+        "text": "20 أكتوبر"
+      }
+    ],
+    "correctOptionId": "B",
+    "qualityStatus": "unreviewed"
+  },
+  {
+    "id": "breaking_news-hard-0204",
+    "categoryId": "breaking_news",
+    "difficulty": "hard",
+    "text": "وفق خطة يوروبا كليبر المعلنة عند الإطلاق، أين يدور المسبار لكي ينفذ اقترابات متكررة من يوروبا؟",
+    "answer": "حول المشتري",
+    "acceptedAnswers": [],
+    "hint": "الوجهة العلمية قمر، لكن المدار المخطط حول الجسم الأكبر.",
+    "clues": [],
+    "explanation": "يدور المسبار حول المشتري وينفذ اقترابات متعددة من يوروبا، ولا تضعه الخطة في مدار دائم حول يوروبا نفسه.",
+    "sources": [
+      "https://science.nasa.gov/mission/europa-clipper/ — بيان رسمي قُرئ في2026-10-13؛ المرجع يثبت الحدث والجانب المطلوب فيه، ولا يُقدّم التقدير المستقبلي كحدث وقع."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "حول يوروبا وحده"
+      },
+      {
+        "id": "B",
+        "text": "حول زحل"
+      },
+      {
+        "id": "C",
+        "text": "حول المشتري"
+      },
+      {
+        "id": "D",
+        "text": "حول الأرض"
+      },
+      {
+        "id": "E",
+        "text": "حول جانيميد وحده"
+      },
+      {
+        "id": "F",
+        "text": "حول الشمس قرب عطارد"
+      }
+    ],
+    "correctOptionId": "C",
+    "qualityStatus": "unreviewed"
+  },
+  {
+    "id": "breaking_news-legendary-0204",
+    "categoryId": "breaking_news",
+    "difficulty": "legendary",
+    "text": "ما الصياغة الأدق لهدف يوروبا كليبر الرئيسي في بيان المهمة، بدلاً من افتراض أنه سيعلن العثور على كائنات؟",
+    "answer": "تحديد وجود ظروف يمكن أن تدعم الحياة",
+    "acceptedAnswers": [],
+    "hint": "فرّق بين صلاحية البيئة للحياة وبين إثبات حياة بالفعل.",
+    "clues": [],
+    "explanation": "هدف المهمة تقييم مواضع وظروف قد تسمح بالحياة تحت سطح يوروبا؛ ليست مهمتها إثبات وجود كائنات بعينها.",
+    "sources": [
+      "https://science.nasa.gov/mission/europa-clipper/ — بيان رسمي قُرئ في2026-10-13؛ المرجع يثبت الحدث والجانب المطلوب فيه، ولا يُقدّم التقدير المستقبلي كحدث وقع."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "قياس عدد الكائنات الحية في المحيط مباشرة"
+      },
+      {
+        "id": "B",
+        "text": "إعادة عينة من ماء المحيط إلى الأرض"
+      },
+      {
+        "id": "C",
+        "text": "قياس خصائص جو المشتري بوصفه الهدف الرئيسي"
+      },
+      {
+        "id": "D",
+        "text": "تحديد وجود ظروف يمكن أن تدعم الحياة"
+      },
+      {
+        "id": "E",
+        "text": "تحديد قابلية سطح المشتري لاستيطان البشر"
+      },
+      {
+        "id": "F",
+        "text": "اختبار هبوط طويل المدة على سطح يوروبا"
+      }
+    ],
+    "correctOptionId": "D",
+    "qualityStatus": "unreviewed"
+  },
+  {
+    "id": "breaking_news-easy-0205",
+    "categoryId": "breaking_news",
+    "difficulty": "easy",
+    "text": "خبر إطلاق أكتوبر 2021: أي مهمة سُميت نسبةً إلى اكتشاف أحفوري، وانطلقت لدراسة كويكبات طروادة للمشتري؟",
+    "answer": "لوسي",
+    "acceptedAnswers": [],
+    "hint": "الاسم مأخوذ من هيكل أحفوري مشهور في تاريخ دراسة الإنسان.",
+    "clues": [],
+    "explanation": "سُميت مهمة Lucy بالاسم نفسه للهيكل الأحفوري لوسي، لدراسة بقايا تشكّل الكواكب.",
+    "sources": [
+      "https://www.nasa.gov/news-release/nasa-ula-launch-lucy-mission-to-fossils-of-planet-formation/ — بيان رسمي قُرئ في2026-10-13؛ المرجع يثبت الحدث والجانب المطلوب فيه، ولا يُقدّم التقدير المستقبلي كحدث وقع."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "سايكي"
+      },
+      {
+        "id": "B",
+        "text": "دارت"
+      },
+      {
+        "id": "C",
+        "text": "داون"
+      },
+      {
+        "id": "D",
+        "text": "جونو"
+      },
+      {
+        "id": "E",
+        "text": "لوسي"
+      },
+      {
+        "id": "F",
+        "text": "أوسايرس ريكس"
+      }
+    ],
+    "correctOptionId": "E",
+    "qualityStatus": "unreviewed"
+  },
+  {
+    "id": "breaking_news-medium-0205",
+    "categoryId": "breaking_news",
+    "difficulty": "medium",
+    "text": "من أي قاعدة انطلقت مهمة لوسي على أطلس 5 في 16 أكتوبر 2021 ؟",
+    "answer": "كيب كانافيرال في فلوريدا",
+    "acceptedAnswers": [],
+    "hint": "كان الإطلاق من المجمع 41 على الساحل الأمريكي الشرقي.",
+    "clues": [],
+    "explanation": "يحدد بيان الإطلاق قاعدة Cape Canaveral Space Force Station ومجمع الإطلاق 41.",
+    "sources": [
+      "https://www.nasa.gov/news-release/nasa-ula-launch-lucy-mission-to-fossils-of-planet-formation/ — بيان رسمي قُرئ في2026-10-13؛ المرجع يثبت الحدث والجانب المطلوب فيه، ولا يُقدّم التقدير المستقبلي كحدث وقع."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "فاندنبرغ في كاليفورنيا"
+      },
+      {
+        "id": "B",
+        "text": "مركز غويانا الفضائي"
+      },
+      {
+        "id": "C",
+        "text": "مركز والوبس في فرجينيا"
+      },
+      {
+        "id": "D",
+        "text": "بايكونور في كازاخستان"
+      },
+      {
+        "id": "E",
+        "text": "تانيغاشيما في اليابان"
+      },
+      {
+        "id": "F",
+        "text": "كيب كانافيرال في فلوريدا"
+      }
+    ],
+    "correctOptionId": "F",
+    "qualityStatus": "unreviewed"
+  },
+  {
+    "id": "breaking_news-hard-0205",
+    "categoryId": "breaking_news",
+    "difficulty": "hard",
+    "text": "ما الأصل الذي يفسر تسمية لوسي في بيان إطلاقها، وليس مقصدها الفلكي؟",
+    "answer": "هيكل أحفوري لأحد أسلاف الإنسان",
+    "acceptedAnswers": [],
+    "hint": "الاختيار يربط بقايا الماضي الكوكبي ببقايا الماضي البشري.",
+    "clues": [],
+    "explanation": "تذكر ناسا أن الاسم من الهيكل الأحفوري Lucy ، على سبيل المقارنة بين قيمة الأحافير وكويكبات بقايا تشكل النظام الشمسي.",
+    "sources": [
+      "https://www.nasa.gov/news-release/nasa-ula-launch-lucy-mission-to-fossils-of-planet-formation/ — بيان رسمي قُرئ في2026-10-13؛ المرجع يثبت الحدث والجانب المطلوب فيه، ولا يُقدّم التقدير المستقبلي كحدث وقع."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "هيكل أحفوري لأحد أسلاف الإنسان"
+      },
+      {
+        "id": "B",
+        "text": "اسم عائلة كويكبات قديمة"
+      },
+      {
+        "id": "C",
+        "text": "اسم نيزك محفوظ في متحف"
+      },
+      {
+        "id": "D",
+        "text": "اسم أول مرصد لكويكبات طروادة"
+      },
+      {
+        "id": "E",
+        "text": "اسم أول مركبة اقتربت من كويكب"
+      },
+      {
+        "id": "F",
+        "text": "اسم مدينة ارتبطت باكتشاف كويكبات المشتري"
+      }
+    ],
+    "correctOptionId": "A",
+    "qualityStatus": "unreviewed"
+  },
+  {
+    "id": "breaking_news-legendary-0205",
+    "categoryId": "breaking_news",
+    "difficulty": "legendary",
+    "text": "كيف وصف بيان إطلاق لوسي موضع سربَي طروادة بالنسبة إلى المشتري في دورانهما حول الشمس؟",
+    "answer": "سرب أمامه وآخر خلفه في المدار",
+    "acceptedAnswers": [],
+    "hint": "كلمة طروادة هنا تصف مجموعات تشترك في المسار الشمسي للكوكب.",
+    "clues": [],
+    "explanation": "يصف البيان سرباً متقدماً على المشتري وآخر متأخراً عنه قرب مواضع استقرار جاذبية مرتبطة بمداره.",
+    "sources": [
+      "https://www.nasa.gov/news-release/nasa-ula-launch-lucy-mission-to-fossils-of-planet-formation/ — بيان رسمي قُرئ في2026-10-13؛ المرجع يثبت الحدث والجانب المطلوب فيه، ولا يُقدّم التقدير المستقبلي كحدث وقع."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "سربان حول المشتري في مدارين قمريين مختلفين"
+      },
+      {
+        "id": "B",
+        "text": "سرب أمامه وآخر خلفه في المدار"
+      },
+      {
+        "id": "C",
+        "text": "سرب في مدار المشتري وآخر في مدار زحل"
+      },
+      {
+        "id": "D",
+        "text": "سرب داخلي وآخر خارجي يعبران مدار المشتري"
+      },
+      {
+        "id": "E",
+        "text": "سرب على مسار قطبي وآخر على مسار استوائي حول المشتري"
+      },
+      {
+        "id": "F",
+        "text": "سربان يتقدمان المشتري على مساره حول الشمس"
+      }
+    ],
+    "correctOptionId": "B",
+    "qualityStatus": "unreviewed"
+  },
+  {
+    "id": "breaking_news-easy-0206",
+    "categoryId": "breaking_news",
+    "difficulty": "easy",
+    "text": "ما صفة الكويكب التي ميزت وجهة مهمة سايكي عند إطلاقها في أكتوبر 2023 ؟",
+    "answer": "غناه بالمعادن",
+    "acceptedAnswers": [],
+    "hint": "ارتبط الاهتمام به بفهم الأجزاء المعدنية داخل الكواكب الصخرية.",
+    "clues": [],
+    "explanation": "سايكي كويكب غني بالمعادن، وقد يساعد درسه على فهم مواد تشكل الكواكب ونواها.",
+    "sources": [
+      "https://www.nasa.gov/news-release/nasas-psyche-spacecraft-optical-comms-demo-en-route-to-asteroid/ — بيان رسمي قُرئ في2026-10-13؛ المرجع يثبت الحدث والجانب المطلوب فيه، ولا يُقدّم التقدير المستقبلي كحدث وقع."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "غلبة المواد الكربونية العضوية عليه"
+      },
+      {
+        "id": "B",
+        "text": "غلبة الجليد المائي على تركيب سطحه"
+      },
+      {
+        "id": "C",
+        "text": "غناه بالمعادن"
+      },
+      {
+        "id": "D",
+        "text": "غلبة الصخور السيليكاتية عليه دون غنى معدني"
+      },
+      {
+        "id": "E",
+        "text": "كونه ثنائيًا تلامسيًا من فصين"
+      },
+      {
+        "id": "F",
+        "text": "كونه قمرًا صغيرًا تابعًا لكويكب أكبر"
+      }
+    ],
+    "correctOptionId": "C",
+    "qualityStatus": "unreviewed"
+  },
+  {
+    "id": "breaking_news-medium-0206",
+    "categoryId": "breaking_news",
+    "difficulty": "medium",
+    "text": "ما التقنية التجريبية DSOC التي حملتها سايكي عند إطلاقها؟",
+    "answer": "الاتصالات بالليزر في الفضاء العميق",
+    "acceptedAnswers": [],
+    "hint": "التجربة تستهدف تحسين طريقة إرسال المعلومات، لا جمع الصخور.",
+    "clues": [],
+    "explanation": "DSOC تجربة اتصالات ضوئية بالليزر تهدف إلى سعات نقل أكبر من اتصالات الترددات الراديوية التقليدية.",
+    "sources": [
+      "https://www.nasa.gov/news-release/nasas-psyche-spacecraft-optical-comms-demo-en-route-to-asteroid/ — بيان رسمي قُرئ في2026-10-13؛ المرجع يثبت الحدث والجانب المطلوب فيه، ولا يُقدّم التقدير المستقبلي كحدث وقع."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "اتصالات راديوية بنطاق Ka في الفضاء العميق"
+      },
+      {
+        "id": "B",
+        "text": "اتصالات راديوية بنطاق X في الفضاء العميق"
+      },
+      {
+        "id": "C",
+        "text": "ترحيل اتصالات مركبة سطحية عبر أقمار حول المريخ"
+      },
+      {
+        "id": "D",
+        "text": "الاتصالات بالليزر في الفضاء العميق"
+      },
+      {
+        "id": "E",
+        "text": "اتصالات ضوئية بين أقمار قريبة في مدار الأرض فقط"
+      },
+      {
+        "id": "F",
+        "text": "اتصالات راديوية بنطاق UHF بين مركبات مريخية"
+      }
+    ],
+    "correctOptionId": "D",
+    "qualityStatus": "unreviewed"
+  },
+  {
+    "id": "breaking_news-hard-0206",
+    "categoryId": "breaking_news",
+    "difficulty": "hard",
+    "text": "أي غاز تعتمد عليه محركات سايكي الكهربائية بحسب بيان الإطلاق المنشور في 2023 ؟",
+    "answer": "الزينون",
+    "acceptedAnswers": [],
+    "hint": "تتكون قوة الدفع من طرد ذرات مؤينة لغاز ثقيل.",
+    "clues": [],
+    "explanation": "تطرد محركات الدفع الكهربائي أيونات غاز الزينون لتوليد دفع لطيف ومستمر أثناء الرحلة.",
+    "sources": [
+      "https://www.nasa.gov/news-release/nasas-psyche-spacecraft-optical-comms-demo-en-route-to-asteroid/ — بيان رسمي قُرئ في2026-10-13؛ المرجع يثبت الحدث والجانب المطلوب فيه، ولا يُقدّم التقدير المستقبلي كحدث وقع."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "الأرجون"
+      },
+      {
+        "id": "B",
+        "text": "الهيليوم"
+      },
+      {
+        "id": "C",
+        "text": "النيون"
+      },
+      {
+        "id": "D",
+        "text": "الهيدروجين"
+      },
+      {
+        "id": "E",
+        "text": "الزينون"
+      },
+      {
+        "id": "F",
+        "text": "النيتروجين"
+      }
+    ],
+    "correctOptionId": "E",
+    "qualityStatus": "unreviewed"
+  },
+  {
+    "id": "breaking_news-legendary-0206",
+    "categoryId": "breaking_news",
+    "difficulty": "legendary",
+    "text": "مع أي مجمع لشبكة الفضاء العميق أقامت سايكي أول اتصال ثنائي الاتجاه بعد إطلاقها، وفق بيان 13 أكتوبر 2023 ؟",
+    "answer": "كانبيرا في أستراليا",
+    "acceptedAnswers": [],
+    "hint": "ورد الموضع في نصف الكرة الجنوبي، بعد نحو ساعة ونصف من الإطلاق.",
+    "clues": [],
+    "explanation": "يسجل البيان الاتصال الثنائي مع مجمع NASA Deep Space Network فيكانبيرا الساعة 11:50 صباحاً بتوقيت شرق أمريكا.",
+    "sources": [
+      "https://www.nasa.gov/news-release/nasas-psyche-spacecraft-optical-comms-demo-en-route-to-asteroid/ — بيان رسمي قُرئ في2026-10-13؛ المرجع يثبت الحدث والجانب المطلوب فيه، ولا يُقدّم التقدير المستقبلي كحدث وقع."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "مدريد في إسبانيا"
+      },
+      {
+        "id": "B",
+        "text": "غولدستون في كاليفورنيا"
+      },
+      {
+        "id": "C",
+        "text": "دارمشتات في ألمانيا"
+      },
+      {
+        "id": "D",
+        "text": "كيرونا في السويد"
+      },
+      {
+        "id": "E",
+        "text": "هيوستن في تكساس"
+      },
+      {
+        "id": "F",
+        "text": "كانبيرا في أستراليا"
+      }
+    ],
+    "correctOptionId": "F",
+    "qualityStatus": "unreviewed"
+  },
+  {
+    "id": "breaking_news-easy-0207",
+    "categoryId": "breaking_news",
+    "difficulty": "easy",
+    "text": "خبر رحلة أرتيمس 1 التي انطلقت في نوفمبر 2022: ما حالة الطاقم داخل أوريون في هذا الاختبار؟",
+    "answer": "كانت بلا طاقم بشري",
+    "acceptedAnswers": [],
+    "hint": "كان الاختبار تمهيداً لرحلة تالية برواد فضاء.",
+    "clues": [],
+    "explanation": "حملت رحلة Artemis I مركبة أوريون غير المأهولة لاختبار الأنظمة قبل الرحلات البشرية.",
+    "sources": [
+      "https://www.nasa.gov/news-release/liftoff-nasas-artemis-i-mega-rocket-launches-orion-to-moon/ — بيان رسمي قُرئ في2026-10-13؛ المرجع يثبت الحدث والجانب المطلوب فيه، ولا يُقدّم التقدير المستقبلي كحدث وقع."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "كانت بلا طاقم بشري"
+      },
+      {
+        "id": "B",
+        "text": "حملت رائداً واحداً"
+      },
+      {
+        "id": "C",
+        "text": "حملت رائدين"
+      },
+      {
+        "id": "D",
+        "text": "حملت ثلاثة رواد"
+      },
+      {
+        "id": "E",
+        "text": "حملت أربعة رواد"
+      },
+      {
+        "id": "F",
+        "text": "حملت ستة رواد"
+      }
+    ],
+    "correctOptionId": "A",
+    "qualityStatus": "unreviewed"
+  },
+  {
+    "id": "breaking_news-medium-0207",
+    "categoryId": "breaking_news",
+    "difficulty": "medium",
+    "text": "من أي منصة في مركز كينيدي انطلق SLS في رحلة أرتيمس 1 عام 2022 ؟",
+    "answer": "39B",
+    "acceptedAnswers": [],
+    "hint": "إحدى المنصتين اللتين تحملان الرقم 39 ، وليست منصة فالكون هيفي.",
+    "clues": [],
+    "explanation": "يحدد بيان ناسا انطلاق SLS من Launch Pad39B في مركز كينيدي.",
+    "sources": [
+      "https://www.nasa.gov/news-release/liftoff-nasas-artemis-i-mega-rocket-launches-orion-to-moon/ — بيان رسمي قُرئ في2026-10-13؛ المرجع يثبت الحدث والجانب المطلوب فيه، ولا يُقدّم التقدير المستقبلي كحدث وقع."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "39A"
+      },
+      {
+        "id": "B",
+        "text": "39B"
+      },
+      {
+        "id": "C",
+        "text": "40"
+      },
+      {
+        "id": "D",
+        "text": "41"
+      },
+      {
+        "id": "E",
+        "text": "4E"
+      },
+      {
+        "id": "F",
+        "text": "17B"
+      }
+    ],
+    "correctOptionId": "B",
+    "qualityStatus": "unreviewed"
+  },
+  {
+    "id": "breaking_news-hard-0207",
+    "categoryId": "breaking_news",
+    "difficulty": "hard",
+    "text": "أي وكالة وفرت وحدة خدمة أوريون التي زودتها بالدفع بعد انفصالها عن المرحلة العليا في أرتيمس 1 ؟",
+    "answer": "وكالة الفضاء الأوروبية ESA",
+    "acceptedAnswers": [],
+    "hint": "جزء من المركبة نتج عن شراكة دولية عابرة للأطلسي.",
+    "clues": [],
+    "explanation": "توضح ناسا أن الوحدة المزودة بالدفع مقدمة من وكالة الفضاء الأوروبية.",
+    "sources": [
+      "https://www.nasa.gov/news-release/liftoff-nasas-artemis-i-mega-rocket-launches-orion-to-moon/ — بيان رسمي قُرئ في2026-10-13؛ المرجع يثبت الحدث والجانب المطلوب فيه، ولا يُقدّم التقدير المستقبلي كحدث وقع."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "وكالة الفضاء الكندية CSA"
+      },
+      {
+        "id": "B",
+        "text": "وكالة الفضاء اليابانية JAXA"
+      },
+      {
+        "id": "C",
+        "text": "وكالة الفضاء الأوروبية ESA"
+      },
+      {
+        "id": "D",
+        "text": "وكالة الفضاء الهندية ISRO"
+      },
+      {
+        "id": "E",
+        "text": "وكالة الفضاء الروسية Roscosmos"
+      },
+      {
+        "id": "F",
+        "text": "وكالة الفضاء الصينية CNSA"
+      }
+    ],
+    "correctOptionId": "C",
+    "qualityStatus": "unreviewed"
+  },
+  {
+    "id": "breaking_news-legendary-0207",
+    "categoryId": "breaking_news",
+    "difficulty": "legendary",
+    "text": "ما السبب التقني لإلغاء محاولة إطلاق أرتيمس 1 في 29 أغسطس 2022 ، وفق بيان الإطلاق النهائي؟",
+    "answer": "خلل مستشعر درجة الحرارة",
+    "acceptedAnswers": [],
+    "hint": "لا تخلط السبب مع تسرب الوقود الذي ألغى المحاولة اللاحقة في سبتمبر.",
+    "clues": [],
+    "explanation": "ينسب بيان الإطلاق النهائي إلغاء محاولة 29 أغسطس 2022 إلى مستشعر درجة حرارة معيب. ويذكر أن المحاولة اللاحقة في سبتمبر أُلغيت بسبب تسرب الهيدروجين؛ لم يُستخدم رقم يومها هنا.",
+    "sources": [
+      "https://www.nasa.gov/news-release/liftoff-nasas-artemis-i-mega-rocket-launches-orion-to-moon/ — بيان رسمي قُرئ في2026-10-13؛ المرجع يثبت الحدث والجانب المطلوب فيه، ولا يُقدّم التقدير المستقبلي كحدث وقع."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "تسرب الهيدروجين عند وصلة المنصة"
+      },
+      {
+        "id": "B",
+        "text": "تلف أجنحة المركبة الشمسية"
+      },
+      {
+        "id": "C",
+        "text": "تعطل نظام الهبوط بالمظلات"
+      },
+      {
+        "id": "D",
+        "text": "خلل مستشعر درجة الحرارة"
+      },
+      {
+        "id": "E",
+        "text": "خلل ملاحة الوحدة الأوروبية"
+      },
+      {
+        "id": "F",
+        "text": "فقد اتصال شبكة الفضاء العميق"
+      }
+    ],
+    "correctOptionId": "D",
+    "qualityStatus": "unreviewed"
+  },
+  {
+    "id": "breaking_news-easy-0208",
+    "categoryId": "breaking_news",
+    "difficulty": "easy",
+    "text": "في خبر ختام أرتيمس 1 في ديسمبر 2022 ، في أي محيط هبطت أوريون بالمظلات؟",
+    "answer": "المحيط الهادئ",
+    "acceptedAnswers": [],
+    "hint": "نُقلت المركبة بعد استردادها إلى سان دييغو.",
+    "clues": [],
+    "explanation": "انتهت الرحلة بهبوطمائي في المحيط الهادئ قبل نقلها إلى قاعدة سان دييغو.",
+    "sources": [
+      "https://www.nasa.gov/blogs/artemis/2022/12/11/artemis-i-flight-day-26-orion-splashes-down-concluding-historic-artemis-i-mission/ — بيان رسمي قُرئ في2026-10-13؛ المرجع يثبت الحدث والجانب المطلوب فيه، ولا يُقدّم التقدير المستقبلي كحدث وقع."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "المحيط الأطلسي"
+      },
+      {
+        "id": "B",
+        "text": "المحيط الهندي"
+      },
+      {
+        "id": "C",
+        "text": "المحيط المتجمد الشمالي"
+      },
+      {
+        "id": "D",
+        "text": "المحيط الجنوبي"
+      },
+      {
+        "id": "E",
+        "text": "المحيط الهادئ"
+      },
+      {
+        "id": "F",
+        "text": "البحر الكاريبي"
+      }
+    ],
+    "correctOptionId": "E",
+    "qualityStatus": "unreviewed"
+  },
+  {
+    "id": "breaking_news-medium-0208",
+    "categoryId": "breaking_news",
+    "difficulty": "medium",
+    "text": "ما اسم سفينة الاسترداد التي تولت استقبال أوريون بعد ختام أرتيمس 1 ، بحسب تقرير الهبوط؟",
+    "answer": "USS Portland",
+    "acceptedAnswers": [],
+    "hint": "كانت السفينة مجهزة بحوض داخلي عندخطالماء لسحب الكبسولة إليه.",
+    "clues": [],
+    "explanation": "ذكر التقرير فريق الاسترداد علىمتن USS Portland.",
+    "sources": [
+      "https://www.nasa.gov/blogs/artemis/2022/12/11/artemis-i-flight-day-26-orion-splashes-down-concluding-historic-artemis-i-mission/ — بيان رسمي قُرئ في2026-10-13؛ المرجع يثبت الحدث والجانب المطلوب فيه، ولا يُقدّم التقدير المستقبلي كحدث وقع."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "USS Anchorage"
+      },
+      {
+        "id": "B",
+        "text": "USS San Diego"
+      },
+      {
+        "id": "C",
+        "text": "USS Arlington"
+      },
+      {
+        "id": "D",
+        "text": "USS John P. Murtha"
+      },
+      {
+        "id": "E",
+        "text": "USS New Orleans"
+      },
+      {
+        "id": "F",
+        "text": "USS Portland"
+      }
+    ],
+    "correctOptionId": "F",
+    "qualityStatus": "unreviewed"
+  },
+  {
+    "id": "breaking_news-hard-0208",
+    "categoryId": "breaking_news",
+    "difficulty": "hard",
+    "text": "في خطة استرداد أوريون المنشورة يوم هبوط أرتيمس 1 عام 2022، ما الخطوة التالية لسحب الكبسولة فوق مهدها داخل حوض سفينة الاسترداد؟",
+    "answer": "تصريف ماء الحوض وتثبيت المركبة",
+    "acceptedAnswers": [],
+    "hint": "كان المهد النهائي سيحمل الكبسولة داخل السفينة بدلاً من تركها طافية.",
+    "clues": [],
+    "explanation": "تذكر الخطة تصريف ماء الحوض بعد تموضعأوريون فوق المهد ثم تثبيتها عليه.",
+    "sources": [
+      "https://www.nasa.gov/blogs/artemis/2022/12/11/artemis-i-flight-day-26-orion-splashes-down-concluding-historic-artemis-i-mission/ — بيان رسمي قُرئ في2026-10-13؛ المرجع يثبت الحدث والجانب المطلوب فيه، ولا يُقدّم التقدير المستقبلي كحدث وقع."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "تصريف ماء الحوض وتثبيت المركبة"
+      },
+      {
+        "id": "B",
+        "text": "إعادة تعويم المركبة ونقلها طافية إلى الميناء"
+      },
+      {
+        "id": "C",
+        "text": "رفع المركبة مباشرة إلى السطح العلوي قبل تصريف الحوض"
+      },
+      {
+        "id": "D",
+        "text": "تثبيت المركبة في حوض ممتلئ بالماء طوال الرحلة"
+      },
+      {
+        "id": "E",
+        "text": "تصريف الحوض قبل سحب المركبة إلى المهد"
+      },
+      {
+        "id": "F",
+        "text": "فصل الدرع الحراري قبل إدخال المركبة إلى الحوض"
+      }
+    ],
+    "correctOptionId": "A",
+    "qualityStatus": "unreviewed"
+  },
+  {
+    "id": "breaking_news-legendary-0208",
+    "categoryId": "breaking_news",
+    "difficulty": "legendary",
+    "text": "بحسب خطة استرداد أرتيمس 1 المنشورة يوم الهبوط، لماذا كان مقررًا إبقاء أوريون عاملة في الماء فترة قبل إطفائها وتسليمها لفريق الاسترداد؟",
+    "answer": "لإجراء اختبارات إضافية على المركبة",
+    "acceptedAnswers": [],
+    "hint": "الهبوط لم يكن نهاية جمع البيانات من أنظمة الاختبار.",
+    "clues": [],
+    "explanation": "ذكر تقرير الهبوط أن المهندسين سيجرون اختبارات إضافية في الماء قبل إطفاءالمركبة وتسليمها للاسترداد.",
+    "sources": [
+      "https://www.nasa.gov/blogs/artemis/2022/12/11/artemis-i-flight-day-26-orion-splashes-down-concluding-historic-artemis-i-mission/ — بيان رسمي قُرئ في2026-10-13؛ المرجع يثبت الحدث والجانب المطلوب فيه، ولا يُقدّم التقدير المستقبلي كحدث وقع."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "لانتظار انتهاء بث بيانات الدخول فقط دون اختبارات"
+      },
+      {
+        "id": "B",
+        "text": "لإجراء اختبارات إضافية على المركبة"
+      },
+      {
+        "id": "C",
+        "text": "لإجراء تجارب إضافية على المظلات أثناء بقائها مفتوحة"
+      },
+      {
+        "id": "D",
+        "text": "لتبريد الدرع الحراري وحده دون قياس أنظمة المركبة"
+      },
+      {
+        "id": "E",
+        "text": "لتفريغ الوقود بتشغيل المحركات أثناء الطفو"
+      },
+      {
+        "id": "F",
+        "text": "لفصل وحدة الخدمة التي بقيت متصلة بعد الهبوط"
+      }
+    ],
+    "correctOptionId": "B",
+    "qualityStatus": "unreviewed"
+  },
+  {
+    "id": "breaking_news-easy-0209",
+    "categoryId": "breaking_news",
+    "difficulty": "easy",
+    "text": "أي إنجاز سجله خبر ناسا عن إنجينيويتي في 19 أبريل 2021 ؟",
+    "answer": "أول طيران بمحرك وتحكم على كوكب آخر",
+    "acceptedAnswers": [],
+    "hint": "كانت المروحية تجربة تقنية صغيرة وتعمل بأنظمة على متنها.",
+    "clues": [],
+    "explanation": "حققت إنجينيويتي أول تحليق على كوكب آخر يعمل بمحرك وتتحكم فيه أنظمة المركبة؛ وكان ذلك على المريخ.",
+    "sources": [
+      "https://www.nasa.gov/news-release/nasas-ingenuity-mars-helicopter-succeeds-in-historic-first-flight/ — بيان رسمي قُرئ في2026-10-13؛ المرجع يثبت الحدث والجانب المطلوب فيه، ولا يُقدّم التقدير المستقبلي كحدث وقع."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "أول طيران بمحرك وتحكم على قمر طبيعي"
+      },
+      {
+        "id": "B",
+        "text": "أول طائرة شراعية بلا محرك على المريخ"
+      },
+      {
+        "id": "C",
+        "text": "أول طيران بمحرك وتحكم على كوكب آخر"
+      },
+      {
+        "id": "D",
+        "text": "أول إقلاع صاروخي من سطح المريخ"
+      },
+      {
+        "id": "E",
+        "text": "أول تحليق بشري متحكم فيه على المريخ"
+      },
+      {
+        "id": "F",
+        "text": "أول طيران بمحرك على الأرض في غلاف يحاكي المريخ"
+      }
+    ],
+    "correctOptionId": "C",
+    "qualityStatus": "unreviewed"
+  },
+  {
+    "id": "breaking_news-medium-0209",
+    "categoryId": "breaking_news",
+    "difficulty": "medium",
+    "text": "إلى أي ارتفاع مخطط صعدت إنجينيويتي في رحلتها الأولى المعلنة في أبريل 2021 ؟",
+    "answer": "3 أمتار",
+    "acceptedAnswers": [],
+    "hint": "كان الارتفاع بضعة أمتار فقط؛ والمطلوب الارتفاع عن السطح في الرحلة الأولى.",
+    "clues": [],
+    "explanation": "أظهرت بيانات مقياس الارتفاع وصول المروحية إلى 10 أقدام، أي 3 أمتار تقريباً.",
+    "sources": [
+      "https://www.nasa.gov/news-release/nasas-ingenuity-mars-helicopter-succeeds-in-historic-first-flight/ — بيان رسمي قُرئ في2026-10-13؛ المرجع يثبت الحدث والجانب المطلوب فيه، ولا يُقدّم التقدير المستقبلي كحدث وقع."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "متران"
+      },
+      {
+        "id": "B",
+        "text": "4 أمتار"
+      },
+      {
+        "id": "C",
+        "text": "5 أمتار"
+      },
+      {
+        "id": "D",
+        "text": "3 أمتار"
+      },
+      {
+        "id": "E",
+        "text": "6 أمتار"
+      },
+      {
+        "id": "F",
+        "text": "7 أمتار"
+      }
+    ],
+    "correctOptionId": "D",
+    "qualityStatus": "unreviewed"
+  },
+  {
+    "id": "breaking_news-hard-0209",
+    "categoryId": "breaking_news",
+    "difficulty": "hard",
+    "text": "لماذا لم يقد إنسان إنجينيويتي بعصا تحكم من الأرض خلال رحلتها الأولى؟",
+    "answer": "لأن تأخر الاتصالات يتطلب تحكماً ذاتياً",
+    "acceptedAnswers": [],
+    "hint": "تصل البيانات عبر مسافات كوكبية وشبكات ترحيل، لا لحظةبلحظة.",
+    "clues": [],
+    "explanation": "كانت الرحلة ذاتية التوجيه والملاحة بسبب المسافة وزمنانتقالالاتصالات؛ لا يمكنقيادتها آنياً بعصا من الأرض.",
+    "sources": [
+      "https://www.nasa.gov/news-release/nasas-ingenuity-mars-helicopter-succeeds-in-historic-first-flight/ — بيان رسمي قُرئ في2026-10-13؛ المرجع يثبت الحدث والجانب المطلوب فيه، ولا يُقدّم التقدير المستقبلي كحدث وقع."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "لأن القيادة الأرضية كانت تقتصر على استقبال الصور فقط"
+      },
+      {
+        "id": "B",
+        "text": "لأن المنظومة اعتمدت أوامر تصوير بدل أوامر ملاحة"
+      },
+      {
+        "id": "C",
+        "text": "لأن الاتصال بالعربة انتهى قبل وقت الإقلاع"
+      },
+      {
+        "id": "D",
+        "text": "لأن المهندسين قرروا منع إرسال أي أوامر مسبقة"
+      },
+      {
+        "id": "E",
+        "text": "لأن تأخر الاتصالات يتطلب تحكماً ذاتياً"
+      },
+      {
+        "id": "F",
+        "text": "لأن هوائي المروحية صُمم للإرسال دون الاستقبال"
+      }
+    ],
+    "correctOptionId": "E",
+    "qualityStatus": "unreviewed"
+  },
+  {
+    "id": "breaking_news-legendary-0209",
+    "categoryId": "breaking_news",
+    "difficulty": "legendary",
+    "text": "ما رمز وكالة تشغيل الطائرة الذي منحتْه ICAO ل إنجينيويتي وأُعلن مع خبر الطيران الأول؟",
+    "answer": "IGY",
+    "acceptedAnswers": [],
+    "hint": "هو رمز من ثلاثة أحرف يرتبط باسم المروحية، وليس رمز موضع الطيران JZRO.",
+    "clues": [],
+    "explanation": "ذكر البيان أن ICAO قدمت الرمز IGY ونداء INGENUITY ؛ أما JZRO فكان تسمية موضعجيزيرو.",
+    "sources": [
+      "https://www.nasa.gov/news-release/nasas-ingenuity-mars-helicopter-succeeds-in-historic-first-flight/ — بيان رسمي قُرئ في2026-10-13؛ المرجع يثبت الحدث والجانب المطلوب فيه، ولا يُقدّم التقدير المستقبلي كحدث وقع."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "IGX"
+      },
+      {
+        "id": "B",
+        "text": "IGN"
+      },
+      {
+        "id": "C",
+        "text": "INY"
+      },
+      {
+        "id": "D",
+        "text": "ING"
+      },
+      {
+        "id": "E",
+        "text": "IGM"
+      },
+      {
+        "id": "F",
+        "text": "IGY"
+      }
+    ],
+    "correctOptionId": "F",
+    "qualityStatus": "unreviewed"
+  },
+  {
+    "id": "breaking_news-easy-0210",
+    "categoryId": "breaking_news",
+    "difficulty": "easy",
+    "text": "عند الإعلان عن ختام تشغيل موكسي على المريخ عام 2023 ، من أي غاز جوي كان يستخرج الأكسجين؟",
+    "answer": "ثاني أكسيد الكربون",
+    "acceptedAnswers": [],
+    "hint": "استعمل المادة الغازية السائدة في الغلاف المريخي عبر عملية كهروكيميائية.",
+    "clues": [],
+    "explanation": "يفصل موكسي ذرة أكسجين من جزيئات ثاني أكسيد الكربون الداخلة من الغلاف الجوي.",
+    "sources": [
+      "https://www.nasa.gov/missions/mars-2020-perseverance/perseverance-rover/nasas-oxygen-generating-experiment-moxie-completes-mars-mission/ — بيان رسمي قُرئ في2026-10-13؛ المرجع يثبت الحدث والجانب المطلوب فيه، ولا يُقدّم التقدير المستقبلي كحدث وقع."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "ثاني أكسيد الكربون"
+      },
+      {
+        "id": "B",
+        "text": "النيتروجين"
+      },
+      {
+        "id": "C",
+        "text": "الأرجون"
+      },
+      {
+        "id": "D",
+        "text": "الميثان"
+      },
+      {
+        "id": "E",
+        "text": "الهيدروجين"
+      },
+      {
+        "id": "F",
+        "text": "ثاني أكسيد الكبريت"
+      }
+    ],
+    "correctOptionId": "A",
+    "qualityStatus": "unreviewed"
+  },
+  {
+    "id": "breaking_news-medium-0210",
+    "categoryId": "breaking_news",
+    "difficulty": "medium",
+    "text": "أي عربة مريخية حملت تجربة موكسي التي اختتمت إنتاج الأكسجين عام 2023 ؟",
+    "answer": "بيرسيفيرنس",
+    "acceptedAnswers": [],
+    "hint": "هبطت العربة في 2021 وهي المعروفة أيضاً بمهمة Mars2020.",
+    "clues": [],
+    "explanation": "شُغّلموكسي داخلعربة بيرسيفيرنس التابعة لناسا.",
+    "sources": [
+      "https://www.nasa.gov/missions/mars-2020-perseverance/perseverance-rover/nasas-oxygen-generating-experiment-moxie-completes-mars-mission/ — بيان رسمي قُرئ في2026-10-13؛ المرجع يثبت الحدث والجانب المطلوب فيه، ولا يُقدّم التقدير المستقبلي كحدث وقع."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "كيوريوسيتي"
+      },
+      {
+        "id": "B",
+        "text": "بيرسيفيرنس"
+      },
+      {
+        "id": "C",
+        "text": "أوبورتيونيتي"
+      },
+      {
+        "id": "D",
+        "text": "سبيريت"
+      },
+      {
+        "id": "E",
+        "text": "سوجورنر"
+      },
+      {
+        "id": "F",
+        "text": "جورونغ"
+      }
+    ],
+    "correctOptionId": "B",
+    "qualityStatus": "unreviewed"
+  },
+  {
+    "id": "breaking_news-hard-0210",
+    "categoryId": "breaking_news",
+    "difficulty": "hard",
+    "text": "ما إجمالي كتلة الأكسجين التي أعلن بيان ختام موكسي أنه أنتجها عبر تشغيلاته؟",
+    "answer": "122 غراماً",
+    "acceptedAnswers": [],
+    "hint": "السؤال عن مجموع التجربة، لا أعلى إنتاج في الساعة.",
+    "clues": [],
+    "explanation": "ذكر البيان إنتاج 122 غراماً إجمالاً؛ وكان أعلى معدلساعي 12 غراماً وهو مقدار مختلف.",
+    "sources": [
+      "https://www.nasa.gov/missions/mars-2020-perseverance/perseverance-rover/nasas-oxygen-generating-experiment-moxie-completes-mars-mission/ — بيان رسمي قُرئ في2026-10-13؛ المرجع يثبت الحدث والجانب المطلوب فيه، ولا يُقدّم التقدير المستقبلي كحدث وقع."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "112 غراماً"
+      },
+      {
+        "id": "B",
+        "text": "118 غراماً"
+      },
+      {
+        "id": "C",
+        "text": "122 غراماً"
+      },
+      {
+        "id": "D",
+        "text": "126 غراماً"
+      },
+      {
+        "id": "E",
+        "text": "130 غراماً"
+      },
+      {
+        "id": "F",
+        "text": "134 غراماً"
+      }
+    ],
+    "correctOptionId": "C",
+    "qualityStatus": "unreviewed"
+  },
+  {
+    "id": "breaking_news-legendary-0210",
+    "categoryId": "breaking_news",
+    "difficulty": "legendary",
+    "text": "أي استعمال مستقبلي للأكسجين وصفه بيان ختام موكسي بأنه يتطلب كميات صناعية كبيرة لإعادة رواد المريخ؟",
+    "answer": "مؤكسد لدفع صاروخ العودة",
+    "acceptedAnswers": [],
+    "hint": "الكمية المطلوبة تتجاوز احتياجات تجربة تنفس صغيرة.",
+    "clues": [],
+    "explanation": "يشدد البيان على استعمال الأكسجين في دفع صاروخ عودة الرواد، ما يتطلب إنتاجًاً بكميات صناعية.",
+    "sources": [
+      "https://www.nasa.gov/missions/mars-2020-perseverance/perseverance-rover/nasas-oxygen-generating-experiment-moxie-completes-mars-mission/ — بيان رسمي قُرئ في2026-10-13؛ المرجع يثبت الحدث والجانب المطلوب فيه، ولا يُقدّم التقدير المستقبلي كحدث وقع."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "هواء للتنفس في موائل رواد السطح"
+      },
+      {
+        "id": "B",
+        "text": "غاز لضغط خزانات الوقود بدل عمله مؤكسدًا"
+      },
+      {
+        "id": "C",
+        "text": "غاز لتبريد المكونات الإلكترونية"
+      },
+      {
+        "id": "D",
+        "text": "مؤكسد لدفع صاروخ العودة"
+      },
+      {
+        "id": "E",
+        "text": "وسط دفع لمحركات أيونية بدل الزينون"
+      },
+      {
+        "id": "F",
+        "text": "مادة لاستخلاص الهيدروجين من تربة المريخ"
+      }
+    ],
+    "correctOptionId": "D",
+    "qualityStatus": "unreviewed"
+  },
+  {
+    "id": "breaking_news-easy-0211",
+    "categoryId": "breaking_news",
+    "difficulty": "easy",
+    "text": "أي كوكب استفاد باركر من تحليقاته قربه لتعديل مداره نحو الشمس قبل الاقتراب القياسي في ديسمبر 2024 ؟",
+    "answer": "الزهرة",
+    "acceptedAnswers": [],
+    "hint": "أتم باركر آخر مناورة قربه في 6 نوفمبر 2024 ضمن سلسلة سبع زيارات.",
+    "clues": [],
+    "explanation": "استخدمباركر سبع مرات جاذبية الزهرة لتوجيه مداره تدريجياً أقرب إلى الشمس.",
+    "sources": [
+      "https://science.nasa.gov/missions/parker-solar-probe/nasas-parker-solar-probe-makes-history-with-closest-pass-to-sun/ — بيان رسمي قُرئ في2026-10-13؛ المرجع يثبت الحدث والجانب المطلوب فيه، ولا يُقدّم التقدير المستقبلي كحدث وقع."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "عطارد"
+      },
+      {
+        "id": "B",
+        "text": "الأرض"
+      },
+      {
+        "id": "C",
+        "text": "المريخ"
+      },
+      {
+        "id": "D",
+        "text": "المشتري"
+      },
+      {
+        "id": "E",
+        "text": "الزهرة"
+      },
+      {
+        "id": "F",
+        "text": "زحل"
+      }
+    ],
+    "correctOptionId": "E",
+    "qualityStatus": "unreviewed"
+  },
+  {
+    "id": "breaking_news-medium-0211",
+    "categoryId": "breaking_news",
+    "difficulty": "medium",
+    "text": "في أي يوم وقع اقتراب باركر القياسي الذي أكدته ناسا بإشارة سلامة بعده في ديسمبر 2024 ؟",
+    "answer": "24 ديسمبر",
+    "acceptedAnswers": [],
+    "hint": "لا تخلط تاريخ المرور مع وصول إشارة السلامة بعده.",
+    "clues": [],
+    "explanation": "جرى الاقتراب القياسي في 24 ديسمبر 2024. أما نغمة السلامة فاستُقبلت لاحقًا؛ تاريخ المرور نفسه هو المطلوب، لا وقت وصول الاتصال.",
+    "sources": [
+      "https://science.nasa.gov/missions/parker-solar-probe/nasas-parker-solar-probe-makes-history-with-closest-pass-to-sun/ — بيان رسمي قُرئ في2026-10-13؛ المرجع يثبت الحدث والجانب المطلوب فيه، ولا يُقدّم التقدير المستقبلي كحدث وقع."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "20 ديسمبر"
+      },
+      {
+        "id": "B",
+        "text": "22 ديسمبر"
+      },
+      {
+        "id": "C",
+        "text": "26 ديسمبر"
+      },
+      {
+        "id": "D",
+        "text": "28 ديسمبر"
+      },
+      {
+        "id": "E",
+        "text": "30 ديسمبر"
+      },
+      {
+        "id": "F",
+        "text": "24 ديسمبر"
+      }
+    ],
+    "correctOptionId": "F",
+    "qualityStatus": "unreviewed"
+  },
+  {
+    "id": "breaking_news-hard-0211",
+    "categoryId": "breaking_news",
+    "difficulty": "hard",
+    "text": "بأي مادة وصف بيان الاقتراب القياسي درع باركر الحامي من حرارة الإكليل؟",
+    "answer": "رغوة كربونية",
+    "acceptedAnswers": [],
+    "hint": "المادة خفيفة وتعزل الأدوات المظللة خلف الدرع.",
+    "clues": [],
+    "explanation": "يذكر بيان ناسا درعاً من الرغوة الكربونية يحمي الأجهزة بينما واجهته تتعرض لحرارة شديدة.",
+    "sources": [
+      "https://science.nasa.gov/missions/parker-solar-probe/nasas-parker-solar-probe-makes-history-with-closest-pass-to-sun/ — بيان رسمي قُرئ في2026-10-13؛ المرجع يثبت الحدث والجانب المطلوب فيه، ولا يُقدّم التقدير المستقبلي كحدث وقع."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "رغوة كربونية"
+      },
+      {
+        "id": "B",
+        "text": "رغوة ألومنيوم"
+      },
+      {
+        "id": "C",
+        "text": "نسيج زجاجي"
+      },
+      {
+        "id": "D",
+        "text": "صفائح رصاص"
+      },
+      {
+        "id": "E",
+        "text": "شبكة نحاسية"
+      },
+      {
+        "id": "F",
+        "text": "إسفنج سيليكون"
+      }
+    ],
+    "correctOptionId": "A",
+    "qualityStatus": "unreviewed"
+  },
+  {
+    "id": "breaking_news-legendary-0211",
+    "categoryId": "breaking_news",
+    "difficulty": "legendary",
+    "text": "ما أول دليل تشغيلي ذكره بيان ناسا لتأكيد نجاة باركر من اقتراب 24 ديسمبر 2024 ؟",
+    "answer": "نغمة منارة تؤكد الحالة السليمة",
+    "acceptedAnswers": [],
+    "hint": "إشارة صغيرة عن الحالة سبقت وصول مجموعات البيانات العلمية.",
+    "clues": [],
+    "explanation": "ذكر بيان ناسا أن نغمة منارة استُقبلت بعد المرور، فأكدت أن المسبار اجتاز الاقتراب ويعمل بصورة طبيعية؛ لا أن جميع البيانات العلمية وصلت في اللحظة نفسها.",
+    "sources": [
+      "https://science.nasa.gov/missions/parker-solar-probe/nasas-parker-solar-probe-makes-history-with-closest-pass-to-sun/ — بيان رسمي قُرئ في2026-10-13؛ المرجع يثبت الحدث والجانب المطلوب فيه، ولا يُقدّم التقدير المستقبلي كحدث وقع."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "دفعة كاملة من البيانات العلمية خلال المرور"
+      },
+      {
+        "id": "B",
+        "text": "نغمة منارة تؤكد الحالة السليمة"
+      },
+      {
+        "id": "C",
+        "text": "صور الإكليل المحملة قبل المرور"
+      },
+      {
+        "id": "D",
+        "text": "قراءة مباشرة لحرارة الدرع فقط"
+      },
+      {
+        "id": "E",
+        "text": "رسالة ملاحة سبقت المرور ولم تتبعه"
+      },
+      {
+        "id": "F",
+        "text": "قياس للمدار من رصد بصري أرضي دون إشارة من المسبار"
+      }
+    ],
+    "correctOptionId": "B",
+    "qualityStatus": "unreviewed"
+  },
+  {
+    "id": "breaking_news-easy-0212",
+    "categoryId": "breaking_news",
+    "difficulty": "easy",
+    "text": "خبر إطلاق 2024: ما اسم قمر ناسا المخصص للعوالق والهباء والسحب ومنظومة المحيط؟",
+    "answer": "PACE",
+    "acceptedAnswers": [],
+    "hint": "يجمع اسمه المختصر موضوعات بحرية وجوية، لا رسم ارتفاع المياه فقط.",
+    "clues": [],
+    "explanation": "يحمل PACE اسم Plankton, Aerosol, Cloud, ocean Ecosystem ، ويجمع رصد المحيط والغلاف الجوي.",
+    "sources": [
+      "https://www.nasa.gov/news-release/nasa-launches-new-climate-mission-to-study-ocean-atmosphere/ — بيان رسمي قُرئ في2026-10-13؛ المرجع يثبت الحدث والجانب المطلوب فيه، ولا يُقدّم التقدير المستقبلي كحدث وقع."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "SWOT"
+      },
+      {
+        "id": "B",
+        "text": "GPM"
+      },
+      {
+        "id": "C",
+        "text": "PACE"
+      },
+      {
+        "id": "D",
+        "text": "SMAP"
+      },
+      {
+        "id": "E",
+        "text": "ICESat-2"
+      },
+      {
+        "id": "F",
+        "text": "Jason-3"
+      }
+    ],
+    "correctOptionId": "C",
+    "qualityStatus": "unreviewed"
+  },
+  {
+    "id": "breaking_news-medium-0212",
+    "categoryId": "breaking_news",
+    "difficulty": "medium",
+    "text": "في أي يوم من فبراير 2024 انطلق PACE ، لا يوم تحديث البيان الصحفي لاحقاً؟",
+    "answer": "8 فبراير",
+    "acceptedAnswers": [],
+    "hint": "انطلق بعد منتصف الليل بتوقيت فلوريدا، ونُقّح اسمه في البيان بعد أيام.",
+    "clues": [],
+    "explanation": "يحدد بيان الإطلاق وصول الصاروخ إلى الفضاء يوم 8 فبراير 2024 ؛ تحديث 12 فبراير ليس تاريخ الإطلاق.",
+    "sources": [
+      "https://www.nasa.gov/news-release/nasa-launches-new-climate-mission-to-study-ocean-atmosphere/ — بيان رسمي قُرئ في2026-10-13؛ المرجع يثبت الحدث والجانب المطلوب فيه، ولا يُقدّم التقدير المستقبلي كحدث وقع."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "4 فبراير"
+      },
+      {
+        "id": "B",
+        "text": "6 فبراير"
+      },
+      {
+        "id": "C",
+        "text": "10 فبراير"
+      },
+      {
+        "id": "D",
+        "text": "8 فبراير"
+      },
+      {
+        "id": "E",
+        "text": "12 فبراير"
+      },
+      {
+        "id": "F",
+        "text": "14 فبراير"
+      }
+    ],
+    "correctOptionId": "D",
+    "qualityStatus": "unreviewed"
+  },
+  {
+    "id": "breaking_news-hard-0212",
+    "categoryId": "breaking_news",
+    "difficulty": "hard",
+    "text": "ما القدرة الجديدة في دراسة العوالق التي أتاحها مطياف ألوان المحيط فائق الطيف في PACE، بحسب خبر إطلاقه؟",
+    "answer": "تمييز تجمعات العوالق النباتية عالمياً",
+    "acceptedAnswers": [],
+    "hint": "يعالج أطوالاًموجية متعددة كي يتجاوز مجرد لون واحد للماء.",
+    "clues": [],
+    "explanation": "تتيح الأداة فائقة الطيف تتبع العوالق النباتية والتعرف إلى تجمعاتها على نطاق يومي وعالمي.",
+    "sources": [
+      "https://www.nasa.gov/news-release/nasa-launches-new-climate-mission-to-study-ocean-atmosphere/ — بيان رسمي قُرئ في2026-10-13؛ المرجع يثبت الحدث والجانب المطلوب فيه، ولا يُقدّم التقدير المستقبلي كحدث وقع."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "رصد لون المحيط المتكامل دون تمييز مجتمعات العوالق"
+      },
+      {
+        "id": "B",
+        "text": "قياس ارتفاع سطح الماء بالرادار التداخلي"
+      },
+      {
+        "id": "C",
+        "text": "قياس ملوحة سطح المحيط مباشرة بالموجات الميكروية"
+      },
+      {
+        "id": "D",
+        "text": "قياس حرارة سطح البحر بالأشعة تحت الحمراء الحرارية"
+      },
+      {
+        "id": "E",
+        "text": "تمييز تجمعات العوالق النباتية عالمياً"
+      },
+      {
+        "id": "F",
+        "text": "قياس عمق الماء باستخدام زمن وصول نبضة صوتية"
+      }
+    ],
+    "correctOptionId": "E",
+    "qualityStatus": "unreviewed"
+  },
+  {
+    "id": "breaking_news-legendary-0212",
+    "categoryId": "breaking_news",
+    "difficulty": "legendary",
+    "text": "ما زوج أداتي الاستقطاب الذي ورد في بيان إطلاق PACE لرصد تفاعل الضوء مع جسيمات الغلاف الجوي؟",
+    "answer": "HARP2 و SPEXone",
+    "acceptedAnswers": [],
+    "hint": "الأداة المحيطية فائقة الطيف جزء ثالث؛المطلوب هنا أداتان للاستقطاب.",
+    "clues": [],
+    "explanation": "يحمل PACE أداتي Hyper-Angular Rainbow Polarimeter2 و Spectro-polarimeter forPlanetaryExploration ، المعروفتين HARP2 و SPEXone.",
+    "sources": [
+      "https://www.nasa.gov/news-release/nasa-launches-new-climate-mission-to-study-ocean-atmosphere/ — بيان رسمي قُرئ في2026-10-13؛ المرجع يثبت الحدث والجانب المطلوب فيه، ولا يُقدّم التقدير المستقبلي كحدث وقع."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "HARP2 و OCI"
+      },
+      {
+        "id": "B",
+        "text": "SPEXone و OCI"
+      },
+      {
+        "id": "C",
+        "text": "MODIS و VIIRS"
+      },
+      {
+        "id": "D",
+        "text": "MISR و MODIS"
+      },
+      {
+        "id": "E",
+        "text": "VIIRS و OLCI"
+      },
+      {
+        "id": "F",
+        "text": "HARP2 و SPEXone"
+      }
+    ],
+    "correctOptionId": "F",
+    "qualityStatus": "unreviewed"
+  },
+  {
+    "id": "breaking_news-easy-0213",
+    "categoryId": "breaking_news",
+    "difficulty": "easy",
+    "text": "خبر ديسمبر 2022: ما المهمة المشتركة لناسا والوكالة الفرنسية لرصد ارتفاع مياه البحيرات والأنهار والمحيطات؟",
+    "answer": "SWOT",
+    "acceptedAnswers": [],
+    "hint": "اسمها يربط المياه السطحية بالتضاريس المائية، لا بلون المحيط وحده.",
+    "clues": [],
+    "explanation": "المهمة هي Surface Water andOceanTopography المختصرة SWOT.",
+    "sources": [
+      "https://www.nasa.gov/news-release/nasa-launches-international-mission-to-survey-earths-water/ — بيان رسمي قُرئ في2026-10-13؛ المرجع يثبت الحدث والجانب المطلوب فيه، ولا يُقدّم التقدير المستقبلي كحدث وقع."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "SWOT"
+      },
+      {
+        "id": "B",
+        "text": "PACE"
+      },
+      {
+        "id": "C",
+        "text": "SMAP"
+      },
+      {
+        "id": "D",
+        "text": "GPM"
+      },
+      {
+        "id": "E",
+        "text": "ICESat-2"
+      },
+      {
+        "id": "F",
+        "text": "Landsat-9"
+      }
+    ],
+    "correctOptionId": "A",
+    "qualityStatus": "unreviewed"
+  },
+  {
+    "id": "breaking_news-medium-0213",
+    "categoryId": "breaking_news",
+    "difficulty": "medium",
+    "text": "من أي قاعدة أمريكية انطلقت SWOT على فالكون 9 في 16 ديسمبر 2022 ؟",
+    "answer": "فاندنبرغ في كاليفورنيا",
+    "acceptedAnswers": [],
+    "hint": "الإطلاق جرى من الساحل الغربي الأمريكي لا من فلوريدا.",
+    "clues": [],
+    "explanation": "أطلق الصاروخ من المجمع 4E بقاعدة فاندنبرغ الفضائية في كاليفورنيا.",
+    "sources": [
+      "https://www.nasa.gov/news-release/nasa-launches-international-mission-to-survey-earths-water/ — بيان رسمي قُرئ في2026-10-13؛ المرجع يثبت الحدث والجانب المطلوب فيه، ولا يُقدّم التقدير المستقبلي كحدث وقع."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "كيب كانافيرال في فلوريدا"
+      },
+      {
+        "id": "B",
+        "text": "فاندنبرغ في كاليفورنيا"
+      },
+      {
+        "id": "C",
+        "text": "والوبس في فرجينيا"
+      },
+      {
+        "id": "D",
+        "text": "كودياك في ألاسكا"
+      },
+      {
+        "id": "E",
+        "text": "كينيدي في فلوريدا"
+      },
+      {
+        "id": "F",
+        "text": "مركز وايت ساندز في نيو مكسيكو"
+      }
+    ],
+    "correctOptionId": "B",
+    "qualityStatus": "unreviewed"
+  },
+  {
+    "id": "breaking_news-hard-0213",
+    "categoryId": "breaking_news",
+    "difficulty": "hard",
+    "text": "ما اسم أداة التداخل الراداري التي عدّها بيان إطلاق SWOT القلب العلمي للمركبة؟",
+    "answer": "KaRIn",
+    "acceptedAnswers": [],
+    "hint": "اسمها مختصر لتداخل راداري يعمل بنطاق Ka.",
+    "clues": [],
+    "explanation": "يسمي البيان Ka-band radarinterferometer ، المختصر KaRIn ، القلب العلمي للمهمة.",
+    "sources": [
+      "https://www.nasa.gov/news-release/nasa-launches-international-mission-to-survey-earths-water/ — بيان رسمي قُرئ في2026-10-13؛ المرجع يثبت الحدث والجانب المطلوب فيه، ولا يُقدّم التقدير المستقبلي كحدث وقع."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "Poseidon"
+      },
+      {
+        "id": "B",
+        "text": "AltiKa"
+      },
+      {
+        "id": "C",
+        "text": "KaRIn"
+      },
+      {
+        "id": "D",
+        "text": "SRAL"
+      },
+      {
+        "id": "E",
+        "text": "RA-2"
+      },
+      {
+        "id": "F",
+        "text": "ATLAS"
+      }
+    ],
+    "correctOptionId": "C",
+    "qualityStatus": "unreviewed"
+  },
+  {
+    "id": "breaking_news-legendary-0213",
+    "categoryId": "breaking_news",
+    "difficulty": "legendary",
+    "text": "أي ترتيب وصفه بيان SWOT لقياس ارتفاع سطح الماء عبر مسارين عريضين؟",
+    "answer": "نبضة رادار يستقبلها هوائيان على جانبي المركبة",
+    "acceptedAnswers": [],
+    "hint": "يعتمد القياس على هندسة استقبال إشارة واحدة من موضعين.",
+    "clues": [],
+    "explanation": "ترسل KaRIn نبضات رادار نحو السطح ويستقبل صداها هوائيان على طرفي المركبة، لتحديد ارتفاع الماء في شريطين.",
+    "sources": [
+      "https://www.nasa.gov/news-release/nasa-launches-international-mission-to-survey-earths-water/ — بيان رسمي قُرئ في2026-10-13؛ المرجع يثبت الحدث والجانب المطلوب فيه، ولا يُقدّم التقدير المستقبلي كحدث وقع."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "نبضة رادار يستقبلها هوائي واحد مع قياس زمن عودتها فقط"
+      },
+      {
+        "id": "B",
+        "text": "نبضتان صوتيتان تستقبلهما مجسات قاعية"
+      },
+      {
+        "id": "C",
+        "text": "نبضة ليزر يستقبلها كاشف ضوئي واحد"
+      },
+      {
+        "id": "D",
+        "text": "نبضة رادار يستقبلها هوائيان على جانبي المركبة"
+      },
+      {
+        "id": "E",
+        "text": "صورتان بصريتان من كاميرتين على طرفي المركبة"
+      },
+      {
+        "id": "F",
+        "text": "نبضة رادار بهوائيين على جانب واحد لقياس سرعة الماء فقط"
+      }
+    ],
+    "correctOptionId": "D",
+    "qualityStatus": "unreviewed"
+  },
+  {
+    "id": "breaking_news-easy-0214",
+    "categoryId": "breaking_news",
+    "difficulty": "easy",
+    "text": "ما المهمة المكوّنة من أربعة أقمار صغيرة لدراسة انتقال الإكليل الشمسي إلى الرياح الشمسية، والتي رافقت SPHEREx عند إطلاقه في 2025 ؟",
+    "answer": "PUNCH",
+    "acceptedAnswers": [],
+    "hint": "الاسم مختصر لمهمة تصوير واستقطاب تتعلق بالإكليل والهيليوسفير.",
+    "clues": [],
+    "explanation": "رافقت الأقمار الأربعة التابعة لمهمة Polarimeter toUnifytheCoronaandHeliosphere ، المختصرة PUNCH ، المرصد SPHEREx.",
+    "sources": [
+      "https://www.nasa.gov/news-release/nasa-launches-missions-to-study-sun-universes-beginning/ — بيان رسمي قُرئ في2026-10-13؛ المرجع يثبت الحدث والجانب المطلوب فيه، ولا يُقدّم التقدير المستقبلي كحدث وقع."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "MMS"
+      },
+      {
+        "id": "B",
+        "text": "THEMIS"
+      },
+      {
+        "id": "C",
+        "text": "STEREO"
+      },
+      {
+        "id": "D",
+        "text": "Swarm"
+      },
+      {
+        "id": "E",
+        "text": "PUNCH"
+      },
+      {
+        "id": "F",
+        "text": "Cluster"
+      }
+    ],
+    "correctOptionId": "E",
+    "qualityStatus": "unreviewed"
+  },
+  {
+    "id": "breaking_news-medium-0214",
+    "categoryId": "breaking_news",
+    "difficulty": "medium",
+    "text": "ما تاريخ إطلاق SPHEREx و PUNCH حسب التوقيت المحلي لقاعدة فاندنبرغ في كاليفورنيا؟",
+    "answer": "11 مارس 2025",
+    "acceptedAnswers": [],
+    "hint": "السؤال يحدد تاريخ ولاية كاليفورنيا مساءً؛ لا تحوّله إلى التاريخ في منطقة زمنية أخرى.",
+    "clues": [],
+    "explanation": "انطلقت المهمتان الساعة 8:10 مساءً PDT يوم 11 مارس 2025 ؛ السؤال يحدد التوقيت المحلي لا UTC.",
+    "sources": [
+      "https://www.nasa.gov/news-release/nasa-launches-missions-to-study-sun-universes-beginning/ — بيان رسمي قُرئ في2026-10-13؛ المرجع يثبت الحدث والجانب المطلوب فيه، ولا يُقدّم التقدير المستقبلي كحدث وقع."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "7 مارس 2025"
+      },
+      {
+        "id": "B",
+        "text": "9 مارس 2025"
+      },
+      {
+        "id": "C",
+        "text": "13 مارس 2025"
+      },
+      {
+        "id": "D",
+        "text": "15 مارس 2025"
+      },
+      {
+        "id": "E",
+        "text": "17 مارس 2025"
+      },
+      {
+        "id": "F",
+        "text": "11 مارس 2025"
+      }
+    ],
+    "correctOptionId": "F",
+    "qualityStatus": "unreviewed"
+  },
+  {
+    "id": "breaking_news-hard-0214",
+    "categoryId": "breaking_news",
+    "difficulty": "hard",
+    "text": "وفق خطة العمل في بيان إطلاق SPHEREx ، ما الفاصل بين كل خريطة كاملة جديدة للسماء؟",
+    "answer": "ستة أشهر",
+    "acceptedAnswers": [],
+    "hint": "خُطط لتكرار المسح الكامل أكثر من مرة خلال المهمة، وليس لرصد بقعة صغيرة فقط.",
+    "clues": [],
+    "explanation": "يصف البيان خطة خريطة ثلاثية الأبعاد لكاملالسماء كلستةأشهر.",
+    "sources": [
+      "https://www.nasa.gov/news-release/nasa-launches-missions-to-study-sun-universes-beginning/ — بيان رسمي قُرئ في2026-10-13؛ المرجع يثبت الحدث والجانب المطلوب فيه، ولا يُقدّم التقدير المستقبلي كحدث وقع."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "ستة أشهر"
+      },
+      {
+        "id": "B",
+        "text": "ثلاثة أشهر"
+      },
+      {
+        "id": "C",
+        "text": "أربعة أشهر"
+      },
+      {
+        "id": "D",
+        "text": "ثمانية أشهر"
+      },
+      {
+        "id": "E",
+        "text": "عشرة أشهر"
+      },
+      {
+        "id": "F",
+        "text": "اثنا عشر شهراً"
+      }
+    ],
+    "correctOptionId": "A",
+    "qualityStatus": "unreviewed"
+  },
+  {
+    "id": "breaking_news-legendary-0214",
+    "categoryId": "breaking_news",
+    "difficulty": "legendary",
+    "text": "ما فائدة المدار المتزامن مع الشمس قرب خط الليل والنهار للتلسكوب SPHEREx ، كما شرحها بيان الإطلاق؟",
+    "answer": "إبقاء الشمس في موضع ثابت لحجب ضوئها وحرارتها",
+    "acceptedAnswers": [],
+    "hint": "القياس الطيفي حساس لمصادر الحرارة والضوء غير المرغوب فيه.",
+    "clues": [],
+    "explanation": "يساعد ثبات موضع الشمس النسبي على إبقاء التلسكوب محميًاً من ضوئها وحرارتها التي تعوق الرصد.",
+    "sources": [
+      "https://www.nasa.gov/news-release/nasa-launches-missions-to-study-sun-universes-beginning/ — بيان رسمي قُرئ في2026-10-13؛ المرجع يثبت الحدث والجانب المطلوب فيه، ولا يُقدّم التقدير المستقبلي كحدث وقع."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "تغيير اتجاه الشمس باستمرار لزيادة تنوع الإضاءة"
+      },
+      {
+        "id": "B",
+        "text": "إبقاء الشمس في موضع ثابت لحجب ضوئها وحرارتها"
+      },
+      {
+        "id": "C",
+        "text": "تعريض التلسكوب للشمس لرفع كفاءة رصد الأشعة تحت الحمراء"
+      },
+      {
+        "id": "D",
+        "text": "استبدال الحجب الحراري بنور الأرض المنعكس"
+      },
+      {
+        "id": "E",
+        "text": "إبقاء التلسكوب فوق المنطقة نفسها من الأرض دائمًا"
+      },
+      {
+        "id": "F",
+        "text": "إزالة الحاجة إلى حماية الأدوات من الأشعة تحت الحمراء"
+      }
+    ],
+    "correctOptionId": "B",
+    "qualityStatus": "unreviewed"
+  },
+  {
+    "id": "breaking_news-easy-0215",
+    "categoryId": "breaking_news",
+    "difficulty": "easy",
+    "text": "في خبر تسمية قمر دينكينيش المكتشف بواسطة لوسي في 2023 ، ماذا يعني اسم «سلام» بالأمهرية؟",
+    "answer": "السلام",
+    "acceptedAnswers": [],
+    "hint": "الاسم يعبّر عن قيمة مرتبطة بالأمان والسكينة.",
+    "clues": [],
+    "explanation": "أقر الاتحاد الفلكي الاسم Selam ، الذي يعني peace أيالسلام بالأمهرية.",
+    "sources": [
+      "https://science.nasa.gov/blogs/lucy/2023/11/29/satellite-discovered-by-nasas-lucy-mission-gets-name/ — بيان رسمي قُرئ في2026-10-13؛ المرجع يثبت الحدث والجانب المطلوب فيه، ولا يُقدّم التقدير المستقبلي كحدث وقع."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "القوة"
+      },
+      {
+        "id": "B",
+        "text": "الفرح"
+      },
+      {
+        "id": "C",
+        "text": "السلام"
+      },
+      {
+        "id": "D",
+        "text": "الحكمة"
+      },
+      {
+        "id": "E",
+        "text": "النور"
+      },
+      {
+        "id": "F",
+        "text": "الأمل"
+      }
+    ],
+    "correctOptionId": "C",
+    "qualityStatus": "unreviewed"
+  },
+  {
+    "id": "breaking_news-medium-0215",
+    "categoryId": "breaking_news",
+    "difficulty": "medium",
+    "text": "متى أقر الاتحاد الفلكي الدولي اسم «سلام» لقمر دينكينيش، لا تاريخ التحليق القريب أو نشر المقال؟",
+    "answer": "27 نوفمبر 2023",
+    "acceptedAnswers": [],
+    "hint": "جاء قرار الاسم قرب نهاية الشهر؛ وكان التحليق نفسه فيبدايته.",
+    "clues": [],
+    "explanation": "يذكر بيان 29 نوفمبر أن الاسم أقر يوم 27 نوفمبر 2023 ؛ وقد جرى التحليق في 1 نوفمبر.",
+    "sources": [
+      "https://science.nasa.gov/blogs/lucy/2023/11/29/satellite-discovered-by-nasas-lucy-mission-gets-name/ — بيان رسمي قُرئ في2026-10-13؛ المرجع يثبت الحدث والجانب المطلوب فيه، ولا يُقدّم التقدير المستقبلي كحدث وقع."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "25 نوفمبر 2023"
+      },
+      {
+        "id": "B",
+        "text": "26 نوفمبر 2023"
+      },
+      {
+        "id": "C",
+        "text": "28 نوفمبر 2023"
+      },
+      {
+        "id": "D",
+        "text": "27 نوفمبر 2023"
+      },
+      {
+        "id": "E",
+        "text": "29 نوفمبر 2023"
+      },
+      {
+        "id": "F",
+        "text": "30 نوفمبر 2023"
+      }
+    ],
+    "correctOptionId": "D",
+    "qualityStatus": "unreviewed"
+  },
+  {
+    "id": "breaking_news-hard-0215",
+    "categoryId": "breaking_news",
+    "difficulty": "hard",
+    "text": "ما البنية غير المتوقعة للقمر«سلام» التي كشفتها صور تحليق لوسي في نوفمبر 2023 ؟",
+    "answer": "ثنائي تلامسي من فصين متصلين",
+    "acceptedAnswers": [],
+    "hint": "لا تعني كلمة ثنائي هنا مداري جسمين منفصلين.",
+    "clues": [],
+    "explanation": "كشفت الصور contact-binary satellite ، أيقمراًمكوّناًمنفصين متلامسين، وهو أول اكتشاف لهذه البنية في قمر بحسب الخبر.",
+    "sources": [
+      "https://science.nasa.gov/blogs/lucy/2023/11/29/satellite-discovered-by-nasas-lucy-mission-gets-name/ — بيان رسمي قُرئ في2026-10-13؛ المرجع يثبت الحدث والجانب المطلوب فيه، ولا يُقدّم التقدير المستقبلي كحدث وقع."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "ثنائي منفصل يدور جسمَاه حول بعضهما"
+      },
+      {
+        "id": "B",
+        "text": "جسم منفرد كروي بلا تقسيم إلى فصوص"
+      },
+      {
+        "id": "C",
+        "text": "فصان منفصلان يترافقان في المدار دون تماس"
+      },
+      {
+        "id": "D",
+        "text": "جسم منفرد تحيط به حلقة من الحطام"
+      },
+      {
+        "id": "E",
+        "text": "ثنائي تلامسي من فصين متصلين"
+      },
+      {
+        "id": "F",
+        "text": "ثلاثة فصوص متصلة في جسم واحد"
+      }
+    ],
+    "correctOptionId": "E",
+    "qualityStatus": "unreviewed"
+  },
+  {
+    "id": "breaking_news-legendary-0215",
+    "categoryId": "breaking_news",
+    "difficulty": "legendary",
+    "text": "ما نوعا البيانات اللذان جمعتْهما MVIC و LEISA ، وهما جزءا L’Ralph ، أثناء لقاء لوسي ب دينكينيش وسلام؟",
+    "answer": "صور ملونة وأطياف محلولة مكانياً",
+    "acceptedAnswers": [],
+    "hint": "الجزآن يفحصان الضوء المرئي والطيف، لا عينات يعيدانها إلى الأرض.",
+    "clues": [],
+    "explanation": "تذكر ناسا أن MVIC و LEISA أتاحا تركيب صور ملونة وأطياف مرتبطة بمواضع السطح.",
+    "sources": [
+      "https://science.nasa.gov/blogs/lucy/2023/11/29/satellite-discovered-by-nasas-lucy-mission-gets-name/ — بيان رسمي قُرئ في2026-10-13؛ المرجع يثبت الحدث والجانب المطلوب فيه، ولا يُقدّم التقدير المستقبلي كحدث وقع."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "صور ملونة وقياسات مجال مغناطيسي"
+      },
+      {
+        "id": "B",
+        "text": "صور حرارية وقياسات جاذبية"
+      },
+      {
+        "id": "C",
+        "text": "أطياف راديوية وقياسات غبار"
+      },
+      {
+        "id": "D",
+        "text": "صور أحادية اللون وقياسات ضغط"
+      },
+      {
+        "id": "E",
+        "text": "صور أشعة سينية وأطياف فوق بنفسجية"
+      },
+      {
+        "id": "F",
+        "text": "صور ملونة وأطياف محلولة مكانياً"
+      }
+    ],
+    "correctOptionId": "F",
+    "qualityStatus": "unreviewed"
+  },
+  {
+    "id": "breaking_news-easy-0216",
+    "categoryId": "breaking_news",
+    "difficulty": "easy",
+    "text": "ما الوصف الصحيح لنتيجة تحليل عينة بينو المعلنة في يناير 2025 ؟",
+    "answer": "مكونات كيميائية للحياة لا دليل على حياة نفسها",
+    "acceptedAnswers": [],
+    "hint": "وجود اللبنات الكيميائية لا يساوي العثور على كائن حي.",
+    "clues": [],
+    "explanation": "أكدت ناسا أن المكونات تدعم كيمياء يمكن أنتمهد للحياة، وأن النتائج لا تثبت وجود الحياة نفسها.",
+    "sources": [
+      "https://www.nasa.gov/news-release/nasas-asteroid-bennu-sample-reveals-mix-of-lifes-ingredients/ — بيان رسمي قُرئ في2026-10-13؛ المرجع يثبت الحدث والجانب المطلوب فيه، ولا يُقدّم التقدير المستقبلي كحدث وقع."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "مكونات كيميائية للحياة لا دليل على حياة نفسها"
+      },
+      {
+        "id": "B",
+        "text": "رصد نشاط حيوي مستمر داخل العينة"
+      },
+      {
+        "id": "C",
+        "text": "العثور على خلايا حية في المركبات العضوية"
+      },
+      {
+        "id": "D",
+        "text": "إثبات أن الأحماض الأمينية لا يمكن أن تتشكل دون حياة"
+      },
+      {
+        "id": "E",
+        "text": "غياب اللبنات الكيميائية المستخدمة في الحياة الأرضية"
+      },
+      {
+        "id": "F",
+        "text": "العثور على مادة وراثية كاملة لكائن مجهول"
+      }
+    ],
+    "correctOptionId": "A",
+    "qualityStatus": "unreviewed"
+  },
+  {
+    "id": "breaking_news-medium-0216",
+    "categoryId": "breaking_news",
+    "difficulty": "medium",
+    "text": "أي بيئة قديمة دعمتها آثار معادن الأملاح في تحليلعينة بينو المنشور عام 2025 ؟",
+    "answer": "محاليل ملحية تبخرت ببطء",
+    "acceptedAnswers": [],
+    "hint": "تفسير البلورات يحتاج سائلاًيحمل الأملاح ثم يتركها خلفه.",
+    "clues": [],
+    "explanation": "تشكّل بعض المعادن المرصودة يشير إلى ماء بأملاح ذائبة تبخر مدة طويلة وترك بلورات صلبة.",
+    "sources": [
+      "https://www.nasa.gov/news-release/nasas-asteroid-bennu-sample-reveals-mix-of-lifes-ingredients/ — بيان رسمي قُرئ في2026-10-13؛ المرجع يثبت الحدث والجانب المطلوب فيه، ولا يُقدّم التقدير المستقبلي كحدث وقع."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "تبلور معادن من صهارة جافة فقط"
+      },
+      {
+        "id": "B",
+        "text": "محاليل ملحية تبخرت ببطء"
+      },
+      {
+        "id": "C",
+        "text": "تجمد ماء نقي دون أملاح مذابة"
+      },
+      {
+        "id": "D",
+        "text": "ترسب أملاح من غازات ساخنة دون طور مائي"
+      },
+      {
+        "id": "E",
+        "text": "تغير معادن بفعل الرياح الشمسية وحدها"
+      },
+      {
+        "id": "F",
+        "text": "تكوّن بلورات مباشرة من غبار جاف دون سائل"
+      }
+    ],
+    "correctOptionId": "B",
+    "qualityStatus": "unreviewed"
+  },
+  {
+    "id": "breaking_news-hard-0216",
+    "categoryId": "breaking_news",
+    "difficulty": "hard",
+    "text": "في تحليل 2025 لعينة بينو، كم قاعدة نيتروجينية مختلفة من المجموعة المستخدمة في DNA و RNA معاً ذكر الباحثون اكتشافها؟",
+    "answer": "خمس قواعد",
+    "acceptedAnswers": [],
+    "hint": "لا يُسأل عن قواعد DNA وحده؛ المجموعة تشمل RNA أيضاً.",
+    "clues": [],
+    "explanation": "أعلن الباحثون العثور على القواعد الخمس مجتمعة المستخدمة في تخزين المعلومات الوراثية في DNA و RNA.",
+    "sources": [
+      "https://www.nasa.gov/news-release/nasas-asteroid-bennu-sample-reveals-mix-of-lifes-ingredients/ — بيان رسمي قُرئ في2026-10-13؛ المرجع يثبت الحدث والجانب المطلوب فيه، ولا يُقدّم التقدير المستقبلي كحدث وقع."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "ثلاث قواعد"
+      },
+      {
+        "id": "B",
+        "text": "أربع قواعد"
+      },
+      {
+        "id": "C",
+        "text": "خمس قواعد"
+      },
+      {
+        "id": "D",
+        "text": "ست قواعد"
+      },
+      {
+        "id": "E",
+        "text": "سبع قواعد"
+      },
+      {
+        "id": "F",
+        "text": "ثماني قواعد"
+      }
+    ],
+    "correctOptionId": "C",
+    "qualityStatus": "unreviewed"
+  },
+  {
+    "id": "breaking_news-legendary-0216",
+    "categoryId": "breaking_news",
+    "difficulty": "legendary",
+    "text": "أي مثال لمركبات معقدة ذكر بيان تحليل 2025 إمكان تكوّنه من الأمونيا والفورمالديهايد في ظروف مناسبة؟",
+    "answer": "الأحماض الأمينية",
+    "acceptedAnswers": [],
+    "hint": "المثال هو لبنات يمكن وصلها لاحقاً لتكوين بروتينات.",
+    "clues": [],
+    "explanation": "ذكر البيان أن الأمونيا يمكن أن تتفاعل مع الفورمالديهايد لتكوين مركبات مثل الأحماض الأمينية عند توافر الظروف الملائمة، لا أنها ثبت تكوُّنها بهذه الطريقة بعينها هناك.",
+    "sources": [
+      "https://www.nasa.gov/news-release/nasas-asteroid-bennu-sample-reveals-mix-of-lifes-ingredients/ — بيان رسمي قُرئ في2026-10-13؛ المرجع يثبت الحدث والجانب المطلوب فيه، ولا يُقدّم التقدير المستقبلي كحدث وقع."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "الأحماض الدهنية طويلة السلسلة"
+      },
+      {
+        "id": "B",
+        "text": "القواعد النيتروجينية الخمس كاملة"
+      },
+      {
+        "id": "C",
+        "text": "سكريات الريبوز وحدها"
+      },
+      {
+        "id": "D",
+        "text": "الأحماض الأمينية"
+      },
+      {
+        "id": "E",
+        "text": "السلاسل البروتينية المكتملة مباشرة"
+      },
+      {
+        "id": "F",
+        "text": "نيوكليوتيدات DNA كاملة مباشرة"
+      }
+    ],
+    "correctOptionId": "D",
+    "qualityStatus": "unreviewed"
+  },
+  {
+    "id": "breaking_news-easy-0217",
+    "categoryId": "breaking_news",
+    "difficulty": "easy",
+    "text": "عند تأكيد دخول فويجر 1 الفضاء بين النجمي في 2013 ، أي خاصية للوسط المحيط دلّت على أنه انتقل إلى بيئة خارج الفقاعة الشمسية؟",
+    "answer": "ارتفاع كثافة البلازما",
+    "acceptedAnswers": [],
+    "hint": "الوسط خارج الهيليوسفير أكثر كثافة مما قيس عند أطرافه.",
+    "clues": [],
+    "explanation": "ساعدت الكثافة البلازمية العالية، المستنتجة من الاهتزازات، في تحديد دخول المسبار الوسط بين النجمي.",
+    "sources": [
+      "https://www.nasa.gov/news-release/nasa-spacecraft-embarks-on-historic-journey-into-interstellar-space/ — بيان رسمي قُرئ في2026-10-13؛ المرجع يثبت الحدث والجانب المطلوب فيه، ولا يُقدّم التقدير المستقبلي كحدث وقع."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "ارتفاع سرعة الرياح الشمسية دون تغير البلازما"
+      },
+      {
+        "id": "B",
+        "text": "انخفاض كثافة البلازما إلى ما دون الهيليوسفير"
+      },
+      {
+        "id": "C",
+        "text": "زيادة حرارة الهيكل الخارجي وحدها"
+      },
+      {
+        "id": "D",
+        "text": "تغير سرعة دوران المسبار"
+      },
+      {
+        "id": "E",
+        "text": "ارتفاع كثافة البلازما"
+      },
+      {
+        "id": "F",
+        "text": "انخفاض الترددات الراديوية للأرض فقط"
+      }
+    ],
+    "correctOptionId": "E",
+    "qualityStatus": "unreviewed"
+  },
+  {
+    "id": "breaking_news-medium-0217",
+    "categoryId": "breaking_news",
+    "difficulty": "medium",
+    "text": "ما تاريخ العبور الذي اعتمده فريق فويجر 1 في تقرير ناسا المنشور في سبتمبر 2013 ؟",
+    "answer": "25 أغسطس 2012",
+    "acceptedAnswers": [],
+    "hint": "حدث العبور قبل الإعلان النهائي؛ استغرق إثباته تحليلاًلاحقاً.",
+    "clues": [],
+    "explanation": "اعتمد الفريق 25 أغسطس 2012 تاريخ الوصول، الموافق لتغيرات الجسيمات المشحونة المستمرة.",
+    "sources": [
+      "https://www.nasa.gov/news-release/nasa-spacecraft-embarks-on-historic-journey-into-interstellar-space/ — بيان رسمي قُرئ في2026-10-13؛ المرجع يثبت الحدث والجانب المطلوب فيه، ولا يُقدّم التقدير المستقبلي كحدث وقع."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "25 يونيو 2012"
+      },
+      {
+        "id": "B",
+        "text": "25 يوليو 2012"
+      },
+      {
+        "id": "C",
+        "text": "25 سبتمبر 2012"
+      },
+      {
+        "id": "D",
+        "text": "25 أكتوبر 2012"
+      },
+      {
+        "id": "E",
+        "text": "25 نوفمبر 2012"
+      },
+      {
+        "id": "F",
+        "text": "25 أغسطس 2012"
+      }
+    ],
+    "correctOptionId": "F",
+    "qualityStatus": "unreviewed"
+  },
+  {
+    "id": "breaking_news-hard-0217",
+    "categoryId": "breaking_news",
+    "difficulty": "hard",
+    "text": "مع تعطل مستشعر البلازما المباشر على فويجر 1 ، كيف استنتج الفريق كثافة الوسط المحيط في تحقيق 2013 ؟",
+    "answer": "من تردد اهتزازات البلازما المرصودة",
+    "acceptedAnswers": [],
+    "hint": "أداة أخرى رصدت استجابة الوسط لاضطراب قادم من الشمس.",
+    "clues": [],
+    "explanation": "استخدم الفريق أداة موجات البلازما وتردد اهتزازها لاستنتاج الكثافة، بعد تعطل جهاز القياس المباشر.",
+    "sources": [
+      "https://www.nasa.gov/news-release/nasa-spacecraft-embarks-on-historic-journey-into-interstellar-space/ — بيان رسمي قُرئ في2026-10-13؛ المرجع يثبت الحدث والجانب المطلوب فيه، ولا يُقدّم التقدير المستقبلي كحدث وقع."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "من تردد اهتزازات البلازما المرصودة"
+      },
+      {
+        "id": "B",
+        "text": "من تيارات الجسيمات المسجلة بحساس البلازما المعطل"
+      },
+      {
+        "id": "C",
+        "text": "من شدة الإضاءة في كاميرا المسبار"
+      },
+      {
+        "id": "D",
+        "text": "من درجة حرارة المسبار بوصفها قياسًا مباشرًا للكثافة"
+      },
+      {
+        "id": "E",
+        "text": "من زمن تأخر إشارات الأرض وحده"
+      },
+      {
+        "id": "F",
+        "text": "من ضغط الرياح الشمسية قرب الأرض دون قياس محلي"
+      }
+    ],
+    "correctOptionId": "A",
+    "qualityStatus": "unreviewed"
+  },
+  {
+    "id": "breaking_news-legendary-0217",
+    "categoryId": "breaking_news",
+    "difficulty": "legendary",
+    "text": "ما الظاهرة الشمسية التي وصلت اضطراباتها إلى فويجر 1 في أبريل 2013 وساعدت على إثارة اهتزازات البلازما التي حسمت موضعه؟",
+    "answer": "انبعاث كتلي إكليلي وقع في مارس 2012",
+    "acceptedAnswers": [],
+    "hint": "استغرق الاضطراب أكثر من سنة للوصول إلى المسبار.",
+    "clues": [],
+    "explanation": "توضحناسا أنانبعاثاًكتلياًإكليلياً منمارس 2012 وصل في أبريل 2013 وأثار ذبذبات قابلةَةللقياس.",
+    "sources": [
+      "https://www.nasa.gov/news-release/nasa-spacecraft-embarks-on-historic-journey-into-interstellar-space/ — بيان رسمي قُرئ في2026-10-13؛ المرجع يثبت الحدث والجانب المطلوب فيه، ولا يُقدّم التقدير المستقبلي كحدث وقع."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "توهج شمسي وصلت أشعته في أبريل 2013 فورًا"
+      },
+      {
+        "id": "B",
+        "text": "انبعاث كتلي إكليلي وقع في مارس 2012"
+      },
+      {
+        "id": "C",
+        "text": "عبور كوكب الزهرة الذي أثار رنين البلازما عند المسبار"
+      },
+      {
+        "id": "D",
+        "text": "كسوف شمسي غيّر كثافة الوسط عند المسبار"
+      },
+      {
+        "id": "E",
+        "text": "خروج المسبار نفسه الذي ولّد موجات صوتية"
+      },
+      {
+        "id": "F",
+        "text": "انبعاث كتلي إكليلي بدأ في أبريل 2013 ووصل في الشهر نفسه"
+      }
+    ],
+    "correctOptionId": "B",
+    "qualityStatus": "unreviewed"
+  },
+  {
+    "id": "breaking_news-easy-0218",
+    "categoryId": "breaking_news",
+    "difficulty": "easy",
+    "text": "في لقاء نيوهورايزنز التاريخي ببلوتو في يوليو 2015 ، ما نوع الزيارة التي نفذتها المركبة؟",
+    "answer": "مرور قريب دون دخول مدار حوله",
+    "acceptedAnswers": [],
+    "hint": "سرعة الرحلة ومسارهامنعاها من البقاء حبيسة مدار بلوتو.",
+    "clues": [],
+    "explanation": "نفذت المركبة flyby أيعبوراًقريباً للنظام البلوتوني ثم واصلت إلى حزام كايبر.",
+    "sources": [
+      "https://www.nasa.gov/news-release/nasas-three-billion-mile-journey-to-pluto-reaches-historic-encounter/ — بيان رسمي قُرئ في2026-10-13؛ المرجع يثبت الحدث والجانب المطلوب فيه، ولا يُقدّم التقدير المستقبلي كحدث وقع."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "دخول مدار بيضوي طويل المدة حول بلوتو"
+      },
+      {
+        "id": "B",
+        "text": "دخول مدار حول شارون لدراسة بلوتو منه"
+      },
+      {
+        "id": "C",
+        "text": "مرور قريب دون دخول مدار حوله"
+      },
+      {
+        "id": "D",
+        "text": "هبوط آلي على بلوتو بعد الكبح المداري"
+      },
+      {
+        "id": "E",
+        "text": "مرور قريب انتهى بإعادة عينة إلى الأرض"
+      },
+      {
+        "id": "F",
+        "text": "هبوط آلي على شارون بعد انفصال كبسولة"
+      }
+    ],
+    "correctOptionId": "C",
+    "qualityStatus": "unreviewed"
+  },
+  {
+    "id": "breaking_news-medium-0218",
+    "categoryId": "breaking_news",
+    "difficulty": "medium",
+    "text": "في أي مدينة أمريكية يوجد مختبر APL الذي أدار لقاء نيوهورايزنز ببلوتو حسب بيان 2015 ؟",
+    "answer": "لوريل في ماريلاند",
+    "acceptedAnswers": [],
+    "hint": "المركز تابع لجامعة جونز هوبكنز، وليس مختبر JPL التابع لكالتيك.",
+    "clues": [],
+    "explanation": "دار التحكم بالمهمة من Applied Physics Laboratory فيلوريل بولاية ماريلاند.",
+    "sources": [
+      "https://www.nasa.gov/news-release/nasas-three-billion-mile-journey-to-pluto-reaches-historic-encounter/ — بيان رسمي قُرئ في2026-10-13؛ المرجع يثبت الحدث والجانب المطلوب فيه، ولا يُقدّم التقدير المستقبلي كحدث وقع."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "هيوستن في تكساس"
+      },
+      {
+        "id": "B",
+        "text": "باسادينا في كاليفورنيا"
+      },
+      {
+        "id": "C",
+        "text": "كيب كانافيرال في فلوريدا"
+      },
+      {
+        "id": "D",
+        "text": "لوريل في ماريلاند"
+      },
+      {
+        "id": "E",
+        "text": "هانتسفيل في ألاباما"
+      },
+      {
+        "id": "F",
+        "text": "غرينبيلت في ماريلاند"
+      }
+    ],
+    "correctOptionId": "D",
+    "qualityStatus": "unreviewed"
+  },
+  {
+    "id": "breaking_news-hard-0218",
+    "categoryId": "breaking_news",
+    "difficulty": "hard",
+    "text": "عند وقت الاقتراب في خبر 14 يوليو 2015 ، لماذا لم تكن نيوهورايزنز متصلة بمراقبي الطيران بحسب الخطة؟",
+    "answer": "كانت في وضع جمع البيانات العلمية",
+    "acceptedAnswers": [],
+    "hint": "فرّق بين انقطاع مخطط لتنفيذالرصد وبين إعلان فشل.",
+    "clues": [],
+    "explanation": "ذكر البيان أن المركبة كانت تجمع البيانات وفق الخطة، وأن انتظار إشارة الحالة لاحقاً كان جزءاً من تسلسل اللقاء.",
+    "sources": [
+      "https://www.nasa.gov/news-release/nasas-three-billion-mile-journey-to-pluto-reaches-historic-encounter/ — بيان رسمي قُرئ في2026-10-13؛ المرجع يثبت الحدث والجانب المطلوب فيه، ولا يُقدّم التقدير المستقبلي كحدث وقع."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "كانت توقف الرصد لتوجيه الهوائي إلى الأرض طوال اللقاء"
+      },
+      {
+        "id": "B",
+        "text": "كانت تعالج فقد اتصال طارئ غير متوقع"
+      },
+      {
+        "id": "C",
+        "text": "كانت تنفذ مناورة دخول مدار حول بلوتو"
+      },
+      {
+        "id": "D",
+        "text": "كانت تنتظر إنهاء برنامجها العلمي قبل الاقتراب"
+      },
+      {
+        "id": "E",
+        "text": "كانت في وضع جمع البيانات العلمية"
+      },
+      {
+        "id": "F",
+        "text": "كانت ترسل الصور مباشرة دون تخزين بيانات اللقاء"
+      }
+    ],
+    "correctOptionId": "E",
+    "qualityStatus": "unreviewed"
+  },
+  {
+    "id": "breaking_news-legendary-0218",
+    "categoryId": "breaking_news",
+    "difficulty": "legendary",
+    "text": "وفق تقدير بيان لقاء بلوتو عام 2015 ، كمشهراً كانمتوقعاًأن تستغرق تنزيلات البيانات المخزنة بعد عودة الاتصال؟",
+    "answer": "16 شهراً",
+    "acceptedAnswers": [],
+    "hint": "سرعة المركبة لا تعني انتقال كل القياسات إلى الأرض فوراً.",
+    "clues": [],
+    "explanation": "توقع البيان أن إرسال ذاكرة البيانات المجمعة يستغرق 16 شهراً بعد استئناف الاتصال.",
+    "sources": [
+      "https://www.nasa.gov/news-release/nasas-three-billion-mile-journey-to-pluto-reaches-historic-encounter/ — بيان رسمي قُرئ في2026-10-13؛ المرجع يثبت الحدث والجانب المطلوب فيه، ولا يُقدّم التقدير المستقبلي كحدث وقع."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "12 شهراً"
+      },
+      {
+        "id": "B",
+        "text": "14 شهراً"
+      },
+      {
+        "id": "C",
+        "text": "18 شهراً"
+      },
+      {
+        "id": "D",
+        "text": "20 شهراً"
+      },
+      {
+        "id": "E",
+        "text": "22 شهراً"
+      },
+      {
+        "id": "F",
+        "text": "16 شهراً"
+      }
+    ],
+    "correctOptionId": "F",
+    "qualityStatus": "unreviewed"
+  },
+  {
+    "id": "breaking_news-easy-0219",
+    "categoryId": "breaking_news",
+    "difficulty": "easy",
+    "text": "أي منطقة من الشمس استهدفت صور Solar Orbiter بطريقة جديدة بحسب خبر إطلاقه في 2020 ؟",
+    "answer": "القطبان الشمسيان",
+    "acceptedAnswers": [],
+    "hint": "تساعده زيادة ميل مداره على رؤية مناطق تصعب رؤيتها من مستوى مدار الأرض.",
+    "clues": [],
+    "explanation": "استهدفت كاميرات المهمة تقديم صور لقطبي الشمس من مدار يميل خارج المستوى الذي تدور فيه الكواكب.",
+    "sources": [
+      "https://www.nasa.gov/news-release/solar-orbiter-launch-takes-solar-science-to-new-heights/ — بيان رسمي قُرئ في2026-10-13؛ المرجع يثبت الحدث والجانب المطلوب فيه، ولا يُقدّم التقدير المستقبلي كحدث وقع."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "القطبان الشمسيان"
+      },
+      {
+        "id": "B",
+        "text": "الحزام الاستوائي فقط دون المناطق القطبية"
+      },
+      {
+        "id": "C",
+        "text": "المناطق المدارية على الأرض"
+      },
+      {
+        "id": "D",
+        "text": "سطح المريخ القريب من خط الاستواء"
+      },
+      {
+        "id": "E",
+        "text": "الغلاف الجوي للزهرة عند المساعدة الجاذبية"
+      },
+      {
+        "id": "F",
+        "text": "النصف المظلم من القمر"
+      }
+    ],
+    "correctOptionId": "A",
+    "qualityStatus": "unreviewed"
+  },
+  {
+    "id": "breaking_news-medium-0219",
+    "categoryId": "breaking_news",
+    "difficulty": "medium",
+    "text": "في أي مدينة يوجد مركز العمليات الأوروبي الذي استقبل إشارة نشر الألواح الشمسية بعد إطلاق Solar Orbiter ؟",
+    "answer": "دارمشتات في ألمانيا",
+    "acceptedAnswers": [],
+    "hint": "المركز معروف اختصاراًباسم ESOC ، وموقعه ليس في مقر الوكالة بباريس.",
+    "clues": [],
+    "explanation": "وصلت إشارة المركبة إلى European SpaceOperationsCentre فيدارمشتات.",
+    "sources": [
+      "https://www.nasa.gov/news-release/solar-orbiter-launch-takes-solar-science-to-new-heights/ — بيان رسمي قُرئ في2026-10-13؛ المرجع يثبت الحدث والجانب المطلوب فيه، ولا يُقدّم التقدير المستقبلي كحدث وقع."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "باريس في فرنسا"
+      },
+      {
+        "id": "B",
+        "text": "دارمشتات في ألمانيا"
+      },
+      {
+        "id": "C",
+        "text": "تولوز في فرنسا"
+      },
+      {
+        "id": "D",
+        "text": "لايدن في هولندا"
+      },
+      {
+        "id": "E",
+        "text": "روما في إيطاليا"
+      },
+      {
+        "id": "F",
+        "text": "مدريد في إسبانيا"
+      }
+    ],
+    "correctOptionId": "B",
+    "qualityStatus": "unreviewed"
+  },
+  {
+    "id": "breaking_news-hard-0219",
+    "categoryId": "breaking_news",
+    "difficulty": "hard",
+    "text": "ما الفرق بين أدوات القياس الموضعي وأدوات الاستشعار عنبعد على Solar Orbiter كما شرح خبر الإطلاق؟",
+    "answer": "الأولى تفحص محيط المركبة والثانية تصور الشمس",
+    "acceptedAnswers": [],
+    "hint": "موقع القياس مختلف: بجوار المسبار أو عند الجسم الذي يرصده.",
+    "clues": [],
+    "explanation": "تقيس أدوات in-situ الحقول والجسيمات وال موجات قرب المركبة، وتراقب الأدوات عن بعد الشمس وغلافها ومادتهاالمنبعثة.",
+    "sources": [
+      "https://www.nasa.gov/news-release/solar-orbiter-launch-takes-solar-science-to-new-heights/ — بيان رسمي قُرئ في2026-10-13؛ المرجع يثبت الحدث والجانب المطلوب فيه، ولا يُقدّم التقدير المستقبلي كحدث وقع."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "الأولى تصور الشمس والثانية تقيس محيط المركبة"
+      },
+      {
+        "id": "B",
+        "text": "الأولى تقيس محيط الأرض والثانية محيط المشتري"
+      },
+      {
+        "id": "C",
+        "text": "الأولى تفحص محيط المركبة والثانية تصور الشمس"
+      },
+      {
+        "id": "D",
+        "text": "الأولى تقيس الجسيمات فقط والثانية تعيد عينات من الشمس"
+      },
+      {
+        "id": "E",
+        "text": "الأولى للاتصال بالأرض والثانية لاختبار الدفع"
+      },
+      {
+        "id": "F",
+        "text": "الأولى لرصد السطح الشمسي فقط والثانية للملاحة حول الزهرة"
+      }
+    ],
+    "correctOptionId": "C",
+    "qualityStatus": "unreviewed"
+  },
+  {
+    "id": "breaking_news-legendary-0219",
+    "categoryId": "breaking_news",
+    "difficulty": "legendary",
+    "text": "ما الأثران اللذان نسبهما بيان إطلاق Solar Orbiter إلى مساعدات الجاذبية المتكررة من الزهرة في مرحلة المهمة الرئيسية؟",
+    "answer": "تقريب المدار من الشمس وزيادة ميله",
+    "acceptedAnswers": [],
+    "hint": "التغيير يستهدف قرب الرصد وزاوية الرؤية معاً.",
+    "clues": [],
+    "explanation": "يوضح البيان أن مساعدات الزهرة ستقرب المدار من الشمس وترفعه خارج المستوى الخسوفي لرؤية مناطقها القطبية.",
+    "sources": [
+      "https://www.nasa.gov/news-release/solar-orbiter-launch-takes-solar-science-to-new-heights/ — بيان رسمي قُرئ في2026-10-13؛ المرجع يثبت الحدث والجانب المطلوب فيه، ولا يُقدّم التقدير المستقبلي كحدث وقع."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "تقريب المدار من الشمس وخفض ميله"
+      },
+      {
+        "id": "B",
+        "text": "إبعاد المدار عن الشمس وزيادة ميله"
+      },
+      {
+        "id": "C",
+        "text": "إبعاد المدار عن الشمس وخفض ميله"
+      },
+      {
+        "id": "D",
+        "text": "تقريب المدار من الشمس وزيادة ميله"
+      },
+      {
+        "id": "E",
+        "text": "تقريب المدار من الأرض وتثبيت ميله"
+      },
+      {
+        "id": "F",
+        "text": "زيادة ميل المدار مع إبقائه دائمًا حول الزهرة"
+      }
+    ],
+    "correctOptionId": "D",
+    "qualityStatus": "unreviewed"
+  },
+  {
+    "id": "breaking_news-easy-0220",
+    "categoryId": "breaking_news",
+    "difficulty": "easy",
+    "text": "ما الذي خفّض طاقةألواح إنسايت تدريجياً قبل إعلان انتهاء مهمتها المريخية في ديسمبر 2022 ؟",
+    "answer": "تراكم الغبار على الألواح",
+    "acceptedAnswers": [],
+    "hint": "المشكلة حدّت من وصول الضوء إلى مولدات الكهرباء.",
+    "clues": [],
+    "explanation": "تراكم الغبار على الألواح الشمسية قلل الطاقة المتاحة حتى نفدت قدرة البطاريات على تشغيل المهمة.",
+    "sources": [
+      "https://www.nasa.gov/missions/insight/nasa-retires-insight-mars-lander-mission-after-years-of-science/ — بيان رسمي قُرئ في2026-10-13؛ المرجع يثبت الحدث والجانب المطلوب فيه، ولا يُقدّم التقدير المستقبلي كحدث وقع."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "تلف خلايا الألواح بسبب اصطدام مباشر واحد"
+      },
+      {
+        "id": "B",
+        "text": "تراجع سعة البطاريات وحده مع بقاء الألواح نظيفة"
+      },
+      {
+        "id": "C",
+        "text": "انخفاض ضوء الشمس بسبب كسوف دائم"
+      },
+      {
+        "id": "D",
+        "text": "زيادة القدرة المستهلكة بعد تشغيل أدوات جديدة"
+      },
+      {
+        "id": "E",
+        "text": "تراكم الغبار على الألواح"
+      },
+      {
+        "id": "F",
+        "text": "توقف الألواح عن تتبع الشمس نتيجة عطل محرك"
+      }
+    ],
+    "correctOptionId": "E",
+    "qualityStatus": "unreviewed"
+  },
+  {
+    "id": "breaking_news-medium-0220",
+    "categoryId": "breaking_news",
+    "difficulty": "medium",
+    "text": "بعد كم محاولة اتصال فاشلة متتالية أعلنت ناسا نهاية إنسايت وفق القرار المحدد في بيان 2022 ؟",
+    "answer": "محاولتين",
+    "acceptedAnswers": [],
+    "hint": "كان شرطاً معلناً سلفاً، مع استمرار الاستماع لاحتمال إشارة متأخرة.",
+    "clues": [],
+    "explanation": "قرر الفريق اعتبار المهمة منتهية إذا فاتتها محاولتا اتصال متتاليتان، وقد تحقق الشرط.",
+    "sources": [
+      "https://www.nasa.gov/missions/insight/nasa-retires-insight-mars-lander-mission-after-years-of-science/ — بيان رسمي قُرئ في2026-10-13؛ المرجع يثبت الحدث والجانب المطلوب فيه، ولا يُقدّم التقدير المستقبلي كحدث وقع."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "محاولة واحدة"
+      },
+      {
+        "id": "B",
+        "text": "ثلاث محاولات"
+      },
+      {
+        "id": "C",
+        "text": "أربع محاولات"
+      },
+      {
+        "id": "D",
+        "text": "خمس محاولات"
+      },
+      {
+        "id": "E",
+        "text": "ست محاولات"
+      },
+      {
+        "id": "F",
+        "text": "محاولتين"
+      }
+    ],
+    "correctOptionId": "F",
+    "qualityStatus": "unreviewed"
+  },
+  {
+    "id": "breaking_news-hard-0220",
+    "categoryId": "breaking_news",
+    "difficulty": "hard",
+    "text": "ما الأداة العلمية الأخيرة التي بقيت إنسايت تزودها بالطاقة بعد تراجع إنتاج ألواحها؟",
+    "answer": "مقياس الزلازل",
+    "acceptedAnswers": [],
+    "hint": "كانت الأداة التي سجلت الزلازل المريخية وساعدت في استنتاج طبقات الداخل.",
+    "clues": [],
+    "explanation": "يذكر البيان أن seismometer بقي الأداة العلمية الأخيرة العاملة مع تراجع الطاقة.",
+    "sources": [
+      "https://www.nasa.gov/missions/insight/nasa-retires-insight-mars-lander-mission-after-years-of-science/ — بيان رسمي قُرئ في2026-10-13؛ المرجع يثبت الحدث والجانب المطلوب فيه، ولا يُقدّم التقدير المستقبلي كحدث وقع."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "مقياس الزلازل"
+      },
+      {
+        "id": "B",
+        "text": "مسبار التدفق الحراري HP3"
+      },
+      {
+        "id": "C",
+        "text": "الكاميرا المثبتة على الذراع"
+      },
+      {
+        "id": "D",
+        "text": "مقياس الضغط الجوي"
+      },
+      {
+        "id": "E",
+        "text": "مجسات الرياح والحرارة"
+      },
+      {
+        "id": "F",
+        "text": "المغناطيسومتر"
+      }
+    ],
+    "correctOptionId": "A",
+    "qualityStatus": "unreviewed"
+  },
+  {
+    "id": "breaking_news-legendary-0220",
+    "categoryId": "breaking_news",
+    "difficulty": "legendary",
+    "text": "كيف فسّر بيان ختام إنسايت ضعف تقدم مسبار الحرارة «الخلد» إلى العمق المطلوب؟",
+    "answer": "لم يكتسب احتكاكاً كافياً في التربة المتكتلة غير المتوقعة",
+    "acceptedAnswers": [],
+    "hint": "لم تطابق خواص التربة الفعلية التربة الرملية المفككة التي بُني التصميم عليها.",
+    "clues": [],
+    "explanation": "لم يكتسب المسبار الذاتي الطرق traction المطلوب في التربة المتكتلة، فبقي أقرب إلى السطح من العمق المأمول.",
+    "sources": [
+      "https://www.nasa.gov/missions/insight/nasa-retires-insight-mars-lander-mission-after-years-of-science/ — بيان رسمي قُرئ في2026-10-13؛ المرجع يثبت الحدث والجانب المطلوب فيه، ولا يُقدّم التقدير المستقبلي كحدث وقع."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "احتكاك زائد في تربة مفككة أوقف المحرك الكهربائي"
+      },
+      {
+        "id": "B",
+        "text": "لم يكتسب احتكاكاً كافياً في التربة المتكتلة غير المتوقعة"
+      },
+      {
+        "id": "C",
+        "text": "انخفاض كثافة الهواء منع عمل المطرقة"
+      },
+      {
+        "id": "D",
+        "text": "خلل في مؤقت الطرق بدل خواص التربة"
+      },
+      {
+        "id": "E",
+        "text": "قوة صخور عميقة بعد بلوغ العمق المطلوب"
+      },
+      {
+        "id": "F",
+        "text": "نقص الطاقة الشمسية وحده قبل بدء الحفر"
+      }
+    ],
+    "correctOptionId": "B",
+    "qualityStatus": "unreviewed"
+  },
+  {
+    "id": "breaking_news-easy-0221",
+    "categoryId": "breaking_news",
+    "difficulty": "easy",
+    "text": "ما سبب النهاية المتعمدة لكاسيني داخل غلاف زحل في 2017 كما وضح خبر ختام المهمة؟",
+    "answer": "حماية أقمار زحل من تلوث المركبة مستقبلاً",
+    "acceptedAnswers": [],
+    "hint": "ارتبط القرار بصيانة مواقع قد تكون صالحة لدراسات الحياة مستقبلاً.",
+    "clues": [],
+    "explanation": "أُنهيتالمهمة بطريقة تمنع سقوط المركبة لاحقاً على أقمار مثل إنسيلادوس وتلويثها.",
+    "sources": [
+      "https://www.nasa.gov/news-release/nasas-cassini-spacecraft-ends-its-historic-exploration-of-saturn/ — بيان رسمي قُرئ في2026-10-13؛ المرجع يثبت الحدث والجانب المطلوب فيه، ولا يُقدّم التقدير المستقبلي كحدث وقع."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "إعادة المركبة إلى الأرض حفاظًا على عيناتها"
+      },
+      {
+        "id": "B",
+        "text": "اختبار هبوط آمن على سطح إنسيلادوس"
+      },
+      {
+        "id": "C",
+        "text": "حماية أقمار زحل من تلوث المركبة مستقبلاً"
+      },
+      {
+        "id": "D",
+        "text": "تفريغ الوقود مع إبقاء المركبة دائمًا داخل الحلقات"
+      },
+      {
+        "id": "E",
+        "text": "تهيئة المركبة لنقل أجهزة إلى تيتان"
+      },
+      {
+        "id": "F",
+        "text": "قياس الغلاف دون أي اعتبار لحماية الأقمار من التلوث"
+      }
+    ],
+    "correctOptionId": "C",
+    "qualityStatus": "unreviewed"
+  },
+  {
+    "id": "breaking_news-medium-0221",
+    "categoryId": "breaking_news",
+    "difficulty": "medium",
+    "text": "كم غطسة أسبوعية بينزحل وحلقاته سبقت الغطسة النهائية ضمن Grand Finale وفق بيان 2017 ؟",
+    "answer": "22 غطسة",
+    "acceptedAnswers": [],
+    "hint": "السؤال عن سلسلة المدارات النهائية، لا عدد سنوات المهمة.",
+    "clues": [],
+    "explanation": "اختتمالسقوط سلسلة 22 غطسةأسبوعية بين الكوكب وال حلقات.",
+    "sources": [
+      "https://www.nasa.gov/news-release/nasas-cassini-spacecraft-ends-its-historic-exploration-of-saturn/ — بيان رسمي قُرئ في2026-10-13؛ المرجع يثبت الحدث والجانب المطلوب فيه، ولا يُقدّم التقدير المستقبلي كحدث وقع."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "16 غطسة"
+      },
+      {
+        "id": "B",
+        "text": "18 غطسة"
+      },
+      {
+        "id": "C",
+        "text": "20 غطسة"
+      },
+      {
+        "id": "D",
+        "text": "22 غطسة"
+      },
+      {
+        "id": "E",
+        "text": "24 غطسة"
+      },
+      {
+        "id": "F",
+        "text": "26 غطسة"
+      }
+    ],
+    "correctOptionId": "D",
+    "qualityStatus": "unreviewed"
+  },
+  {
+    "id": "breaking_news-hard-0221",
+    "categoryId": "breaking_news",
+    "difficulty": "hard",
+    "text": "كيف حافظت كاسيني على استقرارها أثناء دخول غلاف زحل لتواصل إرسال البيانات حتى النهاية؟",
+    "answer": "شغلت دافعاتها للحفاظ على التوجيه",
+    "acceptedAnswers": [],
+    "hint": "كان استمرار التوجيه نحو المستقبل الأرضي مهماً مع ازدياد اضطراب الغلاف.",
+    "clues": [],
+    "explanation": "أظهرت القياسات تشغيل الدافعات للحفاظ على الاستقرار أثناء إرسال المجموعة الأخيرة من الملاحظات.",
+    "sources": [
+      "https://www.nasa.gov/news-release/nasas-cassini-spacecraft-ends-its-historic-exploration-of-saturn/ — بيان رسمي قُرئ في2026-10-13؛ المرجع يثبت الحدث والجانب المطلوب فيه، ولا يُقدّم التقدير المستقبلي كحدث وقع."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "أوقفت الدافعات وتركت المركبة تدور بحرية"
+      },
+      {
+        "id": "B",
+        "text": "اكتفت بعجلات رد الفعل طوال الدخول دون دفع"
+      },
+      {
+        "id": "C",
+        "text": "وجهت الهوائي بعيدًا عن الأرض لحماية الأجهزة"
+      },
+      {
+        "id": "D",
+        "text": "استعملت مظلة لتقليل السرعة وإطالة الاتصال"
+      },
+      {
+        "id": "E",
+        "text": "شغلت دافعاتها للحفاظ على التوجيه"
+      },
+      {
+        "id": "F",
+        "text": "فصلت الهوائي ليبقى مستقلًا في مدار زحل"
+      }
+    ],
+    "correctOptionId": "E",
+    "qualityStatus": "unreviewed"
+  },
+  {
+    "id": "breaking_news-legendary-0221",
+    "categoryId": "breaking_news",
+    "difficulty": "legendary",
+    "text": "أي مجمع لشبكة الفضاء العميق استقبل إشارة كاسيني الأخيرة في يوم 15 سبتمبر 2017 بحسب بيان ناسا؟",
+    "answer": "كانبيرا في أستراليا",
+    "acceptedAnswers": [],
+    "hint": "كانت محطة الاستقبال في نصف الكرة الجنوبي.",
+    "clues": [],
+    "explanation": "استقبل المجمع فيكانبيرا آخر الإشارة قبل انقطاع الاتصال أثناء الغوص في غلاف زحل.",
+    "sources": [
+      "https://www.nasa.gov/news-release/nasas-cassini-spacecraft-ends-its-historic-exploration-of-saturn/ — بيان رسمي قُرئ في2026-10-13؛ المرجع يثبت الحدث والجانب المطلوب فيه، ولا يُقدّم التقدير المستقبلي كحدث وقع."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "غولدستون في كاليفورنيا"
+      },
+      {
+        "id": "B",
+        "text": "مدريد في إسبانيا"
+      },
+      {
+        "id": "C",
+        "text": "دارمشتات في ألمانيا"
+      },
+      {
+        "id": "D",
+        "text": "غرينبيلت في ماريلاند"
+      },
+      {
+        "id": "E",
+        "text": "لوريل في ماريلاند"
+      },
+      {
+        "id": "F",
+        "text": "كانبيرا في أستراليا"
+      }
+    ],
+    "correctOptionId": "F",
+    "qualityStatus": "unreviewed"
+  },
+  {
+    "id": "breaking_news-easy-0222",
+    "categoryId": "breaking_news",
+    "difficulty": "easy",
+    "text": "ما الضرر الذي جعل إنجينيويتي غير قادرة على الطيران في إعلان ختامها في يناير 2024 ؟",
+    "answer": "تلف واحد أو أكثر من شفرات الدوار",
+    "acceptedAnswers": [],
+    "hint": "بقيت واقفة ومتّصلة، لكن الجزء المولد لقوة الرفع أُصيب.",
+    "clues": [],
+    "explanation": "أظهرت الصور تلفاً في شفرات الدوار بعد هبوط 18 يناير، ما أنهى قدرتها على الطيران.",
+    "sources": [
+      "https://www.nasa.gov/news-release/after-three-years-on-mars-nasas-ingenuity-helicopter-mission-ends/ — بيان رسمي قُرئ في2026-10-13؛ المرجع يثبت الحدث والجانب المطلوب فيه، ولا يُقدّم التقدير المستقبلي كحدث وقع."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "تلف واحد أو أكثر من شفرات الدوار"
+      },
+      {
+        "id": "B",
+        "text": "تلف الألواح الشمسية مع بقاء الدوار سليمًا"
+      },
+      {
+        "id": "C",
+        "text": "تعطل حاسوب الملاحة نهائيًا مع دوار سليم"
+      },
+      {
+        "id": "D",
+        "text": "فقد الاتصال مع العربة نهائيًا"
+      },
+      {
+        "id": "E",
+        "text": "تلف معدات الهبوط مع عدم تلف الشفرات"
+      },
+      {
+        "id": "F",
+        "text": "انهيار البطارية مع بقاء الشفرات سليمة"
+      }
+    ],
+    "correctOptionId": "A",
+    "qualityStatus": "unreviewed"
+  },
+  {
+    "id": "breaking_news-medium-0222",
+    "categoryId": "breaking_news",
+    "difficulty": "medium",
+    "text": "كم رحلة نفذتها إنجينيويتي قبل انتهاء مهمتها وفق بيان ناسا في 25 يناير 2024 ؟",
+    "answer": "72 رحلة",
+    "acceptedAnswers": [],
+    "hint": "أصل الخطة كانخمس رحلات فقط؛ تجاوزت الخطة بأكثر من مرتبة عشرية.",
+    "clues": [],
+    "explanation": "بلغ سجل المروحية 72 رحلة على مدى ما يقارب ثلاث سنوات.",
+    "sources": [
+      "https://www.nasa.gov/news-release/after-three-years-on-mars-nasas-ingenuity-helicopter-mission-ends/ — بيان رسمي قُرئ في2026-10-13؛ المرجع يثبت الحدث والجانب المطلوب فيه، ولا يُقدّم التقدير المستقبلي كحدث وقع."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "62 رحلة"
+      },
+      {
+        "id": "B",
+        "text": "72 رحلة"
+      },
+      {
+        "id": "C",
+        "text": "66 رحلة"
+      },
+      {
+        "id": "D",
+        "text": "68 رحلة"
+      },
+      {
+        "id": "E",
+        "text": "76 رحلة"
+      },
+      {
+        "id": "F",
+        "text": "80 رحلة"
+      }
+    ],
+    "correctOptionId": "B",
+    "qualityStatus": "unreviewed"
+  },
+  {
+    "id": "breaking_news-hard-0222",
+    "categoryId": "breaking_news",
+    "difficulty": "hard",
+    "text": "كيف وصف بيان ختام 2024 دور إنجينيويتي بعد إتمام الرحلات التجريبية الأولى؟",
+    "answer": "كشافة جوية ل بيرسيفيرنس",
+    "acceptedAnswers": [],
+    "hint": "تحولت من إثبات إمكان الطيران إلىدعم استكشاف العربة.",
+    "clues": [],
+    "explanation": "أصبحت المروحية عرضاًتشغيلياً للاستطلاع الجوي يفيد علماءوسائقي بيرسيفيرنس.",
+    "sources": [
+      "https://www.nasa.gov/news-release/after-three-years-on-mars-nasas-ingenuity-helicopter-mission-ends/ — بيان رسمي قُرئ في2026-10-13؛ المرجع يثبت الحدث والجانب المطلوب فيه، ولا يُقدّم التقدير المستقبلي كحدث وقع."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "طائرة علمية مستقلة لرصد الغلاف دون مساعدة العربة"
+      },
+      {
+        "id": "B",
+        "text": "وسيلة نقل عينات بين العربة وكبسولة العودة"
+      },
+      {
+        "id": "C",
+        "text": "كشافة جوية ل بيرسيفيرنس"
+      },
+      {
+        "id": "D",
+        "text": "محطة اتصالات ثابتة على سطح المريخ"
+      },
+      {
+        "id": "E",
+        "text": "منصة لمسح الأعماق برادار ينفذ في التربة"
+      },
+      {
+        "id": "F",
+        "text": "عربة أرضية بديلة عند تعطل بيرسيفيرنس"
+      }
+    ],
+    "correctOptionId": "C",
+    "qualityStatus": "unreviewed"
+  },
+  {
+    "id": "breaking_news-legendary-0222",
+    "categoryId": "breaking_news",
+    "difficulty": "legendary",
+    "text": "ما حالة إنجينيويتي التي ميّزها البيان عند إعلان نهاية قدرتها على الطيران؟",
+    "answer": "واقفة ومتّصلة بالأرض لكن دوارها متضرر",
+    "acceptedAnswers": [],
+    "hint": "انتهاء وظيفة المهمة لايعني دائماً اختفاء المركبة أوكلأنظمتها.",
+    "clues": [],
+    "explanation": "أكدت الوكالة أن المروحية بقيتمنتَصبة وفي اتصال، رغم أن ضرر الدوار حال دون طيران جديد.",
+    "sources": [
+      "https://www.nasa.gov/news-release/after-three-years-on-mars-nasas-ingenuity-helicopter-mission-ends/ — بيان رسمي قُرئ في2026-10-13؛ المرجع يثبت الحدث والجانب المطلوب فيه، ولا يُقدّم التقدير المستقبلي كحدث وقع."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "واقفة لكن فقد الاتصال بها نهائيًا"
+      },
+      {
+        "id": "B",
+        "text": "متصلة وتستطيع الطيران لكن مهمتها العلمية انتهت فقط"
+      },
+      {
+        "id": "C",
+        "text": "منقلبة على جانبها مع دوار سليم"
+      },
+      {
+        "id": "D",
+        "text": "واقفة ومتّصلة بالأرض لكن دوارها متضرر"
+      },
+      {
+        "id": "E",
+        "text": "متصلة لكن تنتظر استبدال الدوار ميدانيًا"
+      },
+      {
+        "id": "F",
+        "text": "متحطمة كليًا دون استمرار أي أنظمة"
+      }
+    ],
+    "correctOptionId": "D",
+    "qualityStatus": "unreviewed"
+  },
+  {
+    "id": "breaking_news-easy-0223",
+    "categoryId": "breaking_news",
+    "difficulty": "easy",
+    "text": "في خبر إطلاق أرتيمس 2 في 1 أبريل 2026 ، ما المركبة التي حملت طاقم الرحلة القمرية؟",
+    "answer": "أوريون",
+    "acceptedAnswers": [],
+    "hint": "هي عائلة المركبة التي اختبرتها أرتيمس 1 قبل رحلات البشر.",
+    "clues": [],
+    "explanation": "حمل صاروخ SLS مركبة أوريون ومعها رواد الطاقم الأربعة.",
+    "sources": [
+      "https://www.nasa.gov/news-release/liftoff-nasa-launches-astronauts-on-historic-artemis-moon-mission/ — بيان رسمي قُرئ في2026-10-13؛ المرجع يثبت الحدث والجانب المطلوب فيه، ولا يُقدّم التقدير المستقبلي كحدث وقع."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "كرو دراغون"
+      },
+      {
+        "id": "B",
+        "text": "ستارلاينر"
+      },
+      {
+        "id": "C",
+        "text": "سويوز"
+      },
+      {
+        "id": "D",
+        "text": "شينزو"
+      },
+      {
+        "id": "E",
+        "text": "أوريون"
+      },
+      {
+        "id": "F",
+        "text": "أبولو القديم"
+      }
+    ],
+    "correctOptionId": "E",
+    "qualityStatus": "unreviewed"
+  },
+  {
+    "id": "breaking_news-medium-0223",
+    "categoryId": "breaking_news",
+    "difficulty": "medium",
+    "text": "كم رائد فضاء غادر الأرض في طاقم أرتيمس 2 حسب إعلان إطلاق 1 أبريل 2026 ؟",
+    "answer": "أربعة رواد",
+    "acceptedAnswers": [],
+    "hint": "ضم الطاقم روادًا من ناسا وشريكاًمن الوكالة الكندية.",
+    "clues": [],
+    "explanation": "أُطلقت المهمة بأربعة:ريدوايزمان وفيكتورغلوفر وكريستيناكوك وجيريمي هانسن.",
+    "sources": [
+      "https://www.nasa.gov/news-release/liftoff-nasa-launches-astronauts-on-historic-artemis-moon-mission/ — بيان رسمي قُرئ في2026-10-13؛ المرجع يثبت الحدث والجانب المطلوب فيه، ولا يُقدّم التقدير المستقبلي كحدث وقع."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "رائدان"
+      },
+      {
+        "id": "B",
+        "text": "ثلاثة رواد"
+      },
+      {
+        "id": "C",
+        "text": "خمسة رواد"
+      },
+      {
+        "id": "D",
+        "text": "ستة رواد"
+      },
+      {
+        "id": "E",
+        "text": "سبعة رواد"
+      },
+      {
+        "id": "F",
+        "text": "أربعة رواد"
+      }
+    ],
+    "correctOptionId": "F",
+    "qualityStatus": "unreviewed"
+  },
+  {
+    "id": "breaking_news-hard-0223",
+    "categoryId": "breaking_news",
+    "difficulty": "hard",
+    "text": "أي عضو في طاقم أرتيمس 2 مثّل وكالة الفضاء الكندية، وفق بيان الإطلاق؟",
+    "answer": "جيريمي هانسن",
+    "acceptedAnswers": [],
+    "hint": "المرشح الصحيح من الطاقم الفعلي وليس مجرد رائد كندي آخر.",
+    "clues": [],
+    "explanation": "كان Jeremy Hansen رائد CSA في الطاقم؛ أما وايزمان وغلوفر وكوك فمن ناسا.",
+    "sources": [
+      "https://www.nasa.gov/news-release/liftoff-nasa-launches-astronauts-on-historic-artemis-moon-mission/ — بيان رسمي قُرئ في2026-10-13؛ المرجع يثبت الحدث والجانب المطلوب فيه، ولا يُقدّم التقدير المستقبلي كحدث وقع."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "جيريمي هانسن"
+      },
+      {
+        "id": "B",
+        "text": "ريد وايزمان"
+      },
+      {
+        "id": "C",
+        "text": "فيكتور غلوفر"
+      },
+      {
+        "id": "D",
+        "text": "كريستينا كوك"
+      },
+      {
+        "id": "E",
+        "text": "جوش كوتريك"
+      },
+      {
+        "id": "F",
+        "text": "ديفيد سان جاك"
+      }
+    ],
+    "correctOptionId": "A",
+    "qualityStatus": "unreviewed"
+  },
+  {
+    "id": "breaking_news-legendary-0223",
+    "categoryId": "breaking_news",
+    "difficulty": "legendary",
+    "text": "ما الاسم الذي أطلقه طاقم أرتيمس 2 على مركبة أوريون حسب بيان الإطلاق؟",
+    "answer": "Integrity",
+    "acceptedAnswers": [],
+    "hint": "الاسم يعبر عن قيمةأخلاقية، وليس اسم المهمة أو المركبة التقني.",
+    "clues": [],
+    "explanation": "سمى الطاقم مركبته Integrity ، كما ورد في خبر الرحلة الأول.",
+    "sources": [
+      "https://www.nasa.gov/news-release/liftoff-nasa-launches-astronauts-on-historic-artemis-moon-mission/ — بيان رسمي قُرئ في2026-10-13؛ المرجع يثبت الحدث والجانب المطلوب فيه، ولا يُقدّم التقدير المستقبلي كحدث وقع."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "Endeavour"
+      },
+      {
+        "id": "B",
+        "text": "Integrity"
+      },
+      {
+        "id": "C",
+        "text": "Resilience"
+      },
+      {
+        "id": "D",
+        "text": "Freedom"
+      },
+      {
+        "id": "E",
+        "text": "Endurance"
+      },
+      {
+        "id": "F",
+        "text": "Unity"
+      }
+    ],
+    "correctOptionId": "B",
+    "qualityStatus": "unreviewed"
+  },
+  {
+    "id": "breaking_news-easy-0224",
+    "categoryId": "breaking_news",
+    "difficulty": "easy",
+    "text": "ما المعنى الدقيق لقرار منظمة الصحة العالمية بشأن كوفيد 19 المعلن في مايو 2023 ؟",
+    "answer": "انتهاء حالة الطوارئ الصحية ذات القلق الدولي",
+    "acceptedAnswers": [],
+    "hint": "فرّق بين مستوى الإنذار الدولي وبين استمرار المشكلة الصحية.",
+    "clues": [],
+    "explanation": "أعلن المدير العام انتهاء حالة طوارئ الصحة العامة التي تثير قلقًا دوليًا PHEIC، وأكد صراحة أن ذلك لا يعني انتهاء كوفيد 19 بوصفه تهديدًا صحيًا عالميًا.",
+    "sources": [
+      "https://www.who.int/news-room/speeches/item/who-director-general-s-opening-remarks-at-the-media-briefing---5-may-2023 — بيان رسمي قُرئ في2026-10-13؛ المرجع يثبت الحدث والجانب المطلوب فيه، ولا يُقدّم التقدير المستقبلي كحدث وقع."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "إنهاء الجائحة بوصفها حدثًا صحيًا دون استمرار أي خطر"
+      },
+      {
+        "id": "B",
+        "text": "إلغاء جميع توصيات إدارة كوفيد 19 طويل المدة"
+      },
+      {
+        "id": "C",
+        "text": "انتهاء حالة الطوارئ الصحية ذات القلق الدولي"
+      },
+      {
+        "id": "D",
+        "text": "إعلان استئصال الفيروس عالميًا"
+      },
+      {
+        "id": "E",
+        "text": "إلغاء القواعد الدولية لرصد الأمراض المعدية"
+      },
+      {
+        "id": "F",
+        "text": "تعليق التطعيم ضد كوفيد 19 في كل الدول"
+      }
+    ],
+    "correctOptionId": "C",
+    "qualityStatus": "unreviewed"
+  },
+  {
+    "id": "breaking_news-medium-0224",
+    "categoryId": "breaking_news",
+    "difficulty": "medium",
+    "text": "متى أعلن المدير العام لمنظمة الصحة العالمية قبول إنهاء حالة PHEIC لكوفيد 19 ، وليس تاريخ اجتماع اللجنة قبله؟",
+    "answer": "5 مايو 2023",
+    "acceptedAnswers": [],
+    "hint": "صدر الإعلان في اليوم التالي لاجتماع اللجنة الذي أوصى بالقرار.",
+    "clues": [],
+    "explanation": "أعلن القرار في 5 مايو 2023 ،وكانت اللجنة اجتمعت في 4 مايو.",
+    "sources": [
+      "https://www.who.int/news-room/speeches/item/who-director-general-s-opening-remarks-at-the-media-briefing---5-may-2023 — بيان رسمي قُرئ في2026-10-13؛ المرجع يثبت الحدث والجانب المطلوب فيه، ولا يُقدّم التقدير المستقبلي كحدث وقع."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "2 مايو 2023"
+      },
+      {
+        "id": "B",
+        "text": "3 مايو 2023"
+      },
+      {
+        "id": "C",
+        "text": "4 مايو 2023"
+      },
+      {
+        "id": "D",
+        "text": "5 مايو 2023"
+      },
+      {
+        "id": "E",
+        "text": "6 مايو 2023"
+      },
+      {
+        "id": "F",
+        "text": "7 مايو 2023"
+      }
+    ],
+    "correctOptionId": "D",
+    "qualityStatus": "unreviewed"
+  },
+  {
+    "id": "breaking_news-hard-0224",
+    "categoryId": "breaking_news",
+    "difficulty": "hard",
+    "text": "أي رقم لاجتماع لجنة الطوارئ سبق قرار إنهاء حالة PHEIC لكوفيد 19 في مايو 2023 ؟",
+    "answer": "الاجتماع الخامس عشر",
+    "acceptedAnswers": [],
+    "hint": "استمرت اجتماعات اللجنة عدة سنوات؛ والمطلوب ترتيب الاجتماع الذي أوصى بخفض مستوى الإنذار.",
+    "clues": [],
+    "explanation": "ذكر الم دير العام أن اللجنة اجتمعت للمرة 15 وأوصت بإنهاء الطوارئ الدولية.",
+    "sources": [
+      "https://www.who.int/news-room/speeches/item/who-director-general-s-opening-remarks-at-the-media-briefing---5-may-2023 — بيان رسمي قُرئ في2026-10-13؛ المرجع يثبت الحدث والجانب المطلوب فيه، ولا يُقدّم التقدير المستقبلي كحدث وقع."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "الاجتماع الثالث عشر"
+      },
+      {
+        "id": "B",
+        "text": "الاجتماع الرابع عشر"
+      },
+      {
+        "id": "C",
+        "text": "الاجتماع السادس عشر"
+      },
+      {
+        "id": "D",
+        "text": "الاجتماع السابع عشر"
+      },
+      {
+        "id": "E",
+        "text": "الاجتماع الخامس عشر"
+      },
+      {
+        "id": "F",
+        "text": "الاجتماع الثامن عشر"
+      }
+    ],
+    "correctOptionId": "E",
+    "qualityStatus": "unreviewed"
+  },
+  {
+    "id": "breaking_news-legendary-0224",
+    "categoryId": "breaking_news",
+    "difficulty": "legendary",
+    "text": "أي مجموعة اتجاهات وردت ضمن مبررات خفض إنذار كوفيد 19 في بيان 5 مايو 2023 ؟",
+    "answer": "مناعة سكانية أعلى ووفيات وضغط صحي أقل",
+    "acceptedAnswers": [],
+    "hint": "القرار اعتمد تحليلاًللبيانات لا إعلاناًبزوال الفيروس.",
+    "clues": [],
+    "explanation": "شرح البيان اتجاهاًلانخفاض الجائحة، ومناعةمنالتطعيموالعدوى، وتراجُعال وفيات والضغط على الأنظمة الصحية.",
+    "sources": [
+      "https://www.who.int/news-room/speeches/item/who-director-general-s-opening-remarks-at-the-media-briefing---5-may-2023 — بيان رسمي قُرئ في2026-10-13؛ المرجع يثبت الحدث والجانب المطلوب فيه، ولا يُقدّم التقدير المستقبلي كحدث وقع."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "مناعة سكانية أقل ووفيات وضغط صحي أعلى"
+      },
+      {
+        "id": "B",
+        "text": "مناعة سكانية أعلى مع ازدياد الوفيات والضغط الصحي"
+      },
+      {
+        "id": "C",
+        "text": "مناعة سكانية أقل مع انخفاض الوفيات وزيادة الضغط"
+      },
+      {
+        "id": "D",
+        "text": "مناعة سكانية ثابتة ووفيات ثابتة وضغط صحي أعلى"
+      },
+      {
+        "id": "E",
+        "text": "مناعة سكانية أعلى ووفيات أعلى وضغط صحي أقل"
+      },
+      {
+        "id": "F",
+        "text": "مناعة سكانية أعلى ووفيات وضغط صحي أقل"
+      }
+    ],
+    "correctOptionId": "F",
+    "qualityStatus": "unreviewed"
+  },
+  {
+    "id": "breaking_news-easy-0225",
+    "categoryId": "breaking_news",
+    "difficulty": "easy",
+    "text": "ما العملية العالمية التي عُدت النتيجة المركزية لمؤتمر COP28 المختتم في ديسمبر 2023 ؟",
+    "answer": "أول حصيلة عالمية للتقدم تحت اتفاق باريس",
+    "acceptedAnswers": [],
+    "hint": "هي مراجعة جماعية للفجوة بينالأهداف وما تحقق، لتقوية الخطط اللاحقة.",
+    "clues": [],
+    "explanation": "عدّالبيان global stocktake أي الحصيلة العالمية النتيجة المركزية للمؤتمر.",
+    "sources": [
+      "https://unfccc.int/news/cop28-agreement-signals-beginning-of-the-end-of-the-fossil-fuel-era — بيان رسمي قُرئ في2026-10-13؛ المرجع يثبت الحدث والجانب المطلوب فيه، ولا يُقدّم التقدير المستقبلي كحدث وقع."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "أول حصيلة عالمية للتقدم تحت اتفاق باريس"
+      },
+      {
+        "id": "B",
+        "text": "أول مراجعة عالمية للتقدم تحت بروتوكول مونتريال"
+      },
+      {
+        "id": "C",
+        "text": "أول إعداد لاتفاق باريس بدل مراجعة تنفيذه"
+      },
+      {
+        "id": "D",
+        "text": "استبدال المساهمات الوطنية بخطة موحدة لكل الدول"
+      },
+      {
+        "id": "E",
+        "text": "مراجعة وطنية منفصلة لا تتضمن حصيلة جماعية"
+      },
+      {
+        "id": "F",
+        "text": "إعلان تحقق جميع أهداف اتفاق باريس بالفعل"
+      }
+    ],
+    "correctOptionId": "A",
+    "qualityStatus": "unreviewed"
+  },
+  {
+    "id": "breaking_news-medium-0225",
+    "categoryId": "breaking_news",
+    "difficulty": "medium",
+    "text": "متى اختُتم COP28 بالاتفاق المذكور في البيان الرسمي للأمم المتحدة للمناخ؟",
+    "answer": "13 ديسمبر 2023",
+    "acceptedAnswers": [],
+    "hint": "تجاوزت الخاتمة الموعد الأولي المقرر قبلها بيوم.",
+    "clues": [],
+    "explanation": "صدر البيان الختامي في 13 ديسمبر 2023 معلناًإنهاء المؤتمر والاتفاق.",
+    "sources": [
+      "https://unfccc.int/news/cop28-agreement-signals-beginning-of-the-end-of-the-fossil-fuel-era — بيان رسمي قُرئ في2026-10-13؛ المرجع يثبت الحدث والجانب المطلوب فيه، ولا يُقدّم التقدير المستقبلي كحدث وقع."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "9 ديسمبر 2023"
+      },
+      {
+        "id": "B",
+        "text": "13 ديسمبر 2023"
+      },
+      {
+        "id": "C",
+        "text": "10 ديسمبر 2023"
+      },
+      {
+        "id": "D",
+        "text": "11 ديسمبر 2023"
+      },
+      {
+        "id": "E",
+        "text": "12 ديسمبر 2023"
+      },
+      {
+        "id": "F",
+        "text": "14 ديسمبر 2023"
+      }
+    ],
+    "correctOptionId": "B",
+    "qualityStatus": "unreviewed"
+  },
+  {
+    "id": "breaking_news-hard-0225",
+    "categoryId": "breaking_news",
+    "difficulty": "hard",
+    "text": "ما الهدفان العدديان اللذان دعت إليهما الحصيلة العالمية في ختام COP28 بحلول 2030: قدرة الطاقة المتجددة، ثم المعدل السنوي لتحسين كفاءة الطاقة؟",
+    "answer": "ثلاثة أضعاف القدرة المتجددة وضعفا معدل تحسين الكفاءة",
+    "acceptedAnswers": [],
+    "hint": "هناك معاملان مختلفان؛ المطلوب مطابقة كلمنهما بالمجال الصحيح.",
+    "clues": [],
+    "explanation": "دعت الحصيلة إلى زيادة قدرة الطاقة المتجددة عالميًا إلى ثلاثة أمثالها، ومضاعفة متوسط المعدل السنوي العالمي لتحسين كفاءة الطاقة بحلول 2030. هذان هدفان معلنان، وليس إعلانًا بأن الزيادة تحققت بالفعل.",
+    "sources": [
+      "https://unfccc.int/news/cop28-agreement-signals-beginning-of-the-end-of-the-fossil-fuel-era — بيان رسمي قُرئ في2026-10-13؛ المرجع يثبت الحدث والجانب المطلوب فيه، ولا يُقدّم التقدير المستقبلي كحدث وقع."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "ضعفا القدرة المتجددة وثلاثة أضعاف معدل تحسين الكفاءة"
+      },
+      {
+        "id": "B",
+        "text": "أربعة أضعاف القدرة المتجددة وضعفا معدل تحسين الكفاءة"
+      },
+      {
+        "id": "C",
+        "text": "ثلاثة أضعاف القدرة المتجددة وضعفا معدل تحسين الكفاءة"
+      },
+      {
+        "id": "D",
+        "text": "ثلاثة أضعاف القدرة المتجددة وثلاثة أضعاف معدل تحسين الكفاءة"
+      },
+      {
+        "id": "E",
+        "text": "ضعفا القدرة المتجددة وضعفا معدل تحسين الكفاءة"
+      },
+      {
+        "id": "F",
+        "text": "خمسة أضعاف القدرة المتجددة ومعدل تحسين الكفاءة نفسه"
+      }
+    ],
+    "correctOptionId": "C",
+    "qualityStatus": "unreviewed"
+  },
+  {
+    "id": "breaking_news-legendary-0225",
+    "categoryId": "breaking_news",
+    "difficulty": "legendary",
+    "text": "مقارنة بمستويات أي سنة ذكر بيان ختام COP28 أن الانبعاثات العالمية تحتاج إلى خفض 43% بحلول 2030 للاتساق مع مسار حد الاحترار 1.5 درجة مئوية؟",
+    "answer": "2019",
+    "acceptedAnswers": [],
+    "hint": "هذه سنة خط الأساس المذكور، لا سنة توقيع اتفاق باريس ولا سنة المؤتمر.",
+    "clues": [],
+    "explanation": "ورد في البيان أنالخفض 43% يقارن بمستويات 2019 ؛ والذكر تقرير للمسار العلمي المطلوب، لا إعلان عن خفض متحقق.",
+    "sources": [
+      "https://unfccc.int/news/cop28-agreement-signals-beginning-of-the-end-of-the-fossil-fuel-era — بيان رسمي قُرئ في2026-10-13؛ المرجع يثبت الحدث والجانب المطلوب فيه، ولا يُقدّم التقدير المستقبلي كحدث وقع."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "2015"
+      },
+      {
+        "id": "B",
+        "text": "2017"
+      },
+      {
+        "id": "C",
+        "text": "2018"
+      },
+      {
+        "id": "D",
+        "text": "2019"
+      },
+      {
+        "id": "E",
+        "text": "2020"
+      },
+      {
+        "id": "F",
+        "text": "2021"
+      }
+    ],
+    "correctOptionId": "D",
+    "qualityStatus": "unreviewed"
+  }
+]

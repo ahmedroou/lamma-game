@@ -1,0 +1,108 @@
+{
+  "size": 512,
+  "quality": 85,
+  "sharpVersion": "0.35.5",
+  "originalBytes": 26382660,
+  "webpBytes": 380100,
+  "reductionPercent": 98.56,
+  "files": [
+    {
+      "name": "breaking_news.png",
+      "originalBytes": 2039891,
+      "webpBytes": 28860,
+      "width": 512,
+      "height": 512
+    },
+    {
+      "name": "complete_hadith.png",
+      "originalBytes": 1894485,
+      "webpBytes": 32636,
+      "width": 512,
+      "height": 512
+    },
+    {
+      "name": "complete_verse.png",
+      "originalBytes": 2014414,
+      "webpBytes": 30516,
+      "width": 512,
+      "height": 512
+    },
+    {
+      "name": "flags.png",
+      "originalBytes": 1807561,
+      "webpBytes": 18316,
+      "width": 512,
+      "height": 512
+    },
+    {
+      "name": "geography.png",
+      "originalBytes": 1844019,
+      "webpBytes": 31226,
+      "width": 512,
+      "height": 512
+    },
+    {
+      "name": "how_it_works.png",
+      "originalBytes": 1962059,
+      "webpBytes": 20030,
+      "width": 512,
+      "height": 512
+    },
+    {
+      "name": "islamic_history.png",
+      "originalBytes": 2034577,
+      "webpBytes": 33038,
+      "width": 512,
+      "height": 512
+    },
+    {
+      "name": "maps.png",
+      "originalBytes": 1684693,
+      "webpBytes": 23268,
+      "width": 512,
+      "height": 512
+    },
+    {
+      "name": "meanings.png",
+      "originalBytes": 1662232,
+      "webpBytes": 21664,
+      "width": 512,
+      "height": 512
+    },
+    {
+      "name": "myths.png",
+      "originalBytes": 1962359,
+      "webpBytes": 34248,
+      "width": 512,
+      "height": 512
+    },
+    {
+      "name": "notable_figures.png",
+      "originalBytes": 1972315,
+      "webpBytes": 33010,
+      "width": 512,
+      "height": 512
+    },
+    {
+      "name": "riddles.png",
+      "originalBytes": 1865282,
+      "webpBytes": 24240,
+      "width": 512,
+      "height": 512
+    },
+    {
+      "name": "spacetoon.png",
+      "originalBytes": 1821406,
+      "webpBytes": 28984,
+      "width": 512,
+      "height": 512
+    },
+    {
+      "name": "who_am_i.png",
+      "originalBytes": 1817367,
+      "webpBytes": 20064,
+      "width": 512,
+      "height": 512
+    }
+  ]
+}

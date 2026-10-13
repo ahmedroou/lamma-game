@@ -1,0 +1,57 @@
+{
+  "inspectionDate": "2026-10-12",
+  "timeZone": "Asia/Riyadh",
+  "sourceDomain": "https://www.3krooot.com/",
+  "categories": 158,
+  "reportedQuestionSum": 18524,
+  "freeCategories": 7,
+  "paidCategories": 151,
+  "completedLiveMatch": false,
+  "files": [
+    {
+      "file": "categories.csv",
+      "bytes": 7544,
+      "sha256": "DC8EFAE7091AB750AC00C16FAE5DA4B42313ABE7A4CFB60AA61EF24AB0C57358"
+    },
+    {
+      "file": "category-images.json",
+      "bytes": 45073,
+      "sha256": "E04FD804B00747797E42B979D649FDC19095BCA801F6E97EDA13939368CB716C"
+    },
+    {
+      "file": "flutter_bootstrap.js",
+      "bytes": 9974,
+      "sha256": "B9922628066F01EE1F5E5509C7C6C131ADDD3BC0AD8F495A525E3D5815D36C0C"
+    },
+    {
+      "file": "game-code.js",
+      "bytes": 187102,
+      "sha256": "8CB570C241EF141ACFE916B52FA9170C45823EFF06AF23DA2087FBDE170878AB"
+    },
+    {
+      "file": "homepage.html",
+      "bytes": 1827,
+      "sha256": "73F3892E78F01E51E2C94F57270411AC3A1129F77F774C695C1E46F066658E21"
+    },
+    {
+      "file": "main.dart.js",
+      "bytes": 3491214,
+      "sha256": "E02DB27CA1E0905E0F3E324D4E4FF0B498F5D6A5B4C8ADA94553CE3AECD2C31F"
+    },
+    {
+      "file": "main.decoded.js",
+      "bytes": 3456307,
+      "sha256": "90FE5E760258FCBB10A1504D1404D7D69953B83154775037C26663EA61FA76B8"
+    },
+    {
+      "file": "premium-price.json",
+      "bytes": 401,
+      "sha256": "378AA7E7E689706A162C9E6D46E3F9208FF0C77E9DC071E01A10CDB87379568F"
+    },
+    {
+      "file": "ui-arabic-strings.txt",
+      "bytes": 6355,
+      "sha256": "5698F7015037DF44A1CDF59D1521A92F0AEA6DE9570BE73872A1154BA50F76C2"
+    }
+  ]
+}

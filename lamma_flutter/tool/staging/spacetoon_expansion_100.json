@@ -1,0 +1,4288 @@
+{
+  "categoryId": "spacetoon",
+  "questions": [
+    {
+      "id": "spacetoon-easy-0201",
+      "categoryId": "spacetoon",
+      "difficulty": "easy",
+      "text": "في «بلوي»، ما اسم أخت بلوي الصغرى ذات الفراء البرتقالي؟",
+      "answer": "بينغو",
+      "acceptedAnswers": [
+        "Bingo",
+        "بنجو"
+      ],
+      "hint": "هي رفيقتها الأساسية في ألعاب البيت.",
+      "clues": [],
+      "explanation": "بينغو أخت بلوي الصغرى من فصيلة الهيلر الحمراء.",
+      "sources": [
+        "https://www.bluey.tv/characters/bingo/ — صفحة المنتج/صاحب الشخصيات، قرئت في 2026-10-13.",
+        "https://www.youtube.com/watch?v=zxjM6VO21MM — إعلان بلوي على قناة سبيستون الرسمية في فقرة أنا وطفلي (2024)."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "بينغو"
+        },
+        {
+          "id": "B",
+          "text": "مافن"
+        },
+        {
+          "id": "C",
+          "text": "سوكس"
+        },
+        {
+          "id": "D",
+          "text": "كوكو"
+        },
+        {
+          "id": "E",
+          "text": "كلوي"
+        },
+        {
+          "id": "F",
+          "text": "ليلا"
+        }
+      ],
+      "correctOptionId": "A",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "spacetoon-easy-0202",
+      "categoryId": "spacetoon",
+      "difficulty": "easy",
+      "text": "في «بلوي»، ما اسم والد بلوي وبينغو؟",
+      "answer": "بانديت",
+      "acceptedAnswers": [
+        "Bandit"
+      ],
+      "hint": "يشارك ابنتيه تمثيل الأدوار والألعاب المنزلية.",
+      "clues": [],
+      "explanation": "بانديت والد بلوي وبينغو.",
+      "sources": [
+        "https://www.bluey.tv/characters/bandit/ — صفحة المنتج/صاحب الشخصيات، قرئت في 2026-10-13.",
+        "https://www.youtube.com/watch?v=zxjM6VO21MM — إعلان بلوي على قناة سبيستون الرسمية في فقرة أنا وطفلي (2024)."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "سترايب"
+        },
+        {
+          "id": "B",
+          "text": "بانديت"
+        },
+        {
+          "id": "C",
+          "text": "راد"
+        },
+        {
+          "id": "D",
+          "text": "بوب"
+        },
+        {
+          "id": "E",
+          "text": "مورت"
+        },
+        {
+          "id": "F",
+          "text": "بات"
+        }
+      ],
+      "correctOptionId": "B",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "spacetoon-easy-0203",
+      "categoryId": "spacetoon",
+      "difficulty": "easy",
+      "text": "في «بلوي»، ما اسم والدة بلوي وبينغو؟",
+      "answer": "تشيلي",
+      "acceptedAnswers": [
+        "Chilli"
+      ],
+      "hint": "تجمع بين الحكمة ومشاركة ابنتيها اللعب.",
+      "clues": [],
+      "explanation": "تشيلي أم بلوي وبينغو.",
+      "sources": [
+        "https://www.bluey.tv/characters/chilli/ — صفحة المنتج/صاحب الشخصيات، قرئت في 2026-10-13.",
+        "https://www.youtube.com/watch?v=zxjM6VO21MM — إعلان بلوي على قناة سبيستون الرسمية في فقرة أنا وطفلي (2024)."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "تريكسي"
+        },
+        {
+          "id": "B",
+          "text": "براندي"
+        },
+        {
+          "id": "C",
+          "text": "تشيلي"
+        },
+        {
+          "id": "D",
+          "text": "فريسكي"
+        },
+        {
+          "id": "E",
+          "text": "ويندي"
+        },
+        {
+          "id": "F",
+          "text": "جانيل"
+        }
+      ],
+      "correctOptionId": "C",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "spacetoon-easy-0204",
+      "categoryId": "spacetoon",
+      "difficulty": "easy",
+      "text": "من المعلمة التي توجه ألعاب الأطفال في مدرسة بلوي بكلمات لطيفة وقصص؟",
+      "answer": "كاليبسو",
+      "acceptedAnswers": [
+        "Calypso"
+      ],
+      "hint": "اسمها مرتبط بصف بلوي لا بروضة بينغو.",
+      "clues": [],
+      "explanation": "كاليبسو معلمة بلوي وبارعة في سرد القصص.",
+      "sources": [
+        "https://www.bluey.tv/characters/calypso/ — صفحة المنتج/صاحب الشخصيات، قرئت في 2026-10-13.",
+        "https://www.youtube.com/watch?v=zxjM6VO21MM — إعلان بلوي على قناة سبيستون الرسمية في فقرة أنا وطفلي (2024)."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "تشيلي"
+        },
+        {
+          "id": "B",
+          "text": "تريكسي"
+        },
+        {
+          "id": "C",
+          "text": "ويندي"
+        },
+        {
+          "id": "D",
+          "text": "كاليبسو"
+        },
+        {
+          "id": "E",
+          "text": "فريسكي"
+        },
+        {
+          "id": "F",
+          "text": "شيلا"
+        }
+      ],
+      "correctOptionId": "D",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "spacetoon-easy-0205",
+      "categoryId": "spacetoon",
+      "difficulty": "easy",
+      "text": "في «بلوي»، ما اسم الأخت الصغرى لمافن؟",
+      "answer": "سوكس",
+      "acceptedAnswers": [
+        "Socks"
+      ],
+      "hint": "هي أصغر القريبات اللاتي تشاركن اللعب.",
+      "clues": [],
+      "explanation": "سوكس أخت مافن الصغرى.",
+      "sources": [
+        "https://www.bluey.tv/characters/socks/ — صفحة المنتج/صاحب الشخصيات، قرئت في 2026-10-13.",
+        "https://www.youtube.com/watch?v=zxjM6VO21MM — إعلان بلوي على قناة سبيستون الرسمية في فقرة أنا وطفلي (2024)."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "بينغو"
+        },
+        {
+          "id": "B",
+          "text": "ليلا"
+        },
+        {
+          "id": "C",
+          "text": "كوكو"
+        },
+        {
+          "id": "D",
+          "text": "كلوي"
+        },
+        {
+          "id": "E",
+          "text": "سوكس"
+        },
+        {
+          "id": "F",
+          "text": "جودو"
+        }
+      ],
+      "correctOptionId": "E",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "spacetoon-easy-0206",
+      "categoryId": "spacetoon",
+      "difficulty": "easy",
+      "text": "في «بلوي»، من والد مافن وسوكس؟",
+      "answer": "العم سترايب",
+      "acceptedAnswers": [],
+      "hint": "هو شقيق بانديت الأصغر.",
+      "clues": [],
+      "explanation": "سترايب وزوجته تريكسي والدا مافن وسوكس.",
+      "sources": [
+        "https://www.bluey.tv/characters/uncle-stripe/ — صفحة المنتج/صاحب الشخصيات، قرئت في 2026-10-13.",
+        "https://www.youtube.com/watch?v=zxjM6VO21MM — إعلان بلوي على قناة سبيستون الرسمية في فقرة أنا وطفلي (2024)."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "العم راد"
+        },
+        {
+          "id": "B",
+          "text": "بانديت"
+        },
+        {
+          "id": "C",
+          "text": "بوب"
+        },
+        {
+          "id": "D",
+          "text": "مورت"
+        },
+        {
+          "id": "E",
+          "text": "والد لاكي"
+        },
+        {
+          "id": "F",
+          "text": "العم سترايب"
+        }
+      ],
+      "correctOptionId": "F",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "spacetoon-easy-0207",
+      "categoryId": "spacetoon",
+      "difficulty": "easy",
+      "text": "في «بلوي»، من والدة مافن وسوكس؟",
+      "answer": "العمة تريكسي",
+      "acceptedAnswers": [],
+      "hint": "تحب لعب الهوكي مع تشيلي.",
+      "clues": [],
+      "explanation": "تريكسي أم مافن وسوكس وزوجة سترايب.",
+      "sources": [
+        "https://www.bluey.tv/characters/aunt-trixie/ — صفحة المنتج/صاحب الشخصيات، قرئت في 2026-10-13.",
+        "https://www.youtube.com/watch?v=zxjM6VO21MM — إعلان بلوي على قناة سبيستون الرسمية في فقرة أنا وطفلي (2024)."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "العمة تريكسي"
+        },
+        {
+          "id": "B",
+          "text": "العمة براندي"
+        },
+        {
+          "id": "C",
+          "text": "تشيلي"
+        },
+        {
+          "id": "D",
+          "text": "فريسكي"
+        },
+        {
+          "id": "E",
+          "text": "ويندي"
+        },
+        {
+          "id": "F",
+          "text": "شيلا"
+        }
+      ],
+      "correctOptionId": "A",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "spacetoon-easy-0208",
+      "categoryId": "spacetoon",
+      "difficulty": "easy",
+      "text": "في «بلوي»، من الجد مورت بالنسبة إلى تشيلي؟",
+      "answer": "والدها",
+      "acceptedAnswers": [],
+      "hint": "صلة قرابته تأتي من جانب الأم.",
+      "clues": [],
+      "explanation": "مورت والد تشيلي وجد بلوي وبينغو.",
+      "sources": [
+        "https://www.bluey.tv/characters/grandad/ — صفحة المنتج/صاحب الشخصيات، قرئت في 2026-10-13.",
+        "https://www.youtube.com/watch?v=zxjM6VO21MM — إعلان بلوي على قناة سبيستون الرسمية في فقرة أنا وطفلي (2024)."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "عمها"
+        },
+        {
+          "id": "B",
+          "text": "والدها"
+        },
+        {
+          "id": "C",
+          "text": "خالها"
+        },
+        {
+          "id": "D",
+          "text": "جدها"
+        },
+        {
+          "id": "E",
+          "text": "والد زوجها"
+        },
+        {
+          "id": "F",
+          "text": "شقيقها"
+        }
+      ],
+      "correctOptionId": "B",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "spacetoon-easy-0209",
+      "categoryId": "spacetoon",
+      "difficulty": "easy",
+      "text": "في «بلوي»، من الجدة نانا بالنسبة إلى بانديت؟",
+      "answer": "والدته",
+      "acceptedAnswers": [],
+      "hint": "صلة قرابتها تأتي من جانب الأب.",
+      "clues": [],
+      "explanation": "نانا كريس أم بانديت وراد وسترايب.",
+      "sources": [
+        "https://www.bluey.tv/characters/nana/ — صفحة المنتج/صاحب الشخصيات، قرئت في 2026-10-13.",
+        "https://www.youtube.com/watch?v=zxjM6VO21MM — إعلان بلوي على قناة سبيستون الرسمية في فقرة أنا وطفلي (2024)."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "عمته"
+        },
+        {
+          "id": "B",
+          "text": "خالته"
+        },
+        {
+          "id": "C",
+          "text": "والدته"
+        },
+        {
+          "id": "D",
+          "text": "جدته"
+        },
+        {
+          "id": "E",
+          "text": "والدة زوجته"
+        },
+        {
+          "id": "F",
+          "text": "شقيقته"
+        }
+      ],
+      "correctOptionId": "C",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "spacetoon-easy-0210",
+      "categoryId": "spacetoon",
+      "difficulty": "easy",
+      "text": "أي صديق لبلوي يتميز بجسم طويل وأرجل قصيرة ويرتدي قبعة صفراء؟",
+      "answer": "سنيكرز",
+      "acceptedAnswers": [
+        "Snickers"
+      ],
+      "hint": "هو كلب داشهند ويلقب بكلب السجق.",
+      "clues": [],
+      "explanation": "سنيكرز داشهند قصير الأرجل يرتدي قبعة صفراء.",
+      "sources": [
+        "https://www.bluey.tv/characters/snickers/ — صفحة المنتج/صاحب الشخصيات، قرئت في 2026-10-13.",
+        "https://www.youtube.com/watch?v=zxjM6VO21MM — إعلان بلوي على قناة سبيستون الرسمية في فقرة أنا وطفلي (2024)."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "وينتون"
+        },
+        {
+          "id": "B",
+          "text": "ماكينزي"
+        },
+        {
+          "id": "C",
+          "text": "راستي"
+        },
+        {
+          "id": "D",
+          "text": "سنيكرز"
+        },
+        {
+          "id": "E",
+          "text": "لاكي"
+        },
+        {
+          "id": "F",
+          "text": "بادي"
+        }
+      ],
+      "correctOptionId": "D",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "spacetoon-easy-0211",
+      "categoryId": "spacetoon",
+      "difficulty": "easy",
+      "text": "أي صديق لبلوي يقترب كثيراً من الآخرين ويحتاج إلى تعلم احترام المساحة الشخصية؟",
+      "answer": "وينتون",
+      "acceptedAnswers": [
+        "Winton"
+      ],
+      "hint": "هو بولدوغ إنجليزي ويحب إضحاك أصدقائه.",
+      "clues": [],
+      "explanation": "وصف وينتون الرسمي يذكر اقترابه الزائد من الآخرين.",
+      "sources": [
+        "https://www.bluey.tv/characters/winton/ — صفحة المنتج/صاحب الشخصيات، قرئت في 2026-10-13.",
+        "https://www.youtube.com/watch?v=zxjM6VO21MM — إعلان بلوي على قناة سبيستون الرسمية في فقرة أنا وطفلي (2024)."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "راستي"
+        },
+        {
+          "id": "B",
+          "text": "ماكينزي"
+        },
+        {
+          "id": "C",
+          "text": "سنيكرز"
+        },
+        {
+          "id": "D",
+          "text": "لاكي"
+        },
+        {
+          "id": "E",
+          "text": "وينتون"
+        },
+        {
+          "id": "F",
+          "text": "بادي"
+        }
+      ],
+      "correctOptionId": "E",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "spacetoon-easy-0212",
+      "categoryId": "spacetoon",
+      "difficulty": "easy",
+      "text": "أي صديقة لبلوي ترتدي نظارات دائرية فيروزية مثل والديها؟",
+      "answer": "هاني",
+      "acceptedAnswers": [
+        "Honey"
+      ],
+      "hint": "لها أذنان بلون العسل وهي من فصيلة البيغل.",
+      "clues": [],
+      "explanation": "هاني صديقة بلوي ذات النظارات الفيروزية.",
+      "sources": [
+        "https://www.bluey.tv/characters/honey/ — صفحة المنتج/صاحب الشخصيات، قرئت في 2026-10-13.",
+        "https://www.youtube.com/watch?v=zxjM6VO21MM — إعلان بلوي على قناة سبيستون الرسمية في فقرة أنا وطفلي (2024)."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "كلوي"
+        },
+        {
+          "id": "B",
+          "text": "كوكو"
+        },
+        {
+          "id": "C",
+          "text": "إندي"
+        },
+        {
+          "id": "D",
+          "text": "جودو"
+        },
+        {
+          "id": "E",
+          "text": "ليلا"
+        },
+        {
+          "id": "F",
+          "text": "هاني"
+        }
+      ],
+      "correctOptionId": "F",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "spacetoon-easy-0213",
+      "categoryId": "spacetoon",
+      "difficulty": "easy",
+      "text": "من صديقة بينغو الخجولة التي أصبحت أكثر ثقة بعد اللعب معها في الروضة؟",
+      "answer": "ليلا",
+      "acceptedAnswers": [
+        "Lila"
+      ],
+      "hint": "لها فراء أبيض وتتشجع بمرافقة بينغو.",
+      "clues": [],
+      "explanation": "ليلا وبينغو صديقتان مقربتان في الروضة.",
+      "sources": [
+        "https://www.bluey.tv/characters/lila/ — صفحة المنتج/صاحب الشخصيات، قرئت في 2026-10-13.",
+        "https://www.youtube.com/watch?v=zxjM6VO21MM — إعلان بلوي على قناة سبيستون الرسمية في فقرة أنا وطفلي (2024)."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "ليلا"
+        },
+        {
+          "id": "B",
+          "text": "كوكو"
+        },
+        {
+          "id": "C",
+          "text": "هاني"
+        },
+        {
+          "id": "D",
+          "text": "كلوي"
+        },
+        {
+          "id": "E",
+          "text": "إندي"
+        },
+        {
+          "id": "F",
+          "text": "جودو"
+        }
+      ],
+      "correctOptionId": "A",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "spacetoon-easy-0214",
+      "categoryId": "spacetoon",
+      "difficulty": "easy",
+      "text": "أي صديقة لبلوي تنتمي إلى الدلماسي، أي الكلاب ذات البقع؟",
+      "answer": "كلوي",
+      "acceptedAnswers": [
+        "Chloe"
+      ],
+      "hint": "أبوها فرانك وتحب اللعب التخيلي.",
+      "clues": [],
+      "explanation": "كلوي كلبة دلماسية مثل أمها وأبيها.",
+      "sources": [
+        "https://www.bluey.tv/characters/chloe/ — صفحة المنتج/صاحب الشخصيات، قرئت في 2026-10-13.",
+        "https://www.youtube.com/watch?v=zxjM6VO21MM — إعلان بلوي على قناة سبيستون الرسمية في فقرة أنا وطفلي (2024)."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "هاني"
+        },
+        {
+          "id": "B",
+          "text": "كلوي"
+        },
+        {
+          "id": "C",
+          "text": "كوكو"
+        },
+        {
+          "id": "D",
+          "text": "إندي"
+        },
+        {
+          "id": "E",
+          "text": "ليلا"
+        },
+        {
+          "id": "F",
+          "text": "مافن"
+        }
+      ],
+      "correctOptionId": "B",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "spacetoon-easy-0215",
+      "categoryId": "spacetoon",
+      "difficulty": "easy",
+      "text": "في «ماشا والدب»، ما اللون المعتاد لفستان ماشا وغطاء رأسها؟",
+      "answer": "الوردي",
+      "acceptedAnswers": [],
+      "hint": "لونها البارز مختلف عن فراء الدب البني.",
+      "clues": [],
+      "explanation": "يصف الموقع ماشا بطفلة ذات ثوب وردي.",
+      "sources": [
+        "https://www.mashabear.com/en-se/characters/masha — صفحة المنتج/صاحب الشخصيات، قرئت في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "الأحمر"
+        },
+        {
+          "id": "B",
+          "text": "البنفسجي"
+        },
+        {
+          "id": "C",
+          "text": "الوردي"
+        },
+        {
+          "id": "D",
+          "text": "الأزرق"
+        },
+        {
+          "id": "E",
+          "text": "البرتقالي"
+        },
+        {
+          "id": "F",
+          "text": "الأخضر"
+        }
+      ],
+      "correctOptionId": "C",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "spacetoon-easy-0216",
+      "categoryId": "spacetoon",
+      "difficulty": "easy",
+      "text": "ما المهنة التي تقاعد منها الدب قبل انتقاله إلى الغابة في «ماشا والدب»؟",
+      "answer": "مؤدٍّ في السيرك",
+      "acceptedAnswers": [],
+      "hint": "كانت حياته السابقة قائمة على العروض أمام الجمهور.",
+      "clues": [],
+      "explanation": "الدب ترك حياة السيرك بحثاً عن الهدوء في الغابة.",
+      "sources": [
+        "https://www.mashabear.com/en-se/characters/bear — صفحة المنتج/صاحب الشخصيات، قرئت في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "مدرب سباحة"
+        },
+        {
+          "id": "B",
+          "text": "صاحب مطعم"
+        },
+        {
+          "id": "C",
+          "text": "حارس حديقة"
+        },
+        {
+          "id": "D",
+          "text": "مؤدٍّ في السيرك"
+        },
+        {
+          "id": "E",
+          "text": "سائق قطار"
+        },
+        {
+          "id": "F",
+          "text": "معلم مدرسة"
+        }
+      ],
+      "correctOptionId": "D",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "spacetoon-easy-0217",
+      "categoryId": "spacetoon",
+      "difficulty": "easy",
+      "text": "أي محصول يسرقه الأرنب مراراً من حديقة الدب في «ماشا والدب»؟",
+      "answer": "الجزر",
+      "acceptedAnswers": [],
+      "hint": "يرتبط عادةً بالأرنب في القصص والرسوم.",
+      "clues": [],
+      "explanation": "الأرنب كثيراً ما يسرق الجزر من حديقة الدب.",
+      "sources": [
+        "https://www.mashabear.com/en-se/characters/hare — صفحة المنتج/صاحب الشخصيات، قرئت في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "البطاطا"
+        },
+        {
+          "id": "B",
+          "text": "البنجر"
+        },
+        {
+          "id": "C",
+          "text": "اللفت"
+        },
+        {
+          "id": "D",
+          "text": "الفجل"
+        },
+        {
+          "id": "E",
+          "text": "الجزر"
+        },
+        {
+          "id": "F",
+          "text": "البصل"
+        }
+      ],
+      "correctOptionId": "E",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "spacetoon-easy-0218",
+      "categoryId": "spacetoon",
+      "difficulty": "easy",
+      "text": "من أي بلد يأتي باندا لزيارة الدب في «ماشا والدب»؟",
+      "answer": "الصين",
+      "acceptedAnswers": [],
+      "hint": "بلد يرتبط بموطن الباندا الطبيعي.",
+      "clues": [],
+      "explanation": "يصف الموقع باندا بقريب يأتي من الصين.",
+      "sources": [
+        "https://www.mashabear.com/en-se/characters/panda — صفحة المنتج/صاحب الشخصيات، قرئت في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "اليابان"
+        },
+        {
+          "id": "B",
+          "text": "كوريا الجنوبية"
+        },
+        {
+          "id": "C",
+          "text": "الهند"
+        },
+        {
+          "id": "D",
+          "text": "روسيا"
+        },
+        {
+          "id": "E",
+          "text": "تايلاند"
+        },
+        {
+          "id": "F",
+          "text": "الصين"
+        }
+      ],
+      "correctOptionId": "F",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "spacetoon-easy-0219",
+      "categoryId": "spacetoon",
+      "difficulty": "easy",
+      "text": "ما الإكسسوار الذي يساعد في تمييز داشا عن ماشا في «ماشا والدب»؟",
+      "answer": "النظارات",
+      "acceptedAnswers": [],
+      "hint": "يتصل بضعف بصرها.",
+      "clues": [],
+      "explanation": "ترتدي داشا نظارات بسبب ضعف بصرها.",
+      "sources": [
+        "https://www.mashabear.com/en-se/characters/dasha — صفحة المنتج/صاحب الشخصيات، قرئت في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "النظارات"
+        },
+        {
+          "id": "B",
+          "text": "قبعة الطيار"
+        },
+        {
+          "id": "C",
+          "text": "سماعة الأذن"
+        },
+        {
+          "id": "D",
+          "text": "وشاح الدب"
+        },
+        {
+          "id": "E",
+          "text": "مظلة اليد"
+        },
+        {
+          "id": "F",
+          "text": "خوذة الدراجة"
+        }
+      ],
+      "correctOptionId": "A",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "spacetoon-easy-0220",
+      "categoryId": "spacetoon",
+      "difficulty": "easy",
+      "text": "أي حيوان كان زميل الدب في السيرك وأصبح صديقه المقرب في «ماشا والدب»؟",
+      "answer": "النمر",
+      "acceptedAnswers": [],
+      "hint": "زائر يحب العروض والحيل المسرحية.",
+      "clues": [],
+      "explanation": "النمر صديق الدب وزميله السابق في السيرك.",
+      "sources": [
+        "https://www.mashabear.com/en-se/characters/tiger — صفحة المنتج/صاحب الشخصيات، قرئت في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "الذئب"
+        },
+        {
+          "id": "B",
+          "text": "النمر"
+        },
+        {
+          "id": "C",
+          "text": "الباندا"
+        },
+        {
+          "id": "D",
+          "text": "الأرنب"
+        },
+        {
+          "id": "E",
+          "text": "السنجاب"
+        },
+        {
+          "id": "F",
+          "text": "القنفذ"
+        }
+      ],
+      "correctOptionId": "B",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "spacetoon-easy-0221",
+      "categoryId": "spacetoon",
+      "difficulty": "easy",
+      "text": "أي فاكهة يذكر الموقع الرسمي أن القنفذ يحبها في «ماشا والدب»؟",
+      "answer": "التفاح",
+      "acceptedAnswers": [],
+      "hint": "فاكهة يمكن حملها صغيرةً على ظهر شخصية شوكية في الرسوم.",
+      "clues": [],
+      "explanation": "القنفذ محب للتفاح في تعريفه الرسمي.",
+      "sources": [
+        "https://www.mashabear.com/en-se/characters/hedgehog — صفحة المنتج/صاحب الشخصيات، قرئت في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "الكمثرى"
+        },
+        {
+          "id": "B",
+          "text": "البرتقال"
+        },
+        {
+          "id": "C",
+          "text": "التفاح"
+        },
+        {
+          "id": "D",
+          "text": "الخوخ"
+        },
+        {
+          "id": "E",
+          "text": "الموز"
+        },
+        {
+          "id": "F",
+          "text": "العنب"
+        }
+      ],
+      "correctOptionId": "C",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "spacetoon-easy-0222",
+      "categoryId": "spacetoon",
+      "difficulty": "easy",
+      "text": "في «ماشا والدب»، ماذا تحب الماعز أن تمضغ بهدوء في الظل؟",
+      "answer": "العشب",
+      "acceptedAnswers": [],
+      "hint": "طعام نباتي يفسر هدوءها بعيداً عن المقالب.",
+      "clues": [],
+      "explanation": "الماعز تفضل مضغ العشب بهدوء.",
+      "sources": [
+        "https://www.mashabear.com/en-se/characters/goat — صفحة المنتج/صاحب الشخصيات، قرئت في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "الجزر"
+        },
+        {
+          "id": "B",
+          "text": "البذور"
+        },
+        {
+          "id": "C",
+          "text": "التفاح"
+        },
+        {
+          "id": "D",
+          "text": "العشب"
+        },
+        {
+          "id": "E",
+          "text": "الفطر"
+        },
+        {
+          "id": "F",
+          "text": "التوت"
+        }
+      ],
+      "correctOptionId": "D",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "spacetoon-easy-0223",
+      "categoryId": "spacetoon",
+      "difficulty": "easy",
+      "text": "أين يقيم الذئبان في «ماشا والدب» ويستعملان المكان في دورهما الطبي؟",
+      "answer": "سيارة إسعاف قديمة",
+      "acceptedAnswers": [],
+      "hint": "مسكنهما مركبة صارت مركزاً لمغامراتهما.",
+      "clues": [],
+      "explanation": "الذئبان يعيشان في سيارة إسعاف قديمة.",
+      "sources": [
+        "https://www.mashabear.com/en-se/characters/sly-wolf — صفحة المنتج/صاحب الشخصيات، قرئت في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "عربة قطار قديمة"
+        },
+        {
+          "id": "B",
+          "text": "حافلة مدرسية"
+        },
+        {
+          "id": "C",
+          "text": "شاحنة إطفاء"
+        },
+        {
+          "id": "D",
+          "text": "سيارة أجرة"
+        },
+        {
+          "id": "E",
+          "text": "سيارة إسعاف قديمة"
+        },
+        {
+          "id": "F",
+          "text": "عربة سيرك"
+        }
+      ],
+      "correctOptionId": "E",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "spacetoon-easy-0224",
+      "categoryId": "spacetoon",
+      "difficulty": "easy",
+      "text": "في «ماشا والدب»، من يعتبره البطريق والده بعد أن يفقس؟",
+      "answer": "الدب",
+      "acceptedAnswers": [],
+      "hint": "الشخصية التي اعتنت ببيضته أصبحت مرجعه العائلي.",
+      "clues": [],
+      "explanation": "بعد الفقس يعتبر البطريق الدب أباه بالتبني.",
+      "sources": [
+        "https://www.mashabear.com/en-se/characters/penguin — صفحة المنتج/صاحب الشخصيات، قرئت في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "النمر"
+        },
+        {
+          "id": "B",
+          "text": "باندا"
+        },
+        {
+          "id": "C",
+          "text": "الذئب الماكر"
+        },
+        {
+          "id": "D",
+          "text": "الكلب"
+        },
+        {
+          "id": "E",
+          "text": "الأرنب"
+        },
+        {
+          "id": "F",
+          "text": "الدب"
+        }
+      ],
+      "correctOptionId": "F",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "spacetoon-easy-0225",
+      "categoryId": "spacetoon",
+      "difficulty": "easy",
+      "text": "ما الحيوان الصغير السريع ذو الذيل الأحمر الذي يقيم في الغابة في «ماشا والدب»؟",
+      "answer": "السنجاب",
+      "acceptedAnswers": [],
+      "hint": "يتنقل بخفة ويظهر كثيراً قرب القنفذ.",
+      "clues": [],
+      "explanation": "السنجاب مقيم نشيط في الغابة وله ذيل أحمر.",
+      "sources": [
+        "https://www.mashabear.com/en-se/characters/squirrel — صفحة المنتج/صاحب الشخصيات، قرئت في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "السنجاب"
+        },
+        {
+          "id": "B",
+          "text": "الأرنب"
+        },
+        {
+          "id": "C",
+          "text": "القنفذ"
+        },
+        {
+          "id": "D",
+          "text": "البطريق"
+        },
+        {
+          "id": "E",
+          "text": "باندا"
+        },
+        {
+          "id": "F",
+          "text": "الماعز"
+        }
+      ],
+      "correctOptionId": "A",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "spacetoon-medium-0201",
+      "categoryId": "spacetoon",
+      "difficulty": "medium",
+      "text": "في لعبة Keepy Uppy في «بلوي»، ما الشرط الذي يحافظ على استمرار اللعبة؟",
+      "answer": "ألا يلمس البالون الأرض",
+      "acceptedAnswers": [],
+      "hint": "الهدف إبقاء الشيء الخفيف في الهواء.",
+      "clues": [],
+      "explanation": "يحاول اللاعبون إبقاء البالون بعيداً عن الأرض.",
+      "sources": [
+        "https://www.bluey.tv/watch/season-1/keepy-uppy/ — صفحة المنتج/صاحب الشخصيات، قرئت في 2026-10-13.",
+        "https://www.youtube.com/watch?v=zxjM6VO21MM — إعلان بلوي على قناة سبيستون الرسمية في فقرة أنا وطفلي (2024)."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "ألا يلمس البالون اليد"
+        },
+        {
+          "id": "B",
+          "text": "ألا يلمس البالون الأرض"
+        },
+        {
+          "id": "C",
+          "text": "ألا يخرج البالون من الغرفة"
+        },
+        {
+          "id": "D",
+          "text": "ألا يلمس البالون السقف"
+        },
+        {
+          "id": "E",
+          "text": "ألا يتغير اتجاه البالون"
+        },
+        {
+          "id": "F",
+          "text": "ألا يمسكه أكثر من لاعب"
+        }
+      ],
+      "correctOptionId": "B",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "spacetoon-medium-0202",
+      "categoryId": "spacetoon",
+      "difficulty": "medium",
+      "text": "ماذا تفعل آلة الإكسيلوفون السحرية في لعبة بلوي وبينغو؟",
+      "answer": "تجمّد حركة من تعزف له",
+      "acceptedAnswers": [],
+      "hint": "تسمح لهما بوضع الأب في أوضاع مضحكة دون أن يتحرك.",
+      "clues": [],
+      "explanation": "تتخيلان أن الإكسيلوفون يجمد الشخص في مكانه.",
+      "sources": [
+        "https://www.bluey.tv/watch/season-1/the-magic-xylophone/ — صفحة المنتج/صاحب الشخصيات، قرئت في 2026-10-13.",
+        "https://www.youtube.com/watch?v=zxjM6VO21MM — إعلان بلوي على قناة سبيستون الرسمية في فقرة أنا وطفلي (2024)."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "تحوله إلى حيوان"
+        },
+        {
+          "id": "B",
+          "text": "تجعله يطير"
+        },
+        {
+          "id": "C",
+          "text": "تجمّد حركة من تعزف له"
+        },
+        {
+          "id": "D",
+          "text": "تعكس كلامه"
+        },
+        {
+          "id": "E",
+          "text": "تصغّر حجمه"
+        },
+        {
+          "id": "F",
+          "text": "تخفيه عن الأنظار"
+        }
+      ],
+      "correctOptionId": "C",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "spacetoon-medium-0203",
+      "categoryId": "spacetoon",
+      "difficulty": "medium",
+      "text": "في حلقة Shadowlands من «بلوي»، أي جزء من الأرض يسمح للأطفال بالسير عليه؟",
+      "answer": "المناطق المظللة فقط",
+      "acceptedAnswers": [],
+      "hint": "يتخيلون أن المناطق المضيئة فيها خطر.",
+      "clues": [],
+      "explanation": "القاعدة ألا يمشوا إلا فوق الظلال.",
+      "sources": [
+        "https://www.bluey.tv/watch/season-1/shadowlands/ — صفحة المنتج/صاحب الشخصيات، قرئت في 2026-10-13.",
+        "https://www.youtube.com/watch?v=zxjM6VO21MM — إعلان بلوي على قناة سبيستون الرسمية في فقرة أنا وطفلي (2024)."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "المناطق المضاءة فقط"
+        },
+        {
+          "id": "B",
+          "text": "الرمل فقط"
+        },
+        {
+          "id": "C",
+          "text": "الحصى فقط"
+        },
+        {
+          "id": "D",
+          "text": "المناطق المظللة فقط"
+        },
+        {
+          "id": "E",
+          "text": "الأرض المرتفعة فقط"
+        },
+        {
+          "id": "F",
+          "text": "العشب القصير فقط"
+        }
+      ],
+      "correctOptionId": "D",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "spacetoon-medium-0204",
+      "categoryId": "spacetoon",
+      "difficulty": "medium",
+      "text": "ما الذي شجع بلوي على محاولة ركوب دراجتها مجدداً في حلقة Bike؟",
+      "answer": "رؤية أصدقائها يواصلون المحاولة حتى نجحوا",
+      "acceptedAnswers": [],
+      "hint": "التشجيع جاء من ملاحظة تجارب الآخرين.",
+      "clues": [],
+      "explanation": "رأت مثابرة الأطفال في مهامهم فعادت لمحاولة ركوب الدراجة.",
+      "sources": [
+        "https://www.bluey.tv/watch/season-1/bike/ — صفحة المنتج/صاحب الشخصيات، قرئت في 2026-10-13.",
+        "https://www.youtube.com/watch?v=zxjM6VO21MM — إعلان بلوي على قناة سبيستون الرسمية في فقرة أنا وطفلي (2024)."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "فوزها بمسابقة قبل التدريب"
+        },
+        {
+          "id": "B",
+          "text": "تغيير الدراجة بأخرى آلية"
+        },
+        {
+          "id": "C",
+          "text": "وعدها بمكافأة مالية"
+        },
+        {
+          "id": "D",
+          "text": "تعلم بانديت ركوب الدراجة بدلاً منها"
+        },
+        {
+          "id": "E",
+          "text": "رؤية أصدقائها يواصلون المحاولة حتى نجحوا"
+        },
+        {
+          "id": "F",
+          "text": "وصول متسابق محترف إلى الحديقة"
+        }
+      ],
+      "correctOptionId": "E",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "spacetoon-medium-0205",
+      "categoryId": "spacetoon",
+      "difficulty": "medium",
+      "text": "ما الشيء الذي أحضرته بينغو من الروضة لتوثيق عطلة نهاية الأسبوع معه؟",
+      "answer": "دمية بوب بيلبي",
+      "acceptedAnswers": [],
+      "hint": "يتبادل أطفال الروضة استضافته وتسجيل مغامراته.",
+      "clues": [],
+      "explanation": "أحضرت بينغو دمية بوب بيلبي مع سجل لمغامراته.",
+      "sources": [
+        "https://www.bluey.tv/watch/season-1/bob-bilby/ — صفحة المنتج/صاحب الشخصيات، قرئت في 2026-10-13.",
+        "https://www.youtube.com/watch?v=zxjM6VO21MM — إعلان بلوي على قناة سبيستون الرسمية في فقرة أنا وطفلي (2024)."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "دمية فلوبّي"
+        },
+        {
+          "id": "B",
+          "text": "لعبة غراي دانسر"
+        },
+        {
+          "id": "C",
+          "text": "دمية أغاثا"
+        },
+        {
+          "id": "D",
+          "text": "دمية بارتلبي"
+        },
+        {
+          "id": "E",
+          "text": "سيارة بوبو"
+        },
+        {
+          "id": "F",
+          "text": "دمية بوب بيلبي"
+        }
+      ],
+      "correctOptionId": "F",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "spacetoon-medium-0206",
+      "categoryId": "spacetoon",
+      "difficulty": "medium",
+      "text": "من تقمص دور ماكينة التقاط الجوائز بذراعه في حلقة The Claw من «بلوي»؟",
+      "answer": "بانديت",
+      "acceptedAnswers": [
+        "Bandit"
+      ],
+      "hint": "والد الطفلتين حول جهاز الألعاب إلى لعبة منزلية.",
+      "clues": [],
+      "explanation": "بانديت يمثل ماكينة المخلب في المنزل.",
+      "sources": [
+        "https://www.bluey.tv/watch/season-1/the-claw/ — صفحة المنتج/صاحب الشخصيات، قرئت في 2026-10-13.",
+        "https://www.youtube.com/watch?v=zxjM6VO21MM — إعلان بلوي على قناة سبيستون الرسمية في فقرة أنا وطفلي (2024)."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "بانديت"
+        },
+        {
+          "id": "B",
+          "text": "سترايب"
+        },
+        {
+          "id": "C",
+          "text": "راد"
+        },
+        {
+          "id": "D",
+          "text": "بوب"
+        },
+        {
+          "id": "E",
+          "text": "مورت"
+        },
+        {
+          "id": "F",
+          "text": "بات"
+        }
+      ],
+      "correctOptionId": "A",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "spacetoon-medium-0207",
+      "categoryId": "spacetoon",
+      "difficulty": "medium",
+      "text": "لماذا تعطلت متعة بلوي وبينغو مع أبيهما عند وصولهم إلى المسبح؟",
+      "answer": "نسوا الحقيبة التي جهزتها الأم",
+      "acceptedAnswers": [],
+      "hint": "كانت تحتوي أشياء يعدها الأطفال مملة لكنها لازمة.",
+      "clues": [],
+      "explanation": "نسوا أدوات السباحة والمناشف وواقي الشمس في الحقيبة.",
+      "sources": [
+        "https://www.bluey.tv/watch/season-1/the-pool/ — صفحة المنتج/صاحب الشخصيات، قرئت في 2026-10-13.",
+        "https://www.youtube.com/watch?v=zxjM6VO21MM — إعلان بلوي على قناة سبيستون الرسمية في فقرة أنا وطفلي (2024)."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "وجدوا المسبح مغلقاً"
+        },
+        {
+          "id": "B",
+          "text": "نسوا الحقيبة التي جهزتها الأم"
+        },
+        {
+          "id": "C",
+          "text": "وصلوا إلى مسبح آخر"
+        },
+        {
+          "id": "D",
+          "text": "فقدوا مفتاح السيارة"
+        },
+        {
+          "id": "E",
+          "text": "تعطل نظام تسخين الماء"
+        },
+        {
+          "id": "F",
+          "text": "رفضوا السباحة قبل تناول العشاء"
+        }
+      ],
+      "correctOptionId": "B",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "spacetoon-medium-0208",
+      "categoryId": "spacetoon",
+      "difficulty": "medium",
+      "text": "ما اللغة التي يتكلمها جان لوك صديق بلوي في حلقة Camping؟",
+      "answer": "الفرنسية",
+      "acceptedAnswers": [],
+      "hint": "لم يفهم أحدهما كلام الآخر لكنهما استطاعا اللعب.",
+      "clues": [],
+      "explanation": "جان لوك يتكلم الفرنسية.",
+      "sources": [
+        "https://www.bluey.tv/watch/season-1/camping/ — صفحة المنتج/صاحب الشخصيات، قرئت في 2026-10-13.",
+        "https://www.youtube.com/watch?v=zxjM6VO21MM — إعلان بلوي على قناة سبيستون الرسمية في فقرة أنا وطفلي (2024)."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "الألمانية"
+        },
+        {
+          "id": "B",
+          "text": "الإسبانية"
+        },
+        {
+          "id": "C",
+          "text": "الفرنسية"
+        },
+        {
+          "id": "D",
+          "text": "الإيطالية"
+        },
+        {
+          "id": "E",
+          "text": "البرتغالية"
+        },
+        {
+          "id": "F",
+          "text": "الهولندية"
+        }
+      ],
+      "correctOptionId": "C",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "spacetoon-medium-0209",
+      "categoryId": "spacetoon",
+      "difficulty": "medium",
+      "text": "أي خضار تستعمله بلوي عصاً لتخيل تحويل أفراد أسرتها إلى حيوانات؟",
+      "answer": "الهليون",
+      "acceptedAnswers": [],
+      "hint": "ساق خضراء طويلة يمكن مسكها كالعصا.",
+      "clues": [],
+      "explanation": "اللعبة في الحلقة مبنية على ساق هليون سحرية.",
+      "sources": [
+        "https://www.bluey.tv/watch/season-1/asparagus/ — صفحة المنتج/صاحب الشخصيات، قرئت في 2026-10-13.",
+        "https://www.youtube.com/watch?v=zxjM6VO21MM — إعلان بلوي على قناة سبيستون الرسمية في فقرة أنا وطفلي (2024)."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "الكرفس"
+        },
+        {
+          "id": "B",
+          "text": "الخيار"
+        },
+        {
+          "id": "C",
+          "text": "الجزر"
+        },
+        {
+          "id": "D",
+          "text": "الهليون"
+        },
+        {
+          "id": "E",
+          "text": "الكراث"
+        },
+        {
+          "id": "F",
+          "text": "الفاصولياء"
+        }
+      ],
+      "correctOptionId": "D",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "spacetoon-medium-0210",
+      "categoryId": "spacetoon",
+      "difficulty": "medium",
+      "text": "ما شكل كعكة عيد ميلاد بينغو الذي أرادت صنعه في حلقة Duck Cake؟",
+      "answer": "بطة",
+      "acceptedAnswers": [],
+      "hint": "اختارت شكلاً حيوانياً أسعدها بمجرد التفكير فيه.",
+      "clues": [],
+      "explanation": "اختارت بينغو كعكة على شكل بطة.",
+      "sources": [
+        "https://www.bluey.tv/watch/season-2/duck-cake/ — صفحة المنتج/صاحب الشخصيات، قرئت في 2026-10-13.",
+        "https://www.youtube.com/watch?v=zxjM6VO21MM — إعلان بلوي على قناة سبيستون الرسمية في فقرة أنا وطفلي (2024)."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "أرنب"
+        },
+        {
+          "id": "B",
+          "text": "قطة"
+        },
+        {
+          "id": "C",
+          "text": "كلب"
+        },
+        {
+          "id": "D",
+          "text": "بطريق"
+        },
+        {
+          "id": "E",
+          "text": "بطة"
+        },
+        {
+          "id": "F",
+          "text": "فيل"
+        }
+      ],
+      "correctOptionId": "E",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "spacetoon-medium-0211",
+      "categoryId": "spacetoon",
+      "difficulty": "medium",
+      "text": "إلى أين يأخذ حلم بينغو مغامرتها في حلقة Sleepytime؟",
+      "answer": "الفضاء والنظام الشمسي",
+      "acceptedAnswers": [],
+      "hint": "تنتقل في الحلم بين عوالم كروية كبيرة.",
+      "clues": [],
+      "explanation": "تحلم بينغو بمغامرة بين كواكب النظام الشمسي.",
+      "sources": [
+        "https://www.bluey.tv/watch/season-2/sleepytime/ — صفحة المنتج/صاحب الشخصيات، قرئت في 2026-10-13.",
+        "https://www.youtube.com/watch?v=zxjM6VO21MM — إعلان بلوي على قناة سبيستون الرسمية في فقرة أنا وطفلي (2024)."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "أعماق البحر"
+        },
+        {
+          "id": "B",
+          "text": "غابة استوائية"
+        },
+        {
+          "id": "C",
+          "text": "قلعة قديمة"
+        },
+        {
+          "id": "D",
+          "text": "مزرعة بعيدة"
+        },
+        {
+          "id": "E",
+          "text": "مدينة ثلجية"
+        },
+        {
+          "id": "F",
+          "text": "الفضاء والنظام الشمسي"
+        }
+      ],
+      "correctOptionId": "F",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "spacetoon-medium-0212",
+      "categoryId": "spacetoon",
+      "difficulty": "medium",
+      "text": "من أي أدوات بني عالم جزيرة السجادة في لعبة بلوي وبينغو؟",
+      "answer": "أقلام تلوين لبادية",
+      "acceptedAnswers": [],
+      "hint": "تستعمل الطفلتان أدوات الرسم لتمثيل موارد الجزيرة.",
+      "clues": [],
+      "explanation": "تتخيلان الجزيرة بكل مواردها من أقلام ملونة.",
+      "sources": [
+        "https://www.bluey.tv/watch/season-2/rug-island/ — صفحة المنتج/صاحب الشخصيات، قرئت في 2026-10-13.",
+        "https://www.youtube.com/watch?v=zxjM6VO21MM — إعلان بلوي على قناة سبيستون الرسمية في فقرة أنا وطفلي (2024)."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "أقلام تلوين لبادية"
+        },
+        {
+          "id": "B",
+          "text": "مكعبات خشبية"
+        },
+        {
+          "id": "C",
+          "text": "أعواد بناء"
+        },
+        {
+          "id": "D",
+          "text": "أقلام شمعية"
+        },
+        {
+          "id": "E",
+          "text": "ملاعق بلاستيكية"
+        },
+        {
+          "id": "F",
+          "text": "قطع ورق مقوى"
+        }
+      ],
+      "correctOptionId": "A",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "spacetoon-medium-0213",
+      "categoryId": "spacetoon",
+      "difficulty": "medium",
+      "text": "من أي مادة تصنع بلوي وماكينزي قواربهما الصغيرة للسباق في النافورة؟",
+      "answer": "لحاء الشجر",
+      "acceptedAnswers": [],
+      "hint": "المادة غطاء خشبي يمكن أن يطفو في الماء.",
+      "clues": [],
+      "explanation": "يتسابقان بقطع من لحاء الشجر.",
+      "sources": [
+        "https://www.bluey.tv/watch/season-2/barky-boats/ — صفحة المنتج/صاحب الشخصيات، قرئت في 2026-10-13.",
+        "https://www.youtube.com/watch?v=zxjM6VO21MM — إعلان بلوي على قناة سبيستون الرسمية في فقرة أنا وطفلي (2024)."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "ورق مقوى"
+        },
+        {
+          "id": "B",
+          "text": "لحاء الشجر"
+        },
+        {
+          "id": "C",
+          "text": "أوراق شجر"
+        },
+        {
+          "id": "D",
+          "text": "قشور جوز"
+        },
+        {
+          "id": "E",
+          "text": "قطع إسفنج"
+        },
+        {
+          "id": "F",
+          "text": "رقائق ألمنيوم"
+        }
+      ],
+      "correctOptionId": "B",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "spacetoon-medium-0214",
+      "categoryId": "spacetoon",
+      "difficulty": "medium",
+      "text": "لماذا صنعت أسرة بلوي فيلماً منزلياً وأرسلته إلى بينغو في المستشفى؟",
+      "answer": "لرفع معنوياتها أثناء مرضها",
+      "acceptedAnswers": [],
+      "hint": "كان الفيلم هدية تساعدها على تحمل البقاء في المستشفى.",
+      "clues": [],
+      "explanation": "أرسلوا الفيديو لمواساتها وإسعادها.",
+      "sources": [
+        "https://www.bluey.tv/watch/season-1/bumpy-and-the-wise-old-wolfhound/ — صفحة المنتج/صاحب الشخصيات، قرئت في 2026-10-13.",
+        "https://www.youtube.com/watch?v=zxjM6VO21MM — إعلان بلوي على قناة سبيستون الرسمية في فقرة أنا وطفلي (2024)."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "لتعليمها تصوير الأخبار"
+        },
+        {
+          "id": "B",
+          "text": "لإعلان مسابقة مدرسية"
+        },
+        {
+          "id": "C",
+          "text": "لرفع معنوياتها أثناء مرضها"
+        },
+        {
+          "id": "D",
+          "text": "لاختبار جهاز المستشفى"
+        },
+        {
+          "id": "E",
+          "text": "لتوثيق رحلة سفر"
+        },
+        {
+          "id": "F",
+          "text": "لتدريبها على حفظ أغنية"
+        }
+      ],
+      "correctOptionId": "C",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "spacetoon-medium-0215",
+      "categoryId": "spacetoon",
+      "difficulty": "medium",
+      "text": "لماذا كانت تشيلي تريد أن يستريح أبوها في حلقة Grandad؟",
+      "answer": "لأنه كان مريضاً ويحتاج إلى الراحة",
+      "acceptedAnswers": [],
+      "hint": "تعافيه لم يكتمل رغم رغبته في النشاط.",
+      "clues": [],
+      "explanation": "كان الجد قد مرض وأوصي بالراحة.",
+      "sources": [
+        "https://www.bluey.tv/watch/season-2/grandad/ — صفحة المنتج/صاحب الشخصيات، قرئت في 2026-10-13.",
+        "https://www.youtube.com/watch?v=zxjM6VO21MM — إعلان بلوي على قناة سبيستون الرسمية في فقرة أنا وطفلي (2024)."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "لأنه فقد قاربه"
+        },
+        {
+          "id": "B",
+          "text": "لأنه نسي طريق البيت"
+        },
+        {
+          "id": "C",
+          "text": "لأنه يستعد لسباق غدًا"
+        },
+        {
+          "id": "D",
+          "text": "لأنه كان مريضاً ويحتاج إلى الراحة"
+        },
+        {
+          "id": "E",
+          "text": "لأنه يعمل طوال الليل"
+        },
+        {
+          "id": "F",
+          "text": "لأنه أخطأ في بناء القارب"
+        }
+      ],
+      "correctOptionId": "D",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "spacetoon-medium-0216",
+      "categoryId": "spacetoon",
+      "difficulty": "medium",
+      "text": "كيف يصل باندا من الصين إلى زيارة الدب في «ماشا والدب»؟",
+      "answer": "بالقطار",
+      "acceptedAnswers": [],
+      "hint": "يسافر مستقلاً ويحافظ على حقيبته مرتبة.",
+      "clues": [],
+      "explanation": "يأتي باندا من الصين بالقطار.",
+      "sources": [
+        "https://www.mashabear.com/en-se/characters/panda — صفحة المنتج/صاحب الشخصيات، قرئت في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "بالطائرة"
+        },
+        {
+          "id": "B",
+          "text": "بالباخرة"
+        },
+        {
+          "id": "C",
+          "text": "بالحافلة"
+        },
+        {
+          "id": "D",
+          "text": "بسيارة أجرة"
+        },
+        {
+          "id": "E",
+          "text": "بالقطار"
+        },
+        {
+          "id": "F",
+          "text": "بالدراجة"
+        }
+      ],
+      "correctOptionId": "E",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "spacetoon-medium-0217",
+      "categoryId": "spacetoon",
+      "difficulty": "medium",
+      "text": "ما طبيعة شخصيتي ماشا وداشا مقارنةً ببعضهما في الوصف الرسمي؟",
+      "answer": "متشابهتان في المظهر ومختلفتان كثيراً في السلوك",
+      "acceptedAnswers": [],
+      "hint": "إحداهما أكثر التزاماً بالنظام والأخرى أكثر شقاوة.",
+      "clues": [],
+      "explanation": "يشدد التعريف على شبه المظهر واختلاف الطباع.",
+      "sources": [
+        "https://www.mashabear.com/en-se/characters/dasha — صفحة المنتج/صاحب الشخصيات، قرئت في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "متطابقتان في المظهر والسلوك"
+        },
+        {
+          "id": "B",
+          "text": "مختلفتان في المظهر ومتشابهتان في السلوك"
+        },
+        {
+          "id": "C",
+          "text": "متشابهتان في السلوك دون المظهر"
+        },
+        {
+          "id": "D",
+          "text": "مختلفتان فقط في العمر"
+        },
+        {
+          "id": "E",
+          "text": "مختلفتان فقط في مكان الإقامة"
+        },
+        {
+          "id": "F",
+          "text": "متشابهتان في المظهر ومختلفتان كثيراً في السلوك"
+        }
+      ],
+      "correctOptionId": "F",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "spacetoon-medium-0218",
+      "categoryId": "spacetoon",
+      "difficulty": "medium",
+      "text": "ما الإكسسوار الذي تحمله الدبة الأنيقة لتحتمي من شمس الظهيرة في «ماشا والدب»؟",
+      "answer": "مظلة",
+      "acceptedAnswers": [],
+      "hint": "ترافقها أثناء التنزه في الغابة.",
+      "clues": [],
+      "explanation": "تحمل الدبة مظلة تقيها الشمس.",
+      "sources": [
+        "https://www.mashabear.com/en-se/characters/lady-bear — صفحة المنتج/صاحب الشخصيات، قرئت في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "مظلة"
+        },
+        {
+          "id": "B",
+          "text": "مروحة"
+        },
+        {
+          "id": "C",
+          "text": "قبعة طيار"
+        },
+        {
+          "id": "D",
+          "text": "نظارة سباحة"
+        },
+        {
+          "id": "E",
+          "text": "وشاح شتوي"
+        },
+        {
+          "id": "F",
+          "text": "حقيبة تبريد"
+        }
+      ],
+      "correctOptionId": "A",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "spacetoon-medium-0219",
+      "categoryId": "spacetoon",
+      "difficulty": "medium",
+      "text": "أي لعبة يلعبها النمر مع صديقه الدب عند زيارته في «ماشا والدب»؟",
+      "answer": "الشطرنج",
+      "acceptedAnswers": [],
+      "hint": "لعبة لوحية تتطلب التخطيط وتحريك قطع مختلفة.",
+      "clues": [],
+      "explanation": "يذكر التعريف لعب النمر الشطرنج مع الدب.",
+      "sources": [
+        "https://www.mashabear.com/en-se/characters/tiger — صفحة المنتج/صاحب الشخصيات، قرئت في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "الداما"
+        },
+        {
+          "id": "B",
+          "text": "الشطرنج"
+        },
+        {
+          "id": "C",
+          "text": "الدومينو"
+        },
+        {
+          "id": "D",
+          "text": "الكيرم"
+        },
+        {
+          "id": "E",
+          "text": "الطاولة"
+        },
+        {
+          "id": "F",
+          "text": "الورق"
+        }
+      ],
+      "correctOptionId": "B",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "spacetoon-medium-0220",
+      "categoryId": "spacetoon",
+      "difficulty": "medium",
+      "text": "أين يعيش البطريق معظم الوقت حين لا يستطيع البقاء مع ماشا والدب بسبب الحر؟",
+      "answer": "القارة القطبية الجنوبية",
+      "acceptedAnswers": [],
+      "hint": "موطن جليدي في أقصى الجنوب.",
+      "clues": [],
+      "explanation": "يعيش البطريق في أنتاركتيكا ليبتعد عن الحرارة.",
+      "sources": [
+        "https://www.mashabear.com/en-se/characters/penguin — صفحة المنتج/صاحب الشخصيات، قرئت في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "غرينلاند"
+        },
+        {
+          "id": "B",
+          "text": "سيبيريا"
+        },
+        {
+          "id": "C",
+          "text": "القارة القطبية الجنوبية"
+        },
+        {
+          "id": "D",
+          "text": "ألاسكا"
+        },
+        {
+          "id": "E",
+          "text": "آيسلندا"
+        },
+        {
+          "id": "F",
+          "text": "شمال كندا"
+        }
+      ],
+      "correctOptionId": "C",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "spacetoon-medium-0221",
+      "categoryId": "spacetoon",
+      "difficulty": "medium",
+      "text": "في خطة الذئبين لإنشاء خدمة سيارة أجرة في «ماشا والدب»، ما المهارة الأساسية التي افتقداها؟",
+      "answer": "قيادة السيارة",
+      "acceptedAnswers": [],
+      "hint": "تجهيز المركبة لا يعني إتقان تشغيلها على الطريق.",
+      "clues": [],
+      "explanation": "أنشآ سيارة أجرة لكن أياً منهما لا يجيد القيادة.",
+      "sources": [
+        "https://www.mashabear.com/en-se/characters/sly-wolf — صفحة المنتج/صاحب الشخصيات، قرئت في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "قراءة خريطة"
+        },
+        {
+          "id": "B",
+          "text": "عدّ النقود"
+        },
+        {
+          "id": "C",
+          "text": "حمل الحقائب"
+        },
+        {
+          "id": "D",
+          "text": "قيادة السيارة"
+        },
+        {
+          "id": "E",
+          "text": "إصلاح المقاعد"
+        },
+        {
+          "id": "F",
+          "text": "رسم الإعلانات"
+        }
+      ],
+      "correctOptionId": "D",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "spacetoon-medium-0222",
+      "categoryId": "spacetoon",
+      "difficulty": "medium",
+      "text": "لماذا انتقل الدب من حياة السيرك والمدينة إلى الغابة؟",
+      "answer": "بحثاً عن الهدوء والعزلة",
+      "acceptedAnswers": [],
+      "hint": "أراد تغيير إيقاع حياته بعد كثرة الضجيج.",
+      "clues": [],
+      "explanation": "اختار الغابة ليعيش بهدوء بعيداً عن ضغط السيرك.",
+      "sources": [
+        "https://www.mashabear.com/en-se/characters/bear — صفحة المنتج/صاحب الشخصيات، قرئت في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "ليفتتح سيركاً أكبر"
+        },
+        {
+          "id": "B",
+          "text": "ليعمل حارساً للنهر"
+        },
+        {
+          "id": "C",
+          "text": "ليتدرب على مسابقات جديدة"
+        },
+        {
+          "id": "D",
+          "text": "ليتعلم الطب"
+        },
+        {
+          "id": "E",
+          "text": "بحثاً عن الهدوء والعزلة"
+        },
+        {
+          "id": "F",
+          "text": "ليبحث عن قطار ضائع"
+        }
+      ],
+      "correctOptionId": "E",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "spacetoon-medium-0223",
+      "categoryId": "spacetoon",
+      "difficulty": "medium",
+      "text": "أي شخصية في «ماشا والدب» لا تحب القتال ويصفها الموقع بأنها لا تعض ولا تنبح؟",
+      "answer": "الكلب",
+      "acceptedAnswers": [],
+      "hint": "حيوان حراسة معروف لكن طبعه هنا مسالم.",
+      "clues": [],
+      "explanation": "التعريف الرسمي للكلب يبرز طبيعته الودودة.",
+      "sources": [
+        "https://www.mashabear.com/en-se/characters/dog — صفحة المنتج/صاحب الشخصيات، قرئت في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "الذئب الماكر"
+        },
+        {
+          "id": "B",
+          "text": "الذئب الساذج"
+        },
+        {
+          "id": "C",
+          "text": "النمر"
+        },
+        {
+          "id": "D",
+          "text": "الدب المنافس"
+        },
+        {
+          "id": "E",
+          "text": "الأرنب"
+        },
+        {
+          "id": "F",
+          "text": "الكلب"
+        }
+      ],
+      "correctOptionId": "F",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "spacetoon-medium-0224",
+      "categoryId": "spacetoon",
+      "difficulty": "medium",
+      "text": "أي الذئبين في «ماشا والدب» يتبع غالباً خطط شريكه ويرجو رضاه؟",
+      "answer": "الذئب الساذج",
+      "acceptedAnswers": [],
+      "hint": "رفيقه يتولى عادةً تدبير الخطط.",
+      "clues": [],
+      "explanation": "الذئب الساذج يثق بالذئب الماكر وينفذ خططه.",
+      "sources": [
+        "https://www.mashabear.com/en-se/characters/silly-wolf — صفحة المنتج/صاحب الشخصيات، قرئت في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "الذئب الساذج"
+        },
+        {
+          "id": "B",
+          "text": "الذئب الماكر"
+        },
+        {
+          "id": "C",
+          "text": "الأرنب"
+        },
+        {
+          "id": "D",
+          "text": "النمر"
+        },
+        {
+          "id": "E",
+          "text": "الدب المنافس"
+        },
+        {
+          "id": "F",
+          "text": "باندا"
+        }
+      ],
+      "correctOptionId": "A",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "spacetoon-medium-0225",
+      "categoryId": "spacetoon",
+      "difficulty": "medium",
+      "text": "ما الذي أحضره القنافذ لمساعدة ماشا في إعداد المربى بحسب وصفهم الرسمي؟",
+      "answer": "الفطر",
+      "acceptedAnswers": [],
+      "hint": "إضافة غير معتادة للمربى لكنها حدثت في عالم المقالب.",
+      "clues": [],
+      "explanation": "يذكر الموقع إحضار القنافذ الفطر لمربى ماشا.",
+      "sources": [
+        "https://www.mashabear.com/en-se/characters/hedgehog — صفحة المنتج/صاحب الشخصيات، قرئت في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "الجزر"
+        },
+        {
+          "id": "B",
+          "text": "الفطر"
+        },
+        {
+          "id": "C",
+          "text": "البطاطا"
+        },
+        {
+          "id": "D",
+          "text": "الجوز"
+        },
+        {
+          "id": "E",
+          "text": "البنجر"
+        },
+        {
+          "id": "F",
+          "text": "حبوب الذرة"
+        }
+      ],
+      "correctOptionId": "B",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "spacetoon-hard-0201",
+      "categoryId": "spacetoon",
+      "difficulty": "hard",
+      "text": "ما مهنة بانديت خارج ألعاب البيت في «بلوي»؟",
+      "answer": "عالم آثار",
+      "acceptedAnswers": [],
+      "hint": "عمله الحقيقي يرتبط بالتنقيب واللقى القديمة.",
+      "clues": [],
+      "explanation": "التعريف الرسمي لبانديت يذكر عمله في الآثار.",
+      "sources": [
+        "https://www.bluey.tv/characters/bandit/ — صفحة المنتج/صاحب الشخصيات، قرئت في 2026-10-13.",
+        "https://www.youtube.com/watch?v=zxjM6VO21MM — إعلان بلوي على قناة سبيستون الرسمية في فقرة أنا وطفلي (2024)."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "عالم جيولوجيا"
+        },
+        {
+          "id": "B",
+          "text": "عالم أحياء"
+        },
+        {
+          "id": "C",
+          "text": "عالم آثار"
+        },
+        {
+          "id": "D",
+          "text": "طبيب بيطري"
+        },
+        {
+          "id": "E",
+          "text": "مهندس معماري"
+        },
+        {
+          "id": "F",
+          "text": "عالم فلك"
+        }
+      ],
+      "correctOptionId": "C",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "spacetoon-hard-0202",
+      "categoryId": "spacetoon",
+      "difficulty": "hard",
+      "text": "أي رياضة تحب تشيلي أن تلعبها مع تريكسي في «بلوي»؟",
+      "answer": "الهوكي",
+      "acceptedAnswers": [],
+      "hint": "رياضة تستعمل عصا لضرب كرة أو قرص.",
+      "clues": [],
+      "explanation": "تذكر صفحتا تشيلي وتريكسي لعب الهوكي.",
+      "sources": [
+        "https://www.bluey.tv/characters/chilli/ — صفحة المنتج/صاحب الشخصيات، قرئت في 2026-10-13.",
+        "https://www.youtube.com/watch?v=zxjM6VO21MM — إعلان بلوي على قناة سبيستون الرسمية في فقرة أنا وطفلي (2024)."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "الاسكواش"
+        },
+        {
+          "id": "B",
+          "text": "الكريكيت"
+        },
+        {
+          "id": "C",
+          "text": "التنس"
+        },
+        {
+          "id": "D",
+          "text": "الهوكي"
+        },
+        {
+          "id": "E",
+          "text": "كرة السلة"
+        },
+        {
+          "id": "F",
+          "text": "كرة القدم"
+        }
+      ],
+      "correctOptionId": "D",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "spacetoon-hard-0203",
+      "categoryId": "spacetoon",
+      "difficulty": "hard",
+      "text": "من أي دولة انتقلت أسرة ماكينزي إلى أستراليا في «بلوي»؟",
+      "answer": "نيوزيلندا",
+      "acceptedAnswers": [],
+      "hint": "أسرته ما تزال تشجع منتخب ذلك البلد.",
+      "clues": [],
+      "explanation": "انتقلت أسرة ماكينزي من نيوزيلندا إلى أستراليا.",
+      "sources": [
+        "https://www.bluey.tv/characters/mackenzie/ — صفحة المنتج/صاحب الشخصيات، قرئت في 2026-10-13.",
+        "https://www.youtube.com/watch?v=zxjM6VO21MM — إعلان بلوي على قناة سبيستون الرسمية في فقرة أنا وطفلي (2024)."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "كندا"
+        },
+        {
+          "id": "B",
+          "text": "جنوب إفريقيا"
+        },
+        {
+          "id": "C",
+          "text": "إنجلترا"
+        },
+        {
+          "id": "D",
+          "text": "إيرلندا"
+        },
+        {
+          "id": "E",
+          "text": "نيوزيلندا"
+        },
+        {
+          "id": "F",
+          "text": "الولايات المتحدة"
+        }
+      ],
+      "correctOptionId": "E",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "spacetoon-hard-0204",
+      "categoryId": "spacetoon",
+      "difficulty": "hard",
+      "text": "ما الرياضة التي يتمتع راستي فيها بمهارة كبيرة باستعمال المضرب في «بلوي»؟",
+      "answer": "الكريكيت",
+      "acceptedAnswers": [],
+      "hint": "رياضة مختلفة عن الاسكواش الذي يلعبه العم سترايب.",
+      "clues": [],
+      "explanation": "راستي بارع بمضرب الكريكيت.",
+      "sources": [
+        "https://www.bluey.tv/characters/rusty/ — صفحة المنتج/صاحب الشخصيات، قرئت في 2026-10-13.",
+        "https://www.youtube.com/watch?v=zxjM6VO21MM — إعلان بلوي على قناة سبيستون الرسمية في فقرة أنا وطفلي (2024)."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "البيسبول"
+        },
+        {
+          "id": "B",
+          "text": "التنس"
+        },
+        {
+          "id": "C",
+          "text": "الاسكواش"
+        },
+        {
+          "id": "D",
+          "text": "الريشة الطائرة"
+        },
+        {
+          "id": "E",
+          "text": "الهوكي"
+        },
+        {
+          "id": "F",
+          "text": "الكريكيت"
+        }
+      ],
+      "correctOptionId": "F",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "spacetoon-hard-0205",
+      "categoryId": "spacetoon",
+      "difficulty": "hard",
+      "text": "ما الذي تثبته كوكو في شعرها الوردي المنفوش في «بلوي»؟",
+      "answer": "مشابك زرقاء بشكل فراشات",
+      "acceptedAnswers": [],
+      "hint": "تعريفها يجمع لون الزينة وشكلها.",
+      "clues": [],
+      "explanation": "لكوكو مشابك زرقاء على شكل فراشات.",
+      "sources": [
+        "https://www.bluey.tv/characters/coco/ — صفحة المنتج/صاحب الشخصيات، قرئت في 2026-10-13.",
+        "https://www.youtube.com/watch?v=zxjM6VO21MM — إعلان بلوي على قناة سبيستون الرسمية في فقرة أنا وطفلي (2024)."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "مشابك زرقاء بشكل فراشات"
+        },
+        {
+          "id": "B",
+          "text": "مشابك حمراء بشكل أزهار"
+        },
+        {
+          "id": "C",
+          "text": "مشابك زرقاء بشكل نجوم"
+        },
+        {
+          "id": "D",
+          "text": "مشابك صفراء بشكل فراشات"
+        },
+        {
+          "id": "E",
+          "text": "مشابك وردية بشكل قلوب"
+        },
+        {
+          "id": "F",
+          "text": "مشابك بنفسجية بشكل أزهار"
+        }
+      ],
+      "correctOptionId": "A",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "spacetoon-hard-0206",
+      "categoryId": "spacetoon",
+      "difficulty": "hard",
+      "text": "ما لعبة بينغو المفضلة التي كادت تضحي بها للفوز في لعبة المخلب؟",
+      "answer": "الدلفين غراي دانسر",
+      "acceptedAnswers": [],
+      "hint": "الحيوان المقصود لعبة بحرية وليست دمية الأرنب فلوبّي.",
+      "clues": [],
+      "explanation": "تعرض الحلقة لعبة الدلفين غراي دانسر.",
+      "sources": [
+        "https://www.bluey.tv/watch/season-1/the-claw/ — صفحة المنتج/صاحب الشخصيات، قرئت في 2026-10-13.",
+        "https://www.youtube.com/watch?v=zxjM6VO21MM — إعلان بلوي على قناة سبيستون الرسمية في فقرة أنا وطفلي (2024)."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "الأرنب فلوبّي"
+        },
+        {
+          "id": "B",
+          "text": "الدلفين غراي دانسر"
+        },
+        {
+          "id": "C",
+          "text": "القطة أغاثا"
+        },
+        {
+          "id": "D",
+          "text": "الكلب بارتلبي"
+        },
+        {
+          "id": "E",
+          "text": "دمية بوب بيلبي"
+        },
+        {
+          "id": "F",
+          "text": "السيارة بوبو"
+        }
+      ],
+      "correctOptionId": "B",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "spacetoon-hard-0207",
+      "categoryId": "spacetoon",
+      "difficulty": "hard",
+      "text": "كيف خرجت بلوي وأصدقاؤها من جزيرة ظل النخلة دون كسر قواعد اللعبة؟",
+      "answer": "انتظروا ظل سحابة متحركاً وركضوا فيه",
+      "acceptedAnswers": [],
+      "hint": "وجدوا طريقاً من الظل لم يكن ثابتاً على الأرض.",
+      "clues": [],
+      "explanation": "استخدموا ظل سحابة للعودة دون السير في الشمس.",
+      "sources": [
+        "https://www.bluey.tv/watch/season-1/shadowlands/ — صفحة المنتج/صاحب الشخصيات، قرئت في 2026-10-13.",
+        "https://www.youtube.com/watch?v=zxjM6VO21MM — إعلان بلوي على قناة سبيستون الرسمية في فقرة أنا وطفلي (2024)."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "قفزوا فوق كل العشب المضاء"
+        },
+        {
+          "id": "B",
+          "text": "أزالوا قاعدة تجنب الشمس"
+        },
+        {
+          "id": "C",
+          "text": "انتظروا ظل سحابة متحركاً وركضوا فيه"
+        },
+        {
+          "id": "D",
+          "text": "حملتهم الأمهات إلى الطاولة"
+        },
+        {
+          "id": "E",
+          "text": "مدوا بساطاً فوق العشب"
+        },
+        {
+          "id": "F",
+          "text": "انتظروا حلول الليل"
+        }
+      ],
+      "correctOptionId": "C",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "spacetoon-hard-0208",
+      "categoryId": "spacetoon",
+      "difficulty": "hard",
+      "text": "ما اسم دمية الأرنب التي ترافق بينغو في حلمها الفضائي؟",
+      "answer": "فلوبّي",
+      "acceptedAnswers": [
+        "Floppy"
+      ],
+      "hint": "لعبة تحتضنها عادةً عند النوم.",
+      "clues": [],
+      "explanation": "فلوبّي دمية أرنب بينغو ورفيقتها في الحلم.",
+      "sources": [
+        "https://www.bluey.tv/watch/season-2/sleepytime/ — صفحة المنتج/صاحب الشخصيات، قرئت في 2026-10-13.",
+        "https://www.youtube.com/watch?v=zxjM6VO21MM — إعلان بلوي على قناة سبيستون الرسمية في فقرة أنا وطفلي (2024)."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "غراي دانسر"
+        },
+        {
+          "id": "B",
+          "text": "بوب بيلبي"
+        },
+        {
+          "id": "C",
+          "text": "بارتلبي"
+        },
+        {
+          "id": "D",
+          "text": "فلوبّي"
+        },
+        {
+          "id": "E",
+          "text": "أغاثا"
+        },
+        {
+          "id": "F",
+          "text": "بامبي"
+        }
+      ],
+      "correctOptionId": "D",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "spacetoon-hard-0209",
+      "categoryId": "spacetoon",
+      "difficulty": "hard",
+      "text": "في لعبة الجدتين من «بلوي»، ما الاسمان اللذان تستعملهما بلوي وبينغو بالترتيب؟",
+      "answer": "جانيت وريتا",
+      "acceptedAnswers": [],
+      "hint": "يرتبط كل اسم بدور ثابت لإحدى الأختين.",
+      "clues": [],
+      "explanation": "بلوي تمثل جانيت وبينغو تمثل ريتا.",
+      "sources": [
+        "https://www.bluey.tv/watch/season-1/grannies/ — صفحة المنتج/صاحب الشخصيات، قرئت في 2026-10-13.",
+        "https://www.youtube.com/watch?v=zxjM6VO21MM — إعلان بلوي على قناة سبيستون الرسمية في فقرة أنا وطفلي (2024)."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "ريتا وجانيت"
+        },
+        {
+          "id": "B",
+          "text": "شيلّا وغلاديس"
+        },
+        {
+          "id": "C",
+          "text": "غلاديس وريتا"
+        },
+        {
+          "id": "D",
+          "text": "جانيت وشيلّا"
+        },
+        {
+          "id": "E",
+          "text": "جانيت وريتا"
+        },
+        {
+          "id": "F",
+          "text": "ريتا وغلاديس"
+        }
+      ],
+      "correctOptionId": "E",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "spacetoon-hard-0210",
+      "categoryId": "spacetoon",
+      "difficulty": "hard",
+      "text": "من يمثل دور الأم والأب بالترتيب في العرض الذي تقدمه الطفلتان لتشيلي؟",
+      "answer": "بينغو ثم بلوي",
+      "acceptedAnswers": [],
+      "hint": "الطفلتان تتبادلان تمثيل والديهما في مسرح منزلي.",
+      "clues": [],
+      "explanation": "في الحلقة تمثل بينغو الأم وتمثل بلوي الأب.",
+      "sources": [
+        "https://www.bluey.tv/watch/season-2/the-show/ — صفحة المنتج/صاحب الشخصيات، قرئت في 2026-10-13.",
+        "https://www.youtube.com/watch?v=zxjM6VO21MM — إعلان بلوي على قناة سبيستون الرسمية في فقرة أنا وطفلي (2024)."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "بلوي ثم بينغو"
+        },
+        {
+          "id": "B",
+          "text": "مافن ثم سوكس"
+        },
+        {
+          "id": "C",
+          "text": "سوكس ثم مافن"
+        },
+        {
+          "id": "D",
+          "text": "كوكو ثم بلوي"
+        },
+        {
+          "id": "E",
+          "text": "بينغو ثم مافن"
+        },
+        {
+          "id": "F",
+          "text": "بينغو ثم بلوي"
+        }
+      ],
+      "correctOptionId": "F",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "spacetoon-hard-0211",
+      "categoryId": "spacetoon",
+      "difficulty": "hard",
+      "text": "في «ماشا والدب»، أين بدأت معرفة الدب والدب المنافس ببعضهما منذ الطفولة؟",
+      "answer": "في صف الموسيقى نفسه",
+      "acceptedAnswers": [],
+      "hint": "جمعتهما دراسة مهارة فنية قبل تنافسهما الحالي.",
+      "clues": [],
+      "explanation": "التعريف الرسمي يذكر صف الموسيقى المشترك.",
+      "sources": [
+        "https://www.mashabear.com/en-se/characters/rival-bear — صفحة المنتج/صاحب الشخصيات، قرئت في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "في صف الموسيقى نفسه"
+        },
+        {
+          "id": "B",
+          "text": "في فريق كرة القدم"
+        },
+        {
+          "id": "C",
+          "text": "في صف الرسم"
+        },
+        {
+          "id": "D",
+          "text": "في نادي الشطرنج"
+        },
+        {
+          "id": "E",
+          "text": "في معسكر السباحة"
+        },
+        {
+          "id": "F",
+          "text": "في رحلة صيد"
+        }
+      ],
+      "correctOptionId": "A",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "spacetoon-hard-0212",
+      "categoryId": "spacetoon",
+      "difficulty": "hard",
+      "text": "ما المبنى الذي يسكنه البطريق في القطب وفق وصف «ماشا والدب» الرسمي؟",
+      "answer": "نسخة جليدية من بيت الدب",
+      "acceptedAnswers": [],
+      "hint": "موطنه يعيد شكل منزل مألوف باستخدام مادة قطبية.",
+      "clues": [],
+      "explanation": "يسكن نسخة من منزل الدب مبنية من الجليد.",
+      "sources": [
+        "https://www.mashabear.com/en-se/characters/penguin — صفحة المنتج/صاحب الشخصيات، قرئت في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "نسخة خشبية من بيت ماشا"
+        },
+        {
+          "id": "B",
+          "text": "نسخة جليدية من بيت الدب"
+        },
+        {
+          "id": "C",
+          "text": "كوخ ثلجي مستدير فقط"
+        },
+        {
+          "id": "D",
+          "text": "سيارة إسعاف مغطاة بالثلج"
+        },
+        {
+          "id": "E",
+          "text": "نسخة حجرية من محطة القطار"
+        },
+        {
+          "id": "F",
+          "text": "برج جليدي على شكل شجرة"
+        }
+      ],
+      "correctOptionId": "B",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "spacetoon-hard-0213",
+      "categoryId": "spacetoon",
+      "difficulty": "hard",
+      "text": "عند صيد السمك من ثقب في الجليد، أي الذئبين يستعمل الآخر ذيله في الخطة؟",
+      "answer": "الذئب الساذج",
+      "acceptedAnswers": [],
+      "hint": "شريكه الماكر لا يضع ذيله هو في الماء.",
+      "clues": [],
+      "explanation": "يستعمل الماكر ذيل شريكه الساذج في الصيد.",
+      "sources": [
+        "https://www.mashabear.com/en-se/characters/silly-wolf — صفحة المنتج/صاحب الشخصيات، قرئت في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "الذئب الماكر"
+        },
+        {
+          "id": "B",
+          "text": "النمر"
+        },
+        {
+          "id": "C",
+          "text": "الذئب الساذج"
+        },
+        {
+          "id": "D",
+          "text": "الدب المنافس"
+        },
+        {
+          "id": "E",
+          "text": "الأرنب"
+        },
+        {
+          "id": "F",
+          "text": "باندا"
+        }
+      ],
+      "correctOptionId": "C",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "spacetoon-hard-0214",
+      "categoryId": "spacetoon",
+      "difficulty": "hard",
+      "text": "أين تفضل الماعز الاختباء من مغامرات ماشا وفق صفحتها الرسمية؟",
+      "answer": "في بيت الكلب",
+      "acceptedAnswers": [],
+      "hint": "تبحث عن ملجأ صغير قرب الحيوانات المنزلية.",
+      "clues": [],
+      "explanation": "يذكر التعريف بيت الكلب أفضل مخبأ لها.",
+      "sources": [
+        "https://www.mashabear.com/en-se/characters/goat — صفحة المنتج/صاحب الشخصيات، قرئت في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "في بيت الدب"
+        },
+        {
+          "id": "B",
+          "text": "في سيارة الإسعاف"
+        },
+        {
+          "id": "C",
+          "text": "في تجويف الشجرة"
+        },
+        {
+          "id": "D",
+          "text": "في بيت الكلب"
+        },
+        {
+          "id": "E",
+          "text": "في عربة القطار"
+        },
+        {
+          "id": "F",
+          "text": "في حديقة الجزر"
+        }
+      ],
+      "correctOptionId": "D",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "spacetoon-hard-0215",
+      "categoryId": "spacetoon",
+      "difficulty": "hard",
+      "text": "لماذا التبس على الدب التمييز بين داشا وماشا في الموقف الذي يذكره الموقع؟",
+      "answer": "لأن داشا ارتدت ملابس ماشا",
+      "acceptedAnswers": [],
+      "hint": "شبه المظهر صار أقوى بسبب تبديل شيء خارجي.",
+      "clues": [],
+      "explanation": "خلط بينهما بعد أن ارتدت داشا ملابس ماشا.",
+      "sources": [
+        "https://www.mashabear.com/en-se/characters/dasha — صفحة المنتج/صاحب الشخصيات، قرئت في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "لأن ماشا ارتدت نظارات داشا"
+        },
+        {
+          "id": "B",
+          "text": "لأن الفتاتين ارتدتا قناعاً واحداً"
+        },
+        {
+          "id": "C",
+          "text": "لأنهما تكلمتا من خلف الباب"
+        },
+        {
+          "id": "D",
+          "text": "لأنهما تبادلتا حقيبتين"
+        },
+        {
+          "id": "E",
+          "text": "لأن داشا ارتدت ملابس ماشا"
+        },
+        {
+          "id": "F",
+          "text": "لأنهما قصتا شعرهما بالطريقة نفسها"
+        }
+      ],
+      "correctOptionId": "E",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "spacetoon-hard-0216",
+      "categoryId": "spacetoon",
+      "difficulty": "hard",
+      "text": "من مؤلف الرواية التي اقتبس منها مسلسل «دروب ريمي»؟",
+      "answer": "هيكتور مالو",
+      "acceptedAnswers": [
+        "Hector Malot"
+      ],
+      "hint": "كاتب فرنسي اشتهر بحكايات الأطفال الذين يفترقون عن أسرهم.",
+      "clues": [],
+      "explanation": "يحدد المنتج Sans Famille لهيكتور مالو أصلاً للعمل.",
+      "sources": [
+        "https://www.nipponanimation.com/program/1751/ — صفحة المنتج/صاحب الشخصيات، قرئت في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "فيكتور هوغو"
+        },
+        {
+          "id": "B",
+          "text": "جول فيرن"
+        },
+        {
+          "id": "C",
+          "text": "ألفونس دوديه"
+        },
+        {
+          "id": "D",
+          "text": "شارل ديكنز"
+        },
+        {
+          "id": "E",
+          "text": "روبرت لويس ستيفنسون"
+        },
+        {
+          "id": "F",
+          "text": "هيكتور مالو"
+        }
+      ],
+      "correctOptionId": "F",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "spacetoon-hard-0217",
+      "categoryId": "spacetoon",
+      "difficulty": "hard",
+      "text": "من مؤلفة «الأميرة الصغيرة»، الأصل الأدبي لمسلسل «سالي»؟",
+      "answer": "فرانسيس هودجسون برنيت",
+      "acceptedAnswers": [],
+      "hint": "كاتبة اشتهرت أيضاً بقصة حديقة مهجورة تعود إليها الحياة.",
+      "clues": [],
+      "explanation": "يحدد المنتج رواية A Little Princess لبرنيت أصلاً للمسلسل.",
+      "sources": [
+        "https://www.nipponanimation.com/program/1473/ — صفحة المنتج/صاحب الشخصيات، قرئت في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "فرانسيس هودجسون برنيت"
+        },
+        {
+          "id": "B",
+          "text": "لوسي مود مونتغومري"
+        },
+        {
+          "id": "C",
+          "text": "جين ويبستر"
+        },
+        {
+          "id": "D",
+          "text": "لويزا ماي ألكوت"
+        },
+        {
+          "id": "E",
+          "text": "إليانور بورتر"
+        },
+        {
+          "id": "F",
+          "text": "جوهانا شبيري"
+        }
+      ],
+      "correctOptionId": "A",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "spacetoon-hard-0218",
+      "categoryId": "spacetoon",
+      "difficulty": "hard",
+      "text": "أي كاتبة يذكرها كتالوج المنتج مؤلفةً لـ«الإخوة السود»، أصل «عهد الأصدقاء»؟",
+      "answer": "ليزا تتسنر",
+      "acceptedAnswers": [
+        "Lisa Tetzner"
+      ],
+      "hint": "كاتبة ألمانية ارتبطت قصتها بالأطفال منظفي المداخن.",
+      "clues": [],
+      "explanation": "تنسب صفحة المنتج الرواية إلى ليزا تتسنر.",
+      "sources": [
+        "https://www.nipponanimation.com/program/1713/ — صفحة المنتج/صاحب الشخصيات، قرئت في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "أستريد ليندغرين"
+        },
+        {
+          "id": "B",
+          "text": "ليزا تتسنر"
+        },
+        {
+          "id": "C",
+          "text": "جوهانا شبيري"
+        },
+        {
+          "id": "D",
+          "text": "فرانسيس برنيت"
+        },
+        {
+          "id": "E",
+          "text": "جين ويبستر"
+        },
+        {
+          "id": "F",
+          "text": "إليانور بورتر"
+        }
+      ],
+      "correctOptionId": "B",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "spacetoon-hard-0219",
+      "categoryId": "spacetoon",
+      "difficulty": "hard",
+      "text": "من صاحب الرواية التي اقتبس منها أنمي «توم سوير»؟",
+      "answer": "مارك توين",
+      "acceptedAnswers": [],
+      "hint": "كاتب أمريكي ارتبطت قصصه بنهر المسيسيبي.",
+      "clues": [],
+      "explanation": "الرواية الأصلية The Adventures of Tom Sawyer لمارك توين.",
+      "sources": [
+        "https://www.nipponanimation.com/program/1370/ — صفحة المنتج/صاحب الشخصيات، قرئت في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "جاك لندن"
+        },
+        {
+          "id": "B",
+          "text": "سترلينغ نورث"
+        },
+        {
+          "id": "C",
+          "text": "مارك توين"
+        },
+        {
+          "id": "D",
+          "text": "إريك نايت"
+        },
+        {
+          "id": "E",
+          "text": "روبرت لويس ستيفنسون"
+        },
+        {
+          "id": "F",
+          "text": "جول فيرن"
+        }
+      ],
+      "correctOptionId": "C",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "spacetoon-hard-0220",
+      "categoryId": "spacetoon",
+      "difficulty": "hard",
+      "text": "من صاحب «عائلة روبنسون السويسرية»، المصدر الأدبي لـ«فلونة»؟",
+      "answer": "يوهان دافيد فيس",
+      "acceptedAnswers": [
+        "Johann David Wyss"
+      ],
+      "hint": "اسم سويسري، والعمل يصور بقاء أسرة بعيداً عن الوطن.",
+      "clues": [],
+      "explanation": "يسمي المنتج يوهان دافيد فيس مؤلف الرواية.",
+      "sources": [
+        "https://www.nipponanimation.com/program/1387/ — صفحة المنتج/صاحب الشخصيات، قرئت في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "دانييل ديفو"
+        },
+        {
+          "id": "B",
+          "text": "جول فيرن"
+        },
+        {
+          "id": "C",
+          "text": "روبرت لويس ستيفنسون"
+        },
+        {
+          "id": "D",
+          "text": "يوهان دافيد فيس"
+        },
+        {
+          "id": "E",
+          "text": "هيكتور مالو"
+        },
+        {
+          "id": "F",
+          "text": "مارك توين"
+        }
+      ],
+      "correctOptionId": "D",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "spacetoon-hard-0221",
+      "categoryId": "spacetoon",
+      "difficulty": "hard",
+      "text": "من مؤلفة رواية «صاحب الظل الطويل» التي اقتبس منها المسلسل؟",
+      "answer": "جين ويبستر",
+      "acceptedAnswers": [],
+      "hint": "كاتبة أمريكية تتقدم قصتها من خلال رسائل فتاة إلى داعمها.",
+      "clues": [],
+      "explanation": "الرواية الأصلية Daddy-Long-Legs لجين ويبستر.",
+      "sources": [
+        "https://www.nipponanimation.com/program/1582/ — صفحة المنتج/صاحب الشخصيات، قرئت في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "لويزا ماي ألكوت"
+        },
+        {
+          "id": "B",
+          "text": "فرانسيس هودجسون برنيت"
+        },
+        {
+          "id": "C",
+          "text": "لوسي مود مونتغومري"
+        },
+        {
+          "id": "D",
+          "text": "إليانور بورتر"
+        },
+        {
+          "id": "E",
+          "text": "جين ويبستر"
+        },
+        {
+          "id": "F",
+          "text": "جوهانا شبيري"
+        }
+      ],
+      "correctOptionId": "E",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "spacetoon-hard-0222",
+      "categoryId": "spacetoon",
+      "difficulty": "hard",
+      "text": "من أي مجموعة حكايات اقتبس مسلسل «مغامرات سندباد» الياباني؟",
+      "answer": "ألف ليلة وليلة",
+      "acceptedAnswers": [],
+      "hint": "مجموعة تراثية تضم رحلات وشخصيات من الشرق.",
+      "clues": [],
+      "explanation": "يصرح المنتج باستناد العمل إلى حكاية من ألف ليلة وليلة.",
+      "sources": [
+        "https://www.nipponanimation.com/program/923/ — صفحة المنتج/صاحب الشخصيات، قرئت في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "كليلة ودمنة"
+        },
+        {
+          "id": "B",
+          "text": "حكايات إيسوب"
+        },
+        {
+          "id": "C",
+          "text": "حكايات الأخوين غريم"
+        },
+        {
+          "id": "D",
+          "text": "أساطير الملك آرثر"
+        },
+        {
+          "id": "E",
+          "text": "حكايات أندرسن"
+        },
+        {
+          "id": "F",
+          "text": "ألف ليلة وليلة"
+        }
+      ],
+      "correctOptionId": "F",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "spacetoon-hard-0223",
+      "categoryId": "spacetoon",
+      "difficulty": "hard",
+      "text": "ما السبب الذي جعل والد فلونة يقرر السفر بأسرته إلى أستراليا قبل حادث السفينة؟",
+      "answer": "دعوة للعمل بسبب نقص الأطباء هناك",
+      "acceptedAnswers": [],
+      "hint": "يرتبط السفر بحاجة مهنية لا برغبة سياحية فقط.",
+      "clues": [],
+      "explanation": "طلب صديق الأب قدومه بسبب قلة الأطباء في أستراليا.",
+      "sources": [
+        "https://www.nipponanimation.com/program/1387/ — صفحة المنتج/صاحب الشخصيات، قرئت في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "دعوة للعمل بسبب نقص الأطباء هناك"
+        },
+        {
+          "id": "B",
+          "text": "دعوة للتنقيب عن الذهب"
+        },
+        {
+          "id": "C",
+          "text": "دعوة لإدارة ميناء"
+        },
+        {
+          "id": "D",
+          "text": "دعوة لتعليم الموسيقى"
+        },
+        {
+          "id": "E",
+          "text": "دعوة لإدارة مزرعة"
+        },
+        {
+          "id": "F",
+          "text": "دعوة للعمل في السيرك"
+        }
+      ],
+      "correctOptionId": "A",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "spacetoon-hard-0224",
+      "categoryId": "spacetoon",
+      "difficulty": "hard",
+      "text": "كيف يصف المنتج أصل أسرة سالي المقيمة في الهند عند بداية القصة؟",
+      "answer": "أسرة بريطانية ثرية",
+      "acceptedAnswers": [],
+      "hint": "البلد الذي عاشت فيه لا يطابق بالضرورة أصل أسرتها.",
+      "clues": [],
+      "explanation": "صفحة المنتج تصف سالي بأنها مولودة لأسرة بريطانية ثرية في الهند.",
+      "sources": [
+        "https://www.nipponanimation.com/program/1473/ — صفحة المنتج/صاحب الشخصيات، قرئت في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "أسرة فرنسية ثرية"
+        },
+        {
+          "id": "B",
+          "text": "أسرة بريطانية ثرية"
+        },
+        {
+          "id": "C",
+          "text": "أسرة هندية ثرية"
+        },
+        {
+          "id": "D",
+          "text": "أسرة سويسرية ثرية"
+        },
+        {
+          "id": "E",
+          "text": "أسرة أمريكية ثرية"
+        },
+        {
+          "id": "F",
+          "text": "أسرة إيطالية ثرية"
+        }
+      ],
+      "correctOptionId": "B",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "spacetoon-hard-0225",
+      "categoryId": "spacetoon",
+      "difficulty": "hard",
+      "text": "في تعريف أسرة توم سوير عند المنتج، ما اسم ابنة العمة بولي؟",
+      "answer": "ماري",
+      "acceptedAnswers": [
+        "Mary"
+      ],
+      "hint": "هي ابنة المرأة التي ربّت توم وسيد.",
+      "clues": [],
+      "explanation": "تسمي الصفحة ابنة العمة بولي Mary.",
+      "sources": [
+        "https://www.nipponanimation.com/program/1370/ — صفحة المنتج/صاحب الشخصيات، قرئت في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "بيكي"
+        },
+        {
+          "id": "B",
+          "text": "إيمي"
+        },
+        {
+          "id": "C",
+          "text": "ماري"
+        },
+        {
+          "id": "D",
+          "text": "سوزي"
+        },
+        {
+          "id": "E",
+          "text": "جين"
+        },
+        {
+          "id": "F",
+          "text": "لورا"
+        }
+      ],
+      "correctOptionId": "C",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "spacetoon-legendary-0201",
+      "categoryId": "spacetoon",
+      "difficulty": "legendary",
+      "text": "ما التصرف الذي كان سبب منح بينغو فرص وضع والديها في Dance Mode؟",
+      "answer": "أكل الأب آخر قطعة بطاطا تخصها",
+      "acceptedAnswers": [],
+      "hint": "بدأ التعويض من خطأ صغير على مائدة الطعام.",
+      "clues": [],
+      "explanation": "أكل الأب آخر قطعة من بطاطا بينغو دون سؤالها.",
+      "sources": [
+        "https://www.bluey.tv/watch/season-2/dance-mode/ — صفحة المنتج/صاحب الشخصيات، قرئت في 2026-10-13.",
+        "https://www.youtube.com/watch?v=zxjM6VO21MM — إعلان بلوي على قناة سبيستون الرسمية في فقرة أنا وطفلي (2024)."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "أخذ الأب لعبتها المفضلة"
+        },
+        {
+          "id": "B",
+          "text": "كسر الأب بالونها"
+        },
+        {
+          "id": "C",
+          "text": "نسي الأب حقيبتها"
+        },
+        {
+          "id": "D",
+          "text": "أكل الأب آخر قطعة بطاطا تخصها"
+        },
+        {
+          "id": "E",
+          "text": "أكل الأب قطعة كعكتها"
+        },
+        {
+          "id": "F",
+          "text": "أضاع الأب دميتها"
+        }
+      ],
+      "correctOptionId": "D",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "spacetoon-legendary-0202",
+      "categoryId": "spacetoon",
+      "difficulty": "legendary",
+      "text": "في لعبة التحكم بالاسكواش، أي اللاعبَين تتحكم فيهما بلوي وبينغو بالترتيب؟",
+      "answer": "بانديت ثم سترايب",
+      "acceptedAnswers": [],
+      "hint": "الأخت الكبرى مع الأخ الأكبر والصغرى مع الأصغر.",
+      "clues": [],
+      "explanation": "بلوي تتحكم بأبيها وبينغو بالعم سترايب.",
+      "sources": [
+        "https://www.bluey.tv/watch/season-2/squash/ — صفحة المنتج/صاحب الشخصيات، قرئت في 2026-10-13.",
+        "https://www.youtube.com/watch?v=zxjM6VO21MM — إعلان بلوي على قناة سبيستون الرسمية في فقرة أنا وطفلي (2024)."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "سترايب ثم بانديت"
+        },
+        {
+          "id": "B",
+          "text": "بانديت ثم راد"
+        },
+        {
+          "id": "C",
+          "text": "راد ثم سترايب"
+        },
+        {
+          "id": "D",
+          "text": "سترايب ثم بوب"
+        },
+        {
+          "id": "E",
+          "text": "بانديت ثم سترايب"
+        },
+        {
+          "id": "F",
+          "text": "بوب ثم بانديت"
+        }
+      ],
+      "correctOptionId": "E",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "spacetoon-legendary-0203",
+      "categoryId": "spacetoon",
+      "difficulty": "legendary",
+      "text": "كيف زاد بانديت صعوبة إبقاء البالون في الهواء داخل البيت؟",
+      "answer": "استعمل مروحة ومنفاخ أوراق",
+      "acceptedAnswers": [],
+      "hint": "أدخل تيار هواء يغير اتجاه البالون.",
+      "clues": [],
+      "explanation": "استعمل الأب مروحة ومنفاخ أوراق لتحريك البالون.",
+      "sources": [
+        "https://www.bluey.tv/watch/season-1/keepy-uppy/ — صفحة المنتج/صاحب الشخصيات، قرئت في 2026-10-13.",
+        "https://www.youtube.com/watch?v=zxjM6VO21MM — إعلان بلوي على قناة سبيستون الرسمية في فقرة أنا وطفلي (2024)."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "استعمل حبل صيد ومغناطيساً"
+        },
+        {
+          "id": "B",
+          "text": "استعمل مكنسة ومضخة ماء"
+        },
+        {
+          "id": "C",
+          "text": "استعمل مروحة وحبل سحب"
+        },
+        {
+          "id": "D",
+          "text": "استعمل بالونين وصندوقاً"
+        },
+        {
+          "id": "E",
+          "text": "استعمل منفاخ أوراق وشبكة صيد"
+        },
+        {
+          "id": "F",
+          "text": "استعمل مروحة ومنفاخ أوراق"
+        }
+      ],
+      "correctOptionId": "F",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "spacetoon-legendary-0204",
+      "categoryId": "spacetoon",
+      "difficulty": "legendary",
+      "text": "مَن صاحب المسبح الذي زارته بلوي وبينغو مع بانديت في حلقة The Pool؟",
+      "answer": "العم سترايب",
+      "acceptedAnswers": [],
+      "hint": "هو قريب له ابنتان أصغر من بلوي وبينغو.",
+      "clues": [],
+      "explanation": "تذكر الصفحة أنهم ذهبوا إلى مسبح العم سترايب.",
+      "sources": [
+        "https://www.bluey.tv/watch/season-1/the-pool/ — صفحة المنتج/صاحب الشخصيات، قرئت في 2026-10-13.",
+        "https://www.youtube.com/watch?v=zxjM6VO21MM — إعلان بلوي على قناة سبيستون الرسمية في فقرة أنا وطفلي (2024)."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "العم سترايب"
+        },
+        {
+          "id": "B",
+          "text": "العم راد"
+        },
+        {
+          "id": "C",
+          "text": "الجد مورت"
+        },
+        {
+          "id": "D",
+          "text": "الجد بوب"
+        },
+        {
+          "id": "E",
+          "text": "والد لاكي"
+        },
+        {
+          "id": "F",
+          "text": "والد كلوي"
+        }
+      ],
+      "correctOptionId": "A",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "spacetoon-legendary-0205",
+      "categoryId": "spacetoon",
+      "difficulty": "legendary",
+      "text": "ماذا فعلت الأسرة في النهاية للحصول على الجوائز من ماكينة المخلب التي يمثلها الأب؟",
+      "answer": "دغدغوه حتى تخلى عن الجوائز",
+      "acceptedAnswers": [],
+      "hint": "غيروا طريقة التعامل مع اللعبة إلى مقلب جسدي مرح.",
+      "clues": [],
+      "explanation": "انتهى الأمر بدغدغة الأب حتى أعطاهم الجوائز.",
+      "sources": [
+        "https://www.bluey.tv/watch/season-1/the-claw/ — صفحة المنتج/صاحب الشخصيات، قرئت في 2026-10-13.",
+        "https://www.youtube.com/watch?v=zxjM6VO21MM — إعلان بلوي على قناة سبيستون الرسمية في فقرة أنا وطفلي (2024)."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "اشتروا مفتاح الماكينة"
+        },
+        {
+          "id": "B",
+          "text": "دغدغوه حتى تخلى عن الجوائز"
+        },
+        {
+          "id": "C",
+          "text": "أطفؤوا كهرباء البيت"
+        },
+        {
+          "id": "D",
+          "text": "استبدلوا الأب بسترايب"
+        },
+        {
+          "id": "E",
+          "text": "عرضوا عليه مضرب كريكيت"
+        },
+        {
+          "id": "F",
+          "text": "تركوا له الألعاب وانصرفوا"
+        }
+      ],
+      "correctOptionId": "B",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "spacetoon-legendary-0206",
+      "categoryId": "spacetoon",
+      "difficulty": "legendary",
+      "text": "ما التغيير الذي قامت به أسرة بلوي لجعل عطلة دمية بوب بيلبي أكثر متعة؟",
+      "answer": "تركوا الشاشات وخرجوا لأنشطة حقيقية",
+      "acceptedAnswers": [],
+      "hint": "احتاجت الدمية صوراً لمغامرات تتجاوز متابعة الرسوم.",
+      "clues": [],
+      "explanation": "وضعوا الشاشات جانباً وذهبوا إلى الخارج.",
+      "sources": [
+        "https://www.bluey.tv/watch/season-1/bob-bilby/ — صفحة المنتج/صاحب الشخصيات، قرئت في 2026-10-13.",
+        "https://www.youtube.com/watch?v=zxjM6VO21MM — إعلان بلوي على قناة سبيستون الرسمية في فقرة أنا وطفلي (2024)."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "اشتروا شاشة أكبر"
+        },
+        {
+          "id": "B",
+          "text": "تركوا الدمية في الروضة"
+        },
+        {
+          "id": "C",
+          "text": "تركوا الشاشات وخرجوا لأنشطة حقيقية"
+        },
+        {
+          "id": "D",
+          "text": "ملؤوا السجل بصور قديمة"
+        },
+        {
+          "id": "E",
+          "text": "دعوا أطفال الروضة جميعاً"
+        },
+        {
+          "id": "F",
+          "text": "صوروا البرامج من التلفاز"
+        }
+      ],
+      "correctOptionId": "C",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "spacetoon-legendary-0207",
+      "categoryId": "spacetoon",
+      "difficulty": "legendary",
+      "text": "ما الذي نمت منه الشجرة التي تجلس تحتها بلوي الكبيرة حين ترى جان لوك مجدداً؟",
+      "answer": "البذور التي زرعاها في طفولتهما",
+      "acceptedAnswers": [],
+      "hint": "الشجرة تربط اللقاء اللاحق بنشاط مشترك في رحلة التخييم.",
+      "clues": [],
+      "explanation": "تذكر الصفحة نمو الشجرة من بذورهما المشتركة.",
+      "sources": [
+        "https://www.bluey.tv/watch/season-1/camping/ — صفحة المنتج/صاحب الشخصيات، قرئت في 2026-10-13.",
+        "https://www.youtube.com/watch?v=zxjM6VO21MM — إعلان بلوي على قناة سبيستون الرسمية في فقرة أنا وطفلي (2024)."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "غصن غرسه الأب قبل رحلتهما"
+        },
+        {
+          "id": "B",
+          "text": "شتلة أهداها الجد"
+        },
+        {
+          "id": "C",
+          "text": "بذور حملها نهر إلى المخيم"
+        },
+        {
+          "id": "D",
+          "text": "البذور التي زرعاها في طفولتهما"
+        },
+        {
+          "id": "E",
+          "text": "شجرة نقلتها أم بلوي"
+        },
+        {
+          "id": "F",
+          "text": "بذور زرعتها بينغو وحدها"
+        }
+      ],
+      "correctOptionId": "D",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "spacetoon-legendary-0208",
+      "categoryId": "spacetoon",
+      "difficulty": "legendary",
+      "text": "من يؤدي دور الكلبة الحكيمة الكبيرة في الفيلم المنزلي الذي أرسل إلى بينغو؟",
+      "answer": "العمة تريكسي",
+      "acceptedAnswers": [],
+      "hint": "من قريبات الأسرة وأم مافن وسوكس.",
+      "clues": [],
+      "explanation": "تؤدي تريكسي دور الكلبة الحكيمة في الفيلم.",
+      "sources": [
+        "https://www.bluey.tv/watch/season-1/bumpy-and-the-wise-old-wolfhound/ — صفحة المنتج/صاحب الشخصيات، قرئت في 2026-10-13.",
+        "https://www.youtube.com/watch?v=zxjM6VO21MM — إعلان بلوي على قناة سبيستون الرسمية في فقرة أنا وطفلي (2024)."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "تشيلي"
+        },
+        {
+          "id": "B",
+          "text": "الجدة نانا"
+        },
+        {
+          "id": "C",
+          "text": "فريسكي"
+        },
+        {
+          "id": "D",
+          "text": "ويندي"
+        },
+        {
+          "id": "E",
+          "text": "العمة تريكسي"
+        },
+        {
+          "id": "F",
+          "text": "العمة براندي"
+        }
+      ],
+      "correctOptionId": "E",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "spacetoon-legendary-0209",
+      "categoryId": "spacetoon",
+      "difficulty": "legendary",
+      "text": "من زارت تشيلي وشجعتها بعدما شعرت بالإحباط من مقارنة تعلم بلوي المشي بجودو؟",
+      "answer": "والدة كوكو",
+      "acceptedAnswers": [],
+      "hint": "أم كثيرة الخبرة جاءت تطمئن تشيلي إلى أنها تؤدي جيداً.",
+      "clues": [],
+      "explanation": "زارتها أم كوكو لتساندها.",
+      "sources": [
+        "https://www.bluey.tv/watch/season-2/baby-race/ — صفحة المنتج/صاحب الشخصيات، قرئت في 2026-10-13.",
+        "https://www.youtube.com/watch?v=zxjM6VO21MM — إعلان بلوي على قناة سبيستون الرسمية في فقرة أنا وطفلي (2024)."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "والدة هاني"
+        },
+        {
+          "id": "B",
+          "text": "والدة إندي"
+        },
+        {
+          "id": "C",
+          "text": "والدة كلوي"
+        },
+        {
+          "id": "D",
+          "text": "والدة ليلا"
+        },
+        {
+          "id": "E",
+          "text": "والدة ماكينزي"
+        },
+        {
+          "id": "F",
+          "text": "والدة كوكو"
+        }
+      ],
+      "correctOptionId": "F",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "spacetoon-legendary-0210",
+      "categoryId": "spacetoon",
+      "difficulty": "legendary",
+      "text": "بماذا تخيلت الأسرة كرة لاكي التي دخلت جزيرتهم أثناء اللعبة؟",
+      "answer": "بيضة شوكولاتة بيضاء",
+      "acceptedAnswers": [],
+      "hint": "أعادوا تفسير جسم أبيض مدور ضمن عالم الجزيرة.",
+      "clues": [],
+      "explanation": "سموا الكرة بيضة شوكولاتة بيضاء خلال اللعب.",
+      "sources": [
+        "https://www.bluey.tv/watch/season-2/rug-island/ — صفحة المنتج/صاحب الشخصيات، قرئت في 2026-10-13.",
+        "https://www.youtube.com/watch?v=zxjM6VO21MM — إعلان بلوي على قناة سبيستون الرسمية في فقرة أنا وطفلي (2024)."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "بيضة شوكولاتة بيضاء"
+        },
+        {
+          "id": "B",
+          "text": "حبة لؤلؤ كبيرة"
+        },
+        {
+          "id": "C",
+          "text": "ثمرة جوز هند"
+        },
+        {
+          "id": "D",
+          "text": "حجر قمري"
+        },
+        {
+          "id": "E",
+          "text": "بيضة ديناصور"
+        },
+        {
+          "id": "F",
+          "text": "فقاعة ثلج"
+        }
+      ],
+      "correctOptionId": "A",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "spacetoon-legendary-0211",
+      "categoryId": "spacetoon",
+      "difficulty": "legendary",
+      "text": "ما الكلمة التي احتاجت بلوي أن تجعل بينغو الببغاء تقولها لإعادة الأسرة إلى طبيعتها؟",
+      "answer": "كلاب",
+      "acceptedAnswers": [],
+      "hint": "كانت الأسرة تحتاج إلى استعادة نوعها الأصلي داخل اللعبة.",
+      "clues": [],
+      "explanation": "يحتاج الببغاء إلى قول Dogs لتصبح الأسرة كلاباً مجدداً.",
+      "sources": [
+        "https://www.bluey.tv/watch/season-1/asparagus/ — صفحة المنتج/صاحب الشخصيات، قرئت في 2026-10-13.",
+        "https://www.youtube.com/watch?v=zxjM6VO21MM — إعلان بلوي على قناة سبيستون الرسمية في فقرة أنا وطفلي (2024)."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "أرانب"
+        },
+        {
+          "id": "B",
+          "text": "كلاب"
+        },
+        {
+          "id": "C",
+          "text": "فئران"
+        },
+        {
+          "id": "D",
+          "text": "طيور"
+        },
+        {
+          "id": "E",
+          "text": "أسود"
+        },
+        {
+          "id": "F",
+          "text": "فقمات"
+        }
+      ],
+      "correctOptionId": "B",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "spacetoon-legendary-0212",
+      "categoryId": "spacetoon",
+      "difficulty": "legendary",
+      "text": "في الوصف الرسمي لباندا، ما الثلاثة التي يفضلها إلى جانب تنظيم حياته؟",
+      "answer": "التأمل والفنون القتالية والطبخ التقليدي",
+      "acceptedAnswers": [],
+      "hint": "تجمع أنشطته تدريباً ذهنياً وبدنياً ومهارة إعداد طعام.",
+      "clues": [],
+      "explanation": "تسرد صفحة باندا هذه الاهتمامات الثلاثة.",
+      "sources": [
+        "https://www.mashabear.com/en-se/characters/panda — صفحة المنتج/صاحب الشخصيات، قرئت في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "اليوغا والسباحة والطبخ التقليدي"
+        },
+        {
+          "id": "B",
+          "text": "التأمل والرسم والطبخ التقليدي"
+        },
+        {
+          "id": "C",
+          "text": "التأمل والفنون القتالية والطبخ التقليدي"
+        },
+        {
+          "id": "D",
+          "text": "التأمل والفنون القتالية والبستنة"
+        },
+        {
+          "id": "E",
+          "text": "التأمل والشطرنج والطبخ التقليدي"
+        },
+        {
+          "id": "F",
+          "text": "الموسيقى والفنون القتالية والخبز"
+        }
+      ],
+      "correctOptionId": "C",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "spacetoon-legendary-0213",
+      "categoryId": "spacetoon",
+      "difficulty": "legendary",
+      "text": "في حيل النمر في «ماشا والدب»، بماذا استبدل كرات البلياردو في مباراة غير معتادة؟",
+      "answer": "مكعبات",
+      "acceptedAnswers": [],
+      "hint": "حوّل الجسم المدور إلى شكل ذي أوجه مسطحة.",
+      "clues": [],
+      "explanation": "تذكر صفحة النمر لعب البلياردو بمكعبات بدلاً من الكرات.",
+      "sources": [
+        "https://www.mashabear.com/en-se/characters/tiger — صفحة المنتج/صاحب الشخصيات، قرئت في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "أقراص"
+        },
+        {
+          "id": "B",
+          "text": "بيضات"
+        },
+        {
+          "id": "C",
+          "text": "مخاريط"
+        },
+        {
+          "id": "D",
+          "text": "مكعبات"
+        },
+        {
+          "id": "E",
+          "text": "أسطوانات"
+        },
+        {
+          "id": "F",
+          "text": "كرات ثلج"
+        }
+      ],
+      "correctOptionId": "D",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "spacetoon-legendary-0214",
+      "categoryId": "spacetoon",
+      "difficulty": "legendary",
+      "text": "ما الملحقان اللذان يرتديهما البطريق عندما يطير بطائرته في «ماشا والدب»؟",
+      "answer": "خوذة ونظارة طيران",
+      "acceptedAnswers": [],
+      "hint": "يرتبطان بالحماية أثناء قيادة الطائرة.",
+      "clues": [],
+      "explanation": "يرتدي البطريق خوذة ونظارة عند الطيران.",
+      "sources": [
+        "https://www.mashabear.com/en-se/characters/penguin — صفحة المنتج/صاحب الشخصيات، قرئت في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "قبعة ووشاح"
+        },
+        {
+          "id": "B",
+          "text": "خوذة وسماعة فقط"
+        },
+        {
+          "id": "C",
+          "text": "نظارة سباحة وقبعة"
+        },
+        {
+          "id": "D",
+          "text": "خوذة وقناع غوص"
+        },
+        {
+          "id": "E",
+          "text": "خوذة ونظارة طيران"
+        },
+        {
+          "id": "F",
+          "text": "وشاح ونظارة شمس"
+        }
+      ],
+      "correctOptionId": "E",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "spacetoon-legendary-0215",
+      "categoryId": "spacetoon",
+      "difficulty": "legendary",
+      "text": "في نشاط هوكي يذكره التعريف الرسمي للسنجاب في «ماشا والدب»، ما الدور الذي قامت به؟",
+      "answer": "حكم المباراة",
+      "acceptedAnswers": [],
+      "hint": "مهمتها تتعلق بتنظيم اللعب أكثر من إحراز الأهداف.",
+      "clues": [],
+      "explanation": "كانت السنجاب حكماً لمباراة هوكي.",
+      "sources": [
+        "https://www.mashabear.com/en-se/characters/squirrel — صفحة المنتج/صاحب الشخصيات، قرئت في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "حارس المرمى"
+        },
+        {
+          "id": "B",
+          "text": "قائد الفريق"
+        },
+        {
+          "id": "C",
+          "text": "مدرب الفريق"
+        },
+        {
+          "id": "D",
+          "text": "مهاجم الفريق"
+        },
+        {
+          "id": "E",
+          "text": "مسجل الأهداف"
+        },
+        {
+          "id": "F",
+          "text": "حكم المباراة"
+        }
+      ],
+      "correctOptionId": "F",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "spacetoon-legendary-0216",
+      "categoryId": "spacetoon",
+      "difficulty": "legendary",
+      "text": "ما العمل المنزلي الذي ساعد فيه القنافذ الدب وفق التعريف الرسمي؟",
+      "answer": "تلصيق ورق جدران بيته",
+      "acceptedAnswers": [],
+      "hint": "يتعلق بتجديد سطح داخل البيت.",
+      "clues": [],
+      "explanation": "ساعدت القنافذ في وضع ورق الجدران.",
+      "sources": [
+        "https://www.mashabear.com/en-se/characters/hedgehog — صفحة المنتج/صاحب الشخصيات، قرئت في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "تلصيق ورق جدران بيته"
+        },
+        {
+          "id": "B",
+          "text": "دهان سقف بيته"
+        },
+        {
+          "id": "C",
+          "text": "إصلاح زجاج نوافذه"
+        },
+        {
+          "id": "D",
+          "text": "تركيب مدخنته"
+        },
+        {
+          "id": "E",
+          "text": "تغيير ألواح أرضه"
+        },
+        {
+          "id": "F",
+          "text": "بناء سياج حديقته"
+        }
+      ],
+      "correctOptionId": "A",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "spacetoon-legendary-0217",
+      "categoryId": "spacetoon",
+      "difficulty": "legendary",
+      "text": "ما المهارتان اللتان يذكرهما الموقع للدب المنافس إلى جانب استعراض عضلاته؟",
+      "answer": "العزف على آلات موسيقية وصيد السمك",
+      "acceptedAnswers": [],
+      "hint": "الأولى تعود لدراسة سابقة والثانية هواية قرب النهر.",
+      "clues": [],
+      "explanation": "يجيد المنافس العزف ويحب صيد السمك.",
+      "sources": [
+        "https://www.mashabear.com/en-se/characters/rival-bear — صفحة المنتج/صاحب الشخصيات، قرئت في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "العزف والطبخ"
+        },
+        {
+          "id": "B",
+          "text": "العزف على آلات موسيقية وصيد السمك"
+        },
+        {
+          "id": "C",
+          "text": "الشطرنج والصيد"
+        },
+        {
+          "id": "D",
+          "text": "الرسم والعزف"
+        },
+        {
+          "id": "E",
+          "text": "التصوير والسباحة"
+        },
+        {
+          "id": "F",
+          "text": "صيد السمك والبستنة"
+        }
+      ],
+      "correctOptionId": "B",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "spacetoon-legendary-0218",
+      "categoryId": "spacetoon",
+      "difficulty": "legendary",
+      "text": "ما الزي الذي وافق الذئب الساذج على ارتدائه لحضور حفل في «ماشا والدب»؟",
+      "answer": "زي خروف أبيض",
+      "acceptedAnswers": [],
+      "hint": "قلد حيواناً مختلفاً من حيوانات الحقل.",
+      "clues": [],
+      "explanation": "يذكر التعريف ذهابه إلى الحفل متنكراً بخروف أبيض.",
+      "sources": [
+        "https://www.mashabear.com/en-se/characters/silly-wolf — صفحة المنتج/صاحب الشخصيات، قرئت في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "زي أرنب أبيض"
+        },
+        {
+          "id": "B",
+          "text": "زي دب أبيض"
+        },
+        {
+          "id": "C",
+          "text": "زي خروف أبيض"
+        },
+        {
+          "id": "D",
+          "text": "زي ماعز رمادي"
+        },
+        {
+          "id": "E",
+          "text": "زي بطريق"
+        },
+        {
+          "id": "F",
+          "text": "زي ثعلب أحمر"
+        }
+      ],
+      "correctOptionId": "C",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "spacetoon-legendary-0219",
+      "categoryId": "spacetoon",
+      "difficulty": "legendary",
+      "text": "ما الاختراع المتعلق بالزمن الذي صنعه الدب لكنه لم يكثر من استعماله؟",
+      "answer": "آلة زمن",
+      "acceptedAnswers": [],
+      "hint": "يُحذّر وصفه من العبث بالزمن رغم قدرته على الاختراع.",
+      "clues": [],
+      "explanation": "صنع الدب آلة زمن لكنه لم يستعملها كثيراً.",
+      "sources": [
+        "https://www.mashabear.com/en-se/characters/bear — صفحة المنتج/صاحب الشخصيات، قرئت في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "ساعة منبهة"
+        },
+        {
+          "id": "B",
+          "text": "تقويم آلي"
+        },
+        {
+          "id": "C",
+          "text": "كاميرا سريعة"
+        },
+        {
+          "id": "D",
+          "text": "آلة زمن"
+        },
+        {
+          "id": "E",
+          "text": "منظار نجوم"
+        },
+        {
+          "id": "F",
+          "text": "آلة طقس"
+        }
+      ],
+      "correctOptionId": "D",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "spacetoon-legendary-0220",
+      "categoryId": "spacetoon",
+      "difficulty": "legendary",
+      "text": "ما الذي يميز وصول داشا بالقطار في التعريف الرسمي لشخصيتها؟",
+      "answer": "تصل دائماً في موعدها",
+      "acceptedAnswers": [],
+      "hint": "يعكس الأمر التزامها بالنظام.",
+      "clues": [],
+      "explanation": "يقول التعريف إنها تأتي بالقطار وفي موعدها.",
+      "sources": [
+        "https://www.mashabear.com/en-se/characters/dasha — صفحة المنتج/صاحب الشخصيات، قرئت في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "تصل بعد الموعد دائماً"
+        },
+        {
+          "id": "B",
+          "text": "تصل قبل الموعد بيوم"
+        },
+        {
+          "id": "C",
+          "text": "تصل بلا أمتعة دائماً"
+        },
+        {
+          "id": "D",
+          "text": "تصل بعد أن يفوتها القطار"
+        },
+        {
+          "id": "E",
+          "text": "تصل دائماً في موعدها"
+        },
+        {
+          "id": "F",
+          "text": "تصل في قطار خاص بها"
+        }
+      ],
+      "correctOptionId": "E",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "spacetoon-legendary-0221",
+      "categoryId": "spacetoon",
+      "difficulty": "legendary",
+      "text": "على سفينة مَن بدأ سندباد رحلته الأولى في تعريف المسلسل لدى المنتج؟",
+      "answer": "عمه القبطان علي",
+      "acceptedAnswers": [],
+      "hint": "قريب بحار ألهمه بقصص السفر.",
+      "clues": [],
+      "explanation": "يغادر سندباد على سفينة عمه Captain Ali.",
+      "sources": [
+        "https://www.nipponanimation.com/program/923/ — صفحة المنتج/صاحب الشخصيات، قرئت في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "علي بابا"
+        },
+        {
+          "id": "B",
+          "text": "والده التاجر"
+        },
+        {
+          "id": "C",
+          "text": "القبطان علاء الدين"
+        },
+        {
+          "id": "D",
+          "text": "السلطان"
+        },
+        {
+          "id": "E",
+          "text": "تاجر من القاهرة"
+        },
+        {
+          "id": "F",
+          "text": "عمه القبطان علي"
+        }
+      ],
+      "correctOptionId": "F",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "spacetoon-legendary-0222",
+      "categoryId": "spacetoon",
+      "difficulty": "legendary",
+      "text": "ما العرض الذي تسلل سندباد إلى القصر الملكي لمشاهدته قبل أن يقرر استكشاف العالم؟",
+      "answer": "عروض بهلوانية",
+      "acceptedAnswers": [],
+      "hint": "أثار فضوله حدث ترفيهي في القصر.",
+      "clues": [],
+      "explanation": "يذكر تعريف المنتج مشاهدته عروضاً بهلوانية.",
+      "sources": [
+        "https://www.nipponanimation.com/program/923/ — صفحة المنتج/صاحب الشخصيات، قرئت في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "عروض بهلوانية"
+        },
+        {
+          "id": "B",
+          "text": "سباق خيل"
+        },
+        {
+          "id": "C",
+          "text": "مبارزة سيوف"
+        },
+        {
+          "id": "D",
+          "text": "عرض دمى"
+        },
+        {
+          "id": "E",
+          "text": "مسابقة شعر"
+        },
+        {
+          "id": "F",
+          "text": "حفل عزف منفرد"
+        }
+      ],
+      "correctOptionId": "A",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "spacetoon-legendary-0223",
+      "categoryId": "spacetoon",
+      "difficulty": "legendary",
+      "text": "لماذا واصلت ريمي رحلتها إلى باريس بعد لقاء أمها الحقيقية وآرثر في التعريف الرسمي للقصة؟",
+      "answer": "لأنها لم تدرك أنهما أمها وأخوها",
+      "acceptedAnswers": [],
+      "hint": "كان اللقاء متقدماً على معرفة حقيقة النسب.",
+      "clues": [],
+      "explanation": "التقت بهما دون إدراك صلتهما بها ثم غادرت إلى باريس.",
+      "sources": [
+        "https://www.nipponanimation.com/program/1751/ — صفحة المنتج/صاحب الشخصيات، قرئت في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "لأنهما رفضا التعرف إليها"
+        },
+        {
+          "id": "B",
+          "text": "لأنها لم تدرك أنهما أمها وأخوها"
+        },
+        {
+          "id": "C",
+          "text": "لأنهما لم يوجدا إلا في حلم"
+        },
+        {
+          "id": "D",
+          "text": "لأنها عرفت النسب ورفضته"
+        },
+        {
+          "id": "E",
+          "text": "لأنها فقدت الذاكرة تماماً"
+        },
+        {
+          "id": "F",
+          "text": "لأن آرثر أقنعها أنه من فرقتها"
+        }
+      ],
+      "correctOptionId": "B",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "spacetoon-legendary-0224",
+      "categoryId": "spacetoon",
+      "difficulty": "legendary",
+      "text": "كيف تتشارك جودي تفاصيل حياتها اليومية مع داعمها المجهول في «صاحب الظل الطويل»؟",
+      "answer": "بكتابة الرسائل إليه",
+      "acceptedAnswers": [],
+      "hint": "طريقة التواصل هي التي تمنح الرواية شكلها الخاص.",
+      "clues": [],
+      "explanation": "تكتب جودي إلى داعمها عن حياتها وأنشطتها.",
+      "sources": [
+        "https://www.nipponanimation.com/program/1582/ — صفحة المنتج/صاحب الشخصيات، قرئت في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "بتسجيل يوميات صوتية"
+        },
+        {
+          "id": "B",
+          "text": "بنشر أخبار في صحيفة"
+        },
+        {
+          "id": "C",
+          "text": "بكتابة الرسائل إليه"
+        },
+        {
+          "id": "D",
+          "text": "بتكليف معلمتها بالزيارة"
+        },
+        {
+          "id": "E",
+          "text": "بإرسال لوحات دون كلمات"
+        },
+        {
+          "id": "F",
+          "text": "بترك رسائل عند نافذته"
+        }
+      ],
+      "correctOptionId": "C",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "spacetoon-legendary-0225",
+      "categoryId": "spacetoon",
+      "difficulty": "legendary",
+      "text": "ما الذي يعثر عليه توم وهاك مصادفةً خلال المغامرات في ملخص المنتج لـ«توم سوير»؟",
+      "answer": "ذهب مخبأ",
+      "acceptedAnswers": [],
+      "hint": "المفاجأة كنز ثمين وليست مجرد أثر قديم.",
+      "clues": [],
+      "explanation": "يذكر الملخص عثورهما على ذهب مخبأ.",
+      "sources": [
+        "https://www.nipponanimation.com/program/1370/ — صفحة المنتج/صاحب الشخصيات، قرئت في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "مجوهرات تاج"
+        },
+        {
+          "id": "B",
+          "text": "مخطوطة نادرة"
+        },
+        {
+          "id": "C",
+          "text": "فضة مهربة"
+        },
+        {
+          "id": "D",
+          "text": "ذهب مخبأ"
+        },
+        {
+          "id": "E",
+          "text": "صندوق لآلئ"
+        },
+        {
+          "id": "F",
+          "text": "تمثال ذهبي"
+        }
+      ],
+      "correctOptionId": "D",
+      "qualityStatus": "reviewed"
+    }
+  ]
+}

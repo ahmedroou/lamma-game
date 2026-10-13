@@ -1,0 +1,4205 @@
+{
+  "categoryId": "flags",
+  "questions": [
+    {
+      "id": "flags-easy-0201",
+      "categoryId": "flags",
+      "difficulty": "easy",
+      "text": "عند تعليق العلم الكندي رأسياً على جدار، إلى أين تتجه قمة ورقة القيقب بالنسبة إلى المشاهد؟",
+      "answer": "إلى يساره",
+      "acceptedAnswers": [],
+      "hint": "لا يكفي تدوير العلم؛ يجب حفظ موضع الشرف.",
+      "clues": [],
+      "explanation": "تعليمات العرض الكندية تجعل قمة الورقة يسار المشاهد.",
+      "sources": [
+        "https://www.canada.ca/en/canadian-heritage/services/flag-canada-etiquette/flying-rules.html — المصدر/النسخة المبينة في نص السؤال؛ قرئت الصفحة في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "إلى يساره"
+        },
+        {
+          "id": "B",
+          "text": "إلى يمينه"
+        },
+        {
+          "id": "C",
+          "text": "إلى الأعلى"
+        },
+        {
+          "id": "D",
+          "text": "إلى الأسفل"
+        },
+        {
+          "id": "E",
+          "text": "نحو السقف بزاوية"
+        },
+        {
+          "id": "F",
+          "text": "نحو الأرض بزاوية"
+        }
+      ],
+      "correctOptionId": "A",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "flags-easy-0202",
+      "categoryId": "flags",
+      "difficulty": "easy",
+      "text": "عند تعليق علم جنوب إفريقيا رأسياً على جدار، أين يكون الشريط الأحمر بالنسبة إلى المشاهد؟",
+      "answer": "على اليسار",
+      "acceptedAnswers": [],
+      "hint": "يتغير اتجاه الأشرطة عند الانتقال من الأفقي إلى الرأسي.",
+      "clues": [],
+      "explanation": "التعليمات تجعل الأحمر يسار المشاهد وحافة السارية بالأعلى.",
+      "sources": [
+        "https://www.gov.za/ss/about-sa/national-flag-0 — المصدر/النسخة المبينة في نص السؤال؛ قرئت الصفحة في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "على اليمين"
+        },
+        {
+          "id": "B",
+          "text": "على اليسار"
+        },
+        {
+          "id": "C",
+          "text": "في الأعلى"
+        },
+        {
+          "id": "D",
+          "text": "في الأسفل"
+        },
+        {
+          "id": "E",
+          "text": "في المنتصف وحده"
+        },
+        {
+          "id": "F",
+          "text": "على جانبي العلم"
+        }
+      ],
+      "correctOptionId": "B",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "flags-easy-0203",
+      "categoryId": "flags",
+      "difficulty": "easy",
+      "text": "وفق دليل مؤسسة توماس ميغر، أي لون يكون أعلى العلم الأيرلندي عند عرضه رأسياً على جدار؟",
+      "answer": "الأخضر",
+      "acceptedAnswers": [],
+      "hint": "هو اللون الذي يجاور السارية في وضعه المعتاد.",
+      "clues": [],
+      "explanation": "يكون الأخضر أعلى العلم عند التعليق الرأسي.",
+      "sources": [
+        "https://tfmfoundation.ie/the-flag-protocol/ — المصدر/النسخة المبينة في نص السؤال؛ قرئت الصفحة في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "البرتقالي"
+        },
+        {
+          "id": "B",
+          "text": "الأبيض"
+        },
+        {
+          "id": "C",
+          "text": "الأخضر"
+        },
+        {
+          "id": "D",
+          "text": "الأخضر والأبيض مناصفة"
+        },
+        {
+          "id": "E",
+          "text": "الأبيض والبرتقالي مناصفة"
+        },
+        {
+          "id": "F",
+          "text": "تتبادل الألوان مواضعها دون قيد"
+        }
+      ],
+      "correctOptionId": "C",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "flags-easy-0204",
+      "categoryId": "flags",
+      "difficulty": "easy",
+      "text": "وفق المادة 7 من قانون العلم الأمريكي، أين يكون حقل النجوم عند عرض العلم على جدار أمام المشاهد؟",
+      "answer": "في الأعلى على يساره",
+      "acceptedAnswers": [],
+      "hint": "القاعدة تحفظ موضع «الاتحاد» في العرض الجداري.",
+      "clues": [],
+      "explanation": "يكون الحقل الأزرق أعلى ويسار المشاهد أفقياً أو رأسياً.",
+      "sources": [
+        "https://www.govinfo.gov/content/pkg/USCODE-2018-title4/html/USCODE-2018-title4-chap1-sec7.htm — المصدر/النسخة المبينة في نص السؤال؛ قرئت الصفحة في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "في الأعلى على يمينه"
+        },
+        {
+          "id": "B",
+          "text": "في الأسفل على يساره"
+        },
+        {
+          "id": "C",
+          "text": "في الأسفل على يمينه"
+        },
+        {
+          "id": "D",
+          "text": "في الأعلى على يساره"
+        },
+        {
+          "id": "E",
+          "text": "في مركز الجدار"
+        },
+        {
+          "id": "F",
+          "text": "فوق منتصف الشريط الأبيض"
+        }
+      ],
+      "correctOptionId": "D",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "flags-easy-0205",
+      "categoryId": "flags",
+      "difficulty": "easy",
+      "text": "ما الشرط الذي يذكره البروتوكول الأسترالي لرفع العلم الوطني ليلاً؟",
+      "answer": "أن يكون مضاءً",
+      "acceptedAnswers": [],
+      "hint": "تظل رؤية الرمز الوطني مطلوبة بعد الغروب.",
+      "clues": [],
+      "explanation": "لا يرفع العلم الأسترالي ليلاً إلا مع إضاءته.",
+      "sources": [
+        "https://www.pmc.gov.au/honours-and-symbols/australian-national-symbols/australian-national-flag/australian-national-flag-protocols — المصدر/النسخة المبينة في نص السؤال؛ قرئت الصفحة في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "أن يكون أصغر من علم النهار"
+        },
+        {
+          "id": "B",
+          "text": "أن يرفع في منتصف السارية"
+        },
+        {
+          "id": "C",
+          "text": "أن يطوى نصفه"
+        },
+        {
+          "id": "D",
+          "text": "أن يرفع دون حبل"
+        },
+        {
+          "id": "E",
+          "text": "أن يكون مضاءً"
+        },
+        {
+          "id": "F",
+          "text": "أن يجاوره علم ولاية"
+        }
+      ],
+      "correctOptionId": "E",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "flags-easy-0206",
+      "categoryId": "flags",
+      "difficulty": "easy",
+      "text": "هل يشترط الدليل الكندي إضاءة العلم الوطني إذا ظل مرفوعاً بعد غروب الشمس؟",
+      "answer": "لا، يسمح برفعه ليلاً دون اشتراط إضاءة",
+      "acceptedAnswers": [],
+      "hint": "هذه نقطة تختلف فيها التعليمات من بلد إلى آخر.",
+      "clues": [],
+      "explanation": "تسمح كندا برفع العلم ليلاً ونهاراً ولا تشترط الإضاءة.",
+      "sources": [
+        "https://www.canada.ca/en/canadian-heritage/services/flag-canada-etiquette/flying-rules.html — المصدر/النسخة المبينة في نص السؤال؛ قرئت الصفحة في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "نعم، بإضاءة دائمة"
+        },
+        {
+          "id": "B",
+          "text": "نعم، إذا رفع على مبنى فقط"
+        },
+        {
+          "id": "C",
+          "text": "نعم، في الشتاء فقط"
+        },
+        {
+          "id": "D",
+          "text": "لا، لأن الرفع ليلاً ممنوع أصلاً"
+        },
+        {
+          "id": "E",
+          "text": "لا، بشرط تنكيسه ليلاً"
+        },
+        {
+          "id": "F",
+          "text": "لا، يسمح برفعه ليلاً دون اشتراط إضاءة"
+        }
+      ],
+      "correctOptionId": "F",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "flags-easy-0207",
+      "categoryId": "flags",
+      "difficulty": "easy",
+      "text": "ما الخطوة المطلوبة قبل تخزين علم جنوب إفريقيا إذا ابتلّ بالمطر، وفق تعليمات 2001 ؟",
+      "answer": "تجفيفه جيداً",
+      "acceptedAnswers": [],
+      "hint": "الرطوبة قد تؤثر في القماش أثناء التخزين.",
+      "clues": [],
+      "explanation": "تنص التعليمات على تجفيف الأعلام المبتلة قبل وضعها بعيداً.",
+      "sources": [
+        "https://www.gov.za/sites/default/files/22356.pdf — المصدر/النسخة المبينة في نص السؤال؛ قرئت الصفحة في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "تجفيفه جيداً"
+        },
+        {
+          "id": "B",
+          "text": "لفه وهو مبتل"
+        },
+        {
+          "id": "C",
+          "text": "وضعه مباشرة في صندوق مغلق"
+        },
+        {
+          "id": "D",
+          "text": "تعليقه مطوياً في الماء"
+        },
+        {
+          "id": "E",
+          "text": "تغطيته بعلم آخر"
+        },
+        {
+          "id": "F",
+          "text": "تركه على الأرض حتى الصباح"
+        }
+      ],
+      "correctOptionId": "A",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "flags-easy-0208",
+      "categoryId": "flags",
+      "difficulty": "easy",
+      "text": "إذا غطى العلم الأمريكي تابوتاً، ماذا يجب فعله قبل إنزال التابوت إلى القبر؟",
+      "answer": "إزالة العلم",
+      "acceptedAnswers": [],
+      "hint": "القماش الرمزي لا ينزل مع التابوت.",
+      "clues": [],
+      "explanation": "المادة 7 تمنع إنزال العلم في القبر أو ملامسته الأرض.",
+      "sources": [
+        "https://www.govinfo.gov/content/pkg/USCODE-2018-title4/html/USCODE-2018-title4-chap1-sec7.htm — المصدر/النسخة المبينة في نص السؤال؛ قرئت الصفحة في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "إنزاله مع التابوت"
+        },
+        {
+          "id": "B",
+          "text": "إزالة العلم"
+        },
+        {
+          "id": "C",
+          "text": "تركه تحت التابوت"
+        },
+        {
+          "id": "D",
+          "text": "دفن زاوية النجوم فقط"
+        },
+        {
+          "id": "E",
+          "text": "لفه حول التابوت بإحكام"
+        },
+        {
+          "id": "F",
+          "text": "تثبيته في أرض القبر"
+        }
+      ],
+      "correctOptionId": "B",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "flags-easy-0209",
+      "categoryId": "flags",
+      "difficulty": "easy",
+      "text": "ما دلالة الحاشية الذهبية على علم كندي احتفالي بحسب الدليل الرسمي؟",
+      "answer": "زينة فقط دون معنى قانوني خاص",
+      "acceptedAnswers": [],
+      "hint": "فرق بين التصميم الوطني وإضافة تزيينية للحواف.",
+      "clues": [],
+      "explanation": "الحاشية الذهبية إضافة زخرفية لا تمنح معنى قانونياً.",
+      "sources": [
+        "https://www.canada.ca/en/canadian-heritage/services/flag-canada-etiquette/flying-rules.html — المصدر/النسخة المبينة في نص السؤال؛ قرئت الصفحة في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "إعلان حالة الطوارئ"
+        },
+        {
+          "id": "B",
+          "text": "إعلان السيادة الملكية"
+        },
+        {
+          "id": "C",
+          "text": "زينة فقط دون معنى قانوني خاص"
+        },
+        {
+          "id": "D",
+          "text": "تغيير صفة العلم إلى عسكري"
+        },
+        {
+          "id": "E",
+          "text": "إلغاء صفة العلم الوطنية"
+        },
+        {
+          "id": "F",
+          "text": "إعلان ولاية قضائية مستقلة"
+        }
+      ],
+      "correctOptionId": "C",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "flags-easy-0210",
+      "categoryId": "flags",
+      "difficulty": "easy",
+      "text": "أين يستخدم العلم الكندي ذو الحاشية الاحتفالية الذهبية وفق دليل العرض؟",
+      "answer": "داخل المباني وفي المناسبات الاحتفالية",
+      "acceptedAnswers": [],
+      "hint": "الإضافة تميزه عن علم السارية الخارجية المعتاد.",
+      "clues": [],
+      "explanation": "لا ترفع الأعلام الاحتفالية ذات الحاشية من سارية خارجية.",
+      "sources": [
+        "https://www.canada.ca/en/canadian-heritage/services/flag-canada-etiquette/flying-rules.html — المصدر/النسخة المبينة في نص السؤال؛ قرئت الصفحة في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "على السارية الخارجية حصراً"
+        },
+        {
+          "id": "B",
+          "text": "على سفن الصيد حصراً"
+        },
+        {
+          "id": "C",
+          "text": "فوق السيارة المتحركة حصراً"
+        },
+        {
+          "id": "D",
+          "text": "داخل المباني وفي المناسبات الاحتفالية"
+        },
+        {
+          "id": "E",
+          "text": "بدلاً من علم الميناء دائماً"
+        },
+        {
+          "id": "F",
+          "text": "على سارية الجنازات حصراً"
+        }
+      ],
+      "correctOptionId": "D",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "flags-easy-0211",
+      "categoryId": "flags",
+      "difficulty": "easy",
+      "text": "وجد منظم حفل علماً أسترالياً باهتاً وممزقاً. ما الإجراء الموافق للدليل؟",
+      "answer": "استبداله وعدم رفعه بحالته المتدهورة",
+      "acceptedAnswers": [],
+      "hint": "احترام الرمز يشمل الحالة المادية للقماش.",
+      "clues": [],
+      "explanation": "ينص البروتوكول على عدم رفع علم تالف أو باهت.",
+      "sources": [
+        "https://www.pmc.gov.au/honours-and-symbols/australian-national-symbols/australian-national-flag/australian-national-flag-protocols — المصدر/النسخة المبينة في نص السؤال؛ قرئت الصفحة في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "رفعه مقلوباً"
+        },
+        {
+          "id": "B",
+          "text": "تنكيسه دائماً بدلاً من استبداله"
+        },
+        {
+          "id": "C",
+          "text": "خياطة شعار فوق التمزق ورفعه"
+        },
+        {
+          "id": "D",
+          "text": "رفعه خلف الأعلام الأخرى"
+        },
+        {
+          "id": "E",
+          "text": "استبداله وعدم رفعه بحالته المتدهورة"
+        },
+        {
+          "id": "F",
+          "text": "قص النجوم التالفة ثم رفعه"
+        }
+      ],
+      "correctOptionId": "E",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "flags-easy-0212",
+      "categoryId": "flags",
+      "difficulty": "easy",
+      "text": "وفق تعليمات جنوب إفريقيا لعام 2001 ، هل يجوز استعمال العلم الوطني لإعلان بدء سباق أو نهايته؟",
+      "answer": "لا، لا يستعمل إشارة بدء أو نهاية",
+      "acceptedAnswers": [],
+      "hint": "العلم الوطني له استخدام رمزي مختلف عن علم التحكيم الرياضي.",
+      "clues": [],
+      "explanation": "تمنع التعليمات استخدامه لبدء المنافسات أو إنهائها.",
+      "sources": [
+        "https://www.gov.za/sites/default/files/22356.pdf — المصدر/النسخة المبينة في نص السؤال؛ قرئت الصفحة في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "نعم في بداية السباق فقط"
+        },
+        {
+          "id": "B",
+          "text": "نعم في نهايته فقط"
+        },
+        {
+          "id": "C",
+          "text": "نعم إذا كان السباق دولياً"
+        },
+        {
+          "id": "D",
+          "text": "نعم إذا لم يلمس الأرض"
+        },
+        {
+          "id": "E",
+          "text": "نعم إذا أمسك به متسابق"
+        },
+        {
+          "id": "F",
+          "text": "لا، لا يستعمل إشارة بدء أو نهاية"
+        }
+      ],
+      "correctOptionId": "F",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "flags-easy-0213",
+      "categoryId": "flags",
+      "difficulty": "easy",
+      "text": "هل تسمح إرشادات العلم الأيرلندي بإضافة شعار نادٍ أو عبارة تشجيع فوق ألوانه؟",
+      "answer": "لا، يجب عدم إضافة كتابة أو شعارات عليه",
+      "acceptedAnswers": [],
+      "hint": "تختلف الزينة حول الحافة عن تغيير سطح التصميم.",
+      "clues": [],
+      "explanation": "يمنع الدليل تشويه العلم بشعارات وكتابة وصور.",
+      "sources": [
+        "https://tfmfoundation.ie/the-flag-protocol/ — المصدر/النسخة المبينة في نص السؤال؛ قرئت الصفحة في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "لا، يجب عدم إضافة كتابة أو شعارات عليه"
+        },
+        {
+          "id": "B",
+          "text": "نعم على الأبيض فقط"
+        },
+        {
+          "id": "C",
+          "text": "نعم على الأخضر فقط"
+        },
+        {
+          "id": "D",
+          "text": "نعم على البرتقالي فقط"
+        },
+        {
+          "id": "E",
+          "text": "نعم في مباريات المنتخب"
+        },
+        {
+          "id": "F",
+          "text": "نعم إذا كانت الكتابة صغيرة"
+        }
+      ],
+      "correctOptionId": "A",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "flags-easy-0214",
+      "categoryId": "flags",
+      "difficulty": "easy",
+      "text": "وفق قانون العلم الأمريكي، هل يستعمل العلم غطاءً لتمثال عند إزاحة الستار عنه؟",
+      "answer": "لا، يكون حاضراً دون أن يغطي التمثال",
+      "acceptedAnswers": [],
+      "hint": "ميز بين المشاركة في الحفل واستعماله ستاراً.",
+      "clues": [],
+      "explanation": "المادة 7 تسمح بروزه في الحفل وتمنع جعله غطاء للتمثال.",
+      "sources": [
+        "https://www.govinfo.gov/content/pkg/USCODE-2018-title4/html/USCODE-2018-title4-chap1-sec7.htm — المصدر/النسخة المبينة في نص السؤال؛ قرئت الصفحة في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "نعم إذا كان التمثال وطنياً"
+        },
+        {
+          "id": "B",
+          "text": "لا، يكون حاضراً دون أن يغطي التمثال"
+        },
+        {
+          "id": "C",
+          "text": "نعم إذا غطى قاعدة التمثال"
+        },
+        {
+          "id": "D",
+          "text": "نعم إذا كان العلم كبيراً"
+        },
+        {
+          "id": "E",
+          "text": "نعم إذا أزيل قبل الخطاب"
+        },
+        {
+          "id": "F",
+          "text": "نعم إذا حضر مسؤول رسمي"
+        }
+      ],
+      "correctOptionId": "B",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "flags-easy-0215",
+      "categoryId": "flags",
+      "difficulty": "easy",
+      "text": "وفق المرسوم الألماني لعام 2005 ، كيف يعبر عن الحداد بعلم لا يمكن إنزاله تقنياً إلى نصف السارية؟",
+      "answer": "بإضافة شريط حداد أسود",
+      "acceptedAnswers": [],
+      "hint": "لا يمكن تطبيق حركة السارية على كل نوع من الأعلام.",
+      "clues": [],
+      "explanation": "يستعمل Trauerflor عندما يتعذر التنكيس تقنياً.",
+      "sources": [
+        "https://www.verwaltungsvorschriften-im-internet.de/bsvwvbund_22032005_Z4a1150415.htm — المصدر/النسخة المبينة في نص السؤال؛ قرئت الصفحة في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "بقلب ترتيب الألوان"
+        },
+        {
+          "id": "B",
+          "text": "بإخفاء اللون الذهبي"
+        },
+        {
+          "id": "C",
+          "text": "بإضافة شريط حداد أسود"
+        },
+        {
+          "id": "D",
+          "text": "بإزالة العلم كله وجوباً"
+        },
+        {
+          "id": "E",
+          "text": "بخفض إضاءته فقط"
+        },
+        {
+          "id": "F",
+          "text": "بوضع شعار أبيض في وسطه"
+        }
+      ],
+      "correctOptionId": "C",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "flags-easy-0216",
+      "categoryId": "flags",
+      "difficulty": "easy",
+      "text": "في إنجلترا، إذا رفعت رايتان على سارية واحدة وفق إرشادات الحكومة، أين يكون علم الاتحاد؟",
+      "answer": "فوق الراية الأخرى",
+      "acceptedAnswers": [],
+      "hint": "الأسبقية هنا رأسية لا يميناً ويساراً.",
+      "clues": [],
+      "explanation": "تطلب الإرشادات وضع علم الاتحاد في الأعلى عند الرفع المشترك.",
+      "sources": [
+        "https://www.gov.uk/guidance/designated-days-for-union-flag-flying — المصدر/النسخة المبينة في نص السؤال؛ قرئت الصفحة في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "تحت الراية الأخرى"
+        },
+        {
+          "id": "B",
+          "text": "في منتصف الراية الأخرى"
+        },
+        {
+          "id": "C",
+          "text": "مطوياً خلفها"
+        },
+        {
+          "id": "D",
+          "text": "فوق الراية الأخرى"
+        },
+        {
+          "id": "E",
+          "text": "منفصلاً عن الحبل"
+        },
+        {
+          "id": "F",
+          "text": "في الموضع الأقل ارتفاعاً"
+        }
+      ],
+      "correctOptionId": "D",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "flags-easy-0217",
+      "categoryId": "flags",
+      "difficulty": "easy",
+      "text": "هل يجيز دليل كندا رفع علمها الوطني وعلم دولة أخرى من السارية العادية نفسها؟",
+      "answer": "لا، يرفع العلم الوطني على سارية مستقلة",
+      "acceptedAnswers": [],
+      "hint": "أحد شروط العرض يتعلق باستقلال الحامل.",
+      "clues": [],
+      "explanation": "لا يرفع العلم الكندي مع أي علم آخر على السارية نفسها.",
+      "sources": [
+        "https://www.canada.ca/en/canadian-heritage/services/flag-canada-etiquette/flying-rules.html — المصدر/النسخة المبينة في نص السؤال؛ قرئت الصفحة في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "نعم إذا كان الكندي بالأعلى"
+        },
+        {
+          "id": "B",
+          "text": "نعم إذا كان الأجنبي بالأعلى"
+        },
+        {
+          "id": "C",
+          "text": "نعم إذا تطابقت الأبعاد"
+        },
+        {
+          "id": "D",
+          "text": "نعم إذا كانا مضاءين"
+        },
+        {
+          "id": "E",
+          "text": "لا، يرفع العلم الوطني على سارية مستقلة"
+        },
+        {
+          "id": "F",
+          "text": "نعم إذا كان أحدهما منكّساً"
+        }
+      ],
+      "correctOptionId": "E",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "flags-easy-0218",
+      "categoryId": "flags",
+      "difficulty": "easy",
+      "text": "إذا لم ترفع الأعلام كلها معاً في حفل أسترالي، ما ترتيب رفع العلم الوطني وإنزاله؟",
+      "answer": "يرفع أولاً وينزل أخيراً",
+      "acceptedAnswers": [],
+      "hint": "الأسبقية ترافق افتتاح الرفع وختامه.",
+      "clues": [],
+      "explanation": "يكون الوطني الأول في الرفع والأخير في الإنزال.",
+      "sources": [
+        "https://www.pmc.gov.au/honours-and-symbols/australian-national-symbols/australian-national-flag/australian-national-flag-protocols — المصدر/النسخة المبينة في نص السؤال؛ قرئت الصفحة في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "يرفع أخيراً وينزل أولاً"
+        },
+        {
+          "id": "B",
+          "text": "يرفع أولاً وينزل أولاً"
+        },
+        {
+          "id": "C",
+          "text": "يرفع أخيراً وينزل أخيراً"
+        },
+        {
+          "id": "D",
+          "text": "يرفع بعد الأجنبي وينزل قبله"
+        },
+        {
+          "id": "E",
+          "text": "يرفع بعد أعلام الولايات وينزل معها"
+        },
+        {
+          "id": "F",
+          "text": "يرفع أولاً وينزل أخيراً"
+        }
+      ],
+      "correctOptionId": "F",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "flags-easy-0219",
+      "categoryId": "flags",
+      "difficulty": "easy",
+      "text": "عند تغطية تابوت بالعلم الأيرلندي، أي لون يكون عند الرأس وفق دليل ميغر؟",
+      "answer": "الأخضر",
+      "acceptedAnswers": [],
+      "hint": "راجع اتجاه الشريط الذي يجاور السارية عادةً.",
+      "clues": [],
+      "explanation": "الدليل يجعل الأخضر عند رأس التابوت.",
+      "sources": [
+        "https://tfmfoundation.ie/the-flag-protocol/ — المصدر/النسخة المبينة في نص السؤال؛ قرئت الصفحة في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "الأخضر"
+        },
+        {
+          "id": "B",
+          "text": "البرتقالي"
+        },
+        {
+          "id": "C",
+          "text": "الأبيض"
+        },
+        {
+          "id": "D",
+          "text": "الأخضر والبرتقالي بالتساوي"
+        },
+        {
+          "id": "E",
+          "text": "الأبيض والأخضر بالتساوي"
+        },
+        {
+          "id": "F",
+          "text": "لا يوجد اتجاه محدد"
+        }
+      ],
+      "correctOptionId": "A",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "flags-easy-0220",
+      "categoryId": "flags",
+      "difficulty": "easy",
+      "text": "في الاستعراضات الكندية على البر، هل يمال العلم الوطني المحمول نحو الأرض لتحية شخص؟",
+      "answer": "لا، العلم الوطني المحمول لا يمال للتحية",
+      "acceptedAnswers": [],
+      "hint": "لا تخلط هذه القاعدة مع تحية السفن في البحر.",
+      "clues": [],
+      "explanation": "لا ينكس العلم الوطني المحمول بالميل في المراسم البرية.",
+      "sources": [
+        "https://www.canada.ca/en/canadian-heritage/services/flag-canada-etiquette/flying-rules.html — المصدر/النسخة المبينة في نص السؤال؛ قرئت الصفحة في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "نعم لكل مسؤول"
+        },
+        {
+          "id": "B",
+          "text": "لا، العلم الوطني المحمول لا يمال للتحية"
+        },
+        {
+          "id": "C",
+          "text": "نعم للملك وحده"
+        },
+        {
+          "id": "D",
+          "text": "نعم لرئيس الوزراء وحده"
+        },
+        {
+          "id": "E",
+          "text": "نعم لأي ضابط"
+        },
+        {
+          "id": "F",
+          "text": "نعم إذا كان حامله مدنياً"
+        }
+      ],
+      "correctOptionId": "B",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "flags-easy-0221",
+      "categoryId": "flags",
+      "difficulty": "easy",
+      "text": "كيف يقف الحاضرون عند رفع العلم الأسترالي أو إنزاله في المراسم؟",
+      "answer": "يصمتون ويواجهون العلم",
+      "acceptedAnswers": [],
+      "hint": "يرافق المشهد احترام هادئ، ويحيي أصحاب الزي الرسمي.",
+      "clues": [],
+      "explanation": "يوجه الجمهور وجوهه للعلم ويلتزم الصمت.",
+      "sources": [
+        "https://www.pmc.gov.au/honours-and-symbols/australian-national-symbols/australian-national-flag/australian-national-flag-protocols — المصدر/النسخة المبينة في نص السؤال؛ قرئت الصفحة في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "يتحدثون ويديرون ظهورهم"
+        },
+        {
+          "id": "B",
+          "text": "يجلسون ويواجهون المدخل"
+        },
+        {
+          "id": "C",
+          "text": "يصمتون ويواجهون العلم"
+        },
+        {
+          "id": "D",
+          "text": "يواجهون المتحدث دون العلم"
+        },
+        {
+          "id": "E",
+          "text": "يلوحون بالأعلام دون توقف"
+        },
+        {
+          "id": "F",
+          "text": "يصفقون طوال عملية الإنزال"
+        }
+      ],
+      "correctOptionId": "C",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "flags-easy-0222",
+      "categoryId": "flags",
+      "difficulty": "easy",
+      "text": "وفق المادة 7 ، كيف يعرض العلم الأمريكي في يوم الذكرى Memorial Day بعد الظهر؟",
+      "answer": "يرفع إلى قمة السارية",
+      "acceptedAnswers": [],
+      "hint": "التنكيس في هذا اليوم يقتصر على جزء من النهار.",
+      "clues": [],
+      "explanation": "ينكس حتى الظهر ثم يرفع إلى أعلى السارية.",
+      "sources": [
+        "https://www.govinfo.gov/content/pkg/USCODE-2018-title4/html/USCODE-2018-title4-chap1-sec7.htm — المصدر/النسخة المبينة في نص السؤال؛ قرئت الصفحة في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "يبقى منكّساً حتى الغروب"
+        },
+        {
+          "id": "B",
+          "text": "ينزل تماماً عند الظهر"
+        },
+        {
+          "id": "C",
+          "text": "يقلب رأساً على عقب"
+        },
+        {
+          "id": "D",
+          "text": "يرفع إلى قمة السارية"
+        },
+        {
+          "id": "E",
+          "text": "يطوى فوق السارية"
+        },
+        {
+          "id": "F",
+          "text": "يستبدل بعلم الولاية"
+        }
+      ],
+      "correctOptionId": "D",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "flags-easy-0223",
+      "categoryId": "flags",
+      "difficulty": "easy",
+      "text": "ما أبكر ساعة يجيزها المرسوم الألماني 2005 لبدء الرفع النهاري على المباني الاتحادية؟",
+      "answer": "السابعة صباحاً",
+      "acceptedAnswers": [],
+      "hint": "يبدأ عند ضوء النهار، لكنه يضع حداً أدنى زمنياً.",
+      "clues": [],
+      "explanation": "يبدأ الرفع عند الفجر ولكن ليس قبل الساعة 07:00.",
+      "sources": [
+        "https://www.verwaltungsvorschriften-im-internet.de/bsvwvbund_22032005_Z4a1150415.htm — المصدر/النسخة المبينة في نص السؤال؛ قرئت الصفحة في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "الخامسة صباحاً"
+        },
+        {
+          "id": "B",
+          "text": "السادسة صباحاً"
+        },
+        {
+          "id": "C",
+          "text": "الثامنة صباحاً"
+        },
+        {
+          "id": "D",
+          "text": "التاسعة صباحاً"
+        },
+        {
+          "id": "E",
+          "text": "السابعة صباحاً"
+        },
+        {
+          "id": "F",
+          "text": "العاشرة صباحاً"
+        }
+      ],
+      "correctOptionId": "E",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "flags-easy-0224",
+      "categoryId": "flags",
+      "difficulty": "easy",
+      "text": "هل يلزم رفع وإنزال علم جنوب إفريقيا الداخلي في قاعة المدخل كل يوم، وفق تعليمات 2001 ؟",
+      "answer": "لا، الأعلام الداخلية لا ترفع وتنزل يومياً",
+      "acceptedAnswers": [],
+      "hint": "السارية الداخلية تختلف عن الخارجية ذات حبال الرفع.",
+      "clues": [],
+      "explanation": "تنص التعليمات على أن الأعلام الداخلية لا ترفع وتنزل يومياً.",
+      "sources": [
+        "https://www.gov.za/sites/default/files/22356.pdf — المصدر/النسخة المبينة في نص السؤال؛ قرئت الصفحة في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "نعم عند كل دخول للقاعة"
+        },
+        {
+          "id": "B",
+          "text": "نعم كل ساعة"
+        },
+        {
+          "id": "C",
+          "text": "نعم عند بداية كل اجتماع"
+        },
+        {
+          "id": "D",
+          "text": "نعم عند كل غروب"
+        },
+        {
+          "id": "E",
+          "text": "نعم عند كل تبديل للحارس"
+        },
+        {
+          "id": "F",
+          "text": "لا، الأعلام الداخلية لا ترفع وتنزل يومياً"
+        }
+      ],
+      "correctOptionId": "F",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "flags-easy-0225",
+      "categoryId": "flags",
+      "difficulty": "easy",
+      "text": "عند وضع العلم الكندي على سارية بجوار منصة متحدث، أين يكون بالنسبة إلى الجمهور؟",
+      "answer": "يسار الجمهور",
+      "acceptedAnswers": [],
+      "hint": "هو الموضع الذي يقابل يمين المتحدث عادةً.",
+      "clues": [],
+      "explanation": "يوضع على يسار الجمهور في القاعة.",
+      "sources": [
+        "https://www.canada.ca/en/canadian-heritage/services/flag-canada-etiquette/flying-rules.html — المصدر/النسخة المبينة في نص السؤال؛ قرئت الصفحة في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "يسار الجمهور"
+        },
+        {
+          "id": "B",
+          "text": "يمين الجمهور"
+        },
+        {
+          "id": "C",
+          "text": "خلف الجمهور"
+        },
+        {
+          "id": "D",
+          "text": "وسط مقاعد الجمهور"
+        },
+        {
+          "id": "E",
+          "text": "أسفل المنصة"
+        },
+        {
+          "id": "F",
+          "text": "أمام المدخل دائماً"
+        }
+      ],
+      "correctOptionId": "A",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "flags-medium-0201",
+      "categoryId": "flags",
+      "difficulty": "medium",
+      "text": "عند تثبيت العلم الكندي مسطحاً على جدار خلف متحدث، ما موضعه الموافق للدليل؟",
+      "answer": "أعلى المتحدث وخلفه",
+      "acceptedAnswers": [],
+      "hint": "لا يستعمل ستاراً على مقدمة طاولته.",
+      "clues": [],
+      "explanation": "الدليل يجعله أعلى وخلف المتحدث.",
+      "sources": [
+        "https://www.canada.ca/en/canadian-heritage/services/flag-canada-etiquette/flying-rules.html — المصدر/النسخة المبينة في نص السؤال؛ قرئت الصفحة في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "أسفل طاولة المتحدث"
+        },
+        {
+          "id": "B",
+          "text": "أعلى المتحدث وخلفه"
+        },
+        {
+          "id": "C",
+          "text": "فوق الأرض أمامه"
+        },
+        {
+          "id": "D",
+          "text": "على مقدمة طاولته"
+        },
+        {
+          "id": "E",
+          "text": "خلف كرسي أحد الحاضرين"
+        },
+        {
+          "id": "F",
+          "text": "تحت نافذة جانبية دائماً"
+        }
+      ],
+      "correctOptionId": "B",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "flags-medium-0202",
+      "categoryId": "flags",
+      "difficulty": "medium",
+      "text": "إذا وضع علم جنوب إفريقيا بعيداً عن منصة المتحدث في جزء آخر من قاعة الاجتماع، في أي جانب يوضع؟",
+      "answer": "يمين الجمهور",
+      "acceptedAnswers": [],
+      "hint": "الدليل يفرق بين قربه من المتحدث وبين موقعه الآخر في القاعة.",
+      "clues": [],
+      "explanation": "عند وضعه في مكان آخر يكون على يمين الجمهور.",
+      "sources": [
+        "https://www.gov.za/ss/about-sa/national-flag-0 — المصدر/النسخة المبينة في نص السؤال؛ قرئت الصفحة في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "يسار الجمهور"
+        },
+        {
+          "id": "B",
+          "text": "خلف الجمهور"
+        },
+        {
+          "id": "C",
+          "text": "يمين الجمهور"
+        },
+        {
+          "id": "D",
+          "text": "وسط ممر الخروج"
+        },
+        {
+          "id": "E",
+          "text": "أسفل المنصة"
+        },
+        {
+          "id": "F",
+          "text": "فوق طاولة المتحدث دائماً"
+        }
+      ],
+      "correctOptionId": "C",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "flags-medium-0203",
+      "categoryId": "flags",
+      "difficulty": "medium",
+      "text": "بين علم كندا وعلم دولة زائرة على ساريتين متجاورتين، أيهما يكون يسار المشاهد على أرض كندية؟",
+      "answer": "علم كندا",
+      "acceptedAnswers": [],
+      "hint": "الدولة المضيفة تمنح رايتها موضع الشرف.",
+      "clues": [],
+      "explanation": "في عرض علمين يكون العلم الكندي أقصى اليسار.",
+      "sources": [
+        "https://www.canada.ca/en/canadian-heritage/services/flag-canada-etiquette/position-honour.html — المصدر/النسخة المبينة في نص السؤال؛ قرئت الصفحة في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "علم الدولة الزائرة"
+        },
+        {
+          "id": "B",
+          "text": "العلم الأحدث اعتماداً"
+        },
+        {
+          "id": "C",
+          "text": "العلم الأكبر مساحةً"
+        },
+        {
+          "id": "D",
+          "text": "علم كندا"
+        },
+        {
+          "id": "E",
+          "text": "العلم ذي الألوان الأقل"
+        },
+        {
+          "id": "F",
+          "text": "العلم الأقرب إلى الشمس"
+        }
+      ],
+      "correctOptionId": "D",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "flags-medium-0204",
+      "categoryId": "flags",
+      "difficulty": "medium",
+      "text": "في عرض ثلاثة أعلام كندي وإقليمي وبلدي، أين يكون العلم الكندي؟",
+      "answer": "في الوسط",
+      "acceptedAnswers": [],
+      "hint": "ترتيب ثلاثة يختلف عن صف أطول من الأعلام.",
+      "clues": [],
+      "explanation": "العلم الكندي في مركز عرض ثلاثة أعلام.",
+      "sources": [
+        "https://www.canada.ca/en/canadian-heritage/services/flag-canada-etiquette/position-honour.html — المصدر/النسخة المبينة في نص السؤال؛ قرئت الصفحة في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "أقصى اليمين"
+        },
+        {
+          "id": "B",
+          "text": "أقصى اليسار"
+        },
+        {
+          "id": "C",
+          "text": "خلف العلمين"
+        },
+        {
+          "id": "D",
+          "text": "على سارية مائلة فقط"
+        },
+        {
+          "id": "E",
+          "text": "في الوسط"
+        },
+        {
+          "id": "F",
+          "text": "أسفل العلم الإقليمي"
+        }
+      ],
+      "correctOptionId": "E",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "flags-medium-0205",
+      "categoryId": "flags",
+      "difficulty": "medium",
+      "text": "في عرض كندي يضم أربعة أعلام أو أكثر في صف واحد، أين يكون موضع العلم الوطني من وجهة المشاهد؟",
+      "answer": "أقصى اليسار",
+      "acceptedAnswers": [],
+      "hint": "الدليل يضع قاعدة مستقلة للصفوف التي تتجاوز ثلاثة.",
+      "clues": [],
+      "explanation": "يكون الوطني أقصى اليسار ثم بقية الأعلام بالأسبقية.",
+      "sources": [
+        "https://www.canada.ca/en/canadian-heritage/services/flag-canada-etiquette/position-honour.html — المصدر/النسخة المبينة في نص السؤال؛ قرئت الصفحة في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "أقصى اليمين"
+        },
+        {
+          "id": "B",
+          "text": "وسط الصف دائماً"
+        },
+        {
+          "id": "C",
+          "text": "خلف الصف"
+        },
+        {
+          "id": "D",
+          "text": "أسفل كل الأعلام"
+        },
+        {
+          "id": "E",
+          "text": "على السارية الثانية دائماً"
+        },
+        {
+          "id": "F",
+          "text": "أقصى اليسار"
+        }
+      ],
+      "correctOptionId": "F",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "flags-medium-0206",
+      "categoryId": "flags",
+      "difficulty": "medium",
+      "text": "على مبنى حكومي بريطاني ذي ساريات متفاوتة الارتفاع، أي سارية تمنح علم الاتحاد موضع الأسبقية؟",
+      "answer": "الأعلى",
+      "acceptedAnswers": [],
+      "hint": "الأسبقية هنا قد تحددها القامة المختلفة للساريات.",
+      "clues": [],
+      "explanation": "تعد الإرشادات أعلى سارية موضعاً متقدماً.",
+      "sources": [
+        "https://www.gov.uk/guidance/designated-days-for-union-flag-flying — المصدر/النسخة المبينة في نص السؤال؛ قرئت الصفحة في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "الأعلى"
+        },
+        {
+          "id": "B",
+          "text": "الأقصر"
+        },
+        {
+          "id": "C",
+          "text": "الأقرب إلى الحديقة دائماً"
+        },
+        {
+          "id": "D",
+          "text": "الأبعد عن المبنى دائماً"
+        },
+        {
+          "id": "E",
+          "text": "السارية غير المستعملة"
+        },
+        {
+          "id": "F",
+          "text": "التي رفعت أولاً مهما كان ارتفاعها"
+        }
+      ],
+      "correctOptionId": "A",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "flags-medium-0207",
+      "categoryId": "flags",
+      "difficulty": "medium",
+      "text": "عند تساوي ارتفاع عدد فردي من ساريات مبنى حكومي بريطاني، أين يكون موضع الشرف لعلم الاتحاد؟",
+      "answer": "السارية الوسطى",
+      "acceptedAnswers": [],
+      "hint": "وجود سارية واحدة في المركز يحسم الترتيب.",
+      "clues": [],
+      "explanation": "تحدد الإرشادات السارية الوسطى للعدد الفردي المتساوي.",
+      "sources": [
+        "https://www.gov.uk/guidance/designated-days-for-union-flag-flying — المصدر/النسخة المبينة في نص السؤال؛ قرئت الصفحة في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "السارية الأولى دائماً"
+        },
+        {
+          "id": "B",
+          "text": "السارية الوسطى"
+        },
+        {
+          "id": "C",
+          "text": "السارية الأخيرة دائماً"
+        },
+        {
+          "id": "D",
+          "text": "السارية الثانية دائماً"
+        },
+        {
+          "id": "E",
+          "text": "السارية خلف الصف"
+        },
+        {
+          "id": "F",
+          "text": "السارية الأقرب للشمال دائماً"
+        }
+      ],
+      "correctOptionId": "B",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "flags-medium-0208",
+      "categoryId": "flags",
+      "difficulty": "medium",
+      "text": "عند تساوي ارتفاع عدد زوجي من ساريات مبنى حكومي بريطاني، ما موضع الشرف من جهة واجهة المبنى؟",
+      "answer": "السارية اليسرى من الساريتين الوسطيتين",
+      "acceptedAnswers": [],
+      "hint": "المركز هنا موزع على موضعين.",
+      "clues": [],
+      "explanation": "القاعدة تختار اليسرى الوسطى عند النظر من الأمام.",
+      "sources": [
+        "https://www.gov.uk/guidance/designated-days-for-union-flag-flying — المصدر/النسخة المبينة في نص السؤال؛ قرئت الصفحة في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "السارية اليمنى من الوسطيتين"
+        },
+        {
+          "id": "B",
+          "text": "أقصى سارية يميناً"
+        },
+        {
+          "id": "C",
+          "text": "السارية اليسرى من الساريتين الوسطيتين"
+        },
+        {
+          "id": "D",
+          "text": "أقصى سارية يساراً"
+        },
+        {
+          "id": "E",
+          "text": "السارية الثانية من اليمين دائماً"
+        },
+        {
+          "id": "F",
+          "text": "السارية الثانية من اليسار دائماً"
+        }
+      ],
+      "correctOptionId": "C",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "flags-medium-0209",
+      "categoryId": "flags",
+      "difficulty": "medium",
+      "text": "إذا علق العلم الأمريكي فوق شارع يمتد شرقاً وغرباً، إلى أين يتجه حقل النجوم؟",
+      "answer": "نحو الشمال",
+      "acceptedAnswers": [],
+      "hint": "اتجاه الشارع يحدد قاعدة التعليق فوقه.",
+      "clues": [],
+      "explanation": "تجعل المادة 7 حقل النجوم شمالاً في شارع شرق–غرب.",
+      "sources": [
+        "https://www.govinfo.gov/content/pkg/USCODE-2018-title4/html/USCODE-2018-title4-chap1-sec7.htm — المصدر/النسخة المبينة في نص السؤال؛ قرئت الصفحة في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "نحو الجنوب"
+        },
+        {
+          "id": "B",
+          "text": "نحو الشرق"
+        },
+        {
+          "id": "C",
+          "text": "نحو الغرب"
+        },
+        {
+          "id": "D",
+          "text": "نحو الشمال"
+        },
+        {
+          "id": "E",
+          "text": "نحو الشمال الشرقي دائماً"
+        },
+        {
+          "id": "F",
+          "text": "نحو الجنوب الغربي دائماً"
+        }
+      ],
+      "correctOptionId": "D",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "flags-medium-0210",
+      "categoryId": "flags",
+      "difficulty": "medium",
+      "text": "إذا علق العلم الأمريكي فوق شارع يمتد شمالاً وجنوباً، إلى أين يتجه حقل النجوم؟",
+      "answer": "نحو الشرق",
+      "acceptedAnswers": [],
+      "hint": "لا تطبق قاعدة الشارع المتعامد عليه.",
+      "clues": [],
+      "explanation": "في شارع شمال–جنوب يكون حقل النجوم شرقاً.",
+      "sources": [
+        "https://www.govinfo.gov/content/pkg/USCODE-2018-title4/html/USCODE-2018-title4-chap1-sec7.htm — المصدر/النسخة المبينة في نص السؤال؛ قرئت الصفحة في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "نحو الغرب"
+        },
+        {
+          "id": "B",
+          "text": "نحو الشمال"
+        },
+        {
+          "id": "C",
+          "text": "نحو الجنوب"
+        },
+        {
+          "id": "D",
+          "text": "نحو الشمال الغربي دائماً"
+        },
+        {
+          "id": "E",
+          "text": "نحو الشرق"
+        },
+        {
+          "id": "F",
+          "text": "نحو الجنوب الغربي دائماً"
+        }
+      ],
+      "correctOptionId": "E",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "flags-medium-0211",
+      "categoryId": "flags",
+      "difficulty": "medium",
+      "text": "في عرض العلم الأمريكي مع علم ولاية على حبل رفع واحد، أيهما يكون بالأعلى؟",
+      "answer": "العلم الأمريكي",
+      "acceptedAnswers": [],
+      "hint": "القاعدة تفرق بين علم دولة أخرى وعلم محلي.",
+      "clues": [],
+      "explanation": "المادة 7 تجعله فوق أعلام الولايات على الحبل نفسه.",
+      "sources": [
+        "https://www.govinfo.gov/content/pkg/USCODE-2018-title4/html/USCODE-2018-title4-chap1-sec7.htm — المصدر/النسخة المبينة في نص السؤال؛ قرئت الصفحة في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "علم الولاية"
+        },
+        {
+          "id": "B",
+          "text": "العلم الأقدم"
+        },
+        {
+          "id": "C",
+          "text": "العلم الأصغر"
+        },
+        {
+          "id": "D",
+          "text": "العلم الأكبر"
+        },
+        {
+          "id": "E",
+          "text": "العلم الذي رفع أخيراً"
+        },
+        {
+          "id": "F",
+          "text": "العلم الأمريكي"
+        }
+      ],
+      "correctOptionId": "F",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "flags-medium-0212",
+      "categoryId": "flags",
+      "difficulty": "medium",
+      "text": "عند رفع العلم الأسترالي بجانب أعلام دول أخرى، ما العلاقة المطلوبة بين ارتفاع الساريات؟",
+      "answer": "تتساوى في الارتفاع",
+      "acceptedAnswers": [],
+      "hint": "الأسبقية لا تعني جعل دولة زائرة أدنى ارتفاعاً.",
+      "clues": [],
+      "explanation": "يطلب البروتوكول ساريات متساوية الارتفاع وأعلاماً متساوية الحجم.",
+      "sources": [
+        "https://www.pmc.gov.au/honours-and-symbols/australian-national-symbols/australian-national-flag/australian-national-flag-protocols — المصدر/النسخة المبينة في نص السؤال؛ قرئت الصفحة في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "تتساوى في الارتفاع"
+        },
+        {
+          "id": "B",
+          "text": "الأسترالي أعلى دائماً"
+        },
+        {
+          "id": "C",
+          "text": "الأجنبي أعلى دائماً"
+        },
+        {
+          "id": "D",
+          "text": "تتدرج حسب المساحة"
+        },
+        {
+          "id": "E",
+          "text": "تتدرج حسب السكان"
+        },
+        {
+          "id": "F",
+          "text": "يتحدد الارتفاع بعدد الألوان"
+        }
+      ],
+      "correctOptionId": "A",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "flags-medium-0213",
+      "categoryId": "flags",
+      "difficulty": "medium",
+      "text": "هل يسمح البروتوكول الأسترالي بقلب العلم الوطني رأساً على عقب لإرسال إشارة استغاثة؟",
+      "answer": "لا، يمنع رفعه مقلوباً حتى للاستغاثة",
+      "acceptedAnswers": [],
+      "hint": "هذه قاعدة محددة لهذا العلم وليست حكماً على كل الدول.",
+      "clues": [],
+      "explanation": "النص الأسترالي يمنع الرفع المقلوب حتى كإشارة خطر.",
+      "sources": [
+        "https://www.pmc.gov.au/honours-and-symbols/australian-national-symbols/australian-national-flag/australian-national-flag-protocols — المصدر/النسخة المبينة في نص السؤال؛ قرئت الصفحة في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "نعم في البحر فقط"
+        },
+        {
+          "id": "B",
+          "text": "لا، يمنع رفعه مقلوباً حتى للاستغاثة"
+        },
+        {
+          "id": "C",
+          "text": "نعم في البر فقط"
+        },
+        {
+          "id": "D",
+          "text": "نعم ليلاً فقط"
+        },
+        {
+          "id": "E",
+          "text": "نعم إذا كان منكّساً"
+        },
+        {
+          "id": "F",
+          "text": "نعم إذا كان بلا إضاءة"
+        }
+      ],
+      "correctOptionId": "B",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "flags-medium-0214",
+      "categoryId": "flags",
+      "difficulty": "medium",
+      "text": "في رفع العلم الأسترالي مع علم دولة أخرى على ساريتين، أين يكون الأسترالي بالنسبة إلى المشاهد؟",
+      "answer": "على اليسار",
+      "acceptedAnswers": [],
+      "hint": "حدد مرجع اليمين واليسار بوجه المشاهد نحو العلمين.",
+      "clues": [],
+      "explanation": "الأسترالي يسار من يواجه العلمين.",
+      "sources": [
+        "https://www.pmc.gov.au/honours-and-symbols/australian-national-symbols/australian-national-flag/australian-national-flag-protocols — المصدر/النسخة المبينة في نص السؤال؛ قرئت الصفحة في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "على اليمين"
+        },
+        {
+          "id": "B",
+          "text": "خلف العلم الآخر"
+        },
+        {
+          "id": "C",
+          "text": "على اليسار"
+        },
+        {
+          "id": "D",
+          "text": "أسفل العلم الآخر"
+        },
+        {
+          "id": "E",
+          "text": "فوق العلم الآخر على السارية نفسها"
+        },
+        {
+          "id": "F",
+          "text": "في وسط العلم الآخر"
+        }
+      ],
+      "correctOptionId": "C",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "flags-medium-0215",
+      "categoryId": "flags",
+      "difficulty": "medium",
+      "text": "ما اللون الذي يعد دليـل ميغر استعماله بدلاً من البرتقالي تحريفاً للعلم الأيرلندي؟",
+      "answer": "الأصفر أو الذهبي",
+      "acceptedAnswers": [],
+      "hint": "التشابه اللوني لا يجعل البديل جزءاً من التصميم.",
+      "clues": [],
+      "explanation": "يحذر الدليل من استبدال البرتقالي بدرجات صفراء أو ذهبية.",
+      "sources": [
+        "https://tfmfoundation.ie/the-flag-protocol/ — المصدر/النسخة المبينة في نص السؤال؛ قرئت الصفحة في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "الأخضر الداكن"
+        },
+        {
+          "id": "B",
+          "text": "الأبيض"
+        },
+        {
+          "id": "C",
+          "text": "الأخضر والأبيض"
+        },
+        {
+          "id": "D",
+          "text": "الأصفر أو الذهبي"
+        },
+        {
+          "id": "E",
+          "text": "البرتقالي والأبيض معاً"
+        },
+        {
+          "id": "F",
+          "text": "الأخضر وحده مهما كانت درجته"
+        }
+      ],
+      "correctOptionId": "D",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "flags-medium-0216",
+      "categoryId": "flags",
+      "difficulty": "medium",
+      "text": "وفق دليل ميغر، إلى أي جهة يرتب العلم الأيرلندي عندما يحمل في موكب قادم نحو المشاهد؟",
+      "answer": "يسار المشاهد، أي يمين اتجاه السير",
+      "acceptedAnswers": [],
+      "hint": "راجع الفرق بين يمين حامل العلم ويمين من يشاهده.",
+      "clues": [],
+      "explanation": "يحمل في يمين السير وهو يسار المشاهد المقابل.",
+      "sources": [
+        "https://tfmfoundation.ie/the-flag-protocol/ — المصدر/النسخة المبينة في نص السؤال؛ قرئت الصفحة في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "يمين المشاهد، أي يسار السير"
+        },
+        {
+          "id": "B",
+          "text": "خلف بقية الأعلام دائماً"
+        },
+        {
+          "id": "C",
+          "text": "في أدنى موضع"
+        },
+        {
+          "id": "D",
+          "text": "في الوسط مهما كان العدد"
+        },
+        {
+          "id": "E",
+          "text": "يسار المشاهد، أي يمين اتجاه السير"
+        },
+        {
+          "id": "F",
+          "text": "على يسار السير وفي مؤخرته"
+        }
+      ],
+      "correctOptionId": "E",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "flags-medium-0217",
+      "categoryId": "flags",
+      "difficulty": "medium",
+      "text": "وفق دليل ميغر، لأي مناسبة يستثنى العلم الأيرلندي المحمول من منع إمالته للتحية؟",
+      "answer": "تحية المتوفين في مراسم التأبين",
+      "acceptedAnswers": [],
+      "hint": "الاستثناء يتعلق بالتذكر والحداد لا بالزيارات المعتادة.",
+      "clues": [],
+      "explanation": "يجوز الميل للمتوفين خلال مراسم التأبين وفق الدليل.",
+      "sources": [
+        "https://tfmfoundation.ie/the-flag-protocol/ — المصدر/النسخة المبينة في نص السؤال؛ قرئت الصفحة في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "زيارة رئيس حكومة"
+        },
+        {
+          "id": "B",
+          "text": "افتتاح مدرسة"
+        },
+        {
+          "id": "C",
+          "text": "تتويج فريق رياضي"
+        },
+        {
+          "id": "D",
+          "text": "مرور سيارة رسمية"
+        },
+        {
+          "id": "E",
+          "text": "افتتاح مهرجان"
+        },
+        {
+          "id": "F",
+          "text": "تحية المتوفين في مراسم التأبين"
+        }
+      ],
+      "correctOptionId": "F",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "flags-medium-0218",
+      "categoryId": "flags",
+      "difficulty": "medium",
+      "text": "أي علم يرفع مع العلم الاتحادي الألماني عند توفر الإمكانات التقنية وفق مرسوم 2005 ؟",
+      "answer": "علم الاتحاد الأوروبي",
+      "acceptedAnswers": [],
+      "hint": "يمثل كياناً تتشارك فيه ألمانيا مع دول أخرى.",
+      "clues": [],
+      "explanation": "المادة الرابعة تذكر رفع العلم الأوروبي مع الاتحادي.",
+      "sources": [
+        "https://www.verwaltungsvorschriften-im-internet.de/bsvwvbund_22032005_Z4a1150415.htm — المصدر/النسخة المبينة في نص السؤال؛ قرئت الصفحة في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "علم الاتحاد الأوروبي"
+        },
+        {
+          "id": "B",
+          "text": "علم الأمم المتحدة"
+        },
+        {
+          "id": "C",
+          "text": "علم الناتو"
+        },
+        {
+          "id": "D",
+          "text": "علم مجلس أوروبا المختلف"
+        },
+        {
+          "id": "E",
+          "text": "علم منظمة التعاون الاقتصادي"
+        },
+        {
+          "id": "F",
+          "text": "علم منظمة الأمن والتعاون"
+        }
+      ],
+      "correctOptionId": "A",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "flags-medium-0219",
+      "categoryId": "flags",
+      "difficulty": "medium",
+      "text": "إذا نكّس العلم الاتحادي الألماني تنفيذاً لحداد، ما مصير العلم الأوروبي المجاور وفق مرسوم 2005 ؟",
+      "answer": "ينكّس معه",
+      "acceptedAnswers": [],
+      "hint": "المرسوم يسمي راية واحدة مصاحبة في هذه القاعدة.",
+      "clues": [],
+      "explanation": "ينكس العلم الأوروبي أيضاً مع العلم الاتحادي.",
+      "sources": [
+        "https://www.verwaltungsvorschriften-im-internet.de/bsvwvbund_22032005_Z4a1150415.htm — المصدر/النسخة المبينة في نص السؤال؛ قرئت الصفحة في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "يبقى بالأعلى دائماً"
+        },
+        {
+          "id": "B",
+          "text": "ينكّس معه"
+        },
+        {
+          "id": "C",
+          "text": "ينزل تماماً وجوباً"
+        },
+        {
+          "id": "D",
+          "text": "يقلب رأساً على عقب"
+        },
+        {
+          "id": "E",
+          "text": "يطوى على السارية"
+        },
+        {
+          "id": "F",
+          "text": "يرفع أعلى من جميع الأعلام"
+        }
+      ],
+      "correctOptionId": "B",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "flags-medium-0220",
+      "categoryId": "flags",
+      "difficulty": "medium",
+      "text": "ما الذي يسمح به المرسوم الألماني إذا أريد إبقاء العلم على المبنى بعد الغروب؟",
+      "answer": "إضاءته",
+      "acceptedAnswers": [],
+      "hint": "الرفع الليلي له شرط بصري.",
+      "clues": [],
+      "explanation": "يمكن إبقاء الأعلام بعد الغروب إذا أنيرت.",
+      "sources": [
+        "https://www.verwaltungsvorschriften-im-internet.de/bsvwvbund_22032005_Z4a1150415.htm — المصدر/النسخة المبينة في نص السؤال؛ قرئت الصفحة في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "تصغيره إلى النصف"
+        },
+        {
+          "id": "B",
+          "text": "زيادة ارتفاع السارية"
+        },
+        {
+          "id": "C",
+          "text": "إضاءته"
+        },
+        {
+          "id": "D",
+          "text": "إنزاله إلى الحداد"
+        },
+        {
+          "id": "E",
+          "text": "إضافة حاشية ذهبية"
+        },
+        {
+          "id": "F",
+          "text": "تغيير حبل الرفع"
+        }
+      ],
+      "correctOptionId": "C",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "flags-medium-0221",
+      "categoryId": "flags",
+      "difficulty": "medium",
+      "text": "في جنوب إفريقيا وفق تعليمات 2001 ، مَن يوجه تنكيس العلم الوطني للحداد الرسمي؟",
+      "answer": "الرئاسة",
+      "acceptedAnswers": [],
+      "hint": "الأمر ليس قراراً شخصياً لحامل العلم.",
+      "clues": [],
+      "explanation": "تربط التعليمات الحداد بأوامر الرئاسة.",
+      "sources": [
+        "https://www.gov.za/sites/default/files/22356.pdf — المصدر/النسخة المبينة في نص السؤال؛ قرئت الصفحة في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "أي منظم حفل"
+        },
+        {
+          "id": "B",
+          "text": "حارس المبنى وحده"
+        },
+        {
+          "id": "C",
+          "text": "شركة صناعة العلم"
+        },
+        {
+          "id": "D",
+          "text": "الرئاسة"
+        },
+        {
+          "id": "E",
+          "text": "رئيس النادي الرياضي"
+        },
+        {
+          "id": "F",
+          "text": "كل زائر رسمي"
+        }
+      ],
+      "correctOptionId": "D",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "flags-medium-0222",
+      "categoryId": "flags",
+      "difficulty": "medium",
+      "text": "ما الغرض من توفير علم أصغر في جنوب إفريقيا للطقس العاصف وفق تعليمات 2001 ؟",
+      "answer": "تقليل احتمال ضرر العلم والحبال والسارية",
+      "acceptedAnswers": [],
+      "hint": "الاختيار يتعلق بقوة الرياح لا بتغيير الرمز.",
+      "clues": [],
+      "explanation": "يختار المسؤول العلم الأصغر عند خطر الضرر في العاصفة.",
+      "sources": [
+        "https://www.gov.za/sites/default/files/22356.pdf — المصدر/النسخة المبينة في نص السؤال؛ قرئت الصفحة في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "زيادة أثر الرياح في السارية"
+        },
+        {
+          "id": "B",
+          "text": "إعلان الحداد تلقائياً"
+        },
+        {
+          "id": "C",
+          "text": "إعلان غياب الحكومة"
+        },
+        {
+          "id": "D",
+          "text": "تغيير نسبة ألوان التصميم"
+        },
+        {
+          "id": "E",
+          "text": "تقليل احتمال ضرر العلم والحبال والسارية"
+        },
+        {
+          "id": "F",
+          "text": "تمييز الصباح عن المساء"
+        }
+      ],
+      "correctOptionId": "E",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "flags-medium-0223",
+      "categoryId": "flags",
+      "difficulty": "medium",
+      "text": "لماذا تحذر الحكومة الجنوب إفريقية من إعطاء كل لون في علمها معنى عالمياً واحداً ملزماً؟",
+      "answer": "لأن دلالات الألوان تختلف بين الناس",
+      "acceptedAnswers": [],
+      "hint": "اجتماع الألوان له سياق تاريخي دون قاموس رمزي إلزامي.",
+      "clues": [],
+      "explanation": "النص يقول إن الألوان قد تعني أشياء مختلفة لأشخاص مختلفين.",
+      "sources": [
+        "https://www.gov.za/ss/about-sa/national-flag-0 — المصدر/النسخة المبينة في نص السؤال؛ قرئت الصفحة في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "لأن العلم بلا ألوان محددة"
+        },
+        {
+          "id": "B",
+          "text": "لأن كل لون يمثل مدينة حصراً"
+        },
+        {
+          "id": "C",
+          "text": "لأن معانيه تتغير كل يوم رسمياً"
+        },
+        {
+          "id": "D",
+          "text": "لأن الألوان اختيرت اعتباطياً دون تاريخ"
+        },
+        {
+          "id": "E",
+          "text": "لأن تفسير أي رمز ممنوع"
+        },
+        {
+          "id": "F",
+          "text": "لأن دلالات الألوان تختلف بين الناس"
+        }
+      ],
+      "correctOptionId": "F",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "flags-medium-0224",
+      "categoryId": "flags",
+      "difficulty": "medium",
+      "text": "إذا لم يرفع علم آخر على سارية مبنى حكومي بريطاني، ما الوضع الافتراضي الذي تقترحه الإرشادات؟",
+      "answer": "رفع علم الاتحاد وعدم ترك السارية خالية",
+      "acceptedAnswers": [],
+      "hint": "السارية الحكومية لا ينبغي أن تبقى فارغة افتراضياً.",
+      "clues": [],
+      "explanation": "الوضع الافتراضي علم الاتحاد عند عدم رفع غيره.",
+      "sources": [
+        "https://www.gov.uk/guidance/designated-days-for-union-flag-flying — المصدر/النسخة المبينة في نص السؤال؛ قرئت الصفحة في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "رفع علم الاتحاد وعدم ترك السارية خالية"
+        },
+        {
+          "id": "B",
+          "text": "ترك السارية خالية"
+        },
+        {
+          "id": "C",
+          "text": "رفع علم البلدية فقط"
+        },
+        {
+          "id": "D",
+          "text": "رفع علم الاتحاد الأوروبي فقط"
+        },
+        {
+          "id": "E",
+          "text": "رفع علم المقاطعة دائماً"
+        },
+        {
+          "id": "F",
+          "text": "إنزال علم الاتحاد إلى النصف"
+        }
+      ],
+      "correctOptionId": "A",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "flags-medium-0225",
+      "categoryId": "flags",
+      "difficulty": "medium",
+      "text": "في العرض الداخلي الكندي المختلط، أي رأس سارية لا يناسب رفع علم دولة أجنبية؟",
+      "answer": "رأس بشكل ورقة قيقب",
+      "acceptedAnswers": [],
+      "hint": "بعض نهايات السارية ترمز إلى البلد المضيف.",
+      "clues": [],
+      "explanation": "الدليل لا يجيز علم دولة أجنبية على نهاية بشكل ورقة قيقب.",
+      "sources": [
+        "https://www.canada.ca/en/canadian-heritage/services/flag-canada-etiquette/flying-rules.html — المصدر/النسخة المبينة في نص السؤال؛ قرئت الصفحة في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "رأس بشكل حربة"
+        },
+        {
+          "id": "B",
+          "text": "رأس بشكل ورقة قيقب"
+        },
+        {
+          "id": "C",
+          "text": "رأس بشكل ثمرة بلوط"
+        },
+        {
+          "id": "D",
+          "text": "رأس مشترك بشكل حربة"
+        },
+        {
+          "id": "E",
+          "text": "رأس مشترك بشكل ثمرة بلوط"
+        },
+        {
+          "id": "F",
+          "text": "رأس غير مزخرف بورقة قيقب"
+        }
+      ],
+      "correctOptionId": "B",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "flags-hard-0201",
+      "categoryId": "flags",
+      "difficulty": "hard",
+      "text": "لماذا تكون نهاية السارية الخارجية الكندية عادةً كروية؟",
+      "answer": "لتقليل التفاف العلم عند تيارات الهواء الصاعدة",
+      "acceptedAnswers": [],
+      "hint": "الشكل يقلل تعلق القماش في أعلى الحامل.",
+      "clues": [],
+      "explanation": "يذكر الدليل تجنب التفاف العلم حول القمة مع صعود الريح.",
+      "sources": [
+        "https://www.canada.ca/en/canadian-heritage/services/flag-canada-etiquette/flying-rules.html — المصدر/النسخة المبينة في نص السؤال؛ قرئت الصفحة في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "لزيادة تشبع ألوان العلم"
+        },
+        {
+          "id": "B",
+          "text": "لزيادة وزن حبل الرفع"
+        },
+        {
+          "id": "C",
+          "text": "لتقليل التفاف العلم عند تيارات الهواء الصاعدة"
+        },
+        {
+          "id": "D",
+          "text": "لمنع الضوء من الوصول إلى القماش"
+        },
+        {
+          "id": "E",
+          "text": "لتكبير حجم العلم بصرياً فقط"
+        },
+        {
+          "id": "F",
+          "text": "لتحديد وقت الغروب"
+        }
+      ],
+      "correctOptionId": "C",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "flags-hard-0202",
+      "categoryId": "flags",
+      "difficulty": "hard",
+      "text": "ما أثر أجهزة فرد العلم المعلق على سارية داخلية في كندا على بروتوكول الأسبقية؟",
+      "answer": "لا تغيره وهي اختيارية",
+      "acceptedAnswers": [],
+      "hint": "وظيفتها تجميل العرض لا منح الراية مرتبة جديدة.",
+      "clues": [],
+      "explanation": "أجهزة فرد العلم اختيارية ولا تؤثر في بروتوكول العرض.",
+      "sources": [
+        "https://www.canada.ca/en/canadian-heritage/services/flag-canada-etiquette/flying-rules.html — المصدر/النسخة المبينة في نص السؤال؛ قرئت الصفحة في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "ترفع أسبقيته فوق الوطني"
+        },
+        {
+          "id": "B",
+          "text": "تجعل التنكيس إلزامياً"
+        },
+        {
+          "id": "C",
+          "text": "تغير مكان الشرف إلى اليمين"
+        },
+        {
+          "id": "D",
+          "text": "لا تغيره وهي اختيارية"
+        },
+        {
+          "id": "E",
+          "text": "تلغي ضرورة حفظ الاتجاه"
+        },
+        {
+          "id": "F",
+          "text": "تجعله علماً بحرياً"
+        }
+      ],
+      "correctOptionId": "D",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "flags-hard-0203",
+      "categoryId": "flags",
+      "difficulty": "hard",
+      "text": "إذا علق العلم الكندي من سارية مائلة من شرفة، إلى أين تتجه قمة ورقة القيقب؟",
+      "answer": "إلى خارج المبنى",
+      "acceptedAnswers": [],
+      "hint": "لا يعامل وضع السارية المائلة كالتعليق الرأسي على الجدار.",
+      "clues": [],
+      "explanation": "القمة إلى الخارج والساق نحو المبنى.",
+      "sources": [
+        "https://www.canada.ca/en/canadian-heritage/services/flag-canada-etiquette/flying-rules.html — المصدر/النسخة المبينة في نص السؤال؛ قرئت الصفحة في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "إلى داخل المبنى"
+        },
+        {
+          "id": "B",
+          "text": "إلى الأرض مباشرة"
+        },
+        {
+          "id": "C",
+          "text": "نحو جدار الشرفة"
+        },
+        {
+          "id": "D",
+          "text": "نحو وسط السارية"
+        },
+        {
+          "id": "E",
+          "text": "إلى خارج المبنى"
+        },
+        {
+          "id": "F",
+          "text": "نحو حبل الرفع السفلي"
+        }
+      ],
+      "correctOptionId": "E",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "flags-hard-0204",
+      "categoryId": "flags",
+      "difficulty": "hard",
+      "text": "ما موضع علم كندا عند رفعه منفرداً كراية سيارة تشريفية؟",
+      "answer": "الرفرف الأمامي الأيمن",
+      "acceptedAnswers": [],
+      "hint": "يعبر الدليل عن موضع الشرف على جانب الراكب.",
+      "clues": [],
+      "explanation": "موضع الشرف هو الرفرف الأمامي الأيمن.",
+      "sources": [
+        "https://www.canada.ca/en/canadian-heritage/services/flag-canada-etiquette/flying-rules.html — المصدر/النسخة المبينة في نص السؤال؛ قرئت الصفحة في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "الرفرف الأمامي الأيسر"
+        },
+        {
+          "id": "B",
+          "text": "الرفرف الخلفي الأيمن"
+        },
+        {
+          "id": "C",
+          "text": "الرفرف الخلفي الأيسر"
+        },
+        {
+          "id": "D",
+          "text": "وسط سقف السيارة"
+        },
+        {
+          "id": "E",
+          "text": "خلف الزجاج الخلفي"
+        },
+        {
+          "id": "F",
+          "text": "الرفرف الأمامي الأيمن"
+        }
+      ],
+      "correctOptionId": "F",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "flags-hard-0205",
+      "categoryId": "flags",
+      "difficulty": "hard",
+      "text": "أي مسؤول كندي يجيز له الدليل استعمال العلم الوطني رايةً مميزة على مركبته؟",
+      "answer": "رئيس الوزراء",
+      "acceptedAnswers": [],
+      "hint": "ليس حقاً تلقائياً لكل من يحمل منصباً حكومياً.",
+      "clues": [],
+      "explanation": "ينص الدليل على رئيس الوزراء لهذا الاستخدام.",
+      "sources": [
+        "https://www.canada.ca/en/canadian-heritage/services/flag-canada-etiquette/flying-rules.html — المصدر/النسخة المبينة في نص السؤال؛ قرئت الصفحة في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "رئيس الوزراء"
+        },
+        {
+          "id": "B",
+          "text": "رئيس أي بلدية"
+        },
+        {
+          "id": "C",
+          "text": "أي وزير إقليمي"
+        },
+        {
+          "id": "D",
+          "text": "أي نائب في البرلمان"
+        },
+        {
+          "id": "E",
+          "text": "أي قاض اتحادي"
+        },
+        {
+          "id": "F",
+          "text": "كل سفير أجنبي"
+        }
+      ],
+      "correctOptionId": "A",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "flags-hard-0206",
+      "categoryId": "flags",
+      "difficulty": "hard",
+      "text": "أين ترفع سفينة أجنبية العلم الكندي عادةً كعلم مجاملة في ميناء كندي؟",
+      "answer": "على الصارية الأمامية الأقرب إلى المقدمة",
+      "acceptedAnswers": [],
+      "hint": "الراية تختلف وظيفتها عن علم جنسية السفينة.",
+      "clues": [],
+      "explanation": "يذكر الدليل الصارية الأمامية لمجاملة الدولة المضيفة.",
+      "sources": [
+        "https://www.canada.ca/en/canadian-heritage/services/flag-canada-etiquette/flying-rules.html — المصدر/النسخة المبينة في نص السؤال؛ قرئت الصفحة في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "عند مؤخرة السفينة حصراً"
+        },
+        {
+          "id": "B",
+          "text": "على الصارية الأمامية الأقرب إلى المقدمة"
+        },
+        {
+          "id": "C",
+          "text": "تحت سطح السفينة"
+        },
+        {
+          "id": "D",
+          "text": "على سارية العلم الوطني نفسها"
+        },
+        {
+          "id": "E",
+          "text": "داخل غرفة المحرك"
+        },
+        {
+          "id": "F",
+          "text": "خلف علم الإشارة السفلي"
+        }
+      ],
+      "correctOptionId": "B",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "flags-hard-0207",
+      "categoryId": "flags",
+      "difficulty": "hard",
+      "text": "ما الوضع المعتاد لراية الجنسية الكندية على مركب عند توافر موضعها الصحيح؟",
+      "answer": "عند المؤخرة",
+      "acceptedAnswers": [],
+      "hint": "تختلف عن موضع علم المجاملة على سفينة أجنبية.",
+      "clues": [],
+      "explanation": "يحدد الدليل المؤخرة موضعاً صحيحاً للألوان الوطنية.",
+      "sources": [
+        "https://www.canada.ca/en/canadian-heritage/services/flag-canada-etiquette/flying-rules.html — المصدر/النسخة المبينة في نص السؤال؛ قرئت الصفحة في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "عند المقدمة فقط"
+        },
+        {
+          "id": "B",
+          "text": "على غرفة القيادة من الداخل"
+        },
+        {
+          "id": "C",
+          "text": "عند المؤخرة"
+        },
+        {
+          "id": "D",
+          "text": "عند منتصف البدن تحت الماء"
+        },
+        {
+          "id": "E",
+          "text": "في غرفة المحرك"
+        },
+        {
+          "id": "F",
+          "text": "على حبل المنصة الجانبية فقط"
+        }
+      ],
+      "correctOptionId": "C",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "flags-hard-0208",
+      "categoryId": "flags",
+      "difficulty": "hard",
+      "text": "كيف يستمر خفض الراية في تحية سفينة تجارية كندية لسفينة حربية، وفق الدليل؟",
+      "answer": "حتى ترد السفينة الحربية التحية برايتها",
+      "acceptedAnswers": [],
+      "hint": "التبادل يتكون من مبادرة ورد.",
+      "clues": [],
+      "explanation": "تبقى الراية منخفضة حتى تستجيب السفينة الحربية.",
+      "sources": [
+        "https://www.canada.ca/en/canadian-heritage/services/flag-canada-etiquette/flying-rules.html — المصدر/النسخة المبينة في نص السؤال؛ قرئت الصفحة في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "حتى تغيب الشمس"
+        },
+        {
+          "id": "B",
+          "text": "حتى تعبر السفينة خط الاستواء"
+        },
+        {
+          "id": "C",
+          "text": "حتى ينزل الربان إلى السطح"
+        },
+        {
+          "id": "D",
+          "text": "حتى ترد السفينة الحربية التحية برايتها"
+        },
+        {
+          "id": "E",
+          "text": "حتى تتوقف جميع المحركات"
+        },
+        {
+          "id": "F",
+          "text": "حتى ينتهي المد"
+        }
+      ],
+      "correctOptionId": "D",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "flags-hard-0209",
+      "categoryId": "flags",
+      "difficulty": "hard",
+      "text": "بعد استعمال العلم الكندي لتغطية تابوت، كيف يحفظ وفق الدليل؟",
+      "answer": "يطوى ويحفظ داخل المبنى ولا يرفع مجدداً",
+      "acceptedAnswers": [],
+      "hint": "القطعة تصبح تذكاراً له استعمال محدد.",
+      "clues": [],
+      "explanation": "يحفظ العلم بعد الطي ولا يرفع مرة أخرى.",
+      "sources": [
+        "https://www.canada.ca/en/canadian-heritage/services/flag-canada-etiquette/flying-rules.html — المصدر/النسخة المبينة في نص السؤال؛ قرئت الصفحة في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "يرفع في الحديقة كل يوم"
+        },
+        {
+          "id": "B",
+          "text": "يرفع في ذكرى الوفاة فقط"
+        },
+        {
+          "id": "C",
+          "text": "يرفع منكّساً دائماً"
+        },
+        {
+          "id": "D",
+          "text": "يعاد لسارية المؤسسة"
+        },
+        {
+          "id": "E",
+          "text": "يطوى ويحفظ داخل المبنى ولا يرفع مجدداً"
+        },
+        {
+          "id": "F",
+          "text": "يقص إلى أعلام صغيرة"
+        }
+      ],
+      "correctOptionId": "E",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "flags-hard-0210",
+      "categoryId": "flags",
+      "difficulty": "hard",
+      "text": "في مراسم فكّ العلم الكندي المطوي فجأة، ما الذي يسمح بانفتاحه في اللحظة المطلوبة؟",
+      "answer": "سحب الخيط الذي يثبت اللفافة",
+      "acceptedAnswers": [],
+      "hint": "التحضير يحافظ على القماش ملفوفاً حتى الإشارة.",
+      "clues": [],
+      "explanation": "يربط العلم الملفوف بخيط يفتح بسحب حاد.",
+      "sources": [
+        "https://www.canada.ca/en/canadian-heritage/services/flag-canada-etiquette/flying-rules.html — المصدر/النسخة المبينة في نص السؤال؛ قرئت الصفحة في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "كسر رأس السارية"
+        },
+        {
+          "id": "B",
+          "text": "قص منتصف العلم"
+        },
+        {
+          "id": "C",
+          "text": "فك السارية من الأرض"
+        },
+        {
+          "id": "D",
+          "text": "إزالة الحاشية الذهبية"
+        },
+        {
+          "id": "E",
+          "text": "تسخين القماش"
+        },
+        {
+          "id": "F",
+          "text": "سحب الخيط الذي يثبت اللفافة"
+        }
+      ],
+      "correctOptionId": "F",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "flags-hard-0211",
+      "categoryId": "flags",
+      "difficulty": "hard",
+      "text": "وفق تقليد الطي الجنائزي في دليل ميغر، ما اللون الذي يبقى ظاهراً إلى الخارج في العلم الأيرلندي المطوي؟",
+      "answer": "الأخضر",
+      "acceptedAnswers": [],
+      "hint": "الطي يمر بترتيب محدد للأشرطة الثلاثة.",
+      "clues": [],
+      "explanation": "يظل الأخضر خارجياً في الطي الموصوف.",
+      "sources": [
+        "https://tfmfoundation.ie/the-flag-protocol/ — المصدر/النسخة المبينة في نص السؤال؛ قرئت الصفحة في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "الأخضر"
+        },
+        {
+          "id": "B",
+          "text": "البرتقالي"
+        },
+        {
+          "id": "C",
+          "text": "الأبيض"
+        },
+        {
+          "id": "D",
+          "text": "الأبيض والبرتقالي"
+        },
+        {
+          "id": "E",
+          "text": "البرتقالي والأخضر بالتساوي"
+        },
+        {
+          "id": "F",
+          "text": "لا يبقى أي لون ظاهراً"
+        }
+      ],
+      "correctOptionId": "A",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "flags-hard-0212",
+      "categoryId": "flags",
+      "difficulty": "hard",
+      "text": "إلى من يقدم العلم الأيرلندي بعد طيه في التقليد الجنائزي الذي يذكره دليل ميغر؟",
+      "answer": "أقرب ذوي المتوفى",
+      "acceptedAnswers": [],
+      "hint": "الطّي جزء من تسليم تذكار إلى الأسرة.",
+      "clues": [],
+      "explanation": "يقدم العلم عادةً إلى ذوي المتوفى الأقربين.",
+      "sources": [
+        "https://tfmfoundation.ie/the-flag-protocol/ — المصدر/النسخة المبينة في نص السؤال؛ قرئت الصفحة في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "منظم السباق"
+        },
+        {
+          "id": "B",
+          "text": "أقرب ذوي المتوفى"
+        },
+        {
+          "id": "C",
+          "text": "صانع السارية"
+        },
+        {
+          "id": "D",
+          "text": "أكبر طفل حاضر"
+        },
+        {
+          "id": "E",
+          "text": "آخر حامل للعلم"
+        },
+        {
+          "id": "F",
+          "text": "قائد فرقة الموسيقى"
+        }
+      ],
+      "correctOptionId": "B",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "flags-hard-0213",
+      "categoryId": "flags",
+      "difficulty": "hard",
+      "text": "إذا نكّس العلم الأيرلندي للحداد، ما توجيه دليل ميغر بشأن الأعلام الأخرى في العرض؟",
+      "answer": "لا يرفع معه علم آخر",
+      "acceptedAnswers": [],
+      "hint": "تختلف هذه القاعدة عن أدلة تسمح بتنكيس المجموعة كلها.",
+      "clues": [],
+      "explanation": "ينص الدليل على عدم رفع علم آخر عندما يكون الوطني منكّساً.",
+      "sources": [
+        "https://tfmfoundation.ie/the-flag-protocol/ — المصدر/النسخة المبينة في نص السؤال؛ قرئت الصفحة في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "تنكس جميعها معه وجوباً"
+        },
+        {
+          "id": "B",
+          "text": "ترفع أعلى منه"
+        },
+        {
+          "id": "C",
+          "text": "لا يرفع معه علم آخر"
+        },
+        {
+          "id": "D",
+          "text": "تستبدل بأعلام أصغر"
+        },
+        {
+          "id": "E",
+          "text": "ترفع على السارية نفسها"
+        },
+        {
+          "id": "F",
+          "text": "ترفع أعلام الدول الأجنبية وحدها"
+        }
+      ],
+      "correctOptionId": "C",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "flags-hard-0214",
+      "categoryId": "flags",
+      "difficulty": "hard",
+      "text": "عند عرض مجموعة أعلام دول الاتحاد الأوروبي وفق الترتيب الأوروبي في دليل ميغر، على أي أسماء يعتمد الفرز الأبجدي؟",
+      "answer": "أسماء الدول بلغاتها الأساسية المحلية",
+      "acceptedAnswers": [],
+      "hint": "الترتيب ليس مرهوناً باسم الدولة بالإنجليزية دائماً.",
+      "clues": [],
+      "explanation": "الدليل يذكر أول حرف للاسم باللغة المحلية الأساسية.",
+      "sources": [
+        "https://tfmfoundation.ie/the-flag-protocol/ — المصدر/النسخة المبينة في نص السؤال؛ قرئت الصفحة في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "الأسماء العربية"
+        },
+        {
+          "id": "B",
+          "text": "الأسماء الإنجليزية وحدها"
+        },
+        {
+          "id": "C",
+          "text": "أسماء العواصم"
+        },
+        {
+          "id": "D",
+          "text": "أسماء الدول بلغاتها الأساسية المحلية"
+        },
+        {
+          "id": "E",
+          "text": "أسماء رؤساء الدول"
+        },
+        {
+          "id": "F",
+          "text": "أسماء المصممين"
+        }
+      ],
+      "correctOptionId": "D",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "flags-hard-0215",
+      "categoryId": "flags",
+      "difficulty": "hard",
+      "text": "وفق مرسوم ألمانيا 2005 ، بأي معيار ترتب أعلام الدول الأجنبية المسموح بها؟",
+      "answer": "أبجدياً وفق أسمائها الرسمية المختصرة بالألمانية",
+      "acceptedAnswers": [],
+      "hint": "اللغة المرجعية هنا لغة البلد المنظم.",
+      "clues": [],
+      "explanation": "ينص المرسوم على الأسماء الألمانية الرسمية المختصرة.",
+      "sources": [
+        "https://www.verwaltungsvorschriften-im-internet.de/bsvwvbund_22032005_Z4a1150415.htm — المصدر/النسخة المبينة في نص السؤال؛ قرئت الصفحة في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "أبجدياً باللغة الإنجليزية"
+        },
+        {
+          "id": "B",
+          "text": "حسب عدد السكان"
+        },
+        {
+          "id": "C",
+          "text": "حسب تاريخ استقلال الدولة"
+        },
+        {
+          "id": "D",
+          "text": "حسب مساحة الدولة"
+        },
+        {
+          "id": "E",
+          "text": "أبجدياً وفق أسمائها الرسمية المختصرة بالألمانية"
+        },
+        {
+          "id": "F",
+          "text": "حسب عدد ألوان العلم"
+        }
+      ],
+      "correctOptionId": "E",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "flags-hard-0216",
+      "categoryId": "flags",
+      "difficulty": "hard",
+      "text": "في المبنى الألماني الاتحادي الذي تشغله جهات اتحادية متعددة، مَن يتولى أمر رفع الأعلام حسب مرسوم 2005 ؟",
+      "answer": "الجهة التي تدير المبنى",
+      "acceptedAnswers": [],
+      "hint": "الاختصاص يتبع إدارة المكان لا عدد الموظفين.",
+      "clues": [],
+      "explanation": "تتولى رفع الأعلام الجهة المديرة للمبنى المشترك.",
+      "sources": [
+        "https://www.verwaltungsvorschriften-im-internet.de/bsvwvbund_22032005_Z4a1150415.htm — المصدر/النسخة المبينة في نص السؤال؛ قرئت الصفحة في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "الجهة الأقدم تأسيساً"
+        },
+        {
+          "id": "B",
+          "text": "الجهة الأقل موظفين"
+        },
+        {
+          "id": "C",
+          "text": "الجهة الموجودة بالطابق الأعلى"
+        },
+        {
+          "id": "D",
+          "text": "كل جهة بسارية مستقلة وجوباً"
+        },
+        {
+          "id": "E",
+          "text": "أقرب بلدية فقط"
+        },
+        {
+          "id": "F",
+          "text": "الجهة التي تدير المبنى"
+        }
+      ],
+      "correctOptionId": "F",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "flags-hard-0217",
+      "categoryId": "flags",
+      "difficulty": "hard",
+      "text": "ما الأعلام الثلاثة المرفوعة يومياً عند مبنى نويَه فاخَه التذكاري في برلين وفق مرسوم 2005 ؟",
+      "answer": "الأوروبي والاتحادي وعلم برلين",
+      "acceptedAnswers": [],
+      "hint": "يمثل العرض المستوى الأوروبي والوطني والمحلي.",
+      "clues": [],
+      "explanation": "يسمي المرسوم هذه الأعلام الثلاثة للموقع.",
+      "sources": [
+        "https://www.verwaltungsvorschriften-im-internet.de/bsvwvbund_22032005_Z4a1150415.htm — المصدر/النسخة المبينة في نص السؤال؛ قرئت الصفحة في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "الأوروبي والاتحادي وعلم برلين"
+        },
+        {
+          "id": "B",
+          "text": "الاتحادي وبرلين والناتو"
+        },
+        {
+          "id": "C",
+          "text": "الأوروبي وبرلين والأمم المتحدة"
+        },
+        {
+          "id": "D",
+          "text": "الاتحادي وبرلين وبافاريا"
+        },
+        {
+          "id": "E",
+          "text": "الأوروبي والاتحادي وبراندنبورغ"
+        },
+        {
+          "id": "F",
+          "text": "الاتحادي والأوروبي والناتو"
+        }
+      ],
+      "correctOptionId": "A",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "flags-hard-0218",
+      "categoryId": "flags",
+      "difficulty": "hard",
+      "text": "أي وزارة ينيط بها مرسوم ألمانيا 2005 تنظيم أعلام المباني الألمانية الحكومية في الخارج؟",
+      "answer": "وزارة الخارجية",
+      "acceptedAnswers": [],
+      "hint": "الموقع خارج البلد يغير جهة الاختصاص.",
+      "clues": [],
+      "explanation": "البند السابع ينيط المباني الحكومية بالخارج بوزارة الخارجية.",
+      "sources": [
+        "https://www.verwaltungsvorschriften-im-internet.de/bsvwvbund_22032005_Z4a1150415.htm — المصدر/النسخة المبينة في نص السؤال؛ قرئت الصفحة في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "وزارة الداخلية"
+        },
+        {
+          "id": "B",
+          "text": "وزارة الخارجية"
+        },
+        {
+          "id": "C",
+          "text": "وزارة الدفاع"
+        },
+        {
+          "id": "D",
+          "text": "وزارة الثقافة"
+        },
+        {
+          "id": "E",
+          "text": "وزارة المالية"
+        },
+        {
+          "id": "F",
+          "text": "وزارة التعليم"
+        }
+      ],
+      "correctOptionId": "B",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "flags-hard-0219",
+      "categoryId": "flags",
+      "difficulty": "hard",
+      "text": "وفق تعليمات جنوب إفريقيا 2001 ، ما طريقة حفظ الأعلام غير المستعملة؟",
+      "answer": "تلف بعناية وتوضع في وعاء مخصص",
+      "acceptedAnswers": [],
+      "hint": "الحفظ يحمي القطعة ويحافظ على جاهزيتها.",
+      "clues": [],
+      "explanation": "تذكر التعليمات اللف بعناية ووعاءً معداً لهذا الغرض.",
+      "sources": [
+        "https://www.gov.za/sites/default/files/22356.pdf — المصدر/النسخة المبينة في نص السؤال؛ قرئت الصفحة في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "تترك مرفوعة في المطر"
+        },
+        {
+          "id": "B",
+          "text": "تلقى على أرض المخزن"
+        },
+        {
+          "id": "C",
+          "text": "تلف بعناية وتوضع في وعاء مخصص"
+        },
+        {
+          "id": "D",
+          "text": "توضع تحت معدات السارية"
+        },
+        {
+          "id": "E",
+          "text": "تعرض مقلوبة حتى استعمالها"
+        },
+        {
+          "id": "F",
+          "text": "تعلق على مركبة متوقفة دائماً"
+        }
+      ],
+      "correctOptionId": "C",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "flags-hard-0220",
+      "categoryId": "flags",
+      "difficulty": "hard",
+      "text": "وفق تعليمات جنوب إفريقيا 2001 ، ما التصرف في علم استبدل لأنه لم يعد صالحاً، لكنه قابل للإصلاح؟",
+      "answer": "يعاد إلى جهة الإصدار لإصلاحه",
+      "acceptedAnswers": [],
+      "hint": "الدليل يفرق بين ما يمكن إصلاحه وما لا يمكن.",
+      "clues": [],
+      "explanation": "يعاد إلى الجهة التي أصدرته للإصلاح أو الإتلاف عند تعذر الإصلاح.",
+      "sources": [
+        "https://www.gov.za/sites/default/files/22356.pdf — المصدر/النسخة المبينة في نص السؤال؛ قرئت الصفحة في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "يستخدم غطاء طاولة"
+        },
+        {
+          "id": "B",
+          "text": "يوضع على سارية أعلى"
+        },
+        {
+          "id": "C",
+          "text": "يقص قبل محاولة إصلاحه"
+        },
+        {
+          "id": "D",
+          "text": "يعاد إلى جهة الإصدار لإصلاحه"
+        },
+        {
+          "id": "E",
+          "text": "يسلم لأي متفرج"
+        },
+        {
+          "id": "F",
+          "text": "يرفع دون النظر إلى حالته"
+        }
+      ],
+      "correctOptionId": "D",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "flags-hard-0221",
+      "categoryId": "flags",
+      "difficulty": "hard",
+      "text": "وفق المادة 7 ، عند عرض العلم الأمريكي وعلم آخر بساريتين متقاطعتين، كيف تتراكب الساريتان؟",
+      "answer": "سارية الأمريكي أمام الأخرى",
+      "acceptedAnswers": [],
+      "hint": "الموضع الأمامي جزء من الأسبقية إلى جانب جهة العلم.",
+      "clues": [],
+      "explanation": "يكون العلم الأمريكي على يمينه وساريته أمام الأخرى.",
+      "sources": [
+        "https://www.govinfo.gov/content/pkg/USCODE-2018-title4/html/USCODE-2018-title4-chap1-sec7.htm — المصدر/النسخة المبينة في نص السؤال؛ قرئت الصفحة في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "سارية الأمريكي خلف الأخرى"
+        },
+        {
+          "id": "B",
+          "text": "كلتا الساريتين أفقياً"
+        },
+        {
+          "id": "C",
+          "text": "سارية الأمريكي أسفل العلمين"
+        },
+        {
+          "id": "D",
+          "text": "سارية الآخر أمامهما دائماً"
+        },
+        {
+          "id": "E",
+          "text": "سارية الأمريكي أمام الأخرى"
+        },
+        {
+          "id": "F",
+          "text": "الساريتان منفصلتان دون تقاطع"
+        }
+      ],
+      "correctOptionId": "E",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "flags-hard-0222",
+      "categoryId": "flags",
+      "difficulty": "hard",
+      "text": "وفق قانون العلم الأمريكي، عند عرض أعلام دول مستقلة متعددة في السلم، ما العلاقة بين أحجامها وارتفاعها؟",
+      "answer": "حجم متقارب وساريات منفصلة متساوية الارتفاع",
+      "acceptedAnswers": [],
+      "hint": "فرق بين أسبقية أعلام محلية والمساواة بين الدول.",
+      "clues": [],
+      "explanation": "تقارب الأحجام وتساوي ارتفاع الساريات قاعدة العرض الدولي.",
+      "sources": [
+        "https://www.govinfo.gov/content/pkg/USCODE-2018-title4/html/USCODE-2018-title4-chap1-sec7.htm — المصدر/النسخة المبينة في نص السؤال؛ قرئت الصفحة في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "الأمريكي أكبر وأعلى"
+        },
+        {
+          "id": "B",
+          "text": "الأمريكي أصغر وأخفض"
+        },
+        {
+          "id": "C",
+          "text": "الجميع على سارية واحدة"
+        },
+        {
+          "id": "D",
+          "text": "الحجم بحسب السكان والارتفاع بحسب المساحة"
+        },
+        {
+          "id": "E",
+          "text": "الحجم بحسب عمر الدولة"
+        },
+        {
+          "id": "F",
+          "text": "حجم متقارب وساريات منفصلة متساوية الارتفاع"
+        }
+      ],
+      "correctOptionId": "F",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "flags-hard-0223",
+      "categoryId": "flags",
+      "difficulty": "hard",
+      "text": "عند تعليق العلم الأمريكي في نافذة، مَن هو المشاهد الذي تحدد على أساسه جهة الحقل الأزرق؟",
+      "answer": "الشخص الذي يراه من الشارع",
+      "acceptedAnswers": [],
+      "hint": "جهة داخل الغرفة قد تكون معكوسة عن جهة الخارج.",
+      "clues": [],
+      "explanation": "يكون الحقل يسار من يرى العلم من الشارع.",
+      "sources": [
+        "https://www.govinfo.gov/content/pkg/USCODE-2018-title4/html/USCODE-2018-title4-chap1-sec7.htm — المصدر/النسخة المبينة في نص السؤال؛ قرئت الصفحة في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "الشخص الذي يراه من الشارع"
+        },
+        {
+          "id": "B",
+          "text": "الشخص الجالس داخل الغرفة"
+        },
+        {
+          "id": "C",
+          "text": "الشخص على سطح المبنى"
+        },
+        {
+          "id": "D",
+          "text": "الشخص خلف النافذة"
+        },
+        {
+          "id": "E",
+          "text": "حامل العلم من الداخل"
+        },
+        {
+          "id": "F",
+          "text": "صاحب المنزل فقط"
+        }
+      ],
+      "correctOptionId": "A",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "flags-hard-0224",
+      "categoryId": "flags",
+      "difficulty": "hard",
+      "text": "وفق المادة 7 ، ما موضع الحقل الأزرق عند تعليق العلم الأمريكي من سارية مائلة عن مبنى؟",
+      "answer": "قرب قمة السارية",
+      "acceptedAnswers": [],
+      "hint": "تطبق قاعدة القمة ما لم يكن العلم منكّساً.",
+      "clues": [],
+      "explanation": "الحقل الأزرق عند قمة السارية في العرض المائل.",
+      "sources": [
+        "https://www.govinfo.gov/content/pkg/USCODE-2018-title4/html/USCODE-2018-title4-chap1-sec7.htm — المصدر/النسخة المبينة في نص السؤال؛ قرئت الصفحة في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "قرب قاعدة السارية"
+        },
+        {
+          "id": "B",
+          "text": "قرب قمة السارية"
+        },
+        {
+          "id": "C",
+          "text": "نحو النافذة حصراً"
+        },
+        {
+          "id": "D",
+          "text": "أسفل نقطة الربط"
+        },
+        {
+          "id": "E",
+          "text": "بعيداً عن السارية"
+        },
+        {
+          "id": "F",
+          "text": "في وسط طولها"
+        }
+      ],
+      "correctOptionId": "B",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "flags-hard-0225",
+      "categoryId": "flags",
+      "difficulty": "hard",
+      "text": "في كندا، ما معيار ترتيب أعلام المقاطعات في المجموعة الرسمية؟",
+      "answer": "ترتيب انضمامها إلى الاتحاد",
+      "acceptedAnswers": [],
+      "hint": "ليس ترتيباً أبجدياً لأسماء المقاطعات.",
+      "clues": [],
+      "explanation": "ترتب المقاطعات وفق تاريخ دخولها الاتحاد وبحسب ترتيب الدليل.",
+      "sources": [
+        "https://www.canada.ca/en/canadian-heritage/services/flag-canada-etiquette/position-honour.html — المصدر/النسخة المبينة في نص السؤال؛ قرئت الصفحة في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "حسب مساحتها"
+        },
+        {
+          "id": "B",
+          "text": "حسب عدد ألوانها"
+        },
+        {
+          "id": "C",
+          "text": "ترتيب انضمامها إلى الاتحاد"
+        },
+        {
+          "id": "D",
+          "text": "حسب الأبجدية العربية"
+        },
+        {
+          "id": "E",
+          "text": "حسب تاريخ تصميم الرايات فقط"
+        },
+        {
+          "id": "F",
+          "text": "حسب اسم العاصمة"
+        }
+      ],
+      "correctOptionId": "C",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "flags-legendary-0201",
+      "categoryId": "flags",
+      "difficulty": "legendary",
+      "text": "هل يحسب الدليل الكندي الساريات الخالية عند تحديد موضع الشرف في مجموعة لا تستخدم كلها؟",
+      "answer": "لا، يحسب الساريات التي تحمل أعلاماً فقط",
+      "acceptedAnswers": [],
+      "hint": "المشهد الفعلي أهم من عدد الأعمدة المركبة.",
+      "clues": [],
+      "explanation": "يهمل الدليل الساريات الفارغة ويحسب المعروضة فقط.",
+      "sources": [
+        "https://www.canada.ca/en/canadian-heritage/services/flag-canada-etiquette/position-honour.html — المصدر/النسخة المبينة في نص السؤال؛ قرئت الصفحة في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "نعم، جميع الساريات دون استثناء"
+        },
+        {
+          "id": "B",
+          "text": "نعم، السارية الأعلى فقط"
+        },
+        {
+          "id": "C",
+          "text": "نعم، الفارغة في الوسط وحدها"
+        },
+        {
+          "id": "D",
+          "text": "لا، يحسب الساريات التي تحمل أعلاماً فقط"
+        },
+        {
+          "id": "E",
+          "text": "نعم، الفارغة على اليمين وحدها"
+        },
+        {
+          "id": "F",
+          "text": "نعم، الفارغة على اليسار وحدها"
+        }
+      ],
+      "correctOptionId": "D",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "flags-legendary-0202",
+      "categoryId": "flags",
+      "difficulty": "legendary",
+      "text": "في كندا، إذا كانت الساريات على خط عمودي على واجهة المبنى ويأتي الزائر من أمامه، فأي علم له الأسبقية؟",
+      "answer": "الأول الذي يراه الزائر عند الاقتراب",
+      "acceptedAnswers": [],
+      "hint": "ترتيب الوصول يحدد أبرز موضع في هذا التشكيل.",
+      "clues": [],
+      "explanation": "يسمي الدليل العلم الأول في صف الدخول موضع الأسبقية.",
+      "sources": [
+        "https://www.canada.ca/en/canadian-heritage/services/flag-canada-etiquette/position-honour.html — المصدر/النسخة المبينة في نص السؤال؛ قرئت الصفحة في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "الأخير الأقرب إلى الجدار"
+        },
+        {
+          "id": "B",
+          "text": "الثاني دائماً"
+        },
+        {
+          "id": "C",
+          "text": "الأوسط مهما كان العدد"
+        },
+        {
+          "id": "D",
+          "text": "الأكثر ارتفاعاً فقط"
+        },
+        {
+          "id": "E",
+          "text": "الأول الذي يراه الزائر عند الاقتراب"
+        },
+        {
+          "id": "F",
+          "text": "الأبعد عن باب الدخول"
+        }
+      ],
+      "correctOptionId": "E",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "flags-legendary-0203",
+      "categoryId": "flags",
+      "difficulty": "legendary",
+      "text": "في كندا، أين يكون العلم الوطني ضمن دائرة مغلقة من الأعلام من منظور المدخل الرئيسي؟",
+      "answer": "في الموضع الأمامي المركزي الأبرز",
+      "acceptedAnswers": [],
+      "hint": "من المهم تحديد جهة الاقتراب إلى الدائرة.",
+      "clues": [],
+      "explanation": "يكون في أبرز موضع مركزي كما يرى من المدخل الرئيسي.",
+      "sources": [
+        "https://www.canada.ca/en/canadian-heritage/services/flag-canada-etiquette/position-honour.html — المصدر/النسخة المبينة في نص السؤال؛ قرئت الصفحة في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "في أبعد موضع خلفي"
+        },
+        {
+          "id": "B",
+          "text": "في أي موضع عشوائي"
+        },
+        {
+          "id": "C",
+          "text": "في الدائرة الداخلية وحدها"
+        },
+        {
+          "id": "D",
+          "text": "إلى يمين كل الأعلام جميعاً"
+        },
+        {
+          "id": "E",
+          "text": "خارج الدائرة دائماً"
+        },
+        {
+          "id": "F",
+          "text": "في الموضع الأمامي المركزي الأبرز"
+        }
+      ],
+      "correctOptionId": "F",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "flags-legendary-0204",
+      "categoryId": "flags",
+      "difficulty": "legendary",
+      "text": "إذا حضر الملك شخصياً في مناسبة كندية، أي علم يقدم على العلم الوطني وفق الدليل؟",
+      "answer": "العلم الكندي الشخصي للملك",
+      "acceptedAnswers": [],
+      "hint": "الاستثناء يتعلق بشخصية دستورية موجودة لا بمجرد علم دولة أجنبية.",
+      "clues": [],
+      "explanation": "علم الملك الشخصي يتقدم على كل الأعلام في حضوره.",
+      "sources": [
+        "https://www.canada.ca/en/canadian-heritage/services/flag-canada-etiquette/position-honour.html — المصدر/النسخة المبينة في نص السؤال؛ قرئت الصفحة في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "العلم الكندي الشخصي للملك"
+        },
+        {
+          "id": "B",
+          "text": "علم المملكة المتحدة بوصفه دولة"
+        },
+        {
+          "id": "C",
+          "text": "علم الكومنولث"
+        },
+        {
+          "id": "D",
+          "text": "علم أكبر مقاطعة"
+        },
+        {
+          "id": "E",
+          "text": "علم الناتو"
+        },
+        {
+          "id": "F",
+          "text": "علم الاتحاد الأوروبي"
+        }
+      ],
+      "correctOptionId": "A",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "flags-legendary-0205",
+      "categoryId": "flags",
+      "difficulty": "legendary",
+      "text": "إذا حضر أكثر من فرد من الأسرة الملكية مناسبة كندية، كم علماً شخصياً يرفع الدليل؟",
+      "answer": "علم صاحب الأسبقية منهم فقط",
+      "acceptedAnswers": [],
+      "hint": "لا يلزم إظهار علم مستقل لكل فرد حاضر.",
+      "clues": [],
+      "explanation": "يرفع فقط علم الفرد ذي الأسبقية.",
+      "sources": [
+        "https://www.canada.ca/en/canadian-heritage/services/flag-canada-etiquette/position-honour.html — المصدر/النسخة المبينة في نص السؤال؛ قرئت الصفحة في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "أعلام الجميع بالتساوي"
+        },
+        {
+          "id": "B",
+          "text": "علم صاحب الأسبقية منهم فقط"
+        },
+        {
+          "id": "C",
+          "text": "علم الأصغر سناً وحده"
+        },
+        {
+          "id": "D",
+          "text": "علم الأكبر مساحة فقط"
+        },
+        {
+          "id": "E",
+          "text": "العلم الوطني بدلاً من الجميع دائماً"
+        },
+        {
+          "id": "F",
+          "text": "علم كل فرد مع علم بلديته"
+        }
+      ],
+      "correctOptionId": "B",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "flags-legendary-0206",
+      "categoryId": "flags",
+      "difficulty": "legendary",
+      "text": "في مناسبة اتحادية كندية، أي راية نيابية ملكية تتقدم بحسب طبيعة الحدث؟",
+      "answer": "علم الحاكم العام",
+      "acceptedAnswers": [],
+      "hint": "الاختصاص اتحادي وليس مناسبة خاصة بمقاطعة.",
+      "clues": [],
+      "explanation": "يتقدم علم الحاكم العام في الأحداث الاتحادية.",
+      "sources": [
+        "https://www.canada.ca/en/canadian-heritage/services/flag-canada-etiquette/position-honour.html — المصدر/النسخة المبينة في نص السؤال؛ قرئت الصفحة في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "علم مفوض الإقليم"
+        },
+        {
+          "id": "B",
+          "text": "علم رئيس البلدية"
+        },
+        {
+          "id": "C",
+          "text": "علم الحاكم العام"
+        },
+        {
+          "id": "D",
+          "text": "علم نائب حاكم أي مقاطعة"
+        },
+        {
+          "id": "E",
+          "text": "علم المملكة المتحدة الوطني"
+        },
+        {
+          "id": "F",
+          "text": "علم أقدم منظمة"
+        }
+      ],
+      "correctOptionId": "C",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "flags-legendary-0207",
+      "categoryId": "flags",
+      "difficulty": "legendary",
+      "text": "هل يزيح علم مفوض إقليم كندي العلم الوطني أو العلم الإقليمي وفق الدليل؟",
+      "answer": "لا، يحتاج إلى موضع رفع منفصل",
+      "acceptedAnswers": [],
+      "hint": "رتبته تختلف عن الحاكم العام ونواب الحكام.",
+      "clues": [],
+      "explanation": "لا تتقدم أعلام مفوضي الأقاليم على الوطني أو الإقليمي.",
+      "sources": [
+        "https://www.canada.ca/en/canadian-heritage/services/flag-canada-etiquette/position-honour.html — المصدر/النسخة المبينة في نص السؤال؛ قرئت الصفحة في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "نعم فوق الوطني"
+        },
+        {
+          "id": "B",
+          "text": "نعم فوق الوطني والإقليمي"
+        },
+        {
+          "id": "C",
+          "text": "نعم عند وجود وفد ملكي فقط"
+        },
+        {
+          "id": "D",
+          "text": "لا، يحتاج إلى موضع رفع منفصل"
+        },
+        {
+          "id": "E",
+          "text": "نعم إذا كبر حجمه"
+        },
+        {
+          "id": "F",
+          "text": "نعم عند العرض الداخلي وحده"
+        }
+      ],
+      "correctOptionId": "D",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "flags-legendary-0208",
+      "categoryId": "flags",
+      "difficulty": "legendary",
+      "text": "إذا استخدمت مجموعة مبانٍ متصلة عرض أعلام واحداً يمثلها في كندا، هل يلزم تكرار العرض على كل مبنى؟",
+      "answer": "لا، يمكن لعرض ظاهر مناسب أن يمثل المجمع",
+      "acceptedAnswers": [],
+      "hint": "تتكلم القاعدة عن وحدة تعمل معاً لا عن مبانٍ مستقلة متباعدة.",
+      "clues": [],
+      "explanation": "يكفي عرض واحد مناسب ومرئي للمجمع المتصل.",
+      "sources": [
+        "https://www.canada.ca/en/canadian-heritage/services/flag-canada-etiquette/position-honour.html — المصدر/النسخة المبينة في نص السؤال؛ قرئت الصفحة في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "نعم على كل نافذة"
+        },
+        {
+          "id": "B",
+          "text": "نعم على كل طابق"
+        },
+        {
+          "id": "C",
+          "text": "نعم إذا تشاركت الإدارة فقط"
+        },
+        {
+          "id": "D",
+          "text": "نعم لكل باب منفصل دائماً"
+        },
+        {
+          "id": "E",
+          "text": "لا، يمكن لعرض ظاهر مناسب أن يمثل المجمع"
+        },
+        {
+          "id": "F",
+          "text": "نعم مهما كان اتصالها"
+        }
+      ],
+      "correctOptionId": "E",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "flags-legendary-0209",
+      "categoryId": "flags",
+      "difficulty": "legendary",
+      "text": "في كندا، ما حكم بقاء أشكال الأعلام الوطنية المختلفة عند توحيد أحجامها في عرض دولي؟",
+      "answer": "تقارب الحجم دون تغيير النسب الأصلية",
+      "acceptedAnswers": [],
+      "hint": "المساواة لا تعني تشويه الشكل الهندسي المعتمد.",
+      "clues": [],
+      "explanation": "يحفظ الدليل نسب الأعلام عند جعل أحجامها متقاربة.",
+      "sources": [
+        "https://www.canada.ca/en/canadian-heritage/services/flag-canada-etiquette/position-honour.html — المصدر/النسخة المبينة في نص السؤال؛ قرئت الصفحة في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "تحويلها جميعاً إلى مربعات"
+        },
+        {
+          "id": "B",
+          "text": "توحيد كل النسب عند 1:1"
+        },
+        {
+          "id": "C",
+          "text": "مد الأقصر دون حفظ تناسبه"
+        },
+        {
+          "id": "D",
+          "text": "قص أطراف الأطول"
+        },
+        {
+          "id": "E",
+          "text": "توحيد مساحتها ولو تغير التصميم"
+        },
+        {
+          "id": "F",
+          "text": "تقارب الحجم دون تغيير النسب الأصلية"
+        }
+      ],
+      "correctOptionId": "F",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "flags-legendary-0210",
+      "categoryId": "flags",
+      "difficulty": "legendary",
+      "text": "في كندا، كيف تختلف أسبقية علم الاتحاد البريطاني إذا رفع ممثلاً للمملكة المتحدة أو رمزاً للكومنولث؟",
+      "answer": "كعلم دولة يتقدم على الإقليمي، وكـرمز كومنولث يتأخر عنه",
+      "acceptedAnswers": [],
+      "hint": "سبب رفع الراية جزء من تحديد مرتبتها.",
+      "clues": [],
+      "explanation": "يميز الدليل بين صفة الدولة المستقلة وصفة رمز الانتماء الكندي.",
+      "sources": [
+        "https://www.canada.ca/en/canadian-heritage/services/flag-canada-etiquette/foreign-flags.html — المصدر/النسخة المبينة في نص السؤال؛ قرئت الصفحة في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "كعلم دولة يتقدم على الإقليمي، وكـرمز كومنولث يتأخر عنه"
+        },
+        {
+          "id": "B",
+          "text": "يتقدم على الوطني في الحالتين"
+        },
+        {
+          "id": "C",
+          "text": "يتأخر عن كل الأعلام في الحالتين"
+        },
+        {
+          "id": "D",
+          "text": "يتقدم على الإقليمي في الحالتين"
+        },
+        {
+          "id": "E",
+          "text": "يتأخر عن الإقليمي كعلم دولة فقط"
+        },
+        {
+          "id": "F",
+          "text": "لا يجوز رفعه بأي من الصفتين"
+        }
+      ],
+      "correctOptionId": "A",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "flags-legendary-0211",
+      "categoryId": "flags",
+      "difficulty": "legendary",
+      "text": "عند الاحتفال بيوم الكومنولث في مبنى اتحادي كندي، هل يستبدل علم الاتحاد البريطاني العلم الكندي إذا لم توجد إلا سارية واحدة؟",
+      "answer": "لا، لا يستبدل الوطني ويتطلب العرض المشترك ساريتين",
+      "acceptedAnswers": [],
+      "hint": "وجود الإمكانات المادية شرط في العرض المصاحب.",
+      "clues": [],
+      "explanation": "يوضح الهامش أن وجود ساريتين مطلوب وأن الوطني لا يستبدل.",
+      "sources": [
+        "https://www.canada.ca/en/canadian-heritage/services/flag-canada-etiquette/foreign-flags.html — المصدر/النسخة المبينة في نص السؤال؛ قرئت الصفحة في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "نعم يستبدله يومياً"
+        },
+        {
+          "id": "B",
+          "text": "لا، لا يستبدل الوطني ويتطلب العرض المشترك ساريتين"
+        },
+        {
+          "id": "C",
+          "text": "نعم يستبدله ليلاً فقط"
+        },
+        {
+          "id": "D",
+          "text": "نعم يعلوه على الحبل نفسه"
+        },
+        {
+          "id": "E",
+          "text": "نعم يحل محله دون قيد"
+        },
+        {
+          "id": "F",
+          "text": "نعم إذا كان البريطاني أكبر"
+        }
+      ],
+      "correctOptionId": "B",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "flags-legendary-0212",
+      "categoryId": "flags",
+      "difficulty": "legendary",
+      "text": "عندما تؤمر ألمانيا بتنكيس العلم الاتحادي والأوروبي، هل يلزم من مرسوم 2005 تنكيس علم دولة أجنبية في العرض نفسه؟",
+      "answer": "لا، تستثنى أعلام الدول الأجنبية من هذه القاعدة",
+      "acceptedAnswers": [],
+      "hint": "الأمر يحدد أعلاماً مسماة ولا يعمم تلقائياً على الضيوف.",
+      "clues": [],
+      "explanation": "تستثنى أعلام الدول الأجنبية والمنظمات الأخرى من القاعدة المذكورة.",
+      "sources": [
+        "https://www.verwaltungsvorschriften-im-internet.de/bsvwvbund_22032005_Z4a1150415.htm — المصدر/النسخة المبينة في نص السؤال؛ قرئت الصفحة في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "نعم تنكس كلها تلقائياً"
+        },
+        {
+          "id": "B",
+          "text": "نعم تنكس الأجنبية وحدها"
+        },
+        {
+          "id": "C",
+          "text": "لا، تستثنى أعلام الدول الأجنبية من هذه القاعدة"
+        },
+        {
+          "id": "D",
+          "text": "نعم تنزل الأجنبية نهائياً"
+        },
+        {
+          "id": "E",
+          "text": "نعم تقلب الأجنبية"
+        },
+        {
+          "id": "F",
+          "text": "نعم يستبدل الأجنبي بعلم ألماني"
+        }
+      ],
+      "correctOptionId": "C",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "flags-legendary-0213",
+      "categoryId": "flags",
+      "difficulty": "legendary",
+      "text": "أي موضع تعطى فيه الأولوية للعلمين الأوروبي والاتحادي أمام مبنى ألماني مع أعلام محلية، وفق مرسوم 2005 ؟",
+      "answer": "يسار المشاهد من الخارج",
+      "acceptedAnswers": [],
+      "hint": "الدليل يحدد المرجع عند النظر إلى واجهة المبنى.",
+      "clues": [],
+      "explanation": "تعطى الرايتان المواضع المفضلة على اليسار من الخارج.",
+      "sources": [
+        "https://www.verwaltungsvorschriften-im-internet.de/bsvwvbund_22032005_Z4a1150415.htm — المصدر/النسخة المبينة في نص السؤال؛ قرئت الصفحة في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "يمين المشاهد"
+        },
+        {
+          "id": "B",
+          "text": "الخلف دون ظهور"
+        },
+        {
+          "id": "C",
+          "text": "أسفل العلم المحلي"
+        },
+        {
+          "id": "D",
+          "text": "يسار المشاهد من الخارج"
+        },
+        {
+          "id": "E",
+          "text": "خلف العلم البلدي"
+        },
+        {
+          "id": "F",
+          "text": "السارية الأقرب للشمال دائماً"
+        }
+      ],
+      "correctOptionId": "D",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "flags-legendary-0214",
+      "categoryId": "flags",
+      "difficulty": "legendary",
+      "text": "ما الذي يختلف في صلاحية رفع أعلام ألمانية محلية وأعلام دول أجنبية وفق مرسوم 2005 ؟",
+      "answer": "الأجنبية تحتاج قراراً خاصاً من الجهات المحددة",
+      "acceptedAnswers": [],
+      "hint": "المسموح محلياً في مناسبات إقليمية ليس تصريحاً مفتوحاً لكل علم.",
+      "clues": [],
+      "explanation": "رفع الأجنبية يرتبط بقرار الداخلية بالتنسيق مع الخارجية، مع استثناء عسكري موضح.",
+      "sources": [
+        "https://www.verwaltungsvorschriften-im-internet.de/bsvwvbund_22032005_Z4a1150415.htm — المصدر/النسخة المبينة في نص السؤال؛ قرئت الصفحة في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "الأجنبية ترفع دون أي قرار دائماً"
+        },
+        {
+          "id": "B",
+          "text": "المحلية تمنع في كل مناسبة"
+        },
+        {
+          "id": "C",
+          "text": "الأجنبية تحل محل الاتحادي وجوباً"
+        },
+        {
+          "id": "D",
+          "text": "كل بلدية تحدد الرايات الأجنبية لكل مبنى اتحادي"
+        },
+        {
+          "id": "E",
+          "text": "الأجنبية تحتاج قراراً خاصاً من الجهات المحددة"
+        },
+        {
+          "id": "F",
+          "text": "العلم الأجنبي يرفع متى طلب الزائر وحده"
+        }
+      ],
+      "correctOptionId": "E",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "flags-legendary-0215",
+      "categoryId": "flags",
+      "difficulty": "legendary",
+      "text": "ما المناسبتان اللتان ينص مرسوم ألمانيا 2005 على تنكيس الأعلام فيهما ضمن الأيام العامة المنتظمة؟",
+      "answer": "ذكرى ضحايا النازية ويوم الحداد الشعبي",
+      "acceptedAnswers": [],
+      "hint": "المناسبتان تذكاريتان مرتبطتان بالفقد لا بالوحدة والعمل.",
+      "clues": [],
+      "explanation": "ينص البند الثاني على التنكيس لهاتين المناسبتين.",
+      "sources": [
+        "https://www.verwaltungsvorschriften-im-internet.de/bsvwvbund_22032005_Z4a1150415.htm — المصدر/النسخة المبينة في نص السؤال؛ قرئت الصفحة في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "عيد العمل ويوم أوروبا"
+        },
+        {
+          "id": "B",
+          "text": "يوم الوحدة ويوم أوروبا"
+        },
+        {
+          "id": "C",
+          "text": "ذكرى القانون الأساسي ويوم الوحدة"
+        },
+        {
+          "id": "D",
+          "text": "انتخابات البرلمان ويوم العمل"
+        },
+        {
+          "id": "E",
+          "text": "ذكرى20يوليو وعيد العمل"
+        },
+        {
+          "id": "F",
+          "text": "ذكرى ضحايا النازية ويوم الحداد الشعبي"
+        }
+      ],
+      "correctOptionId": "F",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "flags-legendary-0216",
+      "categoryId": "flags",
+      "difficulty": "legendary",
+      "text": "إذا استمر رفع الأعلام في ألمانيا عدة أيام دون إضاءة ليلية، ما المسار الذي يذكره مرسوم 2005 ؟",
+      "answer": "تنزل عند الغروب وترفع صباحاً",
+      "acceptedAnswers": [],
+      "hint": "الامتداد لأيام لا يلغي قاعدة الليل.",
+      "clues": [],
+      "explanation": "تنزل الأعلام عند الغروب ثم تعاد صباحاً، ما لم تضاء.",
+      "sources": [
+        "https://www.verwaltungsvorschriften-im-internet.de/bsvwvbund_22032005_Z4a1150415.htm — المصدر/النسخة المبينة في نص السؤال؛ قرئت الصفحة في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "تنزل عند الغروب وترفع صباحاً"
+        },
+        {
+          "id": "B",
+          "text": "تبقى مرفوعة دون إنزال"
+        },
+        {
+          "id": "C",
+          "text": "تنزل بعد انتهاء كل الأيام فقط"
+        },
+        {
+          "id": "D",
+          "text": "تنكس تلقائياً طوال الفترة"
+        },
+        {
+          "id": "E",
+          "text": "يطوى نصفها عند الليل"
+        },
+        {
+          "id": "F",
+          "text": "تستبدل بأعلام أصغر ليلاً"
+        }
+      ],
+      "correctOptionId": "A",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "flags-legendary-0217",
+      "categoryId": "flags",
+      "difficulty": "legendary",
+      "text": "ما الذي يميز قواعد أيام رفع العلم على المباني الحكومية في أيرلندا الشمالية عن الإرشاد البريطاني العام؟",
+      "answer": "تحكمها تشريعات خاصة لا هذا الإرشاد",
+      "acceptedAnswers": [],
+      "hint": "الإرشاد نفسه يصرح بحدود تطبيقه.",
+      "clues": [],
+      "explanation": "يشير النص إلى حكم تشريعي خاص لأيرلندا الشمالية.",
+      "sources": [
+        "https://www.gov.uk/guidance/designated-days-for-union-flag-flying — المصدر/النسخة المبينة في نص السؤال؛ قرئت الصفحة في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "أنها تلغي علم الاتحاد"
+        },
+        {
+          "id": "B",
+          "text": "تحكمها تشريعات خاصة لا هذا الإرشاد"
+        },
+        {
+          "id": "C",
+          "text": "أنها تمنع أي علم محلي"
+        },
+        {
+          "id": "D",
+          "text": "أنها تعتمد الإرشاد نفسه دون استثناء"
+        },
+        {
+          "id": "E",
+          "text": "أنها تخص المباني الخاصة فقط"
+        },
+        {
+          "id": "F",
+          "text": "أنها لا تملك أياماً محددة"
+        }
+      ],
+      "correctOptionId": "B",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "flags-legendary-0218",
+      "categoryId": "flags",
+      "difficulty": "legendary",
+      "text": "عند وجود سارية واحدة فقط بمبنى حكومي بريطاني، هل يمنع الإرشاد رفع أي علم آخر طوال العام؟",
+      "answer": "لا، يتيح مناسبات لأعلام وطنية ومحلية وغيرها",
+      "acceptedAnswers": [],
+      "hint": "قاعدة العرض الافتراضي لها استثناءات في مناسبات محددة.",
+      "clues": [],
+      "explanation": "يمكن رفع أعلام أخرى في بعض المناسبات وفق الإرشاد.",
+      "sources": [
+        "https://www.gov.uk/guidance/designated-days-for-union-flag-flying — المصدر/النسخة المبينة في نص السؤال؛ قرئت الصفحة في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "نعم يمنع الجميع دون استثناء"
+        },
+        {
+          "id": "B",
+          "text": "نعم إلا علم مدينة لندن فقط"
+        },
+        {
+          "id": "C",
+          "text": "لا، يتيح مناسبات لأعلام وطنية ومحلية وغيرها"
+        },
+        {
+          "id": "D",
+          "text": "نعم إلا العلم الأوروبي فقط"
+        },
+        {
+          "id": "E",
+          "text": "نعم إلا علم الملك الشخصي فقط"
+        },
+        {
+          "id": "F",
+          "text": "نعم إلا عند وجود سارية ثانية"
+        }
+      ],
+      "correctOptionId": "C",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "flags-legendary-0219",
+      "categoryId": "flags",
+      "difficulty": "legendary",
+      "text": "في جدول رفع علم الاتحاد لعام 2026 ، أي يوم يخص اسكتلندا في 30 نوفمبر؟",
+      "answer": "يوم القديس أندرو",
+      "acceptedAnswers": [],
+      "hint": "اسم القديس مرتبط بالتراث الاسكتلندي والصليب في الراية.",
+      "clues": [],
+      "explanation": "يسمي الجدول30نوفمبر يوم القديس أندرو في اسكتلندا.",
+      "sources": [
+        "https://www.gov.uk/guidance/designated-days-for-union-flag-flying — المصدر/النسخة المبينة في نص السؤال؛ قرئت الصفحة في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "يوم القديس جورج"
+        },
+        {
+          "id": "B",
+          "text": "يوم القديس ديفيد"
+        },
+        {
+          "id": "C",
+          "text": "يوم القديس باتريك"
+        },
+        {
+          "id": "D",
+          "text": "يوم القديس أندرو"
+        },
+        {
+          "id": "E",
+          "text": "يوم الكومنولث"
+        },
+        {
+          "id": "F",
+          "text": "يوم التتويج"
+        }
+      ],
+      "correctOptionId": "D",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "flags-legendary-0220",
+      "categoryId": "flags",
+      "difficulty": "legendary",
+      "text": "في جدول رفع علم الاتحاد لعام 2026 ، أي يوم يخص ويلز في 1 مارس؟",
+      "answer": "يوم القديس ديفيد",
+      "acceptedAnswers": [],
+      "hint": "المناسبة الويلزية تختلف عن القديسين المرتبطين بإنجلترا واسكتلندا.",
+      "clues": [],
+      "explanation": "يسمي الجدول1مارس يوم القديس ديفيد في ويلز.",
+      "sources": [
+        "https://www.gov.uk/guidance/designated-days-for-union-flag-flying — المصدر/النسخة المبينة في نص السؤال؛ قرئت الصفحة في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "يوم القديس جورج"
+        },
+        {
+          "id": "B",
+          "text": "يوم القديس أندرو"
+        },
+        {
+          "id": "C",
+          "text": "يوم القديس باتريك"
+        },
+        {
+          "id": "D",
+          "text": "يوم الكومنولث"
+        },
+        {
+          "id": "E",
+          "text": "يوم القديس ديفيد"
+        },
+        {
+          "id": "F",
+          "text": "يوم الذكرى"
+        }
+      ],
+      "correctOptionId": "E",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "flags-legendary-0221",
+      "categoryId": "flags",
+      "difficulty": "legendary",
+      "text": "ما الاستثناء البحري الذي تذكره المادة 7 للسماح براية أعلى من العلم الأمريكي أثناء مناسبة دينية؟",
+      "answer": "راية خدمة دينية يقيمها قسيس بحري في البحر",
+      "acceptedAnswers": [],
+      "hint": "الاستثناء مقيد بالجهة والمكان والحدث.",
+      "clues": [],
+      "explanation": "تذكر المادة راية الكنيسة خلال خدمة يقيمها قسيس بحري في البحر.",
+      "sources": [
+        "https://www.govinfo.gov/content/pkg/USCODE-2018-title4/html/USCODE-2018-title4-chap1-sec7.htm — المصدر/النسخة المبينة في نص السؤال؛ قرئت الصفحة في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "علم أي شركة ملاحة"
+        },
+        {
+          "id": "B",
+          "text": "علم أي ولاية على سفينة"
+        },
+        {
+          "id": "C",
+          "text": "علم سفينة تجارية ضيفة"
+        },
+        {
+          "id": "D",
+          "text": "علم بلدية الميناء"
+        },
+        {
+          "id": "E",
+          "text": "علم النادي البحري في كل رحلة"
+        },
+        {
+          "id": "F",
+          "text": "راية خدمة دينية يقيمها قسيس بحري في البحر"
+        }
+      ],
+      "correctOptionId": "F",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "flags-legendary-0222",
+      "categoryId": "flags",
+      "difficulty": "legendary",
+      "text": "عند تعليق العلم الأمريكي في ردهة ذات مداخل رئيسية من أكثر من اتجاهين، أين يتجه حقل النجوم وفق المادة 7 ؟",
+      "answer": "إلى الشرق",
+      "acceptedAnswers": [],
+      "hint": "النص يعطي حكماً خاصاً بتعدد جهات الدخول.",
+      "clues": [],
+      "explanation": "عند تعدد الجهات إلى أكثر من اثنتين يكون الحقل شرقاً.",
+      "sources": [
+        "https://www.govinfo.gov/content/pkg/USCODE-2018-title4/html/USCODE-2018-title4-chap1-sec7.htm — المصدر/النسخة المبينة في نص السؤال؛ قرئت الصفحة في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "إلى الشرق"
+        },
+        {
+          "id": "B",
+          "text": "إلى الغرب"
+        },
+        {
+          "id": "C",
+          "text": "إلى الشمال"
+        },
+        {
+          "id": "D",
+          "text": "إلى الجنوب"
+        },
+        {
+          "id": "E",
+          "text": "نحو أعلى باب"
+        },
+        {
+          "id": "F",
+          "text": "نحو آخر باب فُتح"
+        }
+      ],
+      "correctOptionId": "A",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "flags-legendary-0223",
+      "categoryId": "flags",
+      "difficulty": "legendary",
+      "text": "في موكب فيه صف من أعلام محلية، ما الموضع الذي تجيزه المادة 7 للعلم الأمريكي بجانب «يمين السير»؟",
+      "answer": "أمام مركز صف الأعلام",
+      "acceptedAnswers": [],
+      "hint": "قد يمنحه التقدم موضع الشرف من دون وضعه على طرف الصف.",
+      "clues": [],
+      "explanation": "النص يجيز حمله أمام مركز الخط.",
+      "sources": [
+        "https://www.govinfo.gov/content/pkg/USCODE-2018-title4/html/USCODE-2018-title4-chap1-sec7.htm — المصدر/النسخة المبينة في نص السؤال؛ قرئت الصفحة في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "خلف مركز الصف"
+        },
+        {
+          "id": "B",
+          "text": "أمام مركز صف الأعلام"
+        },
+        {
+          "id": "C",
+          "text": "في طرفه الخلفي"
+        },
+        {
+          "id": "D",
+          "text": "أسفل مستوى الأعلام"
+        },
+        {
+          "id": "E",
+          "text": "في وسط الصف وراء الجميع"
+        },
+        {
+          "id": "F",
+          "text": "على يسار اتجاه السير وحده"
+        }
+      ],
+      "correctOptionId": "B",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "flags-legendary-0224",
+      "categoryId": "flags",
+      "difficulty": "legendary",
+      "text": "ما موقع الحقل الأزرق عند تغطية تابوت بالعلم الأمريكي وفق المادة 7 ؟",
+      "answer": "عند الرأس وفوق الكتف الأيسر",
+      "acceptedAnswers": [],
+      "hint": "تحدد القاعدة طرف التابوت والكتف معاً.",
+      "clues": [],
+      "explanation": "يوضع حقل الاتحاد عند الرأس وفوق الكتف الأيسر.",
+      "sources": [
+        "https://www.govinfo.gov/content/pkg/USCODE-2018-title4/html/USCODE-2018-title4-chap1-sec7.htm — المصدر/النسخة المبينة في نص السؤال؛ قرئت الصفحة في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "عند الرأس وفوق الكتف الأيمن"
+        },
+        {
+          "id": "B",
+          "text": "عند القدمين وفوق الجانب الأيسر"
+        },
+        {
+          "id": "C",
+          "text": "عند الرأس وفوق الكتف الأيسر"
+        },
+        {
+          "id": "D",
+          "text": "عند القدمين وفوق الجانب الأيمن"
+        },
+        {
+          "id": "E",
+          "text": "في منتصف التابوت"
+        },
+        {
+          "id": "F",
+          "text": "أسفل التابوت عند القدمين"
+        }
+      ],
+      "correctOptionId": "C",
+      "qualityStatus": "reviewed"
+    },
+    {
+      "id": "flags-legendary-0225",
+      "categoryId": "flags",
+      "difficulty": "legendary",
+      "text": "بعد إنزال العلم الأسترالي إلى موضع الحداد، ما الذي يجب فعله قبل إنزاله كلياً عند انتهاء اليوم؟",
+      "answer": "رفعه لحظةً إلى القمة ثم إنزاله",
+      "acceptedAnswers": [],
+      "hint": "ختام التنكيس يتضمن حركة إلى أعلى قبل الإنزال النهائي.",
+      "clues": [],
+      "explanation": "ينص الدليل على رفعه إلى القمة ثم إنزاله رسمياً.",
+      "sources": [
+        "https://www.pmc.gov.au/honours-and-symbols/australian-national-symbols/australian-national-flag/australian-national-flag-protocols — المصدر/النسخة المبينة في نص السؤال؛ قرئت الصفحة في 2026-10-13."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "إنزاله مباشرة من منتصف السارية"
+        },
+        {
+          "id": "B",
+          "text": "رفعه إلى المنتصف فقط"
+        },
+        {
+          "id": "C",
+          "text": "قلبه ثم إنزاله"
+        },
+        {
+          "id": "D",
+          "text": "رفعه لحظةً إلى القمة ثم إنزاله"
+        },
+        {
+          "id": "E",
+          "text": "تركه مطوياً على السارية"
+        },
+        {
+          "id": "F",
+          "text": "إنزال الحبل دون تحريك العلم"
+        }
+      ],
+      "correctOptionId": "D",
+      "qualityStatus": "reviewed"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "how_it_works": {
+    "sha256": "3b064ee7243e8f588ea8542423573c92ccbadeb921989f26e7f2c9bec6696221",
+    "count": 900,
+    "difficultyCounts": {
+      "easy": 225,
+      "medium": 225,
+      "hard": 225,
+      "legendary": 225
+    },
+    "qualityCounts": {
+      "unreviewed": 899,
+      "reviewed": 1
+    },
+    "status": "draft"
+  },
+  "maps": {
+    "sha256": "c122ea0a020ebf7e6dc0cfd7b8f9200eb972c54d31e0f061ee974b6221fb89c9",
+    "count": 900,
+    "difficultyCounts": {
+      "easy": 225,
+      "medium": 225,
+      "hard": 225,
+      "legendary": 225
+    },
+    "qualityCounts": {
+      "unreviewed": 900
+    },
+    "status": "draft"
+  },
+  "riddles": {
+    "sha256": "f8edb8f7877fd09521abc270e1f5357be41bab6ac2c680b70d6ce06c4b949a07",
+    "count": 900,
+    "difficultyCounts": {
+      "easy": 225,
+      "medium": 225,
+      "hard": 225,
+      "legendary": 225
+    },
+    "qualityCounts": {
+      "unreviewed": 897,
+      "reviewed": 3
+    },
+    "status": "draft"
+  },
+  "originalMapMedia": {
+    "count": 319,
+    "bytes": 1261998,
+    "allImagesDecoded": true
+  }
+}

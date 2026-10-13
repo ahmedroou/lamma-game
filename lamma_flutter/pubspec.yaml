@@ -1,0 +1,33 @@
+name: lamma
+description: 'An Arabic Flutter game-night app with an adaptive gaming home and local prototype.'
+publish_to: 'none'
+version: 0.1.0+1
+environment:
+  sdk: ^3.11.5
+dependencies:
+  crypto: 3.0.7
+  cupertino_icons: ^1.0.8
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  path: ^1.9.1
+  path_provider: ^2.1.6
+  sembast: ^3.8.7
+  sembast_web: ^2.4.4
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/category_art/
+    - assets/questions/
+    - assets/question_media/
+  fonts:
+    - family: Tajawal
+      fonts:
+        - asset: assets/fonts/Tajawal-Regular.ttf
+        - asset: assets/fonts/Tajawal-Bold.ttf
+          weight: 700
