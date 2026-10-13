@@ -1,0 +1,49 @@
+[
+  {
+    "url": "https://www.un.org/ar/about-us/un-system",
+    "finalUrl": "https://www.un.org/ar/about-us/un-system",
+    "file": "2363529d58fc.txt",
+    "status": 200,
+    "characters": 14643
+  },
+  {
+    "url": "https://www.un.org/ar/about-us/funds-programmes-specialized-agencies-and-others",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://www.un.org/ar/about-us/specialized-agencies",
+    "finalUrl": "https://www.un.org/ar/about-us/specialized-agencies",
+    "file": "fa2288b2fe7b.txt",
+    "status": 200,
+    "characters": 4444
+  },
+  {
+    "url": "https://www.un.org/ar/about-us/un-system-directory",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://www.kuna.net.kw/Pages/History.aspx?Language=ar",
+    "finalUrl": "https://www.kuna.net.kw/ErrorPage.aspx?aspxerrorpath=/Pages/History.aspx",
+    "file": "6bd2b73ac1f4.txt",
+    "status": 200,
+    "characters": 3008
+  },
+  {
+    "url": "https://www.qna.org.qa/ar-QA/About-QNA",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://www.wam.ae/ar/about-us",
+    "finalUrl": "https://www.wam.ae/ar/about-us",
+    "file": "9c3d064d3363.txt",
+    "status": 200,
+    "characters": 20
+  },
+  {
+    "url": "https://www.spa.gov.sa/ar/",
+    "finalUrl": "https://www.spa.gov.sa/ar/",
+    "file": "5e8d9be506fa.txt",
+    "status": 200,
+    "characters": 22
+  }
+]

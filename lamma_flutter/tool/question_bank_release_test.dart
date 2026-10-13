@@ -6,12 +6,12 @@ import '../test/data/question_bank_test.dart' show verifyQuestionBank;
 void main() {
   TestWidgetsFlutterBinding.ensureInitialized();
   test(
-    'Release bank has exactly 12600 reviewed questions, 225 per difficulty',
+    'Release bank has 15600 reviewed questions and the configured category targets',
     () async {
       final questions = await verifyQuestionBank(complete: true);
       expect(
         questions.length,
-        gameCategories.length * QuestionBankConfig.questionsPerCategory,
+        QuestionBankConfig.totalFor(gameCategories.map((c) => c.id)),
       );
     },
   );

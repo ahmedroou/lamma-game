@@ -1,0 +1,107 @@
+{
+  "addedCategories": 10,
+  "addedQuestions": 3000,
+  "totalCategories": 24,
+  "totalQuestions": 15600,
+  "usageIds": {
+    "questions": 3000,
+    "assigned": 3000,
+    "registered": 15600,
+    "check": false
+  },
+  "categories": [
+    {
+      "categoryId": "symbols_signals",
+      "count": 300,
+      "perDifficulty": 75,
+      "sha256": "57d8aeed01841892bb843c0ec4585452bbb1299e892a1d7ee47722a515dc62d4",
+      "qualityStatuses": {
+        "unreviewed": 300
+      }
+    },
+    {
+      "categoryId": "abbreviations",
+      "count": 300,
+      "perDifficulty": 75,
+      "sha256": "28b286c379abbfe24c4d621f0dfff70d00bcdb74f214caac46279a7f4c24906b",
+      "qualityStatuses": {
+        "unreviewed": 300
+      }
+    },
+    {
+      "categoryId": "first_last",
+      "count": 300,
+      "perDifficulty": 75,
+      "sha256": "a6b7efdc0f41a5b6c2e8cbe62792b6d127db3634a08f6e2852b77a90175f6308",
+      "qualityStatuses": {
+        "unreviewed": 300
+      }
+    },
+    {
+      "categoryId": "split_groups",
+      "count": 300,
+      "perDifficulty": 75,
+      "sha256": "71f806bae0443206101970ef5e885c1ef4ded2ce3225ea557be9484a4fd1de8f",
+      "qualityStatuses": {
+        "unreviewed": 300
+      }
+    },
+    {
+      "categoryId": "pair_up",
+      "count": 300,
+      "perDifficulty": 75,
+      "sha256": "5ec38c73c6a4eaa964ae1e8903ec097bedf8a332261428fa65e7fabce56d4a5c",
+      "qualityStatuses": {
+        "unreviewed": 300
+      }
+    },
+    {
+      "categoryId": "currency_stories",
+      "count": 300,
+      "perDifficulty": 75,
+      "sha256": "49f4be60b1df767c8261ddfb72d61337c1ce54eaa56c446d7400b57fb8fc1671",
+      "qualityStatuses": {
+        "unreviewed": 300
+      }
+    },
+    {
+      "categoryId": "one_wrong",
+      "count": 300,
+      "perDifficulty": 75,
+      "sha256": "359d77b19d4241f1326194a2ceca8ec7170b4734e9b3a971ffdb4e11c525b68e",
+      "qualityStatuses": {
+        "unreviewed": 300
+      }
+    },
+    {
+      "categoryId": "complete_sequence",
+      "count": 300,
+      "perDifficulty": 75,
+      "sha256": "a734e087d625c7bf4be63c3e6130cfc3adf98c44761c00ac259f226245072d63",
+      "qualityStatuses": {
+        "unreviewed": 300
+      }
+    },
+    {
+      "categoryId": "relationship",
+      "count": 300,
+      "perDifficulty": 75,
+      "sha256": "67519fe4f6d3f27b634f7e3ea4c7b0f2fb17bc5606ea189f9e16530f93470bf7",
+      "qualityStatuses": {
+        "unreviewed": 300
+      }
+    },
+    {
+      "categoryId": "numbers",
+      "count": 300,
+      "perDifficulty": 75,
+      "sha256": "33c2e47dbde7e53cc119cd2bc097b2f3361123b2418abe5acbe152b761ddb9b3",
+      "qualityStatuses": {
+        "unreviewed": 300
+      }
+    }
+  ],
+  "mediaFiles": 87,
+  "mediaBytes": 90822,
+  "scope": "Delivery and structural verification; retained legacy quarantine/review statuses and no automatic editorial certification."
+}

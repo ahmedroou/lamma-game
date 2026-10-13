@@ -1,0 +1,2620 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-13T17:38:44.383840+00:00",
+  "mode": "read_only",
+  "totalRows": 15600,
+  "activeQuestions": 15323,
+  "quarantinedQuestions": 277,
+  "newlyQuarantinedIds": [],
+  "findingsByCode": {
+    "confirmed_answer_topic_mismatch": 14,
+    "duplicate_question_in_category": 263
+  },
+  "categories": [
+    {
+      "categoryId": "abbreviations",
+      "rows": 300,
+      "active": 300,
+      "quarantined": 0,
+      "findingsByCode": {},
+      "activeDuplicateCount": 0,
+      "missingMediaIds": [],
+      "fileSha256": "28b286c379abbfe24c4d621f0dfff70d00bcdb74f214caac46279a7f4c24906b"
+    },
+    {
+      "categoryId": "breaking_news",
+      "rows": 900,
+      "active": 900,
+      "quarantined": 0,
+      "findingsByCode": {},
+      "activeDuplicateCount": 0,
+      "missingMediaIds": [],
+      "fileSha256": "8a2e0b20a573a3219831d25b48b3affbc12a29296c20e33025a92290726983a5"
+    },
+    {
+      "categoryId": "complete_hadith",
+      "rows": 900,
+      "active": 900,
+      "quarantined": 0,
+      "findingsByCode": {},
+      "activeDuplicateCount": 0,
+      "missingMediaIds": [],
+      "fileSha256": "a5da182509de865d5ed02769574d495ef4d6a96c9c710e05725438aa12be4eb2"
+    },
+    {
+      "categoryId": "complete_sequence",
+      "rows": 300,
+      "active": 300,
+      "quarantined": 0,
+      "findingsByCode": {},
+      "activeDuplicateCount": 0,
+      "missingMediaIds": [],
+      "fileSha256": "a734e087d625c7bf4be63c3e6130cfc3adf98c44761c00ac259f226245072d63"
+    },
+    {
+      "categoryId": "complete_verse",
+      "rows": 900,
+      "active": 900,
+      "quarantined": 0,
+      "findingsByCode": {},
+      "activeDuplicateCount": 0,
+      "missingMediaIds": [],
+      "fileSha256": "db011e5705226a11b557ca4a070a7bded49f36455a4c60d3b01a72f2b77a6700"
+    },
+    {
+      "categoryId": "currency_stories",
+      "rows": 300,
+      "active": 300,
+      "quarantined": 0,
+      "findingsByCode": {},
+      "activeDuplicateCount": 0,
+      "missingMediaIds": [],
+      "fileSha256": "49f4be60b1df767c8261ddfb72d61337c1ce54eaa56c446d7400b57fb8fc1671"
+    },
+    {
+      "categoryId": "first_last",
+      "rows": 300,
+      "active": 300,
+      "quarantined": 0,
+      "findingsByCode": {},
+      "activeDuplicateCount": 0,
+      "missingMediaIds": [],
+      "fileSha256": "a6b7efdc0f41a5b6c2e8cbe62792b6d127db3634a08f6e2852b77a90175f6308"
+    },
+    {
+      "categoryId": "flags",
+      "rows": 900,
+      "active": 900,
+      "quarantined": 0,
+      "findingsByCode": {},
+      "activeDuplicateCount": 0,
+      "missingMediaIds": [],
+      "fileSha256": "2f0bc25f0df25a263c2919e68900bb5d6494b33b1c0b9cb84a71873a8af09fb6"
+    },
+    {
+      "categoryId": "geography",
+      "rows": 900,
+      "active": 900,
+      "quarantined": 0,
+      "findingsByCode": {},
+      "activeDuplicateCount": 0,
+      "missingMediaIds": [],
+      "fileSha256": "066662c33898d747124061fcab6adfd235d4e6cf1e9be00d0ec4ae1c0e27ce35"
+    },
+    {
+      "categoryId": "how_it_works",
+      "rows": 900,
+      "active": 886,
+      "quarantined": 14,
+      "findingsByCode": {
+        "confirmed_answer_topic_mismatch": 14
+      },
+      "activeDuplicateCount": 0,
+      "missingMediaIds": [],
+      "fileSha256": "c7649f90ae0a2fd2b9c49d8cdb2b570aed820cfd7ff5acf3c06a0abb781129c9"
+    },
+    {
+      "categoryId": "islamic_history",
+      "rows": 900,
+      "active": 900,
+      "quarantined": 0,
+      "findingsByCode": {},
+      "activeDuplicateCount": 0,
+      "missingMediaIds": [],
+      "fileSha256": "aa50220f54fcb04795bbf33eea395c5fc8fea6a7f858010d865354a19ced6b2e"
+    },
+    {
+      "categoryId": "maps",
+      "rows": 900,
+      "active": 637,
+      "quarantined": 263,
+      "findingsByCode": {
+        "duplicate_question_in_category": 263
+      },
+      "activeDuplicateCount": 0,
+      "missingMediaIds": [],
+      "fileSha256": "7d213470711e2e875d449178df35b92254d844b9fafabba1009d9fe5cd34ff9c"
+    },
+    {
+      "categoryId": "meanings",
+      "rows": 900,
+      "active": 900,
+      "quarantined": 0,
+      "findingsByCode": {},
+      "activeDuplicateCount": 0,
+      "missingMediaIds": [],
+      "fileSha256": "7f143cb4a84daca1ef054c0fa867689a5804d06bcbae85006c936d255ebedce4"
+    },
+    {
+      "categoryId": "myths",
+      "rows": 900,
+      "active": 900,
+      "quarantined": 0,
+      "findingsByCode": {},
+      "activeDuplicateCount": 0,
+      "missingMediaIds": [],
+      "fileSha256": "982cfc32a3cc3be714cc53a5ac5ea58e2c61a07fc11cd9f28bcb6c1b67fea2a9"
+    },
+    {
+      "categoryId": "notable_figures",
+      "rows": 900,
+      "active": 900,
+      "quarantined": 0,
+      "findingsByCode": {},
+      "activeDuplicateCount": 0,
+      "missingMediaIds": [],
+      "fileSha256": "5296050e39b72f106fde6a66605a99e838458bf12cb2537e15821bb8705a6dd1"
+    },
+    {
+      "categoryId": "numbers",
+      "rows": 300,
+      "active": 300,
+      "quarantined": 0,
+      "findingsByCode": {},
+      "activeDuplicateCount": 0,
+      "missingMediaIds": [],
+      "fileSha256": "33c2e47dbde7e53cc119cd2bc097b2f3361123b2418abe5acbe152b761ddb9b3"
+    },
+    {
+      "categoryId": "one_wrong",
+      "rows": 300,
+      "active": 300,
+      "quarantined": 0,
+      "findingsByCode": {},
+      "activeDuplicateCount": 0,
+      "missingMediaIds": [],
+      "fileSha256": "359d77b19d4241f1326194a2ceca8ec7170b4734e9b3a971ffdb4e11c525b68e"
+    },
+    {
+      "categoryId": "pair_up",
+      "rows": 300,
+      "active": 300,
+      "quarantined": 0,
+      "findingsByCode": {},
+      "activeDuplicateCount": 0,
+      "missingMediaIds": [],
+      "fileSha256": "5ec38c73c6a4eaa964ae1e8903ec097bedf8a332261428fa65e7fabce56d4a5c"
+    },
+    {
+      "categoryId": "relationship",
+      "rows": 300,
+      "active": 300,
+      "quarantined": 0,
+      "findingsByCode": {},
+      "activeDuplicateCount": 0,
+      "missingMediaIds": [],
+      "fileSha256": "67519fe4f6d3f27b634f7e3ea4c7b0f2fb17bc5606ea189f9e16530f93470bf7"
+    },
+    {
+      "categoryId": "riddles",
+      "rows": 900,
+      "active": 900,
+      "quarantined": 0,
+      "findingsByCode": {},
+      "activeDuplicateCount": 0,
+      "missingMediaIds": [],
+      "fileSha256": "f08f5ae77e3e9c0263d2c56890f76bf3505a170fe6b16436f1b403078b062acb"
+    },
+    {
+      "categoryId": "spacetoon",
+      "rows": 900,
+      "active": 900,
+      "quarantined": 0,
+      "findingsByCode": {},
+      "activeDuplicateCount": 0,
+      "missingMediaIds": [],
+      "fileSha256": "891c5389143b398bc75ba009f46500684efef1a057701cedbab3dd8a50575cbb"
+    },
+    {
+      "categoryId": "split_groups",
+      "rows": 300,
+      "active": 300,
+      "quarantined": 0,
+      "findingsByCode": {},
+      "activeDuplicateCount": 0,
+      "missingMediaIds": [],
+      "fileSha256": "71f806bae0443206101970ef5e885c1ef4ded2ce3225ea557be9484a4fd1de8f"
+    },
+    {
+      "categoryId": "symbols_signals",
+      "rows": 300,
+      "active": 300,
+      "quarantined": 0,
+      "findingsByCode": {},
+      "activeDuplicateCount": 0,
+      "missingMediaIds": [],
+      "fileSha256": "57d8aeed01841892bb843c0ec4585452bbb1299e892a1d7ee47722a515dc62d4"
+    },
+    {
+      "categoryId": "who_am_i",
+      "rows": 900,
+      "active": 900,
+      "quarantined": 0,
+      "findingsByCode": {},
+      "activeDuplicateCount": 0,
+      "missingMediaIds": [],
+      "fileSha256": "997b56fbf9c2be7f24d1fa2616bd09f762949b1b06266d84a0612a6e9996b3e0"
+    }
+  ],
+  "findings": [
+    {
+      "id": "how_it_works-easy-0187",
+      "categoryId": "how_it_works",
+      "code": "confirmed_answer_topic_mismatch",
+      "contentSha256": "1f2c85dcb0e908d1d0fb9a2e98a1317e99327329d440b00ad63ed943de616361",
+      "reason": "confirmed_answer_topic_mismatch: السؤال عن طابعة نفث الحبر، والجواب المحدد عن ترسب الصواعد والهوابط؛ التفسير يتحدث عن فوهات الطباعة الحرارية أو الكهرضغطية.",
+      "evidence": {
+        "question": "كيف تطبع «طابعة نفث الحبر» (Inkjet Printer) الصور الملونة بدقة عالية عبر رش ملايين القطرات المجهرية على الورقة؟",
+        "answer": "تترسب بلورات كربونات الكالسيوم بالتنقيط البطيء لتبني الصواعد من الأسفل والهوابط من السقف.",
+        "explanation": "في طابعات نفث الحبر الحرارية، تمر نبضة كهربائية لميكروثانية في مسخن دقيق داخل الفوهة فتبخر طبقة حبر مكونةً فقاعة غازية تتمدد وتقذف قطرة حبر بحجم بيكولترات نحو الورق ثم تنكمش الفقاعة لتسحب حبرًا جديدًا؛ وفي الطابعات الكهرضغطية يتقوس غشاء بلوري بالكهرباء ليدفع القطرة ميكانيكيًا دون تسخين.",
+        "acceptedAnswers": [
+          "تترسب بلورات كربونات الكالسيوم بالتنقيط البطيء لتبني الصواعد من الأسفل والهوابط من السقف.",
+          "تستخدم الفوهات الدقيقة إما مقاومة حرارية تسخن الحبر لحظيًا لتكوين فقاعة بخار تدفع قطرة حبر، أو بلورة كهرضغطية تنحني بالكهرباء لتعصر قطرة الحبر وتقذفها نحو الورقة."
+        ],
+        "corroboratingPrimaryLinks": [
+          "https://corporate.epson/en/technology/overview/printer-inkjet/micro-piezo.html"
+        ]
+      }
+    },
+    {
+      "id": "how_it_works-easy-0188",
+      "categoryId": "how_it_works",
+      "code": "confirmed_answer_topic_mismatch",
+      "contentSha256": "50bd0d6e1e5f92ac1cbdd92ce50d3fda214de554012cad069e60454ff0b47f6f",
+      "reason": "confirmed_answer_topic_mismatch: السؤال عن المولد الكهربائي، والجواب المحدد عن انحراف الحركة بقوة كوريوليس؛ التفسير يتحدث عن الحث الكهرومغناطيسي وقانون فاراداي.",
+      "evidence": {
+        "question": "كيف يتحول «المولد الكهربائي» (الدينامو أو المنوّب) في محطات الطاقة أو السيارات من حركة ميكانيكية دورانية إلى تيار كهربائي؟",
+        "answer": "تنحرف المسارات الحركية بتأثير قوة كوريوليس الناتجة عن دوران الأرض حول محورها.",
+        "explanation": "يعتمد المولد الكهربائي على الحث الكهرومغناطيسي؛ فعندما تدور وشائع الأسلاك النحاسية داخل مجال مغناطيسي (أو يدور العضو الدوار الممغنط داخل ملفات العضو الثابت)، يتغير التدفق المغناطيسي العابر للملفات بشكل جيبي مع الزمن، مما يدفع الإلكترونات الحرة في المعدن بفضل قوة لورنتز وقانون فاراداي مولدًا تيارًا كهربائيًا متناوبًا.",
+        "acceptedAnswers": [
+          "يدير المحرك ملفات نحاسية داخل مجال مغناطيسي ، فيتغير التدفق المغناطيسي الذي يخترق اللفات باستمرار مما يستحث قوة دافعة كهربائية وفق قانون فاراداي.",
+          "يدير المحرك ملفات نحاسية داخل مجال مغناطيسي (أو يدير مغناطيسًا داخل ملفات ثابتة)، فيتغير التدفق المغناطيسي الذي يخترق اللفات باستمرار مما يستحث قوة دافعة كهربائية وفق قانون فاراداي.",
+          "تنحرف المسارات الحركية بتأثير قوة كوريوليس الناتجة عن دوران الأرض حول محورها."
+        ],
+        "corroboratingPrimaryLinks": [
+          "https://openstax.org/books/physics/pages/20-2-motors-generators-and-transformers"
+        ]
+      }
+    },
+    {
+      "id": "how_it_works-easy-0189",
+      "categoryId": "how_it_works",
+      "code": "confirmed_answer_topic_mismatch",
+      "contentSha256": "8e6d5ea641605184bcea4d38a7269a8b1af1bf220bbbf586b06e0d6a1e6e215f",
+      "reason": "confirmed_answer_topic_mismatch: السؤال عن المحرك الكهربائي، والجواب المحدد عن احتكاك الهواء وشحن حبات البرد؛ التفسير يتحدث عن عزم القوة المغناطيسية في ملفات المحرك.",
+      "evidence": {
+        "question": "كيف يحوّل «المحرك الكهربائي» (Electric Motor) في المروحة أو الغسالة أو السيارة الكهربائية التيارَ الكهربائي إلى حركة دورانية مستمرة؟",
+        "answer": "يحتك تيار الهواء الصاعد بالهابط داخل السحابة فتشحن حبات البرد والجليد وتولد فرق جهد كهربائي هائل.",
+        "explanation": "عندما يسري تيار كهربائي في سلك يقع داخل مجال مغناطيسي، يتأثر السلك بقوة مغناطيسية عمودية على كلٍّ من التيار والمجال (قوة لورنتز: F = IL×B)؛ وفي المحرك الكهربائي تشكل هذه القوة على جانبي الملف عزم ازدواج يدير العضو الدوار، ويتولى «المبدّل الميكانيكي» (Commutator) أو العاكس الإلكتروني قلب اتجاه التيار مع كل نصف دورة ليظل العزم دافعًا في الاتجاه نفسه.",
+        "acceptedAnswers": [
+          "يمر التيار الكهربائي في ملفات موضوعة داخل مجال مغناطيسي فتؤثر عليها قوة مغناطيسية تولد عزم دوران، ويقوم المبدّل أو الدائرة الإلكترونية بعكس التيار دوريًا ليستمر الدوران في الاتجاه نفسه.",
+          "يمر التيار الكهربائي في ملفات موضوعة داخل مجال مغناطيسي فتؤثر عليها قوة مغناطيسية (قوة لورنتز) تولد عزم دوران، ويقوم المبدّل أو الدائرة الإلكترونية بعكس التيار دوريًا ليستمر الدوران في الاتجاه نفسه.",
+          "يحتك تيار الهواء الصاعد بالهابط داخل السحابة فتشحن حبات البرد والجليد وتولد فرق جهد كهربائي هائل."
+        ],
+        "corroboratingPrimaryLinks": [
+          "https://openstax.org/books/physics/pages/20-2-motors-generators-and-transformers"
+        ]
+      }
+    },
+    {
+      "id": "how_it_works-easy-0190",
+      "categoryId": "how_it_works",
+      "code": "confirmed_answer_topic_mismatch",
+      "contentSha256": "4874229bd3d2332815ff3bdfdaf2457d496df0fc5039d5185fe19be9ffb4ba89",
+      "reason": "confirmed_answer_topic_mismatch: السؤال عن ريموت التلفاز، والجواب المحدد عن المد والجزر؛ التفسير يتحدث عن نبضات الأشعة تحت الحمراء.",
+      "evidence": {
+        "question": "كيف ينقل جهاز «التحكم عن بُعد» (الريموت كنترول التقليدي للتلفاز والمكيف) أوامر تغيير القناة أو الصوت إلى الجهاز؟",
+        "answer": "تؤدي قوى المد والجزر الجاذبية للقمر والشمس إلى سحب مياه المحيطات وارتفاعها دوريًا.",
+        "explanation": "تحتوي لوحة الريموت تحت الأزرار على دائرة متكاملة تترجم ضغطة كل زر إلى شيفرة رقمية فريدة مكونة من سلسلة أصفار وآحاد؛ وتقوم هذه الدائرة بتشغيل وإطفاء صمام ثنائي باعث للأشعة تحت الحمراء (IR LED، بطول موجي نحو 940 نانومترًا لا تراه العين البشرية) بتردد حامل (غالبًا 38 كيلوهرتز لمنع التداخل مع ضوء الغرفة)، فيستقبلها الكاشف الضوئي في التلفاز وينفذ الأمر.",
+        "acceptedAnswers": [
+          "عند ضغط الزر، يطلق صمام ضوئي في مقدمة الريموت نبضات سريعة من «الأشعة تحت الحمراء» غير المرئية مشفّرة بنظام ثنائي خاص بكل زر، فيلتقطها حساس ضوئي في التلفاز ويفك شفرتها.",
+          "عند ضغط الزر، يطلق صمام ضوئي في مقدمة الريموت نبضات سريعة من «الأشعة تحت الحمراء» غير المرئية مشفّرة بنظام ثنائي (0 و1) خاص بكل زر، فيلتقطها حساس ضوئي في التلفاز ويفك شفرتها.",
+          "تؤدي قوى المد والجزر الجاذبية للقمر والشمس إلى سحب مياه المحيطات وارتفاعها دوريًا."
+        ],
+        "corroboratingPrimaryLinks": []
+      }
+    },
+    {
+      "id": "how_it_works-easy-0191",
+      "categoryId": "how_it_works",
+      "code": "confirmed_answer_topic_mismatch",
+      "contentSha256": "9456b8867c4881d4c525f042d84bd290be53e8bd5e3aee779185a55d0fd31c59",
+      "reason": "confirmed_answer_topic_mismatch: السؤال عن مستشعر بصمة الإصبع، والجواب المحدد عن مادة مقلة العين الهلامية؛ التفسير يتحدث عن استشعار نتوءات البصمة.",
+      "evidence": {
+        "question": "كيف يفتح «مستشعر بصمة الإصبع السعوي أو فوق الصوتي» في الهواتف الذكية قفل الجهاز بمجرد وضع الإصبع عليه؟",
+        "answer": "تحفظ المادة الهلامية الشفافة شكل المقلة الكروي وتثبت الشبكية في موضعها دون إعاقة الضوء.",
+        "explanation": "في المستشعر السعوي (Capacitive)، تتكون الشريحة من آلاف المكثفات المجهرية جدًا؛ فعندما يوضع الإصبع تكون القمم البارزة للبصمة ملاصقة للسطح فتعطي مواسعة كهربائية عالية، بينما تفصل الأخاديد الغائرة فجوة هوائية فتعطي مواسعة منخفضة؛ وفي المستشعر فوق الصوتي (Ultrasonic) تُبث نبضات صوتية عالية التردد وترتد بأصداء مختلفة بين المسام والقمم والأخاديد لترسم خريطة ثلاثية الأبعاد.",
+        "acceptedAnswers": [
+          "تحفظ المادة الهلامية الشفافة شكل المقلة الكروي وتثبت الشبكية في موضعها دون إعاقة الضوء.",
+          "يرسم خريطة دقيقة لتضاريس البصمة لأن «خطوط البصمة البارزة» تلامس السطح بينما تفصل «الأخاديد الغائرة» طبقة هواء عازلة، فيقيس المستشعر فرق المواسعة الكهربائية أو صدى الموجات فوق الصوتية في كل نقطة."
+        ],
+        "corroboratingPrimaryLinks": []
+      }
+    },
+    {
+      "id": "how_it_works-easy-0192",
+      "categoryId": "how_it_works",
+      "code": "confirmed_answer_topic_mismatch",
+      "contentSha256": "a5ddedf7f5b397005445ab7f78f45bb73c39bddf78bf560ab39b9eeb1d9d5875",
+      "reason": "confirmed_answer_topic_mismatch: السؤال عن بصمة الوجه ثلاثية الأبعاد، والجواب المحدد عن العصي والمخاريط في الشبكية؛ التفسير يتحدث عن التقاط هندسة الوجه بالنقاط الضوئية.",
+      "evidence": {
+        "question": "كيف تتعرف تقنية «بصمة الوجه الثلاثية الأبعاد» (مثل Face ID) على وجه صاحب الهاتف حتى في الظلام الدامس ولا تنخدع بصورة فوتوغرافية مسطحة لوجهه؟",
+        "answer": "تحول الخلايا العصوية والمخروطية في الشبكية طاقة الفوتونات الضوئية إلى إشارات كهروكيميائية للدماغ.",
+        "explanation": "تعتمد هذه التقنية على «الضوء المهيكل» (Structured Light) بالأشعة تحت الحمراء؛ إذ يضيء غامر ضوئي غير مرئي الوجه في الظلام، بينما يسقط عارض نقطي (Dot projector) أكثر من 30,000 نقطة دقيقة من الأشعة تحت الحمراء على ملامح الوجه، وتلتقط كاميرا الأشعة تحت الحمراء تشوه هذه الشبكة النقطية الناتج عن بروز الأنف والجبين وتقعر العينين، فتبني نموذجًا هندسيًا ثلاثي الأبعاد لا يمكن لصورة ورقية أو شاشة مسطحة تقليده.",
+        "acceptedAnswers": [
+          "تحول الخلايا العصوية والمخروطية في الشبكية طاقة الفوتونات الضوئية إلى إشارات كهروكيميائية للدماغ.",
+          "يسلط عارض نقطي آلاف النقاط غير المرئية من الأشعة تحت الحمراء على الوجه، وتقرأ كاميرا الأشعة تحت الحمراء انحراف هذه النقاط لتكوين خريطة عمق ثلاثية الأبعاد לתضاريس الوجه."
+        ],
+        "corroboratingPrimaryLinks": []
+      }
+    },
+    {
+      "id": "how_it_works-easy-0193",
+      "categoryId": "how_it_works",
+      "code": "confirmed_answer_topic_mismatch",
+      "contentSha256": "281563ec30ae2681ce74a440cfb5945051d378fd4fb1cea5a06bfcd315bf30ae",
+      "reason": "confirmed_answer_topic_mismatch: السؤال عن حساس الكاميرا الرقمية، والجواب المحدد عن تصوير الأعضاء بالموجات فوق الصوتية؛ التفسير يتحدث عن الحساس الضوئي والتحويل الكهروضوئي.",
+      "evidence": {
+        "question": "كيف يلتقط «حساس الكاميرا الرقمية» (CMOS أو CCD) المشهد الضوئي الساقط عليه ويحوله إلى ملف صورة رقمية ملونة؟",
+        "answer": "تتغير قوة ارتداد الموجات الصوتية فوق الصوتية عند اصطدامها بالأنسجة المختلفة لترسم صورة العضو.",
+        "explanation": "ينقسم سطح حساس التصوير (CMOS) إلى ملايين المواقع الضوئية (Photodiodes)؛ وعندما تسقط الفوتونات الضوئية على السيليكون تحرر إلكترونات بفعل التأثير الكهروضوئي الداخلي، فيتجمع في كل بكسل مقدار شحنة كهربائية يتناسب طرديًا مع شدة الضوء، وبفضل وضع مرشح لوني (أحمر R أو أخضر G أو أزرق B) فوق كل بكسل، يقوم معالج الصورة بدمج قراءات البكسلات المتجاورة (Demosaicing) لإنتاج الصورة الملونة الكاملة.",
+        "acceptedAnswers": [
+          "يتكون الحساس من ملايين الصمامات الضوئية المغطاة بمرشحات لونية دقيقة ؛ فيحرر الضوء الساقط شحنات كهربائية في كل بكسل تتناسب مع شدته، ثم تُحول إلى أرقام ثنائية.",
+          "يتكون الحساس من ملايين الصمامات الضوئية (البكسلات) المغطاة بمرشحات لونية دقيقة (أحمر وأخضر وأزرق)؛ فيحرر الضوء الساقط شحنات كهربائية في كل بكسل تتناسب مع شدته، ثم تُحول إلى أرقام ثنائية.",
+          "تتغير قوة ارتداد الموجات الصوتية فوق الصوتية عند اصطدامها بالأنسجة المختلفة لترسم صورة العضو."
+        ],
+        "corroboratingPrimaryLinks": []
+      }
+    },
+    {
+      "id": "how_it_works-easy-0194",
+      "categoryId": "how_it_works",
+      "code": "confirmed_answer_topic_mismatch",
+      "contentSha256": "b438f8f2a1eb918ed7399b9bf9d6ccccfaf96a1f73c2853127f37454ac0ec2cc",
+      "reason": "confirmed_answer_topic_mismatch: السؤال عن التركيز التلقائي للكاميرا، والجواب المحدد عن الخلايا الشعرية في القوقعة؛ التفسير يتحدث عن ضبط عدسات الكاميرا.",
+      "evidence": {
+        "question": "كيف يعمل «التركيز التلقائي» (Autofocus) في الكاميرات على توضيح الصورة الضبابية وضبط المسافة البؤرية للعدسة من تلقاء نفسه؟",
+        "answer": "تتحرك خلايا الأهداب المجهرية داخل القوقعة بتذبذب السائل اللمفاوي فتطلق نبضات عصبية للسمع.",
+        "explanation": "تعتمد الكاميرات على طريقتين رئيسيتين للتركيز التلقائي: الأولى «كشف التباين» (Contrast Detection) حيث يحرك المحرك العدسة ويراقب الحساس حدة الحواف حتى يبلغ التباين (Contrast) بين البكسلات المتجاورة ذروته؛ والثانية الأسرع «كشف الطور» (Phase Detection) حيث تقارن بكسلات خاصة شعاعين قادمين من جانبي العدسة، فإذا التقيا في نقطة واحدة كانت الصورة في البؤرة، وإلا حُسب مقدار واتجاه تحريك العدسة فورًا.",
+        "acceptedAnswers": [
+          "تتحرك خلايا الأهداب المجهرية داخل القوقعة بتذبذب السائل اللمفاوي فتطلق نبضات عصبية للسمع.",
+          "يقيس النظام إما فرق الطور بين شعاعين قادمين من طرفي العدسة لمعرفة مقدار واتجاه عدم التطابق فورًا، أو يحرك العدسة تدريجيًا حتى يصل فرق التباين اللوني بين البكسلات المتجاورة إلى أقصى قيمة له."
+        ],
+        "corroboratingPrimaryLinks": []
+      }
+    },
+    {
+      "id": "how_it_works-easy-0195",
+      "categoryId": "how_it_works",
+      "code": "confirmed_answer_topic_mismatch",
+      "contentSha256": "823e6990c3006257216afbb34b5e3fe97ce41e8d943b65cbbeebbe343236da84",
+      "reason": "confirmed_answer_topic_mismatch: السؤال عن آلة تصوير المستندات، والجواب المحدد عن الحركة الدودية في المريء؛ التفسير يتحدث عن النقل الكهروسكوني لمسحوق الحبر.",
+      "evidence": {
+        "question": "كيف تنسخ «آلة تصوير المستندات» (ماكينة الفوتوكوبي / Photocopier) ورقة مكتوبة إلى ورقة جديدة مطابقة في ثوانٍ؟",
+        "answer": "تنقبض العضلات الملساء في جدار المريء والأمعاء بحركات دودية تدفع كتلة الطعام إلى الأمام آليًا.",
+        "explanation": "تُشحن أسطوانة التصوير المطلية بمادة حساسة للضوء بشحنة كهربائية ساكنة منتظمة في الظلام؛ ثم يمسح مصباح قوي المستند الأصلي، فتعكس المناطق البيضاء الفارغة الضوء نحو الأسطوانة فتصبح تلك المناطق موصلة وتتفرغ شحنتها إلى الأرض، بينما لا تعكس الحروف الداكنة الضوء فتحتفظ مناطقها المقابلة على الأسطوانة بشحنتها الكهربائية (صورة كامنة)، فتجذب حبيبات الحبر المشحون بشحنة معاكسة وتنقلها للورقة وتثبتها بالحرارة.",
+        "acceptedAnswers": [
+          "تنقبض العضلات الملساء في جدار المريء والأمعاء بحركات دودية تدفع كتلة الطعام إلى الأمام آليًا.",
+          "يسلط ضوء ساطع على الورقة الأصلية، فينعكس الضوء عن المساحات البيضاء فقط ليسقط على أسطوانة مشحونة كهربائيًا ويفرغ شحنتها، بينما تبقى مناطق الحروف السوداء مشحونة فتجذب مسحوق الحبر وتطبعه على الورقة الجديدة."
+        ],
+        "corroboratingPrimaryLinks": []
+      }
+    },
+    {
+      "id": "how_it_works-easy-0196",
+      "categoryId": "how_it_works",
+      "code": "confirmed_answer_topic_mismatch",
+      "contentSha256": "783fe36e71764940831cfbeb5a51b449f66c89847dd47b2210e55c1d92bf162e",
+      "reason": "confirmed_answer_topic_mismatch: السؤال عن مصباح اللمس، والجواب المحدد عن بلورات الأذن الداخلية؛ التفسير يتحدث عن تغير المواسعة عند لمس القاعدة.",
+      "evidence": {
+        "question": "كيف يعمل «مصباح اللمس» (Touch Lamp) الذي يضيء أو يغير شدة إضاءته بمجرد لمس قاعدته المعدنية بإصبعك دون الضغط على أي زر ميكانيكي؟",
+        "answer": "تستقر بلورات كربونات الكالسيوم فوق خلايا حسية في الأذن الداخلية فترصد اتجاه الجاذبية وتسارع الرأس.",
+        "explanation": "توجد داخل قاعدة المصباح دائرة مذبذب إلكتروني عالي التردد متصلة بالهيكل المعدني الخارجي عبر عزل آمن؛ وفي الحالة العادية يكون للمعدن مواسعة كهربائية (Capacitance) صغيرة وثابتة، وبمجرد أن يلمس الإنسان القاعدة تضاف مواسعة جسمه الكبيرة على التوازي إلى الدائرة، فيبطؤ تردد المذبذب أو يتأخر طور الإشارة، وترصد الدائرة المتكاملة هذا التغير فتحفز مفتاح الترياك (Triac) لتمرير التيار للمصباح.",
+        "acceptedAnswers": [
+          "تستقر بلورات كربونات الكالسيوم فوق خلايا حسية في الأذن الداخلية فترصد اتجاه الجاذبية وتسارع الرأس.",
+          "يمتلك جسم الإنسان مواسعة كهربائية طبيعية؛ وعند لمس القاعدة المعدنية تضاف مواسعة الجسم إلى دائرة مذبذب إلكتروني داخل المصباح فيتغير تردده أو طوره، وتكتشف الشريحة ذلك فتفتح مفتاح التيار الإلكتروني."
+        ],
+        "corroboratingPrimaryLinks": []
+      }
+    },
+    {
+      "id": "how_it_works-easy-0197",
+      "categoryId": "how_it_works",
+      "code": "confirmed_answer_topic_mismatch",
+      "contentSha256": "8ed0756973e4b759dc45fa6d2331b14ce41bae508d246cf03a5ce67669129d1d",
+      "reason": "confirmed_answer_topic_mismatch: السؤال عن هندسة الكسوف والخسوف، والجواب المحدد عن تخثر الدم؛ التفسير يتحدث عن مواضع الشمس والأرض والقمر وظلالها.",
+      "evidence": {
+        "question": "ما الفرق الهندسي الدقيق بين اصطفاف الشمس والأرض والقمر في حالتي «كسوف الشمس» و«خسوف القمر»؟",
+        "answer": "تنقبض الأوعية الدموية وتنشط الصفائح لتكوين شبكة خيوط الفبرين التي تحبس الكريات وتمنع النزيف.",
+        "explanation": "عندما يمر القمر في طور المحاق مباشرة بين الشمس والأرض على خط واحد، يحجب قرص القمر ضوء الشمس ويسقط مخروط ظله (Umbra) على منطقة محدودة من سطح الأرض فيحدث «كسوف الشمس» نهارًا؛ أما عندما يكون القمر بدرًا وتمر الأرض بينه وبين الشمس، يدخل القمر في ظل الأرض الواسع فيحدث «خسوف القمر» ليلًا ويراه جميع سكان نصف الكرة الليلي.",
+        "acceptedAnswers": [
+          "في كسوف الشمس يقع القمر بين الشمس والأرض فيلقي ظله على بقعة من الأرض، بينما في خسوف القمر تقع الأرض بين الشمس والقمر فتلقي ظلها على القمر.",
+          "في كسوف الشمس يقع القمر (في طور المحاق) بين الشمس والأرض فيلقي ظله على بقعة من الأرض، بينما في خسوف القمر تقع الأرض بين الشمس والقمر (في طور البدر) فتلقي ظلها على القمر.",
+          "تنقبض الأوعية الدموية وتنشط الصفائح لتكوين شبكة خيوط الفبرين التي تحبس الكريات وتمنع النزيف."
+        ],
+        "corroboratingPrimaryLinks": [
+          "https://science.nasa.gov/eclipses/geometry/"
+        ]
+      }
+    },
+    {
+      "id": "how_it_works-easy-0198",
+      "categoryId": "how_it_works",
+      "code": "confirmed_answer_topic_mismatch",
+      "contentSha256": "cfe86d6e1d036fc3da11559ecbbcdf535f1c6eb5124a99a460dabd008ab9d4b0",
+      "reason": "confirmed_answer_topic_mismatch: السؤال عن الإعصار القمعي، والجواب المحدد عن النواقل العصبية؛ التفسير يتحدث عن قص الرياح والتيار الصاعد.",
+      "evidence": {
+        "question": "كيف يتكون قمع «الإعصار القمعي» (التورنادو / Tornado) الدوار بشدة داخل العواصف الرعدية الخارقة (Supercells)؟",
+        "answer": "تطلق الحويصلات العصبية نواقل كيميائية تعبر الشق المشبكي لترتبط بمستقبلات الخلية المجاورة.",
+        "explanation": "يتطلب تشكل التورنادو القوي وجود «قص رياح» رأسي (تغير سرعة الرياح واتجاهها مع الارتفاع) يجعل طبقة الهواء تدور حول محور أفقي كالأسطوانة المتدحرجة؛ وعندما يصعد تيار هوائي دافئ وقوي جدًا (Updraft) نحو السحابة الركامية فإنه يحني هذا الأنبوب الدوار ويرفعه ليصبح عموديًا (Mesocyclone)، ومع تمدد العمود عموديًا وانكماشه عرضيًا تزداد سرعة دورانه بشكل هائل وفق قانون حفظ كمية الحركة الزاوية.",
+        "acceptedAnswers": [
+          "يؤدي اختلاف سرعة الرياح واتجاهها مع الارتفاع إلى تدوير عمود هواء أفقي، ثم يرفعه التيار الدافئ الصاعد بقوة ليصبح عمودًا رأسيًا دوارًا يضيق ويزداد سرعة بحفظ الزخم الزاوي.",
+          "يؤدي اختلاف سرعة الرياح واتجاهها مع الارتفاع (قص الرياح) إلى تدوير عمود هواء أفقي، ثم يرفعه التيار الدافئ الصاعد بقوة ليصبح عمودًا رأسيًا دوارًا يضيق ويزداد سرعة بحفظ الزخم الزاوي.",
+          "تطلق الحويصلات العصبية نواقل كيميائية تعبر الشق المشبكي لترتبط بمستقبلات الخلية المجاورة."
+        ],
+        "corroboratingPrimaryLinks": []
+      }
+    },
+    {
+      "id": "how_it_works-easy-0199",
+      "categoryId": "how_it_works",
+      "code": "confirmed_answer_topic_mismatch",
+      "contentSha256": "17869d32d9fc5729e5d1e37c5ca7b6e1271026d403f92aec0d8e932825d7ac81",
+      "reason": "confirmed_answer_topic_mismatch: السؤال عن الرياح الموسمية، والجواب المحدد عن ترشيح الكليتين؛ التفسير يتحدث عن التباين الحراري بين اليابسة والمحيط.",
+      "evidence": {
+        "question": "كيف تنشأ «الرياح الموسمية» (Monsoon) التي تجلب أمطارًا صيفية غزيرة جدًا لجنوب آسيا وشبه القارة الهندية ثم تنعكس جافة في الشتاء؟",
+        "answer": "تفلتر الكبيبات الدم تحت الضغط العالي لتعيد النفرونات امتصاص الماء والأملاح وتفرز الفضلات في البول.",
+        "explanation": "تعتمد منظومة المونسون على التباين الحراري الكبير بين قارة آسيا الضخمة والمحيط الهندي؛ فخلال الربيع والصيف تسخن اليابسة القارية وهضبة التبت بشدة، فيرتفع الهواء الساخن متكونًا منخفض جوي حراري عميق يجذب الرياح الجنوبية الغربية المشبعة ببخار الماء من المحيط الهندي الأبرد فتهطل أمطار غزيرة، وفي الشتاء تبرد اليابسة أسرع من المحيط فيتشكل مرتفع جوي قاري يدفع رياحًا جافة من البر نحو البحر.",
+        "acceptedAnswers": [
+          "تفلتر الكبيبات الدم تحت الضغط العالي لتعيد النفرونات امتصاص الماء والأملاح وتفرز الفضلات في البول.",
+          "في الصيف تسخن كتلة اليابسة الآسيوية الشاسعة أسرع بكثير من المحيط الهندي فيتشكل منخفض جوي حراري قاري عميق يسحب الرياح الرطبة من المحيط، وفي الشتاء تبرد القارة بشدة فينعكس الضغط والرياح."
+        ],
+        "corroboratingPrimaryLinks": []
+      }
+    },
+    {
+      "id": "how_it_works-easy-0200",
+      "categoryId": "how_it_works",
+      "code": "confirmed_answer_topic_mismatch",
+      "contentSha256": "a854e81168886dea51d73f7b3125531d72d3931629803e640a1b61a642ea18aa",
+      "reason": "confirmed_answer_topic_mismatch: السؤال عن فرامل السيارة الهيدروليكية، والجواب المحدد عن عقدة القلب الجيبية؛ التفسير يتحدث عن مبدأ باسكال وانتقال الضغط في سائل الفرامل. يخلط النص كذلك بين الماء والصابون وسائل الفرامل.",
+      "evidence": {
+        "question": "كيف يرفع «الماء والصابون» أو «السائل الهيدروليكي» في فرامل السيارة قوة ضغطة قدم السائق لينقلها إلى العجلات الأربع في اللحظة نفسها؟",
+        "answer": "تحفز العقدة الجيبية الأذينية موجات كهربائية دورية تنتشر عبر عضلات القلب مسببة انقباضها المنتظم.",
+        "explanation": "عندما يضغط السائق على دواسة الفرامل، تدفع رافعة ميكانيكية ومؤازر تفريغ (Brake booster) مكبسًا داخل الأسطوانة الرئيسية؛ ووفق مبدأ باسكال ينتقل ضغط سائل الفرامل دون نقصان عبر خطوط الأنابيب إلى أسطوانات العجلات الأربع، حيث يدفع مكابس أوسع مساحة لتطبق تيل الفرامل (Brake pads) بقوة هائلة على قرص الفرامل الدوار، محولةً الطاقة الحركية للسيارة إلى حرارة بالاحتكاك.",
+        "acceptedAnswers": [
+          "تحول الأسطوانة الرئيسية ضغطة الدواسة إلى ضغط سائل ينتقل بالتساوي عبر الأنابيب غير القابلة للانضغاط ليضغط مكابس الكاليبر التي تطبق فحمات الفرامل بقوة احتكاك عالية على الأقراص الدوارة.",
+          "تحول الأسطوانة الرئيسية ضغطة الدواسة إلى ضغط سائل ينتقل بالتساوي عبر الأنابيب غير القابلة للانضغاط (مبدأ باسكال) ليضغط مكابس الكاليبر التي تطبق فحمات الفرامل بقوة احتكاك عالية على الأقراص الدوارة.",
+          "تحفز العقدة الجيبية الأذينية موجات كهربائية دورية تنتشر عبر عضلات القلب مسببة انقباضها المنتظم."
+        ],
+        "corroboratingPrimaryLinks": []
+      }
+    },
+    {
+      "id": "maps-hard-0140",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-hard-0132",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-hard-0132. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "71add79f1dc8b93ab73490c80b77788cec5656c25beadb98650fbfd06b12a129",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-hard-0153",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-hard-0132",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-hard-0132. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "b83e95f73c9870869b24fb44b0150baaac71ed800973afe444f96833ba9b5d34",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-hard-0202",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-hard-0132",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-hard-0132. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "2c75e55f27ce9f60e6b73180277363bf435abd726bef2fb55a6270901a676137",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-hard-0214",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-hard-0132",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-hard-0132. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "dc7bb358d2dad3cf8364ea720061d092e54979c620c1786a145c86ec5e0312db",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-hard-0138",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-hard-0134",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-hard-0134. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "ef475825b5144cd9681c7e1d16c513d0ed7ea1a3603e421f18114558def6f246",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-hard-0141",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-hard-0134",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-hard-0134. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "bdf3c712eb709c745a56f79a182aed745c15632cdb06d2ec42e3fe3abcb2cd08",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-hard-0144",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-hard-0134",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-hard-0134. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "234155484fba06672b7cd2d8b82dd933142672a833089f5c0a3d9353c20ecf8b",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-hard-0148",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-hard-0134",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-hard-0134. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "d6aeed7d6e2baaee4b64e715335f30734fbb967075c923aa306351ac100b0586",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-hard-0151",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-hard-0134",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-hard-0134. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "c04292997e73e09cd5aab1d544a62bd8c278aaa4a0f8c1e3d29030f121aaea77",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-hard-0154",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-hard-0134",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-hard-0134. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "21d8e4d1188617cf051fe34b0a4d13fc98ed79bfeeda9423f9f0e2a413d3c0a8",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-hard-0157",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-hard-0134",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-hard-0134. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "2b558027338162b899f1c425a47d8241a506a29aaa84259b3edde272e4e03aa7",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-hard-0160",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-hard-0134",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-hard-0134. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "f83c9225dadfaa5e772dacd0d4fb31870e982587da59669f1ea18b58164f186f",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-hard-0163",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-hard-0134",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-hard-0134. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "04823d3cfe2f6b4b6710478656c42d99f312b86935d4c8b33ebc9928275314ba",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-hard-0167",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-hard-0134",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-hard-0134. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "f167984761d416bfcc3a30d7bc79b7f087a6879131ff8409cb23ae1212751edc",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-hard-0170",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-hard-0134",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-hard-0134. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "4f715e1896d573a3dc0454a1a8a9ce817c21491da9c0facd7b7f55be8f91c1de",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-hard-0173",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-hard-0134",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-hard-0134. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "46827cd90efaba371e1d0054b7277ad388cb971183facb6711a955ef1055943a",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-hard-0176",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-hard-0134",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-hard-0134. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "f4f5e41f47da6121ea5e9873f75169532132a7b8cc258e28e963d8df980e50bd",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-hard-0179",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-hard-0134",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-hard-0134. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "69ea80b3018558511bffb22829ee6fef6e8d42562db2bd878a9f602e782a8761",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-hard-0182",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-hard-0134",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-hard-0134. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "1e5bf39b280b1a0cd3130012f75d4a27a10eb6be8b7a4e31a2198098dfe97cf3",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-hard-0185",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-hard-0134",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-hard-0134. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "dbd399418cb2cd2400f902e17a12ca239d707bf8f3ef2a03f44800c73dcad204",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-hard-0188",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-hard-0134",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-hard-0134. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "c61446a0cbc392d275e41bbfa83aace4d7a673bff81abf0f51133ee67e0bed12",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-hard-0191",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-hard-0134",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-hard-0134. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "864370bf774c3bc62d008cf29f6ce9f84e6ff6965c9c7c40abf951c2fa8af3fb",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-hard-0194",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-hard-0134",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-hard-0134. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "0ed3ad11a38114beecd2e247f5ca3801ec4ea16b1ca5646b82c37eaedbe5b383",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-hard-0197",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-hard-0134",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-hard-0134. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "9953806d559a17f6dbf962bdc2f1e35fb0930cdbad181838258b1fb6bcf487d1",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-hard-0200",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-hard-0134",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-hard-0134. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "83bda02544192aa9f8fc1a10b683d88d065dc694adc02d2a9d6fd154329d3ee9",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-hard-0203",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-hard-0134",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-hard-0134. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "a946eafb0767737aa4d830666cdf89ecb0b494665b5c4e133f4a9ec4762d635b",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-hard-0206",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-hard-0134",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-hard-0134. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "e06c50c453969f2fd61ec0e4ae8134e8c954c7f8c4d8583054dcc1ba1ba51095",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-hard-0209",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-hard-0134",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-hard-0134. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "f4447afce804e89268b15f131c628506529b767f773401c155cb5a0a0b6a65a2",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-hard-0212",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-hard-0134",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-hard-0134. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "d04c773b06d979ba9d9d2ccb910c451d0b5d605d766af2fa288790be40967dff",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-hard-0215",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-hard-0134",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-hard-0134. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "246d8acbd318a3b197ab0146878d60a00404b951e3eac878b9c84e29b32595fc",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-hard-0218",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-hard-0134",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-hard-0134. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "b54e64b3a233c92b4e75b9a99ffd5f6b8310df6292802ae466d6a76ead63260f",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-hard-0221",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-hard-0134",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-hard-0134. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "1813b95be21138d951b4a01ac3c02bc46231d514d4760cb51fb073f9ecbd7540",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-hard-0224",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-hard-0134",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-hard-0134. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "2a52232725f00c66e1313054ec5ffc945fa34015f4ddf2fdd819dbcf83a2fd11",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-hard-0145",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-hard-0135",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-hard-0135. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "44fc4fb71d9deeb73a5a89202b190734cdff9a3ddb69dbb17118b5bd5527b603",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-hard-0174",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-hard-0135",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-hard-0135. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "2ae9e039e33f5e7a93e60fcb1319bb53115d57a6a966cbb04087a2f6c59eb153",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-hard-0189",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-hard-0135",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-hard-0135. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "8a75027e52e570bc4a8fb26c5687108eadb65c4022428ecb6a0fd660ed24e955",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-hard-0192",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-hard-0135",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-hard-0135. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "3f91fa51c62c43a72b7c25c7499f40ce69e1ab39c6e162010225b816bcc2bbe5",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-hard-0195",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-hard-0135",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-hard-0135. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "0cd86355bcbc34a49cfab790e5154bb449c1b57ebe3fd6cb8088c176e19a5c58",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-hard-0204",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-hard-0135",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-hard-0135. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "92f18f27d681cc129550dcecdf95713cb73d8abc0c8dabde8beb3dcc10d06120",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-hard-0222",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-hard-0135",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-hard-0135. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "3e238e89446201b4fae25a8f408feadd64db9080c2ab9ddcc2a6296f0e0611ae",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-hard-0225",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-hard-0135",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-hard-0135. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "485c28b4f266a4caa6f841106893828763ea777f32c8c181612aa4f638810260",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-hard-0142",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-hard-0139",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-hard-0139. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "ffdadf256889d1ecd32c11363b24ecc664f5f95f89c0902ead7cbb532b3bd881",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-hard-0158",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-hard-0139",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-hard-0139. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "bb99b59c3446b135d909e8c397d1994db492de0f147c398db8a02359ab918f71",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-hard-0171",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-hard-0139",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-hard-0139. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "26011b924e8766b73a62853d0178393fa3e6eef0cd9f00fe73146bbcc02c7b8d",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-hard-0201",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-hard-0139",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-hard-0139. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "e993c333aba5d6d48df9d23eb9559cb4f66b7c6adb56e61a78c0b4c0b9ba41c9",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-hard-0219",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-hard-0139",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-hard-0139. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "5a72aea443639ef44373d98113ec4503834091e940d1e1836520e83e5b11c488",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-hard-0162",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-hard-0146",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-hard-0146. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "beeff826e412e5dbffb0931c7a99af4dc213b23e11d869f927c47302ec70501e",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-hard-0220",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-hard-0146",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-hard-0146. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "36c3d833ff53ab9b4f1f7cd7d096aa3d12e160ec4fb0752b138566cfffa82d1c",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-hard-0152",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-hard-0149",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-hard-0149. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "a003e4b989149579e445782f3d04c60c8c696b7238452b332708e9dd5a9459b5",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-hard-0161",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-hard-0149",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-hard-0149. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "9c386c5d7d02814576260dbd334d1b449b63537e64d3084ee432a65fd22bce0c",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-hard-0210",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-hard-0149",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-hard-0149. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "8ad3fc9db3ff4dd713f2ae1c09b0bae9d5014e8fd72d0347898a903dda9fd145",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-hard-0216",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-hard-0149",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-hard-0149. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "2d5fab78c93752427958ab783d4c5dda813ed2702d02aea03ee9cd1a0539daf7",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-hard-0156",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-hard-0150",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-hard-0150. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "a2f87489e7443324c9ef0fe3696c9295b9ef2848348656702e751aa046e51987",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-hard-0169",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-hard-0150",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-hard-0150. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "8cc3f0e27933e8a06e1c642e9f7d38245105a7cfd4786aab3fe4a3e5fa514c8b",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-hard-0217",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-hard-0150",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-hard-0150. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "4769085c405b5b98cc2cb6fcdbdc1ab9ff45ef417f9ce02398f837b04c799159",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-hard-0164",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-hard-0155",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-hard-0155. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "ada23f06f2764b2499b42d9cb30d1844ede6d497d50acb25b16d28b5260b1381",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-hard-0168",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-hard-0155",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-hard-0155. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "ad6414a9342489b50b14d8ceb2c39717044724afc5b47cb08669ec43730868c9",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-hard-0177",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-hard-0155",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-hard-0155. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "3e43be1c65708111c4e2f5373b7adf328443ac84f893cba1960e6df8193c5b1a",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-hard-0180",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-hard-0155",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-hard-0155. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "998bdb397aeddfbc5878c2cf4450e88225f53d3547efca550d8168f58b3953e5",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-hard-0183",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-hard-0155",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-hard-0155. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "a8ccab911a73fc9d8d623123afc71786ada52cae39aab26bbd98048b77b21960",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-hard-0186",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-hard-0155",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-hard-0155. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "22ddb5f573ed6ec50384d6e08bd0c41c15f9b95cedba37e1a94c0e81662e071a",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-hard-0198",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-hard-0155",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-hard-0155. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "c0fc701b37ddb9b5dc5168246c27b576a8664fb7d2611c9adf6bb2919181cbf8",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-hard-0207",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-hard-0155",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-hard-0155. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "75c34c426651b44405c8ecbf0bad3254d0b6584d2b36bf0cfb541fee346b8959",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-hard-0213",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-hard-0155",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-hard-0155. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "63f3082b2ff83ea0c8880090dea0c2c18c7c3d99cf8fc4d58509479b1651df30",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-hard-0196",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-hard-0159",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-hard-0159. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "36a6ef19fa8a261d11952c22c6e391a2e21af56e3b4d8587882d86dd73e25d90",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-hard-0178",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-hard-0165",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-hard-0165. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "ae418b934547f9ac51ebfabb0dfa13d00a878ec937079bc3947d906df5b97922",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-hard-0190",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-hard-0165",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-hard-0165. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "ad52d0010755083bd945a495e4561d65d0f78ef31529fc59c0a0c4f6a11ff3a3",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-hard-0181",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-hard-0172",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-hard-0172. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "8275286a0dbdd2aa52f689b6f539473f8a765ca4fd74b24a2b3f85f507b73a7e",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-hard-0184",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-hard-0172",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-hard-0172. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "d417500d7ea5b99803edd95c18aab80dbb1c73f11f2027414dbf2bb65e169b72",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-hard-0187",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-hard-0172",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-hard-0172. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "10e7fa52229088268a31e5fb87c9e4d4b71d52544bc89cccb6e40e9f48daee2b",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-hard-0205",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-hard-0175",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-hard-0175. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "17f396e318c9a0d013bf608e270dbf3c32287510f12f50fd27af7974fa297b47",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-hard-0208",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-hard-0175",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-hard-0175. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "9a11ae921db9d66359ca59f3da8d994802d44741bab0cb16709fc936a158b98c",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0060",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0001",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0001. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "4519f3ba578dec6348df2ee24ea2715f1943db5fd7c8993659110080ee88eab2",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0078",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0001",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0001. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "505bf698a985993d8e06a5f80fb2bd52e1969b1587fc1f9733668a96e7a6e15f",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0092",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0001",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0001. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "24ef519f30b12a9ed6674ebcb44188ce6a8a2c6759769b69ae069cc8c9c89558",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0146",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0001",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0001. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "f2f7143b69eebcdb0deb731ea305be26abd49642c45310f53efae84a8d3be52c",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0170",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0001",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0001. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "3bc2b0477fac18a3f14b844433dcbfc143e1a3a6b48250ddd14235f3013c0bb0",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0007",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0003",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0003. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "19c37d15f969b07bf9e1b22caea1b9203e54b29c37301a9cc8899036df20cab0",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0011",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0003",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0003. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "c4145ecdedd880ab5112ad3f8f4af3ff0a64d5eb6ff926f2e4184f51f67b9e92",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0014",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0003",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0003. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "030a0fede280bf9811ec7a56b55564ab4396ab71faa1f415ec492202e17ec058",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0017",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0003",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0003. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "c6d9af0916ac192349fb4c773357427b15976ad36932764fb3b16e5e16304eb2",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0021",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0003",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0003. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "75ef536cdee6e8b6fdfbc0f6eb84cc8c88af17d998a29921c6e4bcf4b2dcb897",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0024",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0003",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0003. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "f472e660f8b2968828893bc0404dcff3af1bcb0ddc022c354e374262170bf86d",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0027",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0003",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0003. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "5328cf8ce9ec90bd92cba0ef58c41bfe05817e82f78329f4f37a4f0cd21cc31a",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0030",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0003",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0003. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "d06ac98931b27915ac15c67da56dfeb92bfad7ddfe639442b0d2172dfeef6835",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0034",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0003",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0003. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "e521b38581df393bf08a6a6a55d086e90e80dacd1a6187aeb7bfe648982a3ee8",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0037",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0003",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0003. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "727c5aef131fc06668e6571a030b8c1d91686761be423e517fb73b7b55dbd2fa",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0040",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0003",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0003. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "d941c0013f2a4cd0b38076461f5f82c0b7b7ec314bf1a97fec1d3cf11ba30f3f",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0043",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0003",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0003. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "095e3644d3870555e7daec79bbeb43364adba7ebd0172501f3700cebdf794474",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0046",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0003",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0003. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "12ac23e0fdf552cf48c53e6bc578bd6d7dca73906868219285dc49cb807be7af",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0049",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0003",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0003. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "e00b268dd93c2ad6521d7fb5985d6a63f081b099bfe4d5840fa547b9b7317924",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0052",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0003",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0003. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "08bd1dd54e4bac9fc8c653e887b577da9a2bcb09151ffe3b74c3e84a11a061b1",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0055",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0003",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0003. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "56e66b25703b2c982912d90a407aa0339975efd8ab6b6feb66ca996bf8a8c967",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0058",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0003",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0003. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "7343c9f9a01e313e97a3ef619e1879589aff4e046bd5a8b186e42df66ee5b2b4",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0061",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0003",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0003. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "af7bb4037201a60a1a1b07c3215c519782b7a3c364383be64678ac054d23c362",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0064",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0003",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0003. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "483e17ce37283f4fe7a2d63193629aca8c14dbd87b886fef47c91342edf07416",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0067",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0003",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0003. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "f82ae6791764d6c47cd856ca91bbf35f4d647e38da7714ff713d8eb12e59c95c",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0070",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0003",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0003. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "f22fd9e40e2650c962d8d42570e44f0c38b9a41d948cf44bedd315cd731ee2ca",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0073",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0003",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0003. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "9bfc96186b1c83b8b1bb6554e4f779642291653b3310af79b1a6c946a58f93c0",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0076",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0003",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0003. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "e8d9645fe5d40f0fe45472420c78469520e37aca0421f9a15c17515ac9ef4629",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0081",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0003",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0003. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "2c4b89e42d1e40104af1c1bac2e1bf3af32ec793911ae0cf55f8078bd27ce038",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0084",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0003",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0003. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "c2f74f543caeb44c96c83ea4f8d98ba984c1b1bdd412651eb7d0bee6a7a70188",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0087",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0003",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0003. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "5458612d4098a736c0ae199f275df4e05428b4a6662bbba6ce55b1d1cae629d0",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0090",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0003",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0003. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "14c10286cbcb493d1f9eb6c8469ed3cd5b352e84d6fbcba956dfb5b2f6e647d1",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0093",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0003",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0003. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "e6b65668134deec586903ecc44a72b9ef56af81c2d4ec028bc0c9ff93630eb40",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0096",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0003",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0003. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "abab3c663b8bbb9421794148da9cebe97d2ab1c33160604f415d60e975c79b22",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0099",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0003",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0003. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "5efa67f88fca8624fbae446911e621c4bc2562d21840d18db7922bb3451d3bd3",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0102",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0003",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0003. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "f01a1bc2e4fb1ff6f18703e0fabb3fc97b073b2d343efc3f463f3b35d6105217",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0105",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0003",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0003. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "ba1a4006d75f35fbd4961915792dbeb858d795c4451dd6ff1f45c1fdf411f44a",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0108",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0003",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0003. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "ea8e68168c754bfe26737d089d4c8e2e52bad32cafe9d4f322fdea9472acea10",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0111",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0003",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0003. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "9bb7e617859f4e9338c7943ef00a30024951ba9b20e7dab1ddca30b4d1d6cd9c",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0114",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0003",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0003. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "bd0a0b974182976ec080c8e1bbab079951eee2170ef62c044708d6a26578c19c",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0117",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0003",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0003. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "ec9bc91038c529d64e706ea455e795d5a59a989c16c79d920c389ce9a23311e8",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0120",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0003",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0003. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "f67b79961e843d5efeef387465ce96e816fe5030c29801a1bc8f1fc02fc3eb38",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0123",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0003",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0003. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "fe562d45931aa25656503040902146368948044dd1aa562531e458d1727e06db",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0126",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0003",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0003. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "cc0a10ee789e25c9010c3d91e1e6673905b04ef1e8e0f1e8e88f92c368f575a0",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0129",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0003",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0003. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "4b96040b412c793958b558d98d0a9ab7612b799c90b87e6c41ce2ff659659c73",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0132",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0003",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0003. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "894e38e3fddfe6e514b1878cc145da084116ab5d61d3156ec909e13f99d1ce72",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0135",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0003",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0003. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "27e7a410664c020cef9af70776085d1c448f37b21bf9a616cfabc5a71d8753f6",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0138",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0003",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0003. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "7a5d3db5045ced89c6c8751120f20c10d1558b2eafa31889d7f0970ea8ecb77e",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0141",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0003",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0003. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "c01295d01ac66159ec97d802865cf2d59fdb21e191f65d8bc13b6d9a09fc92ff",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0144",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0003",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0003. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "9431e5b79d8acc230fdf0e6861bce873079ef78f8c0eb9d27a66646e07372d0d",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0147",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0003",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0003. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "b65c7443ad852e74f56152861edd7f419d835a7af78fe6d5169f71aba461f476",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0150",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0003",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0003. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "8d034abfaa5200f9ca9bca6db54e7581b708be82e3a2dccbd68bec7b9c3d6961",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0153",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0003",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0003. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "8498b48e042dcaa99e5f550b8408395a10184666adff1470c010a25fd4b2af04",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0156",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0003",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0003. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "93638545dabf07b6427c2e13e939631e6b890214b998e699cabfcad38a5d9c91",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0159",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0003",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0003. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "7a58b67fb70b5d31eed4a6c21893c79b52c17259fc4d3fe5b78ee6cd4df8f111",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0162",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0003",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0003. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "f66017edea93f2909091dc9fdc390bdb6226aaa192316090d24473cac6e62685",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0165",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0003",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0003. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "9768d583d8d8d6c06287d6d9fced0d75bd7580e32403ddd00fce2a3e3e39694d",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0168",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0003",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0003. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "3a01746f5e8bd64dbbdfd7378282f1bf1ca2acc1d56475f4b7d334e763e37428",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0171",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0003",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0003. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "d9538ebf736ff5d2937e86d86a5d0cdb9b687269a755bcc943d6e64d76ad8316",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0174",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0003",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0003. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "4b411e48c67dec7dd6b0be1d3849a5790c130374f9d74d20bd1670af3b9bcac8",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0177",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0003",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0003. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "21df1b90d7cc42381fb933661d0b466db92d1572dac01a0656dffc8bea96de05",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0180",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0003",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0003. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "94daaeab9e43f26a3eaead9220d0925a6968573b626ce9cd97bd24dc8d3c839a",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0183",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0003",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0003. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "3e26e8790ed42bcc86f944ba8e6ee652680ea46b693447a051d5b43670ba35d4",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0186",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0003",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0003. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "bfc7c722791301a6f33706fd7dfd37d543690ca7110927e0439495274586ca34",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0189",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0003",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0003. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "046cffbd082b1a049864c150c2690ebc086cb30857909c35dd034e0bbc5c9079",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0192",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0003",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0003. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "b9c8a504c1b42b67cf33b2a154808e4feb7ce9e402cf1010685bf63bd4cc4196",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0195",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0003",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0003. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "e20f2b3cdb4933c5120d7c6704038a5972deaf9a2001a2d294e4c48c40c4f530",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0198",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0003",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0003. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "d0e3a37a5cc8d65ad0093eaab5851ad896071669199980939c71e74430588478",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0201",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0003",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0003. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "37864f55a3ed025844b65db484e765b0f178538e6fcd78fc3512cdc70c5700a2",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0204",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0003",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0003. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "3006fa870a78451f2e5ab8e7f3f242b2a24e0f627735397bd99433ae3e6f1436",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0207",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0003",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0003. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "595b47c092aef776e3482043e7a54c820cb4166b3a5670d568989d54a29172ab",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0210",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0003",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0003. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "f5f0c2aeca9f9d45e99c53086508e0b3d2e2b3f6cee6f7e4b685334a1c9ad595",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0213",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0003",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0003. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "23f3809709ac36b8b0a934b44a133cbcae212eb12946b38100fa80838c205b78",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0216",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0003",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0003. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "2e5ca14bee0b0a26af3b02e6d70af54ae53378333f60a9b626061952eb36debe",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0219",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0003",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0003. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "934b6b8aa54985a9eb2df86714b8d1d4adffc3437be20a13b94815d06ab30736",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0222",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0003",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0003. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "31caf28efa42ccc0e125670456795ba95ff4c6b187f644dd1a60263c0f93a35f",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0225",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0003",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0003. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "c5f64d039978cf2f89e270f7061931786d9e5bad52ed8c50647d606fd729a260",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0012",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0004",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0004. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "5b2d126c43e579d8329e2bdaca863029208aa942b6e5d691046f57923f5cd248",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0015",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0004",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0004. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "737eb3b9b69cfa87ce0f20e6fe5eedb0b4cdde309926b382f3ba0f311f8b0c26",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0035",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0004",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0004. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "ea17df308291a5a2396c9b4912b14db91557bc18a3aa64c132e99a518e607146",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0059",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0004",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0004. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "6664797afced78a5657220266ba67bc0a46774fea2430e5ea3a6a37a30196e6a",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0071",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0004",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0004. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "d2e2fc2f4ffde3466f77f982ff9775ea244b8408b8c3c1a3b9892f8afbe02f4b",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0077",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0004",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0004. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "6985d868009025515780c654f2c339fa1b88f52423993d3f03b6526f7ce3bec7",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0079",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0004",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0004. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "b6f557342f2310633937251dd67b5c232c26f91543c21bfc0ab129563ecae2c8",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0082",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0004",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0004. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "f96123264b48e85c59394029af4639e55f9532d194a63ba14f4c8ff8f90b6505",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0085",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0004",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0004. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "4ba8ba4c3f5a2d852c6e6358e24d3af86ed1849e502406cab0ecf8d33ecab30e",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0088",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0004",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0004. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "eae843765becc4c61d50fb3271a3819284bb5f6f20d706ce19e0741f4bdab0a1",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0094",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0004",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0004. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "7c0eb2cd81a140d74f69033034c7f0c6cdbdd157f24a26e26420e2d3757ff603",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0100",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0004",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0004. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "834506b2b31601dda4aed42f52ac7938b2273bc2dec7fe7b093273cb68f33ca3",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0103",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0004",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0004. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "43afe8a662d27c76fff8259a486040f464ce4557d9ee246ab6869d3375d99a29",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0112",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0004",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0004. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "66ce72333ceccfa5f8c34b4db467cffe896e4b53cffe634971374117da32db8b",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0163",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0004",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0004. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "45c29c7decf3a579d3cf28a107b98fe942b4edc57334e8abe4fa74b16f2873ad",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0172",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0004",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0004. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "3f3bfa1635ef1292f745b971a4409d388f581fe9dd52aa96e9ac0cfadae870a9",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0178",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0004",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0004. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "b91caa7a7908a5829fe4634d149c2e9a899fed035dba6b24b08817fdec7b538d",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0199",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0004",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0004. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "ebbeb6339890f9761e6bbcba2f1ac9b7984920890faa617c184de3d693b3d5ad",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0205",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0004",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0004. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "20683b01af0904c8276ceadfc34822f9562e9254296dbd227dc2130fb9e81495",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0223",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0004",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0004. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "1da0d783f1f6b64846eba6feee2ac9b2934cb924ee3aa237c71e52c555857875",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0104",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0005",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0005. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "40ea7bab11550e1b30c96afa18343e5c8590d001c65eebc974426746c759ede2",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0119",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0005",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0005. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "99ab82c1649584aada6dc5dee6b88dbbf8f6ea6e6e1e8c0137b313db69a4927f",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0200",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0005",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0005. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "a38d913dc08f28157af82cce2cdcf106c3f3a0430b8e83230bb1299f7cca600d",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0206",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0005",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0005. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "c9deda114e0b7bb38b31223e53b6549be8d0cb8a44f10fd9b0e9a79ca18aeec1",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0025",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0008",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0008. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "43f58d358545cb494a673e7904b4c8ad25548904c05fd2df3e0ec371c30ffb80",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0028",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0008",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0008. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "6a8f748ef9166427edc01835456bb0e63e1510b7383c2330a02e4469c7f0702c",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0031",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0008",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0008. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "c0ae7aba74bbbe8ee63e83e14df280aaf600db4d4e4fb9e6147cf7e735839980",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0044",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0008",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0008. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "5cbf8e4b82614bfac2da503c8ceee23679e5d2afc7339268a8c778ecfc1b76a8",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0050",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0008",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0008. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "8f4bbe341c3ceec9e7ba3b889e69edb5cd46980d1061beff098aaee166c01864",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0062",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0008",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0008. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "ff2ce2a08e75eced7465f9e8e99625b58a7ab863aeefa1e226569cd029306109",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0065",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0008",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0008. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "22d4fb6ed339d67b4e9c6a5b396c048bf2775b88172065853efd388288913b7a",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0074",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0008",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0008. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "c4367e4c6545c3a31fdc00225b419e3331c7f66b77097eb0d9a818c69e750149",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0106",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0008",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0008. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "53c3261f701a147c897b05346958f1f266304fe4524e6e36dc182eb5412da566",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0109",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0008",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0008. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "c3ca0909ebb2e0a9aff2c1d56d906887927318d3c73931bc617b534d6fbd8340",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0118",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0008",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0008. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "510e43522cb27864ae6344a1fdaa661a015baf124ac7fce4cd9457c913e4f765",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0121",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0008",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0008. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "c19f2880baab7cb83cf921d9a8049bc78ef8055a5f4368cf554785cb58eda4ce",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0133",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0008",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0008. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "92fb80181b358016ac0827795d96e9f4259a0b368a1f39935290abb87aed581f",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0136",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0008",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0008. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "aa71ee0394d33709cab0cc73ea6ec3872c0ff63d63ee38aad559e5da2d5fc112",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0142",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0008",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0008. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "f650caee000df0353593ab7ee619ae94fdc5596cb7b036232c092576ae5b7720",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0145",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0008",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0008. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "d1efd93dd7b206142c2d33e14bf8a01676456271e2cb62c91b3c2c1159aaa236",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0154",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0008",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0008. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "f222ba207ea14fe51ee87c6713acc995925a32d2f601554d971cff824976b31f",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0187",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0008",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0008. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "6b32fc7b3c4895701af440e391cefd19223ac033ad53c9d606141d2f8bd5d944",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0196",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0008",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0008. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "704a1d86ea7401da40d505581e7a814dd729da64adac3b9f1ebe4dd99d5fccd3",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0211",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0008",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0008. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "cce82f6017619c580ba7f217c9a5c6f8c2c5139d4e5b53905cdcc483fbcc41fc",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0214",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0008",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0008. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "b5ab90e7b62c3a29dbb56ba6ab3281d43514e600324599e820d730fcdb7acfa6",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0217",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0008",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0008. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "5988450e7c60c7eed0ee824bb1f85db1bb44da6847afc40a1f498e164561e1b6",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0039",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0013",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0013. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "60d4dadf9407b9e13959ab54da3596078cb3b69228284c37f50a27620f0562fe",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0075",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0013",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0013. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "fa934f38c46e26b69d81e7f0b00315350d66c2f5c6861a5664ccafe438a86801",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0089",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0013",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0013. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "a200c2700838dbe0ed43ad24ee2d0bb47797c8f0ac6ff119b79c5a21526828ee",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0134",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0013",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0013. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "bcd29f6b98f7b5d7badabc1631eb597f271479b9fa276b1683f027fa815e46ce",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0209",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0013",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0013. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "895560198997e2432389cf01229cc2283c48f7eb58b8d20173a34a499703944b",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0054",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0016",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0016. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "3b89d755c8806310320cee4160161378989fbd0bd6a52fac205476b864cac2eb",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0069",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0016",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0016. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "ec31332088d327b5f5a357a1dd47530047f4408d6631cda388ccda76366b52dd",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0098",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0016",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0016. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "bc0ddd7d12b2e0704697cf5e505b123ae78f05aeb366e4cedd7150f6a9982a20",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0022",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0018",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0018. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "3fb39724dfb90e95d3ceef76faf79c36d4e989793717c774fdd58fa134166efe",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0038",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0018",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0018. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "ab8dd3cedac323041f5d5b8441f4bc438e37c45cc96680530826f0bc6407541f",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0047",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0018",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0018. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "e60bf503bf214c6da43817f57fb4dbefff06e7f77d2194df87d7c707d6e41ec8",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0056",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0018",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0018. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "4ed7752f5f0b399e89d84e36bf079e3422e881b28d98414c087acc620a704a63",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0068",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0018",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0018. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "bf68efe9c63083726f50a66e52b4f8066e835a1a76159ab0a5b394ab6bac773d",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0097",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0018",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0018. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "26c90e4038c20cca40cbf97f553beba9718375b3aaf9314eeaa22aaa6243ab39",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0115",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0018",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0018. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "7ef1b3562edff0e32fdfbb29b399b1783afb63aa1793fa897f23fe1389a7ba5f",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0127",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0018",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0018. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "d97d545276c70d93c4160c940a6000122b595ed59a98d9213b5e0562428daa2e",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0130",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0018",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0018. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "992e6c0b4e13510cb775a481da8765366332318474c273493a069cf592fff6dd",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0148",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0018",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0018. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "a7fae6caca912a0861e693acc8c88c8249cc4215a303675490e86f426d106690",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0160",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0018",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0018. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "83fbc8175d3280bb15283dec7d2122910e696fa34506292cf4fdaa551b8163c3",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0175",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0018",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0018. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "e70471a2458a1d91e0506eadec8a3ff673fd41c1cb5edfbf1bc159a7c40b3ddc",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0181",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0018",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0018. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "b29db642d1b6e4c50953208e5984c30268c6d1e419a4fee500d4f9530f67efeb",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0190",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0018",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0018. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "29a507f4fb5d54f34e8047b46b83d1e577ad5776a39e04838f22be345ed48f7b",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0193",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0018",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0018. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "b46c1de56765a1d97d985d4d3528ddd7c621dec708da45f1b5929c6c5b117731",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0202",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0018",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0018. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "9ef12ea67ac702fe3dd622f2ce42cd16e1101aa14ba4792682b99d2e6d645ac5",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0220",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0018",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0018. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "123a72df794d2ebf749062dad72e99580bb53d4be31ce1efd864611dedcf6793",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0036",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0019",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0019. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "8e520324f9f88423c139cd472197b96938711dc56c2ffd43b98f5c47d60ceec7",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0122",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0019",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0019. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "e41225f59b00cd39d93fd26a5ceacf3a1a4f41f0a81a4db9c74a904f282fc6a4",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0143",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0019",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0019. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "214d814a61b77590887bac64f607dfc02c0731bc0ad9fbc75fd1af5232a072ba",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0164",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0019",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0019. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "61f06dd7bfb45ef231d6e0e0f952ae447412e6df0a91060802c6ec8ae0f8d493",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0197",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0019",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0019. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "67412abc842ec2e6546d0f7bb215436a77e3b19dc0ab406d7949fcb67f393b3b",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0218",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0019",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0019. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "7be331e2ca5078c9d488fbb2e2f096251a9a88a8e83e8bc7b2261b410adb6cc1",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0224",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0023",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0023. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "48fd0413e7e702ed1cd64abc576d8af615211a5d7bc1fc6a593e9a58f267b243",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0032",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0026",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0026. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "ff5a5f47ded97261bb37f0234ca28bacedabb9da526521d126f97e00f476d8d5",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0101",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0026",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0026. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "2db43a785274060871a363b27da8dd97f14a83894d43b7121e721f9aae284b07",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0110",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0026",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0026. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "a648e1f84011588e0591561e846fc7badf7a76cbbcba9f444c453e1e2cf6d2f1",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0140",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0026",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0026. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "80b8bd95f243c1afff42b395293f40e9bc437ae85be9b899978bf43aeea24162",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0149",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0026",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0026. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "a5a5e2c0ce041269ae13bce11f5057a46c371d5c0ecb7f5ae5d5ffffe8d8771e",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0191",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0026",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0026. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "2bbae8953020029a15ae1656d45e089fc36de03e70dcc48cf2f269556482f394",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0053",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0041",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0041. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "400c06e5885588ca7b5b9e01588c0c014f59f122dc6cb9868872a7c356a9c467",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0091",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0041",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0041. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "280dff3bafd2f8022a628672d743a9b9a7d63c00ffaff6e71ef81aa5e719b365",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0124",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0041",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0041. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "28b283c2ec98e3aaa57cfde1d2269613bf6bc99eecf2f22148f10605a9e1ac24",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0139",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0041",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0041. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "f75e21a45b44d739d927b0e728f6ebba9d8ddeb207a6a097991b4cec334ad4b1",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0151",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0041",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0041. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "d2724920c947d8f778f67f854edc84ff33dd4cc216d4ceccc7cc20a6ced35e9b",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0157",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0041",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0041. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "1329fd5616232cbc40005782d29a5783149174944766a0096b623c6a95deadea",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0166",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0041",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0041. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "377b8392f6a834f0705797e75cef2959483e03fbbc9888932a93ea7eed1aa693",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0169",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0041",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0041. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "17296fd90ac6eafe1b481626186800232c4b75c424d9c487ae78df548455e1a2",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0184",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0041",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0041. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "029593bfb9db53d0b7d5ff42b70f121a6081bdf175f914edaedffc182523fff1",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0208",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0041",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0041. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "c52fa76d7a2c8ff7c04a42d79e109806169c138bb6e250079c764e5a065fe083",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0086",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0042",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0042. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "cad4364f14cd93ed82d8b62f7b2070e884eae857e243a97d37448eea82bd4d92",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0167",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0042",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0042. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "324feeac2e8bd7fa744fa072bc590258fdf3b312d59aa9e1f2ae12aaa5d96ca2",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0203",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0042",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0042. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "3cc46254d299e77c8b744dac7e07595039878a89d5c389ad40d6565db714e159",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0107",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0045",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0045. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "04a3fb74dbb154fd306330fcc20562f4b531f53da7c9bec49190bb98d09acb86",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0131",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0045",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0045. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "c85514b07bb9b6258e9a20c36ec587eccbd24705018085187fd923b5b1f512f1",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0215",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0045",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0045. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "8515a09f7d4b923f3b7394d433b2957b66c49a59c72a2d3f5ccb08ee2928a140",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0057",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0048",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0048. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "468f90b3eb47ed6d3f4513243e5031072c28927c13196dc3cd9b9f6b0ca7fd0b",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0113",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0048",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0048. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "c4b75b7ada160bd137c3d8e560ea02662455e438b4769d977ef5a7ae8482f9af",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0137",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0048",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0048. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "88a2436d4492f4adb08c5a950f31a4b9de25881c2f5650c1666f6896d50f4c61",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0152",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0048",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0048. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "ea38a01d59552f5ff939eb175f19254eeb64cd6870f4b1cac19fd6d042986698",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0188",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0048",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0048. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "14b8ae8bd5fef1495b239cf26f44e9db9d52f84673c4c99b1c7a3782c4092f8e",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0221",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0048",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0048. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "0e5b93e8c00216bd20c8576bca24b485e733ddb5e51de7c9db74f8d442959f19",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0128",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0063",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0063. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "6d6a5725eb55a9ac6e54d02667171d47e02424c4ded07a5002fdf6a39d2fa945",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0179",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0063",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0063. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "25b7f9ce04d2adc9c9d4226870b38c4d295c0c1de1f829b456889bec33d402a4",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0155",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0072",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0072. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "cfbe868e9fc843b4ad679271c643e6075557676ba0d6209b7b970d74c98bb1ee",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0158",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0072",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0072. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "5163eac51b818331b3cd312695f26f38647f7628b475ed09c2feb9da67cfefaf",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0173",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0072",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0072. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "1b3793824f9e88f8477f3fd8f4d1991d5d2b7e2b29a17b65d84e17cfffd98add",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0176",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0080",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0080. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "40dcb2cf9b0b427c97c686b0deae03217c21efbc4c71dbf20b409f7490fc45f0",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0185",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0080",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0080. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "fe1801cefbefe37760fd33061edc081a65c51c4645bc766852bf2b133d7243d9",
+      "categoryId": "maps"
+    },
+    {
+      "id": "maps-legendary-0194",
+      "code": "duplicate_question_in_category",
+      "canonicalId": "maps-legendary-0095",
+      "reason": "duplicate_question_in_category: نفس نص المسألة أو تلميحات الهوية داخل القسم؛ النسخة المعتمدة للسحب maps-legendary-0095. اختلاف الصورة لا ينشئ سؤالاً مستقلاً وفق قرار المنتج.",
+      "contentSha256": "8f80e9018debf6150ecc0e65a0b276c729f15934bf0b3bcbd15b512ed638b4f7",
+      "categoryId": "maps"
+    }
+  ],
+  "staleManualFindingIds": [],
+  "scope": "All bundled rows, within-category duplicate policy and exact known non-content/corrupt-answer evidence. Not blanket factual or semantic certification."
+}

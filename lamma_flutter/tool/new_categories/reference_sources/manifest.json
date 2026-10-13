@@ -1,0 +1,95 @@
+[
+  {
+    "url": "https://www.nasa.gov/reference/appendix-b-vol-2/",
+    "finalUrl": "https://www.nasa.gov/reference/appendix-b-vol-2/",
+    "file": "347f5d3f546c.txt",
+    "status": 200,
+    "characters": 16232
+  },
+  {
+    "url": "https://www.nasa.gov/reference/appendix-a-acronyms/",
+    "finalUrl": "https://www.nasa.gov/reference/appendix-a-acronyms/",
+    "file": "a12824531185.txt",
+    "status": 200,
+    "characters": 14032
+  },
+  {
+    "url": "https://www.un.org/dgacm/en/content/editorial-manual/abbreviations",
+    "finalUrl": "https://www.un.org/dgacm/en/content/editorial-manual/abbreviations",
+    "file": "d8ab928212b0.txt",
+    "status": 200,
+    "characters": 25240
+  },
+  {
+    "url": "https://medlineplus.gov/appendixb.html",
+    "finalUrl": "https://medlineplus.gov/appendixb.html",
+    "file": "27a9bd8bd357.txt",
+    "status": 200,
+    "characters": 10203
+  },
+  {
+    "url": "https://www.itu.int/ITU-D/ict/publications/wtdr_99/material/glossary.html",
+    "finalUrl": "https://www.itu.int/ITU-D/ict/publications/wtdr_99/material/glossary.html",
+    "file": "061c5ac2ded0.txt",
+    "status": 200,
+    "characters": 13320
+  },
+  {
+    "url": "https://www.ecb.europa.eu/euro/banknotes/current/design/html/index.en.html",
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+  },
+  {
+    "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html",
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+  },
+  {
+    "url": "https://www.bankofengland.co.uk/banknotes/current-banknotes",
+    "finalUrl": "https://www.bankofengland.co.uk/banknotes/current-banknotes",
+    "file": "7b648d21e6fb.txt",
+    "status": 200,
+    "characters": 8561
+  },
+  {
+    "url": "https://www.bankofengland.co.uk/banknotes/withdrawn-banknotes",
+    "finalUrl": "https://www.bankofengland.co.uk/banknotes/withdrawn-banknotes",
+    "file": "2a3c4e2db18e.txt",
+    "status": 200,
+    "characters": 25399
+  },
+  {
+    "url": "https://www.uscurrency.gov/denominations",
+    "finalUrl": "https://www.uscurrency.gov/denominations",
+    "file": "2aa3ef0bfab6.txt",
+    "status": 200,
+    "characters": 5827
+  },
+  {
+    "url": "https://www.rbnz.govt.nz/money-and-cash/banknotes-and-coins/banknotes-in-circulation",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://www.boj.or.jp/en/about/press/koen_2024/ko240703a.htm",
+    "finalUrl": "https://www.boj.or.jp/en/about/press/koen_2024/ko240703a.htm",
+    "file": "6f6d06c38b9b.txt",
+    "status": 200,
+    "characters": 7797
+  },
+  {
+    "url": "https://banknotes.rba.gov.au/banknote-features/",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://www.bok.or.kr/eng/main/contents.do?menuNo=400112",
+    "finalUrl": "https://www.bok.or.kr/eng/main/contents.do?menuNo=400112",
+    "file": "7583db307f4d.txt",
+    "status": 200,
+    "characters": 11378
+  },
+  {
+    "url": "https://www.bipm.org/en/measurement-units/si-prefixes",
+    "finalUrl": "https://www.bipm.org/en/measurement-units/si-prefixes",
+    "file": "08dc49d6b2b2.txt",
+    "status": 200,
+    "characters": 7016
+  }
+]

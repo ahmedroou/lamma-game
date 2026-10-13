@@ -4,6 +4,12 @@ Run from the Flutter root: python tool/audit_question_quality.py --strict
 Writes QUESTION_QUALITY_AUDIT.json and .md. The explicit --quarantine mode
 tags confirmed placeholders in place; it never deletes or renumbers content.
 Only explicit, known non-content placeholder answers are quarantined.
+
+This legacy authoring audit distinguishes map figures mathematically. The
+current product rule disallows repeating the same authored body within a
+category even with different images; use triage_question_bank.py for that
+policy and for fingerprint-bound corrupt-answer findings. Neither editorial
+signature is the runtime device-use identity, which uses persisted usageId.
 """
 
 import argparse
@@ -52,6 +58,17 @@ def normalize_question(text):
 def question_signature(question):
     body = ' '.join(question.get('clues', [])) if question['categoryId']=='who_am_i' else question['text']
     signature = normalize_question(body)
+    presentation = question.get('presentation')
+    if presentation:
+        parts = [presentation['type']]
+        for section in presentation['sections']:
+            items = [('missing:' if item.get('missing') else 'item:') + (item['text'].strip() if presentation['type']=='symbols' else normalize_option(item['text'])) for item in section['items']]
+            if presentation['type'] in ('matching','grouping','comparison','statements'):
+                items.sort()
+            parts.append([normalize_option(section['title']), items])
+        signature += '|presentation:' + json.dumps(parts,ensure_ascii=False)
+    if question['categoryId']=='symbols_signals' and question.get('imageAsset'):
+        signature += '|symbol_image:' + hashlib.sha256((ROOT/question['imageAsset']).read_bytes()).hexdigest()
     # Map figures contain the grid heights/edges required to solve the question.
     # Hash the bytes, not the filename, so renamed identical figures still collide.
     if question['categoryId']=='maps' and question.get('imageAsset'):

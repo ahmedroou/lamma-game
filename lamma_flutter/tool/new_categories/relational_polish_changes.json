@@ -1,0 +1,11 @@
+{
+  "split_context": 300,
+  "easy_split_units_simplified": 1,
+  "easy_matching_recomposed": 75,
+  "matching_context": 300,
+  "unit_relations_naturalized": 12,
+  "advanced_easy_relations_replaced": 36,
+  "tool_relations_naturalized": 69,
+  "book_relations_naturalized": 48,
+  "award_relations_naturalized": 135
+}

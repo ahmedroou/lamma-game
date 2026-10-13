@@ -1,0 +1,76 @@
+{
+  "records": [
+    {
+      "questionId": "symbols_signals-hard-0001",
+      "glyph": "𝄞",
+      "imageAsset": "assets/question_media/new_symbols_music_1d11e.webp"
+    },
+    {
+      "questionId": "symbols_signals-hard-0002",
+      "glyph": "𝄢",
+      "imageAsset": "assets/question_media/new_symbols_music_1d122.webp"
+    },
+    {
+      "questionId": "symbols_signals-hard-0003",
+      "glyph": "𝄡",
+      "imageAsset": "assets/question_media/new_symbols_music_1d121.webp"
+    },
+    {
+      "questionId": "symbols_signals-hard-0007",
+      "glyph": "𝄪",
+      "imageAsset": "assets/question_media/new_symbols_music_1d12a.webp"
+    },
+    {
+      "questionId": "symbols_signals-hard-0008",
+      "glyph": "𝄫",
+      "imageAsset": "assets/question_media/new_symbols_music_1d12b.webp"
+    },
+    {
+      "questionId": "symbols_signals-hard-0009",
+      "glyph": "𝄐",
+      "imageAsset": "assets/question_media/new_symbols_music_1d110.webp"
+    },
+    {
+      "questionId": "symbols_signals-hard-0010",
+      "glyph": "𝄋",
+      "imageAsset": "assets/question_media/new_symbols_music_1d10b.webp"
+    },
+    {
+      "questionId": "symbols_signals-hard-0011",
+      "glyph": "𝄌",
+      "imageAsset": "assets/question_media/new_symbols_music_1d10c.webp"
+    },
+    {
+      "questionId": "symbols_signals-hard-0012",
+      "glyph": "𝄆",
+      "imageAsset": "assets/question_media/new_symbols_music_1d106.webp"
+    },
+    {
+      "questionId": "symbols_signals-hard-0013",
+      "glyph": "𝄇",
+      "imageAsset": "assets/question_media/new_symbols_music_1d107.webp"
+    },
+    {
+      "questionId": "symbols_signals-hard-0014",
+      "glyph": "𝄀",
+      "imageAsset": "assets/question_media/new_symbols_music_1d100.webp"
+    },
+    {
+      "questionId": "symbols_signals-hard-0015",
+      "glyph": "𝄁",
+      "imageAsset": "assets/question_media/new_symbols_music_1d101.webp"
+    },
+    {
+      "questionId": "symbols_signals-hard-0016",
+      "glyph": "𝄂",
+      "imageAsset": "assets/question_media/new_symbols_music_1d102.webp"
+    }
+  ],
+  "font": {
+    "repository": "https://github.com/steinbergmedia/bravura",
+    "revision": "37b194378b710cc40e406ab6c4b07608bb9548ae",
+    "license": "SIL OFL 1.1",
+    "fontSha256": "cdf0f893ee1fdb64b7f6713d71ee0dcfc349c0ac01429a8e451b01a9e79f5f3b"
+  },
+  "mediaBytes": 19346
+}

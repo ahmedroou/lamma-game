@@ -2,6 +2,7 @@ import 'dart:convert';
 import 'question.dart';
 import 'session_config.dart';
 import 'session_state.dart';
+import '../abilities/surprise_session_effects.dart';
 import 'hint_access.dart';
 
 class UnsupportedSaveVersion extends FormatException {
@@ -17,20 +18,43 @@ final class SessionSave {
     required this.createdAt,
     required this.updatedAt,
     required this.revision,
-  }) : questions = List.unmodifiable(questions) {
+    Iterable<String> replayQuestionIds = const [],
+  }) : questions = List.unmodifiable(questions),
+       replayQuestionIds = Set.unmodifiable(replayQuestionIds) {
     _validate();
   }
-  static const version = 2;
+  static const version = 4;
   final String id;
   final SessionConfig config;
   final SessionState state;
   final List<Question> questions;
+  final Set<String> replayQuestionIds;
   final DateTime createdAt, updatedAt;
   final int revision;
 
   void _validate() {
     final teamIds = config.teams.map((team) => team.id).toSet();
     final ids = questions.map((question) => question.id).toSet();
+    final numericIds = questions
+        .where((q) => q.usageId != null)
+        .map((q) => q.usageId!)
+        .toList();
+    if (numericIds.toSet().length != numericIds.length ||
+        config.categoryIds.any(
+          (id) =>
+              questions
+                  .where(
+                    (q) =>
+                        q.categoryId == id && replayQuestionIds.contains(q.id),
+                  )
+                  .length >=
+              5,
+        )) {
+      throw const FormatException('Invalid numeric or replay identities.');
+    }
+    if (!ids.containsAll(replayQuestionIds)) {
+      throw const FormatException('Invalid replay allocation.');
+    }
     if (id.isEmpty ||
         revision < 0 ||
         state.turn < 0 ||
@@ -101,6 +125,11 @@ final class SessionSave {
       throw const FormatException('Current question was not recorded.');
     }
     final access = state.hintAccess;
+    SurpriseSessionEffects.validate(
+      state.sessionEffects,
+      teamIds,
+      config.categoryIds,
+    );
     final surprise = state.surpriseCard;
     if (access != null &&
         (access.questionId != state.question?.id ||
@@ -111,11 +140,33 @@ final class SessionSave {
                 (state.revealedCards < 1 ||
                     access.teamId != state.activeTeam.id ||
                     surprise?.id != access.cardId ||
-                    surprise?.grantsHint != true))) {
+                    !(surprise?.grantsHint == true ||
+                        surprise?.effect == SurpriseEffect.hint &&
+                            state.roundData['surpriseActionUsed'] == true &&
+                            (state.roundData['surpriseFixedDeltas']
+                                    as Map?)?[state.activeTeam.id] ==
+                                -surprise!.price)))) {
       throw const FormatException('Invalid hint permission.');
     }
     for (var i = 0; i < state.history.length; i++) {
       final round = state.history[i];
+      SurpriseSessionEffects.validate(
+        round.effectsBefore,
+        teamIds,
+        config.categoryIds,
+      );
+      final settled = SurpriseSessionEffects.entries(
+        round.roundData,
+        'settledWagers',
+      );
+      SurpriseSessionEffects.validate(
+        {'wagers': settled},
+        teamIds,
+        config.categoryIds,
+      );
+      if (settled.any((wager) => wager['dueTurn'] != round.turn)) {
+        throw const FormatException('Wager settled in the wrong turn.');
+      }
       if (round.turn != i ||
           !ids.contains(round.question.id) ||
           !state.seenQuestionIds.contains(round.question.id) ||
@@ -152,6 +203,7 @@ final class SessionSave {
 
   Map<String, Object?> toJson() => {
     'version': version,
+    'replayQuestionIds': replayQuestionIds.toList(),
     'id': id,
     'config': config.toJson(),
     'state': state.toJson(),
@@ -161,7 +213,7 @@ final class SessionSave {
     'revision': revision,
   };
   factory SessionSave.fromJson(Map<String, dynamic> json) {
-    if (json['version'] != version && json['version'] != 1) {
+    if (![1, 2, 3, version].contains(json['version'])) {
       throw const UnsupportedSaveVersion();
     }
     try {
@@ -175,6 +227,8 @@ final class SessionSave {
         createdAt: DateTime.parse(json['createdAt'] as String),
         updatedAt: DateTime.parse(json['updatedAt'] as String),
         revision: json['revision'] as int,
+        replayQuestionIds: (json['replayQuestionIds'] as List<dynamic>? ?? [])
+            .cast<String>(),
       );
     } on Object {
       throw const FormatException('Saved session is incomplete or damaged.');

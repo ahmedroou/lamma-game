@@ -1,0 +1,3906 @@
+{
+  "changes": [
+    {
+      "id": "first_last-easy-0001",
+      "change": "science → cultural first/last"
+    },
+    {
+      "id": "first_last-easy-0002",
+      "change": "science → cultural first/last"
+    },
+    {
+      "id": "first_last-easy-0008",
+      "change": "science → cultural first/last"
+    },
+    {
+      "id": "first_last-easy-0010",
+      "change": "science → cultural first/last"
+    },
+    {
+      "id": "first_last-easy-0011",
+      "change": "science → cultural first/last"
+    },
+    {
+      "id": "first_last-easy-0014",
+      "change": "science → cultural first/last"
+    },
+    {
+      "id": "complete_sequence-easy-0003",
+      "change": "science → cultural sequence"
+    },
+    {
+      "id": "complete_sequence-easy-0004",
+      "change": "science → cultural sequence"
+    },
+    {
+      "id": "complete_sequence-easy-0006",
+      "change": "science → cultural sequence"
+    },
+    {
+      "id": "complete_sequence-easy-0010",
+      "change": "science → cultural sequence"
+    },
+    {
+      "id": "complete_sequence-easy-0015",
+      "change": "science → cultural sequence"
+    },
+    {
+      "id": "complete_sequence-easy-0019",
+      "change": "science → cultural sequence"
+    },
+    {
+      "id": "one_wrong-easy-0003",
+      "change": "science → culture error block"
+    },
+    {
+      "id": "one_wrong-easy-0012",
+      "change": "science → culture error block"
+    },
+    {
+      "id": "one_wrong-easy-0015",
+      "change": "science → culture error block"
+    },
+    {
+      "id": "one_wrong-easy-0016",
+      "change": "science → culture error block"
+    },
+    {
+      "id": "one_wrong-easy-0019",
+      "change": "science → culture error block"
+    },
+    {
+      "id": "one_wrong-easy-0023",
+      "change": "science → culture error block"
+    },
+    {
+      "id": "one_wrong-easy-0027",
+      "change": "science → culture error block"
+    },
+    {
+      "id": "one_wrong-easy-0028",
+      "change": "science → culture error block"
+    },
+    {
+      "id": "one_wrong-easy-0033",
+      "change": "science → culture error block"
+    },
+    {
+      "id": "one_wrong-easy-0038",
+      "change": "science → culture error block"
+    },
+    {
+      "id": "one_wrong-easy-0044",
+      "change": "science → culture error block"
+    },
+    {
+      "id": "one_wrong-easy-0048",
+      "change": "science → culture error block"
+    },
+    {
+      "id": "numbers-easy-0001",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-easy-0002",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-easy-0003",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-easy-0004",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-easy-0005",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-easy-0006",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-easy-0007",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-easy-0008",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-easy-0009",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-easy-0010",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-easy-0011",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-easy-0012",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-easy-0013",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-easy-0014",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-easy-0015",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-easy-0016",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-easy-0017",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-easy-0018",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-easy-0019",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-easy-0020",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-easy-0021",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-easy-0022",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-easy-0023",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-easy-0024",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-easy-0025",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-easy-0026",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-easy-0027",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-easy-0028",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-easy-0029",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-easy-0030",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-easy-0031",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-easy-0032",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-easy-0033",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-easy-0034",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-easy-0035",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-easy-0036",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-easy-0037",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-easy-0038",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-easy-0039",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-easy-0040",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-easy-0041",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-easy-0042",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-easy-0043",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-easy-0044",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-easy-0045",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-easy-0046",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-easy-0047",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-easy-0048",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-easy-0049",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-easy-0050",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-easy-0051",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-easy-0052",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-easy-0053",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-easy-0054",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-easy-0055",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-easy-0056",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-easy-0057",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-easy-0058",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-easy-0059",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-easy-0060",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-easy-0061",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-easy-0062",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-easy-0063",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-easy-0064",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-easy-0065",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-easy-0066",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-easy-0067",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-easy-0068",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-easy-0069",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-easy-0070",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-easy-0071",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-easy-0072",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-easy-0073",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-easy-0074",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-easy-0075",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-medium-0001",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-medium-0002",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-medium-0003",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-medium-0004",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-medium-0005",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-medium-0006",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-medium-0007",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-medium-0008",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-medium-0009",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-medium-0010",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-medium-0011",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-medium-0012",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-medium-0013",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-medium-0014",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-medium-0015",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-medium-0016",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-medium-0017",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-medium-0018",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-medium-0019",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-medium-0020",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-medium-0021",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-medium-0022",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-medium-0023",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-medium-0024",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-medium-0025",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-medium-0026",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-medium-0027",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-medium-0028",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-medium-0029",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-medium-0030",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-medium-0031",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-medium-0032",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-medium-0033",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-medium-0034",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-medium-0035",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-medium-0036",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-medium-0037",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-medium-0038",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-medium-0039",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-medium-0040",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-medium-0041",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-medium-0042",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-medium-0043",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-medium-0044",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-medium-0045",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-medium-0046",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-medium-0047",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-medium-0048",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-medium-0049",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-medium-0050",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-medium-0051",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-medium-0052",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-medium-0053",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-medium-0054",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-medium-0055",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-medium-0056",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-medium-0057",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-medium-0058",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-medium-0059",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-medium-0060",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-medium-0061",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-medium-0062",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-medium-0063",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-medium-0064",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-medium-0065",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-medium-0066",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-medium-0067",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-medium-0068",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-medium-0069",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-medium-0070",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-medium-0071",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-medium-0072",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-medium-0073",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-medium-0074",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-medium-0075",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-hard-0001",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-hard-0002",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-hard-0003",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-hard-0004",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-hard-0005",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-hard-0006",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-hard-0007",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-hard-0008",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-hard-0009",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-hard-0010",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-hard-0011",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-hard-0012",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-hard-0013",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-hard-0014",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-hard-0015",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-hard-0016",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-hard-0017",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-hard-0018",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-hard-0019",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-hard-0020",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-hard-0021",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-hard-0022",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-hard-0023",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-hard-0024",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-hard-0025",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-hard-0026",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-hard-0027",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-hard-0028",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-hard-0029",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-hard-0030",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-hard-0031",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-hard-0032",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-hard-0033",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-hard-0034",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-hard-0035",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-hard-0036",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-hard-0037",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-hard-0038",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-hard-0039",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-hard-0040",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-hard-0041",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-hard-0042",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-hard-0043",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-hard-0044",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-hard-0045",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-hard-0046",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-hard-0047",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-hard-0048",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-hard-0049",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-hard-0050",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-hard-0051",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-hard-0052",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-hard-0053",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-hard-0054",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-hard-0055",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-hard-0056",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-hard-0057",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-hard-0058",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-hard-0059",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-hard-0060",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-hard-0061",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-hard-0062",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-hard-0063",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-hard-0064",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-hard-0065",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-hard-0066",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-hard-0067",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-hard-0068",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-hard-0069",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-hard-0070",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-hard-0071",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-hard-0072",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-hard-0073",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-hard-0074",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-hard-0075",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-legendary-0001",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-legendary-0002",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-legendary-0003",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-legendary-0004",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-legendary-0005",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-legendary-0006",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-legendary-0007",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-legendary-0008",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-legendary-0009",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-legendary-0010",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-legendary-0011",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-legendary-0012",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-legendary-0013",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-legendary-0014",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-legendary-0015",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-legendary-0016",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-legendary-0017",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-legendary-0018",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-legendary-0019",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-legendary-0020",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-legendary-0021",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-legendary-0022",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-legendary-0023",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-legendary-0024",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-legendary-0025",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-legendary-0026",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-legendary-0027",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-legendary-0028",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-legendary-0029",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-legendary-0030",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-legendary-0031",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-legendary-0032",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-legendary-0033",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-legendary-0034",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-legendary-0035",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-legendary-0036",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-legendary-0037",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-legendary-0038",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-legendary-0039",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-legendary-0040",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-legendary-0041",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-legendary-0042",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-legendary-0043",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-legendary-0044",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-legendary-0045",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-legendary-0046",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-legendary-0047",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-legendary-0048",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-legendary-0049",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-legendary-0050",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-legendary-0051",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-legendary-0052",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-legendary-0053",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-legendary-0054",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-legendary-0055",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-legendary-0056",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-legendary-0057",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-legendary-0058",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-legendary-0059",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-legendary-0060",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-legendary-0061",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-legendary-0062",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-legendary-0063",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-legendary-0064",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-legendary-0065",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-legendary-0066",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-legendary-0067",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-legendary-0068",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-legendary-0069",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-legendary-0070",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-legendary-0071",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-legendary-0072",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-legendary-0073",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-legendary-0074",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "numbers-legendary-0075",
+      "change": "numeric phrasing"
+    },
+    {
+      "id": "first_last-easy-0003",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-easy-0004",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-easy-0005",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-easy-0006",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-easy-0007",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-easy-0009",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-easy-0012",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-easy-0013",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-easy-0015",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-easy-0016",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-easy-0017",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-easy-0018",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-easy-0019",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-easy-0020",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-easy-0021",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-easy-0022",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-easy-0023",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-easy-0024",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-easy-0025",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-easy-0026",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-easy-0027",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-easy-0028",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-easy-0029",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-easy-0030",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-easy-0031",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-easy-0032",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-easy-0033",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-easy-0034",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-easy-0035",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-easy-0036",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-easy-0037",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-easy-0038",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-easy-0039",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-easy-0040",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-easy-0041",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-easy-0042",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-easy-0043",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-easy-0044",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-easy-0045",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-easy-0046",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-easy-0047",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-easy-0048",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-easy-0049",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-easy-0050",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-easy-0051",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-easy-0052",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-easy-0053",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-easy-0054",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-easy-0055",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-easy-0056",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-easy-0057",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-easy-0058",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-easy-0059",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-easy-0060",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-easy-0061",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-easy-0062",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-easy-0063",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-easy-0064",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-easy-0065",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-easy-0066",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-easy-0067",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-easy-0068",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-easy-0069",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-easy-0070",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-easy-0071",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-easy-0072",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-easy-0073",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-easy-0074",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-easy-0075",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-medium-0001",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-medium-0002",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-medium-0003",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-medium-0004",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-medium-0005",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-medium-0006",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-medium-0007",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-medium-0008",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-medium-0009",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-medium-0010",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-medium-0011",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-medium-0012",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-medium-0013",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-medium-0014",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-medium-0015",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-medium-0016",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-medium-0017",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-medium-0018",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-medium-0019",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-medium-0020",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-medium-0021",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-medium-0022",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-medium-0023",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-medium-0024",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-medium-0025",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-medium-0026",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-medium-0027",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-medium-0028",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-medium-0029",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-medium-0030",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-medium-0031",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-medium-0032",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-medium-0033",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-medium-0034",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-medium-0035",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-medium-0036",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-medium-0037",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-medium-0038",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-medium-0039",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-medium-0040",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-medium-0041",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-medium-0042",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-medium-0043",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-medium-0044",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-medium-0045",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-medium-0046",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-medium-0047",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-medium-0048",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-medium-0049",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-medium-0050",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-medium-0051",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-medium-0052",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-medium-0053",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-medium-0054",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-medium-0055",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-medium-0056",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-medium-0057",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-medium-0058",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-medium-0059",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-medium-0060",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-medium-0061",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-medium-0062",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-medium-0063",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-medium-0064",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-medium-0065",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-medium-0066",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-medium-0067",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-medium-0068",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-medium-0069",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-medium-0070",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-medium-0071",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-medium-0072",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-medium-0073",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-medium-0074",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-medium-0075",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-hard-0001",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-hard-0002",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-hard-0003",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-hard-0004",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-hard-0005",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-hard-0006",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-hard-0007",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-hard-0008",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-hard-0009",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-hard-0010",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-hard-0011",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-hard-0012",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-hard-0013",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-hard-0014",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-hard-0015",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-hard-0016",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-hard-0017",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-hard-0018",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-hard-0019",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-hard-0020",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-hard-0021",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-hard-0022",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-hard-0023",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-hard-0024",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-hard-0025",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-hard-0026",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-hard-0027",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-hard-0028",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-hard-0029",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-hard-0030",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-hard-0031",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-hard-0032",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-hard-0033",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-hard-0034",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-hard-0035",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-hard-0036",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-hard-0037",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-hard-0038",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-hard-0039",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-hard-0040",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-hard-0041",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-hard-0042",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-hard-0043",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-hard-0044",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-hard-0045",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-hard-0046",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-hard-0047",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-hard-0048",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-hard-0049",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-hard-0050",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-hard-0051",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-hard-0052",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-hard-0053",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-hard-0054",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-hard-0055",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-hard-0056",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-hard-0057",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-hard-0058",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-hard-0059",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-hard-0060",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-hard-0061",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-hard-0062",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-hard-0063",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-hard-0064",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-hard-0065",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-hard-0066",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-hard-0067",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-hard-0068",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-hard-0069",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-hard-0070",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-hard-0071",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-hard-0072",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-hard-0073",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-hard-0074",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-hard-0075",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-legendary-0001",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-legendary-0002",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-legendary-0003",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-legendary-0004",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-legendary-0005",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-legendary-0006",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-legendary-0007",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-legendary-0008",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-legendary-0009",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-legendary-0010",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-legendary-0011",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-legendary-0012",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-legendary-0013",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-legendary-0014",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-legendary-0015",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-legendary-0016",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-legendary-0017",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-legendary-0018",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-legendary-0019",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-legendary-0020",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-legendary-0021",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-legendary-0022",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-legendary-0023",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-legendary-0024",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-legendary-0025",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-legendary-0026",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-legendary-0027",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-legendary-0028",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-legendary-0029",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-legendary-0030",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-legendary-0031",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-legendary-0032",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-legendary-0033",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-legendary-0034",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-legendary-0035",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-legendary-0036",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-legendary-0037",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-legendary-0038",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-legendary-0039",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-legendary-0040",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-legendary-0041",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-legendary-0042",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-legendary-0043",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-legendary-0044",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-legendary-0045",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-legendary-0046",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-legendary-0047",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-legendary-0048",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-legendary-0049",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-legendary-0050",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-legendary-0051",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-legendary-0052",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-legendary-0053",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-legendary-0054",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-legendary-0055",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-legendary-0056",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-legendary-0057",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-legendary-0058",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-legendary-0059",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-legendary-0060",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-legendary-0061",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-legendary-0062",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-legendary-0063",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-legendary-0064",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-legendary-0065",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-legendary-0066",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-legendary-0067",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-legendary-0068",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-legendary-0069",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-legendary-0070",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-legendary-0071",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-legendary-0072",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-legendary-0073",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-legendary-0074",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "first_last-legendary-0075",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-easy-0001",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-easy-0002",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-easy-0005",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-easy-0007",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-easy-0008",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-easy-0009",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-easy-0011",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-easy-0012",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-easy-0013",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-easy-0014",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-easy-0016",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-easy-0017",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-easy-0018",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-easy-0020",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-easy-0021",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-easy-0022",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-easy-0023",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-easy-0024",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-easy-0025",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-easy-0026",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-easy-0027",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-easy-0028",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-easy-0029",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-easy-0030",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-easy-0031",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-easy-0032",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-easy-0033",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-easy-0034",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-easy-0035",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-easy-0036",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-easy-0037",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-easy-0038",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-easy-0039",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-easy-0040",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-easy-0041",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-easy-0042",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-easy-0043",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-easy-0044",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-easy-0045",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-easy-0046",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-easy-0047",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-easy-0048",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-easy-0049",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-easy-0050",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-easy-0051",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-easy-0052",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-easy-0053",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-easy-0054",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-easy-0055",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-easy-0056",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-easy-0057",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-easy-0058",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-easy-0059",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-easy-0060",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-easy-0061",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-easy-0062",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-easy-0063",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-easy-0064",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-easy-0065",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-easy-0066",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-easy-0067",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-easy-0068",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-easy-0069",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-easy-0070",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-easy-0071",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-easy-0072",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-easy-0073",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-easy-0074",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-easy-0075",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-medium-0001",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-medium-0002",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-medium-0003",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-medium-0004",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-medium-0005",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-medium-0006",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-medium-0007",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-medium-0008",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-medium-0009",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-medium-0010",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-medium-0011",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-medium-0012",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-medium-0013",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-medium-0014",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-medium-0015",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-medium-0016",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-medium-0017",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-medium-0018",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-medium-0019",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-medium-0020",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-medium-0021",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-medium-0022",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-medium-0023",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-medium-0024",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-medium-0025",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-medium-0026",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-medium-0027",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-medium-0028",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-medium-0029",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-medium-0030",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-medium-0031",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-medium-0032",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-medium-0033",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-medium-0034",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-medium-0035",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-medium-0036",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-medium-0037",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-medium-0038",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-medium-0039",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-medium-0040",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-medium-0041",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-medium-0042",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-medium-0043",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-medium-0044",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-medium-0045",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-medium-0046",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-medium-0047",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-medium-0048",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-medium-0049",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-medium-0050",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-medium-0051",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-medium-0052",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-medium-0053",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-medium-0054",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-medium-0055",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-medium-0056",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-medium-0057",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-medium-0058",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-medium-0059",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-medium-0060",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-medium-0061",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-medium-0062",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-medium-0063",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-medium-0064",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-medium-0065",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-medium-0066",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-medium-0067",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-medium-0068",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-medium-0069",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-medium-0070",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-medium-0071",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-medium-0072",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-medium-0073",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-medium-0074",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-medium-0075",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-hard-0001",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-hard-0002",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-hard-0003",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-hard-0004",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-hard-0005",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-hard-0006",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-hard-0007",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-hard-0008",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-hard-0009",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-hard-0010",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-hard-0011",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-hard-0012",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-hard-0013",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-hard-0014",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-hard-0015",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-hard-0016",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-hard-0017",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-hard-0018",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-hard-0019",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-hard-0020",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-hard-0021",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-hard-0022",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-hard-0023",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-hard-0024",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-hard-0025",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-hard-0026",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-hard-0027",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-hard-0028",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-hard-0029",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-hard-0030",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-hard-0031",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-hard-0032",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-hard-0033",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-hard-0034",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-hard-0035",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-hard-0036",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-hard-0037",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-hard-0038",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-hard-0039",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-hard-0040",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-hard-0041",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-hard-0042",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-hard-0043",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-hard-0044",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-hard-0045",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-hard-0046",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-hard-0047",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-hard-0048",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-hard-0049",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-hard-0050",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-hard-0051",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-hard-0052",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-hard-0053",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-hard-0054",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-hard-0055",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-hard-0056",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-hard-0057",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-hard-0058",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-hard-0059",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-hard-0060",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-hard-0061",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-hard-0062",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-hard-0063",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-hard-0064",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-hard-0065",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-hard-0066",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-hard-0067",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-hard-0068",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-hard-0069",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-hard-0070",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-hard-0071",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-hard-0072",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-hard-0073",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-hard-0074",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-hard-0075",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-legendary-0001",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-legendary-0002",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-legendary-0003",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-legendary-0004",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-legendary-0005",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-legendary-0006",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-legendary-0007",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-legendary-0008",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-legendary-0009",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-legendary-0010",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-legendary-0011",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-legendary-0012",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-legendary-0013",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-legendary-0014",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-legendary-0015",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-legendary-0016",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-legendary-0017",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-legendary-0018",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-legendary-0019",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-legendary-0020",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-legendary-0021",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-legendary-0022",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-legendary-0023",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-legendary-0024",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-legendary-0025",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-legendary-0026",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-legendary-0027",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-legendary-0028",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-legendary-0029",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-legendary-0030",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-legendary-0031",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-legendary-0032",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-legendary-0033",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-legendary-0034",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-legendary-0035",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-legendary-0036",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-legendary-0037",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-legendary-0038",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-legendary-0039",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-legendary-0040",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-legendary-0041",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-legendary-0042",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-legendary-0043",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-legendary-0044",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-legendary-0045",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-legendary-0046",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-legendary-0047",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-legendary-0048",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-legendary-0049",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-legendary-0050",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-legendary-0051",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-legendary-0052",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-legendary-0053",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-legendary-0054",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-legendary-0055",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-legendary-0056",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-legendary-0057",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-legendary-0058",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-legendary-0059",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-legendary-0060",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-legendary-0061",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-legendary-0062",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-legendary-0063",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-legendary-0064",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-legendary-0065",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-legendary-0066",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-legendary-0067",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-legendary-0068",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-legendary-0069",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-legendary-0070",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-legendary-0071",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-legendary-0072",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-legendary-0073",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-legendary-0074",
+      "change": "shorter ordering rule"
+    },
+    {
+      "id": "complete_sequence-legendary-0075",
+      "change": "shorter ordering rule"
+    }
+  ],
+  "nameMap": {
+    "Albert Szent-Györgyi": "ألبرت سنت جيورجي",
+    "Albrecht Kossel": "ألبرشت كوسل",
+    "Alphonse Laveran": "ألفونس لافيران",
+    "Allvar Gullstrand": "ألفار غولستراند",
+    "Alexis Carrel": "ألكسيس كاريل",
+    "Charles Richet": "شارل ريشيه",
+    "Arthur Henderson": "آرثر هندرسون",
+    "August Krogh": "أوغست كروغ",
+    "Willem Einthoven": "فيلم أينتهوفن",
+    "Karl Landsteiner": "كارل لاندشتاينر",
+    "Thomas H. Morgan": "توماس هانت مورغان",
+    "Camilo José Cela": "كاميلو خوسيه ثيلا",
+    "Carl Spitteler": "كارل شبيتلر",
+    "Carlos Saavedra Lamas": "كارلوس سافيدرا لاماس",
+    "Claude Simon": "كلود سيمون",
+    "Daniel Bovet": "دانيال بوفيه",
+    "Franco Modigliani": "فرانكو موديلياني",
+    "Frans Eemil Sillanpää": "فرانس إيميل سيلانبا",
+    "Frederick Soddy": "فريدريك سودي",
+    "George de Hevesy": "جورج دي هيفيشي",
+    "Giosuè Carducci": "جوزويه كاردوتشي",
+    "Günter Blobel": "غونتر بلوبل",
+    "Herbert Simon": "هربرت سايمون",
+    "Isidor Isaac Rabi": "إيزيدور إسحاق رابي",
+    "Ivan Bunin": "إيفان بونين",
+    "Pearl Buck": "بيرل باك",
+    "Johannes V. Jensen": "يوهانس فيلهلم ينسن",
+    "Johannes Fibiger": "يوهانس فيبيغر",
+    "Lawrence R. Klein": "لورنس كلاين",
+    "Maurice Maeterlinck": "موريس ميترلينك",
+    "Patrick Modiano": "باتريك موديانو",
+    "Paul Müller": "باول مولر",
+    "Permanent International Peace Bureau": "المكتب الدولي الدائم للسلام",
+    "René Cassin": "رينيه كاسان",
+    "Richard H. Thaler": "ريتشارد ثالر",
+    "Roger Martin du Gard": "روجيه مارتان دو غار",
+    "Stanley B. Prusiner": "ستانلي بروسينر",
+    "The Svedberg": "تيودور سفيدبرغ",
+    "Vincent du Vigneaud": "فنسنت دو فينيو",
+    "Walther Nernst": "فالتر نرنست",
+    "Wilhelm Wien": "فيلهلم فين",
+    "Wole Soyinka": "وولي سوينكا",
+    "Yasunari Kawabata": "ياسوناري كاواباتا",
+    "Yoshinori Ohsumi": "يوشينوري أوسومي",
+    "Gustaf Dalén": "غوستاف دالين",
+    "Heike Kamerlingh Onnes": "هايكه كامرلينغ أونيس",
+    "Max von Laue": "ماكس فون لاوه",
+    "William Bragg": "وليام براغ",
+    "Lawrence Bragg": "لورنس براغ",
+    "Charles Glover Barkla": "تشارلز غلوفر باركلا",
+    "Friedrich von Hayek": "فريدريش فون هايك",
+    "Gunnar Myrdal": "غونار ميردال",
+    "Wassily Leontief": "فاسيلي ليونتيف",
+    "Robert M. Solow": "روبرت سولو",
+    "James Tobin": "جيمس توبن",
+    "Theodore W. Schultz": "ثيودور شولتز",
+    "Sir Arthur Lewis": "آرثر لويس",
+    "Anatole France": "أناتول فرانس",
+    "André Gide": "أندريه جيد",
+    "Boris Pasternak": "بوريس باسترناك",
+    "Bertrand Russell": "برتراند راسل",
+    "John Galsworthy": "جون غالزورثي",
+    "Luigi Pirandello": "لويجي بيرانديللو",
+    "Eugene O'Neill": "يوجين أونيل",
+    "Frédéric Mistral": "فريدريك ميسترال",
+    "José Echegaray": "خوسيه إتشيغاراي",
+    "Paul Heyse": "باول هايزه",
+    "Romain Rolland": "رومان رولان",
+    "Grazia Deledda": "غراتسيا ديليدا",
+    "Knut Hamsun": "كنوت هامسون",
+    "William Butler Yeats": "وليام بتلر ييتس",
+    "Henri Bergson": "هنري برغسون",
+    "Gerhart Hauptmann": "غيرهارت هاوبتمان",
+    "Henryk Sienkiewicz": "هنريك سينكيفيتش",
+    "Bjornstjerne Bjornson": "بيورنستيارنه بيورنسون",
+    "Bjørnstjerne Bjørnson": "بيورنستيارنه بيورنسون",
+    "Jacinto Benavente": "خاثينتو بينافينتي",
+    "Verner von Heidenstam": "فيرنر فون هايدنستام",
+    "Karl Gjellerup": "كارل غيلروب",
+    "Henrik Pontoppidan": "هنريك بونتوبيدان",
+    "Sir William Ramsay": "وليام رامزي",
+    "Albert A. Michelson": "ألبرت ميكلسون",
+    "Sir Chandrasekhara Venkata Raman": "تشاندراسيخارا فنكاتا رامان",
+    "Hendrik A. Lorentz": "هندريك لورنتس",
+    "Pieter Zeeman": "بيتر زيمان",
+    "Johannes Diderik van der Waals": "يوهانس ديديريك فان دير فالس",
+    "Lord Rayleigh": "اللورد رايلي",
+    "Philipp Lenard": "فيليب لينارد",
+    "Gabriel Lippmann": "غابرييل ليبمان",
+    "Charles Edouard Guillaume": "شارل إدوار غيوم",
+    "Johannes Stark": "يوهانس شتارك",
+    "Paul A.M. Dirac": "بول ديراك",
+    "Otto Stern": "أوتو شتيرن",
+    "Wolfgang Pauli": "فولفغانغ باولي",
+    "Max Born": "ماكس بورن",
+    "Emil von Behring": "إميل فون بهرنغ",
+    "Ronald Ross": "رونالد روس",
+    "Niels Ryberg Finsen": "نيلز ريبرغ فينسن",
+    "Theodor Kocher": "تيودور كوخر",
+    "Otto Warburg": "أوتو فاربورغ",
+    "Earl W. Sutherland, Jr.": "إيرل سذرلاند الابن",
+    "Artturi Virtanen": "أرتوري فيرتانن",
+    "Adolf Windaus": "أدولف فينداوس",
+    "Adolf Butenandt": "أدولف بوتناندت",
+    "Wilhelm Ostwald": "فيلهلم أوستفالد",
+    "Otto Wallach": "أوتو فالاخ",
+    "Henri Moissan": "هنري مواسان",
+    "Eduard Buchner": "إدوارد بوخنر",
+    "Alfred Werner": "ألفرد فيرنر",
+    "Theodore W. Richards": "ثيودور ريتشاردز",
+    "Richard Willstätter": "ريتشارد فيلشتاتر",
+    "Fritz Pregl": "فريتز بريغل",
+    "Francis W. Aston": "فرانسيس أستون",
+    "Victor Grignard": "فيكتور غرينيارد",
+    "Paul Sabatier": "باول ساباتييه",
+    "Doctors Without Borders": "أطباء بلا حدود",
+    "International Labour Organization": "منظمة العمل الدولية",
+    "United Nations Children's Fund": "منظمة الأمم المتحدة للطفولة (اليونيسف)",
+    "International Atomic Energy Agency": "الوكالة الدولية للطاقة الذرية",
+    "United Nations Peacekeeping Forces": "قوات حفظ السلام التابعة للأمم المتحدة",
+    "Amnesty International": "منظمة العفو الدولية",
+    "Grameen Bank": "بنك غرامين",
+    "National Dialogue Quartet": "الرباعي الراعي للحوار الوطني التونسي",
+    "Office of the United Nations High Commissioner for Refugees": "مفوضية الأمم المتحدة السامية لشؤون اللاجئين",
+    "The 14th Dalai Lama": "الدالاي لاما الرابع عشر",
+    "Mohamed ElBaradei": "محمد البرادعي",
+    "Tawakkol Karman": "توكل كرمان",
+    "Mikhail Gorbachev": "ميخائيل غورباتشوف",
+    "Fridtjof Nansen": "فريتيوف نانسن",
+    "Dag Hammarskjöld": "داغ همرشولد",
+    "Willy Brandt": "فيلي برانت",
+    "Lech Wałęsa": "ليخ فاونسا",
+    "Shirin Ebadi": "شيرين عبادي",
+    "Elie Wiesel": "إيلي فيزل",
+    "Aung San Suu Kyi": "أونغ سان سو تشي",
+    "Oscar Arias Sánchez": "أوسكار آرياس سانشيز",
+    "Martti Ahtisaari": "مارتي أهتيساري",
+    "Herta Müller": "هيرتا مولر",
+    "Günter Grass": "غونتر غراس",
+    "Heinrich Böll": "هاينريش بول",
+    "Saul Bellow": "سول بيلو",
+    "Isaac Bashevis Singer": "إسحاق باشفيس سنغر",
+    "Octavio Paz": "أوكتافيو باث",
+    "José Saramago": "جوزيه ساراماغو",
+    "Mario Vargas Llosa": "ماريو فارغاس يوسا",
+    "Alice Munro": "أليس مونرو",
+    "Nadine Gordimer": "نادين غورديمر",
+    "Dario Fo": "داريو فو",
+    "Harold Pinter": "هارولد بنتر",
+    "Olga Tokarczuk": "أولغا توكارتشوك",
+    "Gao Xingjian": "غاو شينغجيان",
+    "Mo Yan": "مو يان",
+    "Jon Fosse": "يون فوسه",
+    "Svetlana Alexievich": "سفيتلانا أليكسييفيتش",
+    "Elias Canetti": "إلياس كانيتي",
+    "Gabriela Mistral": "غابرييلا ميسترال",
+    "William Golding": "وليام غولدنغ",
+    "Imre Kertész": "إيمري كيرتيس",
+    "Czesław Miłosz": "تشيسواف ميووش",
+    "Jaroslav Seifert": "ياروسلاف سايفرت",
+    "Wilhelm Conrad Röntgen": "فيلهلم كونراد رونتغن",
+    "Albert Einstein": "ألبرت أينشتاين",
+    "Niels Bohr": "نيلز بور",
+    "Max Planck": "ماكس بلانك",
+    "Marie Curie": "ماري كوري",
+    "Pierre Curie": "بيير كوري",
+    "Henri Becquerel": "هنري بيكريل",
+    "J.J. Thomson": "جوزيف جون طومسون",
+    "Ernest Rutherford": "إرنست رذرفورد",
+    "James Chadwick": "جيمس تشادويك",
+    "Paul Dirac": "بول ديراك",
+    "Erwin Schrödinger": "إرفين شرودنغر",
+    "Werner Heisenberg": "فيرنر هايزنبرغ",
+    "Enrico Fermi": "إنريكو فيرمي",
+    "Richard P. Feynman": "ريتشارد فاينمان",
+    "Abdus Salam": "عبد السلام",
+    "Ahmed Zewail": "أحمد زويل",
+    "Naguib Mahfouz": "نجيب محفوظ",
+    "Jean-Paul Sartre": "جان بول سارتر",
+    "Albert Camus": "ألبير كامو",
+    "Ernest Hemingway": "إرنست همنغواي",
+    "William Faulkner": "ويليام فوكنر",
+    "John Steinbeck": "جون شتاينبك",
+    "Rudyard Kipling": "روديارد كيبلينغ",
+    "Rabindranath Tagore": "رابندرانات طاغور",
+    "George Bernard Shaw": "جورج برنارد شو",
+    "Winston Churchill": "ونستون تشرشل",
+    "Gabriel García Márquez": "غابرييل غارسيا ماركيز",
+    "Toni Morrison": "توني موريسون",
+    "Kazuo Ishiguro": "كازو إيشيغورو",
+    "Bob Dylan": "بوب ديلان",
+    "Abdulrazak Gurnah": "عبد الرزاق قرنح",
+    "Orhan Pamuk": "أورهان باموق",
+    "Pablo Neruda": "بابلو نيرودا",
+    "Samuel Beckett": "صمويل بيكيت",
+    "Hermann Hesse": "هرمان هسه",
+    "Thomas Mann": "توماس مان",
+    "T.S. Eliot": "توماس ستيرنز إليوت",
+    "Selma Lagerlöf": "سلمى لاغرلوف",
+    "Sully Prudhomme": "سولي برودوم",
+    "Theodor Mommsen": "تيودور مومزن",
+    "Ivan Pavlov": "إيفان بافلوف",
+    "Robert Koch": "روبرت كوخ",
+    "Alexander Fleming": "ألكسندر فليمنغ",
+    "Francis Crick": "فرانسيس كريك",
+    "James Watson": "جيمس واتسون",
+    "Howard Florey": "هوارد فلوري",
+    "Ernst Boris Chain": "إرنست بوريس تشين",
+    "Tu Youyou": "تو يويو",
+    "Robert G. Edwards": "روبرت إدواردز",
+    "Henry Dunant": "هنري دونان",
+    "Theodore Roosevelt": "ثيودور روزفلت",
+    "Woodrow Wilson": "وودرو ويلسون",
+    "Martin Luther King Jr.": "مارتن لوثر كينغ الابن",
+    "Nelson Mandela": "نيلسون مانديلا",
+    "F.W. de Klerk": "فريدريك دي كليرك",
+    "Mother Teresa": "الأم تيريزا",
+    "Malala Yousafzai": "ملالا يوسفزاي",
+    "Kailash Satyarthi": "كايلش ساتيارثي",
+    "Barack Obama": "باراك أوباما",
+    "Jimmy Carter": "جيمي كارتر",
+    "Muhammad Yunus": "محمد يونس",
+    "Anwar al-Sadat": "أنور السادات",
+    "Menachem Begin": "مناحم بيغن",
+    "Yasser Arafat": "ياسر عرفات",
+    "Shimon Peres": "شمعون بيريز",
+    "Yitzhak Rabin": "إسحاق رابين",
+    "Kofi Annan": "كوفي عنان",
+    "United Nations": "الأمم المتحدة",
+    "International Committee of the Red Cross": "اللجنة الدولية للصليب الأحمر",
+    "Médecins Sans Frontières": "أطباء بلا حدود",
+    "World Food Programme": "برنامج الأغذية العالمي",
+    "Linus Pauling": "لينوس باولنغ",
+    "Dorothy Crowfoot Hodgkin": "دوروثي كروفوت هودجكن",
+    "Frederick Sanger": "فريدريك سانغر",
+    "Jacobus H. van 't Hoff": "ياكوبوس فان هوف",
+    "Emil Fischer": "إميل فيشر",
+    "Svante Arrhenius": "سفانت أرينيوس",
+    "Fritz Haber": "فريتز هابر",
+    "Robert B. Woodward": "روبرت وودوارد",
+    "Jennifer A. Doudna": "جنيفر دودنا",
+    "Emmanuelle Charpentier": "إيمانويل شاربنتييه",
+    "Milton Friedman": "ميلتون فريدمان",
+    "Paul A. Samuelson": "بول سامويلسون",
+    "Amartya Sen": "أمارتيا سن",
+    "John F. Nash Jr.": "جون ناش",
+    "Daniel Kahneman": "دانيال كانيمان",
+    "Elinor Ostrom": "إلينور أوستروم",
+    "Friedrich August von Hayek": "فريدريش هايك",
+    "Joseph E. Stiglitz": "جوزيف ستيغليتز"
+  },
+  "culturalReplacements": 24,
+  "count": 1200
+}

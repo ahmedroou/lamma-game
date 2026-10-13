@@ -148,14 +148,19 @@ class _CategoryCardState extends State<CategoryCard> {
                               opacity: enabled ? 1 : .35,
                               child: ClipRRect(
                                 borderRadius: BorderRadius.circular(18),
-                                child: Image.asset(
-                                  category.imageAsset,
-                                  width: size,
-                                  height: size,
-                                  cacheWidth: 300,
-                                  fit: BoxFit.cover,
-                                  excludeFromSemantics: true,
-                                ),
+                                child: category.usesVectorArt
+                                    ? _CategoryEmblem(
+                                        category: category,
+                                        size: size,
+                                      )
+                                    : Image.asset(
+                                        category.imageAsset,
+                                        width: size,
+                                        height: size,
+                                        cacheWidth: 300,
+                                        fit: BoxFit.cover,
+                                        excludeFromSemantics: true,
+                                      ),
                               ),
                             ),
                           ),
@@ -242,6 +247,77 @@ class _CategoryCardState extends State<CategoryCard> {
       ),
     );
   }
+}
+
+class _CategoryEmblem extends StatelessWidget {
+  const _CategoryEmblem({required this.category, required this.size});
+  final GameCategory category;
+  final double size;
+  @override
+  Widget build(BuildContext context) => ExcludeSemantics(
+    child: SizedBox(
+      width: size,
+      height: size,
+      child: DecoratedBox(
+        decoration: BoxDecoration(
+          borderRadius: BorderRadius.circular(18),
+          gradient: RadialGradient(
+            center: const Alignment(-.4, -.5),
+            radius: 1.2,
+            colors: [category.color.withValues(alpha: .32), AppColors.surface],
+          ),
+          border: Border.all(color: category.color.withValues(alpha: .35)),
+        ),
+        child: Stack(
+          alignment: Alignment.center,
+          children: [
+            PositionedDirectional(
+              top: size * .12,
+              end: size * .12,
+              child: Icon(
+                Icons.auto_awesome_rounded,
+                color: category.color.withValues(alpha: .7),
+                size: size * .13,
+              ),
+            ),
+            Transform.rotate(
+              angle: -.15,
+              child: Container(
+                width: size * .62,
+                height: size * .62,
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(16),
+                  color: category.color.withValues(alpha: .12),
+                  border: Border.all(
+                    color: category.color.withValues(alpha: .35),
+                  ),
+                ),
+              ),
+            ),
+            Icon(category.icon, size: size * .48, color: category.color),
+            Positioned(
+              bottom: size * .1,
+              child: Row(
+                mainAxisSize: MainAxisSize.min,
+                children: [
+                  for (var i = 0; i < 3; i++)
+                    Container(
+                      width: size * .035,
+                      height: size * .035,
+                      margin: const EdgeInsets.symmetric(horizontal: 3),
+                      decoration: BoxDecoration(
+                        shape: BoxShape.circle,
+                        color: category.color.withValues(alpha: .4 + i * .2),
+                      ),
+                    ),
+                ],
+              ),
+            ),
+          ],
+        ),
+      ),
+    ),
+  );
 }
 
 @Preview(name: 'اختيار الأقسام · جوال', group: 'الأقسام', size: Size(390, 844))

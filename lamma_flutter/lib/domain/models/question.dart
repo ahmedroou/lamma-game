@@ -1,3 +1,5 @@
+import 'question_presentation.dart';
+
 enum QuestionDifficulty {
   easy('سهل', 100),
   medium('متوسط', 200),
@@ -41,6 +43,7 @@ final class Question {
     required this.text,
     required this.answer,
     required this.difficulty,
+    this.usageId,
     this.hint = '',
     this.clues = const [],
     this.acceptedAnswers = const [],
@@ -52,8 +55,13 @@ final class Question {
     this.correctOptionId,
     this.qualityStatus = QuestionQualityStatus.unreviewed,
     this.qualityReasons = const [],
+    this.presentation,
+    this.subtype,
   });
   final String id, categoryId, text, answer;
+
+  /// A stable random decimal identifier. Never regenerate it for an edit.
+  final String? usageId;
   final String hint, explanation;
   final List<String> clues, acceptedAnswers, sources;
   final String? imageAsset, imageDescription;
@@ -62,6 +70,8 @@ final class Question {
   final QuestionDifficulty difficulty;
   final QuestionQualityStatus qualityStatus;
   final List<String> qualityReasons;
+  final QuestionPresentation? presentation;
+  final String? subtype;
   // Explicit patterns from the editorial audit, not a general guess that
   // numbered or advanced questions are invalid. Also identifies old snapshots.
   static final _placeholderAnswer = RegExp(
@@ -108,6 +118,7 @@ final class Question {
         text: text,
         answer: answer,
         difficulty: QuestionDifficulty.parse(difficulty),
+        usageId: _usageId(json['usageId']),
         hint: json['hint'] as String? ?? '',
         clues: _strings(json['clues']),
         acceptedAnswers: _strings(json['acceptedAnswers']),
@@ -123,6 +134,12 @@ final class Question {
         correctOptionId: json['correctOptionId'] as String?,
         qualityStatus: _qualityStatus(json['qualityStatus']),
         qualityReasons: _strings(json['qualityReasons']),
+        presentation: json['presentation'] == null
+            ? null
+            : QuestionPresentation.fromJson(
+                Map<String, dynamic>.from(json['presentation'] as Map),
+              ),
+        subtype: json['subtype'] as String?,
       ),
     _ => throw const FormatException(
       'Question requires id, categoryId, text, answer and difficulty.',
@@ -131,6 +148,7 @@ final class Question {
 
   Map<String, dynamic> toJson() => {
     'id': id,
+    if (usageId != null) 'usageId': usageId,
     'categoryId': categoryId,
     'text': text,
     'answer': answer,
@@ -147,6 +165,8 @@ final class Question {
     if (qualityStatus != QuestionQualityStatus.unreviewed)
       'qualityStatus': qualityStatus.name,
     if (qualityReasons.isNotEmpty) 'qualityReasons': qualityReasons,
+    if (presentation != null) 'presentation': presentation!.toJson(),
+    if (subtype != null) 'subtype': subtype,
   };
 
   static QuestionQualityStatus _qualityStatus(Object? raw) => switch (raw) {
@@ -155,6 +175,19 @@ final class Question {
     'quarantined' => QuestionQualityStatus.quarantined,
     _ => throw FormatException('Unknown question quality status: $raw'),
   };
+  static String? _usageId(Object? raw) {
+    if (raw == null) {
+      return null; // Read legacy snapshots and isolated fixtures.
+    }
+    if (raw is! String ||
+        !RegExp(r'^[1-9][0-9]{0,38}$').hasMatch(raw) ||
+        BigInt.parse(raw) >= (BigInt.one << 128)) {
+      throw const FormatException(
+        'Question usageId must be a positive decimal string.',
+      );
+    }
+    return raw;
+  }
 
   static List<String> _strings(Object? value) => value == null
       ? const []

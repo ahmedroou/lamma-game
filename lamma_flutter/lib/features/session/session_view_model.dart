@@ -1,16 +1,21 @@
 import 'dart:async';
+import 'dart:convert';
 import 'dart:math';
 import 'package:flutter/foundation.dart';
 import '../../data/repositories/question_repository.dart';
 import '../../domain/abilities/ability_system.dart';
 import '../../domain/abilities/risk_engine.dart';
 import '../../domain/models/question.dart';
+import '../../domain/models/question_presentation.dart';
 import '../../domain/models/question_usage.dart';
 import '../../domain/models/session_config.dart';
 import '../../domain/models/session_save.dart';
 import '../../domain/models/session_state.dart';
 import '../../domain/models/team.dart';
 import '../../domain/models/hint_access.dart';
+import '../../domain/abilities/surprise_scoring.dart';
+import '../../domain/abilities/surprise_catalog.dart';
+import '../../domain/abilities/surprise_session_effects.dart';
 export '../../domain/models/session_state.dart';
 
 abstract interface class RiskRoundResolver {
@@ -36,10 +41,17 @@ class SessionViewModel extends ChangeNotifier {
     this.commitReveal,
     Random? random,
     this.surpriseResolver,
+    this.openingCardsEnabled = false,
+    Iterable<String> replayQuestionIds = const [],
+    Iterable<String> blockedQuestionIds = const [],
   }) : _questions = questions,
        abilities = abilities ?? AbilityRegistry(),
        _now = now ?? DateTime.now {
     _usage = usage ?? QuestionUsage();
+    _blockedQuestionIds = Set.unmodifiable(blockedQuestionIds);
+    _replayQuestionIds = Set.unmodifiable(
+      restored?.replayQuestionIds ?? replayQuestionIds,
+    );
     _random = random ?? Random();
     id =
         restored?.id ?? 'session-${_now().microsecondsSinceEpoch}-${_nextId++}';
@@ -64,7 +76,10 @@ class SessionViewModel extends ChangeNotifier {
     if (restored != null &&
         state.question != null &&
         state.revealedCards < 3 &&
-        _usage.contains(state.question!)) {
+        (_blockedQuestionIds.contains(state.question!.id) ||
+            _usage.claimedInSession(id, state.question!) ||
+            _usage.contains(state.question!) &&
+                !_replayQuestionIds.contains(state.question!.id))) {
       // A backup may precede an already committed reveal. Never draw it again.
       _state = state.copyWith(
         phase: SessionPhase.categories,
@@ -83,6 +98,11 @@ class SessionViewModel extends ChangeNotifier {
         'Each selected category needs at least one question.',
       );
     }
+    if (restored != null &&
+        state.revealedCards >= 1 &&
+        state.phase == SessionPhase.cards) {
+      _applyOpeningSurprise();
+    }
     snapshot();
   }
   factory SessionViewModel.restore(
@@ -92,6 +112,8 @@ class SessionViewModel extends ChangeNotifier {
     QuestionUsage? usage,
     Future<void> Function(SessionSave, Question)? commitReveal,
     SurpriseCard? Function(Question, TeamState, int)? surpriseResolver,
+    bool openingCardsEnabled = false,
+    Iterable<String> blockedQuestionIds = const [],
   }) => SessionViewModel(
     config: save.config,
     questions: LocalQuestionRepository(questions: save.questions),
@@ -101,20 +123,25 @@ class SessionViewModel extends ChangeNotifier {
     usage: usage,
     commitReveal: commitReveal,
     surpriseResolver: surpriseResolver,
+    openingCardsEnabled: openingCardsEnabled,
+    blockedQuestionIds: blockedQuestionIds,
   );
   static int _nextId = 0;
-  late final String id;
-  late final DateTime createdAt;
+  late String id;
+  late DateTime createdAt;
   late DateTime _updatedAt;
   late int _revision;
   final DateTime Function() _now;
   final SessionConfig config;
   final QuestionRepository _questions;
   late List<Question> _pool;
+  late Set<String> _replayQuestionIds;
+  late final Set<String> _blockedQuestionIds;
   late final QuestionUsage _usage;
   late final Random _random;
   final Future<void> Function(SessionSave, Question)? commitReveal;
   final SurpriseCard? Function(Question, TeamState, int)? surpriseResolver;
+  final bool openingCardsEnabled;
   bool revealing = false;
   String? revealError;
   List<Question> _sectionQuestions(String id) {
@@ -138,7 +165,11 @@ class SessionViewModel extends ChangeNotifier {
   }
 
   bool _available(Question q) =>
-      !_usage.contains(q) && !state.seenQuestionIds.contains(q.id);
+      !_blockedQuestionIds.contains(q.id) &&
+      !q.isQuarantined &&
+      (!_usage.contains(q) || _replayQuestionIds.contains(q.id)) &&
+      !state.seenQuestionIds.contains(q.id) &&
+      !_usage.claimedInSession(id, q);
   final AbilityRegistry abilities;
   final RiskRoundResolver? riskResolver;
   late SessionState _state;
@@ -160,22 +191,31 @@ class SessionViewModel extends ChangeNotifier {
     createdAt: createdAt,
     updatedAt: _updatedAt,
     revision: _revision,
+    replayQuestionIds: _replayQuestionIds,
   );
 
   bool selectCategory(String id) {
     if (state.phase != SessionPhase.categories || state.isPaused) return false;
     final abilityRound = id == GameRules.abilitiesCategoryId;
     if (abilityRound && !abilitiesEnabled ||
+        forcedCategoryId != null && id != forcedCategoryId ||
         !abilityRound && !config.categoryIds.contains(id)) {
       return false;
     }
     final candidates = _sectionQuestions(id).where(_available).toList();
     if (candidates.isEmpty) return false;
-    final surprise = surpriseResolver?.call(
-      candidates.first,
-      state.activeTeam,
-      state.turn,
-    );
+    final surprise = abilityRound
+        ? null
+        : surpriseResolver != null
+        ? surpriseResolver!.call(candidates.first, state.activeTeam, state.turn)
+        : openingCardsEnabled
+        ? SurpriseCatalog.draw(
+            candidates.first,
+            SurpriseCatalog.equalWeights,
+            _random,
+            isAllowed: (card) => _openingCardAllowed(card, candidates.first),
+          )
+        : null;
     _set(
       state.copyWith(
         phase: SessionPhase.cards,
@@ -190,6 +230,16 @@ class SessionViewModel extends ChangeNotifier {
   }
 
   bool revealCard(int index) {
+    if (index > 0 &&
+        requiresAnswerer &&
+        state.roundData['designatedPlayer'] == null) {
+      return false;
+    }
+    if (index > 0 &&
+        state.surpriseCard?.effect == SurpriseEffect.plank &&
+        state.roundData['plankDecision'] == 'pending') {
+      return false;
+    }
     if (revealing ||
         state.isPaused ||
         state.phase != SessionPhase.cards ||
@@ -203,8 +253,15 @@ class SessionViewModel extends ChangeNotifier {
       return true;
     }
     if (index == 2) {
-      if (_usage.contains(state.question!)) return false;
+      if (_usage.claimedInSession(id, state.question!) ||
+          _usage.contains(state.question!) &&
+              !_replayQuestionIds.contains(state.question!.id)) {
+        return false;
+      }
       _usage.mark(state.question!);
+      if (_replayQuestionIds.contains(state.question!.id)) {
+        _usage.claim(id, state.question!);
+      }
     }
     _set(
       state.copyWith(
@@ -227,12 +284,19 @@ class SessionViewModel extends ChangeNotifier {
             : state.seenQuestionIds,
       ),
     );
-    if (index == 2) _startTimer();
+    if (index == 0) _applyOpeningSurprise();
+    if (index == 2) {
+      _set(_preparePlankQuestion(state));
+      _startTimer();
+    }
     return true;
   }
 
   /// The text stays hidden until both the use flag and checkpoint commit.
   Future<bool> revealQuestion() async {
+    if (requiresAnswerer && state.roundData['designatedPlayer'] == null) {
+      return false;
+    }
     if (revealing ||
         state.isPaused ||
         state.phase != SessionPhase.cards ||
@@ -241,9 +305,11 @@ class SessionViewModel extends ChangeNotifier {
     }
     if (commitReveal == null) return revealCard(2);
     final question = state.question!;
-    final proposed = state.copyWith(
-      revealedCards: 3,
-      seenQuestionIds: {...state.seenQuestionIds, question.id},
+    final proposed = _preparePlankQuestion(
+      state.copyWith(
+        revealedCards: 3,
+        seenQuestionIds: {...state.seenQuestionIds, question.id},
+      ),
     );
     final checkpoint = SessionSave(
       id: id,
@@ -253,6 +319,7 @@ class SessionViewModel extends ChangeNotifier {
       createdAt: createdAt,
       updatedAt: _now(),
       revision: _revision + 1,
+      replayQuestionIds: _replayQuestionIds,
     );
     revealing = true;
     revealError = null;
@@ -260,6 +327,7 @@ class SessionViewModel extends ChangeNotifier {
     try {
       await commitReveal!(checkpoint, question);
       _usage.mark(question);
+      if (_replayQuestionIds.contains(question.id)) _usage.claim(id, question);
       if (_disposed) return false;
       _set(proposed.copyWith(pauseReason: state.pauseReason));
       _startTimer();
@@ -280,9 +348,15 @@ class SessionViewModel extends ChangeNotifier {
       !revealing &&
       state.phase == SessionPhase.cards &&
       state.revealedCards == 3 &&
+      (state.surpriseCard?.effect != SurpriseEffect.silence ||
+          state.secondsRemaining == 0 ||
+          (state.roundData['firstAnswers'] as Map? ?? const {}).containsKey(
+            state.answeringTeam.id,
+          )) &&
       (!state.isOpponentWindow || state.secondsRemaining == 0);
 
   bool startOpponentOpportunity() {
+    if (state.surpriseCard?.effect == SurpriseEffect.noOpponent) return false;
     if (state.isPaused ||
         revealing ||
         state.phase != SessionPhase.cards ||
@@ -320,6 +394,29 @@ class SessionViewModel extends ChangeNotifier {
   void _startTimer() {
     _timer?.cancel();
     if (!_foreground || state.isPaused) return;
+    if (state.surpriseCard?.effect == SurpriseEffect.silence &&
+        (state.roundData['firstAnswers'] as Map? ?? const {}).containsKey(
+          state.answeringTeam.id,
+        )) {
+      return;
+    }
+    if (state.plankRunning) {
+      _timer = Timer.periodic(const Duration(seconds: 1), (timer) {
+        if (_disposed || state.isPaused || !state.plankRunning) {
+          timer.cancel();
+          return;
+        }
+        _set(
+          state.copyWith(
+            roundData: {
+              ...state.roundData,
+              'plankElapsedSeconds': state.plankSeconds + 1,
+            },
+          ),
+        );
+      });
+      return;
+    }
     if (state.secondsRemaining <= 0) {
       if (!state.isOpponentWindow &&
           state.phase == SessionPhase.cards &&
@@ -338,10 +435,20 @@ class SessionViewModel extends ChangeNotifier {
       }
       if (state.secondsRemaining == 1 && !state.isOpponentWindow) {
         timer.cancel();
+        _set(state.copyWith(secondsRemaining: 0));
         startOpponentOpportunity();
         return;
       }
-      _set(state.copyWith(secondsRemaining: state.secondsRemaining - 1));
+      _set(
+        state.copyWith(
+          secondsRemaining: state.secondsRemaining - 1,
+          roundData: {
+            ...state.roundData,
+            'questionElapsedSeconds':
+                (state.roundData['questionElapsedSeconds'] as int? ?? 0) + 1,
+          },
+        ),
+      );
       if (state.secondsRemaining == 0) {
         timer.cancel();
         if (!state.isOpponentWindow) startOpponentOpportunity();
@@ -382,7 +489,15 @@ class SessionViewModel extends ChangeNotifier {
       return false;
     }
     _timer?.cancel();
-    _set(state.copyWith(phase: SessionPhase.answer));
+    _set(
+      state.copyWith(
+        phase: SessionPhase.answer,
+        roundData: {
+          ...state.roundData,
+          if (state.plankRunning) 'plankRunning': false,
+        },
+      ),
+    );
     return true;
   }
 
@@ -426,7 +541,628 @@ class SessionViewModel extends ChangeNotifier {
     return true;
   }
 
+  void _applyOpeningSurprise() {
+    final card = state.surpriseCard;
+    if (card == null ||
+        state.roundData['surpriseApplied'] == true ||
+        state.isAbilityRound) {
+      return;
+    }
+    final data = <String, Object?>{
+      ...state.roundData,
+      'surpriseApplied': true,
+      'roundStartingScores': {
+        for (final team in state.teams) team.id: team.score,
+      },
+    };
+    var seconds = state.secondsRemaining;
+    var teams = state.teams;
+    if (card.effect == SurpriseEffect.extraTime) seconds += card.amount;
+    if (card.effect == SurpriseEffect.halfTime) seconds = max(1, seconds ~/ 2);
+    if (card.effect == SurpriseEffect.bonusPoints) {
+      teams = teams
+          .map(
+            (team) => team.id == state.activeTeam.id
+                ? team.copyWith(score: team.score + card.amount)
+                : team,
+          )
+          .toList();
+      data['surpriseFixedDeltas'] = {state.activeTeam.id: card.amount};
+    }
+    data['initialQuestionSeconds'] = seconds;
+    if (card.effect == SurpriseEffect.plank) data['plankDecision'] = 'pending';
+    _set(
+      state.copyWith(
+        teams: teams,
+        secondsRemaining: seconds,
+        roundData: data,
+        abilityRevision:
+            state.abilityRevision +
+            (card.effect == SurpriseEffect.bonusPoints ? 1 : 0),
+      ),
+    );
+  }
+
+  bool get canActivateSurprise {
+    final card = state.surpriseCard;
+    if (card == null ||
+        state.roundData['surpriseApplied'] != true ||
+        state.roundData['surpriseActionUsed'] == true ||
+        !{SurpriseEffect.hint, SurpriseEffect.options}.contains(card.effect) ||
+        state.isPaused ||
+        revealing ||
+        state.phase != SessionPhase.cards ||
+        state.revealedCards != 3 ||
+        state.isOpponentWindow ||
+        state.secondsRemaining <= 0) {
+      return false;
+    }
+    if (card.maximumQuestionPoints != null &&
+        state.question!.points > card.maximumQuestionPoints!) {
+      return false;
+    }
+    return card.price == 0 || state.activeTeam.score >= card.price;
+  }
+
+  bool activateSurprise() {
+    if (!canActivateSurprise) return false;
+    final card = state.surpriseCard!, question = state.question!;
+    final data = <String, Object?>{
+      ...state.roundData,
+      'surpriseActionUsed': true,
+    };
+    final fixed = SurpriseScoring.fixedDeltas(data);
+    fixed[state.activeTeam.id] = (fixed[state.activeTeam.id] ?? 0) - card.price;
+    data['surpriseFixedDeltas'] = fixed;
+    final teams = state.teams.map(
+      (team) => team.id == state.activeTeam.id
+          ? team.copyWith(score: team.score - card.price)
+          : team,
+    );
+    if (card.effect == SurpriseEffect.hint) {
+      if (question.isIdentity || question.hint.isEmpty) return false;
+      data['hintAccess'] = HintAccess(
+        questionId: question.id,
+        teamId: state.activeTeam.id,
+        source: HintSource.surprise,
+        cardId: card.id,
+      ).toJson();
+      data['hintRevealed'] = true;
+    } else {
+      if (question.options.length != 6) return false;
+      final choices = [...question.options]..shuffle(_random);
+      var selected = choices.take(card.optionCount).toList();
+      if (card.optionCount == 4 && card.includeCorrect) {
+        final correct = question.options.singleWhere(
+          (option) => option.id == question.correctOptionId,
+        );
+        selected = [
+          correct,
+          ...choices.where((option) => option.id != correct.id).take(3),
+        ]..shuffle(_random);
+      }
+      data.addAll({
+        'optionsQuestionId': question.id,
+        'optionsTeamId': state.activeTeam.id,
+        'visibleOptionIds': selected.map((option) => option.id).toList(),
+      });
+    }
+    _set(
+      state.copyWith(
+        teams: teams,
+        roundData: data,
+        abilityRevision: state.abilityRevision + (card.price > 0 ? 1 : 0),
+      ),
+    );
+    return true;
+  }
+
+  int nextTurnFor(String teamId) {
+    final index = state.teams.indexWhere((team) => team.id == teamId);
+    if (index < 0) throw ArgumentError('Unknown team.');
+    var offset =
+        (index - state.turn % state.teams.length + state.teams.length) %
+        state.teams.length;
+    if (offset == 0) offset = state.teams.length;
+    return state.turn + offset;
+  }
+
+  int get wagerBalance => max(
+    0,
+    state.activeTeam.score -
+        SurpriseSessionEffects.reserved(
+          state.sessionEffects,
+          state.activeTeam.id,
+        ),
+  );
+  String? get forcedCategoryId {
+    final assignments =
+        SurpriseSessionEffects.entries(state.sessionEffects, 'categories')
+            .where(
+              (entry) =>
+                  entry['target'] == state.activeTeam.id &&
+                  entry['dueTurn'] == state.turn,
+            )
+            .toList();
+    if (assignments.isEmpty) return null;
+    final category = assignments.last['category'] as String;
+    return remainingForCategory(category) > 0 ? category : null;
+  }
+
+  bool get requiresAnswerer => {
+    SurpriseEffect.designatedPlayer,
+    SurpriseEffect.selfDesignates,
+    SurpriseEffect.opponentDesignates,
+  }.contains(state.surpriseCard?.effect);
+  bool get canPrepareSurprise =>
+      !revealing &&
+      !state.isPaused &&
+      state.phase == SessionPhase.cards &&
+      state.revealedCards >= 1 &&
+      state.revealedCards < 3 &&
+      state.roundData['surpriseActionUsed'] != true;
+  bool _validOpponent(String id) => state.teams.any(
+    (team) => team.id == id && team.id != state.activeTeam.id,
+  );
+  bool _hasFutureTurn(String target) {
+    final available = remainingQuestions
+        .where((q) => q.id != state.question?.id)
+        .length;
+    return nextTurnFor(target) - state.turn <= available;
+  }
+
+  bool _openingCardAllowed(SurpriseCard card, Question question) {
+    final available = remainingQuestions
+        .where((q) => q.id != question.id)
+        .length;
+    bool future(String target) => nextTurnFor(target) - state.turn <= available;
+    final opponentFuture = state.teams.any(
+      (team) => team.id != state.activeTeam.id && future(team.id),
+    );
+    return switch (card.effect) {
+      SurpriseEffect.selfWager =>
+        wagerBalance > 0 && future(state.activeTeam.id),
+      SurpriseEffect.opponentWager => wagerBalance > 0 && opponentFuture,
+      SurpriseEffect.chooseOpponentCategory ||
+      SurpriseEffect.banPlayer => opponentFuture,
+      SurpriseEffect.changeQuestion => available > 0,
+      _ => true,
+    };
+  }
+
+  bool commitWager(int amount, {String? targetTeamId}) {
+    final effect = state.surpriseCard?.effect;
+    if (!canPrepareSurprise ||
+        !{
+          SurpriseEffect.selfWager,
+          SurpriseEffect.opponentWager,
+        }.contains(effect) ||
+        amount <= 0 ||
+        amount > wagerBalance) {
+      return false;
+    }
+    final target = effect == SurpriseEffect.selfWager
+        ? state.activeTeam.id
+        : targetTeamId;
+    if (target == null ||
+        effect == SurpriseEffect.opponentWager && !_validOpponent(target) ||
+        !_hasFutureTurn(target)) {
+      return false;
+    }
+    final entry = <String, Object?>{
+      'id': '$id-wager-${state.turn}',
+      'owner': state.activeTeam.id,
+      'target': target,
+      'amount': amount,
+      'dueTurn': nextTurnFor(target),
+      'onCorrect': effect == SurpriseEffect.selfWager,
+    };
+    _set(
+      state.copyWith(
+        sessionEffects: SurpriseSessionEffects.append(
+          state.sessionEffects,
+          'wagers',
+          entry,
+        ),
+        abilityRevision: state.abilityRevision + 1,
+        roundData: {
+          ...state.roundData,
+          'surpriseActionUsed': true,
+          'registeredWager': entry,
+        },
+      ),
+    );
+    return true;
+  }
+
+  bool chooseAnswerer(String name, {String? choosingTeamId}) {
+    name = name.trim();
+    if (!canPrepareSurprise ||
+        !requiresAnswerer ||
+        name.isEmpty ||
+        name.length > 80 ||
+        SurpriseSessionEffects.banned(
+          state.sessionEffects,
+          state.activeTeam.id,
+          name,
+          state.turn,
+        ) ||
+        state.surpriseCard?.effect == SurpriseEffect.opponentDesignates &&
+            (choosingTeamId == null || !_validOpponent(choosingTeamId))) {
+      return false;
+    }
+    _set(
+      state.copyWith(
+        roundData: {
+          ...state.roundData,
+          'designatedPlayer': name,
+          'surpriseActionUsed': true,
+          'answererChosenBy': ?choosingTeamId,
+        },
+      ),
+    );
+    return true;
+  }
+
+  bool assignOpponentCategory(String target, String category) {
+    if (!canPrepareSurprise ||
+        state.surpriseCard?.effect != SurpriseEffect.chooseOpponentCategory ||
+        !_validOpponent(target) ||
+        !config.categoryIds.contains(category) ||
+        remainingForCategory(category) == 0 ||
+        !_hasFutureTurn(target)) {
+      return false;
+    }
+    final assignments =
+        SurpriseSessionEffects.entries(state.sessionEffects, 'categories')
+          ..removeWhere(
+            (entry) =>
+                entry['target'] == target &&
+                entry['dueTurn'] == nextTurnFor(target),
+          );
+    final entry = <String, Object?>{
+      'id': '$id-category-${state.turn}',
+      'owner': state.activeTeam.id,
+      'target': target,
+      'category': category,
+      'dueTurn': nextTurnFor(target),
+    };
+    _set(
+      state.copyWith(
+        sessionEffects: {
+          ...state.sessionEffects,
+          'categories': [...assignments, entry],
+        },
+        abilityRevision: state.abilityRevision + 1,
+        roundData: {
+          ...state.roundData,
+          'surpriseActionUsed': true,
+          'assignedCategory': entry,
+        },
+      ),
+    );
+    return true;
+  }
+
+  bool banOpponentPlayer(String target, String name) {
+    name = name.trim();
+    if (!canPrepareSurprise ||
+        state.surpriseCard?.effect != SurpriseEffect.banPlayer ||
+        !_validOpponent(target) ||
+        name.isEmpty ||
+        name.length > 80 ||
+        !_hasFutureTurn(target)) {
+      return false;
+    }
+    final entry = <String, Object?>{
+      'id': '$id-ban-${state.turn}',
+      'owner': state.activeTeam.id,
+      'target': target,
+      'player': name,
+      'startsTurn': state.turn + 1,
+      'expiresTurn': nextTurnFor(target) + state.teams.length,
+    };
+    _set(
+      state.copyWith(
+        sessionEffects: SurpriseSessionEffects.append(
+          state.sessionEffects,
+          'bans',
+          entry,
+        ),
+        abilityRevision: state.abilityRevision + 1,
+        roundData: {
+          ...state.roundData,
+          'surpriseActionUsed': true,
+          'registeredBan': entry,
+        },
+      ),
+    );
+    return true;
+  }
+
+  bool recordFirstAnswer(String answer) {
+    answer = answer.trim();
+    if (state.surpriseCard?.effect != SurpriseEffect.silence ||
+        state.isPaused ||
+        revealing ||
+        state.phase != SessionPhase.cards ||
+        state.revealedCards != 3 ||
+        state.secondsRemaining <= 0 ||
+        answer.isEmpty ||
+        answer.length > 200) {
+      return false;
+    }
+    final answers = Map<String, Object?>.from(
+      state.roundData['firstAnswers'] as Map? ?? const {},
+    );
+    if (answers.containsKey(state.answeringTeam.id)) return false;
+    answers[state.answeringTeam.id] = answer;
+    final seconds = Map<String, Object?>.from(
+      state.roundData['firstAnswerSeconds'] as Map? ?? const {},
+    );
+    seconds[state.answeringTeam.id] = state.secondsRemaining;
+    _timer?.cancel();
+    _set(
+      state.copyWith(
+        secondsRemaining: 0,
+        roundData: {
+          ...state.roundData,
+          'firstAnswers': answers,
+          'firstAnswerSeconds': seconds,
+        },
+      ),
+    );
+    return true;
+  }
+
+  bool get canChangeQuestion =>
+      !state.isPaused &&
+      !revealing &&
+      state.phase == SessionPhase.cards &&
+      state.revealedCards == 3 &&
+      !state.isOpponentWindow &&
+      state.surpriseCard?.effect == SurpriseEffect.changeQuestion &&
+      state.roundData['surpriseActionUsed'] != true &&
+      (state.roundData['questionElapsedSeconds'] as int? ?? 0) < 10 &&
+      remainingQuestions.isNotEmpty;
+  Future<bool> changeQuestion() async {
+    if (!canChangeQuestion) return false;
+    var data = <String, Object?>{...state.roundData};
+    Question? replacement;
+    final pendingId = data['replacementQuestionId'];
+    if (pendingId is String) {
+      for (final candidate in remainingQuestions) {
+        if (candidate.id == pendingId) replacement = candidate;
+      }
+    }
+    if (replacement == null) {
+      final sections = config.categoryIds
+          .where((category) => remainingForCategory(category) > 0)
+          .toList();
+      if (sections.isEmpty) return false;
+      final category = sections[_random.nextInt(sections.length)];
+      final candidates = _sectionQuestions(category).where(_available).toList();
+      replacement = candidates[_random.nextInt(candidates.length)];
+      data['replacementQuestionId'] = replacement.id;
+      _set(state.copyWith(roundData: data));
+    }
+    final proposed = state.copyWith(
+      question: replacement,
+      seenQuestionIds: {...state.seenQuestionIds, replacement.id},
+      roundData: {
+        ...data,
+        'surpriseActionUsed': true,
+        'identityCluesRevealed': 1,
+        'questionElapsedSeconds': 0,
+        'questionDrafts': <String, Object?>{},
+      },
+    );
+    revealing = true;
+    revealError = null;
+    notifyListeners();
+    _timer?.cancel();
+    try {
+      if (commitReveal != null) {
+        await commitReveal!(
+          SessionSave(
+            id: id,
+            config: config,
+            state: proposed,
+            questions: _pool,
+            createdAt: createdAt,
+            updatedAt: _now(),
+            revision: _revision + 1,
+            replayQuestionIds: _replayQuestionIds,
+          ),
+          replacement,
+        );
+      }
+      if (_disposed) return false;
+      _usage.mark(replacement);
+      if (_replayQuestionIds.contains(replacement.id)) {
+        _usage.claim(id, replacement);
+      }
+      _set(proposed.copyWith(pauseReason: state.pauseReason));
+      _startTimer();
+      return true;
+    } on Object {
+      if (!_disposed) {
+        revealError =
+            'تعذّر حفظ تغيير السؤال. بقي السؤال الحالي؛ أعد المحاولة.';
+      }
+      return false;
+    } finally {
+      revealing = false;
+      if (!_disposed) {
+        _startTimer();
+        notifyListeners();
+      }
+    }
+  }
+
+  SessionState _preparePlankQuestion(SessionState proposed) =>
+      proposed.plankAccepted
+      ? proposed.copyWith(
+          secondsRemaining: 1,
+          roundData: {
+            ...proposed.roundData,
+            'plankRunning': true,
+            'plankElapsedSeconds': 0,
+          },
+        )
+      : proposed;
+
+  bool get canChoosePlank =>
+      !state.isPaused &&
+      !revealing &&
+      state.phase == SessionPhase.cards &&
+      state.revealedCards >= 1 &&
+      state.revealedCards < 3 &&
+      state.surpriseCard?.effect == SurpriseEffect.plank &&
+      state.roundData['plankDecision'] == 'pending';
+  bool acceptPlank() {
+    if (!canChoosePlank) return false;
+    _set(
+      state.copyWith(
+        roundData: {
+          ...state.roundData,
+          'plankDecision': 'accepted',
+          'plankElapsedSeconds': 0,
+        },
+      ),
+    );
+    return true;
+  }
+
+  bool refusePlank() {
+    if (!canChoosePlank) return false;
+    final amount = state.surpriseCard!.price;
+    final fixed = SurpriseScoring.fixedDeltas(state.roundData);
+    fixed[state.activeTeam.id] = (fixed[state.activeTeam.id] ?? 0) - amount;
+    _set(
+      state.copyWith(
+        teams: state.teams.map(
+          (team) => team.id == state.activeTeam.id
+              ? team.copyWith(score: team.score - amount)
+              : team,
+        ),
+        secondsRemaining: GameRules.primaryQuestionSeconds,
+        abilityRevision: state.abilityRevision + 1,
+        roundData: {
+          ...state.roundData,
+          'plankDecision': 'refused',
+          'surpriseFixedDeltas': fixed,
+          'initialQuestionSeconds': GameRules.primaryQuestionSeconds,
+        },
+      ),
+    );
+    return true;
+  }
+
+  bool finishPlank() {
+    if (state.isPaused || revealing || !state.plankRunning) return false;
+    _timer?.cancel();
+    _set(
+      state.copyWith(
+        secondsRemaining: 0,
+        roundData: {
+          ...state.roundData,
+          'plankRunning': false,
+          'plankFinished': true,
+        },
+      ),
+    );
+    return startOpponentOpportunity();
+  }
+
+  bool get canEditQuestionDraft =>
+      !revealing &&
+      !state.isPaused &&
+      state.phase == SessionPhase.cards &&
+      state.revealedCards == 3 &&
+      state.secondsRemaining > 0 &&
+      state.question?.presentation != null;
+
+  bool updateQuestionDraft(Map<String, String> draft) {
+    if (!canEditQuestionDraft ||
+        draft.length > 24 ||
+        draft.values.any((v) => v.length > 200)) {
+      return false;
+    }
+    final content = state.question!.presentation!;
+    final ids = content.elements.map((item) => item.id).toSet();
+    for (final entry in draft.entries) {
+      final key = entry.key, value = entry.value;
+      if (key.startsWith('missing:')) {
+        if (!content.elements.any(
+          (item) => item.id == key.substring(8) && item.missing,
+        )) {
+          return false;
+        }
+      } else if (key.startsWith('group:')) {
+        if (content.type != QuestionPresentationType.grouping ||
+            !ids.contains(key.substring(6)) ||
+            !{'1', '2'}.contains(value)) {
+          return false;
+        }
+      } else if (key.startsWith('pair:')) {
+        if (content.type != QuestionPresentationType.matching ||
+            !content.sections.first.items.any(
+              (item) => item.id == key.substring(5),
+            ) ||
+            !content.sections.last.items.any((item) => item.id == value)) {
+          return false;
+        }
+      } else if (key == 'selected') {
+        if (!(content.type == QuestionPresentationType.statements ||
+                state.question?.subtype == 'number_nearest') ||
+            !ids.contains(value)) {
+          return false;
+        }
+      } else if (key == 'first' || key == 'last') {
+        if (state.question?.categoryId != 'first_last' ||
+            !ids.contains(value)) {
+          return false;
+        }
+      } else if (key == 'order') {
+        if (content.type != QuestionPresentationType.comparison) return false;
+        try {
+          final order = (jsonDecode(value) as List).cast<String>();
+          if (order.length != ids.length ||
+              order.toSet().length != ids.length ||
+              !order.toSet().containsAll(ids)) {
+            return false;
+          }
+        } catch (_) {
+          return false;
+        }
+      } else {
+        return false;
+      }
+    }
+    final pairValues = draft.entries
+        .where((entry) => entry.key.startsWith('pair:'))
+        .map((entry) => entry.value)
+        .toList();
+    if (pairValues.toSet().length != pairValues.length) return false;
+    if (draft['first'] != null && draft['first'] == draft['last']) return false;
+    final drafts = Map<String, Object?>.from(
+      state.roundData['questionDrafts'] as Map? ?? const {},
+    );
+    drafts[state.answeringTeam.id] = Map<String, String>.from(draft);
+    _set(
+      state.copyWith(roundData: {...state.roundData, 'questionDrafts': drafts}),
+    );
+    return true;
+  }
+
   bool awardAnswer(String? teamId) {
+    if (teamId != null &&
+        state.surpriseCard?.effect != null &&
+        state.surpriseCard?.effect != SurpriseEffect.none &&
+        teamId != state.answeringTeam.id) {
+      return false;
+    }
     if (state.isPaused ||
         state.phase != SessionPhase.answer ||
         state.history.any((round) => round.turn == state.turn) ||
@@ -463,11 +1199,55 @@ class SessionViewModel extends ChangeNotifier {
       teams = teams
           .map(
             (team) => team.id == teamId
-                ? team.copyWith(score: team.score + state.availablePoints)
+                ? team.copyWith(
+                    score:
+                        team.score +
+                        SurpriseScoring.points(
+                          question: question,
+                          clues: state.identityCluesRevealed,
+                          teamId: team.id,
+                          actingTeamId: state.activeTeam.id,
+                          roundData: state.roundData,
+                        ),
+                  )
                 : team,
           )
           .toList();
     }
+    if (!state.isAbilityRound) {
+      teams = teams
+          .map(
+            (team) => team.id == state.activeTeam.id
+                ? team.copyWith(
+                    score:
+                        team.score -
+                        SurpriseScoring.failureDebit(
+                          roundData: state.roundData,
+                          winner: teamId,
+                          actingTeamId: state.activeTeam.id,
+                          currentScore: team.score,
+                          question: question,
+                          clues: state.identityCluesRevealed,
+                        ),
+                  )
+                : team,
+          )
+          .toList();
+    }
+    final settledWagers = SurpriseSessionEffects.dueWagers(
+      state.sessionEffects,
+      state.turn,
+    );
+    final wagerDeltas = SurpriseSessionEffects.wagerDeltas(
+      settledWagers,
+      teamId,
+    );
+    teams = teams
+        .map(
+          (team) =>
+              team.copyWith(score: team.score + (wagerDeltas[team.id] ?? 0)),
+        )
+        .toList();
     final record = RoundRecord(
       id: '$id-round-${state.turn}',
       turn: state.turn,
@@ -476,7 +1256,10 @@ class SessionViewModel extends ChangeNotifier {
       awardedTeamId: teamId,
       scoreDeltas: {
         for (var i = 0; i < teams.length; i++)
-          teams[i].id: teams[i].score - before[i].score,
+          teams[i].id:
+              teams[i].score -
+              before[i].score +
+              (SurpriseScoring.fixedDeltas(state.roundData)[teams[i].id] ?? 0),
       },
       secondsAtAnswer: state.secondsRemaining,
       abilityRevision: state.abilityRevision,
@@ -484,6 +1267,11 @@ class SessionViewModel extends ChangeNotifier {
       completedAt: _now(),
       identityCluesRevealed: state.identityCluesRevealed,
       answerTeamId: state.opponentTeamId,
+      roundData: {
+        ...state.roundData,
+        if (settledWagers.isNotEmpty) 'settledWagers': settledWagers,
+      },
+      effectsBefore: state.sessionEffects,
     );
     _set(
       state.copyWith(
@@ -500,6 +1288,10 @@ class SessionViewModel extends ChangeNotifier {
         revealedCards: 0,
         isAbilityRound: false,
         roundData: {},
+        sessionEffects: SurpriseSessionEffects.completeTurn(
+          state.sessionEffects,
+          state.turn,
+        ),
       ),
     );
     return true;
@@ -507,6 +1299,15 @@ class SessionViewModel extends ChangeNotifier {
 
   bool canCorrect(RoundRecord record) =>
       !record.isAbilityRound && record.abilityRevision == state.abilityRevision;
+  int pointsForTeam(String teamId) => state.question == null
+      ? 0
+      : SurpriseScoring.points(
+          question: state.question!,
+          clues: state.identityCluesRevealed,
+          teamId: teamId,
+          actingTeamId: state.activeTeam.id,
+          roundData: state.roundData,
+        );
   bool correctDecision(
     String roundId,
     String? teamId, {
@@ -531,8 +1332,32 @@ class SessionViewModel extends ChangeNotifier {
     }
     final newDeltas = {
       for (final team in state.teams)
-        team.id: team.id == teamId ? record.awardedPoints : 0,
+        team.id:
+            (record.fixedScoreDeltas[team.id] ?? 0) +
+            (team.id == teamId ? record.pointsForTeam(team.id) : 0),
     };
+    final initial = Map<String, int>.from(
+      record.roundData['roundStartingScores'] as Map? ?? const {},
+    );
+    final actingScore =
+        (initial[record.actingTeamId] ?? 0) + newDeltas[record.actingTeamId]!;
+    newDeltas[record.actingTeamId] =
+        newDeltas[record.actingTeamId]! -
+        SurpriseScoring.failureDebit(
+          roundData: record.roundData,
+          winner: teamId,
+          actingTeamId: record.actingTeamId,
+          currentScore: actingScore,
+          question: record.question,
+          clues: record.identityCluesRevealed,
+        );
+    final wagerDeltas = SurpriseSessionEffects.wagerDeltas(
+      SurpriseSessionEffects.entries(record.roundData, 'settledWagers'),
+      teamId,
+    );
+    for (final entry in wagerDeltas.entries) {
+      newDeltas[entry.key] = newDeltas[entry.key]! + entry.value;
+    }
     final teams = state.teams.map(
       (team) => team.copyWith(
         score:
@@ -573,14 +1398,19 @@ class SessionViewModel extends ChangeNotifier {
     _timer?.cancel();
     final record = state.history.last;
     final teams = state.teams.map(
-      (team) =>
-          team.copyWith(score: team.score - (record.scoreDeltas[team.id] ?? 0)),
+      (team) => team.copyWith(
+        score:
+            team.score -
+            (record.scoreDeltas[team.id] ?? 0) +
+            (record.fixedScoreDeltas[team.id] ?? 0),
+      ),
     );
     _set(
       state.copyWith(
         phase: SessionPhase.answer,
         teams: teams,
         history: state.history.take(state.history.length - 1),
+        sessionEffects: record.effectsBefore,
         question: record.question,
         turn: record.turn,
         revealedCards: 3,
@@ -588,6 +1418,7 @@ class SessionViewModel extends ChangeNotifier {
         pauseReason: PauseReason.manual,
         isAbilityRound: false,
         roundData: {
+          ...record.roundData,
           'identityCluesRevealed': record.identityCluesRevealed,
           if (record.answerTeamId != null)
             'opponentTeamId': record.answerTeamId,
@@ -673,6 +1504,11 @@ class SessionViewModel extends ChangeNotifier {
     }
     _timer?.cancel();
     _pool = fresh;
+    _replayQuestionIds = Set.unmodifiable(
+      fresh.where(_usage.contains).map((q) => q.id),
+    );
+    id = 'session-${_now().microsecondsSinceEpoch}-${_nextId++}';
+    createdAt = _now();
     _set(
       SessionState(
         phase: SessionPhase.categories,

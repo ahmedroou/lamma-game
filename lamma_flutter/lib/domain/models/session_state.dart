@@ -1,6 +1,7 @@
 import 'question.dart';
 import 'team.dart';
 import 'hint_access.dart';
+import '../abilities/surprise_scoring.dart';
 
 enum SessionPhase { categories, cards, answer, results }
 
@@ -21,6 +22,8 @@ final class RoundRecord {
     this.correctionCount = 0,
     this.identityCluesRevealed = 1,
     this.answerTeamId,
+    this.roundData = const {},
+    this.effectsBefore = const {},
   }) : scoreDeltas = Map.unmodifiable(scoreDeltas);
   final String id, actingTeamId;
   final String? awardedTeamId;
@@ -28,7 +31,18 @@ final class RoundRecord {
   final Question question;
   final int turn, secondsAtAnswer, abilityRevision, correctionCount;
   final int identityCluesRevealed;
-  int get awardedPoints => question.pointsForClues(identityCluesRevealed);
+  int get awardedPoints => pointsForTeam(awardedTeamId ?? actingTeamId);
+  int pointsForTeam(String teamId) => SurpriseScoring.points(
+    question: question,
+    clues: identityCluesRevealed,
+    teamId: teamId,
+    actingTeamId: actingTeamId,
+    roundData: roundData,
+  );
+  Map<String, int> get fixedScoreDeltas =>
+      SurpriseScoring.fixedDeltas(roundData);
+  final Map<String, Object?> roundData;
+  final Map<String, Object?> effectsBefore;
   final bool isAbilityRound;
   final Map<String, int> scoreDeltas;
   final DateTime completedAt;
@@ -46,6 +60,8 @@ final class RoundRecord {
     correctionCount: correctionCount + 1,
     identityCluesRevealed: identityCluesRevealed,
     answerTeamId: answerTeamId,
+    roundData: roundData,
+    effectsBefore: effectsBefore,
   );
   Map<String, Object?> toJson() => {
     'id': id,
@@ -60,6 +76,8 @@ final class RoundRecord {
     'identityCluesRevealed': identityCluesRevealed,
     'answerTeamId': answerTeamId,
     'isAbilityRound': isAbilityRound,
+    if (roundData.isNotEmpty) 'roundData': roundData,
+    if (effectsBefore.isNotEmpty) 'effectsBefore': effectsBefore,
     'completedAt': completedAt.toUtc().toIso8601String(),
   };
   factory RoundRecord.fromJson(Map<String, dynamic> json) => RoundRecord(
@@ -76,6 +94,10 @@ final class RoundRecord {
     correctionCount: json['correctionCount'] as int,
     identityCluesRevealed: json['identityCluesRevealed'] as int? ?? 1,
     answerTeamId: json['answerTeamId'] as String?,
+    roundData: Map<String, Object?>.from(json['roundData'] as Map? ?? const {}),
+    effectsBefore: Map<String, Object?>.from(
+      json['effectsBefore'] as Map? ?? const {},
+    ),
     isAbilityRound: json['isAbilityRound'] as bool,
     completedAt: DateTime.parse(json['completedAt'] as String),
   );
@@ -125,11 +147,13 @@ final class SessionState {
     Iterable<RoundRecord> history = const [],
     Iterable<JudgmentChange> corrections = const [],
     Map<String, Object?> roundData = const {},
+    Map<String, Object?> sessionEffects = const {},
   }) : teams = List.unmodifiable(teams),
        seenQuestionIds = Set.unmodifiable(seenQuestionIds),
        history = List.unmodifiable(history),
        corrections = List.unmodifiable(corrections),
-       roundData = Map.unmodifiable(roundData);
+       roundData = Map.unmodifiable(roundData),
+       sessionEffects = Map.unmodifiable(sessionEffects);
   final SessionPhase phase;
   final List<TeamState> teams;
   final Set<String> seenQuestionIds;
@@ -140,12 +164,23 @@ final class SessionState {
   final List<RoundRecord> history;
   final List<JudgmentChange> corrections;
   final Map<String, Object?> roundData;
+  final Map<String, Object?> sessionEffects;
   bool get isPaused =>
       pauseReason != PauseReason.none && phase != SessionPhase.results;
   TeamState get activeTeam => teams[turn % teams.length];
   String? get opponentTeamId => roundData['opponentTeamId'] as String?;
   bool get isOpponentWindow => roundData['answerWindow'] == 'opponent';
   bool get opponentSelectedByLot => roundData['opponentReason'] == 'tie';
+  bool get plankAccepted =>
+      surpriseCard?.effect == SurpriseEffect.plank &&
+      roundData['plankDecision'] == 'accepted' &&
+      !isOpponentWindow;
+  bool get plankRunning =>
+      plankAccepted &&
+      roundData['plankRunning'] == true &&
+      phase == SessionPhase.cards;
+  int get plankSeconds => roundData['plankElapsedSeconds'] as int? ?? 0;
+  int get clockSeconds => plankAccepted ? plankSeconds : secondsRemaining;
   TeamState get answeringTeam => opponentTeamId == null
       ? activeTeam
       : teams.firstWhere((team) => team.id == opponentTeamId);
@@ -165,8 +200,39 @@ final class SessionState {
       roundData['hintRevealed'] == true &&
       hintAccess != null &&
       hintAccess?.questionId == question?.id;
-  int get availablePoints =>
-      question?.pointsForClues(identityCluesRevealed) ?? 0;
+  int get availablePoints => question == null
+      ? 0
+      : SurpriseScoring.points(
+          question: question!,
+          clues: identityCluesRevealed,
+          teamId: answeringTeam.id,
+          actingTeamId: activeTeam.id,
+          roundData: roundData,
+        );
+  List<QuestionOption> get visibleOptions {
+    if (roundData['optionsQuestionId'] != question?.id ||
+        roundData['optionsTeamId'] != answeringTeam.id ||
+        revealedCards != 3) {
+      return const [];
+    }
+    final ids = (roundData['visibleOptionIds'] as List? ?? const [])
+        .cast<String>();
+    return List.unmodifiable(
+      ids.map(
+        (id) => question!.options.singleWhere((option) => option.id == id),
+      ),
+    );
+  }
+
+  Map<String, String> get questionDraft {
+    final drafts = roundData['questionDrafts'];
+    if (drafts is! Map) return const {};
+    final current = drafts[answeringTeam.id];
+    if (current is! Map) return const {};
+    return Map.unmodifiable(
+      current.map((key, value) => MapEntry(key as String, value as String)),
+    );
+  }
 
   SessionState copyWith({
     SessionPhase? phase,
@@ -184,6 +250,7 @@ final class SessionState {
     Iterable<RoundRecord>? history,
     Iterable<JudgmentChange>? corrections,
     Map<String, Object?>? roundData,
+    Map<String, Object?>? sessionEffects,
   }) => SessionState(
     phase: phase ?? this.phase,
     teams: teams ?? this.teams,
@@ -199,6 +266,7 @@ final class SessionState {
     history: history ?? this.history,
     corrections: corrections ?? this.corrections,
     roundData: roundData ?? this.roundData,
+    sessionEffects: sessionEffects ?? this.sessionEffects,
   );
 
   Map<String, Object?> toJson() => {
@@ -216,6 +284,7 @@ final class SessionState {
     'history': history.map((round) => round.toJson()).toList(),
     'corrections': corrections.map((change) => change.toJson()).toList(),
     'roundData': roundData,
+    if (sessionEffects.isNotEmpty) 'sessionEffects': sessionEffects,
   };
   factory SessionState.fromJson(Map<String, dynamic> json) => SessionState(
     phase: SessionPhase.values.byName(json['phase'] as String),
@@ -241,6 +310,9 @@ final class SessionState {
     ),
     roundData: Map<String, Object?>.from(
       json['roundData'] as Map<String, dynamic>,
+    ),
+    sessionEffects: Map<String, Object?>.from(
+      json['sessionEffects'] as Map? ?? const {},
     ),
   );
 }

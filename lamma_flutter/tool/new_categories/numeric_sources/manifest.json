@@ -1,0 +1,241 @@
+{
+  "nobel": {
+    "url": "https://api.nobelprize.org/2.1/nobelPrizes?limit=1000",
+    "bytes": 793812,
+    "sha256": "aa974ccdaa77e3d4ba0ae4195a3e3a0bf91a3bea0f9c773ec9ea96130cb68232",
+    "status": "archived"
+  },
+  "quran": {
+    "url": "https://tanzil.net/res/text/metadata/quran-data.xml",
+    "bytes": 77234,
+    "sha256": "8867c1d88191472adec9db694b3cd9f135b1a2ef580574d32cf888dcb22c5c7a",
+    "status": "archived"
+  },
+  "elements": {
+    "url": "https://physics.nist.gov/PhysRefData/Elements/per_noframes.html",
+    "bytes": 47271,
+    "sha256": "b85210b4f96f8e7fe97919bd68e1da376cd9bde380d0c4013cc04e3bb2e66b5e",
+    "status": "archived"
+  },
+  "planets": {
+    "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+    "bytes": 14363,
+    "sha256": "42bdc3f1dae470b85580c6ac66c353964a05d544ad2ac970a6b7d908337a6c3c",
+    "status": "archived"
+  },
+  "planet_sizes": {
+    "url": "https://science.nasa.gov/solar-system/planet-sizes-and-locations-in-our-solar-system/",
+    "bytes": 306028,
+    "sha256": "8e21a115347afad637e5053cac3fa433396d904d021d33dc1d708aec4b0244da",
+    "status": "archived"
+  },
+  "royal": {
+    "url": "https://www.royal.uk/kings-and-queens-1066",
+    "bytes": 82281,
+    "sha256": "7469b3e92838f776ca5ca48b6870cba399a35e373bc45d7c1122c40cc677f103",
+    "status": "archived"
+  },
+  "nobel_physics": {
+    "url": "https://www.nobelprize.org/prizes/lists/all-nobel-prizes-in-physics/all/",
+    "bytes": 259987,
+    "sha256": "1d78b1ce5f5c71092ef64f8eb11c0ec0d985577895ff2379b452946d491d1a91",
+    "status": "archived"
+  },
+  "nobel_chemistry": {
+    "url": "https://www.nobelprize.org/prizes/lists/all-nobel-prizes-in-chemistry/all/",
+    "bytes": 251525,
+    "sha256": "f51f9ed9da5481e4e16681e12ace4d53500fec6df5c735e7e1f837e19788c43c",
+    "status": "archived"
+  },
+  "nobel_literature": {
+    "url": "https://www.nobelprize.org/prizes/lists/all-nobel-prizes-in-literature/all/",
+    "bytes": 241584,
+    "sha256": "d0758f7bd6954fd21d789256fec50765984a91d009e3a1f9208a030cab23af87",
+    "status": "archived"
+  },
+  "nobel_medicine": {
+    "url": "https://www.nobelprize.org/prizes/lists/all-nobel-prizes-in-physiology-or-medicine/all/",
+    "status": "failed",
+    "error": "HTTP Error 404: Not Found"
+  },
+  "alice": {
+    "url": "https://www.gutenberg.org/cache/epub/11/pg11-images.html",
+    "bytes": 192539,
+    "sha256": "7df9c19e9fccac5b3ae9b1f837b247db1c1da93845dfb9e1903dce85013c43d3",
+    "status": "archived"
+  },
+  "looking_glass": {
+    "url": "https://www.gutenberg.org/cache/epub/12/pg12-images.html",
+    "bytes": 221478,
+    "sha256": "4feca5135c3e0cf16acf44f1b58b3d3a4e3f07c03ce6b92df93bbd647055fefe",
+    "status": "archived"
+  },
+  "sherlock_adventures": {
+    "url": "https://www.gutenberg.org/cache/epub/1661/pg1661-images.html",
+    "bytes": 640229,
+    "sha256": "26adf6c8ff1384574fca7466df77e226fc048e9ef1eac5c341f0dd997bcb71a4",
+    "status": "archived"
+  },
+  "sherlock_memoirs": {
+    "url": "https://www.gutenberg.org/cache/epub/834/pg834-images.html",
+    "bytes": 586009,
+    "sha256": "c7fe1562233b145c3cde008445de4287eea8c88274500e892c513865e194df64",
+    "status": "archived"
+  },
+  "sherlock_return": {
+    "url": "https://www.gutenberg.org/cache/epub/108/pg108-images.html",
+    "bytes": 768642,
+    "sha256": "c7a9ae6547f458e3a259227d59e6e91b7b89edd4752a8be725d3a296f59a2676",
+    "status": "archived"
+  },
+  "jungle": {
+    "url": "https://www.gutenberg.org/cache/epub/236/pg236-images.html",
+    "bytes": 335897,
+    "sha256": "0ec006f6cad95b49df5790a45d15a503a07e8fe5b9db9c8cecc922bd77b15844",
+    "status": "archived"
+  },
+  "oz": {
+    "url": "https://www.gutenberg.org/cache/epub/55/pg55-images.html",
+    "bytes": 260667,
+    "sha256": "a02f2cf796d7f876a67952ac2e130a7071469a2e1bf9a0210bc0308e7182c306",
+    "status": "archived"
+  },
+  "stratigraphy": {
+    "url": "https://stratigraphy.org/ICSchart/ChronostratChart2024-12.pdf",
+    "bytes": 332682,
+    "sha256": "7ce1edf87ca913933c704cae3be2f68f932d14aaa111db36c3d9c0e79e57c237",
+    "status": "archived"
+  },
+  "si": {
+    "url": "https://www.bipm.org/documents/20126/41483022/SI-Brochure-9.pdf",
+    "bytes": 3503078,
+    "sha256": "1122cf38e25b23d780a30607c68f7350b2b6d1f9970a89947aaa87a45ecbb20a",
+    "status": "archived"
+  },
+  "si_prefixes": {
+    "url": "https://www.bipm.org/en/-/2022-12-19-si-prefixes",
+    "bytes": 219708,
+    "sha256": "9a0aee0fd959376e8436fa686385aafe265976f947079aa791d12efc11c776d3",
+    "status": "archived"
+  },
+  "osi": {
+    "url": "https://www.itu.int/rec/dologin_pub.asp?lang=e&id=T-REC-X.200-199407-I!!PDF-E&type=items",
+    "bytes": 419004,
+    "sha256": "5b2b56c07dc73f50bdf6bc3c3024db43f566103afe204e5e233f9ce1043630b2",
+    "status": "archived"
+  },
+  "olympics": {
+    "url": "https://olympics.com/en/olympic-games",
+    "status": "failed",
+    "error": "The read operation timed out"
+  },
+  "fifa": {
+    "url": "https://www.fifa.com/en/tournaments/mens/worldcup",
+    "bytes": 4554,
+    "sha256": "5e3cf748f0b325866b71396655fa4017144120c0c2cc3cde59725dd29612250e",
+    "status": "archived"
+  },
+  "apollo": {
+    "url": "https://www.nasa.gov/mission/apollo/",
+    "status": "failed",
+    "error": "HTTP Error 404: Not Found"
+  },
+  "shuttles": {
+    "url": "https://www.nasa.gov/space-shuttle/",
+    "bytes": 368145,
+    "sha256": "b3742181888894e2e116a517d79c07b55215afa490b17e63b32bbb7f85cf7582",
+    "status": "archived"
+  },
+  "missions": {
+    "url": "https://science.nasa.gov/solar-system/",
+    "bytes": 390699,
+    "sha256": "e7181c7e74ad3075136c09c214099ca3611cc8ab076525c316ae7eb424419da8",
+    "status": "archived"
+  },
+  "apollo_history": {
+    "url": "https://www.nasa.gov/history/apollo-missions/",
+    "status": "failed",
+    "error": "HTTP Error 404: Not Found"
+  },
+  "spectrum": {
+    "url": "https://science.nasa.gov/ems/",
+    "bytes": 309624,
+    "sha256": "4a3747e27a434c1ebe8909f783f3f99dd35e4ce77b94ef72bd162de5632fc1bc",
+    "status": "archived"
+  },
+  "constitution": {
+    "url": "https://constitution.congress.gov/constitution/",
+    "status": "failed",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  "presidents": {
+    "url": "https://www.whitehouse.gov/about-the-white-house/presidents/",
+    "status": "failed",
+    "error": "HTTP Error 404: Not Found"
+  },
+  "eu": {
+    "url": "https://european-union.europa.eu/principles-countries-history/eu-countries_en",
+    "bytes": 117351,
+    "sha256": "2443e65ced2ab668c7f2fe46497dd84fce6952fd6516442e042875bde3a35b85",
+    "status": "archived"
+  },
+  "olympic_hosts": {
+    "url": "https://olympics.com/ioc/olympic-games",
+    "status": "failed",
+    "error": "The read operation timed out"
+  },
+  "fifa_winners": {
+    "url": "https://www.fifa.com/en/articles/world-cup-winners-list",
+    "bytes": 4554,
+    "sha256": "5e3cf748f0b325866b71396655fa4017144120c0c2cc3cde59725dd29612250e",
+    "status": "archived"
+  },
+  "biology": {
+    "url": "https://openstax.org/books/biology-2e/pages/20-1-organizing-life-on-earth",
+    "bytes": 385405,
+    "sha256": "9a493adf1fc3e52efdb245733f15f8c3a4fb847631e074684bc7f5922fa39bff",
+    "status": "archived"
+  },
+  "ozma": {
+    "url": "https://www.gutenberg.org/cache/epub/33361/pg33361-images.html",
+    "bytes": 301411,
+    "sha256": "47ed563649442d49b1ddb33442a2117d9710e04b501bbc48588125e68531e0bf",
+    "status": "archived"
+  },
+  "pinocchio": {
+    "url": "https://www.gutenberg.org/cache/epub/500/pg500-images.html",
+    "bytes": 306065,
+    "sha256": "3ec6cc16a6976404fea2d65fa76c14440c453fe398689e438c0e957c7b0caa7c",
+    "status": "archived"
+  },
+  "cldr_ar": {
+    "url": "https://raw.githubusercontent.com/unicode-org/cldr/release-48/common/main/ar.xml",
+    "bytes": 730729,
+    "sha256": "94b2fea65038e61fa34b9b3efd728ab55e12c77644e61d283e63464ff57e13b7",
+    "status": "archived"
+  },
+  "quran_doc": {
+    "url": "https://tanzil.net/docs/Quran_Metadata",
+    "bytes": 10404,
+    "sha256": "94c69e8ec9fa6735293ef4bd8384a48f5fbf4b76b6b0ac761a8e8cb956f5829b",
+    "status": "archived"
+  },
+  "planet_notes": {
+    "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/fact_notes.html",
+    "bytes": 14276,
+    "sha256": "549150c04a2fd9bb90d68326adfd604e0f5f028b48c9572bf0972bce1bf87825",
+    "status": "archived"
+  },
+  "arabic_chart": {
+    "url": "https://www.unicode.org/charts/PDF/U0600.pdf",
+    "bytes": 185632,
+    "sha256": "f369d813a98c761b454948c2062cf3df106afc7625fbe5e92a2e11f4b518173f",
+    "status": "archived"
+  },
+  "spaceflight": {
+    "url": "https://science.nasa.gov/learn/basics-of-space-flight/chapter1-2/",
+    "bytes": 302076,
+    "sha256": "e65fea12ef4c1f7b36b976c33ed8401eaba21fc23b321fd70fee179dc11cf098",
+    "status": "archived"
+  }
+}

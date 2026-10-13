@@ -207,6 +207,7 @@ void main() {
       final first = AppController(
         repository,
         questions: LocalQuestionRepository(questions: completeQuestions),
+        openingCardsEnabled: false,
       );
       await first.initialize();
       first.updateSettings(const AppSettings(motion: false, haptics: false));
@@ -216,6 +217,7 @@ void main() {
       final second = AppController(
         repository,
         questions: LocalQuestionRepository(questions: completeQuestions),
+        openingCardsEnabled: false,
       );
       await second.initialize();
       expect(second.settings.motion, false);
@@ -232,6 +234,7 @@ void main() {
       final app = AppController(
         repository,
         questions: LocalQuestionRepository(questions: completeQuestions),
+        openingCardsEnabled: false,
       );
       await app.initialize();
       await app.startSession(managementConfig());
@@ -261,6 +264,7 @@ void main() {
       final app = AppController(
         repository,
         questions: LocalQuestionRepository(questions: completeQuestions),
+        openingCardsEnabled: false,
       );
       await app.initialize();
       await app.startSession(managementConfig());
@@ -282,6 +286,7 @@ void main() {
       final app = AppController(
         repository,
         questions: LocalQuestionRepository(questions: completeQuestions),
+        openingCardsEnabled: false,
       );
       await app.initialize();
       await app.startSession(managementConfig());

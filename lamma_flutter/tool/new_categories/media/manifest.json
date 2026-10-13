@@ -1,0 +1,737 @@
+[
+  {
+    "name": "new_symbols_stop.webp",
+    "source": "https://www.gov.uk/guidance/the-highway-code/traffic-signs",
+    "sha256": "28451f15f0027d5c395226a5396d5adf5206a152320479e41b643da45e603ed2",
+    "originalDrawing": true,
+    "width": 480,
+    "height": 400
+  },
+  {
+    "name": "new_symbols_give_way.webp",
+    "source": "https://www.gov.uk/guidance/the-highway-code/traffic-signs",
+    "sha256": "d3db187fdb45dec12fc0e0ae2b087f9f2634a617c79d319f3baef46891bcc1fc",
+    "originalDrawing": true,
+    "width": 480,
+    "height": 400
+  },
+  {
+    "name": "new_symbols_no_entry.webp",
+    "source": "https://www.gov.uk/guidance/the-highway-code/traffic-signs",
+    "sha256": "cc1c8ef18b9866b51fb23b1268904ea7e2974243c972e0e5e4533bc4e99f7ebb",
+    "originalDrawing": true,
+    "width": 480,
+    "height": 400
+  },
+  {
+    "name": "new_symbols_all_vehicles.webp",
+    "source": "https://www.gov.uk/guidance/the-highway-code/traffic-signs",
+    "sha256": "e87eb2d446471f5e7c34826bd4b123146ee9eb255b95df9297aa639ee6f7a950",
+    "originalDrawing": true,
+    "width": 480,
+    "height": 400
+  },
+  {
+    "name": "new_symbols_maximum.webp",
+    "source": "https://www.gov.uk/guidance/the-highway-code/traffic-signs",
+    "sha256": "418e6d2057b7f802c66a87f0454699e5bcd5ca1d378e47c3e978d0fbf564c984",
+    "originalDrawing": true,
+    "width": 480,
+    "height": 400
+  },
+  {
+    "name": "new_symbols_minimum.webp",
+    "source": "https://www.gov.uk/guidance/the-highway-code/traffic-signs",
+    "sha256": "c063b3808e2a5266af6f4687d289957198f8b93eb277d05d1edafe0f49bcd96e",
+    "originalDrawing": true,
+    "width": 480,
+    "height": 400
+  },
+  {
+    "name": "new_symbols_national_limit.webp",
+    "source": "https://www.gov.uk/guidance/the-highway-code/traffic-signs",
+    "sha256": "67b1d64acf8370e2f7b7b55fe40b360ad0c22bf9d287f85c7fe3d068bd8c97cd",
+    "originalDrawing": true,
+    "width": 480,
+    "height": 400
+  },
+  {
+    "name": "new_symbols_no_right.webp",
+    "source": "https://www.gov.uk/guidance/the-highway-code/traffic-signs",
+    "sha256": "1fcad2e03ad985f6590953c223fc9813e9bf9ea83dd2419af24afd2ee5c9b37f",
+    "originalDrawing": true,
+    "width": 480,
+    "height": 400
+  },
+  {
+    "name": "new_symbols_no_left.webp",
+    "source": "https://www.gov.uk/guidance/the-highway-code/traffic-signs",
+    "sha256": "f0641dc8530f94c72c27128b365762898353c34c2eacdb317aa02416879159aa",
+    "originalDrawing": true,
+    "width": 480,
+    "height": 400
+  },
+  {
+    "name": "new_symbols_no_u_turn.webp",
+    "source": "https://www.gov.uk/guidance/the-highway-code/traffic-signs",
+    "sha256": "6e54c51c443801761968fb21bb9817414cc5fef237fd5bedc15950e6a8d5ced2",
+    "originalDrawing": true,
+    "width": 480,
+    "height": 400
+  },
+  {
+    "name": "new_symbols_no_waiting.webp",
+    "source": "https://www.gov.uk/guidance/the-highway-code/traffic-signs",
+    "sha256": "ef30a5325902726bcc7287300a6711af2675cb6f6fd5a423b6272cd54f0f85ec",
+    "originalDrawing": true,
+    "width": 480,
+    "height": 400
+  },
+  {
+    "name": "new_symbols_no_stopping.webp",
+    "source": "https://www.gov.uk/guidance/the-highway-code/traffic-signs",
+    "sha256": "165f268449928329d00f838effa0ecc6e669973e017e07185c903aaad61bb317",
+    "originalDrawing": true,
+    "width": 480,
+    "height": 400
+  },
+  {
+    "name": "new_symbols_ahead.webp",
+    "source": "https://www.gov.uk/guidance/the-highway-code/traffic-signs",
+    "sha256": "45c80b14b509cedb09d350ea4b179bc8f1c51818f687960a81902d38b8c578a0",
+    "originalDrawing": true,
+    "width": 480,
+    "height": 400
+  },
+  {
+    "name": "new_symbols_left_ahead.webp",
+    "source": "https://www.gov.uk/guidance/the-highway-code/traffic-signs",
+    "sha256": "91aa8e9b36980f59aa82b3f15956eedc5e23552a642e663a43969ad509f9799b",
+    "originalDrawing": true,
+    "width": 480,
+    "height": 400
+  },
+  {
+    "name": "new_symbols_left.webp",
+    "source": "https://www.gov.uk/guidance/the-highway-code/traffic-signs",
+    "sha256": "aa185e28c19d9d688968d60420632c3ce3ba2da9a181d8586afaf27f35e83a53",
+    "originalDrawing": true,
+    "width": 480,
+    "height": 400
+  },
+  {
+    "name": "new_symbols_keep_left.webp",
+    "source": "https://www.gov.uk/guidance/the-highway-code/traffic-signs",
+    "sha256": "6b9c391db7b3040e56900d197df8e18daa7f5fc63a34ad66714dfc92ed871003",
+    "originalDrawing": true,
+    "width": 480,
+    "height": 400
+  },
+  {
+    "name": "new_symbols_either_side.webp",
+    "source": "https://www.gov.uk/guidance/the-highway-code/traffic-signs",
+    "sha256": "6029b7b6ba24cc04ceba936a5623f5c4d30492548bc30098c8d095ef822ee43f",
+    "originalDrawing": true,
+    "width": 480,
+    "height": 400
+  },
+  {
+    "name": "new_symbols_one_way.webp",
+    "source": "https://www.gov.uk/guidance/the-highway-code/traffic-signs",
+    "sha256": "6e3ba3939d3b5143dc8787c78401793564684b53e56856337700dc6cf767f4b8",
+    "originalDrawing": true,
+    "width": 480,
+    "height": 400
+  },
+  {
+    "name": "new_symbols_priority_opposite.webp",
+    "source": "https://www.gov.uk/guidance/the-highway-code/traffic-signs",
+    "sha256": "7eb76afe5bb6d8567b799dc8f82d095a743a47b6a8f0f897d900b24f7974ce37",
+    "originalDrawing": true,
+    "width": 480,
+    "height": 400
+  },
+  {
+    "name": "new_symbols_no_overtaking.webp",
+    "source": "https://www.gov.uk/guidance/the-highway-code/traffic-signs",
+    "sha256": "6b61ba79cffac178355324a087218ced95bb2c244ceb49f028192e3b177ed3ee",
+    "originalDrawing": true,
+    "width": 480,
+    "height": 400
+  },
+  {
+    "name": "new_symbols_warn_crossroads.webp",
+    "source": "https://www.gov.uk/guidance/the-highway-code/traffic-signs",
+    "sha256": "26335eec6ed4f9359dfdfdc6f76b2c58ca8fbdb079575ae7ddda674cc3f1db8e",
+    "originalDrawing": true,
+    "width": 480,
+    "height": 400
+  },
+  {
+    "name": "new_symbols_warn_t_junction.webp",
+    "source": "https://www.gov.uk/guidance/the-highway-code/traffic-signs",
+    "sha256": "dc2d785b8754dd90b0ccfead1ff7a3b093b0512319a51e0c9a0eab161ce7e4e2",
+    "originalDrawing": true,
+    "width": 480,
+    "height": 400
+  },
+  {
+    "name": "new_symbols_warn_narrow_right.webp",
+    "source": "https://www.gov.uk/guidance/the-highway-code/traffic-signs",
+    "sha256": "8643252459949d73b9b765bf221885589f9cf7bae73d62e7734d304aece866a6",
+    "originalDrawing": true,
+    "width": 480,
+    "height": 400
+  },
+  {
+    "name": "new_symbols_warn_narrow_both.webp",
+    "source": "https://www.gov.uk/guidance/the-highway-code/traffic-signs",
+    "sha256": "cb25382606bb18cf3e4943094f61bf862be887a4a8f13ce89d3818d8f652c4f1",
+    "originalDrawing": true,
+    "width": 480,
+    "height": 400
+  },
+  {
+    "name": "new_symbols_warn_two_way.webp",
+    "source": "https://www.gov.uk/guidance/the-highway-code/traffic-signs",
+    "sha256": "c50e810e9c6ea2c22b04085ad5dcf81933beeaee036541abb52dfb3cfa7fc5b3",
+    "originalDrawing": true,
+    "width": 480,
+    "height": 400
+  },
+  {
+    "name": "new_symbols_warn_two_way_cross.webp",
+    "source": "https://www.gov.uk/guidance/the-highway-code/traffic-signs",
+    "sha256": "e9a9b4c3df5b9d05102d6d2d2eacb915ac434955d4499d04f20264f9a128a56e",
+    "originalDrawing": true,
+    "width": 480,
+    "height": 400
+  },
+  {
+    "name": "new_symbols_warn_traffic_lights.webp",
+    "source": "https://www.gov.uk/guidance/the-highway-code/traffic-signs",
+    "sha256": "30d8a0a32884c4629c721c06f34762c21bc7ac14db2f0e64aaac403fc029b77a",
+    "originalDrawing": true,
+    "width": 480,
+    "height": 400
+  },
+  {
+    "name": "new_symbols_warn_uneven.webp",
+    "source": "https://www.gov.uk/guidance/the-highway-code/traffic-signs",
+    "sha256": "3aab16d7a92e831ccb6581a6158aa6715d6a15ea9932222467e9a9aae1b495bf",
+    "originalDrawing": true,
+    "width": 480,
+    "height": 400
+  },
+  {
+    "name": "new_symbols_warn_bend_right.webp",
+    "source": "https://www.gov.uk/guidance/the-highway-code/traffic-signs",
+    "sha256": "819fbd00943ad3801be8e54f9b8ab34172018e4631016bc6f10365dddae73189",
+    "originalDrawing": true,
+    "width": 480,
+    "height": 400
+  },
+  {
+    "name": "new_symbols_warn_other.webp",
+    "source": "https://www.gov.uk/guidance/the-highway-code/traffic-signs",
+    "sha256": "2e66a2fb428004cd56c6382a14084e9202efc053e6631e2058e5f28a319c4083",
+    "originalDrawing": true,
+    "width": 480,
+    "height": 400
+  },
+  {
+    "name": "new_symbols_wash_40-0.webp",
+    "source": "https://www.ginetex.net/GB/labelling/care-symbols.asp",
+    "sha256": "cde96885b8ad38de98cea6411530e57cdefe9dd21dad55c8722af3510b4f0ea0",
+    "originalDrawing": true,
+    "width": 480,
+    "height": 400
+  },
+  {
+    "name": "new_symbols_wash_30-1.webp",
+    "source": "https://www.ginetex.net/GB/labelling/care-symbols.asp",
+    "sha256": "3486573b79aea310f8dc71f750e171b1f753b9b774c2ed15fef449ae676f65d9",
+    "originalDrawing": true,
+    "width": 480,
+    "height": 400
+  },
+  {
+    "name": "new_symbols_wash_30-2.webp",
+    "source": "https://www.ginetex.net/GB/labelling/care-symbols.asp",
+    "sha256": "c402c3e1c70b4aa6302205e791eda3fa953b32e39f5cc6188d5cd11d5b36da89",
+    "originalDrawing": true,
+    "width": 480,
+    "height": 400
+  },
+  {
+    "name": "new_symbols_wash_no.webp",
+    "source": "https://www.ginetex.net/GB/labelling/care-symbols.asp",
+    "sha256": "cb911190f12905665a21ed1d8167ddbbde6a3932ce164b7cb9ad9444ec090863",
+    "originalDrawing": true,
+    "width": 480,
+    "height": 400
+  },
+  {
+    "name": "new_symbols_bleach_all.webp",
+    "source": "https://www.ginetex.net/GB/labelling/care-symbols.asp",
+    "sha256": "f654b5cf547481b2dce179137ad452f4380ca7df8c1c7f792cdb015f5cd456ee",
+    "originalDrawing": true,
+    "width": 480,
+    "height": 400
+  },
+  {
+    "name": "new_symbols_bleach_oxygen.webp",
+    "source": "https://www.ginetex.net/GB/labelling/care-symbols.asp",
+    "sha256": "08c5a8f7f4a5569ed017c1aa3c6cc8c51c44b2191822e8068a458a6207dd55f3",
+    "originalDrawing": true,
+    "width": 480,
+    "height": 400
+  },
+  {
+    "name": "new_symbols_bleach_no.webp",
+    "source": "https://www.ginetex.net/GB/labelling/care-symbols.asp",
+    "sha256": "b40f4bf8b8053bc3a1c69d88db8de04f4ff09f28b3a8285d2a166065ad8e1448",
+    "originalDrawing": true,
+    "width": 480,
+    "height": 400
+  },
+  {
+    "name": "new_symbols_tumble_low.webp",
+    "source": "https://www.ginetex.net/GB/labelling/care-symbols.asp",
+    "sha256": "7db939d430e59f08932b3e9a507bb6e584a878a97681f33613ca7db50bcbc50d",
+    "originalDrawing": true,
+    "width": 480,
+    "height": 400
+  },
+  {
+    "name": "new_symbols_tumble_normal.webp",
+    "source": "https://www.ginetex.net/GB/labelling/care-symbols.asp",
+    "sha256": "26471efab47b04a32451b3ccbe5595cc9301694e9c5f2230aa593523b2c4d05f",
+    "originalDrawing": true,
+    "width": 480,
+    "height": 400
+  },
+  {
+    "name": "new_symbols_tumble_no.webp",
+    "source": "https://www.ginetex.net/GB/labelling/care-symbols.asp",
+    "sha256": "bcb0154bc5433debc7eba508a0232d35d465d4d9d3ffc48bd0347fc5824daa44",
+    "originalDrawing": true,
+    "width": 480,
+    "height": 400
+  },
+  {
+    "name": "new_symbols_iron_1.webp",
+    "source": "https://www.ginetex.net/GB/labelling/care-symbols.asp",
+    "sha256": "f3605c01c71266505a48cb16fb03c376ee29b5fe8a3bb41c0157051725778dec",
+    "originalDrawing": true,
+    "width": 480,
+    "height": 400
+  },
+  {
+    "name": "new_symbols_iron_2.webp",
+    "source": "https://www.ginetex.net/GB/labelling/care-symbols.asp",
+    "sha256": "d835e60fdfd4b98a5f08a05332864240a8976522dbc675be5f9431cf31f7b992",
+    "originalDrawing": true,
+    "width": 480,
+    "height": 400
+  },
+  {
+    "name": "new_symbols_iron_3.webp",
+    "source": "https://www.ginetex.net/GB/labelling/care-symbols.asp",
+    "sha256": "ec03611750f1da7e347ed66462243f366b84a83aec142e7a0366a4dda0df465d",
+    "originalDrawing": true,
+    "width": 480,
+    "height": 400
+  },
+  {
+    "name": "new_symbols_iron_no.webp",
+    "source": "https://www.ginetex.net/GB/labelling/care-symbols.asp",
+    "sha256": "d0892cfb0c20fbfd35d0877cc9e53d6d4a126524ec5f04edb4fcbbb8b18e8383",
+    "originalDrawing": true,
+    "width": 480,
+    "height": 400
+  },
+  {
+    "name": "new_symbols_dry_line-1-open.webp",
+    "source": "https://www.ginetex.net/GB/labelling/care-symbols.asp",
+    "sha256": "b90644e56d26c4e0b3f5f1b2372acf15162cf9861f124037a6aaec813510e6e4",
+    "originalDrawing": true,
+    "width": 480,
+    "height": 400
+  },
+  {
+    "name": "new_symbols_dry_line-2-open.webp",
+    "source": "https://www.ginetex.net/GB/labelling/care-symbols.asp",
+    "sha256": "00c1adec28c72a62f4bc47145ec24e7ddab0bb6ddeaa6cda6fd6059c4922d23f",
+    "originalDrawing": true,
+    "width": 480,
+    "height": 400
+  },
+  {
+    "name": "new_symbols_dry_flat-1-open.webp",
+    "source": "https://www.ginetex.net/GB/labelling/care-symbols.asp",
+    "sha256": "929caf6049d29bc914ac3c4f98bfdd153a2d80556e61e4e5658830dfe8c8bc69",
+    "originalDrawing": true,
+    "width": 480,
+    "height": 400
+  },
+  {
+    "name": "new_symbols_dry_flat-2-open.webp",
+    "source": "https://www.ginetex.net/GB/labelling/care-symbols.asp",
+    "sha256": "a6c19832b3f4d494e4933b6a02532dad47c0d51498855d09c827125523411d32",
+    "originalDrawing": true,
+    "width": 480,
+    "height": 400
+  },
+  {
+    "name": "new_symbols_dry_line-1-shade.webp",
+    "source": "https://www.ginetex.net/GB/labelling/care-symbols.asp",
+    "sha256": "af2aba65d509a7d8f3c1d61640dbcda22f3f4255528d023e2359fe863b71dd14",
+    "originalDrawing": true,
+    "width": 480,
+    "height": 400
+  },
+  {
+    "name": "new_symbols_dry_line-2-shade.webp",
+    "source": "https://www.ginetex.net/GB/labelling/care-symbols.asp",
+    "sha256": "1eeb3ba7e4968de207719dec4c5320c716ba42bab258d6428dfb0af67c0a9a58",
+    "originalDrawing": true,
+    "width": 480,
+    "height": 400
+  },
+  {
+    "name": "new_symbols_dry_flat-1-shade.webp",
+    "source": "https://www.ginetex.net/GB/labelling/care-symbols.asp",
+    "sha256": "f05b1e11659bdf262201921ee605316418b2d74be4d0a056843d40c6d6e7f46e",
+    "originalDrawing": true,
+    "width": 480,
+    "height": 400
+  },
+  {
+    "name": "new_symbols_dry_flat-2-shade.webp",
+    "source": "https://www.ginetex.net/GB/labelling/care-symbols.asp",
+    "sha256": "ad4c44e48b2408913f9a51443d87fcf3a31daaf64b0ace428c47dadf7d2bf2a7",
+    "originalDrawing": true,
+    "width": 480,
+    "height": 400
+  },
+  {
+    "name": "new_symbols_clean_P-0-yes.webp",
+    "source": "https://www.ginetex.net/GB/labelling/care-symbols.asp",
+    "sha256": "5edb51641509ca9e8d7d6fb639c7b17e34349ccf5db4f086d9c1c989541122e5",
+    "originalDrawing": true,
+    "width": 480,
+    "height": 400
+  },
+  {
+    "name": "new_symbols_clean_P-1-yes.webp",
+    "source": "https://www.ginetex.net/GB/labelling/care-symbols.asp",
+    "sha256": "d7006ec1eae1952a599f786d292ed32a70ca13ead08171c8501eadb22314e2e6",
+    "originalDrawing": true,
+    "width": 480,
+    "height": 400
+  },
+  {
+    "name": "new_symbols_clean_F-0-yes.webp",
+    "source": "https://www.ginetex.net/GB/labelling/care-symbols.asp",
+    "sha256": "a271b54832d26192f8fa0a44bc1908a5bb87be69b3d1637c50ae87cf9a1cf853",
+    "originalDrawing": true,
+    "width": 480,
+    "height": 400
+  },
+  {
+    "name": "new_symbols_clean_F-1-yes.webp",
+    "source": "https://www.ginetex.net/GB/labelling/care-symbols.asp",
+    "sha256": "7de19e5ccfe85652b4418c7b863f5f74b4a25ab48d4baddc53672ea523cd49ae",
+    "originalDrawing": true,
+    "width": 480,
+    "height": 400
+  },
+  {
+    "name": "new_symbols_clean_W-0-yes.webp",
+    "source": "https://www.ginetex.net/GB/labelling/care-symbols.asp",
+    "sha256": "66b6398ec948b35ee18fa877d4f373c77c6982f2ae0f0e48d3adecbd8090f4eb",
+    "originalDrawing": true,
+    "width": 480,
+    "height": 400
+  },
+  {
+    "name": "new_symbols_clean_W-1-yes.webp",
+    "source": "https://www.ginetex.net/GB/labelling/care-symbols.asp",
+    "sha256": "7f785f8fc83fe6e05246647fe329bdd616c6b36063977ef17a46fe1027417077",
+    "originalDrawing": true,
+    "width": 480,
+    "height": 400
+  },
+  {
+    "name": "new_symbols_clean_W-2-yes.webp",
+    "source": "https://www.ginetex.net/GB/labelling/care-symbols.asp",
+    "sha256": "f2a25b6260dfefde6c7a4bc149443f1596f98e3308af4ecc9748c76f59e03216",
+    "originalDrawing": true,
+    "width": 480,
+    "height": 400
+  },
+  {
+    "name": "new_symbols_clean_none-0-no.webp",
+    "source": "https://www.ginetex.net/GB/labelling/care-symbols.asp",
+    "sha256": "38ca0e005b7d30f2a2a8da644426c8e9c500c0d6a512a7c909ffb562ceed155c",
+    "originalDrawing": true,
+    "width": 480,
+    "height": 400
+  },
+  {
+    "name": "new_symbols_resistor.webp",
+    "source": "https://learn.sparkfun.com/tutorials/how-to-read-a-schematic/schematic-symbols-part-1",
+    "sha256": "088a5ea7aae470a9da0814dc395ca15367369e5ab6755479621739b636113e0c",
+    "originalDrawing": true,
+    "width": 480,
+    "height": 400
+  },
+  {
+    "name": "new_symbols_capacitor.webp",
+    "source": "https://learn.sparkfun.com/tutorials/how-to-read-a-schematic/schematic-symbols-part-1",
+    "sha256": "5e6dcad0fd1d9fa9955de7713298a011454227334684b5f6b65d8b083cac8b9d",
+    "originalDrawing": true,
+    "width": 480,
+    "height": 400
+  },
+  {
+    "name": "new_symbols_inductor.webp",
+    "source": "https://learn.sparkfun.com/tutorials/how-to-read-a-schematic/schematic-symbols-part-1",
+    "sha256": "c39eb7b4620ceb44b3f53190e4dbaa2379d1248e6e350efd23807efa2a9a4200",
+    "originalDrawing": true,
+    "width": 480,
+    "height": 400
+  },
+  {
+    "name": "new_symbols_cell.webp",
+    "source": "https://learn.sparkfun.com/tutorials/how-to-read-a-schematic/all.pdf",
+    "sha256": "77b279ff0cbffb2be3c53751ac5dd85c8c4ea24acb2c7b9c594dafc44e07809e",
+    "originalDrawing": true,
+    "width": 480,
+    "height": 400
+  },
+  {
+    "name": "new_symbols_lamp.webp",
+    "source": "https://www.learningaboutelectronics.com/Articles/Lamp-schematic-symbol.php",
+    "sha256": "8d97bfef3f1bac3fa8b175cfe6013258ab799133588edd022b8bded495b6640f",
+    "originalDrawing": true,
+    "width": 480,
+    "height": 400
+  },
+  {
+    "name": "new_symbols_variable.webp",
+    "source": "https://learn.sparkfun.com/tutorials/how-to-read-a-schematic/schematic-symbols-part-1",
+    "sha256": "aec5bce178ebe2e8fe00c8b41db8c92481a8aaa6ed0560515d9920a436c051cd",
+    "originalDrawing": true,
+    "width": 480,
+    "height": 400
+  },
+  {
+    "name": "new_symbols_potentiometer.webp",
+    "source": "https://learn.sparkfun.com/tutorials/how-to-read-a-schematic/schematic-symbols-part-1",
+    "sha256": "9110b435b9303e0b9090bfdfb29abc836904c179b3d1a678c45096205c6d468b",
+    "originalDrawing": true,
+    "width": 480,
+    "height": 400
+  },
+  {
+    "name": "new_symbols_polarized.webp",
+    "source": "https://learn.sparkfun.com/tutorials/how-to-read-a-schematic/schematic-symbols-part-1",
+    "sha256": "b55467c57a19c4d0f41295adcc8879669613bad6de8d3ebc858048c06657fefd",
+    "originalDrawing": true,
+    "width": 480,
+    "height": 400
+  },
+  {
+    "name": "new_symbols_diode.webp",
+    "source": "https://learn.sparkfun.com/tutorials/diodes/all",
+    "sha256": "89b949c7df181b955683d669675e21ddc6b2bdbecffbdc0aa5bd14d2e4554761",
+    "originalDrawing": true,
+    "width": 480,
+    "height": 400
+  },
+  {
+    "name": "new_symbols_led.webp",
+    "source": "https://learn.sparkfun.com/tutorials/diodes/all",
+    "sha256": "9971589f365c527e0d4a5c2beeae501f6e84f2a7d32f109196e8f9ba542412dd",
+    "originalDrawing": true,
+    "width": 480,
+    "height": 400
+  },
+  {
+    "name": "new_symbols_photodiode.webp",
+    "source": "https://learn.sparkfun.com/tutorials/diodes/all",
+    "sha256": "38e68c766df8d854f3ca6b9a210fc46f9d7487742e759f523282cd4e1a79079e",
+    "originalDrawing": true,
+    "width": 480,
+    "height": 400
+  },
+  {
+    "name": "new_symbols_npn.webp",
+    "source": "https://learn.sparkfun.com/tutorials/transistors/all",
+    "sha256": "2aacce2d00a4d93e1e8b202b95e7e7a8ead8c1c285905704caa0a3dba197fa03",
+    "originalDrawing": true,
+    "width": 480,
+    "height": 400
+  },
+  {
+    "name": "new_symbols_pnp.webp",
+    "source": "https://learn.sparkfun.com/tutorials/transistors/all",
+    "sha256": "c58cc15d1988e8222ec9fdcb68175ac03ee73a0e090ed2d577a3f6f9ed563c51",
+    "originalDrawing": true,
+    "width": 480,
+    "height": 400
+  },
+  {
+    "name": "new_symbols_spdt.webp",
+    "source": "https://learn.sparkfun.com/tutorials/how-to-read-a-schematic/schematic-symbols-part-1",
+    "sha256": "1f8b0f1beb986bf7dbc403f8ac94e8b2f8fcde079b514728dca326637ad949e7",
+    "originalDrawing": true,
+    "width": 480,
+    "height": 400
+  },
+  {
+    "name": "new_symbols_music_1d11e.webp",
+    "source": "https://github.com/steinbergmedia/bravura",
+    "sha256": "cd36359f44eb380f04b48a1d67bae3b8ce98c200f876f20964a15a8fca10a821",
+    "originalDrawing": false,
+    "width": 480,
+    "height": 400,
+    "renderedFrom": "Unmodified Bravura under SIL OFL 1.1",
+    "fontRevision": "37b194378b710cc40e406ab6c4b07608bb9548ae",
+    "unicodeCodepoint": "U+1D11E"
+  },
+  {
+    "name": "new_symbols_music_1d122.webp",
+    "source": "https://github.com/steinbergmedia/bravura",
+    "sha256": "0b45b34df20998cc6bd04d8a77e10c3764bc700fceb99fa93757d9de35d38130",
+    "originalDrawing": false,
+    "width": 480,
+    "height": 400,
+    "renderedFrom": "Unmodified Bravura under SIL OFL 1.1",
+    "fontRevision": "37b194378b710cc40e406ab6c4b07608bb9548ae",
+    "unicodeCodepoint": "U+1D122"
+  },
+  {
+    "name": "new_symbols_music_1d121.webp",
+    "source": "https://github.com/steinbergmedia/bravura",
+    "sha256": "2786a0b900833aadeb96b42b600419b177e90eae358a650607f3029abaa930f7",
+    "originalDrawing": false,
+    "width": 480,
+    "height": 400,
+    "renderedFrom": "Unmodified Bravura under SIL OFL 1.1",
+    "fontRevision": "37b194378b710cc40e406ab6c4b07608bb9548ae",
+    "unicodeCodepoint": "U+1D121"
+  },
+  {
+    "name": "new_symbols_music_1d12a.webp",
+    "source": "https://github.com/steinbergmedia/bravura",
+    "sha256": "3796e2907b1fd61acd2ec7869d327814d2c8fb6c37bb9d7e44dd5791c9e0eab8",
+    "originalDrawing": false,
+    "width": 480,
+    "height": 400,
+    "renderedFrom": "Unmodified Bravura under SIL OFL 1.1",
+    "fontRevision": "37b194378b710cc40e406ab6c4b07608bb9548ae",
+    "unicodeCodepoint": "U+1D12A"
+  },
+  {
+    "name": "new_symbols_music_1d12b.webp",
+    "source": "https://github.com/steinbergmedia/bravura",
+    "sha256": "d27ef27a3f7f6dc14edf760983b192a189219e84f785fb5a7901bc8f3c07ac47",
+    "originalDrawing": false,
+    "width": 480,
+    "height": 400,
+    "renderedFrom": "Unmodified Bravura under SIL OFL 1.1",
+    "fontRevision": "37b194378b710cc40e406ab6c4b07608bb9548ae",
+    "unicodeCodepoint": "U+1D12B"
+  },
+  {
+    "name": "new_symbols_music_1d110.webp",
+    "source": "https://github.com/steinbergmedia/bravura",
+    "sha256": "e10078e784467610d69054428bf6ac602b349126372aff49225e08134cc9af8e",
+    "originalDrawing": false,
+    "width": 480,
+    "height": 400,
+    "renderedFrom": "Unmodified Bravura under SIL OFL 1.1",
+    "fontRevision": "37b194378b710cc40e406ab6c4b07608bb9548ae",
+    "unicodeCodepoint": "U+1D110"
+  },
+  {
+    "name": "new_symbols_music_1d10b.webp",
+    "source": "https://github.com/steinbergmedia/bravura",
+    "sha256": "27beea7143b5f00aefd890487931b5e74a9b2cd919491763e62eb94ecc203ac7",
+    "originalDrawing": false,
+    "width": 480,
+    "height": 400,
+    "renderedFrom": "Unmodified Bravura under SIL OFL 1.1",
+    "fontRevision": "37b194378b710cc40e406ab6c4b07608bb9548ae",
+    "unicodeCodepoint": "U+1D10B"
+  },
+  {
+    "name": "new_symbols_music_1d10c.webp",
+    "source": "https://github.com/steinbergmedia/bravura",
+    "sha256": "05813a8d58a16c7634a455e809c0e2ae7b300a96d5bc9f9fca2e87483704843c",
+    "originalDrawing": false,
+    "width": 480,
+    "height": 400,
+    "renderedFrom": "Unmodified Bravura under SIL OFL 1.1",
+    "fontRevision": "37b194378b710cc40e406ab6c4b07608bb9548ae",
+    "unicodeCodepoint": "U+1D10C"
+  },
+  {
+    "name": "new_symbols_music_1d106.webp",
+    "source": "https://github.com/steinbergmedia/bravura",
+    "sha256": "7b1ea5d1bdfe1551eb305f4d339b06624625494119de6f29e1de6bb90c128828",
+    "originalDrawing": false,
+    "width": 480,
+    "height": 400,
+    "renderedFrom": "Unmodified Bravura under SIL OFL 1.1",
+    "fontRevision": "37b194378b710cc40e406ab6c4b07608bb9548ae",
+    "unicodeCodepoint": "U+1D106"
+  },
+  {
+    "name": "new_symbols_music_1d107.webp",
+    "source": "https://github.com/steinbergmedia/bravura",
+    "sha256": "df087077b751a4b89171a9f4c4a89def416b11c96c893d02739e8ecf66a85572",
+    "originalDrawing": false,
+    "width": 480,
+    "height": 400,
+    "renderedFrom": "Unmodified Bravura under SIL OFL 1.1",
+    "fontRevision": "37b194378b710cc40e406ab6c4b07608bb9548ae",
+    "unicodeCodepoint": "U+1D107"
+  },
+  {
+    "name": "new_symbols_music_1d100.webp",
+    "source": "https://github.com/steinbergmedia/bravura",
+    "sha256": "785f365465d152ef2fcfdd9772a10f3f68bd41369b6469ef7ee35e43ef29805f",
+    "originalDrawing": false,
+    "width": 480,
+    "height": 400,
+    "renderedFrom": "Unmodified Bravura under SIL OFL 1.1",
+    "fontRevision": "37b194378b710cc40e406ab6c4b07608bb9548ae",
+    "unicodeCodepoint": "U+1D100"
+  },
+  {
+    "name": "new_symbols_music_1d101.webp",
+    "source": "https://github.com/steinbergmedia/bravura",
+    "sha256": "0dcc99a8fa511d5a7ea9bdf747551c8622e0b0332e297f5079fe1943a3977c66",
+    "originalDrawing": false,
+    "width": 480,
+    "height": 400,
+    "renderedFrom": "Unmodified Bravura under SIL OFL 1.1",
+    "fontRevision": "37b194378b710cc40e406ab6c4b07608bb9548ae",
+    "unicodeCodepoint": "U+1D101"
+  },
+  {
+    "name": "new_symbols_music_1d102.webp",
+    "source": "https://github.com/steinbergmedia/bravura",
+    "sha256": "99705f5fb43712355b05734a0c5d25cebefd334f04215f2a7062de492136b9b6",
+    "originalDrawing": false,
+    "width": 480,
+    "height": 400,
+    "renderedFrom": "Unmodified Bravura under SIL OFL 1.1",
+    "fontRevision": "37b194378b710cc40e406ab6c4b07608bb9548ae",
+    "unicodeCodepoint": "U+1D102"
+  }
+]

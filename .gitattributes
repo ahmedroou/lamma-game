@@ -1,0 +1,4 @@
+# Keep source and documentation diffs consistent across Windows and other hosts.
+*.dart text eol=lf
+*.md text eol=lf
+*.py text eol=lf

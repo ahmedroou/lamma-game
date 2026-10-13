@@ -1,0 +1,81 @@
+{
+  "abbreviations": {
+    "sha256": "b57e4e72392fd8316765de3422b2623b84ee3703bf4739828b503536ff044fbd",
+    "count": 300,
+    "perDifficulty": {
+      "easy": 75,
+      "medium": 75,
+      "hard": 75,
+      "legendary": 75
+    },
+    "answersByLetter": {
+      "E": 50,
+      "A": 50,
+      "F": 50,
+      "D": 50,
+      "C": 50,
+      "B": 50
+    },
+    "uniqueDisplayedQuestions": 300,
+    "uniqueImages": 0,
+    "primarySourceURLs": 23,
+    "nonemptyOptionsChecked": 1800,
+    "emptyOptions": 0,
+    "reviewed": 0,
+    "unreviewed": 300
+  },
+  "symbols_signals": {
+    "sha256": "247b8e7b82b7cd42da662304a044f0fca02aebb04a7e5da7e3ac10f1a58bd724",
+    "count": 300,
+    "perDifficulty": {
+      "easy": 75,
+      "medium": 75,
+      "hard": 75,
+      "legendary": 75
+    },
+    "answersByLetter": {
+      "F": 50,
+      "D": 50,
+      "B": 50,
+      "E": 50,
+      "C": 50,
+      "A": 50
+    },
+    "uniqueDisplayedQuestions": 300,
+    "uniqueImages": 87,
+    "primarySourceURLs": 19,
+    "nonemptyOptionsChecked": 1800,
+    "emptyOptions": 0,
+    "reviewed": 0,
+    "unreviewed": 300
+  },
+  "currency_stories": {
+    "sha256": "6f84e05afd13f257b62915bce981963248c6898a758691e451a712938953c9ea",
+    "count": 300,
+    "perDifficulty": {
+      "easy": 75,
+      "medium": 75,
+      "hard": 75,
+      "legendary": 75
+    },
+    "answersByLetter": {
+      "D": 50,
+      "C": 50,
+      "B": 50,
+      "A": 50,
+      "F": 50,
+      "E": 50
+    },
+    "uniqueDisplayedQuestions": 300,
+    "uniqueImages": 0,
+    "primarySourceURLs": 36,
+    "nonemptyOptionsChecked": 1800,
+    "emptyOptions": 0,
+    "reviewed": 0,
+    "unreviewed": 300
+  },
+  "media": {
+    "images": 87,
+    "manifestChecks": "87/87 SHA-256 matched"
+  }
+}

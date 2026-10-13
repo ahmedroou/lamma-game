@@ -5,6 +5,8 @@ import 'package:path/path.dart' as path;
 import 'package:sembast/sembast_io.dart';
 import 'package:lamma/data/repositories/local_game_repository.dart';
 import 'package:lamma/domain/models/question.dart';
+import 'package:crypto/crypto.dart';
+import '../features/numeric_usage_fallback_test.dart' show signed;
 import 'package:lamma/domain/models/session_save.dart';
 import 'package:lamma/features/session/session_view_model.dart';
 import '../fixtures/questions.dart';
@@ -141,7 +143,7 @@ void main() {
     },
   );
   test(
-    'A different question ID, whitespace or category cannot recycle viewed content',
+    'Text is not a device usage identity; editing an existing ID retains its history',
     () async {
       final vm = await checkpoint();
       vm.revealCard(2);
@@ -155,7 +157,7 @@ void main() {
         difficulty: original.difficulty,
       );
       final usage = await repository.prepareUsage([...seedQuestions, renamed]);
-      expect(usage.contains(renamed), true);
+      expect(usage.contains(renamed), false);
       final changed = Question(
         id: original.id,
         categoryId: original.categoryId,
@@ -339,6 +341,80 @@ void main() {
         throwsFormatException,
       );
       expect(await usageStore.record('page.0').get(repository.database), raw);
+    },
+  );
+  test(
+    'Old text-sharing ledger migrates to independent numeric slots and survives a real reopen',
+    () async {
+      final numbered = [
+        for (var i = 0; i < seedQuestions.length; i++)
+          Question.fromJson({
+            ...seedQuestions[i].toJson(),
+            'usageId': '${80000 + i}',
+          }),
+      ];
+      final page = List.filled(512, 0)..[0] = 1;
+      for (var i = 0; i < seedQuestions.length; i++) {
+        final index = i == 1 ? 0 : i;
+        final idKey = 'id.${sha256.convert(utf8.encode(seedQuestions[i].id))}';
+        await usageStore
+            .record(idKey)
+            .put(repository.database, signed({'index': index}));
+        await usageStore
+            .record('content.old-$i')
+            .put(repository.database, signed({'index': index}));
+      }
+      await usageStore
+          .record('page.0')
+          .put(repository.database, signed({'bits': base64Encode(page)}));
+      await usageStore
+          .record('meta')
+          .put(
+            repository.database,
+            signed({
+              'version': 1,
+              'next': seedQuestions.length,
+              'aliases': seedQuestions.length * 2,
+            }),
+          );
+      final usage = await repository.prepareUsage(numbered);
+      expect(usage.contains(numbered[0]), true);
+      expect(usage.contains(numbered[1]), true);
+      final first = await usageStore
+          .record('number.${numbered[0].usageId}')
+          .get(repository.database);
+      final second = await usageStore
+          .record('number.${numbered[1].usageId}')
+          .get(repository.database);
+      expect(first!['index'], isNot(second!['index']));
+      await repository.resetCategory('myths', numbered);
+      await repository.close();
+      repository = SembastGameRepository(
+        await databaseFactoryIo.openDatabase(databasePath),
+      );
+      final reopened = await repository.prepareUsage(numbered);
+      expect(reopened.contains(numbered[0]), false);
+      expect(reopened.contains(numbered[1]), true);
+      final edited = Question.fromJson({
+        ...numbered[1].toJson(),
+        'text': 'نص مختلف تماماً',
+        'answer': 'جواب محرر',
+      });
+      expect(
+        (await repository.prepareUsage([
+          ...numbered.where((q) => q.id != edited.id),
+          edited,
+        ])).contains(edited),
+        true,
+      );
+      final changedNumber = Question.fromJson({
+        ...edited.toJson(),
+        'usageId': '99999',
+      });
+      await expectLater(
+        repository.prepareUsage([changedNumber]),
+        throwsStateError,
+      );
     },
   );
   test(

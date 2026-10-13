@@ -1,0 +1,352 @@
+[
+  {
+    "acronym": "URL",
+    "answer": "Uniform Resource Locator",
+    "excerpt": "and 'URN'.\" (RFC 3986) $ uniform resource locator (URL) (I) A URI that describes the access method and location of an information reso"
+  },
+  {
+    "acronym": "HTTP",
+    "answer": "Hypertext Transfer Protocol",
+    "excerpt": "anguage. $ HTTP (I) See: Hypertext Transfer Protocol. $ https (I) When used in the first part of a URL (the part that precedes the colon "
+  },
+  {
+    "acronym": "FTP",
+    "answer": "File Transfer Protocol",
+    "excerpt": "that standard [FP140]. $ File Transfer Protocol (FTP) (I) A TCP-based, Application-Layer, Internet Standard protocol (RFC 959) for m"
+  },
+  {
+    "acronym": "TCP",
+    "answer": "Transmission Control Protocol",
+    "excerpt": "ng Group. $ TCP (I) See: Transmission Control Protocol. $ TCP/IP (I) Synonym for \"Internet Protocol Suite\". $ TCSEC (N) See: Trusted Comput"
+  },
+  {
+    "acronym": "IP",
+    "answer": "Internet Protocol",
+    "excerpt": "are proper nouns (e.g., \"Internet Protocol\") for which the definition is intended only to provide basic information; i.e., the "
+  },
+  {
+    "acronym": "DNS",
+    "answer": "Domain Name System",
+    "excerpt": "hed name. $ DNS (I) See: Domain Name System. $ doctrine See: security doctrine. $ DoD (N) Department of Defense. Usage: To avoid"
+  },
+  {
+    "acronym": "LAN",
+    "answer": "Local Area Network",
+    "excerpt": "AN (I) Abbreviation for \"local area network\" [R1983]. (See: [FP191].) $ land attack (I) A denial-of-service attack that sends an"
+  },
+  {
+    "acronym": "WAN",
+    "answer": "Wide Area Network",
+    "excerpt": "NOT FOUND"
+  },
+  {
+    "acronym": "VPN",
+    "answer": "Virtual Private Network",
+    "excerpt": "e: security violation. $ virtual private network (VPN) (I) A restricted-use, logical (i.e., artificial or simulated) computer network"
+  },
+  {
+    "acronym": "PIN",
+    "answer": "Personal Identification Number",
+    "excerpt": "ber or representative. $ personal identification number (PIN) 1a. (I) A character string used as a password to gain access to a system resou"
+  },
+  {
+    "acronym": "DoS",
+    "answer": "Denial of Service",
+    "excerpt": "st them. (See: critical, denial of service. Compare: precedence, reliability, survivability.) 2. (O) \"The property of being acc"
+  },
+  {
+    "acronym": "WWW",
+    "answer": "World Wide Web",
+    "excerpt": "tion from servers on the World Wide Web. Examples: Netscape Navigator and Microsoft Internet Explorer. $ brute force (I) A c"
+  },
+  {
+    "acronym": "ISP",
+    "answer": "Internet Service Provider",
+    "excerpt": " Suppose network A of an internet service provider (ISP) includes a filtering router that is connected to customer network B, and an at"
+  },
+  {
+    "acronym": "USB",
+    "answer": "Universal Serial Bus",
+    "excerpt": "NOT FOUND"
+  },
+  {
+    "acronym": "MAC",
+    "answer": "Message Authentication Code",
+    "excerpt": "ata Authentication Code, Message Authentication Code.) Deprecated Term: IDOCs SHOULD NOT use this uncapitalized term as a synonym for any"
+  },
+  {
+    "acronym": "UDP",
+    "answer": "User Datagram Protocol",
+    "excerpt": "\" [C4009] $ UDP (I) See: User Datagram Protocol. $ UDP flood (I) A denial-of-service attack that takes advantage of (a) one system's"
+  },
+  {
+    "acronym": "SMTP",
+    "answer": "Simple Mail Transfer Protocol",
+    "excerpt": "with that session key. $ Simple Mail Transfer Protocol (SMTP) (I) A TCP-based, Application-Layer, Internet Standard protocol (RFC 821) for "
+  },
+  {
+    "acronym": "IMAP",
+    "answer": "Internet Message Access Protocol",
+    "excerpt": "change. $ IMAP4 (I) See: Internet Message Access Protocol, version 4. $ IMAP4 AUTHENTICATE (I) An IMAP4 command (better described as a transac"
+  },
+  {
+    "acronym": "SNMP",
+    "answer": "Simple Network Management Protocol",
+    "excerpt": "C 1901). (See: password, Simple Network Management Protocol.) Tutorial: The SNMPv1 and SNMPv2 protocols have been declared \"historic\" and have b"
+  },
+  {
+    "acronym": "TLS",
+    "answer": "Transport Layer Security",
+    "excerpt": "nt and the server. (See: Transport Layer Security.) Shirey Informational [Page 263] RFC 4949 Internet Security Glossary, Version 2 Aug"
+  },
+  {
+    "acronym": "SSL",
+    "answer": "Secure Sockets Layer",
+    "excerpt": "thentication protocol. $ Secure Sockets Layer (SSL) (N) An Internet protocol (originally developed by Netscape Communications, Inc"
+  },
+  {
+    "acronym": "SSH",
+    "answer": "Secure Shell",
+    "excerpt": "multicast application. $ Secure Shell(trademark) (SSH(trademark)) (N) Refers to a protocol for secure remote login and oth"
+  },
+  {
+    "acronym": "HTML",
+    "answer": "Hypertext Markup Language",
+    "excerpt": "d hosts. $ HTML (I) See: Hypertext Markup Language. $ HTTP (I) See: Hypertext Transfer Protocol. $ https (I) When used in the first par"
+  },
+  {
+    "acronym": "XML",
+    "answer": "Extensible Markup Language",
+    "excerpt": "h as SASL and GSS-API. $ Extensible Markup Language (XML) (N) A version of Standard Generalized Markup Language (ISO 8879) that separate"
+  },
+  {
+    "acronym": "AES",
+    "answer": "Advanced Encryption Standard",
+    "excerpt": "perational capability. $ Advanced Encryption Standard (AES) (N) A U.S. Government standard [FP197] (the successor to DES) that (a) specifi"
+  },
+  {
+    "acronym": "DES",
+    "answer": "Data Encryption Standard",
+    "excerpt": "tional authority (e.g., \"Data Encryption Standard\"), or an international body (e.g., \"data confidentiality\") -- that is suitable for u"
+  },
+  {
+    "acronym": "RSA",
+    "answer": "Rivest-Shamir-Adleman",
+    "excerpt": "candidate for the AES. $ Rivest-Shamir-Adleman (RSA) (N) An algorithm for asymmetric cryptography, invented in 1977 by Ron Rivest, "
+  },
+  {
+    "acronym": "SHA",
+    "answer": "Secure Hash Algorithm",
+    "excerpt": " trusted distribution. $ Secure Hash Algorithm (SHA) (N) A cryptographic hash function (specified in SHS) that produces an output ("
+  },
+  {
+    "acronym": "PKI",
+    "answer": "Public-Key Infrastructure",
+    "excerpt": "e References.) $ Federal Public-key Infrastructure (FPKI) (O) A PKI being planned to establish facilities, specifications, and policies"
+  },
+  {
+    "acronym": "IDS",
+    "answer": "Intrusion Detection System",
+    "excerpt": "ly known. $ IDS (I) See: intrusion detection system. $ IEEE (N) See: Institute of Electrical and Electronics Engineers, Inc. $ IEEE 802."
+  },
+  {
+    "acronym": "ACL",
+    "answer": "Access Control List",
+    "excerpt": "e: BLACKER, Kerberos.) $ access control list (ACL) (I) /information system/ A mechanism that implements access control for a syst"
+  },
+  {
+    "acronym": "CA",
+    "answer": "Certification Authority",
+    "excerpt": " not capitalized (e.g., \"certification authority\"). Each acronym or other abbreviation that appears in this Glossary, either as an en"
+  },
+  {
+    "acronym": "CRL",
+    "answer": "Certificate Revocation List",
+    "excerpt": " Version 2 August 2007 $ certificate revocation list (CRL) 1. (I) A data structure that enumerates digital certificates that have been in"
+  },
+  {
+    "acronym": "OCSP",
+    "answer": "Online Certificate Status Protocol",
+    "excerpt": "ooding.) $ OCSP (I) See: Online Certificate Status Protocol. $ octet (I) A data unit of eight bits. (Compare: byte.) Usage: This term is used in"
+  },
+  {
+    "acronym": "DHCP",
+    "answer": "Dynamic Host Configuration Protocol",
+    "excerpt": "NOT FOUND"
+  },
+  {
+    "acronym": "ICMP",
+    "answer": "Internet Control Message Protocol",
+    "excerpt": "Numbers. $ ICMP (I) See: Internet Control Message Protocol. $ ICMP flood (I) A denial-of-service attack that sends a host more ICMP echo reques"
+  },
+  {
+    "acronym": "ARP",
+    "answer": "Address Resolution Protocol",
+    "excerpt": "NOT FOUND"
+  },
+  {
+    "acronym": "NAT",
+    "answer": "Network Address Translation",
+    "excerpt": "NOT FOUND"
+  },
+  {
+    "acronym": "NTP",
+    "answer": "Network Time Protocol",
+    "excerpt": "NOT FOUND"
+  },
+  {
+    "acronym": "PPP",
+    "answer": "Point-to-Point Protocol",
+    "excerpt": " management authority. $ Point-to-Point Protocol (PPP) (I) An Internet Standard protocol (RFC 1661) for encapsulation and full-duplex"
+  },
+  {
+    "acronym": "CHAP",
+    "answer": "Challenge Handshake Authentication Protocol",
+    "excerpt": " (D) See: trust chain. $ Challenge Handshake Authentication Protocol (CHAP) (I) A peer entity authentication method (employed by PPP and other protocols,"
+  },
+  {
+    "acronym": "PAP",
+    "answer": "Password Authentication Protocol",
+    "excerpt": "t number. $ PAP (I) See: Password Authentication Protocol. $ parity bit (I) A checksum that is computed on a block of bits by computing the bi"
+  },
+  {
+    "acronym": "SASL",
+    "answer": "Simple Authentication and Security Layer",
+    "excerpt": "program. $ SASL (I) See: Simple Authentication and Security Layer. $ SCA (I) See: subordinate certification authority. $ scavenging (I) /threat action"
+  },
+  {
+    "acronym": "S/MIME",
+    "answer": "Secure/Multipurpose Internet Mail Extensions",
+    "excerpt": "Secure/MIME (S/MIME) (I) Secure/Multipurpose Internet Mail Extensions, an Internet protocol [R3851] to provide encryption and digital signatures for Inter"
+  },
+  {
+    "acronym": "PGP",
+    "answer": "Pretty Good Privacy",
+    "excerpt": " PGP(trademark) (O) See: Pretty Good Privacy(trademark). $ phase 1 negotiation $ phase 2 negotiation (I) /ISAKMP/ See: secondary "
+  },
+  {
+    "acronym": "HMAC",
+    "answer": "Keyed-Hash Message Authentication Code",
+    "excerpt": "$ HMAC (I) A keyed hash [R2104] that can be based on any iterated cryptographic hash (e.g., MD5 or SHA-1), so that the cryptographic strength of HMAC depends on the properties of the selected cryptographic hash. (See: [R2202, R2403, R2404].) Shirey Informational [Page 142] RFC 4949 Internet Security"
+  },
+  {
+    "acronym": "CBC",
+    "answer": "Cipher Block Chaining",
+    "excerpt": "kstation. $ CBC (N) See: cipher block chaining. $ CCA (O) See: cardholder certification authority. $ CCEP (O) See: Commercial COMSE"
+  },
+  {
+    "acronym": "ECB",
+    "answer": "Electronic Codebook",
+    "excerpt": "nication. $ ECB (N) See: electronic codebook. $ ECDSA (N) See: Elliptic Curve Digital Signature Algorithm. Shirey Informational ["
+  },
+  {
+    "acronym": "CFB",
+    "answer": "Cipher Feedback",
+    "excerpt": "CA's CPS. $ CFB (N) See: cipher feedback. $ chain (D) See: trust chain. $ Challenge Handshake Authentication Protocol (CHAP) "
+  },
+  {
+    "acronym": "OFB",
+    "answer": "Output Feedback",
+    "excerpt": "ght bits. $ OFB (N) See: output feedback. $ off-line attack (I) See: secondary definition under \"attack\". $ ohnosecond (D) Th"
+  },
+  {
+    "acronym": "CTR",
+    "answer": "Counter",
+    "excerpt": "mplementing an effective countermeasure for the associated vulnerability exceeds the expectation of loss. (See: adequ"
+  },
+  {
+    "acronym": "IV",
+    "answer": "Initialization Vector",
+    "excerpt": "hat provided by a key. $ initialization vector (D) /cryptography/ Synonym for \"initialization value\". Deprecated Term: To avoid int"
+  },
+  {
+    "acronym": "KDC",
+    "answer": "Key Distribution Center",
+    "excerpt": "re: KEK.) $ KDC (I) See: Key Distribution Center. $ KEA (N) See: Key Exchange Algorithm. $ KEK (I) See: key-encrypting key. (Compare:"
+  },
+  {
+    "acronym": "TGS",
+    "answer": "Ticket-Granting Service",
+    "excerpt": "NOT FOUND"
+  },
+  {
+    "acronym": "ESP",
+    "answer": "Encapsulating Security Payload",
+    "excerpt": "ns. [EMV1, EMV2, EMV3] $ Encapsulating Security Payload (ESP) (I) An Internet protocol [R2406, R4303] designed to provide data confidentiali"
+  },
+  {
+    "acronym": "AH",
+    "answer": "Authentication Header",
+    "excerpt": "fication.) $ AH (I) See: Authentication Header $ air gap (I) An interface between two systems at which (a) they are not connected p"
+  },
+  {
+    "acronym": "IKE",
+    "answer": "Internet Key Exchange",
+    "excerpt": "Cs 2026, 3935) [R2323] $ Internet Key Exchange (IKE) (I) An Internet, IPsec, key-establishment protocol [R4306] for putting in plac"
+  },
+  {
+    "acronym": "ISAKMP",
+    "answer": "Internet Security Association and Key Management Protocol",
+    "excerpt": " offered in the OSIRM. $ Internet Security Association and Key Management Protocol (ISAKMP) (I) An Internet IPsec protocol [R2408] to negotiate, establish, modify, and"
+  },
+  {
+    "acronym": "SPI",
+    "answer": "Security Parameters Index",
+    "excerpt": "er \"security policy\".) $ security parameters index (SPI) 1. (I) /IPsec/ A 32-bit identifier used to distinguish among security associat"
+  },
+  {
+    "acronym": "SA",
+    "answer": "Security Association",
+    "excerpt": "tion between them. (See: security association.) $ assurance See: security assurance. $ assurance level (N) A rank on a hierarchica"
+  },
+  {
+    "acronym": "SSO",
+    "answer": "Single Sign-On",
+    "excerpt": " Version 2 August 2007 $ single sign-on 1. (I) An authentication subsystem that enables a user to access multiple, connected"
+  },
+  {
+    "acronym": "RBAC",
+    "answer": "Role-Based Access Control",
+    "excerpt": "andatory access control, role-based access control.) 3. (I) /formal model/ Limitations on interactions between subjects and objects in "
+  },
+  {
+    "acronym": "DAC",
+    "answer": "Discretionary Access Control",
+    "excerpt": "y\") - Derivation (e.g., \"discretionary access control\") - Tutorial (e.g., \"accreditation\") - Example (e.g., \"back door\") - Usage (e.g., \"a"
+  },
+  {
+    "acronym": "MAC",
+    "answer": "Mandatory Access Control",
+    "excerpt": "etionary access control, mandatory access control, role-based access control.) 3. (I) /formal model/ Limitations on interactions betwe"
+  },
+  {
+    "acronym": "DSS",
+    "answer": "Digital Signature Standard",
+    "excerpt": " verified. (See: DSS.) $ Digital Signature Standard (DSS) (N) The U.S. Government standard [FP186] that specifies the DSA. $ digital wat"
+  },
+  {
+    "acronym": "DSA",
+    "answer": "Digital Signature Algorithm",
+    "excerpt": "eal.) - In an asymmetric digital signature algorithm (e.g., \"DSA\"), when Alice wants to ensure data integrity or provide authentication f"
+  },
+  {
+    "acronym": "FIPS",
+    "answer": "Federal Information Processing Standards",
+    "excerpt": " cryptanalysts. [Schn] $ Federal Information Processing Standards (FIPS) (N) The Federal Information Processing Standards Publication (FIPS PUB) serie"
+  },
+  {
+    "acronym": "ASN.1",
+    "answer": "Abstract Syntax Notation One",
+    "excerpt": "n electronic commerce. $ Abstract Syntax Notation One (ASN.1) (N) A standard for describing data objects. [Larm, X680] (See: CMS.) Usage: "
+  },
+  {
+    "acronym": "BER",
+    "answer": "Basic Encoding Rules",
+    "excerpt": "rimary account number. $ Basic Encoding Rules (BER) (I) A standard for representing ASN.1 data types as strings of octets. [X690] "
+  },
+  {
+    "acronym": "DER",
+    "answer": "Distinguished Encoding Rules",
+    "excerpt": " of octets. [X690] (See: Distinguished Encoding Rules.) Deprecated Usage: Sometimes incorrectly treated as part of ASN.1. However, ASN.1 p"
+  }
+]

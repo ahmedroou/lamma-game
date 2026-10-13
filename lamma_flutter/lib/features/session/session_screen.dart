@@ -7,6 +7,7 @@ import '../../core/game_catalog.dart';
 import '../../domain/abilities/ability_system.dart';
 import '../../domain/models/session_config.dart';
 import '../../domain/models/team.dart';
+import '../../domain/models/hint_access.dart';
 import '../../shared/components.dart';
 import '../../shared/category_card.dart';
 import 'session_view_model.dart';
@@ -14,6 +15,9 @@ import 'question_card_deck.dart';
 import 'question_points_badge.dart';
 import 'identity_question_panel.dart';
 import 'category_replay_options.dart';
+import 'structured_question_panel.dart';
+import 'opening_card_controls.dart';
+import '../../domain/abilities/surprise_session_effects.dart';
 part 'session_management.dart';
 
 class SessionScreen extends StatefulWidget {
@@ -178,14 +182,14 @@ class _SessionScreenState extends State<SessionScreen>
         team.id == _model.state.answeringTeam.id;
     return Material(
       color: AppColors.surface,
-      borderRadius: BorderRadius.circular(18),
+      borderRadius: BorderRadius.circular(16),
       child: InkWell(
         onTap: () => _inventory(team.id),
-        borderRadius: BorderRadius.circular(18),
+        borderRadius: BorderRadius.circular(16),
         child: Container(
-          padding: const EdgeInsets.all(15),
+          padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 10),
           decoration: BoxDecoration(
-            borderRadius: BorderRadius.circular(18),
+            borderRadius: BorderRadius.circular(16),
             border: Border.all(color: active ? color : AppColors.border),
           ),
           child: Column(
@@ -193,25 +197,29 @@ class _SessionScreenState extends State<SessionScreen>
               Text(
                 team.name,
                 textAlign: TextAlign.center,
+                maxLines: 1,
+                overflow: TextOverflow.ellipsis,
                 style: TextStyle(
                   color: active ? color : AppColors.white,
                   fontWeight: FontWeight.w700,
+                  fontSize: 14,
                 ),
               ),
-              const SizedBox(height: 7),
+              const SizedBox(height: 4),
               Text(
                 '${team.score}',
                 style: TextStyle(
-                  fontSize: 30,
+                  fontSize: 26,
                   fontWeight: FontWeight.w700,
                   color: color,
                 ),
               ),
+              const SizedBox(height: 3),
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  Icon(Icons.style_outlined, size: 13, color: color),
-                  const SizedBox(width: 5),
+                  Icon(Icons.style_outlined, size: 12, color: color),
+                  const SizedBox(width: 4),
                   Flexible(
                     child: Text(
                       '${team.inventory.length} قدرات',
@@ -246,6 +254,28 @@ class _SessionScreenState extends State<SessionScreen>
         style: TextStyle(color: AppColors.muted),
       ),
       const SizedBox(height: 22),
+      if (_model.forcedCategoryId case final String category)
+        Padding(
+          padding: const EdgeInsets.only(bottom: 14),
+          child: Text(
+            'قسم هذه الجولة محدد بواسطة ورقة الخصم: ${gameCategories.firstWhere((item) => item.id == category).title}',
+            style: const TextStyle(
+              color: AppColors.gold,
+              fontWeight: FontWeight.w700,
+            ),
+          ),
+        ),
+      for (final ban in SurpriseSessionEffects.activeBans(
+        _model.state.sessionEffects,
+        _model.state.turn,
+      ))
+        Padding(
+          padding: const EdgeInsets.only(bottom: 12),
+          child: Text(
+            'مستبعد من الإجابة والنقاش: ${ban['player']} · ${_model.state.teams.firstWhere((team) => team.id == ban['target']).name}',
+            style: const TextStyle(color: AppColors.peach),
+          ),
+        ),
       CategoryGrid(
         categories: gameCategories
             .where(
@@ -253,43 +283,48 @@ class _SessionScreenState extends State<SessionScreen>
             )
             .toList(),
         maxColumns: 3,
+        compact: true,
         itemBuilder: (category) {
           final remaining = _model.remainingForCategory(category.id);
           return CategoryCard(
             key: ValueKey('play-category-${category.id}'),
             category: category,
+            compact: true,
             remaining: remaining,
-            onTap: remaining > 0
+            onTap:
+                remaining > 0 &&
+                    (_model.forcedCategoryId == null ||
+                        _model.forcedCategoryId == category.id)
                 ? () => _model.selectCategory(category.id)
                 : null,
           );
         },
       ),
-      const SizedBox(height: 16),
+      const SizedBox(height: 14),
       Material(
         color: const Color(0xFF28241B),
-        borderRadius: BorderRadius.circular(22),
+        borderRadius: BorderRadius.circular(18),
         child: InkWell(
           onTap: () {
             if (!_model.selectCategory(GameRules.abilitiesCategoryId)) {
               _riskInfo();
             }
           },
-          borderRadius: BorderRadius.circular(22),
+          borderRadius: BorderRadius.circular(18),
           child: Container(
-            padding: const EdgeInsets.all(21),
+            padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 14),
             decoration: BoxDecoration(
-              borderRadius: BorderRadius.circular(22),
+              borderRadius: BorderRadius.circular(18),
               border: Border.all(color: AppColors.gold.withValues(alpha: .4)),
             ),
             child: Row(
               children: [
                 const Icon(
                   Icons.style_outlined,
-                  size: 42,
+                  size: 32,
                   color: AppColors.gold,
                 ),
-                const SizedBox(width: 16),
+                const SizedBox(width: 14),
                 Expanded(
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
@@ -298,16 +333,16 @@ class _SessionScreenState extends State<SessionScreen>
                         '07 / قسم القدرات',
                         style: TextStyle(
                           color: AppColors.gold,
-                          fontSize: 22,
+                          fontSize: 18,
                           fontWeight: FontWeight.w700,
                         ),
                       ),
-                      const SizedBox(height: 5),
+                      const SizedBox(height: 3),
                       const Text(
                         'نقاط السؤال + ورقة قدرة… أو خسارة 50 / 100 / 150',
-                        style: TextStyle(color: AppColors.muted, fontSize: 13),
+                        style: TextStyle(color: AppColors.muted, fontSize: 12),
                       ),
-                      const SizedBox(height: 9),
+                      const SizedBox(height: 7),
                       Tag(
                         _model.abilitiesEnabled ? 'جرّب حظك' : 'قريباً',
                         color: AppColors.gold,
@@ -352,6 +387,24 @@ class _SessionScreenState extends State<SessionScreen>
           ],
         ),
         const SizedBox(height: 20),
+        for (final ban in SurpriseSessionEffects.activeBans(
+          state.sessionEffects,
+          state.turn,
+        ))
+          Padding(
+            padding: const EdgeInsets.only(bottom: 12),
+            child: Text(
+              'مستبعد من الإجابة والنقاش: ${ban['player']} · ${state.teams.firstWhere((team) => team.id == ban['target']).name}',
+              textAlign: TextAlign.center,
+              style: const TextStyle(color: AppColors.peach),
+            ),
+          ),
+        OpeningCardControls(
+          key: ValueKey(
+            'opening-${state.turn}-${question.id}-${state.answeringTeam.id}',
+          ),
+          model: _model,
+        ),
         if (_model.revealing || _model.revealError != null) ...[
           Text(
             _model.revealing ? 'نحفظ السؤال قبل كشفه…' : _model.revealError!,
@@ -413,14 +466,56 @@ class _SessionScreenState extends State<SessionScreen>
           ),
           const SizedBox(height: 18),
         ],
+        if (question.isIdentity && state.surpriseCard != null) ...[
+          if (state.revealedCards == 0)
+            LammaButton(
+              label: 'اكشف ورقة المفاجأة أولًا',
+              onPressed: () => _model.revealCard(0),
+              icon: Icons.style_outlined,
+            )
+          else
+            Container(
+              padding: const EdgeInsets.all(18),
+              margin: const EdgeInsets.only(bottom: 16),
+              decoration: BoxDecoration(
+                color: AppColors.lime.withValues(alpha: .1),
+                borderRadius: BorderRadius.circular(20),
+                border: Border.all(color: AppColors.lime.withValues(alpha: .4)),
+              ),
+              child: Column(
+                children: [
+                  Text(
+                    state.surpriseCard!.text,
+                    style: const TextStyle(
+                      color: AppColors.lime,
+                      fontSize: 22,
+                      fontWeight: FontWeight.w700,
+                    ),
+                  ),
+                  const SizedBox(height: 10),
+                  Text(
+                    state.surpriseCard!.note,
+                    textAlign: TextAlign.center,
+                    style: const TextStyle(height: 1.6),
+                  ),
+                ],
+              ),
+            ),
+        ],
         if (question.isIdentity)
           IdentityQuestionPanel(
             state: state,
-            onStart: () {
-              for (var i = 0; i < 3; i++) {
-                _model.revealCard(i);
-              }
-            },
+            onStart:
+                (state.surpriseCard != null && state.revealedCards == 0 ||
+                    _model.requiresAnswerer &&
+                        state.roundData['designatedPlayer'] == null ||
+                    state.roundData['plankDecision'] == 'pending')
+                ? null
+                : () {
+                    for (var i = 0; i < 3; i++) {
+                      _model.revealCard(i);
+                    }
+                  },
             onNext: _model.revealNextClue,
           )
         else if (state.isOpponentWindow)
@@ -455,11 +550,112 @@ class _SessionScreenState extends State<SessionScreen>
             question: question.text,
             points: state.availablePoints,
             surpriseText: state.surpriseCard?.text,
+            surpriseNote: state.surpriseCard?.note,
+            countUpTimer: state.plankAccepted,
+            totalSeconds:
+                state.roundData['initialQuestionSeconds'] as int? ?? 30,
             revealedCards: state.revealedCards,
-            secondsRemaining: state.secondsRemaining,
+            secondsRemaining: state.clockSeconds,
             onReveal: _model.revealCard,
           ),
         const SizedBox(height: 20),
+        if (state.revealedCards >= 1 &&
+            state.surpriseCard?.effect == SurpriseEffect.plank) ...[
+          if (_model.canChoosePlank) ...[
+            const Text(
+              'ليستعد اللاعب الأثقل وزنًا في الفريق الأساسي. يبدأ البلانك عند كشف السؤال، ويحدد المراقب البشري وقت التوقف.',
+              textAlign: TextAlign.center,
+              style: TextStyle(color: AppColors.muted, height: 1.6),
+            ),
+            const SizedBox(height: 12),
+            LammaButton(
+              label: 'أقبل التحدي · يبدأ مع السؤال',
+              onPressed: _model.acceptPlank,
+              icon: Icons.fitness_center,
+            ),
+            TextButton(
+              onPressed: _model.refusePlank,
+              child: const Text('رفض التحدي · خصم 100 نقطة'),
+            ),
+            const Text(
+              'الرفض خصم من الرصيد، ويمكن أن يجعله سالبًا.',
+              style: TextStyle(color: AppColors.muted, fontSize: 12),
+            ),
+          ],
+          if (state.plankRunning)
+            LammaButton(
+              label: 'انتهى البلانك · إنهاء وقت الفريق',
+              onPressed: state.isPaused ? null : _model.finishPlank,
+              icon: Icons.stop_circle_outlined,
+            ),
+          const SizedBox(height: 16),
+        ],
+        if (state.revealedCards == 3 &&
+            !state.isOpponentWindow &&
+            {
+              SurpriseEffect.hint,
+              SurpriseEffect.options,
+            }.contains(state.surpriseCard?.effect)) ...[
+          if (state.roundData['surpriseActionUsed'] != true &&
+              !state.hintRevealed)
+            LammaButton(
+              label: state.surpriseCard!.price > 0
+                  ? 'ادفع ${state.surpriseCard!.price} نقطة واكشف ${state.surpriseCard!.effect == SurpriseEffect.hint ? 'التلميح' : 'الخيارات'}'
+                  : state.surpriseCard!.pointsDivisor == 4
+                  ? 'أقبل ربع النقاط وأكشف الخيارات'
+                  : state.surpriseCard!.effect == SurpriseEffect.hint
+                  ? 'كشف التلميح مجانًا'
+                  : 'كشف الخيارات',
+              onPressed: _model.canActivateSurprise
+                  ? _model.activateSurprise
+                  : null,
+              icon: Icons.visibility_outlined,
+            ),
+          const SizedBox(height: 16),
+        ],
+        if (state.visibleOptions.isNotEmpty) ...[
+          for (final option in state.visibleOptions)
+            Container(
+              width: double.infinity,
+              margin: const EdgeInsets.only(bottom: 9),
+              padding: const EdgeInsets.all(16),
+              decoration: BoxDecoration(
+                color: AppColors.surface,
+                borderRadius: BorderRadius.circular(16),
+                border: Border.all(color: AppColors.border),
+              ),
+              child: Text(
+                '${option.id} · ${option.text}',
+                textAlign: TextAlign.center,
+                style: const TextStyle(
+                  fontWeight: FontWeight.w700,
+                  height: 1.5,
+                ),
+              ),
+            ),
+          const SizedBox(height: 16),
+        ],
+        if (state.revealedCards == 3 &&
+            question.presentation != null &&
+            !(question.presentation!.type.name == 'symbols' &&
+                question.imageAsset != null &&
+                question.presentation!.elements.every(
+                  (item) => item.text == 'الرسم المرفق',
+                ))) ...[
+          StructuredQuestionPanel(
+            key: ValueKey('${question.id}-${state.answeringTeam.id}'),
+            presentation: question.presentation!,
+            draft: state.questionDraft,
+            enabled: _model.canEditQuestionDraft,
+            onChanged: _model.updateQuestionDraft,
+            comparisonInteraction: question.subtype == 'number_nearest'
+                ? ComparisonInteraction.nearest
+                : question.categoryId == 'first_last'
+                ? ComparisonInteraction.endpoints
+                : ComparisonInteraction.order,
+          ),
+          const SizedBox(height: 18),
+        ],
         if (state.revealedCards == 3 && question.imageAsset != null) ...[
           ClipRRect(
             borderRadius: BorderRadius.circular(18),
@@ -492,7 +688,7 @@ class _SessionScreenState extends State<SessionScreen>
                 style: const TextStyle(color: AppColors.gold),
               ),
             )
-          else
+          else if (state.surpriseCard?.effect != SurpriseEffect.hint)
             TextButton.icon(
               onPressed: _model.revealHint,
               icon: const Icon(Icons.lightbulb_outline),
@@ -516,12 +712,14 @@ class _SessionScreenState extends State<SessionScreen>
             onPressed: _model.canShowAnswer ? _model.showAnswer : null,
             icon: Icons.visibility_outlined,
           ),
-          if (state.opponentTeamId == null)
+          if (state.opponentTeamId == null &&
+              state.surpriseCard?.effect != SurpriseEffect.noOpponent)
             TextButton(
               onPressed: _model.startOpponentOpportunity,
               child: const Text('إجابة خاطئة أو تمرير · فرصة للخصم'),
             ),
-          if (state.opponentTeamId == null)
+          if (state.opponentTeamId == null &&
+              state.surpriseCard?.effect != SurpriseEffect.noOpponent)
             const Text(
               'الكشف المبكر ينهي فرصة الإجابة لهذا السؤال. مرّر للخصم قبل كشف الجواب إذا كانت الإجابة خاطئة.',
               textAlign: TextAlign.center,
@@ -573,10 +771,14 @@ class _SessionScreenState extends State<SessionScreen>
           const SizedBox(height: 15),
           for (var i = 0; i < state.teams.length; i++) ...[
             LammaButton(
-              label: '${state.teams[i].name} +${state.availablePoints}',
+              label:
+                  '${state.teams[i].name} +${_model.pointsForTeam(state.teams[i].id)}',
               onPressed:
-                  state.opponentTeamId == null ||
-                      state.opponentTeamId == state.teams[i].id
+                  (state.opponentTeamId == null &&
+                          (state.surpriseCard?.effect == null ||
+                              state.surpriseCard?.effect ==
+                                  SurpriseEffect.none) ||
+                      state.answeringTeam.id == state.teams[i].id)
                   ? () => _model.awardAnswer(state.teams[i].id)
                   : null,
               secondary: i > 0,

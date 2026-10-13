@@ -84,10 +84,11 @@ void main() {
         await tester.runAsync(() async {
           await Future.wait([
             for (final category in gameCategories)
-              precacheImage(
-                ResizeImage(AssetImage(category.imageAsset), width: 300),
-                context,
-              ),
+              if (!category.usesVectorArt)
+                precacheImage(
+                  ResizeImage(AssetImage(category.imageAsset), width: 300),
+                  context,
+                ),
           ]);
         });
         await tester.pumpAndSettle();

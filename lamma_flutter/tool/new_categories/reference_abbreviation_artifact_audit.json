@@ -1,0 +1,6 @@
+{
+  "questionsScanned": 300,
+  "optionsScanned": 1800,
+  "findings": [],
+  "limits": "Detects confirmed table artifacts and isolated units; does not certify that all remaining distractors are semantically close or factually wrong."
+}

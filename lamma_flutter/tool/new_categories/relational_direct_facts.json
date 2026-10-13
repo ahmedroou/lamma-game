@@ -1,0 +1,2214 @@
+{
+  "science": [
+    {
+      "left": "اللورد رايلي",
+      "right": "اكتشاف الأرغون في دراسات كثافات الغازات",
+      "kind": "Physics",
+      "year": "1904",
+      "source": "https://www.nobelprize.org/prizes/physics/1904/strutt/facts/",
+      "motivation": "for his investigations of the densities of the most important gases and for his discovery of argon in connection with these studies"
+    },
+    {
+      "left": "فيليب لينارد",
+      "right": "دراسة أشعة المهبط",
+      "kind": "Physics",
+      "year": "1905",
+      "source": "https://www.nobelprize.org/prizes/physics/1905/lenard/facts/",
+      "motivation": "for his work on cathode rays"
+    },
+    {
+      "left": "ألبرت ميكلسون",
+      "right": "الأدوات البصرية الدقيقة والقياسات الطيفية",
+      "kind": "Physics",
+      "year": "1907",
+      "source": "https://www.nobelprize.org/prizes/physics/1907/michelson/facts/",
+      "motivation": "for his optical precision instruments and the spectroscopic and metrological investigations carried out with their aid"
+    },
+    {
+      "left": "غابرييل ليبمان",
+      "right": "التصوير اللوني بالاعتماد على التداخل",
+      "kind": "Physics",
+      "year": "1908",
+      "source": "https://www.nobelprize.org/prizes/physics/1908/lippmann/facts/",
+      "motivation": "for his method of reproducing colours photographically based on the phenomenon of interference"
+    },
+    {
+      "left": "يوهانس فان دير فالس",
+      "right": "معادلة حالة الغازات والسوائل",
+      "kind": "Physics",
+      "year": "1910",
+      "source": "https://www.nobelprize.org/prizes/physics/1910/waals/facts/",
+      "motivation": "for his work on the equation of state for gases and liquids"
+    },
+    {
+      "left": "فيلهلم فين",
+      "right": "قوانين الإشعاع الحراري",
+      "kind": "Physics",
+      "year": "1911",
+      "source": "https://www.nobelprize.org/prizes/physics/1911/wien/facts/",
+      "motivation": "for his discoveries regarding the laws governing the radiation of heat"
+    },
+    {
+      "left": "غوستاف دالين",
+      "right": "منظمات غازية آلية لإنارة المنارات والعوامات",
+      "kind": "Physics",
+      "year": "1912",
+      "source": "https://www.nobelprize.org/prizes/physics/1912/dalen/facts/",
+      "motivation": "for his invention of automatic regulators for use in conjunction with gas accumulators for illuminating lighthouses and buoys"
+    },
+    {
+      "left": "هايكه كامرلينغ أونس",
+      "right": "خصائص المادة في درجات الحرارة المنخفضة وإنتاج الهيليوم السائل",
+      "kind": "Physics",
+      "year": "1913",
+      "source": "https://www.nobelprize.org/prizes/physics/1913/onnes/facts/",
+      "motivation": "for his investigations on the properties of matter at low temperatures which led, inter alia, to the production of liquid helium"
+    },
+    {
+      "left": "ماكس فون لاوه",
+      "right": "حيود الأشعة السينية بواسطة البلورات",
+      "kind": "Physics",
+      "year": "1914",
+      "source": "https://www.nobelprize.org/prizes/physics/1914/laue/facts/",
+      "motivation": "for his discovery of the diffraction of X-rays by crystals"
+    },
+    {
+      "left": "تشارلز باركلا",
+      "right": "الأشعة السينية المميزة للعناصر",
+      "kind": "Physics",
+      "year": "1917",
+      "source": "https://www.nobelprize.org/prizes/physics/1917/barkla/facts/",
+      "motivation": "for his discovery of the characteristic R&ouml;ntgen radiation of the elements"
+    },
+    {
+      "left": "يوهانس شتارك",
+      "right": "انقسام الخطوط الطيفية في المجالات الكهربائية",
+      "kind": "Physics",
+      "year": "1919",
+      "source": "https://www.nobelprize.org/prizes/physics/1919/stark/facts/",
+      "motivation": "for his discovery of the Doppler effect in canal rays and the splitting of spectral lines in electric fields"
+    },
+    {
+      "left": "شارل إدوار غيوم",
+      "right": "خواص غير عادية لسبائك النيكل والفولاذ في القياس الدقيق",
+      "kind": "Physics",
+      "year": "1920",
+      "source": "https://www.nobelprize.org/prizes/physics/1920/guillaume/facts/",
+      "motivation": "in recognition of the service he has rendered to precision measurements in Physics by his discovery of anomalies in nickel steel alloys"
+    },
+    {
+      "left": "روبرت ميليكان",
+      "right": "الشحنة الكهربائية الأولية والتأثير الكهروضوئي",
+      "kind": "Physics",
+      "year": "1923",
+      "source": "https://www.nobelprize.org/prizes/physics/1923/millikan/facts/",
+      "motivation": "for his work on the elementary charge of electricity and on the photoelectric effect"
+    },
+    {
+      "left": "مانه سيغبان",
+      "right": "التحليل الطيفي بالأشعة السينية",
+      "kind": "Physics",
+      "year": "1924",
+      "source": "https://www.nobelprize.org/prizes/physics/1924/siegbahn/facts/",
+      "motivation": "for his discoveries and research in the field of X-ray spectroscopy"
+    },
+    {
+      "left": "جان بيرين",
+      "right": "البنية غير المستمرة للمادة واتزان الترسيب",
+      "kind": "Physics",
+      "year": "1926",
+      "source": "https://www.nobelprize.org/prizes/physics/1926/perrin/facts/",
+      "motivation": "for his work on the discontinuous structure of matter, and especially for his discovery of sedimentation equilibrium"
+    },
+    {
+      "left": "أوين ريتشاردسون",
+      "right": "ظاهرة الانبعاث الحراري للإلكترونات",
+      "kind": "Physics",
+      "year": "1928",
+      "source": "https://www.nobelprize.org/prizes/physics/1928/richardson/facts/",
+      "motivation": "for his work on the thermionic phenomenon and especially for the discovery of the law named after him"
+    },
+    {
+      "left": "لويس دي بروي",
+      "right": "الطبيعة الموجية للإلكترونات",
+      "kind": "Physics",
+      "year": "1929",
+      "source": "https://www.nobelprize.org/prizes/physics/1929/broglie/facts/",
+      "motivation": "for his discovery of the wave nature of electrons"
+    },
+    {
+      "left": "تشاندراسيخارا رامان",
+      "right": "تشتت الضوء وتأثير رامان",
+      "kind": "Physics",
+      "year": "1930",
+      "source": "https://www.nobelprize.org/prizes/physics/1930/raman/facts/",
+      "motivation": "for his work on the scattering of light and for the discovery of the effect named after him"
+    },
+    {
+      "left": "إرنست لورنس",
+      "right": "اختراع السيكلوترون وتطويره",
+      "kind": "Physics",
+      "year": "1939",
+      "source": "https://www.nobelprize.org/prizes/physics/1939/lawrence/facts/",
+      "motivation": "for the invention and development of the cyclotron and for results obtained with it, especially with regard to artificial radioactive elements"
+    },
+    {
+      "left": "أوتو شتيرن",
+      "right": "طريقة الحزم الجزيئية والعزم المغناطيسي للبروتون",
+      "kind": "Physics",
+      "year": "1943",
+      "source": "https://www.nobelprize.org/prizes/physics/1943/stern/facts/",
+      "motivation": "for his contribution to the development of the molecular ray method and his discovery of the magnetic moment of the proton"
+    },
+    {
+      "left": "إيزيدور إسحاق رابي",
+      "right": "طريقة الرنين لتسجيل خواص النوى المغناطيسية",
+      "kind": "Physics",
+      "year": "1944",
+      "source": "https://www.nobelprize.org/prizes/physics/1944/rabi/facts/",
+      "motivation": "for his resonance method for recording the magnetic properties of atomic nuclei"
+    },
+    {
+      "left": "بيرسي بريدجمان",
+      "right": "أجهزة إنتاج ضغوط شديدة الارتفاع",
+      "kind": "Physics",
+      "year": "1946",
+      "source": "https://www.nobelprize.org/prizes/physics/1946/bridgman/facts/",
+      "motivation": "for the invention of an apparatus to produce extremely high pressures, and for the discoveries he made therewith in the field of high pressure physics"
+    },
+    {
+      "left": "إدوارد أبلتون",
+      "right": "فيزياء الغلاف الجوي العلوي وطبقة أبلتون",
+      "kind": "Physics",
+      "year": "1947",
+      "source": "https://www.nobelprize.org/prizes/physics/1947/appleton/facts/",
+      "motivation": "for his investigations of the physics of the upper atmosphere especially for the discovery of the so-called Appleton layer"
+    },
+    {
+      "left": "باتريك بلاكيت",
+      "right": "تطوير طريقة حجرة السحاب وتطبيقاتها النووية",
+      "kind": "Physics",
+      "year": "1948",
+      "source": "https://www.nobelprize.org/prizes/physics/1948/blackett/facts/",
+      "motivation": "for his development of the Wilson cloud chamber method, and his discoveries therewith in the fields of nuclear physics and cosmic radiation"
+    },
+    {
+      "left": "هيديكي يوكاوا",
+      "right": "التنبؤ بالميزونات في تفسير القوى النووية",
+      "kind": "Physics",
+      "year": "1949",
+      "source": "https://www.nobelprize.org/prizes/physics/1949/yukawa/facts/",
+      "motivation": "for his prediction of the existence of mesons on the basis of theoretical work on nuclear forces"
+    },
+    {
+      "left": "سيسيل باول",
+      "right": "الطريقة الفوتوغرافية لدراسة العمليات النووية والميزونات",
+      "kind": "Physics",
+      "year": "1950",
+      "source": "https://www.nobelprize.org/prizes/physics/1950/powell/facts/",
+      "motivation": "for his development of the photographic method of studying nuclear processes and his discoveries regarding mesons made with this method"
+    },
+    {
+      "left": "فريتس زيرنيكه",
+      "right": "طريقة تباين الطور ومجهرها",
+      "kind": "Physics",
+      "year": "1953",
+      "source": "https://www.nobelprize.org/prizes/physics/1953/zernike/facts/",
+      "motivation": "for his demonstration of the phase contrast method, especially for his invention of the phase contrast microscope"
+    },
+    {
+      "left": "دونالد غلاسر",
+      "right": "اختراع حجرة الفقاعات",
+      "kind": "Physics",
+      "year": "1960",
+      "source": "https://www.nobelprize.org/prizes/physics/1960/glaser/facts/",
+      "motivation": "for the invention of the bubble chamber"
+    },
+    {
+      "left": "ليف لانداو",
+      "right": "نظريات المادة المكثفة وخاصة الهيليوم السائل",
+      "kind": "Physics",
+      "year": "1962",
+      "source": "https://www.nobelprize.org/prizes/physics/1962/landau/facts/",
+      "motivation": "for his pioneering theories for condensed matter, especially liquid helium"
+    },
+    {
+      "left": "ألفريد كاستلر",
+      "right": "طرائق بصرية لدراسة رنين الذرات",
+      "kind": "Physics",
+      "year": "1966",
+      "source": "https://www.nobelprize.org/prizes/physics/1966/kastler/facts/",
+      "motivation": "for the discovery and development of optical methods for studying Hertzian resonances in atoms"
+    },
+    {
+      "left": "هانس بيته",
+      "right": "التفاعلات النووية وإنتاج الطاقة في النجوم",
+      "kind": "Physics",
+      "year": "1967",
+      "source": "https://www.nobelprize.org/prizes/physics/1967/bethe/facts/",
+      "motivation": "for his contributions to the theory of nuclear reactions, especially his discoveries concerning the energy production in stars"
+    },
+    {
+      "left": "لويس ألفاريز",
+      "right": "تقنيات حجرة فقاعات الهيدروجين وكشف حالات الرنين",
+      "kind": "Physics",
+      "year": "1968",
+      "source": "https://www.nobelprize.org/prizes/physics/1968/alvarez/facts/",
+      "motivation": "for his decisive contributions to elementary particle physics, in particular the discovery of a large number of resonance states, made possible through his development of the technique of using hydrogen bubble chamber and data analysis"
+    },
+    {
+      "left": "موراي غيلمان",
+      "right": "تصنيف الجسيمات الأولية وتفاعلاتها",
+      "kind": "Physics",
+      "year": "1969",
+      "source": "https://www.nobelprize.org/prizes/physics/1969/gell-mann/facts/",
+      "motivation": "for his contributions and discoveries concerning the classification of elementary particles and their interactions"
+    },
+    {
+      "left": "دينيس غابور",
+      "right": "اختراع التصوير المجسم وتطويره",
+      "kind": "Physics",
+      "year": "1971",
+      "source": "https://www.nobelprize.org/prizes/physics/1971/gabor/facts/",
+      "motivation": "for his invention and development of the holographic method"
+    },
+    {
+      "left": "كينيث ويلسون",
+      "right": "نظرية الظواهر الحرجة المرتبطة بالانتقالات الطورية",
+      "kind": "Physics",
+      "year": "1982",
+      "source": "https://www.nobelprize.org/prizes/physics/1982/wilson/facts/",
+      "motivation": "for his theory for critical phenomena in connection with phase transitions"
+    },
+    {
+      "left": "كلاوس فون كليتسينغ",
+      "right": "تأثير هول الكمي",
+      "kind": "Physics",
+      "year": "1985",
+      "source": "https://www.nobelprize.org/prizes/physics/1985/klitzing/facts/",
+      "motivation": "for the discovery of the quantized Hall effect"
+    },
+    {
+      "left": "بيير جيل دي جين",
+      "right": "تعميم طرائق ظواهر الانتظام إلى البلورات السائلة والبوليمرات",
+      "kind": "Physics",
+      "year": "1991",
+      "source": "https://www.nobelprize.org/prizes/physics/1991/gennes/facts/",
+      "motivation": "for discovering that methods developed for studying order phenomena in simple systems can be generalized to more complex forms of matter, in particular to liquid crystals and polymers"
+    },
+    {
+      "left": "جورج شارباك",
+      "right": "كواشف الجسيمات والحجرة التناسبية متعددة الأسلاك",
+      "kind": "Physics",
+      "year": "1992",
+      "source": "https://www.nobelprize.org/prizes/physics/1992/charpak/facts/",
+      "motivation": "for his invention and development of particle detectors, in particular the multiwire proportional chamber"
+    },
+    {
+      "left": "ياكوبس فانت هوف",
+      "right": "قوانين الديناميكا الكيميائية والضغط الأسموزي في المحاليل",
+      "kind": "Chemistry",
+      "year": "1901",
+      "source": "https://www.nobelprize.org/prizes/chemistry/1901/hoff/facts/",
+      "motivation": "in recognition of the extraordinary services he has rendered by the discovery of the laws of chemical dynamics and osmotic pressure in solutions"
+    },
+    {
+      "left": "إميل فيشر",
+      "right": "اصطناع السكريات والبيورينات",
+      "kind": "Chemistry",
+      "year": "1902",
+      "source": "https://www.nobelprize.org/prizes/chemistry/1902/fischer/facts/",
+      "motivation": "in recognition of the extraordinary services he has rendered by his work on sugar and purine syntheses"
+    },
+    {
+      "left": "سفانت أرهينيوس",
+      "right": "نظرية التفكك الإلكتروليتي",
+      "kind": "Chemistry",
+      "year": "1903",
+      "source": "https://www.nobelprize.org/prizes/chemistry/1903/arrhenius/facts/",
+      "motivation": "in recognition of the extraordinary services he has rendered to the advancement of chemistry by his electrolytic theory of dissociation"
+    },
+    {
+      "left": "أدولف فون باير",
+      "right": "الأصبغة العضوية والمركبات الهيدروأروماتية",
+      "kind": "Chemistry",
+      "year": "1905",
+      "source": "https://www.nobelprize.org/prizes/chemistry/1905/baeyer/facts/",
+      "motivation": "in recognition of his services in the advancement of organic chemistry and the chemical industry, through his work on organic dyes and hydroaromatic compounds"
+    },
+    {
+      "left": "هنري مواسان",
+      "right": "عزل الفلور والفرن الكهربائي",
+      "kind": "Chemistry",
+      "year": "1906",
+      "source": "https://www.nobelprize.org/prizes/chemistry/1906/moissan/facts/",
+      "motivation": "in recognition of the great services rendered by him in his investigation and isolation of the element fluorine, and for the adoption in the service of science of the electric furnace called after him"
+    },
+    {
+      "left": "إدوارد بوخنر",
+      "right": "اكتشاف التخمير خارج الخلايا الحية",
+      "kind": "Chemistry",
+      "year": "1907",
+      "source": "https://www.nobelprize.org/prizes/chemistry/1907/buchner/facts/",
+      "motivation": "for his biochemical researches and his discovery of cell-free fermentation"
+    },
+    {
+      "left": "فيلهلم أوستفالد",
+      "right": "الحفز الكيميائي والاتزان وسرعات التفاعل",
+      "kind": "Chemistry",
+      "year": "1909",
+      "source": "https://www.nobelprize.org/prizes/chemistry/1909/ostwald/facts/",
+      "motivation": "in recognition of his work on catalysis and for his investigations into the fundamental principles governing chemical equilibria and rates of reaction"
+    },
+    {
+      "left": "أوتو فالاخ",
+      "right": "المركبات الأليفاتية الحلقية",
+      "kind": "Chemistry",
+      "year": "1910",
+      "source": "https://www.nobelprize.org/prizes/chemistry/1910/wallach/facts/",
+      "motivation": "in recognition of his services to organic chemistry and the chemical industry by his pioneer work in the field of alicyclic compounds"
+    },
+    {
+      "left": "ألفريد فيرنر",
+      "right": "ترابط الذرات في الجزيئات والكيمياء غير العضوية",
+      "kind": "Chemistry",
+      "year": "1913",
+      "source": "https://www.nobelprize.org/prizes/chemistry/1913/werner/facts/",
+      "motivation": "in recognition of his work on the linkage of atoms in molecules by which he has thrown new light on earlier investigations and opened up new fields of research especially in inorganic chemistry"
+    },
+    {
+      "left": "ثيودور ريتشاردز",
+      "right": "التحديد الدقيق للأوزان الذرية",
+      "kind": "Chemistry",
+      "year": "1914",
+      "source": "https://www.nobelprize.org/prizes/chemistry/1914/richards/facts/",
+      "motivation": "in recognition of his accurate determinations of the atomic weight of a large number of chemical elements"
+    },
+    {
+      "left": "ريتشارد فيلشتيتر",
+      "right": "الأصباغ النباتية وخاصة الكلوروفيل",
+      "kind": "Chemistry",
+      "year": "1915",
+      "source": "https://www.nobelprize.org/prizes/chemistry/1915/willstatter/facts/",
+      "motivation": "for his researches on plant pigments, especially chlorophyll"
+    },
+    {
+      "left": "فالتر نرنست",
+      "right": "الكيمياء الحرارية",
+      "kind": "Chemistry",
+      "year": "1920",
+      "source": "https://www.nobelprize.org/prizes/chemistry/1920/nernst/facts/",
+      "motivation": "in recognition of his work in thermochemistry"
+    },
+    {
+      "left": "فريدريك سودي",
+      "right": "كيمياء المواد المشعة وأصل النظائر وطبيعتها",
+      "kind": "Chemistry",
+      "year": "1921",
+      "source": "https://www.nobelprize.org/prizes/chemistry/1921/soddy/facts/",
+      "motivation": "for his contributions to our knowledge of the chemistry of radioactive substances, and his investigations into the origin and nature of isotopes"
+    },
+    {
+      "left": "فرانسيس أستون",
+      "right": "اكتشاف النظائر بمطياف الكتلة وقاعدة الأعداد الصحيحة",
+      "kind": "Chemistry",
+      "year": "1922",
+      "source": "https://www.nobelprize.org/prizes/chemistry/1922/aston/facts/",
+      "motivation": "for his discovery, by means of his mass spectrograph, of isotopes, in a large number of non-radioactive elements, and for his enunciation of the whole-number rule"
+    },
+    {
+      "left": "فريتس بريغل",
+      "right": "التحليل الدقيق الكمي للمواد العضوية",
+      "kind": "Chemistry",
+      "year": "1923",
+      "source": "https://www.nobelprize.org/prizes/chemistry/1923/pregl/facts/",
+      "motivation": "for his invention of the method of micro-analysis of organic substances"
+    },
+    {
+      "left": "ريتشارد زيغموندي",
+      "right": "عدم تجانس المحاليل الغروية وطرائق دراستها",
+      "kind": "Chemistry",
+      "year": "1925",
+      "source": "https://www.nobelprize.org/prizes/chemistry/1925/zsigmondy/facts/",
+      "motivation": "for his demonstration of the heterogenous nature of colloid solutions and for the methods he used, which have since become fundamental in modern colloid chemistry"
+    },
+    {
+      "left": "تيودور سفيدبرغ",
+      "right": "أنظمة التشتت",
+      "kind": "Chemistry",
+      "year": "1926",
+      "source": "https://www.nobelprize.org/prizes/chemistry/1926/svedberg/facts/",
+      "motivation": "for his work on disperse systems"
+    },
+    {
+      "left": "هاينريش فيلاند",
+      "right": "بنية الأحماض الصفراوية والمواد المرتبطة بها",
+      "kind": "Chemistry",
+      "year": "1927",
+      "source": "https://www.nobelprize.org/prizes/chemistry/1927/wieland/facts/",
+      "motivation": "for his investigations of the constitution of the bile acids and related substances"
+    },
+    {
+      "left": "أدولف فينداوس",
+      "right": "بنية الستيرولات وصلتها بالفيتامينات",
+      "kind": "Chemistry",
+      "year": "1928",
+      "source": "https://www.nobelprize.org/prizes/chemistry/1928/windaus/facts/",
+      "motivation": "for the services rendered through his research into the constitution of the sterols and their connection with the vitamins"
+    },
+    {
+      "left": "هانس فيشر",
+      "right": "بنية الهيمين والكلوروفيل واصطناع الهيمين",
+      "kind": "Chemistry",
+      "year": "1930",
+      "source": "https://www.nobelprize.org/prizes/chemistry/1930/fischer/facts/",
+      "motivation": "for his researches into the constitution of haemin and chlorophyll and especially for his synthesis of haemin"
+    },
+    {
+      "left": "إيرفينغ لانغموير",
+      "right": "كيمياء السطوح",
+      "kind": "Chemistry",
+      "year": "1932",
+      "source": "https://www.nobelprize.org/prizes/chemistry/1932/langmuir/facts/",
+      "motivation": "for his discoveries and investigations in surface chemistry"
+    },
+    {
+      "left": "هارولد يوري",
+      "right": "اكتشاف الهيدروجين الثقيل",
+      "kind": "Chemistry",
+      "year": "1934",
+      "source": "https://www.nobelprize.org/prizes/chemistry/1934/urey/facts/",
+      "motivation": "for his discovery of heavy hydrogen"
+    },
+    {
+      "left": "بيتر ديباي",
+      "right": "العزوم ثنائية القطب والحيود وبنية الجزيئات",
+      "kind": "Chemistry",
+      "year": "1936",
+      "source": "https://www.nobelprize.org/prizes/chemistry/1936/debye/facts/",
+      "motivation": "for his contributions to our knowledge of molecular structure through his investigations on dipole moments and on the diffraction of X-rays and electrons in gases"
+    },
+    {
+      "left": "ريتشارد كون",
+      "right": "الكاروتينات والفيتامينات",
+      "kind": "Chemistry",
+      "year": "1938",
+      "source": "https://www.nobelprize.org/prizes/chemistry/1938/kuhn/facts/",
+      "motivation": "for his work on carotenoids and vitamins"
+    },
+    {
+      "left": "جورج دي هيفيشي",
+      "right": "استخدام النظائر متتبعات للعمليات الكيميائية",
+      "kind": "Chemistry",
+      "year": "1943",
+      "source": "https://www.nobelprize.org/prizes/chemistry/1943/hevesy/facts/",
+      "motivation": "for his work on the use of isotopes as tracers in the study of chemical processes"
+    },
+    {
+      "left": "أرتوري فيرتانن",
+      "right": "الكيمياء الزراعية وطريقة حفظ العلف",
+      "kind": "Chemistry",
+      "year": "1945",
+      "source": "https://www.nobelprize.org/prizes/chemistry/1945/virtanen/facts/",
+      "motivation": "for his research and inventions in agricultural and nutrition chemistry, especially for his fodder preservation method"
+    },
+    {
+      "left": "روبرت روبنسون",
+      "right": "المواد النباتية ذات الأهمية الحيوية وخاصة القلويدات",
+      "kind": "Chemistry",
+      "year": "1947",
+      "source": "https://www.nobelprize.org/prizes/chemistry/1947/robinson/facts/",
+      "motivation": "for his investigations on plant products of biological importance, especially the alkaloids"
+    },
+    {
+      "left": "آرنه تيسيليوس",
+      "right": "الرحلان الكهربائي وتحليل بروتينات المصل",
+      "kind": "Chemistry",
+      "year": "1948",
+      "source": "https://www.nobelprize.org/prizes/chemistry/1948/tiselius/facts/",
+      "motivation": "for his research on electrophoresis and adsorption analysis, especially for his discoveries concerning the complex nature of the serum proteins"
+    },
+    {
+      "left": "وليام جيوك",
+      "right": "الديناميكا الحرارية الكيميائية في درجات شديدة الانخفاض",
+      "kind": "Chemistry",
+      "year": "1949",
+      "source": "https://www.nobelprize.org/prizes/chemistry/1949/giauque/facts/",
+      "motivation": "for his contributions in the field of chemical thermodynamics, particularly concerning the behaviour of substances at extremely low temperatures"
+    },
+    {
+      "left": "هيرمان شتاودينغر",
+      "right": "كيمياء الجزيئات العملاقة",
+      "kind": "Chemistry",
+      "year": "1953",
+      "source": "https://www.nobelprize.org/prizes/chemistry/1953/staudinger/facts/",
+      "motivation": "for his discoveries in the field of macromolecular chemistry"
+    },
+    {
+      "left": "فنسنت دو فينيو",
+      "right": "المركبات الكبريتية الحيوية واصطناع هرمون متعدد الببتيد",
+      "kind": "Chemistry",
+      "year": "1955",
+      "source": "https://www.nobelprize.org/prizes/chemistry/1955/vigneaud/facts/",
+      "motivation": "for his work on biochemically important sulphur compounds, especially for the first synthesis of a polypeptide hormone"
+    },
+    {
+      "left": "ألكسندر تود",
+      "right": "النيوكليوتيدات ومرافقات الإنزيم النيوكليوتيدية",
+      "kind": "Chemistry",
+      "year": "1957",
+      "source": "https://www.nobelprize.org/prizes/chemistry/1957/todd/facts/",
+      "motivation": "for his work on nucleotides and nucleotide co-enzymes"
+    },
+    {
+      "left": "ياروسلاف هيروفسكي",
+      "right": "طرائق التحليل البولاروغرافي",
+      "kind": "Chemistry",
+      "year": "1959",
+      "source": "https://www.nobelprize.org/prizes/chemistry/1959/heyrovsky/facts/",
+      "motivation": "for his discovery and development of the polarographic methods of analysis"
+    },
+    {
+      "left": "روبرت وودوارد",
+      "right": "الاصطناع العضوي",
+      "kind": "Chemistry",
+      "year": "1965",
+      "source": "https://www.nobelprize.org/prizes/chemistry/1965/woodward/facts/",
+      "motivation": "for his outstanding achievements in the art of organic synthesis"
+    },
+    {
+      "left": "روبرت موليكن",
+      "right": "الروابط الكيميائية بطريقة المدارات الجزيئية",
+      "kind": "Chemistry",
+      "year": "1966",
+      "source": "https://www.nobelprize.org/prizes/chemistry/1966/mulliken/facts/",
+      "motivation": "for his fundamental work concerning chemical bonds and the electronic structure of molecules by the molecular orbital method"
+    },
+    {
+      "left": "لارس أونساغر",
+      "right": "العلاقات التبادلية للعمليات غير القابلة للعكس",
+      "kind": "Chemistry",
+      "year": "1968",
+      "source": "https://www.nobelprize.org/prizes/chemistry/1968/onsager/facts/",
+      "motivation": "for the discovery of the reciprocal relations bearing his name, which are fundamental for the thermodynamics of irreversible processes"
+    },
+    {
+      "left": "لويس ليلوار",
+      "right": "نيوكليوتيدات السكر وبناء الكربوهيدرات",
+      "kind": "Chemistry",
+      "year": "1970",
+      "source": "https://www.nobelprize.org/prizes/chemistry/1970/leloir/facts/",
+      "motivation": "for his discovery of sugar nucleotides and their role in the biosynthesis of carbohydrates"
+    },
+    {
+      "left": "غيرهارد هرتسبرغ",
+      "right": "البنية الإلكترونية وهندسة الجزيئات والجذور الحرة",
+      "kind": "Chemistry",
+      "year": "1971",
+      "source": "https://www.nobelprize.org/prizes/chemistry/1971/herzberg/facts/",
+      "motivation": "for his contributions to the knowledge of electronic structure and geometry of molecules, particularly free radicals"
+    },
+    {
+      "left": "بول فلوري",
+      "right": "الكيمياء الفيزيائية للجزيئات العملاقة",
+      "kind": "Chemistry",
+      "year": "1974",
+      "source": "https://www.nobelprize.org/prizes/chemistry/1974/flory/facts/",
+      "motivation": "for his fundamental achievements, both theoretical and experimental, in the physical chemistry of the macromolecules"
+    },
+    {
+      "left": "إيليا بريغوجين",
+      "right": "الديناميكا الحرارية غير المتوازنة والبنى التبددية",
+      "kind": "Chemistry",
+      "year": "1977",
+      "source": "https://www.nobelprize.org/prizes/chemistry/1977/prigogine/facts/",
+      "motivation": "for his contributions to non-equilibrium thermodynamics, particularly the theory of dissipative structures"
+    },
+    {
+      "left": "هنري تاوبه",
+      "right": "آليات انتقال الإلكترونات في المعقدات المعدنية",
+      "kind": "Chemistry",
+      "year": "1983",
+      "source": "https://www.nobelprize.org/prizes/chemistry/1983/taube/facts/",
+      "motivation": "for his work on the mechanisms of electron transfer reactions, especially in metal complexes"
+    },
+    {
+      "left": "بروس ميريفيلد",
+      "right": "الاصطناع الكيميائي على حامل صلب",
+      "kind": "Chemistry",
+      "year": "1984",
+      "source": "https://www.nobelprize.org/prizes/chemistry/1984/merrifield/facts/",
+      "motivation": "for his development of methodology for chemical synthesis on a solid matrix"
+    },
+    {
+      "left": "ريتشارد إرنست",
+      "right": "منهجية الرنين المغناطيسي النووي عالي الدقة",
+      "kind": "Chemistry",
+      "year": "1991",
+      "source": "https://www.nobelprize.org/prizes/chemistry/1991/ernst/facts/",
+      "motivation": "for his contributions to the development of the methodology of high resolution nuclear magnetic resonance (NMR) spectroscopy"
+    },
+    {
+      "left": "رودولف ماركوس",
+      "right": "نظرية انتقال الإلكترونات في الأنظمة الكيميائية",
+      "kind": "Chemistry",
+      "year": "1992",
+      "source": "https://www.nobelprize.org/prizes/chemistry/1992/marcus/facts/",
+      "motivation": "for his contributions to the theory of electron transfer reactions in chemical systems"
+    },
+    {
+      "left": "جورج أولاه",
+      "right": "كيمياء الكربوكاتيونات",
+      "kind": "Chemistry",
+      "year": "1994",
+      "source": "https://www.nobelprize.org/prizes/chemistry/1994/olah/facts/",
+      "motivation": "for his contribution to carbocation chemistry"
+    },
+    {
+      "left": "إميل فون بهرينغ",
+      "right": "العلاج بالمصل وتطبيقه ضد الدفتيريا",
+      "kind": "Physiology or Medicine",
+      "year": "1901",
+      "source": "https://www.nobelprize.org/prizes/medicine/1901/behring/facts/",
+      "motivation": "for his work on serum therapy, especially its application against diphtheria, by which he has opened a new road in the domain of medical science and thereby placed in the hands of the physician a victorious weapon against illness and deaths"
+    },
+    {
+      "left": "رونالد روس",
+      "right": "دراسة انتقال الملاريا إلى الجسم",
+      "kind": "Physiology or Medicine",
+      "year": "1902",
+      "source": "https://www.nobelprize.org/prizes/medicine/1902/ross/facts/",
+      "motivation": "for his work on malaria, by which he has shown how it enters the organism and thereby has laid the foundation for successful research on this disease and methods of combating it"
+    },
+    {
+      "left": "نيلس ريبيرغ فينسن",
+      "right": "علاج الذئبة الشائعة بالأشعة الضوئية المركزة",
+      "kind": "Physiology or Medicine",
+      "year": "1903",
+      "source": "https://www.nobelprize.org/prizes/medicine/1903/finsen/facts/",
+      "motivation": "in recognition of his contribution to the treatment of diseases, especially lupus vulgaris, with concentrated light radiation, whereby he has opened a new avenue for medical science"
+    },
+    {
+      "left": "ألفونس لافيران",
+      "right": "دور الأوالي في إحداث الأمراض",
+      "kind": "Physiology or Medicine",
+      "year": "1907",
+      "source": "https://www.nobelprize.org/prizes/medicine/1907/laveran/facts/",
+      "motivation": "in recognition of his work on the role played by protozoa in causing diseases"
+    },
+    {
+      "left": "تيودور كوخر",
+      "right": "وظائف الغدة الدرقية وأمراضها وجراحتها",
+      "kind": "Physiology or Medicine",
+      "year": "1909",
+      "source": "https://www.nobelprize.org/prizes/medicine/1909/kocher/facts/",
+      "motivation": "for his work on the physiology, pathology and surgery of the thyroid gland"
+    },
+    {
+      "left": "ألبرشت كوسل",
+      "right": "كيمياء الخلية والبروتينات والمواد النووية",
+      "kind": "Physiology or Medicine",
+      "year": "1910",
+      "source": "https://www.nobelprize.org/prizes/medicine/1910/kossel/facts/",
+      "motivation": "in recognition of the contributions to our knowledge of cell chemistry made through his work on proteins, including the nucleic substances"
+    },
+    {
+      "left": "ألفار غولستراند",
+      "right": "بصريات العين",
+      "kind": "Physiology or Medicine",
+      "year": "1911",
+      "source": "https://www.nobelprize.org/prizes/medicine/1911/gullstrand/facts/",
+      "motivation": "for his work on the dioptrics of the eye"
+    },
+    {
+      "left": "ألكسيس كاريل",
+      "right": "خياطة الأوعية الدموية وزرع الأوعية والأعضاء",
+      "kind": "Physiology or Medicine",
+      "year": "1912",
+      "source": "https://www.nobelprize.org/prizes/medicine/1912/carrel/facts/",
+      "motivation": "in recognition of his work on vascular suture and the transplantation of blood vessels and organs"
+    },
+    {
+      "left": "شارل ريشيه",
+      "right": "دراسة التأق",
+      "kind": "Physiology or Medicine",
+      "year": "1913",
+      "source": "https://www.nobelprize.org/prizes/medicine/1913/richet/facts/",
+      "motivation": "in recognition of his work on anaphylaxis"
+    },
+    {
+      "left": "روبرت باراني",
+      "right": "وظائف الجهاز الدهليزي وأمراضه",
+      "kind": "Physiology or Medicine",
+      "year": "1914",
+      "source": "https://www.nobelprize.org/prizes/medicine/1914/barany/facts/",
+      "motivation": "for his work on the physiology and pathology of the vestibular apparatus"
+    },
+    {
+      "left": "جول بورديه",
+      "right": "اكتشافات مرتبطة بالمناعة",
+      "kind": "Physiology or Medicine",
+      "year": "1919",
+      "source": "https://www.nobelprize.org/prizes/medicine/1919/bordet/facts/",
+      "motivation": "for his discoveries relating to immunity"
+    },
+    {
+      "left": "أوغست كروغ",
+      "right": "آلية تنظيم حركة الشعيرات الدموية",
+      "kind": "Physiology or Medicine",
+      "year": "1920",
+      "source": "https://www.nobelprize.org/prizes/medicine/1920/krogh/facts/",
+      "motivation": "for his discovery of the capillary motor regulating mechanism"
+    },
+    {
+      "left": "فيلم أينتهوفن",
+      "right": "آلية تخطيط كهربائية القلب",
+      "kind": "Physiology or Medicine",
+      "year": "1924",
+      "source": "https://www.nobelprize.org/prizes/medicine/1924/einthoven/facts/",
+      "motivation": "for his discovery of the mechanism of the electrocardiogram"
+    },
+    {
+      "left": "يوليوس فاغنر ياورغ",
+      "right": "القيمة العلاجية التاريخية للتلقيح بالملاريا في علاج الشلل العام",
+      "kind": "Physiology or Medicine",
+      "year": "1927",
+      "source": "https://www.nobelprize.org/prizes/medicine/1927/wagner-jauregg/facts/",
+      "motivation": "for his discovery of the therapeutic value of malaria inoculation in the treatment of dementia paralytica"
+    },
+    {
+      "left": "شارل نيكول",
+      "right": "دراسة التيفوس",
+      "kind": "Physiology or Medicine",
+      "year": "1928",
+      "source": "https://www.nobelprize.org/prizes/medicine/1928/nicolle/facts/",
+      "motivation": "for his work on typhus"
+    },
+    {
+      "left": "كارل لاندشتاينر",
+      "right": "اكتشاف فصائل الدم البشرية",
+      "kind": "Physiology or Medicine",
+      "year": "1930",
+      "source": "https://www.nobelprize.org/prizes/medicine/1930/landsteiner/facts/",
+      "motivation": "for his discovery of human blood groups"
+    },
+    {
+      "left": "أوتو فاربورغ",
+      "right": "طبيعة الإنزيم التنفسي وطريقة عمله",
+      "kind": "Physiology or Medicine",
+      "year": "1931",
+      "source": "https://www.nobelprize.org/prizes/medicine/1931/warburg/facts/",
+      "motivation": "for his discovery of the nature and mode of action of the respiratory enzyme"
+    },
+    {
+      "left": "توماس هنت مورغان",
+      "right": "دور الكروموسومات في الوراثة",
+      "kind": "Physiology or Medicine",
+      "year": "1933",
+      "source": "https://www.nobelprize.org/prizes/medicine/1933/morgan/facts/",
+      "motivation": "for his discoveries concerning the role played by the chromosome in heredity"
+    },
+    {
+      "left": "هانس شبيمان",
+      "right": "تأثير المنظم في التطور الجنيني",
+      "kind": "Physiology or Medicine",
+      "year": "1935",
+      "source": "https://www.nobelprize.org/prizes/medicine/1935/spemann/facts/",
+      "motivation": "for his discovery of the organizer effect in embryonic development"
+    },
+    {
+      "left": "ألبرت سنت جيورجي",
+      "right": "عمليات الأكسدة الحيوية وخاصة فيتامين C",
+      "kind": "Physiology or Medicine",
+      "year": "1937",
+      "source": "https://www.nobelprize.org/prizes/medicine/1937/szent-gyorgyi/facts/",
+      "motivation": "for his discoveries in connection with the biological combustion processes, with special reference to vitamin C and the catalysis of fumaric acid"
+    },
+    {
+      "left": "كورني هايمانز",
+      "right": "آليات الجيب السباتي والأبهر في تنظيم التنفس",
+      "kind": "Physiology or Medicine",
+      "year": "1938",
+      "source": "https://www.nobelprize.org/prizes/medicine/1938/heymans/facts/",
+      "motivation": "for the discovery of the role played by the sinus and aortic mechanisms in the regulation of respiration"
+    },
+    {
+      "left": "غيرهارد دوماك",
+      "right": "التأثير المضاد للبكتيريا لمادة برونتوسيل",
+      "kind": "Physiology or Medicine",
+      "year": "1939",
+      "source": "https://www.nobelprize.org/prizes/medicine/1939/domagk/facts/",
+      "motivation": "for the discovery of the antibacterial effects of prontosil"
+    },
+    {
+      "left": "هيرمان جوزيف مولر",
+      "right": "إنتاج الطفرات بواسطة الأشعة السينية",
+      "kind": "Physiology or Medicine",
+      "year": "1946",
+      "source": "https://www.nobelprize.org/prizes/medicine/1946/muller/facts/",
+      "motivation": "for the discovery of the production of mutations by means of X-ray irradiation"
+    },
+    {
+      "left": "بول هيرمان مولر",
+      "right": "كفاءة DDT سمًّا بالملامسة للمفصليات",
+      "kind": "Physiology or Medicine",
+      "year": "1948",
+      "source": "https://www.nobelprize.org/prizes/medicine/1948/muller/facts/",
+      "motivation": "for his discovery of the high efficiency of DDT as a contact poison against several arthropods"
+    },
+    {
+      "left": "ماكس تايلر",
+      "right": "الحمى الصفراء وطرق مكافحتها",
+      "kind": "Physiology or Medicine",
+      "year": "1951",
+      "source": "https://www.nobelprize.org/prizes/medicine/1951/theiler/facts/",
+      "motivation": "for his discoveries concerning yellow fever and how to combat it"
+    },
+    {
+      "left": "سلمان واكسمان",
+      "right": "اكتشاف الستربتوميسين المضاد للسل",
+      "kind": "Physiology or Medicine",
+      "year": "1952",
+      "source": "https://www.nobelprize.org/prizes/medicine/1952/waksman/facts/",
+      "motivation": "for his discovery of streptomycin, the first antibiotic effective against tuberculosis"
+    },
+    {
+      "left": "هوغو تيوريل",
+      "right": "طبيعة إنزيمات الأكسدة وطريقة عملها",
+      "kind": "Physiology or Medicine",
+      "year": "1955",
+      "source": "https://www.nobelprize.org/prizes/medicine/1955/theorell/facts/",
+      "motivation": "for his discoveries concerning the nature and mode of action of oxidation enzymes"
+    },
+    {
+      "left": "دانييل بوفيه",
+      "right": "مركبات اصطناعية تثبط عمل مواد معينة في الجسم",
+      "kind": "Physiology or Medicine",
+      "year": "1957",
+      "source": "https://www.nobelprize.org/prizes/medicine/1957/bovet/facts/",
+      "motivation": "for his discoveries relating to synthetic compounds that inhibit the action of certain body substances, and especially their action on the vascular system and the skeletal muscles"
+    },
+    {
+      "left": "غيورغ فون بيكيشي",
+      "right": "الآلية الفيزيائية للتحفيز داخل القوقعة",
+      "kind": "Physiology or Medicine",
+      "year": "1961",
+      "source": "https://www.nobelprize.org/prizes/medicine/1961/bekesy/facts/",
+      "motivation": "for his discoveries of the physical mechanism of stimulation within the cochlea"
+    },
+    {
+      "left": "إيرل ساذرلاند",
+      "right": "آليات تأثير الهرمونات",
+      "kind": "Physiology or Medicine",
+      "year": "1971",
+      "source": "https://www.nobelprize.org/prizes/medicine/1971/sutherland/facts/",
+      "motivation": "for his discoveries concerning the mechanisms of the action of hormones"
+    },
+    {
+      "left": "باربرا مكلينتوك",
+      "right": "العناصر الوراثية المتنقلة",
+      "kind": "Physiology or Medicine",
+      "year": "1983",
+      "source": "https://www.nobelprize.org/prizes/medicine/1983/mcclintock/facts/",
+      "motivation": "for her discovery of mobile genetic elements"
+    },
+    {
+      "left": "سوسومو تونيغاوا",
+      "right": "المبدأ الوراثي لتوليد تنوع الأجسام المضادة",
+      "kind": "Physiology or Medicine",
+      "year": "1987",
+      "source": "https://www.nobelprize.org/prizes/medicine/1987/tonegawa/facts/",
+      "motivation": "for his discovery of the genetic principle for generation of antibody diversity"
+    },
+    {
+      "left": "ستانلي بروسنر",
+      "right": "اكتشاف البريونات",
+      "kind": "Physiology or Medicine",
+      "year": "1997",
+      "source": "https://www.nobelprize.org/prizes/medicine/1997/prusiner/facts/",
+      "motivation": "for his discovery of Prions - a new biological principle of infection"
+    },
+    {
+      "left": "غونتر بلوبل",
+      "right": "إشارات البروتينات الداخلية التي توجه نقلها وموقعها الخلوي",
+      "kind": "Physiology or Medicine",
+      "year": "1999",
+      "source": "https://www.nobelprize.org/prizes/medicine/1999/blobel/facts/",
+      "motivation": "for the discovery that proteins have intrinsic signals that govern their transport and localization in the cell"
+    },
+    {
+      "left": "روبرت إدواردز",
+      "right": "تطوير الإخصاب خارج الجسم",
+      "kind": "Physiology or Medicine",
+      "year": "2010",
+      "source": "https://www.nobelprize.org/prizes/medicine/2010/edwards/facts/",
+      "motivation": "for the development of in vitro fertilization"
+    },
+    {
+      "left": "بول سامويلسون",
+      "right": "تطوير النظرية الاقتصادية الساكنة والديناميكية",
+      "kind": "Economic Sciences",
+      "year": "1970",
+      "source": "https://www.nobelprize.org/prizes/economic-sciences/1970/samuelson/facts/",
+      "motivation": "for the scientific work through which he has developed static and dynamic economic theory and actively contributed to raising the level of analysis in economic science"
+    },
+    {
+      "left": "سايمون كوزنتس",
+      "right": "التفسير التجريبي للنمو الاقتصادي",
+      "kind": "Economic Sciences",
+      "year": "1971",
+      "source": "https://www.nobelprize.org/prizes/economic-sciences/1971/kuznets/facts/",
+      "motivation": "for his empirically founded interpretation of economic growth which has led to new and deepened insight into the economic and social structure and process of development"
+    },
+    {
+      "left": "فاسيلي ليونتييف",
+      "right": "طريقة المدخلات والمخرجات في التحليل الاقتصادي",
+      "kind": "Economic Sciences",
+      "year": "1973",
+      "source": "https://www.nobelprize.org/prizes/economic-sciences/1973/leontief/facts/",
+      "motivation": "for the development of the input-output method and for its application to important economic problems"
+    },
+    {
+      "left": "ميلتون فريدمان",
+      "right": "تحليل الاستهلاك والنظرية النقدية وتعقيد سياسة الاستقرار",
+      "kind": "Economic Sciences",
+      "year": "1976",
+      "source": "https://www.nobelprize.org/prizes/economic-sciences/1976/friedman/facts/",
+      "motivation": "for his achievements in the fields of consumption analysis, monetary history and theory and for his demonstration of the complexity of stabilization policy"
+    },
+    {
+      "left": "هربرت سايمون",
+      "right": "عمليات اتخاذ القرار داخل المؤسسات الاقتصادية",
+      "kind": "Economic Sciences",
+      "year": "1978",
+      "source": "https://www.nobelprize.org/prizes/economic-sciences/1978/simon/facts/",
+      "motivation": "for his pioneering research into the decision-making process within economic organizations"
+    },
+    {
+      "left": "لورنس كلاين",
+      "right": "النماذج الاقتصادية القياسية للتقلبات والسياسات",
+      "kind": "Economic Sciences",
+      "year": "1980",
+      "source": "https://www.nobelprize.org/prizes/economic-sciences/1980/klein/facts/",
+      "motivation": "for the creation of econometric models and the application to the analysis of economic fluctuations and economic policies"
+    },
+    {
+      "left": "جيمس توبين",
+      "right": "صلة الأسواق المالية بالإنفاق والتوظيف والإنتاج والأسعار",
+      "kind": "Economic Sciences",
+      "year": "1981",
+      "source": "https://www.nobelprize.org/prizes/economic-sciences/1981/tobin/facts/",
+      "motivation": "for his analysis of financial markets and their relations to expenditure decisions, employment, production and prices"
+    },
+    {
+      "left": "جورج ستيغلر",
+      "right": "الهياكل الصناعية وعمل الأسواق وأثر التنظيم العام",
+      "kind": "Economic Sciences",
+      "year": "1982",
+      "source": "https://www.nobelprize.org/prizes/economic-sciences/1982/stigler/facts/",
+      "motivation": "for his seminal studies of industrial structures, functioning of markets and causes and effects of public regulation"
+    },
+    {
+      "left": "جيرار ديبرو",
+      "right": "إعادة الصياغة الصارمة لنظرية التوازن العام",
+      "kind": "Economic Sciences",
+      "year": "1983",
+      "source": "https://www.nobelprize.org/prizes/economic-sciences/1983/debreu/facts/",
+      "motivation": "for having incorporated new analytical methods into economic theory and for his rigorous reformulation of the theory of general equilibrium"
+    },
+    {
+      "left": "ريتشارد ستون",
+      "right": "تطوير أنظمة الحسابات القومية",
+      "kind": "Economic Sciences",
+      "year": "1984",
+      "source": "https://www.nobelprize.org/prizes/economic-sciences/1984/stone/facts/",
+      "motivation": "for having made fundamental contributions to the development of systems of national accounts and hence greatly improved the basis for empirical economic analysis"
+    },
+    {
+      "left": "فرانكو موديلياني",
+      "right": "تحليل الادخار والأسواق المالية",
+      "kind": "Economic Sciences",
+      "year": "1985",
+      "source": "https://www.nobelprize.org/prizes/economic-sciences/1985/modigliani/facts/",
+      "motivation": "for his pioneering analyses of saving and of financial markets"
+    },
+    {
+      "left": "جيمس بوكانان",
+      "right": "الأسس التعاقدية والدستورية للقرار الاقتصادي والسياسي",
+      "kind": "Economic Sciences",
+      "year": "1986",
+      "source": "https://www.nobelprize.org/prizes/economic-sciences/1986/buchanan/facts/",
+      "motivation": "for his development of the contractual and constitutional bases for the theory of economic and political decision-making"
+    },
+    {
+      "left": "روبرت سولو",
+      "right": "نظرية النمو الاقتصادي",
+      "kind": "Economic Sciences",
+      "year": "1987",
+      "source": "https://www.nobelprize.org/prizes/economic-sciences/1987/solow/facts/",
+      "motivation": "for his contributions to the theory of economic growth"
+    },
+    {
+      "left": "موريس أليه",
+      "right": "نظرية الأسواق والاستخدام الكفء للموارد",
+      "kind": "Economic Sciences",
+      "year": "1988",
+      "source": "https://www.nobelprize.org/prizes/economic-sciences/1988/allais/facts/",
+      "motivation": "for his pioneering contributions to the theory of markets and efficient utilization of resources"
+    },
+    {
+      "left": "تريغفه هافيلمو",
+      "right": "الأسس الاحتمالية للاقتصاد القياسي والبنى الاقتصادية المتزامنة",
+      "kind": "Economic Sciences",
+      "year": "1989",
+      "source": "https://www.nobelprize.org/prizes/economic-sciences/1989/haavelmo/facts/",
+      "motivation": "for his clarification of the probability theory foundations of econometrics and his analyses of simultaneous economic structures"
+    },
+    {
+      "left": "رونالد كوز",
+      "right": "تكاليف المعاملات وحقوق الملكية في بنية الاقتصاد",
+      "kind": "Economic Sciences",
+      "year": "1991",
+      "source": "https://www.nobelprize.org/prizes/economic-sciences/1991/coase/facts/",
+      "motivation": "for his discovery and clarification of the significance of transaction costs and property rights for the institutional structure and functioning of the economy"
+    },
+    {
+      "left": "غاري بيكر",
+      "right": "توسيع التحليل الاقتصادي الجزئي إلى السلوك البشري خارج الأسواق",
+      "kind": "Economic Sciences",
+      "year": "1992",
+      "source": "https://www.nobelprize.org/prizes/economic-sciences/1992/becker/facts/",
+      "motivation": "for having extended the domain of microeconomic analysis to a wide range of human behaviour and interaction, including nonmarket behaviour"
+    }
+  ],
+  "units": [
+    {
+      "left": "متر",
+      "right": "الطول",
+      "source": "https://www.bipm.org/en/publications/si-brochure",
+      "kind": "units"
+    },
+    {
+      "left": "كيلوغرام",
+      "right": "الكتلة",
+      "source": "https://www.bipm.org/en/publications/si-brochure",
+      "kind": "units"
+    },
+    {
+      "left": "ثانية",
+      "right": "الزمن",
+      "source": "https://www.bipm.org/en/publications/si-brochure",
+      "kind": "units"
+    },
+    {
+      "left": "أمبير",
+      "right": "شدة التيار الكهربائي",
+      "source": "https://www.bipm.org/en/publications/si-brochure",
+      "kind": "units"
+    },
+    {
+      "left": "كلفن",
+      "right": "درجة الحرارة الديناميكية الحرارية",
+      "source": "https://www.bipm.org/en/publications/si-brochure",
+      "kind": "units"
+    },
+    {
+      "left": "مول",
+      "right": "كمية المادة",
+      "source": "https://www.bipm.org/en/publications/si-brochure",
+      "kind": "units"
+    },
+    {
+      "left": "كانديلا",
+      "right": "شدة الإضاءة",
+      "source": "https://www.bipm.org/en/publications/si-brochure",
+      "kind": "units"
+    },
+    {
+      "left": "نيوتن",
+      "right": "القوة",
+      "source": "https://www.bipm.org/en/publications/si-brochure",
+      "kind": "units"
+    },
+    {
+      "left": "باسكال",
+      "right": "الضغط",
+      "source": "https://www.bipm.org/en/publications/si-brochure",
+      "kind": "units"
+    },
+    {
+      "left": "جول",
+      "right": "الطاقة",
+      "source": "https://www.bipm.org/en/publications/si-brochure",
+      "kind": "units"
+    },
+    {
+      "left": "واط",
+      "right": "القدرة",
+      "source": "https://www.bipm.org/en/publications/si-brochure",
+      "kind": "units"
+    },
+    {
+      "left": "كولوم",
+      "right": "الشحنة الكهربائية",
+      "source": "https://www.bipm.org/en/publications/si-brochure",
+      "kind": "units"
+    },
+    {
+      "left": "فولت",
+      "right": "فرق الجهد الكهربائي",
+      "source": "https://www.bipm.org/en/publications/si-brochure",
+      "kind": "units"
+    },
+    {
+      "left": "أوم",
+      "right": "المقاومة الكهربائية",
+      "source": "https://www.bipm.org/en/publications/si-brochure",
+      "kind": "units"
+    },
+    {
+      "left": "سيمنز",
+      "right": "المواصلة الكهربائية (مقلوب المقاومة)",
+      "source": "https://www.bipm.org/en/publications/si-brochure",
+      "kind": "units"
+    },
+    {
+      "left": "فاراد",
+      "right": "السعة الكهربائية",
+      "source": "https://www.bipm.org/en/publications/si-brochure",
+      "kind": "units"
+    },
+    {
+      "left": "ويبر",
+      "right": "الفيض المغناطيسي",
+      "source": "https://www.bipm.org/en/publications/si-brochure",
+      "kind": "units"
+    },
+    {
+      "left": "تسلا",
+      "right": "كثافة الفيض المغناطيسي",
+      "source": "https://www.bipm.org/en/publications/si-brochure",
+      "kind": "units"
+    },
+    {
+      "left": "هنري",
+      "right": "المحاثة",
+      "source": "https://www.bipm.org/en/publications/si-brochure",
+      "kind": "units"
+    },
+    {
+      "left": "هرتز",
+      "right": "التردد",
+      "source": "https://www.bipm.org/en/publications/si-brochure",
+      "kind": "units"
+    },
+    {
+      "left": "بيكريل",
+      "right": "النشاط الإشعاعي",
+      "source": "https://www.bipm.org/en/publications/si-brochure",
+      "kind": "units"
+    },
+    {
+      "left": "غراي",
+      "right": "الجرعة الممتصة",
+      "source": "https://www.bipm.org/en/publications/si-brochure",
+      "kind": "units"
+    },
+    {
+      "left": "سيفرت",
+      "right": "الجرعة المكافئة",
+      "source": "https://www.bipm.org/en/publications/si-brochure",
+      "kind": "units"
+    },
+    {
+      "left": "لومن",
+      "right": "الفيض الضوئي",
+      "source": "https://www.bipm.org/en/publications/si-brochure",
+      "kind": "units"
+    },
+    {
+      "left": "لوكس",
+      "right": "الاستضاءة",
+      "source": "https://www.bipm.org/en/publications/si-brochure",
+      "kind": "units"
+    },
+    {
+      "left": "كاتال",
+      "right": "النشاط التحفيزي",
+      "source": "https://www.bipm.org/en/publications/si-brochure",
+      "kind": "units"
+    }
+  ],
+  "modules": [
+    {
+      "left": "re",
+      "right": "البحث بأنماط التعابير المنتظمة",
+      "source": "https://docs.python.org/3.14/library/index.html",
+      "kind": "modules"
+    },
+    {
+      "left": "difflib",
+      "right": "مقارنة التسلسلات وإظهار الفروق",
+      "source": "https://docs.python.org/3.14/library/index.html",
+      "kind": "modules"
+    },
+    {
+      "left": "textwrap",
+      "right": "التفاف أسطر النص وملؤها",
+      "source": "https://docs.python.org/3.14/library/index.html",
+      "kind": "modules"
+    },
+    {
+      "left": "unicodedata",
+      "right": "خصائص المحارف في قاعدة Unicode",
+      "source": "https://docs.python.org/3.14/library/index.html",
+      "kind": "modules"
+    },
+    {
+      "left": "datetime",
+      "right": "تمثيل التواريخ والأوقات والمدة",
+      "source": "https://docs.python.org/3.14/library/index.html",
+      "kind": "modules"
+    },
+    {
+      "left": "zoneinfo",
+      "right": "تمثيل المناطق الزمنية من قاعدة IANA",
+      "source": "https://docs.python.org/3.14/library/index.html",
+      "kind": "modules"
+    },
+    {
+      "left": "calendar",
+      "right": "إنتاج تقاويم نصية وحساب أيام التقويم",
+      "source": "https://docs.python.org/3.14/library/index.html",
+      "kind": "modules"
+    },
+    {
+      "left": "heapq",
+      "right": "خوارزميات كومة الأولوية",
+      "source": "https://docs.python.org/3.14/library/index.html",
+      "kind": "modules"
+    },
+    {
+      "left": "bisect",
+      "right": "البحث عن موضع الإدراج في تسلسل مرتب",
+      "source": "https://docs.python.org/3.14/library/index.html",
+      "kind": "modules"
+    },
+    {
+      "left": "array",
+      "right": "مصفوفات مضغوطة من قيم أساسية متجانسة",
+      "source": "https://docs.python.org/3.14/library/index.html",
+      "kind": "modules"
+    },
+    {
+      "left": "weakref",
+      "right": "مراجع لا تمنع جمع الكائنات غير المستخدمة",
+      "source": "https://docs.python.org/3.14/library/index.html",
+      "kind": "modules"
+    },
+    {
+      "left": "math",
+      "right": "الدوال الرياضية للأعداد الحقيقية",
+      "source": "https://docs.python.org/3.14/library/index.html",
+      "kind": "modules"
+    },
+    {
+      "left": "cmath",
+      "right": "الدوال الرياضية للأعداد المركبة",
+      "source": "https://docs.python.org/3.14/library/index.html",
+      "kind": "modules"
+    },
+    {
+      "left": "decimal",
+      "right": "الحساب العشري القابل لضبط الدقة",
+      "source": "https://docs.python.org/3.14/library/index.html",
+      "kind": "modules"
+    },
+    {
+      "left": "fractions",
+      "right": "الحساب بالأعداد النسبية الكسريّة",
+      "source": "https://docs.python.org/3.14/library/index.html",
+      "kind": "modules"
+    },
+    {
+      "left": "random",
+      "right": "توليد أعداد شبه عشوائية للمحاكاة",
+      "source": "https://docs.python.org/3.14/library/index.html",
+      "kind": "modules"
+    },
+    {
+      "left": "statistics",
+      "right": "حساب مقاييس إحصائية من بيانات عددية",
+      "source": "https://docs.python.org/3.14/library/index.html",
+      "kind": "modules"
+    },
+    {
+      "left": "itertools",
+      "right": "بناء مكررات فعالة من عمليات تركيبية",
+      "source": "https://docs.python.org/3.14/library/index.html",
+      "kind": "modules"
+    },
+    {
+      "left": "functools",
+      "right": "تكييف الدوال وذاكرتها المؤقتة",
+      "source": "https://docs.python.org/3.14/library/index.html",
+      "kind": "modules"
+    },
+    {
+      "left": "operator",
+      "right": "إتاحة العمليات القياسية كدوال",
+      "source": "https://docs.python.org/3.14/library/index.html",
+      "kind": "modules"
+    },
+    {
+      "left": "pathlib",
+      "right": "تمثيل مسارات الملفات بكائنات",
+      "source": "https://docs.python.org/3.14/library/index.html",
+      "kind": "modules"
+    },
+    {
+      "left": "filecmp",
+      "right": "مقارنة الملفات والأدلة",
+      "source": "https://docs.python.org/3.14/library/index.html",
+      "kind": "modules"
+    },
+    {
+      "left": "tempfile",
+      "right": "إنشاء ملفات وأدلة مؤقتة",
+      "source": "https://docs.python.org/3.14/library/index.html",
+      "kind": "modules"
+    },
+    {
+      "left": "glob",
+      "right": "توسيع أنماط أسماء المسارات",
+      "source": "https://docs.python.org/3.14/library/index.html",
+      "kind": "modules"
+    },
+    {
+      "left": "shutil",
+      "right": "عمليات نسخ ونقل الملفات عالية المستوى",
+      "source": "https://docs.python.org/3.14/library/index.html",
+      "kind": "modules"
+    },
+    {
+      "left": "pickle",
+      "right": "تسلسل كائنات Python إلى تمثيل ثنائي",
+      "source": "https://docs.python.org/3.14/library/index.html",
+      "kind": "modules"
+    },
+    {
+      "left": "shelve",
+      "right": "حفظ كائنات في مخزن شبيه بالقاموس",
+      "source": "https://docs.python.org/3.14/library/index.html",
+      "kind": "modules"
+    },
+    {
+      "left": "sqlite3",
+      "right": "الاتصال بقاعدة SQLite",
+      "source": "https://docs.python.org/3.14/library/index.html",
+      "kind": "modules"
+    },
+    {
+      "left": "zlib",
+      "right": "الضغط والتفريغ بخوارزمية DEFLATE",
+      "source": "https://docs.python.org/3.14/library/index.html",
+      "kind": "modules"
+    },
+    {
+      "left": "gzip",
+      "right": "قراءة وكتابة ملفات gzip",
+      "source": "https://docs.python.org/3.14/library/index.html",
+      "kind": "modules"
+    },
+    {
+      "left": "bz2",
+      "right": "ضغط البيانات بصيغة bzip2",
+      "source": "https://docs.python.org/3.14/library/index.html",
+      "kind": "modules"
+    },
+    {
+      "left": "lzma",
+      "right": "ضغط البيانات بخوارزميات LZMA",
+      "source": "https://docs.python.org/3.14/library/index.html",
+      "kind": "modules"
+    },
+    {
+      "left": "zipfile",
+      "right": "قراءة وكتابة أرشيفات ZIP",
+      "source": "https://docs.python.org/3.14/library/index.html",
+      "kind": "modules"
+    },
+    {
+      "left": "tarfile",
+      "right": "قراءة وكتابة أرشيفات TAR",
+      "source": "https://docs.python.org/3.14/library/index.html",
+      "kind": "modules"
+    },
+    {
+      "left": "csv",
+      "right": "قراءة وكتابة الجداول ذات القيم المفصولة",
+      "source": "https://docs.python.org/3.14/library/index.html",
+      "kind": "modules"
+    },
+    {
+      "left": "configparser",
+      "right": "قراءة ملفات الإعداد بأسلوب INI",
+      "source": "https://docs.python.org/3.14/library/index.html",
+      "kind": "modules"
+    },
+    {
+      "left": "tomllib",
+      "right": "تحليل مستندات TOML",
+      "source": "https://docs.python.org/3.14/library/index.html",
+      "kind": "modules"
+    },
+    {
+      "left": "plistlib",
+      "right": "قراءة وكتابة ملفات قوائم خصائص Apple",
+      "source": "https://docs.python.org/3.14/library/index.html",
+      "kind": "modules"
+    },
+    {
+      "left": "argparse",
+      "right": "تعريف معاملات سطر الأوامر وتحليلها",
+      "source": "https://docs.python.org/3.14/library/index.html",
+      "kind": "modules"
+    },
+    {
+      "left": "logging",
+      "right": "إرسال سجلات رسائل التطبيق عبر معالجات",
+      "source": "https://docs.python.org/3.14/library/index.html",
+      "kind": "modules"
+    },
+    {
+      "left": "getpass",
+      "right": "طلب كلمة مرور من الطرفية مع إخفاء الإدخال",
+      "source": "https://docs.python.org/3.14/library/index.html",
+      "kind": "modules"
+    },
+    {
+      "left": "threading",
+      "right": "إدارة خيوط التنفيذ داخل العملية",
+      "source": "https://docs.python.org/3.14/library/index.html",
+      "kind": "modules"
+    },
+    {
+      "left": "multiprocessing",
+      "right": "إدارة عمليات مستقلة وتشغيل العمل فيها",
+      "source": "https://docs.python.org/3.14/library/index.html",
+      "kind": "modules"
+    },
+    {
+      "left": "subprocess",
+      "right": "تشغيل برامج فرعية والتواصل معها",
+      "source": "https://docs.python.org/3.14/library/index.html",
+      "kind": "modules"
+    },
+    {
+      "left": "queue",
+      "right": "طوابير بيانات آمنة بين الخيوط",
+      "source": "https://docs.python.org/3.14/library/index.html",
+      "kind": "modules"
+    },
+    {
+      "left": "socket",
+      "right": "الوصول إلى مقابس الشبكة",
+      "source": "https://docs.python.org/3.14/library/index.html",
+      "kind": "modules"
+    },
+    {
+      "left": "ssl",
+      "right": "تغليف اتصالات المقابس بواسطة TLS",
+      "source": "https://docs.python.org/3.14/library/index.html",
+      "kind": "modules"
+    },
+    {
+      "left": "selectors",
+      "right": "تعدد إرسال الإدخال والإخراج عالي المستوى",
+      "source": "https://docs.python.org/3.14/library/index.html",
+      "kind": "modules"
+    },
+    {
+      "left": "signal",
+      "right": "إعداد معالجات إشارات العملية",
+      "source": "https://docs.python.org/3.14/library/index.html",
+      "kind": "modules"
+    },
+    {
+      "left": "mmap",
+      "right": "ربط محتوى ملف بذاكرة العملية",
+      "source": "https://docs.python.org/3.14/library/index.html",
+      "kind": "modules"
+    },
+    {
+      "left": "json",
+      "right": "تحليل وترميز JSON",
+      "source": "https://docs.python.org/3.14/library/index.html",
+      "kind": "modules"
+    },
+    {
+      "left": "mimetypes",
+      "right": "التخمين من الامتداد لنوع MIME",
+      "source": "https://docs.python.org/3.14/library/index.html",
+      "kind": "modules"
+    },
+    {
+      "left": "base64",
+      "right": "الترميز الثنائي إلى نص Base64",
+      "source": "https://docs.python.org/3.14/library/index.html",
+      "kind": "modules"
+    },
+    {
+      "left": "binascii",
+      "right": "التحويل بين التمثيلات الثنائية وASCII",
+      "source": "https://docs.python.org/3.14/library/index.html",
+      "kind": "modules"
+    },
+    {
+      "left": "html.parser",
+      "right": "تحليل ترميز HTML بالأحداث",
+      "source": "https://docs.python.org/3.14/library/index.html",
+      "kind": "modules"
+    },
+    {
+      "left": "xml.etree.ElementTree",
+      "right": "تمثيل أشجار XML ومعالجتها",
+      "source": "https://docs.python.org/3.14/library/index.html",
+      "kind": "modules"
+    },
+    {
+      "left": "unittest",
+      "right": "تنظيم اختبارات الوحدات وتشغيلها",
+      "source": "https://docs.python.org/3.14/library/index.html",
+      "kind": "modules"
+    },
+    {
+      "left": "unittest.mock",
+      "right": "استبدال الاعتمادات بكائنات محاكاة للاختبار",
+      "source": "https://docs.python.org/3.14/library/index.html",
+      "kind": "modules"
+    },
+    {
+      "left": "pydoc",
+      "right": "إنشاء وعرض توثيق الكائنات",
+      "source": "https://docs.python.org/3.14/library/index.html",
+      "kind": "modules"
+    },
+    {
+      "left": "sysconfig",
+      "right": "الوصول إلى إعدادات بناء وتثبيت Python",
+      "source": "https://docs.python.org/3.14/library/index.html",
+      "kind": "modules"
+    },
+    {
+      "left": "warnings",
+      "right": "التحكم في عرض رسائل التحذير",
+      "source": "https://docs.python.org/3.14/library/index.html",
+      "kind": "modules"
+    },
+    {
+      "left": "dataclasses",
+      "right": "توليد طرائق قياسية للأصناف من تعريف حقولها",
+      "source": "https://docs.python.org/3.14/library/index.html",
+      "kind": "modules"
+    },
+    {
+      "left": "contextlib",
+      "right": "أدوات إنشاء مديري السياق واستخدامهم",
+      "source": "https://docs.python.org/3.14/library/index.html",
+      "kind": "modules"
+    },
+    {
+      "left": "abc",
+      "right": "تعريف الأصناف الأساسية المجردة",
+      "source": "https://docs.python.org/3.14/library/index.html",
+      "kind": "modules"
+    },
+    {
+      "left": "zipimport",
+      "right": "استيراد وحدات من ملفات ZIP",
+      "source": "https://docs.python.org/3.14/library/index.html",
+      "kind": "modules"
+    },
+    {
+      "left": "pkgutil",
+      "right": "مساعدات التعامل مع الحزم واكتشاف وحداتها",
+      "source": "https://docs.python.org/3.14/library/index.html",
+      "kind": "modules"
+    },
+    {
+      "left": "modulefinder",
+      "right": "تحديد الوحدات التي يستوردها برنامج",
+      "source": "https://docs.python.org/3.14/library/index.html",
+      "kind": "modules"
+    },
+    {
+      "left": "runpy",
+      "right": "تشغيل وحدة Python كبرنامج",
+      "source": "https://docs.python.org/3.14/library/index.html",
+      "kind": "modules"
+    },
+    {
+      "left": "importlib",
+      "right": "الوصول البرمجي إلى نظام الاستيراد",
+      "source": "https://docs.python.org/3.14/library/index.html",
+      "kind": "modules"
+    },
+    {
+      "left": "ast",
+      "right": "قراءة شجرة التركيب المجردة لشفرة Python",
+      "source": "https://docs.python.org/3.14/library/index.html",
+      "kind": "modules"
+    },
+    {
+      "left": "symtable",
+      "right": "فحص جداول الرموز التي ينشئها المترجم",
+      "source": "https://docs.python.org/3.14/library/index.html",
+      "kind": "modules"
+    },
+    {
+      "left": "token",
+      "right": "ثوابت أنواع وحدات التحليل المعجمي",
+      "source": "https://docs.python.org/3.14/library/index.html",
+      "kind": "modules"
+    },
+    {
+      "left": "keyword",
+      "right": "اختبار الكلمات المحجوزة في Python",
+      "source": "https://docs.python.org/3.14/library/index.html",
+      "kind": "modules"
+    },
+    {
+      "left": "tokenize",
+      "right": "تجزئة الشفرة إلى وحدات معجمية",
+      "source": "https://docs.python.org/3.14/library/index.html",
+      "kind": "modules"
+    },
+    {
+      "left": "tabnanny",
+      "right": "كشف مشكلات المسافات البادئة الملتبسة",
+      "source": "https://docs.python.org/3.14/library/index.html",
+      "kind": "modules"
+    },
+    {
+      "left": "py_compile",
+      "right": "ترجمة ملف Python إلى ملف بايت كود",
+      "source": "https://docs.python.org/3.14/library/index.html",
+      "kind": "modules"
+    },
+    {
+      "left": "compileall",
+      "right": "ترجمة مجموعة ملفات Python إلى بايت كود",
+      "source": "https://docs.python.org/3.14/library/index.html",
+      "kind": "modules"
+    }
+  ],
+  "products": [
+    {
+      "left": "Gmail",
+      "right": "إدارة البريد الإلكتروني",
+      "source": "https://workspace.google.com/",
+      "kind": "products"
+    },
+    {
+      "left": "Google Drive",
+      "right": "حفظ الملفات في التخزين السحابي",
+      "source": "https://workspace.google.com/",
+      "kind": "products"
+    },
+    {
+      "left": "Google Meet",
+      "right": "عقد مؤتمرات الفيديو",
+      "source": "https://workspace.google.com/",
+      "kind": "products"
+    },
+    {
+      "left": "Google Calendar",
+      "right": "تنظيم المواعيد والتقاويم المشتركة",
+      "source": "https://workspace.google.com/",
+      "kind": "products"
+    },
+    {
+      "left": "Google Chat",
+      "right": "المراسلة المباشرة للفرق",
+      "source": "https://workspace.google.com/",
+      "kind": "products"
+    },
+    {
+      "left": "Google Docs",
+      "right": "تحرير المستندات النصية",
+      "source": "https://workspace.google.com/",
+      "kind": "products"
+    },
+    {
+      "left": "Google Sheets",
+      "right": "إنشاء جداول البيانات",
+      "source": "https://workspace.google.com/",
+      "kind": "products"
+    },
+    {
+      "left": "Google Slides",
+      "right": "بناء العروض التقديمية",
+      "source": "https://workspace.google.com/",
+      "kind": "products"
+    },
+    {
+      "left": "Google Keep",
+      "right": "حفظ الملاحظات الرقمية",
+      "source": "https://workspace.google.com/",
+      "kind": "products"
+    },
+    {
+      "left": "Google Forms",
+      "right": "إنشاء نماذج واستبيانات",
+      "source": "https://workspace.google.com/",
+      "kind": "products"
+    },
+    {
+      "left": "Google Tasks",
+      "right": "إدارة قوائم المهام",
+      "source": "https://workspace.google.com/",
+      "kind": "products"
+    },
+    {
+      "left": "Google Sites",
+      "right": "إنشاء مواقع الفريق والمشروع",
+      "source": "https://workspace.google.com/",
+      "kind": "products"
+    },
+    {
+      "left": "Photoshop",
+      "right": "تحرير الصور وتركيبها",
+      "source": "https://www.adobe.com/products/catalog.html",
+      "kind": "products"
+    },
+    {
+      "left": "Illustrator",
+      "right": "تصميم الرسوم المتجهة",
+      "source": "https://www.adobe.com/products/catalog.html",
+      "kind": "products"
+    },
+    {
+      "left": "InDesign",
+      "right": "تخطيط صفحات المنشورات",
+      "source": "https://www.adobe.com/products/catalog.html",
+      "kind": "products"
+    },
+    {
+      "left": "Premiere",
+      "right": "تحرير الفيديو وتركيب مشاهده",
+      "source": "https://www.adobe.com/products/catalog.html",
+      "kind": "products"
+    },
+    {
+      "left": "After Effects",
+      "right": "إنتاج المؤثرات البصرية والرسوم المتحركة",
+      "source": "https://www.adobe.com/products/catalog.html",
+      "kind": "products"
+    },
+    {
+      "left": "Audition",
+      "right": "تحرير الصوت ومزجه",
+      "source": "https://www.adobe.com/products/catalog.html",
+      "kind": "products"
+    },
+    {
+      "left": "Acrobat",
+      "right": "إنشاء مستندات PDF وتحريرها",
+      "source": "https://www.adobe.com/products/catalog.html",
+      "kind": "products"
+    },
+    {
+      "left": "Lightroom",
+      "right": "تنظيم الصور الفوتوغرافية ومعالجتها",
+      "source": "https://www.adobe.com/products/catalog.html",
+      "kind": "products"
+    }
+  ],
+  "books": [
+    {
+      "left": "قصة مدينتين",
+      "right": "تشارلز ديكنز",
+      "source": "https://www.gutenberg.org/ebooks/author/37",
+      "kind": "books"
+    },
+    {
+      "left": "آمال عظيمة",
+      "right": "تشارلز ديكنز",
+      "source": "https://www.gutenberg.org/ebooks/author/37",
+      "kind": "books"
+    },
+    {
+      "left": "أوليفر تويست",
+      "right": "تشارلز ديكنز",
+      "source": "https://www.gutenberg.org/ebooks/author/37",
+      "kind": "books"
+    },
+    {
+      "left": "ديفيد كوبرفيلد",
+      "right": "تشارلز ديكنز",
+      "source": "https://www.gutenberg.org/ebooks/author/37",
+      "kind": "books"
+    },
+    {
+      "left": "البيت الكئيب",
+      "right": "تشارلز ديكنز",
+      "source": "https://www.gutenberg.org/ebooks/author/37",
+      "kind": "books"
+    },
+    {
+      "left": "أوقات عصيبة",
+      "right": "تشارلز ديكنز",
+      "source": "https://www.gutenberg.org/ebooks/author/37",
+      "kind": "books"
+    },
+    {
+      "left": "ترنيمة عيد الميلاد",
+      "right": "تشارلز ديكنز",
+      "source": "https://www.gutenberg.org/ebooks/author/37",
+      "kind": "books"
+    },
+    {
+      "left": "أوراق بيكويك",
+      "right": "تشارلز ديكنز",
+      "source": "https://www.gutenberg.org/ebooks/author/37",
+      "kind": "books"
+    },
+    {
+      "left": "كبرياء وتحامل",
+      "right": "جين أوستن",
+      "source": "https://www.gutenberg.org/ebooks/author/68",
+      "kind": "books"
+    },
+    {
+      "left": "العقل والعاطفة",
+      "right": "جين أوستن",
+      "source": "https://www.gutenberg.org/ebooks/author/68",
+      "kind": "books"
+    },
+    {
+      "left": "إيما",
+      "right": "جين أوستن",
+      "source": "https://www.gutenberg.org/ebooks/author/68",
+      "kind": "books"
+    },
+    {
+      "left": "الإقناع",
+      "right": "جين أوستن",
+      "source": "https://www.gutenberg.org/ebooks/author/68",
+      "kind": "books"
+    },
+    {
+      "left": "دير نورثانغر",
+      "right": "جين أوستن",
+      "source": "https://www.gutenberg.org/ebooks/author/68",
+      "kind": "books"
+    },
+    {
+      "left": "مانسفيلد بارك",
+      "right": "جين أوستن",
+      "source": "https://www.gutenberg.org/ebooks/author/68",
+      "kind": "books"
+    },
+    {
+      "left": "هاملت",
+      "right": "ويليام شكسبير",
+      "source": "https://www.gutenberg.org/ebooks/author/65",
+      "kind": "books"
+    },
+    {
+      "left": "ماكبث",
+      "right": "ويليام شكسبير",
+      "source": "https://www.gutenberg.org/ebooks/author/65",
+      "kind": "books"
+    },
+    {
+      "left": "عطيل",
+      "right": "ويليام شكسبير",
+      "source": "https://www.gutenberg.org/ebooks/author/65",
+      "kind": "books"
+    },
+    {
+      "left": "الملك لير",
+      "right": "ويليام شكسبير",
+      "source": "https://www.gutenberg.org/ebooks/author/65",
+      "kind": "books"
+    },
+    {
+      "left": "العاصفة",
+      "right": "ويليام شكسبير",
+      "source": "https://www.gutenberg.org/ebooks/author/65",
+      "kind": "books"
+    },
+    {
+      "left": "حلم ليلة صيف",
+      "right": "ويليام شكسبير",
+      "source": "https://www.gutenberg.org/ebooks/author/65",
+      "kind": "books"
+    },
+    {
+      "left": "تاجر البندقية",
+      "right": "ويليام شكسبير",
+      "source": "https://www.gutenberg.org/ebooks/author/65",
+      "kind": "books"
+    },
+    {
+      "left": "يوليوس قيصر",
+      "right": "ويليام شكسبير",
+      "source": "https://www.gutenberg.org/ebooks/author/65",
+      "kind": "books"
+    },
+    {
+      "left": "حول العالم في ثمانين يومًا",
+      "right": "جول فيرن",
+      "source": "https://www.gutenberg.org/ebooks/author/60",
+      "kind": "books"
+    },
+    {
+      "left": "عشرون ألف فرسخ تحت البحر",
+      "right": "جول فيرن",
+      "source": "https://www.gutenberg.org/ebooks/author/60",
+      "kind": "books"
+    },
+    {
+      "left": "رحلة إلى مركز الأرض",
+      "right": "جول فيرن",
+      "source": "https://www.gutenberg.org/ebooks/author/60",
+      "kind": "books"
+    },
+    {
+      "left": "الجزيرة الغامضة",
+      "right": "جول فيرن",
+      "source": "https://www.gutenberg.org/ebooks/author/60",
+      "kind": "books"
+    },
+    {
+      "left": "من الأرض إلى القمر",
+      "right": "جول فيرن",
+      "source": "https://www.gutenberg.org/ebooks/author/60",
+      "kind": "books"
+    },
+    {
+      "left": "خمسة أسابيع في منطاد",
+      "right": "جول فيرن",
+      "source": "https://www.gutenberg.org/ebooks/author/60",
+      "kind": "books"
+    },
+    {
+      "left": "مغامرات توم سوير",
+      "right": "مارك توين",
+      "source": "https://www.gutenberg.org/ebooks/author/53",
+      "kind": "books"
+    },
+    {
+      "left": "مغامرات هكلبيري فن",
+      "right": "مارك توين",
+      "source": "https://www.gutenberg.org/ebooks/author/53",
+      "kind": "books"
+    },
+    {
+      "left": "الأمير والفقير",
+      "right": "مارك توين",
+      "source": "https://www.gutenberg.org/ebooks/author/53",
+      "kind": "books"
+    },
+    {
+      "left": "الحياة على المسيسيبي",
+      "right": "مارك توين",
+      "source": "https://www.gutenberg.org/ebooks/author/53",
+      "kind": "books"
+    },
+    {
+      "left": "يانكي من كونيتيكت في بلاط الملك آرثر",
+      "right": "مارك توين",
+      "source": "https://www.gutenberg.org/ebooks/author/53",
+      "kind": "books"
+    },
+    {
+      "left": "الأبرياء في الخارج",
+      "right": "مارك توين",
+      "source": "https://www.gutenberg.org/ebooks/author/53",
+      "kind": "books"
+    },
+    {
+      "left": "جزيرة الكنز",
+      "right": "روبرت لويس ستيفنسون",
+      "source": "https://www.gutenberg.org/ebooks/author/35",
+      "kind": "books"
+    },
+    {
+      "left": "الدكتور جيكل والسيد هايد",
+      "right": "روبرت لويس ستيفنسون",
+      "source": "https://www.gutenberg.org/ebooks/author/35",
+      "kind": "books"
+    },
+    {
+      "left": "المخطوف",
+      "right": "روبرت لويس ستيفنسون",
+      "source": "https://www.gutenberg.org/ebooks/author/35",
+      "kind": "books"
+    },
+    {
+      "left": "كاتريونا",
+      "right": "روبرت لويس ستيفنسون",
+      "source": "https://www.gutenberg.org/ebooks/author/35",
+      "kind": "books"
+    },
+    {
+      "left": "حديقة أشعار الطفل",
+      "right": "روبرت لويس ستيفنسون",
+      "source": "https://www.gutenberg.org/ebooks/author/35",
+      "kind": "books"
+    },
+    {
+      "left": "رحلات مع حمار في سيفين",
+      "right": "روبرت لويس ستيفنسون",
+      "source": "https://www.gutenberg.org/ebooks/author/35",
+      "kind": "books"
+    },
+    {
+      "left": "دراسة في اللون القرمزي",
+      "right": "آرثر كونان دويل",
+      "source": "https://www.gutenberg.org/ebooks/author/69",
+      "kind": "books"
+    },
+    {
+      "left": "علامة الأربعة",
+      "right": "آرثر كونان دويل",
+      "source": "https://www.gutenberg.org/ebooks/author/69",
+      "kind": "books"
+    },
+    {
+      "left": "كلب آل باسكرفيل",
+      "right": "آرثر كونان دويل",
+      "source": "https://www.gutenberg.org/ebooks/author/69",
+      "kind": "books"
+    },
+    {
+      "left": "وادي الخوف",
+      "right": "آرثر كونان دويل",
+      "source": "https://www.gutenberg.org/ebooks/author/69",
+      "kind": "books"
+    },
+    {
+      "left": "العالم المفقود",
+      "right": "آرثر كونان دويل",
+      "source": "https://www.gutenberg.org/ebooks/author/69",
+      "kind": "books"
+    },
+    {
+      "left": "الحزام السام",
+      "right": "آرثر كونان دويل",
+      "source": "https://www.gutenberg.org/ebooks/author/69",
+      "kind": "books"
+    },
+    {
+      "left": "الحرب والسلام",
+      "right": "ليو تولستوي",
+      "source": "https://www.gutenberg.org/ebooks/author/136",
+      "kind": "books"
+    },
+    {
+      "left": "آنا كارينينا",
+      "right": "ليو تولستوي",
+      "source": "https://www.gutenberg.org/ebooks/author/136",
+      "kind": "books"
+    },
+    {
+      "left": "البعث",
+      "right": "ليو تولستوي",
+      "source": "https://www.gutenberg.org/ebooks/author/136",
+      "kind": "books"
+    },
+    {
+      "left": "ما الفن؟",
+      "right": "ليو تولستوي",
+      "source": "https://www.gutenberg.org/ebooks/author/136",
+      "kind": "books"
+    },
+    {
+      "left": "الطفولة",
+      "right": "ليو تولستوي",
+      "source": "https://www.gutenberg.org/ebooks/author/136",
+      "kind": "books"
+    },
+    {
+      "left": "السيد والخادم",
+      "right": "ليو تولستوي",
+      "source": "https://www.gutenberg.org/ebooks/author/136",
+      "kind": "books"
+    },
+    {
+      "left": "صورة دوريان غراي",
+      "right": "أوسكار وايلد",
+      "source": "https://www.gutenberg.org/ebooks/author/111",
+      "kind": "books"
+    },
+    {
+      "left": "أهمية أن تكون جادًا",
+      "right": "أوسكار وايلد",
+      "source": "https://www.gutenberg.org/ebooks/author/111",
+      "kind": "books"
+    },
+    {
+      "left": "الأمير السعيد",
+      "right": "أوسكار وايلد",
+      "source": "https://www.gutenberg.org/ebooks/author/111",
+      "kind": "books"
+    },
+    {
+      "left": "شبح كانترفيل",
+      "right": "أوسكار وايلد",
+      "source": "https://www.gutenberg.org/ebooks/author/111",
+      "kind": "books"
+    },
+    {
+      "left": "مروحة الليدي ويندرمير",
+      "right": "أوسكار وايلد",
+      "source": "https://www.gutenberg.org/ebooks/author/111",
+      "kind": "books"
+    },
+    {
+      "left": "زوج مثالي",
+      "right": "أوسكار وايلد",
+      "source": "https://www.gutenberg.org/ebooks/author/111",
+      "kind": "books"
+    },
+    {
+      "left": "دراكولا",
+      "right": "برام ستوكر",
+      "source": "https://www.gutenberg.org/ebooks/author/190",
+      "kind": "books"
+    },
+    {
+      "left": "ضيف دراكولا",
+      "right": "برام ستوكر",
+      "source": "https://www.gutenberg.org/ebooks/author/190",
+      "kind": "books"
+    },
+    {
+      "left": "جوهرة النجوم السبع",
+      "right": "برام ستوكر",
+      "source": "https://www.gutenberg.org/ebooks/author/190",
+      "kind": "books"
+    },
+    {
+      "left": "عرين الدودة البيضاء",
+      "right": "برام ستوكر",
+      "source": "https://www.gutenberg.org/ebooks/author/190",
+      "kind": "books"
+    },
+    {
+      "left": "لغز البحر",
+      "right": "برام ستوكر",
+      "source": "https://www.gutenberg.org/ebooks/author/190",
+      "kind": "books"
+    },
+    {
+      "left": "سيدة الكفن",
+      "right": "برام ستوكر",
+      "source": "https://www.gutenberg.org/ebooks/author/190",
+      "kind": "books"
+    }
+  ]
+}

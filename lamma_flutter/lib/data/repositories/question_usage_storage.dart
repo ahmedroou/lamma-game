@@ -4,7 +4,9 @@ final _usageStore = stringMapStoreFactory.store('question_usage_v1');
 const _pageBits = 4096;
 const _pageBytes = _pageBits ~/ 8;
 String _idAlias(String id) => 'id.${sha256.convert(utf8.encode(id))}';
-String _contentAlias(Question q) => 'content.${questionFingerprint(q)}';
+String _numberAlias(Question q) => 'number.${questionUsageKey(q)}';
+String _claimRecordKey(String sessionId, Question q) =>
+    'replay.${sha256.convert(utf8.encode(questionClaimKey(sessionId, q)))}';
 
 final class _UsageLedger {
   _UsageLedger(this.next, this.aliases, this.pages, this.cycles);
@@ -33,6 +35,7 @@ final class _UsageLedger {
 
   Map<String, Object?> metadata() => {
     'version': 1,
+    'identityVersion': 2,
     'next': next,
     'aliases': aliases.length,
     'cycles': cycles,
@@ -47,7 +50,8 @@ Future<_UsageLedger> _readUsage(DatabaseClient client) async {
   final meta = SembastGameRepository._verify(raw);
   if (meta['version'] != 1 ||
       meta['next'] is! int ||
-      (meta['next'] as int) < 0) {
+      (meta['next'] as int) < 0 ||
+      ![null, 2].contains(meta['identityVersion'])) {
     throw const FormatException('Invalid question-use index.');
   }
   final next = meta['next'] as int;
@@ -99,6 +103,35 @@ Future<void> _writePages(DatabaseClient client, _UsageLedger ledger) async {
   }
 }
 
+Future<Set<String>> _readClaims(DatabaseClient client) async {
+  final claims = <String>{};
+  for (final row in await SembastGameRepository.store.find(client)) {
+    if (!row.key.startsWith('replay.')) continue;
+    final document = SembastGameRepository._verify(row.value);
+    if (document['claim'] is! String) {
+      throw const FormatException('Invalid replay claim.');
+    }
+    claims.add(document['claim'] as String);
+  }
+  return claims;
+}
+
+QuestionUsage _usageSnapshot(
+  _UsageLedger ledger,
+  Iterable<Question> questions,
+  Set<String> claims,
+) => QuestionUsage(
+  ids: questions
+      .where((q) => ledger.used(ledger.aliases[_idAlias(q.id)]!))
+      .map((q) => q.id)
+      .toSet(),
+  keys: questions
+      .where((q) => ledger.used(ledger.aliases[_idAlias(q.id)]!))
+      .map(questionUsageKey)
+      .toSet(),
+  claims: claims,
+);
+
 Future<QuestionUsage> _prepareUsage(
   SembastGameRepository repository,
   Iterable<Question> questions,
@@ -112,7 +145,6 @@ Future<QuestionUsage> _prepareUsage(
       'Question-use ledger disappeared; history cannot be reset.',
     );
   }
-  // Import all readable old checkpoints before any replacement can erase history.
   final legacy = <SessionSave>[];
   var hasLegacy = false;
   for (final key in [
@@ -125,7 +157,7 @@ Future<QuestionUsage> _prepareUsage(
       try {
         legacy.add(SembastGameRepository._readSession(raw));
       } on Object {
-        /* Retain unreadable documents. */
+        /* Preserve unreadable saves. */
       }
     }
   }
@@ -134,25 +166,58 @@ Future<QuestionUsage> _prepareUsage(
       'Cannot migrate unreadable question-use history.',
     );
   }
-  final catalog = [...questions, for (final save in legacy) ...save.questions];
-  for (final q in catalog) {
-    final idKey = _idAlias(q.id), contentKey = _contentAlias(q);
-    final oldId = ledger.aliases[idKey],
-        oldContent = ledger.aliases[contentKey];
-    final index = oldId ?? oldContent ?? ledger.next++;
-    final page = index ~/ _pageBits;
-    if (!ledger.pages.containsKey(page)) {
-      ledger.pages[page] = List.filled(_pageBytes, 0);
-      ledger.dirty.add(page);
+  // Prefer the current bank's numeric identity over old question snapshots.
+  final byId = <String, Question>{};
+  for (final q in [
+    ...questions,
+    for (final save in legacy) ...save.questions,
+  ]) {
+    if (!byId.containsKey(q.id) ||
+        byId[q.id]!.usageId == null && q.usageId != null) {
+      byId[q.id] = q;
     }
-    if (oldContent != null && ledger.used(oldContent)) ledger.mark(index);
-    for (final key in [idKey, contentKey]) {
-      if (!ledger.aliases.containsKey(key)) {
-        ledger.aliases[key] = index;
-        await _usageStore
-            .record(key)
-            .put(txn, SembastGameRepository._signed({'index': index}));
+  }
+  for (final q in byId.values) {
+    final idKey = _idAlias(q.id), numberKey = _numberAlias(q);
+    final oldId = ledger.aliases[idKey];
+    var index = ledger.aliases[numberKey];
+    final previousAlias = await _usageStore.record(idKey).get(txn);
+    if (previousAlias != null) {
+      final previousKey =
+          SembastGameRepository._verify(previousAlias)['usageKey'] as String?;
+      if (previousKey != null &&
+          !previousKey.startsWith('legacy:') &&
+          previousKey != questionUsageKey(q)) {
+        throw StateError('A published numeric question identity changed.');
       }
+    }
+    if (index == null) {
+      index = ledger.next++;
+      final page = index ~/ _pageBits;
+      if (!ledger.pages.containsKey(page)) {
+        ledger.pages[page] = List.filled(_pageBytes, 0);
+        ledger.dirty.add(page);
+      }
+      // Copy old ID history once. Never consult text hashes for new identities.
+      if (oldId != null && ledger.used(oldId)) ledger.mark(index);
+      ledger.aliases[numberKey] = index;
+      await _usageStore
+          .record(numberKey)
+          .put(txn, SembastGameRepository._signed({'index': index}));
+    }
+    if (oldId != index ||
+        previousAlias == null ||
+        previousAlias['usageKey'] != questionUsageKey(q)) {
+      ledger.aliases[idKey] = index;
+      await _usageStore
+          .record(idKey)
+          .put(
+            txn,
+            SembastGameRepository._signed({
+              'index': index,
+              'usageKey': questionUsageKey(q),
+            }),
+          );
     }
   }
   for (final save in legacy) {
@@ -162,7 +227,6 @@ Future<QuestionUsage> _prepareUsage(
           save.state.seenQuestionIds.contains(q.id),
     )) {
       ledger.mark(ledger.aliases[_idAlias(q.id)]!);
-      ledger.mark(ledger.aliases[_contentAlias(q)]!);
     }
   }
   await _writePages(txn, ledger);
@@ -172,27 +236,9 @@ Future<QuestionUsage> _prepareUsage(
   await SembastGameRepository.store
       .record('usage.required')
       .put(txn, SembastGameRepository._signed({'version': 1}));
-  return QuestionUsage(
-    ids: catalog
-        .where(
-          (q) =>
-              ledger.used(ledger.aliases[_idAlias(q.id)]!) ||
-              ledger.used(ledger.aliases[_contentAlias(q)]!),
-        )
-        .map((q) => q.id)
-        .toSet(),
-    fingerprints: catalog
-        .where(
-          (q) =>
-              ledger.used(ledger.aliases[_idAlias(q.id)]!) ||
-              ledger.used(ledger.aliases[_contentAlias(q)]!),
-        )
-        .map(questionFingerprint)
-        .toSet(),
-  );
+  return _usageSnapshot(ledger, byId.values, await _readClaims(txn));
 });
 
-/// A deliberate new cycle clears only this section's bits, atomically.
 Future<QuestionUsage> _resetCategory(
   SembastGameRepository repository,
   String categoryId,
@@ -202,17 +248,12 @@ Future<QuestionUsage> _resetCategory(
   final questions = catalog.where((q) => q.categoryId == categoryId).toList();
   if (questions.isEmpty) throw StateError('Empty category cannot be renewed.');
   final indices = <int>{};
-  for (final question in questions) {
-    final idIndex = ledger.aliases[_idAlias(question.id)],
-        contentIndex = ledger.aliases[_contentAlias(question)];
-    if (idIndex == null ||
-        contentIndex == null ||
-        (!ledger.used(idIndex) && !ledger.used(contentIndex))) {
+  for (final q in questions) {
+    final index = ledger.aliases[_numberAlias(q)];
+    if (index == null || !ledger.used(index)) {
       throw StateError('Only exhausted categories can be renewed.');
     }
-    indices
-      ..add(idIndex)
-      ..add(contentIndex);
+    indices.add(index);
   }
   for (final index in indices) {
     ledger.clear(index);
@@ -222,24 +263,7 @@ Future<QuestionUsage> _resetCategory(
   await _usageStore
       .record('meta')
       .put(txn, SembastGameRepository._signed(ledger.metadata()));
-  return QuestionUsage(
-    ids: catalog
-        .where(
-          (q) =>
-              ledger.used(ledger.aliases[_idAlias(q.id)]!) ||
-              ledger.used(ledger.aliases[_contentAlias(q)]!),
-        )
-        .map((q) => q.id)
-        .toSet(),
-    fingerprints: catalog
-        .where(
-          (q) =>
-              ledger.used(ledger.aliases[_idAlias(q.id)]!) ||
-              ledger.used(ledger.aliases[_contentAlias(q)]!),
-        )
-        .map(questionFingerprint)
-        .toSet(),
-  );
+  return _usageSnapshot(ledger, catalog, await _readClaims(txn));
 });
 
 Future<void> _commitQuestion(
@@ -248,29 +272,30 @@ Future<void> _commitQuestion(
   Question question,
 ) => repository.database.transaction((txn) async {
   _validateReveal(session, question);
-  // Read only the two identities and their pages on the reveal path.
-  final indices = <int>{};
-  for (final key in [_idAlias(question.id), _contentAlias(question)]) {
-    final raw = await _usageStore.record(key).get(txn);
-    if (raw == null) throw const FormatException('Unregistered question.');
-    indices.add(SembastGameRepository._verify(raw)['index'] as int);
+  final raw =
+      await _usageStore.record(_numberAlias(question)).get(txn) ??
+      (question.usageId == null
+          ? await _usageStore.record(_idAlias(question.id)).get(txn)
+          : null);
+  if (raw == null) throw const FormatException('Unregistered question.');
+  final index = SembastGameRepository._verify(raw)['index'] as int;
+  final page = index ~/ _pageBits;
+  final pageRaw = await _usageStore.record('page.$page').get(txn);
+  if (pageRaw == null) {
+    throw const FormatException('Missing question-use page.');
   }
-  final pages = <int, List<int>>{};
-  for (final index in indices) {
-    final page = index ~/ _pageBits;
-    final raw = await _usageStore.record('page.$page').get(txn);
-    if (raw == null) throw const FormatException('Missing question-use page.');
-    final bytes = pages.putIfAbsent(
-      page,
-      () => base64Decode(
-        SembastGameRepository._verify(raw)['bits'] as String,
-      ).toList(),
-    );
-    if (bytes.length != _pageBytes ||
-        (bytes[index % _pageBits ~/ 8] & (1 << (index % 8))) != 0) {
-      throw StateError('Question already shown or ledger damaged.');
-    }
-    bytes[index % _pageBits ~/ 8] |= 1 << (index % 8);
+  final bytes = base64Decode(
+    SembastGameRepository._verify(pageRaw)['bits'] as String,
+  ).toList();
+  if (bytes.length != _pageBytes) {
+    throw const FormatException('Invalid question-use page.');
+  }
+  final used = (bytes[index % _pageBits ~/ 8] & (1 << (index % 8))) != 0;
+  final replay = session.replayQuestionIds.contains(question.id);
+  final claimKey = _claimRecordKey(session.id, question);
+  if (await SembastGameRepository.store.record(claimKey).get(txn) != null ||
+      used && !replay) {
+    throw StateError('Question already shown or replay already claimed.');
   }
   final old = await SembastGameRepository.store
       .record(SembastGameRepository.currentKey)
@@ -285,12 +310,21 @@ Future<void> _commitQuestion(
         .put(txn, old);
   }
   SessionSave.fromJson(SembastGameRepository._json(session.toJson()));
-  for (final entry in pages.entries) {
+  if (!used) {
+    bytes[index % _pageBits ~/ 8] |= 1 << (index % 8);
     await _usageStore
-        .record('page.${entry.key}')
+        .record('page.$page')
+        .put(txn, SembastGameRepository._signed({'bits': base64Encode(bytes)}));
+  }
+  if (replay) {
+    await SembastGameRepository.store
+        .record(claimKey)
         .put(
           txn,
-          SembastGameRepository._signed({'bits': base64Encode(entry.value)}),
+          SembastGameRepository._signed({
+            'claim': questionClaimKey(session.id, question),
+            'turn': session.state.turn,
+          }),
         );
   }
   await SembastGameRepository.store

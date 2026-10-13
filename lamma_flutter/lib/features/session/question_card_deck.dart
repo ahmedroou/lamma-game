@@ -15,11 +15,17 @@ class QuestionCardDeck extends StatefulWidget {
     required this.secondsRemaining,
     required this.onReveal,
     this.surpriseText,
+    this.surpriseNote,
+    this.totalSeconds = 30,
+    this.countUpTimer = false,
   });
 
   final String question;
   final int points;
   final String? surpriseText;
+  final String? surpriseNote;
+  final int totalSeconds;
+  final bool countUpTimer;
   final int revealedCards, secondsRemaining;
   final ValueChanged<int> onReveal;
 
@@ -56,15 +62,15 @@ class _QuestionCardDeckState extends State<QuestionCardDeck>
       final scale = MediaQuery.textScalerOf(context);
       final wide = constraints.maxWidth >= 700 && scale.scale(1) <= 1.3;
       final stacked = constraints.maxWidth < 300 || scale.scale(1) > 1.5;
-      final compact = !wide && !stacked;
+      final compact = !wide;
       final smallWidth = wide
           ? (constraints.maxWidth - 28) / 3
-          : compact
-          ? (constraints.maxWidth - 14) / 2
-          : constraints.maxWidth;
+          : stacked
+          ? constraints.maxWidth
+          : (constraints.maxWidth - 14) / 2;
       final questionWidth = wide ? smallWidth : constraints.maxWidth;
       final content = [
-        widget.surpriseText ?? 'جاوبوا بدون مساعدة من الجمهور.',
+        widget.surpriseText ?? 'لا توجد ورقة مفاجأة لهذه الجولة.',
         '${widget.secondsRemaining} ثانية',
         widget.question,
       ];
@@ -72,20 +78,24 @@ class _QuestionCardDeckState extends State<QuestionCardDeck>
         for (var i = 0; i < 3; i++)
           _heightFor(
                 context,
-                content[i],
+                i == 0 && widget.surpriseNote?.isNotEmpty == true
+                    ? '${content[i]}\n${widget.surpriseNote}'
+                    : content[i],
                 i == 2 ? questionWidth : smallWidth,
                 i == 2
-                    ? 24
+                    ? (compact ? 20 : 24)
                     : compact
-                    ? 16
+                    ? 15
                     : 20,
                 wide
                     ? 320
                     : i == 2
-                    ? 248
-                    : 226,
+                    ? (compact ? 190 : 248)
+                    : (compact ? 172 : 226),
+                compact: compact,
+                isQuestion: i == 2,
               ) +
-              (i == 2 ? scale.scale(40) : 0),
+              (i == 2 ? scale.scale(compact ? 24 : 40) : 0),
       ];
       final smallHeight = math.max(heights[0], heights[1]);
       final wideHeight = heights.reduce(math.max);
@@ -103,9 +113,12 @@ class _QuestionCardDeckState extends State<QuestionCardDeck>
             index: index,
             points: widget.points,
             content: content[index],
+            note: index == 0 ? widget.surpriseNote : null,
+            totalSeconds: widget.totalSeconds,
+            countUpTimer: widget.countUpTimer,
             open: widget.revealedCards > index,
             available: widget.revealedCards == index,
-            compact: compact && index != 2,
+            compact: compact,
             secondsRemaining: widget.secondsRemaining,
             timerRunning: widget.revealedCards == 3,
             onTap: () => widget.onReveal(index),
@@ -182,7 +195,7 @@ class _QuestionCardDeckState extends State<QuestionCardDeck>
               ],
             )
           else ...[
-            if (compact)
+            if (!stacked)
               Row(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
@@ -210,25 +223,33 @@ class _QuestionCardDeckState extends State<QuestionCardDeck>
     String text,
     double width,
     double fontSize,
-    double minimum,
-  ) {
+    double minimum, {
+    bool compact = false,
+    bool isQuestion = false,
+  }) {
+    final scale = MediaQuery.textScalerOf(context);
     final painter = TextPainter(
       text: TextSpan(
         text: text,
         style: TextStyle(
           fontFamily: 'Tajawal',
           fontSize: fontSize,
-          height: 1.5,
+          height: 1.4,
           fontWeight: FontWeight.w700,
         ),
       ),
       textDirection: Directionality.of(context),
-      textScaler: MediaQuery.textScalerOf(context),
-    )..layout(maxWidth: math.max(1, width - 36));
+      textScaler: scale,
+    )..layout(maxWidth: math.max(1, width - (compact ? 28 : 36)));
+    final chrome =
+        (compact
+            ? (isQuestion ? 144.0 : 130.0)
+            : (isQuestion ? 165.0 : 150.0)) *
+        scale.scale(1);
     final height = math.max(
       minimum,
       // Allow for card chrome and font ascent/descent when surprise text wraps.
-      painter.height + 200 * MediaQuery.textScalerOf(context).scale(1),
+      painter.height + chrome,
     );
     painter.dispose();
     return height;
@@ -246,6 +267,9 @@ class _RevealCard extends StatefulWidget {
     required this.secondsRemaining,
     required this.timerRunning,
     required this.onTap,
+    this.note,
+    this.totalSeconds = 30,
+    this.countUpTimer = false,
   });
 
   static const colors = [AppColors.lime, AppColors.purple, AppColors.blue];
@@ -257,6 +281,9 @@ class _RevealCard extends StatefulWidget {
   ];
   final int index, secondsRemaining, points;
   final String content;
+  final String? note;
+  final int totalSeconds;
+  final bool countUpTimer;
   final bool open, available, compact, timerRunning;
   final VoidCallback onTap;
 
@@ -390,24 +417,27 @@ class _RevealCardState extends State<_RevealCard>
                           ),
                         ),
                         Padding(
-                          padding: const EdgeInsets.all(18),
+                          padding: EdgeInsets.all(widget.compact ? 12 : 18),
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.stretch,
                             children: [
-                              Wrap(
-                                alignment: WrapAlignment.spaceBetween,
-                                crossAxisAlignment: WrapCrossAlignment.center,
-                                spacing: 8,
-                                runSpacing: 8,
+                              Row(
+                                mainAxisAlignment:
+                                    MainAxisAlignment.spaceBetween,
                                 children: [
-                                  Text(
-                                    title,
-                                    style: TextStyle(
-                                      fontSize: 17,
-                                      fontWeight: FontWeight.w700,
-                                      color: front ? AppColors.ink : color,
+                                  Expanded(
+                                    child: Text(
+                                      title,
+                                      maxLines: 1,
+                                      overflow: TextOverflow.ellipsis,
+                                      style: TextStyle(
+                                        fontSize: widget.compact ? 14 : 17,
+                                        fontWeight: FontWeight.w700,
+                                        color: front ? AppColors.ink : color,
+                                      ),
                                     ),
                                   ),
+                                  const SizedBox(width: 6),
                                   if (widget.index == 2)
                                     QuestionPointsBadge(
                                       key: const ValueKey('question-points'),
@@ -420,7 +450,7 @@ class _RevealCardState extends State<_RevealCard>
                                       style: TextStyle(
                                         color: (front ? AppColors.ink : color)
                                             .withValues(alpha: .55),
-                                        fontSize: 12,
+                                        fontSize: widget.compact ? 11 : 12,
                                         fontWeight: FontWeight.w700,
                                       ),
                                     ),
@@ -432,7 +462,9 @@ class _RevealCardState extends State<_RevealCard>
                                   children: [
                                     if (!(front && widget.index == 1)) ...[
                                       Container(
-                                        padding: const EdgeInsets.all(12),
+                                        padding: EdgeInsets.all(
+                                          widget.compact ? 8 : 12,
+                                        ),
                                         decoration: BoxDecoration(
                                           shape: BoxShape.circle,
                                           color: (front ? AppColors.ink : color)
@@ -440,21 +472,21 @@ class _RevealCardState extends State<_RevealCard>
                                         ),
                                         child: Icon(
                                           _RevealCard.icons[widget.index],
-                                          size: widget.compact ? 28 : 36,
+                                          size: widget.compact ? 22 : 36,
                                           color: front ? AppColors.ink : color,
                                         ),
                                       ),
-                                      const SizedBox(height: 12),
+                                      SizedBox(height: widget.compact ? 6 : 12),
                                     ],
                                     if (front && widget.index == 1)
                                       Text(
                                         '${widget.secondsRemaining}',
-                                        style: const TextStyle(
-                                          fontSize: 52,
+                                        style: TextStyle(
+                                          fontSize: widget.compact ? 38 : 52,
                                           height: 1.1,
                                           fontWeight: FontWeight.w700,
                                           color: AppColors.ink,
-                                          fontFeatures: [
+                                          fontFeatures: const [
                                             FontFeature.tabularFigures(),
                                           ],
                                         ),
@@ -462,7 +494,9 @@ class _RevealCardState extends State<_RevealCard>
                                     Text(
                                       front
                                           ? widget.index == 1
-                                                ? 'ثانية'
+                                                ? (widget.countUpTimer
+                                                      ? 'ثانية بلانك'
+                                                      : 'ثانية')
                                                 : widget.content
                                           : widget.available
                                           ? 'اضغط للكشف'
@@ -476,27 +510,32 @@ class _RevealCardState extends State<_RevealCard>
                                             : AppColors.muted,
                                         fontSize: front
                                             ? widget.index == 2
-                                                  ? 24
+                                                  ? (widget.compact ? 20 : 24)
                                                   : widget.compact
-                                                  ? 16
+                                                  ? 15
                                                   : 20
-                                            : 14,
-                                        height: 1.5,
+                                            : (widget.compact ? 13 : 14),
+                                        height: 1.4,
                                         fontWeight: FontWeight.w700,
                                       ),
                                     ),
                                   ],
                                 ),
                               ),
-                              const SizedBox(height: 10),
-                              if (front && widget.index == 1)
+                              SizedBox(height: widget.compact ? 6 : 10),
+                              if (front &&
+                                  widget.index == 1 &&
+                                  !widget.countUpTimer)
                                 ClipRRect(
                                   borderRadius: BorderRadius.circular(3),
                                   child: LinearProgressIndicator(
-                                    value: (widget.secondsRemaining / 30).clamp(
-                                      0,
-                                      1,
-                                    ),
+                                    value:
+                                        (widget.secondsRemaining /
+                                                math.max(
+                                                  1,
+                                                  widget.totalSeconds,
+                                                ))
+                                            .clamp(0, 1),
                                     minHeight: 4,
                                     color: AppColors.ink.withValues(alpha: .7),
                                     backgroundColor: AppColors.ink.withValues(
@@ -510,24 +549,33 @@ class _RevealCardState extends State<_RevealCard>
                                   color: (front ? AppColors.ink : color)
                                       .withValues(alpha: .18),
                                 ),
-                              const SizedBox(height: 10),
+                              SizedBox(height: widget.compact ? 6 : 10),
                               Text(
                                 front
-                                    ? [
-                                        'شرط التحدّي',
-                                        widget.secondsRemaining == 0
-                                            ? 'انتهى الوقت'
-                                            : widget.timerRunning
-                                            ? 'العدّ التنازلي'
-                                            : 'يبدأ مع السؤال',
-                                        'فكّروا… الجواب عندكم',
-                                      ][widget.index]
+                                    ? (widget.note?.isNotEmpty == true
+                                          ? widget.note!
+                                          : [
+                                              'شرط التحدّي',
+                                              widget.secondsRemaining == 0
+                                                  ? 'انتهى الوقت'
+                                                  : widget.timerRunning
+                                                  ? (widget.countUpTimer
+                                                        ? 'العدّ التصاعدي أثناء البلانك'
+                                                        : 'العدّ التنازلي')
+                                                  : 'يبدأ مع السؤال',
+                                              'فكّروا… الجواب عندكم',
+                                            ][widget.index])
                                     : widget.available
                                     ? 'جاهزة للكشف'
                                     : 'اكشف الكرت السابق أولاً',
                                 textAlign: TextAlign.center,
                                 style: TextStyle(
-                                  fontSize: 11,
+                                  fontSize: widget.compact
+                                      ? 10.5
+                                      : (widget.note?.isNotEmpty == true
+                                            ? 12
+                                            : 11),
+                                  height: 1.5,
                                   color:
                                       (front ? AppColors.ink : AppColors.muted)
                                           .withValues(alpha: .8),

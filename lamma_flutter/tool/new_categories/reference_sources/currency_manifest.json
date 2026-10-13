@@ -1,0 +1,119 @@
+[
+  {
+    "url": "https://www.snb.ch/en/the-snb/mandates-goals/cash/series-9",
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+  },
+  {
+    "url": "https://www.riksbank.se/en-gb/payments--cash/notes--coins/notes/design-of-the-banknotes/",
+    "finalUrl": "https://www.riksbank.se/en-gb/payments--cash/notes--coins/notes/design-of-the-banknotes/",
+    "file": "5a770d7b83de.txt",
+    "status": 200,
+    "characters": 37276
+  },
+  {
+    "url": "https://www.norges-bank.no/en/topics/notes-and-coins/legal-tender-notes-coins/",
+    "finalUrl": "https://www.norges-bank.no/en/topics/notes-and-coins/legal-tender-notes-coins/",
+    "file": "4856e031e3d7.txt",
+    "status": 200,
+    "characters": 1835
+  },
+  {
+    "url": "https://www.norges-bank.no/en/topics/notes-and-coins/withdrawn-notes-coins/banknote-series-VII/",
+    "finalUrl": "https://www.norges-bank.no/en/topics/notes-and-coins/withdrawn-notes-coins/banknote-series-VII/",
+    "file": "8b4dfe8801f0.txt",
+    "status": 200,
+    "characters": 8964
+  },
+  {
+    "url": "https://www.norges-bank.no/en/topics/notes-and-coins/withdrawn-notes-coins/Banknote-series-VI/",
+    "finalUrl": "https://www.norges-bank.no/en/topics/notes-and-coins/withdrawn-notes-coins/Banknote-series-VI/",
+    "file": "e9dbfc7e4d71.txt",
+    "status": 200,
+    "characters": 2666
+  },
+  {
+    "url": "https://www.qcb.gov.qa/en/Pages/HistoryOfBanknotes.aspx",
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+  },
+  {
+    "url": "https://sama.gov.sa/ar-sa/Currency/Pages/SixthIssue.aspx",
+    "error": "Remote end closed connection without response"
+  },
+  {
+    "url": "https://www.bankofengland.co.uk/banknotes/5-pound-note",
+    "finalUrl": "https://www.bankofengland.co.uk/banknotes/5-pound-note",
+    "file": "9dbdfb2701d6.txt",
+    "status": 200,
+    "characters": 11818
+  },
+  {
+    "url": "https://www.bankofengland.co.uk/banknotes/polymer-10-pound-note",
+    "finalUrl": "https://www.bankofengland.co.uk/banknotes/polymer-10-pound-note",
+    "file": "c7afcaefb864.txt",
+    "status": 200,
+    "characters": 12191
+  },
+  {
+    "url": "https://www.bankofengland.co.uk/banknotes/polymer-20-pound-note",
+    "finalUrl": "https://www.bankofengland.co.uk/banknotes/polymer-20-pound-note",
+    "file": "9186d99b1c63.txt",
+    "status": 200,
+    "characters": 11421
+  },
+  {
+    "url": "https://www.bankofengland.co.uk/banknotes/polymer-50-pound-note",
+    "finalUrl": "https://www.bankofengland.co.uk/banknotes/polymer-50-pound-note",
+    "file": "dac30aaf3094.txt",
+    "status": 200,
+    "characters": 14013
+  },
+  {
+    "url": "https://www.uscurrency.gov/denominations/1",
+    "finalUrl": "https://www.uscurrency.gov/denominations/1",
+    "file": "12b2390e0edf.txt",
+    "status": 200,
+    "characters": 8237
+  },
+  {
+    "url": "https://www.uscurrency.gov/denominations/2",
+    "finalUrl": "https://www.uscurrency.gov/denominations/2",
+    "file": "5a38582d353b.txt",
+    "status": 200,
+    "characters": 7895
+  },
+  {
+    "url": "https://www.uscurrency.gov/denominations/5",
+    "finalUrl": "https://www.uscurrency.gov/denominations/5",
+    "file": "51e5fcde665e.txt",
+    "status": 200,
+    "characters": 18677
+  },
+  {
+    "url": "https://www.uscurrency.gov/denominations/10",
+    "finalUrl": "https://www.uscurrency.gov/denominations/10",
+    "file": "9d504e665381.txt",
+    "status": 200,
+    "characters": 21169
+  },
+  {
+    "url": "https://www.uscurrency.gov/denominations/20",
+    "finalUrl": "https://www.uscurrency.gov/denominations/20",
+    "file": "d0908117d287.txt",
+    "status": 200,
+    "characters": 21733
+  },
+  {
+    "url": "https://www.uscurrency.gov/denominations/50",
+    "finalUrl": "https://www.uscurrency.gov/denominations/50",
+    "file": "4c2821523e49.txt",
+    "status": 200,
+    "characters": 19125
+  },
+  {
+    "url": "https://www.uscurrency.gov/denominations/100",
+    "finalUrl": "https://www.uscurrency.gov/denominations/100",
+    "file": "71a819246f87.txt",
+    "status": 200,
+    "characters": 20974
+  }
+]

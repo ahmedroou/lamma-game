@@ -31,13 +31,7 @@ class _SessionSetupState extends State<SessionSetup> {
   List<String> get _shortages {
     final app = AppScope.maybeWatch(context);
     if (app == null) return const [];
-    return _selected
-        .where(
-          (id) =>
-              app.availableQuestionsForCategory(id) <
-              GameRules.questionsPerCategory,
-        )
-        .toList();
+    return _selected.where((id) => !app.canPlayCategory(id)).toList();
   }
 
   late final Set<String> _selected;
@@ -132,7 +126,7 @@ class _SessionSetupState extends State<SessionSetup> {
           SnackBar(
             duration: const Duration(seconds: 10),
             content: Text(
-              'لا توجد خمسة أسئلة جديدة لكل قسم. $details. أضف أسئلة محلية أو اختر أقساماً أخرى؛ لن نعيد الأسئلة المعروضة.',
+              'القسم يحتاج خمسة أسئلة مختلفة في بنكه وسؤالاً جديداً واحداً على الأقل. $details. أعد القسم المنتهي أو اختر أقساماً أخرى.',
             ),
           ),
         );
@@ -268,7 +262,7 @@ class _SessionSetupState extends State<SessionSetup> {
                         borderRadius: BorderRadius.circular(20),
                       ),
                       child: Text(
-                        'نحتاج 5 أسئلة جديدة لكل قسم قبل اللعب. المتاح الآن: ${_shortages.map((id) => '${gameCategories.firstWhere((c) => c.id == id).title} (${AppScope.read(context).availableQuestionsForCategory(id)}/5)').join('، ')}. اختر أقساماً مكتملة أو أضف أسئلة إلى البنك المحلي.',
+                        'نحتاج خمسة أسئلة مختلفة في بنك القسم. المتاح الجديد: ${_shortages.map((id) => '${gameCategories.firstWhere((c) => c.id == id).title} (${AppScope.read(context).availableQuestionsForCategory(id)})').join('، ')}. أعد القسم إذا انتهى أو اختر قسماً مكتمل المحتوى.',
                         style: const TextStyle(color: AppColors.gold),
                       ),
                     ),
@@ -368,7 +362,7 @@ class _SessionSetupState extends State<SessionSetup> {
                   ),
                   const SizedBox(height: 14),
                   const Text(
-                    'الأسئلة محلية ولا تتكرر خلال دورة القسم. عندما تظهر كلها يمكنك اختيار إعادة القسم ليبدأ عشوائياً من جديد. التحكيم بينكم.',
+                    'نستخدم الأسئلة الجديدة أولاً. إذا بقي أقل من خمسة نكمل الحصة عشوائياً بأسئلة سابقة من القسم، دون تكرار داخل المباراة. إذا انتهت كلها يمكنك إعادة القسم.',
                     style: TextStyle(color: AppColors.muted, fontSize: 12),
                     textAlign: TextAlign.center,
                   ),

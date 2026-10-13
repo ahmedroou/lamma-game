@@ -12,7 +12,8 @@ class IdentityQuestionPanel extends StatelessWidget {
     required this.onNext,
   });
   final SessionState state;
-  final VoidCallback onStart, onNext;
+  final VoidCallback? onStart;
+  final VoidCallback onNext;
 
   @override
   Widget build(BuildContext context) {
@@ -63,7 +64,9 @@ class IdentityQuestionPanel extends StatelessWidget {
                 points: state.availablePoints,
               ),
               Tag(
-                started ? '${state.secondsRemaining} ثانية' : 'جاهزين للتحدّي؟',
+                started
+                    ? '${state.clockSeconds} ${state.plankAccepted ? 'ثانية بلانك' : 'ثانية'}'
+                    : 'جاهزين للتحدّي؟',
                 color: AppColors.purple,
                 icon: Icons.timer_outlined,
               ),

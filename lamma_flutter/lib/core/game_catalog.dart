@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'app_theme.dart';
+import '../domain/models/question_bank_config.dart';
 
 @immutable
 class GameCategory {
@@ -8,9 +9,10 @@ class GameCategory {
   final IconData icon;
   final Color color;
   String get imageAsset => 'assets/category_art/$id.webp';
+  bool get usesVectorArt => QuestionBankConfig.newCategoryIds.contains(id);
 }
 
-const gameCategories = [
+const List<GameCategory> gameCategories = [
   GameCategory(
     'myths',
     'الأساطير والخرافات',
@@ -108,5 +110,75 @@ const gameCategories = [
     'ثلاثة تلميحات… هوية واحدة',
     Icons.person_search_outlined,
     AppColors.purple,
+  ),
+  GameCategory(
+    'symbols_signals',
+    'رموز وإشارات',
+    'افهم لغة الرموز',
+    Icons.traffic_outlined,
+    AppColors.blue,
+  ),
+  GameCategory(
+    'abbreviations',
+    'اختصارات؟',
+    'حروف تحمل معنى',
+    Icons.short_text_rounded,
+    AppColors.lime,
+  ),
+  GameCategory(
+    'first_last',
+    'أول وآخر؟',
+    'البدايات والنهايات',
+    Icons.first_page_rounded,
+    AppColors.peach,
+  ),
+  GameCategory(
+    'split_groups',
+    'قسّمهم مجموعتين',
+    'اكتشف الرابط الخفي',
+    Icons.workspaces_outline,
+    AppColors.purple,
+  ),
+  GameCategory(
+    'pair_up',
+    'زوجها',
+    'كل طرف يبحث عن قرينه',
+    Icons.compare_arrows_rounded,
+    AppColors.gold,
+  ),
+  GameCategory(
+    'currency_stories',
+    'العملة تحكي',
+    'قصص النقود ورموزها',
+    Icons.payments_outlined,
+    AppColors.lime,
+  ),
+  GameCategory(
+    'one_wrong',
+    'خطأ واحد فقط',
+    'دقّق واكتشف المختلف',
+    Icons.fact_check_outlined,
+    AppColors.peach,
+  ),
+  GameCategory(
+    'complete_sequence',
+    'أكمل السلسلة',
+    'اعرف ما قبلها وما بعدها',
+    Icons.more_horiz_rounded,
+    AppColors.blue,
+  ),
+  GameCategory(
+    'relationship',
+    'ما العلاقة؟',
+    'عنصران… رابط واحد',
+    Icons.hub_outlined,
+    AppColors.purple,
+  ),
+  GameCategory(
+    'numbers',
+    'أرقام',
+    'قدّر وقارن واربط',
+    Icons.numbers_rounded,
+    AppColors.gold,
   ),
 ];

@@ -91,7 +91,7 @@ void main() {
     },
   );
   test(
-    'Viewed content stays excluded even under a different ID or category',
+    'Usage identity follows the question ID, independently of text in legacy fixtures',
     () {
       final usage = QuestionUsage()..mark(seedQuestions.first);
       final moved = Question(
@@ -101,7 +101,7 @@ void main() {
         answer: seedQuestions.first.answer,
         difficulty: QuestionDifficulty.easy,
       );
-      expect(usage.contains(moved), true);
+      expect(usage.contains(moved), false);
       expect(
         () => planMatchQuestions(
           questions: seedQuestions,
@@ -256,6 +256,7 @@ void main() {
       final app = AppController(
         repo,
         questions: LocalQuestionRepository(questions: completeQuestions),
+        openingCardsEnabled: false,
       );
       await app.initialize();
       final first = await app.startSession(managementConfig());

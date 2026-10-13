@@ -38,15 +38,17 @@ Future<List<Question>> verifyQuestionBank({bool complete = false}) async {
       expect(
         count,
         complete
-            ? QuestionBankConfig.questionsPerDifficulty
-            : lessThanOrEqualTo(QuestionBankConfig.questionsPerDifficulty),
+            ? QuestionBankConfig.perDifficultyFor(category.id)
+            : lessThanOrEqualTo(
+                QuestionBankConfig.perDifficultyFor(category.id),
+              ),
         reason: '${category.id}/${level.name}',
       );
     }
     if (complete) {
       expect(
         questions.length,
-        QuestionBankConfig.questionsPerCategory,
+        QuestionBankConfig.countFor(category.id),
         reason: category.id,
       );
       final json =
@@ -98,8 +100,8 @@ void main() {
     'Approved local bank loads, round-trips and validates all media',
     () async {
       final questions = await verifyQuestionBank();
-      expect(gameCategories.length, 14);
-      expect(questions.map((q) => q.categoryId).toSet().length, 14);
+      expect(gameCategories.length, 24);
+      expect(questions.map((q) => q.categoryId).toSet().length, 24);
       expect(
         gameCategories.any(
           (c) => [
@@ -117,7 +119,7 @@ void main() {
     },
   );
   test(
-    'Map figures distinguish problems but repeated figures are rejected',
+    'A changed map image cannot introduce a second playable copy of one prompt',
     () async {
       final document =
           jsonDecode(await rootBundle.loadString('assets/questions/maps.json'))
@@ -131,10 +133,19 @@ void main() {
         originals.singleWhere((q) => q['id'] == 'maps-hard-0138'),
       );
       second['text'] = first['text'];
+      first.remove('qualityStatus');
+      first.remove('qualityReasons');
+      second.remove('qualityStatus');
+      second.remove('qualityReasons');
       expect(first['imageAsset'], isNot(second['imageAsset']));
       document['questions'] = [first, second];
       Map<String, String> encoded() => {'maps': jsonEncode(document)};
+      expect(() => parseQuestionBank(encoded()), throwsFormatException);
+      second['qualityStatus'] = 'quarantined';
+      second['qualityReasons'] = ['duplicate_question_in_category'];
       expect(parseQuestionBank(encoded()), hasLength(2));
+      second.remove('qualityStatus');
+      second.remove('qualityReasons');
       second['imageAsset'] = first['imageAsset'];
       expect(() => parseQuestionBank(encoded()), throwsFormatException);
       first.remove('imageAsset');
@@ -151,6 +162,8 @@ void main() {
             )
             as Map<String, dynamic>;
     for (final mutate in <void Function(Map<String, dynamic>)>[
+      (q) => q.remove('usageId'),
+      (q) => q['usageId'] = 12345,
       (q) => q.remove('hint'),
       (q) => q['clues'] = ['واحد', 'اثنان'],
       (q) => q['clues'] = ['واحد', 'واحد', 'ثلاثة'],
@@ -198,6 +211,7 @@ void main() {
         ),
       );
       expect(vm.selectCategory('myths'), true);
+      expect(vm.state.surpriseCard, isNotNull);
       expect(vm.state.question!.options.length, 6);
       await app.flush();
       final saved = await app.repository.load();

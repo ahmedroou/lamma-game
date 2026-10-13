@@ -75,6 +75,7 @@ Widget testApp() {
   final controller = AppController(
     MemoryGameRepository(),
     questions: LocalQuestionRepository(questions: completeQuestions),
+    openingCardsEnabled: false,
   );
   addTearDown(controller.dispose);
   return LammaApp(controller: controller);

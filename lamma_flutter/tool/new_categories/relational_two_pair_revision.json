@@ -1,0 +1,122 @@
+[
+  {
+    "id": "pair_up-easy-0001",
+    "family": "SI basic",
+    "missingSide": "right",
+    "pairCount": 2
+  },
+  {
+    "id": "pair_up-easy-0002",
+    "family": "SI basic",
+    "missingSide": "left",
+    "pairCount": 2
+  },
+  {
+    "id": "pair_up-easy-0003",
+    "family": "SI basic",
+    "missingSide": "right",
+    "pairCount": 2
+  },
+  {
+    "id": "pair_up-easy-0004",
+    "family": "SI basic",
+    "missingSide": "left",
+    "pairCount": 2
+  },
+  {
+    "id": "pair_up-easy-0005",
+    "family": "SI basic",
+    "missingSide": "right",
+    "pairCount": 2
+  },
+  {
+    "id": "pair_up-easy-0006",
+    "family": "SI basic",
+    "missingSide": "left",
+    "pairCount": 2
+  },
+  {
+    "id": "pair_up-easy-0007",
+    "family": "SI basic",
+    "missingSide": "right",
+    "pairCount": 2
+  },
+  {
+    "id": "pair_up-easy-0008",
+    "family": "SI basic",
+    "missingSide": "left",
+    "pairCount": 2
+  },
+  {
+    "id": "pair_up-easy-0009",
+    "family": "SI basic",
+    "missingSide": "right",
+    "pairCount": 2
+  },
+  {
+    "id": "pair_up-easy-0010",
+    "family": "SI basic",
+    "missingSide": "left",
+    "pairCount": 2
+  },
+  {
+    "id": "pair_up-medium-0001",
+    "family": "M49",
+    "missingSide": "right",
+    "pairCount": 2
+  },
+  {
+    "id": "pair_up-medium-0002",
+    "family": "M49",
+    "missingSide": "left",
+    "pairCount": 2
+  },
+  {
+    "id": "pair_up-medium-0003",
+    "family": "M49",
+    "missingSide": "right",
+    "pairCount": 2
+  },
+  {
+    "id": "pair_up-medium-0004",
+    "family": "M49",
+    "missingSide": "left",
+    "pairCount": 2
+  },
+  {
+    "id": "pair_up-medium-0005",
+    "family": "M49",
+    "missingSide": "right",
+    "pairCount": 2
+  },
+  {
+    "id": "pair_up-medium-0006",
+    "family": "M49",
+    "missingSide": "left",
+    "pairCount": 2
+  },
+  {
+    "id": "pair_up-medium-0007",
+    "family": "M49",
+    "missingSide": "right",
+    "pairCount": 2
+  },
+  {
+    "id": "pair_up-medium-0008",
+    "family": "M49",
+    "missingSide": "left",
+    "pairCount": 2
+  },
+  {
+    "id": "pair_up-medium-0009",
+    "family": "M49",
+    "missingSide": "right",
+    "pairCount": 2
+  },
+  {
+    "id": "pair_up-medium-0010",
+    "family": "M49",
+    "missingSide": "left",
+    "pairCount": 2
+  }
+]

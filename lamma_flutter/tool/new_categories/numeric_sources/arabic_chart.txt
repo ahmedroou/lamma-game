@@ -1,0 +1,1227 @@
+Arabic
+Range: 0600–06FF
+ 
+This chart contains an excerpt from the character code tables and list of character names for
+The Unicode Standard, Version 18.0
+ 
+This file will not be updated with errata, or when additional characters are assigned to the Unicode Standard.
+ 
+See https://www.unicode.org/errata/ for an up-to-date list of errata.
+ 
+See https://www.unicode.org/charts/ for access to a complete list of the latest character code charts. See
+https://www.unicode.org/charts/PDF/Unicode-18.0/ for charts showing only the characters added in Unicode 18.0. See
+https://www.unicode.org/Public/18.0.0/charts/ for a complete set of character code charts for Unicode 18.0. See
+https://www.unicode.org/Public/18.0.0/charts/About.html#Conventions for conventions used in these code charts, and
+other general information.
+ 
+Disclaimer
+These charts are provided as the online reference to the character contents of the Unicode Standard, Version 18.0 but do
+not provide all the information needed to fully support individual scripts using the Unicode Standard. For a complete
+understanding of the use of the characters contained in this file, please consult the appropriate sections of The Unicode
+Standard, Version 18.0, online at:
+ 
+https://www.unicode.org/versions/Unicode18.0.0/
+ 
+Fonts
+The shapes of the reference glyphs used in these code charts are not prescriptive. Considerable variation is to be
+expected in actual fonts.
+ 
+See https://www.unicode.org/charts/fonts.html for a list.
+ 
+Terms of Use
+© 1991
+–2026 Unicode, Inc. This publication is protected by copyright, and permission must be obtained from Unicode,
+Inc. prior to any reproduction, modification, or other use not permitted by the Terms of Use
+(https://www.unicode.org/copyright.html). Specifically, you may make copies of this publication and may annotate and
+translate it solely for personal or internal business purposes and not for public distribution, provided that any such
+permitted copies and modifications fully reproduce all copyright and other legal notices contained in the original. You
+may not make copies of or modifications to this publication for public distribution, or incorporate it in whole or in part
+into any product or publication without the express written permission of Unicode.
+ 
+The Unicode Consortium specifically grants ISO a license to produce such code charts with their associated character
+names list to show the repertoire of characters for that standard, as a normatively referenced, integral part of that
+standard.
+ 
+Unicode uses most fonts under restricted license from the original font owner. You may not extract, copy, modify, or
+distribute fonts or font data from any Unicode Products, including this publication, without license from the font owner.
+ 
+Use of all Unicode Products, including this publication, is governed by the Unicode Terms of Use
+(https://www.unicode.org/copyright.html). The authors, contributors, and publishers have taken care in the preparation of
+this publication, but make no express or implied representation or warranty of any kind and assume no responsibility or
+liability for errors or omissions or for consequential or incidental damages that may arise therefrom. This publication is
+provided 
+“AS-IS” without charge as a convenience to users.
+ 
+Unicode and the Unicode Logo are registered trademarks of Unicode, Inc., in the United States and other countries.
+The Unicode Standard, Version 18.0, Copyright © 1991-2026 Unicode, Inc. All rights reserved. 56
+06FFArabic0600
+060 061 062 063 064 065 066 067 068 069 06A 06B 06C 06D 06E 06F
+Ɔ
+Ƈ
+ƈ
+Ɖ
+
+
+؆
+؇
+؈
+؉
+؊
+؋
+،
+؍
+؎
+؏
+$ؐ
+$ؑ
+$ؒ
+$ؓ
+$ؔ
+$ؕ
+$ؖ
+$ؗ
+$ؘ
+$ؙ
+$ؚ
+؛
+ƙ
+؝
+؞
+؟
+ؠ
+ء
+آ
+أ
+ﺅ
+ﺇ
+ﺉ
+ا
+ب
+ة
+ﺕ
+ﺙ
+ج
+ﺡ
+ﺥ
+د
+ذ
+ر
+ز
+س
+ﺵ
+ص
+ض
+ط
+ﻅ
+ع
+غ
+ػ
+ؼ
+ؽ
+ؾ
+ؿ
+ـ
+ﻑ
+ﻕ
+ك
+ل
+م
+ن
+ه
+ﻭ
+ﻯ
+ﻱ
+$ً
+$ٌ
+$ﹴ
+$ﹶ
+$ﹸ
+$ﹺ
+$ﹼ
+$ْ
+$ٓ
+$ٔ
+$ٕ
+$ٖ
+$ٗ
+$٘
+$ٙ
+$ٚ
+$ٛ
+$ٜ
+$ٝ
+$ٞ
+$ٟ
+٠
+١
+٢
+٣
+٤
+٥
+٦
+٧
+٨
+٩
+٪
+٫
+٬
+٭
+ٮ
+ٯ
+$ٰ
+ٱ
+ٲ
+ٳ
+ٴ
+ٵ
+ٶ
+ٷ
+ٸ
+ٹ
+ﭞ
+ﭒ
+ټ
+ٽ
+پ
+ٿ
+ڀ
+ځ
+ڂ
+ڃ
+ﭲ
+څ
+چ
+ﭾ
+ﮈ
+ډ
+ڊ
+ڋ
+ڌ
+ڍ
+ڎ
+ڏ
+ڐ
+ﮌ
+ڒ
+ړ
+ڔ
+ڕ
+ږ
+ڗ
+ﮊ
+ڙ
+ښ
+ڛ
+ڜ
+ڝ
+ڞ
+ڟ
+ڠ
+ڡ
+ڢ
+ڣ
+ڤ
+ڥ
+ﭮ
+ڧ
+ڨ
+ک
+ڪ
+ګ
+ڬ
+ڭ
+ڮ
+ﮒ
+ڰ
+ڱ
+ڲ
+ڳ
+ڴ
+ڵ
+ڶ
+ڷ
+ڸ
+ڹ
+ں
+ﮠ
+ڼ
+ڽ
+ھ
+ڿ
+ۀ
+ہ
+ۂ
+ۃ
+ۄ
+ﯠ
+ۆ
+ۇ
+ﯛ
+ۉ
+ۊ
+ۋ
+ﯼ
+ۍ
+ێ
+ۏ
+ې
+ۑ
+ﮮ
+ۓ
+۔
+ە
+$ۖ
+$ۗ
+$ۘ
+$ۙ
+$ۚ
+$ۛ
+$ۜ
+Ɨ
+۞
+$۟
+$۠
+$ۡ
+$ۢ
+$ۣ
+$ۤ
+ۥ
+ۦ
+$ۧ
+$ۨ
+۩
+$۪
+$۫
+$۬
+$ۭ
+ۮ
+ۯ
+۰
+۱
+۲
+۳
+۴
+۵
+۶
+۷
+۸
+۹
+ۺ
+ۻ
+ۼ
+۽
+۾
+ۿ
+0600
+0601
+0602
+0603
+0604
+0605
+0606
+0607
+0608
+0609
+060A
+060B
+060C
+060D
+060E
+060F
+0610
+0611
+0612
+0613
+0614
+0615
+0616
+0617
+0618
+0619
+061A
+061B
+061C
+061D
+061E
+061F
+0620
+0621
+0622
+0623
+0624
+0625
+0626
+0627
+0628
+0629
+062A
+062B
+062C
+062D
+062E
+062F
+0630
+0631
+0632
+0633
+0634
+0635
+0636
+0637
+0638
+0639
+063A
+063B
+063C
+063D
+063E
+063F
+0640
+0641
+0642
+0643
+0644
+0645
+0646
+0647
+0648
+0649
+064A
+064B
+064C
+064D
+064E
+064F
+0650
+0651
+0652
+0653
+0654
+0655
+0656
+0657
+0658
+0659
+065A
+065B
+065C
+065D
+065E
+065F
+0660
+0661
+0662
+0663
+0664
+0665
+0666
+0667
+0668
+0669
+066A
+066B
+066C
+066D
+066E
+066F
+0670
+0671
+0672
+0673
+0674
+0675
+0676
+0677
+0678
+0679
+067A
+067B
+067C
+067D
+067E
+067F
+0680
+0681
+0682
+0683
+0684
+0685
+0686
+0687
+0688
+0689
+068A
+068B
+068C
+068D
+068E
+068F
+0690
+0691
+0692
+0693
+0694
+0695
+0696
+0697
+0698
+0699
+069A
+069B
+069C
+069D
+069E
+069F
+06A0
+06A1
+06A2
+06A3
+06A4
+06A5
+06A6
+06A7
+06A8
+06A9
+06AA
+06AB
+06AC
+06AD
+06AE
+06AF
+06B0
+06B1
+06B2
+06B3
+06B4
+06B5
+06B6
+06B7
+06B8
+06B9
+06BA
+06BB
+06BC
+06BD
+06BE
+06BF
+06C0
+06C1
+06C2
+06C3
+06C4
+06C5
+06C6
+06C7
+06C8
+06C9
+06CA
+06CB
+06CC
+06CD
+06CE
+06CF
+06D0
+06D1
+06D2
+06D3
+06D4
+06D5
+06D6
+06D7
+06D8
+06D9
+06DA
+06DB
+06DC
+06DD
+06DE
+06DF
+06E0
+06E1
+06E2
+06E3
+06E4
+06E5
+06E6
+06E7
+06E8
+06E9
+06EA
+06EB
+06EC
+06ED
+06EE
+06EF
+06F0
+06F1
+06F2
+06F3
+06F4
+06F5
+06F6
+06F7
+06F8
+06F9
+06FA
+06FB
+06FC
+06FD
+06FE
+06FF
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+A
+B
+C
+D
+E
+F
+The Unicode Standard, Version 18.0, Copyright © 1991-2026 Unicode, Inc. All rights reserved. 57
+0625Arabic0600
+Quranic annotation sign
+0615 $ؕARABIC SMALL HIGH TAH
+• marks a recommended pause position in some
+Qurans published in Iran and Pakistan
+• should not be confused with the small TAH
+sign used as a diacritic for some letters such as
+0679 ٹ 
+Extended Arabic mark
+0616 $ؖARABIC SMALL HIGH LIGATURE ALEF WITH
+LAM WITH YEH
+※ ARABIC SMALL HIGH LIGATURE ALEF WITH YEH
+BARREE
+• early Persian
+Quranic annotation signs
+0617 $ؗARABIC SMALL HIGH ZAIN
+0618 $ؘARABIC SMALL FATHA
+• should not be confused with 064E $ﹶ  FATHA
+0619 $ؙARABIC SMALL DAMMA
+• should not be confused with 064F $ﹸ  DAMMA
+061A $ؚARABIC SMALL KASRA
+• should not be confused with 0650 $ﹺ  KASRA
+Punctuation
+061B؛ARABIC SEMICOLON
+• also used with Thaana and Syriac in modern
+text
+→ 003B ;  semicolon
+→ 204F p  reversed semicolon
+→ 2E35 ⸵  turned semicolon
+Format character
+061C ƙ ARABIC LETTER MARK
+• commonly abbreviated ALM
+→ 200F Ŕ  right-to-left mark
+Punctuation
+061D؝ARABIC END OF TEXT MARK
+061E؞ARABIC TRIPLE DOT PUNCTUATION MARK
+061F؟ARABIC QUESTION MARK
+• also used with Thaana and Syriac in modern
+text
+→ 003F ?  question mark
+→ 2E2E ⸮  reversed question mark
+Addition for Kashmiri
+0620ؠARABIC LETTER KASHMIRI YEH
+• used in Kashmiri to represent half ye / taler ye
+Based on ISO/IEC 8859-6
+Arabic letter names follow romanization conventions derived
+from ISO/IEC 8859-6. These differ from the Literary Arabic
+pronunciation of the letter names. For example, 0628 ARABIC
+LETTER BEH has a Literary Arabic pronunciation of ba'.
+0621ءARABIC LETTER HAMZA
+→ 02BE 
+ʾ  modifier letter right half ring
+0622آARABIC LETTER ALEF WITH MADDA ABOVE
+≡ 0627 ا  0653 $ٓ 
+0623أARABIC LETTER ALEF WITH HAMZA ABOVE
+≡ 0627 ا  0654 $ٔ 
+0624ﺅARABIC LETTER WAW WITH HAMZA ABOVE
+≡ 0648 ﻭ  0654 $ٔ 
+0625ﺇARABIC LETTER ALEF WITH HAMZA BELOW
+≡ 0627 ا  0655 $ٕ 
+Subtending marks
+0600 Ɔ ARABIC NUMBER SIGN
+0601 Ƈ ARABIC SIGN SANAH
+0602 ƈ ARABIC FOOTNOTE MARKER
+0603 Ɖ ARABIC SIGN SAFHA
+0604  ARABIC SIGN SAMVAT
+• used for writing Samvat era dates in Urdu
+Supertending mark
+0605  ARABIC NUMBER MARK ABOVE
+• may be used with Coptic Epact numbers
+Radix symbols
+0606؆ARABIC-INDIC CUBE ROOT
+→ 221B ∛  cube root
+0607؇ARABIC-INDIC FOURTH ROOT
+→ 221C ∜  fourth root
+Letterlike symbol
+0608؈ARABIC RAY
+Punctuation
+0609؉ARABIC-INDIC PER MILLE SIGN
+→ 2030 ‰  per mille sign
+060A؊ARABIC-INDIC PER TEN THOUSAND SIGN
+→ 2031 ‱  per ten thousand sign
+Currency symbol
+060B؋AFGHANI SIGN
+Punctuation
+060C،ARABIC COMMA
+• also used with Thaana and Syriac in modern
+text
+→ 002C ,  comma
+→ 2E32 ⸲  turned comma
+→ 2E41 ⹁  reversed comma
+060D؍ARABIC DATE SEPARATOR
+Poetic marks
+060E؎ARABIC POETIC VERSE SIGN
+060F؏ARABIC SIGN MISRA
+Honorifics
+0610 $ؐARABIC SIGN SALLALLAHOU ALAYHE
+WASSALLAM
+• represents sallallahu alayhe wasallam “may
+God’s peace and blessings be upon him”
+0611 $ؑARABIC SIGN ALAYHE ASSALLAM
+• represents alayhe assalam “upon him be peace”
+→ FD47 ﵇  arabic ligature alayhi as-salaam
+0612 $ؒARABIC SIGN RAHMATULLAH ALAYHE
+• represents rahmatullah alayhe “may God have
+mercy upon him”
+→ FD40 ﵀  arabic ligature rahimahu allaah
+0613 $ؓARABIC SIGN RADI ALLAHOU ANHU
+• represents radi allahu ’anhu “may God be
+pleased with him”
+→ FD41 ﵁  arabic ligature radi allaahu anh
+0614 $ؔARABIC SIGN TAKHALLUS
+• sign placed over the name or nom-de-plume
+of a poet, or in some writings used to mark all
+proper names
+The Unicode Standard, Version 18.0, Copyright © 1991-2026 Unicode, Inc. All rights reserved. 58
+065EArabic0626
+064AﻱARABIC LETTER YEH
+• loses its dots when used in combination with
+0654 $ٔ 
+• retains its dots when used in combination with
+other combining marks
+→ 08A8 ࢨ  arabic letter yeh with two dots below
+and hamza above
+Tashkil from ISO/IEC 8859-6
+064B $ًARABIC FATHATAN
+064C $ٌARABIC DAMMATAN
+• a common alternative form is written as two
+intertwined dammas, one of which is turned
+180 degrees
+064D $ﹴARABIC KASRATAN
+→ 10EFA $𐻺   arabic double vertical bar below
+064E $ﹶARABIC FATHA
+064F $ﹸARABIC DAMMA
+0650 $ﹺARABIC KASRA
+0651 $ﹼARABIC SHADDA
+0652 $ْARABIC SUKUN
+• marks absence of a vowel after the base
+consonant
+• used in some Qurans to mark a long vowel as
+ignored
+• can have a variety of shapes, including a
+circular one and a shape that looks like ‘$ۡ’ 
+→ 06E1 $ۡ  arabic small high dotless head of khah
+Combining maddah and hamza
+0653 $ٓARABIC MADDAH ABOVE
+• used for madd jaa’iz in South Asian and
+Indonesian orthographies
+→ 0897 $ࢗ  arabic pepet
+→ 089C $࢜  arabic madda waajib
+→ 089E $࢞  arabic doubled madda
+→ 089F $࢟  arabic half madda over madda
+0654 $ٔARABIC HAMZA ABOVE
+• restricted to hamza and ezafe semantics
+• is not used as a diacritic to form new letters
+0655 $ٕARABIC HAMZA BELOW
+Other combining marks
+0656 $ٖARABIC SUBSCRIPT ALEF
+0657 $ٗARABIC INVERTED DAMMA
+= ulta pesh
+• Kashmiri, Urdu
+0658 $٘ARABIC MARK NOON GHUNNA
+• Baluchi
+• indicates nasalization in Urdu
+0659 $ٙARABIC ZWARAKAY
+• Pashto
+065A $ٚARABIC VOWEL SIGN SMALL V ABOVE
+• African languages
+065B $ٛARABIC VOWEL SIGN INVERTED SMALL V
+ABOVE
+• African languages
+065C $ٜARABIC VOWEL SIGN DOT BELOW
+• African languages
+• also used in Quranic text in African and other
+orthographies
+065D $ٝARABIC REVERSED DAMMA
+• African languages
+065E $ٞARABIC FATHA WITH TWO DOTS
+• Kalami
+0626ﺉARABIC LETTER YEH WITH HAMZA ABOVE
+• in Kyrgyz the hamza is consistently positioned
+to the top right in isolate and final forms
+≡ 064A ﻱ  0654 $ٔ 
+0627اARABIC LETTER ALEF
+0628بARABIC LETTER BEH
+0629ةARABIC LETTER TEH MARBUTA
+062AﺕARABIC LETTER TEH
+062BﺙARABIC LETTER THEH
+062CجARABIC LETTER JEEM
+062DﺡARABIC LETTER HAH
+062EﺥARABIC LETTER KHAH
+062FدARABIC LETTER DAL
+0630ذARABIC LETTER THAL
+0631رARABIC LETTER REH
+0632زARABIC LETTER ZAIN
+0633سARABIC LETTER SEEN
+0634ﺵARABIC LETTER SHEEN
+0635صARABIC LETTER SAD
+0636ضARABIC LETTER DAD
+0637طARABIC LETTER TAH
+0638ﻅARABIC LETTER ZAH
+0639عARABIC LETTER AIN
+→ 01B9 ƹ  latin small letter ezh reversed
+→ 02BF ʿ  modifier letter left half ring
+063AغARABIC LETTER GHAIN
+Additions for early Persian and Azerbaijani
+063BػARABIC LETTER KEHEH WITH TWO DOTS
+ABOVE
+063CؼARABIC LETTER KEHEH WITH THREE DOTS
+BELOW
+063DؽARABIC LETTER FARSI YEH WITH INVERTED V
+• Azerbaijani
+063EؾARABIC LETTER FARSI YEH WITH TWO DOTS
+ABOVE
+063FؿARABIC LETTER FARSI YEH WITH THREE DOTS
+ABOVE
+Based on ISO/IEC 8859-6
+0640ـARABIC TATWEEL
+= kashida
+• inserted to stretch characters or to carry tashkil
+with no base letter
+• also used with Adlam, Hanifi Rohingya,
+Mandaic, Manichaean, Psalter Pahlavi, Sogdian,
+and Syriac
+0641ﻑARABIC LETTER FEH
+0642ﻕARABIC LETTER QAF
+0643كARABIC LETTER KAF
+0644لARABIC LETTER LAM
+0645مARABIC LETTER MEEM
+• Sindhi uses a shape with a short tail
+0646نARABIC LETTER NOON
+0647هARABIC LETTER HEH
+0648ﻭARABIC LETTER WAW
+0649ﻯARABIC LETTER ALEF MAKSURA
+• represents YEH-shaped dual-joining letter with
+no dots in any positional form
+• not intended for use in combination with
+0654 $ٔ 
+→ 0626 ﺉ  arabic letter yeh with hamza above
+The Unicode Standard, Version 18.0, Copyright © 1991-2026 Unicode, Inc. All rights reserved. 59
+068BArabic065F
+Digraphic letters for Kazakh
+These characters were encoded for Kazakh digraphs, but their
+compatibility decompositions do not reflect the preferred
+order of representation. Accordingly, the representation of
+these Kazakh digraphs should instead use the preferred two-
+character spellings with the correct order of elements.
+0675ٵARABIC LETTER HIGH HAMZA ALEF
+• preferred spelling is 0674 ٴ  0627 ا 
+≈ 0627 ا  0674 ٴ 
+0676ٶARABIC LETTER HIGH HAMZA WAW
+• preferred spelling is 0674 ٴ  0648 ﻭ 
+≈ 0648 ﻭ  0674 ٴ 
+0677ٷARABIC LETTER U WITH HAMZA ABOVE
+• preferred spelling is 0674 ٴ  06C7 ۇ 
+≈ 06C7 ۇ  0674 ٴ 
+0678ٸARABIC LETTER HIGH HAMZA YEH
+• preferred spelling is 0674 ٴ  0649 ﻯ 
+≈ 064A ﻱ  0674 ٴ 
+Extended Arabic letters
+0679ٹARABIC LETTER TTEH
+• Urdu
+067AﭞARABIC LETTER TTEHEH
+• Sindhi
+067BﭒARABIC LETTER BEEH
+• Sindhi
+067CټARABIC LETTER TEH WITH RING
+• Pashto
+067DٽARABIC LETTER TEH WITH THREE DOTS ABOVE
+DOWNWARDS
+• Sindhi
+067EپARABIC LETTER PEH
+• Persian, Urdu, ...
+067FٿARABIC LETTER TEHEH
+• Sindhi
+0680ڀARABIC LETTER BEHEH
+• Sindhi
+0681ځARABIC LETTER HAH WITH HAMZA ABOVE
+• Pashto
+• represents the phoneme /dz/
+0682ڂARABIC LETTER HAH WITH TWO DOTS
+VERTICAL ABOVE
+• not used in modern Pashto
+0683ڃARABIC LETTER NYEH
+• Sindhi
+0684ﭲARABIC LETTER DYEH
+• Sindhi, Bosnian
+0685څARABIC LETTER HAH WITH THREE DOTS ABOVE
+• Pashto, Khwarazmian
+• represents the phoneme /ts/ in Pashto
+0686چARABIC LETTER TCHEH
+• Persian, Urdu, ...
+0687ﭾARABIC LETTER TCHEHEH
+• Sindhi
+0688ﮈARABIC LETTER DDAL
+• Urdu
+0689ډARABIC LETTER DAL WITH RING
+• Pashto
+068AڊARABIC LETTER DAL WITH DOT BELOW
+• Sindhi, early Persian, Pegon, Malagasy
+068BڋARABIC LETTER DAL WITH DOT BELOW AND
+SMALL TAH
+• Lahnda
+065F $ٟARABIC WAVY HAMZA BELOW
+• Kashmiri
+Arabic-Indic digits
+These digits are used with Arabic proper; for languages of
+Iran, Afghanistan, Pakistan, and India, see the Eastern Arabic-
+Indic digits at 06F0-06F9.
+0660٠ARABIC-INDIC DIGIT ZERO
+0661١ARABIC-INDIC DIGIT ONE
+0662٢ARABIC-INDIC DIGIT TWO
+0663٣ARABIC-INDIC DIGIT THREE
+0664٤ARABIC-INDIC DIGIT FOUR
+0665٥ARABIC-INDIC DIGIT FIVE
+0666٦ARABIC-INDIC DIGIT SIX
+0667٧ARABIC-INDIC DIGIT SEVEN
+0668٨ARABIC-INDIC DIGIT EIGHT
+0669٩ARABIC-INDIC DIGIT NINE
+Punctuation
+066A٪ARABIC PERCENT SIGN
+→ 0025 
+%  percent sign
+066B٫ARABIC DECIMAL SEPARATOR
+066C٬ARABIC THOUSANDS SEPARATOR
+→ 0027 '  apostrophe
+→ 2019 ’  right single quotation mark
+066D٭ARABIC FIVE POINTED STAR
+• appearance rather variable
+→ 002A *  asterisk
+Archaic letters
+066EٮARABIC LETTER DOTLESS BEH
+066FٯARABIC LETTER DOTLESS QAF
+Tashkil
+0670 $ٰARABIC LETTER SUPERSCRIPT ALEF
+• actually a vowel sign, despite the name
+Extended Arabic letters
+0671ٱARABIC LETTER ALEF WASLA
+• Quranic Arabic
+0672ٲARABIC LETTER ALEF WITH WAVY HAMZA
+ABOVE
+• Baluchi, Kashmiri
+Deprecated letter
+0673ٳARABIC LETTER ALEF WITH WAVY HAMZA
+BELOW
+• Kashmiri
+• this character is deprecated and its use is
+strongly discouraged
+• use the sequence 0627 ا  065F $ٟ  instead
+High hamza
+0674ٴARABIC LETTER HIGH HAMZA
+• Kazakh, Jawi
+• forms digraphs
+• in Jawi this character uses the fullsize hamza
+shape positioned at three-quarter height
+The Unicode Standard, Version 18.0, Copyright © 1991-2026 Unicode, Inc. All rights reserved. 60
+06BFArabic068C
+06A7ڧARABIC LETTER QAF WITH DOT ABOVE
+• Maghrib Arabic, Uyghur
+06A8ڨARABIC LETTER QAF WITH THREE DOTS ABOVE
+• Tunisian Arabic
+06A9کARABIC LETTER KEHEH
+= kaf mashkula
+• Persian, Urdu, Sindhi, ...
+06AAڪARABIC LETTER SWASH KAF
+• represents a letter distinct from Arabic KAF
+(0643 ك ) in Sindhi
+06ABګARABIC LETTER KAF WITH RING
+• Pashto
+• may appear like an Arabic KAF (0643 ك ) with a
+ring below the base
+06ACڬARABIC LETTER KAF WITH DOT ABOVE
+• use for the Jawi gaf is not recommended,
+although it may be found in some existing text
+data; recommended character for Jawi gaf is
+0762 ݢ 
+→ 0762 ݢ  arabic letter keheh with dot above
+06ADڭARABIC LETTER NG
+• Uyghur, Kazakh, Moroccan Arabic, early Jawi,
+early Persian, ...
+06AEڮARABIC LETTER KAF WITH THREE DOTS BELOW
+• Berber, early Persian
+• Pegon alternative for 08B4 ࢴ 
+06AFﮒARABIC LETTER GAF
+• Persian, Urdu, ...
+06B0ڰARABIC LETTER GAF WITH RING
+• Lahnda
+06B1ڱARABIC LETTER NGOEH
+• Sindhi
+06B2ڲARABIC LETTER GAF WITH TWO DOTS BELOW
+• not used in Sindhi
+06B3ڳARABIC LETTER GUEH
+• Sindhi
+06B4ڴARABIC LETTER GAF WITH THREE DOTS ABOVE
+• not used in Sindhi
+06B5ڵARABIC LETTER LAM WITH SMALL V
+• Kurdish, Bosnian
+06B6ڶARABIC LETTER LAM WITH DOT ABOVE
+• Kurdish
+06B7ڷARABIC LETTER LAM WITH THREE DOTS ABOVE
+• Kurdish
+06B8ڸARABIC LETTER LAM WITH THREE DOTS BELOW
+06B9ڹARABIC LETTER NOON WITH DOT BELOW
+06BAںARABIC LETTER NOON GHUNNA
+• Urdu, archaic Arabic
+• dotless in all four contextual forms
+06BBﮠARABIC LETTER RNOON
+• Sindhi
+06BCڼARABIC LETTER NOON WITH RING
+• Pashto
+06BDڽARABIC LETTER NOON WITH THREE DOTS
+ABOVE
+• Jawi
+06BEھARABIC LETTER HEH DOACHASHMEE
+• forms aspirate digraphs in Urdu and other
+languages of South Asia
+• represents the glottal fricative /h/ in Uyghur
+06BFڿARABIC LETTER TCHEH WITH DOT ABOVE
+068CڌARABIC LETTER DAHAL
+• Sindhi
+068DڍARABIC LETTER DDAHAL
+• Sindhi
+068EڎARABIC LETTER DUL
+• older shape for DUL, now obsolete in Sindhi
+• Burushaski
+068FڏARABIC LETTER DAL WITH THREE DOTS ABOVE
+DOWNWARDS
+• Sindhi
+• current shape used for DUL
+0690ڐARABIC LETTER DAL WITH FOUR DOTS ABOVE
+• Old Urdu, not in current use
+0691ﮌARABIC LETTER RREH
+• Urdu
+0692ڒARABIC LETTER REH WITH SMALL V
+• Kurdish
+0693ړARABIC LETTER REH WITH RING
+• Pashto
+0694ڔARABIC LETTER REH WITH DOT BELOW
+• Kurdish, early Persian
+0695ڕARABIC LETTER REH WITH SMALL V BELOW
+• Kurdish
+0696ږARABIC LETTER REH WITH DOT BELOW AND
+DOT ABOVE
+• Pashto
+0697ڗARABIC LETTER REH WITH TWO DOTS ABOVE
+• Dargwa
+0698ﮊARABIC LETTER JEH
+• Persian, Urdu, ...
+0699ڙARABIC LETTER REH WITH FOUR DOTS ABOVE
+• Sindhi
+069AښARABIC LETTER SEEN WITH DOT BELOW AND
+DOT ABOVE
+• Pashto
+069BڛARABIC LETTER SEEN WITH THREE DOTS
+BELOW
+• early Persian
+069CڜARABIC LETTER SEEN WITH THREE DOTS
+BELOW AND THREE DOTS ABOVE
+• Moroccan Arabic
+069DڝARABIC LETTER SAD WITH TWO DOTS BELOW
+• Turkic
+069EڞARABIC LETTER SAD WITH THREE DOTS ABOVE
+• Berber, Burushaski
+069FڟARABIC LETTER TAH WITH THREE DOTS ABOVE
+• Old Hausa
+06A0ڠARABIC LETTER AIN WITH THREE DOTS ABOVE
+• Jawi
+06A1ڡARABIC LETTER DOTLESS FEH
+• Adighe
+06A2ڢARABIC LETTER FEH WITH DOT MOVED BELOW
+• Maghrib Arabic
+06A3ڣARABIC LETTER FEH WITH DOT BELOW
+• Ingush
+06A4ڤARABIC LETTER VEH
+• Middle Eastern Arabic for foreign words
+• Kurdish, Khwarazmian, early Persian, Jawi
+06A5ڥARABIC LETTER FEH WITH THREE DOTS BELOW
+• North African Arabic for foreign words
+06A6ﭮARABIC LETTER PEHEH
+• Sindhi
+The Unicode Standard, Version 18.0, Copyright © 1991-2026 Unicode, Inc. All rights reserved. 61
+06EFArabic06C0
+Punctuation
+06D4۔ARABIC FULL STOP
+• Urdu
+Extended Arabic letter
+06D5ەARABIC LETTER AE
+• Uyghur, Kazakh, Kyrgyz
+Quranic annotation signs
+06D6 $ۖARABIC SMALL HIGH LIGATURE SAD WITH LAM
+WITH ALEF MAKSURA
+06D7 $ۗARABIC SMALL HIGH LIGATURE QAF WITH LAM
+WITH ALEF MAKSURA
+06D8 $ۘARABIC SMALL HIGH MEEM INITIAL FORM
+06D9 $ۙARABIC SMALL HIGH LAM ALEF
+06DA $ۚARABIC SMALL HIGH JEEM
+06DB $ۛARABIC SMALL HIGH THREE DOTS
+06DC $ۜARABIC SMALL HIGH SEEN
+06DD Ɨ ARABIC END OF AYAH
+06DE۞ARABIC START OF RUB EL HIZB
+• indicates boundaries of parts of sections
+• typically depicted as an eight-sided symbol,
+which may or may not appear starlike
+06DF $۟ARABIC SMALL HIGH ROUNDED ZERO
+• smaller than the typical circular shape used for
+0652 $ْ 
+06E0 $۠ARABIC SMALL HIGH UPRIGHT RECTANGULAR
+ZERO
+• the term “rectangular zero” is a translation of
+the Arabic name of this sign
+→ 10EF0 $𐻰   arabic small low upright rectangular
+zero
+06E1 $ۡARABIC SMALL HIGH DOTLESS HEAD OF KHAH
+= Arabic jazm
+• presentation form of 0652 $ْ , using font
+technology to select the variant is preferred
+• used in some Qurans to mark absence of a
+vowel
+→ 0652 $ْ  arabic sukun
+06E2 $ۢARABIC SMALL HIGH MEEM ISOLATED FORM
+06E3 $ۣARABIC SMALL LOW SEEN
+06E4 $ۤARABIC SMALL HIGH MADDA
+• typically used with 06E5 ۥ , 06E6 ۦ , 06E7 $ۧ , and
+08F3 $ࣳ 
+06E5ۥARABIC SMALL WAW
+→ 08D3 $࣓  arabic small low waw
+→ 08F3 $ࣳ  arabic small high waw
+06E6ۦARABIC SMALL YEH
+06E7 $ۧARABIC SMALL HIGH YEH
+06E8 $ۨARABIC SMALL HIGH NOON
+06E9۩ARABIC PLACE OF SAJDAH
+• there is a range of acceptable glyphs for this
+character
+06EA $۪ARABIC EMPTY CENTRE LOW STOP
+06EB $۫ARABIC EMPTY CENTRE HIGH STOP
+06EC $۬ARABIC ROUNDED HIGH STOP WITH FILLED
+CENTRE
+• also used in Quranic text in African and other
+orthographies to represent wasla, ikhtilas, etc.
+06ED $ۭARABIC SMALL LOW MEEM
+Extended Arabic letters for Parkari
+06EEۮARABIC LETTER DAL WITH INVERTED V
+06EFۯARABIC LETTER REH WITH INVERTED V
+• also used in early Persian
+06C0ۀARABIC LETTER HEH WITH YEH ABOVE
+= arabic letter hamzah on ha (1.0)
+• for Persian ezafe, Urdu izāfat, or similar cases,
+instead use 0654 $ٔ  over the language-
+appropriate base letter
+• actually a ligature, not an independent letter
+≡ 06D5 ە  0654 $ٔ 
+06C1ہARABIC LETTER HEH GOAL
+• Urdu
+06C2ۂARABIC LETTER HEH GOAL WITH HAMZA
+ABOVE
+• Urdu
+• actually a ligature, not an independent letter
+≡ 06C1 ہ  0654 $ٔ 
+06C3ۃARABIC LETTER TEH MARBUTA GOAL
+• Urdu
+06C4ۄARABIC LETTER WAW WITH RING
+• Kashmiri
+→ 1EE85 𞺅  arabic mathematical looped waw
+06C5ﯠARABIC LETTER KIRGHIZ OE
+• Kyrgyz
+• a glyph variant occurs which replaces the
+looped tail with a horizontal bar through the
+tail
+06C6ۆARABIC LETTER OE
+• Uyghur, Kurdish, Kazakh, Azerbaijani, Bosnian
+06C7ۇARABIC LETTER U
+• Azerbaijani, Kazakh, Kyrgyz, Uyghur
+06C8ﯛARABIC LETTER YU
+• Uyghur
+06C9ۉARABIC LETTER KIRGHIZ YU
+• Kazakh, Kyrgyz, Bosnian
+06CAۊARABIC LETTER WAW WITH TWO DOTS ABOVE
+• Kurdish
+06CBۋARABIC LETTER VE
+• Uyghur, Kazakh
+06CCﯼARABIC LETTER FARSI YEH
+• Arabic, Persian, Urdu, Kashmiri, ...
+• initial and medial forms of this letter have two
+horizontal dots below
+• retains its dots in initial and medial forms when
+used in combination with 0654 $ٔ 
+→ 0649 ﻯ  arabic letter alef maksura
+→ 064A ﻱ  arabic letter yeh
+06CDۍARABIC LETTER YEH WITH TAIL
+• Pashto, Sindhi
+• should not be used in Kashmiri to represent
+half ye /taler ye
+→ 0620 ؠ  arabic letter kashmiri yeh
+06CEێARABIC LETTER YEH WITH SMALL V
+• Kurdish
+06CFۏARABIC LETTER WAW WITH DOT ABOVE
+06D0ېARABIC LETTER E
+• Pashto, Uyghur
+• used as the letter bbeh in Sindhi
+06D1ۑARABIC LETTER YEH WITH THREE DOTS BELOW
+• Mende languages, Hausa
+06D2ﮮARABIC LETTER YEH BARREE
+• Urdu
+06D3ۓARABIC LETTER YEH BARREE WITH HAMZA
+ABOVE
+• Urdu
+• actually a ligature, not an independent letter
+≡ 06D2 ﮮ  0654 $ٔ 
+The Unicode Standard, Version 18.0, Copyright © 1991-2026 Unicode, Inc. All rights reserved. 62
+06FFArabic06F0
+Eastern Arabic-Indic digits
+These digits are used with Arabic-script languages of Iran,
+Pakistan, and India (Persian, Sindhi, Urdu, etc.). For details of
+variations in preferred glyphs, see the block description for
+the Arabic script.
+06F0۰EXTENDED ARABIC-INDIC DIGIT ZERO
+06F1۱EXTENDED ARABIC-INDIC DIGIT ONE
+06F2۲EXTENDED ARABIC-INDIC DIGIT TWO
+06F3۳EXTENDED ARABIC-INDIC DIGIT THREE
+06F4۴EXTENDED ARABIC-INDIC DIGIT FOUR
+• Urdu and Kashmiri have a different glyph than
+Persian
+06F5۵EXTENDED ARABIC-INDIC DIGIT FIVE
+06F6۶EXTENDED ARABIC-INDIC DIGIT SIX
+• Sindhi, Urdu, and Kashmiri have a different
+glyph than Persian
+06F7۷EXTENDED ARABIC-INDIC DIGIT SEVEN
+• Sindhi, Urdu, and Kashmiri have a different
+glyph than Persian
+06F8۸EXTENDED ARABIC-INDIC DIGIT EIGHT
+06F9۹EXTENDED ARABIC-INDIC DIGIT NINE
+Extended Arabic letters
+06FAۺARABIC LETTER SHEEN WITH DOT BELOW
+06FBۻARABIC LETTER DAD WITH DOT BELOW
+06FCۼARABIC LETTER GHAIN WITH DOT BELOW
+Signs for Sindhi
+06FD۽ARABIC SIGN SINDHI AMPERSAND
+06FE۾ARABIC SIGN SINDHI POSTPOSITION MEN
+Extended Arabic letter for Parkari
+06FFۿARABIC LETTER HEH WITH INVERTED V

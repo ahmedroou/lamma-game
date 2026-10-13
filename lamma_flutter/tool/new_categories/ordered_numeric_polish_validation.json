@@ -1,0 +1,22 @@
+{
+  "count": 1200,
+  "culturalReplacements": 24,
+  "difficultyAndSubtypeQuotas": "passed",
+  "sixUniqueOptionsAndSingleCorrect": "passed",
+  "nearestAndWrongArithmetic": "passed",
+  "sequencePlacements": {
+    "easy/before": 25,
+    "easy/inside": 25,
+    "easy/after": 25,
+    "medium/before": 25,
+    "medium/inside": 25,
+    "medium/after": 25,
+    "hard/before": 25,
+    "hard/inside": 25,
+    "hard/after": 25,
+    "legendary/before": 25,
+    "legendary/inside": 25,
+    "legendary/after": 25
+  },
+  "duplicateQuestionAndPresentationCount": 0
+}

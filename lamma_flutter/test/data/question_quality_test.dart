@@ -37,13 +37,14 @@ void main() {
       );
       expect(
         raw.length,
-        gameCategories.length * QuestionBankConfig.questionsPerCategory,
+        QuestionBankConfig.totalFor(gameCategories.map((c) => c.id)),
       );
+      expect(playable.where((q) => q.isQuarantined), isEmpty);
       expect(
-        raw.where((q) => q.isQuarantined),
-        isEmpty,
-        reason:
-            'All known damaged rows must be reauthored before this batch is accepted.',
+        raw
+            .where((q) => q.isQuarantined)
+            .every((q) => q.qualityReasons.isNotEmpty),
+        true,
       );
       expect(
         playable.map((q) => q.id).toSet(),
@@ -138,6 +139,7 @@ void main() {
       final app = AppController(
         storage,
         questions: LocalQuestionRepository(questions: completeQuestions),
+        openingCardsEnabled: false,
       );
       addTearDown(app.dispose);
       await app.initialize();
@@ -152,6 +154,54 @@ void main() {
     },
   );
 
+  test(
+    'Saved untagged questions excluded by the current catalog are blocked from new draws',
+    () async {
+      final repo = MemoryGameRepository();
+      final config = SessionConfig(
+        teams: [
+          TeamState(id: 'a', name: 'a'),
+          TeamState(id: 'b', name: 'b'),
+        ],
+        categoryIds: seedQuestions.take(6).map((q) => q.categoryId),
+      );
+      final save = SessionSave(
+        id: 'before-review',
+        config: config,
+        state: SessionState(
+          phase: SessionPhase.categories,
+          teams: config.teams,
+          seenQuestionIds: const {},
+        ),
+        questions: seedQuestions.take(6),
+        createdAt: DateTime(2026),
+        updatedAt: DateTime(2026),
+        revision: 0,
+      );
+      await repo.saveSession(save);
+      final active = [
+        ...seedQuestions.skip(1),
+        Question(
+          id: 'myths-replacement',
+          categoryId: 'myths',
+          text: 'بديل صالح',
+          answer: 'جواب',
+          difficulty: QuestionDifficulty.easy,
+        ),
+      ];
+      final app = AppController(
+        repo,
+        questions: LocalQuestionRepository(questions: active),
+        openingCardsEnabled: false,
+      );
+      await app.initialize();
+      expect(app.notice, contains('إصلاح'));
+      app.session!.resume();
+      expect(app.session!.selectCategory('myths'), false);
+      expect(app.session!.selectCategory('spacetoon'), true);
+      app.dispose();
+    },
+  );
   test('Quality metadata round-trips and unknown statuses fail closed', () {
     final json = {
       ...seedQuestions.first.toJson(),

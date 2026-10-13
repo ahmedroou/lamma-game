@@ -1,0 +1,686 @@
+{
+  "affectedQuestions": 28,
+  "scope": "All five distractors replaced in28 confirmed malformed option sets. Original exact answers, their positions and all source fields preserved. Formal-name prompts subsequently clarify ISO and affected proper institutions; NASA acronym contexts name the source standard. No reviewed status granted.",
+  "initialArtifactFindings": [
+    {
+      "id": "abbreviations-easy-0031",
+      "optionId": "D",
+      "text": "ampere",
+      "reason": "unrelated_unit_in_nonunit_expansion_question"
+    },
+    {
+      "id": "abbreviations-easy-0048",
+      "optionId": "D",
+      "text": "KG (Knight of the Order of the Garter) QC (Queen's Counsel) KC (King's Counsel)",
+      "reason": "concatenated_table_or_document_formatting_row"
+    },
+    {
+      "id": "abbreviations-easy-0050",
+      "optionId": "B",
+      "text": "KG (Knight of the Order of the Garter) QC (Queen's Counsel) KC (King's Counsel)",
+      "reason": "concatenated_table_or_document_formatting_row"
+    },
+    {
+      "id": "abbreviations-easy-0050",
+      "optionId": "C",
+      "text": "cubic centimetre cubic metre",
+      "reason": "concatenated_table_or_document_formatting_row"
+    },
+    {
+      "id": "abbreviations-easy-0050",
+      "optionId": "E",
+      "text": "chap., chaps",
+      "reason": "concatenated_table_or_document_formatting_row"
+    },
+    {
+      "id": "abbreviations-easy-0051",
+      "optionId": "B",
+      "text": "millilitre centilitre pint quart gallon barrels barrels per day",
+      "reason": "concatenated_table_or_document_formatting_row"
+    },
+    {
+      "id": "abbreviations-easy-0051",
+      "optionId": "C",
+      "text": "KG (Knight of the Order of the Garter) QC (Queen's Counsel) KC (King's Counsel)",
+      "reason": "concatenated_table_or_document_formatting_row"
+    },
+    {
+      "id": "abbreviations-easy-0051",
+      "optionId": "D",
+      "text": "cubic centimetre cubic metre",
+      "reason": "concatenated_table_or_document_formatting_row"
+    },
+    {
+      "id": "abbreviations-easy-0052",
+      "optionId": "B",
+      "text": "No., Nos",
+      "reason": "concatenated_table_or_document_formatting_row"
+    },
+    {
+      "id": "abbreviations-easy-0052",
+      "optionId": "C",
+      "text": "KG (Knight of the Order of the Garter) QC (Queen's Counsel) KC (King's Counsel)",
+      "reason": "concatenated_table_or_document_formatting_row"
+    },
+    {
+      "id": "abbreviations-easy-0052",
+      "optionId": "D",
+      "text": "para., paras",
+      "reason": "concatenated_table_or_document_formatting_row"
+    },
+    {
+      "id": "abbreviations-easy-0052",
+      "optionId": "E",
+      "text": "chap., chaps",
+      "reason": "concatenated_table_or_document_formatting_row"
+    },
+    {
+      "id": "abbreviations-easy-0056",
+      "optionId": "A",
+      "text": "millimetre centimetre metre kilometre",
+      "reason": "concatenated_table_or_document_formatting_row"
+    },
+    {
+      "id": "abbreviations-easy-0056",
+      "optionId": "B",
+      "text": "cubic centimetre cubic metre",
+      "reason": "concatenated_table_or_document_formatting_row"
+    },
+    {
+      "id": "abbreviations-easy-0056",
+      "optionId": "D",
+      "text": "art., arts",
+      "reason": "concatenated_table_or_document_formatting_row"
+    },
+    {
+      "id": "abbreviations-easy-0057",
+      "optionId": "A",
+      "text": "millimetre centimetre metre kilometre",
+      "reason": "concatenated_table_or_document_formatting_row"
+    },
+    {
+      "id": "abbreviations-easy-0057",
+      "optionId": "D",
+      "text": "cubic centimetre cubic metre",
+      "reason": "concatenated_table_or_document_formatting_row"
+    },
+    {
+      "id": "abbreviations-easy-0057",
+      "optionId": "E",
+      "text": "chap., chaps",
+      "reason": "concatenated_table_or_document_formatting_row"
+    },
+    {
+      "id": "abbreviations-easy-0057",
+      "optionId": "F",
+      "text": "No., Nos",
+      "reason": "concatenated_table_or_document_formatting_row"
+    },
+    {
+      "id": "abbreviations-medium-0027",
+      "optionId": "B",
+      "text": "ampere",
+      "reason": "unrelated_unit_in_nonunit_expansion_question"
+    },
+    {
+      "id": "abbreviations-medium-0028",
+      "optionId": "B",
+      "text": "ampere",
+      "reason": "unrelated_unit_in_nonunit_expansion_question"
+    },
+    {
+      "id": "abbreviations-medium-0036",
+      "optionId": "E",
+      "text": "ampere",
+      "reason": "unrelated_unit_in_nonunit_expansion_question"
+    },
+    {
+      "id": "abbreviations-medium-0037",
+      "optionId": "E",
+      "text": "ampere",
+      "reason": "unrelated_unit_in_nonunit_expansion_question"
+    },
+    {
+      "id": "abbreviations-medium-0053",
+      "optionId": "F",
+      "text": "KG (Knight of the Order of the Garter) QC (Queen's Counsel) KC (King's Counsel)",
+      "reason": "concatenated_table_or_document_formatting_row"
+    },
+    {
+      "id": "abbreviations-medium-0056",
+      "optionId": "A",
+      "text": "cubic centimetre cubic metre",
+      "reason": "concatenated_table_or_document_formatting_row"
+    },
+    {
+      "id": "abbreviations-medium-0056",
+      "optionId": "B",
+      "text": "sect., sects",
+      "reason": "concatenated_table_or_document_formatting_row"
+    },
+    {
+      "id": "abbreviations-medium-0056",
+      "optionId": "C",
+      "text": "chap., chaps",
+      "reason": "concatenated_table_or_document_formatting_row"
+    },
+    {
+      "id": "abbreviations-medium-0056",
+      "optionId": "E",
+      "text": "millilitre centilitre pint quart gallon barrels barrels per day",
+      "reason": "concatenated_table_or_document_formatting_row"
+    },
+    {
+      "id": "abbreviations-medium-0056",
+      "optionId": "F",
+      "text": "No., Nos",
+      "reason": "concatenated_table_or_document_formatting_row"
+    },
+    {
+      "id": "abbreviations-medium-0057",
+      "optionId": "A",
+      "text": "KG (Knight of the Order of the Garter) QC (Queen's Counsel) KC (King's Counsel)",
+      "reason": "concatenated_table_or_document_formatting_row"
+    },
+    {
+      "id": "abbreviations-medium-0057",
+      "optionId": "B",
+      "text": "cubic centimetre cubic metre",
+      "reason": "concatenated_table_or_document_formatting_row"
+    },
+    {
+      "id": "abbreviations-medium-0057",
+      "optionId": "C",
+      "text": "byte kilobyte megabyte gigabyte terabyte petabyte",
+      "reason": "concatenated_table_or_document_formatting_row"
+    },
+    {
+      "id": "abbreviations-medium-0057",
+      "optionId": "E",
+      "text": "chap., chaps",
+      "reason": "concatenated_table_or_document_formatting_row"
+    },
+    {
+      "id": "abbreviations-medium-0057",
+      "optionId": "F",
+      "text": "millilitre centilitre pint quart gallon barrels barrels per day",
+      "reason": "concatenated_table_or_document_formatting_row"
+    },
+    {
+      "id": "abbreviations-medium-0058",
+      "optionId": "C",
+      "text": "KG (Knight of the Order of the Garter) QC (Queen's Counsel) KC (King's Counsel)",
+      "reason": "concatenated_table_or_document_formatting_row"
+    },
+    {
+      "id": "abbreviations-hard-0028",
+      "optionId": "D",
+      "text": "ampere",
+      "reason": "unrelated_unit_in_nonunit_expansion_question"
+    },
+    {
+      "id": "abbreviations-hard-0032",
+      "optionId": "A",
+      "text": "ampere",
+      "reason": "unrelated_unit_in_nonunit_expansion_question"
+    },
+    {
+      "id": "abbreviations-hard-0033",
+      "optionId": "C",
+      "text": "ampere",
+      "reason": "unrelated_unit_in_nonunit_expansion_question"
+    },
+    {
+      "id": "abbreviations-hard-0034",
+      "optionId": "B",
+      "text": "ampere",
+      "reason": "unrelated_unit_in_nonunit_expansion_question"
+    },
+    {
+      "id": "abbreviations-hard-0035",
+      "optionId": "B",
+      "text": "ampere",
+      "reason": "unrelated_unit_in_nonunit_expansion_question"
+    },
+    {
+      "id": "abbreviations-hard-0051",
+      "optionId": "B",
+      "text": "KG (Knight of the Order of the Garter) QC (Queen's Counsel) KC (King's Counsel)",
+      "reason": "concatenated_table_or_document_formatting_row"
+    },
+    {
+      "id": "abbreviations-legendary-0033",
+      "optionId": "C",
+      "text": "ampere",
+      "reason": "unrelated_unit_in_nonunit_expansion_question"
+    },
+    {
+      "id": "abbreviations-legendary-0046",
+      "optionId": "A",
+      "text": "millimetre centimetre metre kilometre",
+      "reason": "concatenated_table_or_document_formatting_row"
+    },
+    {
+      "id": "abbreviations-legendary-0046",
+      "optionId": "D",
+      "text": "art., arts",
+      "reason": "concatenated_table_or_document_formatting_row"
+    },
+    {
+      "id": "abbreviations-legendary-0046",
+      "optionId": "F",
+      "text": "KG (Knight of the Order of the Garter) QC (Queen's Counsel) KC (King's Counsel)",
+      "reason": "concatenated_table_or_document_formatting_row"
+    },
+    {
+      "id": "abbreviations-legendary-0048",
+      "optionId": "A",
+      "text": "chap., chaps",
+      "reason": "concatenated_table_or_document_formatting_row"
+    },
+    {
+      "id": "abbreviations-legendary-0048",
+      "optionId": "D",
+      "text": "millilitre centilitre pint quart gallon barrels barrels per day",
+      "reason": "concatenated_table_or_document_formatting_row"
+    },
+    {
+      "id": "abbreviations-legendary-0048",
+      "optionId": "E",
+      "text": "art., arts",
+      "reason": "concatenated_table_or_document_formatting_row"
+    },
+    {
+      "id": "abbreviations-legendary-0048",
+      "optionId": "F",
+      "text": "No., Nos",
+      "reason": "concatenated_table_or_document_formatting_row"
+    },
+    {
+      "id": "abbreviations-medium-0029",
+      "optionId": "B",
+      "text": "estimated time of arrivalEngineering Technical Authority",
+      "reason": "concatenated_table_or_document_formatting_row"
+    },
+    {
+      "id": "abbreviations-hard-0036",
+      "optionId": "C",
+      "text": "estimated time of arrivalEngineering Technical Authority",
+      "reason": "concatenated_table_or_document_formatting_row"
+    },
+    {
+      "id": "abbreviations-legendary-0026",
+      "optionId": "D",
+      "text": "estimated time of arrivalEngineering Technical Authority",
+      "reason": "concatenated_table_or_document_formatting_row"
+    },
+    {
+      "id": "abbreviations-legendary-0034",
+      "optionId": "C",
+      "text": "estimated time of arrivalEngineering Technical Authority",
+      "reason": "concatenated_table_or_document_formatting_row"
+    }
+  ],
+  "changes": [
+    {
+      "id": "abbreviations-easy-0031",
+      "answer": "radio frequency",
+      "correctOptionId": "E",
+      "distractors": [
+        "Radio Flux",
+        "Radiation Frequency",
+        "Radio Feedback",
+        "Reference Frequency",
+        "Resonance Factor"
+      ]
+    },
+    {
+      "id": "abbreviations-easy-0048",
+      "answer": "Association of Southeast Asian Nations",
+      "correctOptionId": "F",
+      "distractors": [
+        "Association of Southeast Asian Networks",
+        "Association of Southeast Asian Nonprofits",
+        "Alliance of Southeast Asian Nations",
+        "Association of Southern European and Asian Nations",
+        "Asian Society for Economic and Agricultural Negotiations"
+      ]
+    },
+    {
+      "id": "abbreviations-easy-0050",
+      "answer": "gross domestic product",
+      "correctOptionId": "F",
+      "distractors": [
+        "Gross Domestic Profit",
+        "Gross Direct Product",
+        "Gross Debt Position",
+        "General Domestic Product",
+        "Gross Development Product"
+      ]
+    },
+    {
+      "id": "abbreviations-easy-0051",
+      "answer": "gross national product",
+      "correctOptionId": "E",
+      "distractors": [
+        "Gross National Profit",
+        "Gross Net Product",
+        "General National Product",
+        "Gross National Price",
+        "Gross Nominal Product"
+      ]
+    },
+    {
+      "id": "abbreviations-easy-0052",
+      "answer": "value added tax",
+      "correctOptionId": "F",
+      "distractors": [
+        "Value Allocation Tax",
+        "Variable Added Tax",
+        "Value Added Tariff",
+        "Value Assessment Tax",
+        "Volume Added Tax"
+      ]
+    },
+    {
+      "id": "abbreviations-easy-0056",
+      "answer": "portable document format",
+      "correctOptionId": "F",
+      "distractors": [
+        "Protected Document Format",
+        "Programmable Data Format",
+        "Portable Digital File",
+        "Public Document Format",
+        "Portable Document Framework"
+      ]
+    },
+    {
+      "id": "abbreviations-easy-0057",
+      "answer": "ribonucleic acid",
+      "correctOptionId": "C",
+      "distractors": [
+        "Reduced Nucleic Acid",
+        "Reactive Nucleic Acid",
+        "Regulatory Nucleic Acid",
+        "Recombinant Nucleic Acid",
+        "Ribosomal Nucleic Acid"
+      ]
+    },
+    {
+      "id": "abbreviations-medium-0027",
+      "answer": "American National Standards Institute",
+      "correctOptionId": "A",
+      "distractors": [
+        "American National Safety Institute",
+        "American National Science Institute",
+        "Advanced National Standards Institute",
+        "American Network Standards Institute",
+        "American National Standards Inspection"
+      ]
+    },
+    {
+      "id": "abbreviations-medium-0028",
+      "answer": "International Organization for Standardization",
+      "correctOptionId": "E",
+      "distractors": [
+        "International Standards Organization",
+        "International Safety Organization",
+        "International Systems Organization",
+        "Integrated Standards Organization",
+        "International Statistics Office"
+      ]
+    },
+    {
+      "id": "abbreviations-medium-0029",
+      "answer": "Institute of Electrical and Electronics Engineers",
+      "correctOptionId": "F",
+      "distractors": [
+        "Institute of Electrical and Energy Engineers",
+        "International Institute of Electrical Engineers",
+        "Institute of Electronics and Environmental Engineers",
+        "Institute of Electrical Equipment Engineering",
+        "Institution of Electrical and Electronic Education"
+      ]
+    },
+    {
+      "id": "abbreviations-medium-0036",
+      "answer": "Safety Data Sheet",
+      "correctOptionId": "B",
+      "distractors": [
+        "Safety Design Standard",
+        "Security Data Sheet",
+        "Safety Disclosure Statement",
+        "Safety Data Summary",
+        "Standard Data Sheet"
+      ]
+    },
+    {
+      "id": "abbreviations-medium-0037",
+      "answer": "volatile organic compound",
+      "correctOptionId": "D",
+      "distractors": [
+        "Volatile Oxidizing Compound",
+        "Variable Organic Concentration",
+        "Volatile Organic Concentration",
+        "Vapor Organic Composition",
+        "Vacuum Operated Catalyst"
+      ]
+    },
+    {
+      "id": "abbreviations-medium-0053",
+      "answer": "Organization of Islamic Cooperation",
+      "correctOptionId": "A",
+      "distractors": [
+        "Organization of Islamic Commerce",
+        "Organization of International Cooperation",
+        "Organization of Islamic Culture",
+        "Organization of Intercontinental Cooperation",
+        "Office of Islamic Cooperation"
+      ]
+    },
+    {
+      "id": "abbreviations-medium-0056",
+      "answer": "foreign direct investment",
+      "correctOptionId": "D",
+      "distractors": [
+        "Foreign Domestic Investment",
+        "Financial Direct Investment",
+        "Foreign Debt Insurance",
+        "Foreign Development Income",
+        "Federal Direct Investment"
+      ]
+    },
+    {
+      "id": "abbreviations-medium-0057",
+      "answer": "consumer price index",
+      "correctOptionId": "D",
+      "distractors": [
+        "Cost Price Index",
+        "Consumer Profit Index",
+        "Consumption Price Indicator",
+        "Consumer Production Index",
+        "Capital Price Index"
+      ]
+    },
+    {
+      "id": "abbreviations-medium-0058",
+      "answer": "exclusive economic zone",
+      "correctOptionId": "D",
+      "distractors": [
+        "Extended Economic Zone",
+        "Exclusive Environmental Zone",
+        "External Economic Zone",
+        "European Economic Zone",
+        "Exclusive Export Zone"
+      ]
+    },
+    {
+      "id": "abbreviations-hard-0028",
+      "answer": "Color Rendering Index",
+      "correctOptionId": "F",
+      "distractors": [
+        "Color Reflection Index",
+        "Chromatic Response Index",
+        "Color Resolution Index",
+        "Color Radiation Index",
+        "Contrast Rendering Index"
+      ]
+    },
+    {
+      "id": "abbreviations-hard-0032",
+      "answer": "extravehicular mobility unit",
+      "correctOptionId": "D",
+      "distractors": [
+        "Extravehicular Monitoring Unit",
+        "Environmental Mobility Unit",
+        "Emergency Maneuvering Unit",
+        "External Maintenance Unit",
+        "Extravehicular Management Unit"
+      ]
+    },
+    {
+      "id": "abbreviations-hard-0033",
+      "answer": "Ground Support Equipment",
+      "correctOptionId": "D",
+      "distractors": [
+        "Ground Safety Equipment",
+        "Ground Survey Equipment",
+        "Geographic Support Equipment",
+        "Guidance Signal Electronics",
+        "Ground Systems Engineering"
+      ]
+    },
+    {
+      "id": "abbreviations-hard-0034",
+      "answer": "human-centered design",
+      "correctOptionId": "D",
+      "distractors": [
+        "Human Controlled Design",
+        "Human Cognitive Development",
+        "Hardware Centered Design",
+        "Human Computer Development",
+        "Human Context Description"
+      ]
+    },
+    {
+      "id": "abbreviations-hard-0035",
+      "answer": "human-in-the-loop",
+      "correctOptionId": "A",
+      "distractors": [
+        "Hardware-in-the-loop",
+        "Human Input Through Logic",
+        "Human Interface Testing Layer",
+        "Hardware Integration Test Loop",
+        "Human Inside Test Laboratory"
+      ]
+    },
+    {
+      "id": "abbreviations-hard-0036",
+      "answer": "Mission Elapsed Time",
+      "correctOptionId": "A",
+      "distractors": [
+        "Mission Estimated Time",
+        "Mission Entry Time",
+        "Mission Event Time",
+        "Mission End Time",
+        "Mission Encounter Time"
+      ]
+    },
+    {
+      "id": "abbreviations-hard-0051",
+      "answer": "European Free Trade Association",
+      "correctOptionId": "F",
+      "distractors": [
+        "European Fair Trade Association",
+        "European Financial Trade Authority",
+        "European Free Transport Association",
+        "European Federal Trade Alliance",
+        "European Foreign Trade Agency"
+      ]
+    },
+    {
+      "id": "abbreviations-legendary-0026",
+      "answer": "Acoustical Society of America",
+      "correctOptionId": "B",
+      "distractors": [
+        "American Society of Astronomy",
+        "Acoustic Standards Association",
+        "American Sound Association",
+        "Aeronautical Safety Association",
+        "Acoustical Science Academy"
+      ]
+    },
+    {
+      "id": "abbreviations-legendary-0033",
+      "answer": "launch, entry and abort",
+      "correctOptionId": "B",
+      "distractors": [
+        "Launch Exploration Abort",
+        "Launch Entry Arrival",
+        "Lunar Entry Abort",
+        "Launch Exit Abort",
+        "Launch Entry Ascent"
+      ]
+    },
+    {
+      "id": "abbreviations-legendary-0034",
+      "answer": "loss of crew",
+      "correctOptionId": "B",
+      "distractors": [
+        "Loss of Communication",
+        "Loss of Control",
+        "Loss of Cooling",
+        "Loss of Cargo",
+        "Loss of Command"
+      ]
+    },
+    {
+      "id": "abbreviations-legendary-0046",
+      "answer": "Global Environment Facility",
+      "correctOptionId": "E",
+      "distractors": [
+        "Global Environment Federation",
+        "Global Energy Facility",
+        "Global Economic Facility",
+        "Global Environmental Foundation",
+        "Global Environment Forum"
+      ]
+    },
+    {
+      "id": "abbreviations-legendary-0048",
+      "answer": "trade-related intellectual property rights",
+      "correctOptionId": "B",
+      "distractors": [
+        "trade-related intellectual property standards",
+        "trade-related industrial property services",
+        "trade-related international patent standards",
+        "trade-related investment protection standards",
+        "trade-regulated intellectual property systems"
+      ]
+    }
+  ],
+  "sha256After": "b57e4e72392fd8316765de3422b2623b84ee3703bf4739828b503536ff044fbd",
+  "formalNamePromptIds": [
+    "abbreviations-easy-0048",
+    "abbreviations-medium-0027",
+    "abbreviations-medium-0028",
+    "abbreviations-medium-0029",
+    "abbreviations-medium-0053",
+    "abbreviations-hard-0051",
+    "abbreviations-legendary-0026",
+    "abbreviations-legendary-0046"
+  ],
+  "sourceStandardPromptIds": [
+    "abbreviations-easy-0031",
+    "abbreviations-medium-0036",
+    "abbreviations-medium-0037",
+    "abbreviations-hard-0028",
+    "abbreviations-hard-0032",
+    "abbreviations-hard-0033",
+    "abbreviations-hard-0034",
+    "abbreviations-hard-0035",
+    "abbreviations-hard-0036",
+    "abbreviations-legendary-0033",
+    "abbreviations-legendary-0034"
+  ]
+}

@@ -4,6 +4,7 @@ import 'package:flutter/services.dart';
 import '../../core/game_catalog.dart';
 import '../../domain/models/question.dart';
 import '../../domain/models/question_bank_config.dart';
+import '../../domain/models/question_presentation.dart';
 
 abstract interface class QuestionRepository {
   List<Question> forCategories(Set<String> categoryIds);
@@ -43,18 +44,22 @@ final class LocalQuestionRepository implements QuestionRepository {
 List<Question> parseQuestionBank(Map<String, String> documents) {
   final questions = <Question>[];
   final ids = <String>{};
+  final usageIds = <String>{};
   final texts = <String>{};
   for (final entry in documents.entries) {
     final document = jsonDecode(entry.value) as Map<String, dynamic>;
     if (document['schemaVersion'] != 1 ||
         document['categoryId'] != entry.key ||
-        document['targetCount'] != QuestionBankConfig.questionsPerCategory ||
+        document['targetCount'] != QuestionBankConfig.countFor(entry.key) ||
         document['targetPerDifficulty'] !=
-            QuestionBankConfig.questionsPerDifficulty) {
+            QuestionBankConfig.perDifficultyFor(entry.key)) {
       throw FormatException('Invalid question bank header: ${entry.key}');
     }
     for (final raw in document['questions'] as List<dynamic>) {
       final question = Question.fromJson(raw as Map<String, dynamic>);
+      if (question.usageId == null || !usageIds.add(question.usageId!)) {
+        throw FormatException('Missing or duplicate usageId: ${question.id}');
+      }
       validateQuestionOptions(question);
       if (question.qualityStatus == QuestionQualityStatus.quarantined &&
           (question.qualityReasons.isEmpty ||
@@ -83,13 +88,19 @@ List<Question> parseQuestionBank(Map<String, String> documents) {
           (question.isIdentity ? question.clues.join(' ') : question.text)
               .replaceAll(RegExp(r'\s+'), ' ')
               .trim();
-      // A map's figure carries the elevations, edges or regions being solved.
-      // Identical instructions with different figures are separate problems.
-      // The offline bank audit additionally detects identical renamed images.
-      final signature = question.categoryId == 'maps'
-          ? jsonEncode([body, question.imageAsset])
-          : body;
-      if (!texts.add(signature)) {
+      // Editorial duplication is separate from numeric device-use identity.
+      // A different image does not make a duplicate prompt a new product question.
+      final structured = question.presentation == null
+          ? ''
+          : questionPresentationSignature(question.presentation!);
+      // New symbol questions may use a diagram as their visible premise.
+      // Publication checks compare image bytes, including renamed copies.
+      final diagram = entry.key == 'symbols_signals'
+          ? question.imageAsset ?? ''
+          : '';
+      final signature =
+          '${entry.key}|${normalizeAnswer(body)}|$structured|$diagram';
+      if (!question.isQuarantined && !texts.add(signature)) {
         throw FormatException('Duplicate question: ${question.id}');
       }
       final image = question.imageAsset;
@@ -115,6 +126,29 @@ String normalizeAnswer(String text) => text
     .replaceAll(RegExp(r'\s+'), ' ')
     .trim()
     .toLowerCase();
+
+String questionPresentationSignature(
+  QuestionPresentation presentation,
+) => jsonEncode([
+  presentation.type.name,
+  ...presentation.sections.map((section) {
+    final items = section.items
+        .map(
+          (item) =>
+              '${item.missing ? 'missing' : 'item'}:${presentation.type == QuestionPresentationType.symbols ? item.text.trim() : normalizeAnswer(item.text)}',
+        )
+        .toList();
+    if ({
+      QuestionPresentationType.matching,
+      QuestionPresentationType.grouping,
+      QuestionPresentationType.comparison,
+      QuestionPresentationType.statements,
+    }.contains(presentation.type)) {
+      items.sort();
+    }
+    return [normalizeAnswer(section.title), items];
+  }),
+]);
 
 void validateQuestionOptions(Question question) {
   final options = question.options;

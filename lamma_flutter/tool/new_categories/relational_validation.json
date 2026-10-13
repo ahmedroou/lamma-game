@@ -1,0 +1,102 @@
+{
+  "categories": {
+    "split_groups": {
+      "count": 300,
+      "difficulties": {
+        "easy": 75,
+        "medium": 75,
+        "hard": 75,
+        "legendary": 75
+      },
+      "correctOptions": {
+        "A": 50,
+        "B": 50,
+        "C": 50,
+        "E": 50,
+        "F": 50,
+        "D": 50
+      },
+      "missingRightCounts": {},
+      "missingLeftCounts": {},
+      "pairSizeCounts": {},
+      "groupingFrames": {
+        "تقسيمات M49 الجغرافية للأمم المتحدة؛ المطلوب مجموعات على أدق مستوى إقليمي مشترك، لا قارات عامة": 66,
+        "منتجات وخدمات شركات التقنية؛ الرابط الجهة المطورة الأصلية للمنتج، وفق الأدلة الرسمية المقروءة": 6,
+        "النظام الدولي للوحدات SI: ميّز وضع الوحدة في بنية النظام، لا الكمية التي يمكن قياسها وحدها": 1,
+        "الأعمال الأدبية المنشورة: الرابط المؤلف الأصلي الذي تنسب إليه فهارس النصوص هذه الأعمال، لا المترجم أو الممثل": 45,
+        "مواقع التراث العالمي لليونسكو؛ الرابط المطلوب دولة الإدراج الوطنية لكل موقع، مع استبعاد المواقع العابرة للحدود": 103,
+        "الكيمياء: أعمدة الجدول الدوري وفق الترقيم IUPAC؛ الرابط رقم المجموعة لا حالة العنصر الفيزيائية": 28,
+        "أقمار طبيعية في المجموعة الشمسية: الرابط الكوكب أو الكوكب القزم الذي يدور حوله القمر": 10,
+        "HTML: العناصر بحسب دورها المحدد في مواصفة WHATWG؛ الرابط بنية العنصر ووظيفته لا مظهره الافتراضي": 3,
+        "مكتبة Python 3.14 القياسية: صنّف أسماء الوحدات بحسب أقسام الفهرس الرسمي، لا بحسب إمكان استخدامها في أكثر من مهمة": 38
+      },
+      "uniqueGroupingLinks": 102,
+      "sha256": "c55c4b576724d5f186e22af9ef44541283af0ef09e7a0304bb69cc0786438070"
+    },
+    "pair_up": {
+      "count": 300,
+      "difficulties": {
+        "easy": 75,
+        "medium": 75,
+        "hard": 75,
+        "legendary": 75
+      },
+      "correctOptions": {
+        "A": 50,
+        "B": 50,
+        "C": 50,
+        "D": 50,
+        "E": 50,
+        "F": 50
+      },
+      "missingRightCounts": {
+        "1": 80,
+        "0": 80,
+        "2": 72,
+        "3": 68
+      },
+      "missingLeftCounts": {
+        "0": 290,
+        "1": 10
+      },
+      "pairSizeCounts": {
+        "2": 20,
+        "3": 280
+      },
+      "groupingFrames": {},
+      "uniqueGroupingLinks": 0,
+      "sha256": "f5f255408afa98620aef3a6e972f0bdd55cdc7e8f142cd6bbbdb925acb59d406"
+    },
+    "relationship": {
+      "count": 300,
+      "difficulties": {
+        "easy": 75,
+        "medium": 75,
+        "hard": 75,
+        "legendary": 75
+      },
+      "correctOptions": {
+        "A": 50,
+        "B": 50,
+        "C": 50,
+        "D": 50,
+        "E": 50,
+        "F": 50
+      },
+      "missingRightCounts": {},
+      "missingLeftCounts": {},
+      "pairSizeCounts": {},
+      "groupingFrames": {},
+      "uniqueGroupingLinks": 0,
+      "sha256": "db05ec1bfbee1e53eedc007ae4b850240e3d2712b31d1622981cd5e767876542"
+    }
+  },
+  "errors": [],
+  "limitations": [
+    "The catalog is an authoring aid, not an independent historical authority.",
+    "All records remain draft/unreviewed. No automatic check awards editorial review.",
+    "The split frames name the allowed classification dimension; uniqueness is verified within that frame.",
+    "Blank matching positions are explicitly fungible; the requested answer is the reconstructed set of pairs.",
+    "Difficulty still needs a game/editorial review, especially obscure scientific laureates and Python modules."
+  ]
+}

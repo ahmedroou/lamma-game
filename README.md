@@ -25,13 +25,13 @@ flutter run -d chrome
 flutter analyze
 flutter test
 flutter build web
-python tool/verify_bank_expansion.py
+python tool/assign_question_usage_ids.py --check
 python tool/audit_question_quality.py --strict
 ```
 
 ## بنك الأسئلة
 
-توجد ملفات الأقسام الأربعة عشر في `lamma_flutter/assets/questions/`، والصور محلية في `assets/question_media/`. الهدف الحالي 900 سؤال لكل قسم، بواقع 225 لكل صعوبة، بإجمالي 12600 سؤال. كل سؤال يتضمن تلميحًا وستة خيارات محفوظة للاستخدام عبر القدرات لاحقًا.
+توجد 24 ملفًا في lamma_flutter/assets/questions:14 قسمًا×900 وعشرة جديدة×300، بإجمالي 15600 سؤال خام. كل سؤال يتضمن تلميحًا وستة خيارات مخفية تكشفها أوراق المفاجأة المعتمدة. تُفعّل 33 ورقة بفرص متساوية بين المسموح، وتُحفظ تكاليفها وآثارها والرهانات والاستبعاد مع المباراة. اقرأ OPENING_SURPRISE_CARDS.md وNEW_CATEGORY_AUTHORING.md داخل التطبيق.
 
 اقرأ `QUESTION_BANK.md` و`QUESTION_AUTHORING_PROMPT.md` قبل التأليف. فحوص البنية لا تغني عن مراجعة المعنى والمصادر، وتبقى الملفات `draft` حتى إتمام المراجعة التحريرية. توجد نسخ ما قبل التوسعة ودفعات التأليف وتقارير التحقق داخل مجلد التطبيق للحفظ والمقارنة.
 

@@ -20,6 +20,16 @@ offer an explicit category renewal. Clear only that category's use flags in a
 persisted transaction and retain other categories, scores and current-match
 seen IDs. A new cycle draws randomly; never auto-renew after just five questions
 or use renewal to silently erase damaged history.
+Newest user decisions supersede text-based usage identity: use each question's
+stable random decimal usageId, generated once by tool/assign_question_usage_ids.py.
+Do not regenerate it when editing wording or media. Text comparison belongs to
+editorial duplicate detection, not device history. Never allow multiple active
+copies of the same question within a category merely because images differ.
+If 1–4 unused questions remain, include them first and randomly fill the missing
+slots from previously seen questions in the SAME category, without duplicating
+a question within the current match. Save replay allocations and commit replay
+claims before display. Zero unused questions still offers explicit category
+renewal; fewer than five distinct valid authored questions cannot fill a match.
 Auxiliary hints are card-gated: grant them only via a validated ability use or
 a revealed opening surprise card. Bind and persist permission to the question,
 recipient team and source card. Do not show hints freely or automatically with

@@ -32,6 +32,7 @@ Future<AppController> replayApp(MemoryGameRepository repository) async {
   final app = AppController(
     repository,
     questions: LocalQuestionRepository(questions: replayCatalog),
+    openingCardsEnabled: false,
   );
   await app.initialize();
   return app;
@@ -58,6 +59,7 @@ void main() {
       final app = AppController(
         repo,
         questions: LocalQuestionRepository(questions: completeQuestions),
+        openingCardsEnabled: false,
       );
       await app.initialize();
       expect(app.isCategoryExhausted('myths'), false);

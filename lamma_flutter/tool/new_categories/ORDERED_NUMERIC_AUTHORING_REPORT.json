@@ -1,0 +1,161 @@
+{
+  "count": 1200,
+  "categories": {
+    "first_last": {
+      "count": 300,
+      "difficulties": {
+        "easy": 75,
+        "medium": 75,
+        "hard": 75,
+        "legendary": 75
+      },
+      "correctOptions": {
+        "B": 50,
+        "F": 50,
+        "A": 50,
+        "D": 50,
+        "E": 50,
+        "C": 50
+      },
+      "subtypes": null,
+      "sourceDomains": {
+        "tanzil.net": 11,
+        "www.nasa.gov": 6,
+        "api.nobelprize.org": 71,
+        "nssdc.gsfc.nasa.gov": 65,
+        "www.unicode.org": 6,
+        "raw.githubusercontent.com": 10,
+        "science.nasa.gov": 11,
+        "physics.nist.gov": 58,
+        "www.itu.int": 6,
+        "openstax.org": 7,
+        "www.gutenberg.org": 26,
+        "www.bipm.org": 2,
+        "stratigraphy.org": 20,
+        "www.royal.uk": 1
+      }
+    },
+    "complete_sequence": {
+      "count": 300,
+      "difficulties": {
+        "easy": 75,
+        "medium": 75,
+        "hard": 75,
+        "legendary": 75
+      },
+      "correctOptions": {
+        "B": 50,
+        "F": 50,
+        "A": 50,
+        "D": 50,
+        "E": 50,
+        "C": 50
+      },
+      "subtypes": null,
+      "sourceDomains": {
+        "www.unicode.org": 9,
+        "raw.githubusercontent.com": 17,
+        "tanzil.net": 13,
+        "openstax.org": 12,
+        "nssdc.gsfc.nasa.gov": 63,
+        "physics.nist.gov": 61,
+        "science.nasa.gov": 13,
+        "www.itu.int": 7,
+        "www.bipm.org": 5,
+        "www.royal.uk": 4,
+        "www.gutenberg.org": 25,
+        "api.nobelprize.org": 50,
+        "stratigraphy.org": 21
+      }
+    },
+    "numbers": {
+      "count": 300,
+      "difficulties": {
+        "easy": 75,
+        "medium": 75,
+        "hard": 75,
+        "legendary": 75
+      },
+      "correctOptions": {
+        "B": 50,
+        "F": 50,
+        "A": 50,
+        "D": 50,
+        "E": 50,
+        "C": 50
+      },
+      "subtypes": {
+        "number_owner": 60,
+        "number_wrong": 60,
+        "number_nearest": 60,
+        "number_matching": 60,
+        "number_ordering": 60
+      },
+      "sourceDomains": {
+        "tanzil.net": 40,
+        "physics.nist.gov": 45,
+        "nssdc.gsfc.nasa.gov": 70,
+        "raw.githubusercontent.com": 10,
+        "www.unicode.org": 5,
+        "original-proof": 25,
+        "www.bipm.org": 35,
+        "api.nobelprize.org": 55,
+        "www.royal.uk": 5,
+        "european-union.europa.eu": 5,
+        "stratigraphy.org": 5
+      }
+    },
+    "one_wrong": {
+      "count": 300,
+      "difficulties": {
+        "easy": 75,
+        "medium": 75,
+        "hard": 75,
+        "legendary": 75
+      },
+      "correctOptions": {
+        "B": 50,
+        "F": 50,
+        "A": 50,
+        "D": 50,
+        "E": 50,
+        "C": 50
+      },
+      "subtypes": null,
+      "sourceDomains": {
+        "physics.nist.gov": 21,
+        "www.itu.int": 5,
+        "www.gutenberg.org": 59,
+        "original-proof": 13,
+        "www.bipm.org": 16,
+        "tanzil.net": 23,
+        "www.nasa.gov": 6,
+        "openstax.org": 5,
+        "raw.githubusercontent.com": 2,
+        "nssdc.gsfc.nasa.gov": 75,
+        "science.nasa.gov": 4,
+        "api.nobelprize.org": 29,
+        "www.royal.uk": 5,
+        "stratigraphy.org": 37
+      }
+    }
+  },
+  "sourceCorpora": 97,
+  "numericThemes": 60,
+  "truthFacts": 1262,
+  "qualityStatus": "all unreviewed",
+  "limitations": [
+    "فحص البنية والحساب لا يعادل مراجعة تحريرية مستقلة لجميع الأسئلة.",
+    "النصوص الأجنبية للأسماء أو الأعمار الجيولوجية تبقى كما في المصدر عند غياب تعريب شائع.",
+    "توجد مجموعات متعددة من corpus واحد؛ يلزم تدقيق التكرار المعنوي وصعوبة المجموعات قبل اعتماد reviewed.",
+    "الفهارس الأدبية هي للطبعات المرتبطة تحديدًا، وتستخدم ترجمة وصفية للعناوين.",
+    "تنزيل ينشر البيانات المصدرية للمصحف؛ هو مصدر نصي أولي للنسخة الرقمية، لا بحث أولي في علوم القرآن."
+  ],
+  "finalPolish": {
+    "culturalReplacements": 24,
+    "arabicPersonalNames": "No English-only personal-name answers remain; technical Latin taxonomy and geologic names preserved.",
+    "numericOwnerWording": "property-specific",
+    "massNotation": "×10²⁴ كغ",
+    "sourceReading": "No new optional sources introduced in final polish."
+  }
+}

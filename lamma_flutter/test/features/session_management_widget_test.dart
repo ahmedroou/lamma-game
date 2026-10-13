@@ -49,6 +49,7 @@ Future<AppController> restoredController(
   final app = AppController(
     repository,
     questions: LocalQuestionRepository(questions: seedQuestions),
+    openingCardsEnabled: false,
   );
   await app.initialize();
   return app;
@@ -171,6 +172,7 @@ void main() {
     final first = AppController(
       repository,
       questions: LocalQuestionRepository(questions: seedQuestions),
+      openingCardsEnabled: false,
     );
     await first.initialize();
     await tester.pumpWidget(LammaApp(controller: first));
@@ -187,6 +189,7 @@ void main() {
     final second = AppController(
       repository,
       questions: LocalQuestionRepository(questions: seedQuestions),
+      openingCardsEnabled: false,
     );
     await second.initialize();
     await tester.pumpWidget(LammaApp(controller: second));

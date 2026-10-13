@@ -13,8 +13,12 @@ import 'game_catalog.dart';
 enum LocalSaveStatus { idle, saving, saved, error }
 
 class AppController extends ChangeNotifier {
-  AppController(this.repository, {QuestionRepository? questions})
-    : _questions = questions;
+  AppController(
+    this.repository, {
+    QuestionRepository? questions,
+    this.openingCardsEnabled = true,
+  }) : _questions = questions;
+  final bool openingCardsEnabled;
   QuestionRepository? _questions;
   late QuestionUsage _usage;
   Map<String, int> _availableCounts = const {};
@@ -25,6 +29,9 @@ class AppController extends ChangeNotifier {
   bool isCategoryExhausted(String id) =>
       totalQuestionsForCategory(id) > 0 &&
       availableQuestionsForCategory(id) == 0;
+  bool canPlayCategory(String id) =>
+      totalQuestionsForCategory(id) >= GameRules.questionsPerCategory &&
+      availableQuestionsForCategory(id) > 0;
   void _refreshAvailability() {
     final counts = <String, int>{};
     final totals = <String, int>{};
@@ -98,7 +105,15 @@ class AppController extends ChangeNotifier {
       notice =
           'تغيّرت أقسام اللعبة. ابدأ جلسة جديدة بالأقسام المعتمدة؛ الحفظ القديم لم يُحذف.';
     } else if (restored.session != null) {
-      if (restored.session!.questions.any((q) => q.isQuarantined)) {
+      final currentIds = _questions!
+          .forCategories(restored.session!.config.categoryIds)
+          .map((q) => q.id)
+          .toSet();
+      final blocked = restored.session!.questions
+          .where((q) => q.isQuarantined || !currentIds.contains(q.id))
+          .map((q) => q.id)
+          .toSet();
+      if (blocked.isNotEmpty) {
         notice =
             'تحتوي المباراة المحفوظة على أسئلة قديمة تحتاج إصلاحًا. ابدأ مباراة جديدة لاستخدام البنك المنقّح؛ لم تُحذف النقاط أو سجل المشاهدة.';
       }
@@ -107,6 +122,8 @@ class AppController extends ChangeNotifier {
           restored.session!,
           usage: _usage,
           commitReveal: _commitReveal,
+          blockedQuestionIds: blocked,
+          openingCardsEnabled: openingCardsEnabled,
         ),
       );
       lastSavedAt = restored.session!.updatedAt;
@@ -138,6 +155,8 @@ class AppController extends ChangeNotifier {
       questions: LocalQuestionRepository(questions: planned),
       usage: _usage,
       commitReveal: _commitReveal,
+      replayQuestionIds: planned.where(_usage.contains).map((q) => q.id),
+      openingCardsEnabled: openingCardsEnabled,
     );
     try {
       await repository.saveSession(next.snapshot());
@@ -168,6 +187,14 @@ class AppController extends ChangeNotifier {
     await flush();
     await repository.commitQuestion(checkpoint, question);
     _usage.mark(question);
+    if (question.usageId == null) {
+      for (final current
+          in _questions!
+              .forCategories({question.categoryId})
+              .where((q) => q.id == question.id)) {
+        _usage.mark(current);
+      }
+    }
     _refreshAvailability();
     lastSavedAt = DateTime.now();
   }

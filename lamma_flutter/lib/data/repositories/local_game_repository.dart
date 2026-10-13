@@ -11,8 +11,7 @@ void _validateReveal(SessionSave session, Question question) {
   if (session.state.question?.id != question.id ||
       session.state.revealedCards != 3 ||
       !session.state.seenQuestionIds.contains(question.id) ||
-      questionFingerprint(session.state.question!) !=
-          questionFingerprint(question)) {
+      questionUsageKey(session.state.question!) != questionUsageKey(question)) {
     throw StateError(
       'Use flag requires the matching revealed question checkpoint.',
     );
@@ -159,7 +158,7 @@ class SembastGameRepository implements LocalGameRepository {
   }
 
   static SessionSave _readSession(Map<String, Object?> value) {
-    if (value['version'] != SessionSave.version && value['version'] != 1) {
+    if (![1, 2, SessionSave.version].contains(value['version'])) {
       throw const UnsupportedSaveVersion();
     }
     return SessionSave.fromJson(_verify(value));
@@ -210,6 +209,7 @@ class SembastGameRepository implements LocalGameRepository {
 }
 
 class MemoryGameRepository implements LocalGameRepository {
+  final Map<String, Question> _catalog = {};
   final Set<String> _resetCategories = {};
   @override
   Future<QuestionUsage> resetCategory(
@@ -228,10 +228,13 @@ class MemoryGameRepository implements LocalGameRepository {
   final QuestionUsage usage = QuestionUsage();
   @override
   Future<QuestionUsage> prepareUsage(Iterable<Question> questions) async {
+    for (final q in questions) {
+      if (!_catalog.containsKey(q.id) || q.usageId != null) _catalog[q.id] = q;
+    }
     for (final q in session?.questions ?? <Question>[]) {
       if (!_resetCategories.contains(q.categoryId) &&
           session!.state.seenQuestionIds.contains(q.id)) {
-        usage.mark(q);
+        usage.mark(_catalog[q.id] ?? q);
       }
     }
     return usage;
@@ -240,9 +243,17 @@ class MemoryGameRepository implements LocalGameRepository {
   @override
   Future<void> commitQuestion(SessionSave value, Question question) async {
     _validateReveal(value, question);
-    if (usage.contains(question)) throw StateError('Question already shown.');
+    final replay = value.replayQuestionIds.contains(question.id);
+    if (usage.claimedInSession(value.id, question) ||
+        usage.contains(question) && !replay) {
+      throw StateError('Question already shown.');
+    }
     await saveSession(value);
     usage.mark(question);
+    if (question.usageId == null && _catalog.containsKey(question.id)) {
+      usage.mark(_catalog[question.id]!);
+    }
+    if (replay) usage.claim(value.id, question);
   }
 
   AppSettings settings = const AppSettings();
