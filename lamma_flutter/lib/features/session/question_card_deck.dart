@@ -1,6 +1,7 @@
 import 'dart:math' as math;
 
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter/widget_previews.dart';
 
 import '../../core/app_theme.dart';
@@ -393,9 +394,22 @@ class _RevealCardState extends State<_RevealCard>
                           ? color.withValues(alpha: .65)
                           : AppColors.border,
                     ),
+                    boxShadow: [
+                      if (widget.available)
+                        BoxShadow(
+                          color: color.withValues(alpha: .18),
+                          blurRadius: 12,
+                          offset: const Offset(0, 3),
+                        ),
+                    ],
                   ),
                   child: InkWell(
-                    onTap: widget.available ? widget.onTap : null,
+                    onTap: widget.available
+                        ? () {
+                            HapticFeedback.lightImpact();
+                            widget.onTap();
+                          }
+                        : null,
                     child: Stack(
                       children: [
                         PositionedDirectional(
@@ -479,17 +493,43 @@ class _RevealCardState extends State<_RevealCard>
                                       SizedBox(height: widget.compact ? 6 : 12),
                                     ],
                                     if (front && widget.index == 1)
-                                      Text(
-                                        '${widget.secondsRemaining}',
-                                        style: TextStyle(
-                                          fontSize: widget.compact ? 38 : 52,
-                                          height: 1.1,
-                                          fontWeight: FontWeight.w700,
-                                          color: AppColors.ink,
-                                          fontFeatures: const [
-                                            FontFeature.tabularFigures(),
-                                          ],
-                                        ),
+                                      Builder(
+                                        builder: (context) {
+                                          final isUrgent =
+                                              widget.timerRunning &&
+                                              !widget.countUpTimer &&
+                                              widget.secondsRemaining <= 5 &&
+                                              widget.secondsRemaining > 0;
+                                          final isFinished =
+                                              widget.timerRunning &&
+                                              !widget.countUpTimer &&
+                                              widget.secondsRemaining == 0;
+                                          final timerColor = isUrgent
+                                              ? AppColors.peach
+                                              : isFinished
+                                              ? const Color(0xFFE57373)
+                                              : AppColors.ink;
+                                          return AnimatedDefaultTextStyle(
+                                            duration: const Duration(
+                                              milliseconds: 200,
+                                            ),
+                                            style: TextStyle(
+                                              fontFamily: 'Tajawal',
+                                              fontSize: widget.compact
+                                                  ? (isUrgent ? 40 : 38)
+                                                  : (isUrgent ? 54 : 52),
+                                              height: 1.1,
+                                              fontWeight: FontWeight.w700,
+                                              color: timerColor,
+                                              fontFeatures: const [
+                                                FontFeature.tabularFigures(),
+                                              ],
+                                            ),
+                                            child: Text(
+                                              '${widget.secondsRemaining}',
+                                            ),
+                                          );
+                                        },
                                       ),
                                     Text(
                                       front

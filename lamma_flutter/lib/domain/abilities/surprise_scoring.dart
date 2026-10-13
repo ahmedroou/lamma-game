@@ -10,6 +10,10 @@ abstract final class SurpriseScoring {
     required Map<String, Object?> roundData,
   }) {
     var value = question.pointsForClues(clues);
+    if (roundData['doubleAbilityTeamId'] == teamId &&
+        roundData['doubleAbilityQuestionId'] == question.id) {
+      value *= 2;
+    }
     if (roundData['surpriseApplied'] != true) {
       return value;
     }

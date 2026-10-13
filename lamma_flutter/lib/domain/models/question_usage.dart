@@ -69,9 +69,44 @@ List<Question> planMatchQuestions({
       .where((q) => !q.isQuarantined && keys.add(questionUsageKey(q)))
       .toList();
   final selected = <Question>[];
+  final reserved = <Question>[];
+  if (includeAbilities) {
+    final spare = <String, int>{
+      for (final id in categoryIds)
+        id: max(
+          0,
+          unique.where((q) => q.categoryId == id && !usage.contains(q)).length -
+              GameRules.questionsPerCategory,
+        ),
+    };
+    final hard =
+        unique
+            .where(
+              (q) =>
+                  categoryIds.contains(q.categoryId) &&
+                  !usage.contains(q) &&
+                  q.difficulty.points >= 300,
+            )
+            .toList()
+          ..shuffle(random);
+    for (final q in hard) {
+      if ((spare[q.categoryId] ?? 0) <= 0) continue;
+      reserved.add(q);
+      spare[q.categoryId] = spare[q.categoryId]! - 1;
+      if (reserved.length == GameRules.abilityQuestions) break;
+    }
+    if (reserved.length < GameRules.abilityQuestions) {
+      throw InsufficientQuestions({
+        GameRules.abilitiesCategoryId: reserved.length,
+      });
+    }
+  }
+  final reservedIds = reserved.map((q) => q.id).toSet();
   final shortages = <String, int>{};
   for (final id in categoryIds) {
-    final all = unique.where((q) => q.categoryId == id).toList();
+    final all = unique
+        .where((q) => q.categoryId == id && !reservedIds.contains(q.id))
+        .toList();
     final candidates = all.where((q) => !usage.contains(q)).toList()
       ..shuffle(random);
     if (candidates.isEmpty || all.length < GameRules.questionsPerCategory) {
@@ -88,24 +123,6 @@ List<Question> planMatchQuestions({
     }
   }
   if (shortages.isNotEmpty) throw InsufficientQuestions(shortages);
-  if (includeAbilities) {
-    final selectedIds = selected.map((q) => q.id).toSet();
-    final extra =
-        unique
-            .where(
-              (q) =>
-                  categoryIds.contains(q.categoryId) &&
-                  !selectedIds.contains(q.id) &&
-                  !usage.contains(q),
-            )
-            .toList()
-          ..shuffle(random);
-    if (extra.length < GameRules.questionsPerCategory) {
-      throw InsufficientQuestions({
-        GameRules.abilitiesCategoryId: extra.length,
-      });
-    }
-    selected.addAll(extra.take(GameRules.questionsPerCategory));
-  }
+  selected.addAll(reserved);
   return List.unmodifiable(selected);
 }

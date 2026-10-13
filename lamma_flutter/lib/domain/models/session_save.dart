@@ -4,6 +4,7 @@ import 'session_config.dart';
 import 'session_state.dart';
 import '../abilities/surprise_session_effects.dart';
 import 'hint_access.dart';
+import '../abilities/team_ability_catalog.dart';
 
 class UnsupportedSaveVersion extends FormatException {
   const UnsupportedSaveVersion() : super('Unsupported saved-session version.');
@@ -19,22 +20,42 @@ final class SessionSave {
     required this.updatedAt,
     required this.revision,
     Iterable<String> replayQuestionIds = const [],
+    Iterable<String> abilityQuestionIds = const [],
   }) : questions = List.unmodifiable(questions),
-       replayQuestionIds = Set.unmodifiable(replayQuestionIds) {
+       replayQuestionIds = Set.unmodifiable(replayQuestionIds),
+       abilityQuestionIds = Set.unmodifiable(abilityQuestionIds) {
     _validate();
   }
-  static const version = 4;
+  static const version = 5;
   final String id;
   final SessionConfig config;
   final SessionState state;
   final List<Question> questions;
   final Set<String> replayQuestionIds;
+  final Set<String> abilityQuestionIds;
   final DateTime createdAt, updatedAt;
   final int revision;
 
   void _validate() {
     final teamIds = config.teams.map((team) => team.id).toSet();
     final ids = questions.map((question) => question.id).toSet();
+    if (!ids.containsAll(abilityQuestionIds) ||
+        config.abilitiesEnabled &&
+            (abilityQuestionIds.length != GameRules.abilityQuestions ||
+                questions
+                    .where((q) => abilityQuestionIds.contains(q.id))
+                    .any((q) => q.points < 300)) ||
+        !config.abilitiesEnabled && abilityQuestionIds.isNotEmpty ||
+        state.abilitySelections.entries.any(
+          (e) =>
+              !teamIds.contains(e.key) ||
+              e.value < 0 ||
+              e.value > config.abilityChoicesPerTeam,
+        ) ||
+        state.selectionTeamId != null &&
+            !teamIds.contains(state.selectionTeamId)) {
+      throw const FormatException('Invalid ability allocation.');
+    }
     final numericIds = questions
         .where((q) => q.usageId != null)
         .map((q) => q.usageId!)
@@ -74,6 +95,22 @@ final class SessionSave {
         state.teams.map((team) => team.id).toSet().length != teamIds.length ||
         state.teams.any((team) => !teamIds.contains(team.id))) {
       throw const FormatException('Invalid saved teams.');
+    }
+    for (final team in state.teams) {
+      for (final card in team.inventory) {
+        final definitions = TeamAbilityCatalog.definitions.where(
+          (d) => d.id == card.definitionId,
+        );
+        if (definitions.isNotEmpty &&
+            card.remainingUses > definitions.single.usesPerCard) {
+          throw const FormatException('Invalid saved card charges.');
+        }
+      }
+    }
+    if (config.abilitiesEnabled &&
+        state.isAbilityRound &&
+        !abilityQuestionIds.contains(state.question?.id)) {
+      throw const FormatException('Invalid current ability question.');
     }
     if (questions.any(
           (question) =>
@@ -204,6 +241,7 @@ final class SessionSave {
   Map<String, Object?> toJson() => {
     'version': version,
     'replayQuestionIds': replayQuestionIds.toList(),
+    'abilityQuestionIds': abilityQuestionIds.toList(),
     'id': id,
     'config': config.toJson(),
     'state': state.toJson(),
@@ -213,7 +251,7 @@ final class SessionSave {
     'revision': revision,
   };
   factory SessionSave.fromJson(Map<String, dynamic> json) {
-    if (![1, 2, 3, version].contains(json['version'])) {
+    if (![1, 2, 3, 4, version].contains(json['version'])) {
       throw const UnsupportedSaveVersion();
     }
     try {
@@ -228,6 +266,8 @@ final class SessionSave {
         updatedAt: DateTime.parse(json['updatedAt'] as String),
         revision: json['revision'] as int,
         replayQuestionIds: (json['replayQuestionIds'] as List<dynamic>? ?? [])
+            .cast<String>(),
+        abilityQuestionIds: (json['abilityQuestionIds'] as List<dynamic>? ?? [])
             .cast<String>(),
       );
     } on Object {

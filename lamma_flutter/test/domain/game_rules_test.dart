@@ -82,6 +82,7 @@ void main() {
         final config = SessionConfig(
           teams: List.generate(count, (i) => team('$i')),
           categoryIds: scope,
+          abilitiesEnabled: true,
         );
         expect(config.boardCategoryIds.length, 7);
         expect(config.boardCategoryIds.last, GameRules.abilitiesCategoryId);

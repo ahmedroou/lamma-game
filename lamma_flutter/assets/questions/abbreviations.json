@@ -3,7 +3,7 @@
   "categoryId": "abbreviations",
   "targetCount": 300,
   "targetPerDifficulty": 75,
-  "status": "draft",
+  "status": "complete",
   "questions": [
     {
       "id": "abbreviations-easy-0001",

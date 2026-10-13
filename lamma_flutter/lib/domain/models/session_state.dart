@@ -148,12 +148,15 @@ final class SessionState {
     Iterable<JudgmentChange> corrections = const [],
     Map<String, Object?> roundData = const {},
     Map<String, Object?> sessionEffects = const {},
+    Map<String, int> abilitySelections = const {},
+    this.selectionTeamId,
   }) : teams = List.unmodifiable(teams),
        seenQuestionIds = Set.unmodifiable(seenQuestionIds),
        history = List.unmodifiable(history),
        corrections = List.unmodifiable(corrections),
        roundData = Map.unmodifiable(roundData),
-       sessionEffects = Map.unmodifiable(sessionEffects);
+       sessionEffects = Map.unmodifiable(sessionEffects),
+       abilitySelections = Map.unmodifiable(abilitySelections);
   final SessionPhase phase;
   final List<TeamState> teams;
   final Set<String> seenQuestionIds;
@@ -165,9 +168,13 @@ final class SessionState {
   final List<JudgmentChange> corrections;
   final Map<String, Object?> roundData;
   final Map<String, Object?> sessionEffects;
+  final Map<String, int> abilitySelections;
+  final String? selectionTeamId;
   bool get isPaused =>
       pauseReason != PauseReason.none && phase != SessionPhase.results;
-  TeamState get activeTeam => teams[turn % teams.length];
+  TeamState get activeTeam => selectionTeamId == null
+      ? teams[turn % teams.length]
+      : teams.firstWhere((team) => team.id == selectionTeamId);
   String? get opponentTeamId => roundData['opponentTeamId'] as String?;
   bool get isOpponentWindow => roundData['answerWindow'] == 'opponent';
   bool get opponentSelectedByLot => roundData['opponentReason'] == 'tie';
@@ -251,6 +258,8 @@ final class SessionState {
     Iterable<JudgmentChange>? corrections,
     Map<String, Object?>? roundData,
     Map<String, Object?>? sessionEffects,
+    Map<String, int>? abilitySelections,
+    String? selectionTeamId,
   }) => SessionState(
     phase: phase ?? this.phase,
     teams: teams ?? this.teams,
@@ -267,6 +276,8 @@ final class SessionState {
     corrections: corrections ?? this.corrections,
     roundData: roundData ?? this.roundData,
     sessionEffects: sessionEffects ?? this.sessionEffects,
+    abilitySelections: abilitySelections ?? this.abilitySelections,
+    selectionTeamId: selectionTeamId ?? this.selectionTeamId,
   );
 
   Map<String, Object?> toJson() => {
@@ -284,6 +295,8 @@ final class SessionState {
     'history': history.map((round) => round.toJson()).toList(),
     'corrections': corrections.map((change) => change.toJson()).toList(),
     'roundData': roundData,
+    'abilitySelections': abilitySelections,
+    'selectionTeamId': selectionTeamId,
     if (sessionEffects.isNotEmpty) 'sessionEffects': sessionEffects,
   };
   factory SessionState.fromJson(Map<String, dynamic> json) => SessionState(
@@ -296,6 +309,10 @@ final class SessionState {
         ? null
         : Question.fromJson(json['question'] as Map<String, dynamic>),
     turn: json['turn'] as int,
+    abilitySelections: Map<String, int>.from(
+      json['abilitySelections'] as Map? ?? const {},
+    ),
+    selectionTeamId: json['selectionTeamId'] as String?,
     revealedCards: json['revealedCards'] as int,
     secondsRemaining: json['secondsRemaining'] as int,
     isAbilityRound: json['isAbilityRound'] as bool,

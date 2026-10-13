@@ -4,9 +4,10 @@
 
 Read `PROJECT_PLAN.md` before gameplay, question, ability, or setup changes. It is
 the persistent product reference. Preserve 2–3 teams, exactly six selected normal
-categories plus the automatic seventh ability category, and difficulty scores
-100/200/300/400. Ability effects and risk probabilities remain user-defined;
-do not invent final rules. Update the plan when new user decisions arrive.
+categories and difficulty scores 100/200/300/400. Team abilities are optional;
+read TEAM_ABILITIES.md for the six implemented cards, six hard/legendary
+questions and per-team quotas. These latest rules replace the old risk
+penalties. Update the plan when new user decisions arrive.
 
 Implemented confirmed rules are in PROJECT_PLAN.md: five questions
 per category, device-wide non-repetition within a category cycle, and a seven-second window for
@@ -33,8 +34,8 @@ renewal; fewer than five distinct valid authored questions cannot fill a match.
 Auxiliary hints are card-gated: grant them only via a validated ability use or
 a revealed opening surprise card. Bind and persist permission to the question,
 recipient team and source card. Do not show hints freely or automatically with
-answers. The three built-in who-am-I clues remain separate. Do not enable final
-card types or draw probabilities before the user defines them.
+answers. The three built-in who-am-I clues remain separate. The six team card types are defined in TEAM_ABILITIES.md; opening surprise
+cards remain a separate feature in OPENING_SURPRISE_CARDS.md.
 
 Version one is local-only on a shared device. Questions and media should be
 bundled locally; gameplay must not require an account, server, or network.

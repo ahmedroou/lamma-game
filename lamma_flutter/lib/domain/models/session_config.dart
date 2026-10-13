@@ -6,6 +6,7 @@ abstract final class GameRules {
   static const selectedCategoryCount = 6;
   static const abilitiesCategoryId = '__abilities__';
   static const questionsPerCategory = 5;
+  static const abilityQuestions = 6;
   static const primaryQuestionSeconds = 30;
   static const opponentAnswerSeconds = 7;
 }
@@ -14,6 +15,7 @@ final class SessionConfig {
   SessionConfig({
     required Iterable<TeamState> teams,
     required Iterable<String> categoryIds,
+    this.abilitiesEnabled = false,
   }) : teams = List.unmodifiable(teams),
        categoryIds = Set.unmodifiable(categoryIds) {
     if (this.teams.length < GameRules.minimumTeams ||
@@ -32,13 +34,16 @@ final class SessionConfig {
   }
   final List<TeamState> teams;
   final Set<String> categoryIds;
+  final bool abilitiesEnabled;
+  int get abilityChoicesPerTeam => GameRules.abilityQuestions ~/ teams.length;
   List<String> get boardCategoryIds => [
     ...categoryIds,
-    GameRules.abilitiesCategoryId,
+    if (abilitiesEnabled) GameRules.abilitiesCategoryId,
   ];
   Map<String, dynamic> toJson() => {
     'teams': teams.map((team) => team.toJson()).toList(),
     'categoryIds': categoryIds.toList(),
+    'abilitiesEnabled': abilitiesEnabled,
   };
   factory SessionConfig.fromJson(Map<String, dynamic> json) {
     if (json case {
@@ -50,6 +55,7 @@ final class SessionConfig {
           (item) => TeamState.fromJson(item as Map<String, dynamic>),
         ),
         categoryIds: categories.cast<String>(),
+        abilitiesEnabled: json['abilitiesEnabled'] as bool? ?? false,
       );
     }
     throw const FormatException('Invalid session configuration.');

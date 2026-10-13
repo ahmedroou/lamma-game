@@ -513,12 +513,12 @@ class _HomeScreenState extends State<HomeScreen> {
                   ),
                   const SizedBox(height: 7),
                   const Text(
-                    'قسم القدرات… خذ المخاطرة، وغيّر موازين اللمّة.',
+                    'جاوب صح، اكسب بطاقة، وغيّر موازين اللمّة.',
                     style: TextStyle(color: AppColors.muted, fontSize: 13),
                   ),
                   const SizedBox(height: 12),
                   const Tag(
-                    'قدرات جديدة قريباً',
+                    '6 بطاقات · اللعب بها اختياري',
                     color: AppColors.gold,
                     icon: Icons.auto_awesome,
                   ),
@@ -564,9 +564,15 @@ class _HomeScreenState extends State<HomeScreen> {
         ),
         const SizedBox(height: 14),
         const Text(
-          'قسم سابع ينضاف تلقائياً لجلستكم. أسئلته من الأقسام الستة اللي اخترتوها. تكسب نقاط السؤال وورقة قدرة، أو تخسر 50 أو 100 أو 150 نقطة.',
+          'اختاروا اللعب بالقدرات أو بدونها. القسم السابع فيه ستة أسئلة صعبة أو خارقة من أقسامكم المختارة؛ لكل فريق ثلاثة اختيارات مع فريقين، واختياران مع ثلاثة. صاحب الدور الصحيح يكسب النقاط وبطاقة عشوائية، والخصم الصحيح يكسب النقاط فقط.',
           textAlign: TextAlign.center,
           style: TextStyle(color: AppColors.muted),
+        ),
+        const SizedBox(height: 16),
+        const Text(
+          'منع لاعب ×3 · الخيارات ×2 · النرد ×2\nمنع فرص الخصوم ×2 · بحث قوقل ×1 · الدبل ×2\nالبطاقات في محفظة الفريق، ويفعّلها المضيف بطلبه.',
+          textAlign: TextAlign.center,
+          style: TextStyle(color: AppColors.gold, height: 1.8),
         ),
         const SizedBox(height: 16),
         const DifficultyLegend(),
@@ -668,7 +674,7 @@ class _HomeScreenState extends State<HomeScreen> {
       _step(
         '؟',
         'التلميح يحتاج بطاقة',
-        'التلميح المساعد يفتح فقط ببطاقة قدرة أو مفاجأة تمنحه لفريقكم في هذا السؤال. أنواع البطاقات قيد التجهيز. أما تلميحات «من أنا؟» الثلاثة فتتبع آلية القسم الخاصة.',
+        'التلميح المساعد يفتح فقط بمفاجأة تمنحه لفريقكم في هذا السؤال أو بقدرة مخصصة للتلميح عند إضافتها. القدرات الست الحالية لا تمنح تلميحًا مساعدًا. أما تلميحات «من أنا؟» الثلاثة فتتبع آلية القسم الخاصة.',
         Icons.lightbulb_outline_rounded,
         AppColors.gold,
       ),
@@ -682,7 +688,7 @@ class _HomeScreenState extends State<HomeScreen> {
       _step(
         '07',
         'قسم القدرات',
-        'سؤال من أقسام جلستكم. نقاطه وورقة قدرة، أو مخاطرة بخسارة 50 أو 100 أو 150 نقطة. أوراقكم تبقى مع فريقكم لتستخدموها في وقتها.',
+        'اختياري عند بدء المباراة: ستة أسئلة صعبة أو خارقة. صاحب الدور الصحيح يكسب النقاط وبطاقة عشوائية، والخصم يكسب النقاط فقط. اضغط اسم فريقك لفتح المحفظة؛ يفعّل المضيف البطاقات بطلب أصحابها وفق وقت كل بطاقة ورصيد استخدامها.',
         Icons.style_outlined,
         AppColors.gold,
       ),

@@ -28,6 +28,7 @@ class _SessionSetupState extends State<SessionSetup> {
   ];
   int _teamCount = 2;
   bool _starting = false;
+  bool _withAbilities = true;
   List<String> get _shortages {
     final app = AppScope.maybeWatch(context);
     if (app == null) return const [];
@@ -67,6 +68,7 @@ class _SessionSetupState extends State<SessionSetup> {
           TeamState(id: 'team-$i', name: _names[i].text.trim()),
       ],
       categoryIds: _selected,
+      abilitiesEnabled: _withAbilities,
     );
     final app = AppScope.maybeRead(context);
     if (app?.hasActiveSession == true || app?.unreadableSession == true) {
@@ -104,6 +106,7 @@ class _SessionSetupState extends State<SessionSetup> {
                       .forCategories(config.categoryIds),
                   categoryIds: config.categoryIds,
                   usage: QuestionUsage(),
+                  includeAbilities: config.abilitiesEnabled,
                 ),
               ),
             )
@@ -118,15 +121,16 @@ class _SessionSetupState extends State<SessionSetup> {
       if (mounted) {
         final details = error.shortages.entries
             .map(
-              (entry) =>
-                  '${gameCategories.firstWhere((c) => c.id == entry.key).title}: ${entry.value}/5',
+              (entry) => entry.key == GameRules.abilitiesCategoryId
+                  ? 'القدرات: ${entry.value}/6 أسئلة صعبة أو خارقة إضافية'
+                  : '${gameCategories.firstWhere((c) => c.id == entry.key).title}: ${entry.value}/5',
             )
             .join('، ');
         ScaffoldMessenger.of(context).showSnackBar(
           SnackBar(
             duration: const Duration(seconds: 10),
             content: Text(
-              'القسم يحتاج خمسة أسئلة مختلفة في بنكه وسؤالاً جديداً واحداً على الأقل. $details. أعد القسم المنتهي أو اختر أقساماً أخرى.',
+              'المخزون غير كافٍ: $details. اختر أقسامًا أخرى أو أوقف القدرات إذا كان النقص فيها.',
             ),
           ),
         );
@@ -311,35 +315,44 @@ class _SessionSetupState extends State<SessionSetup> {
                       ),
                       borderRadius: BorderRadius.circular(20),
                     ),
-                    child: const Row(
+                    child: Row(
                       children: [
-                        Icon(
+                        const Icon(
                           Icons.style_outlined,
                           color: AppColors.gold,
                           size: 30,
                         ),
-                        SizedBox(width: 12),
+                        const SizedBox(width: 12),
                         Expanded(
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
-                              Text(
+                              const Text(
                                 'القسم السابع: القدرات',
                                 style: TextStyle(
                                   color: AppColors.gold,
                                   fontWeight: FontWeight.w700,
                                 ),
                               ),
-                              SizedBox(height: 5),
+                              const SizedBox(height: 5),
                               Text(
-                                'يضاف تلقائياً إلى جلستكم · قدرات جديدة قريباً',
-                                style: TextStyle(
+                                _withAbilities
+                                    ? '6 أسئلة صعبة وخارقة · لكل فريق ${6 ~/ _teamCount} اختيارات · الإجابة الصحيحة لصاحب الدور تمنحه بطاقة'
+                                    : 'اللعب بستة أقسام دون محفظة قدرات',
+                                style: const TextStyle(
                                   color: AppColors.muted,
                                   fontSize: 12,
                                 ),
                               ),
                             ],
                           ),
+                        ),
+                        Switch(
+                          value: _withAbilities,
+                          onChanged: _starting
+                              ? null
+                              : (value) =>
+                                    setState(() => _withAbilities = value),
                         ),
                       ],
                     ),

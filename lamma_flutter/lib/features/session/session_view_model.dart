@@ -4,6 +4,7 @@ import 'dart:math';
 import 'package:flutter/foundation.dart';
 import '../../data/repositories/question_repository.dart';
 import '../../domain/abilities/ability_system.dart';
+import '../../domain/abilities/team_ability_catalog.dart';
 import '../../domain/abilities/risk_engine.dart';
 import '../../domain/models/question.dart';
 import '../../domain/models/question_presentation.dart';
@@ -16,6 +17,7 @@ import '../../domain/models/hint_access.dart';
 import '../../domain/abilities/surprise_scoring.dart';
 import '../../domain/abilities/surprise_catalog.dart';
 import '../../domain/abilities/surprise_session_effects.dart';
+import '../../core/online_sync_service.dart';
 export '../../domain/models/session_state.dart';
 
 abstract interface class RiskRoundResolver {
@@ -45,7 +47,6 @@ class SessionViewModel extends ChangeNotifier {
     Iterable<String> replayQuestionIds = const [],
     Iterable<String> blockedQuestionIds = const [],
   }) : _questions = questions,
-       abilities = abilities ?? AbilityRegistry(),
        _now = now ?? DateTime.now {
     _usage = usage ?? QuestionUsage();
     _blockedQuestionIds = Set.unmodifiable(blockedQuestionIds);
@@ -53,6 +54,7 @@ class SessionViewModel extends ChangeNotifier {
       restored?.replayQuestionIds ?? replayQuestionIds,
     );
     _random = random ?? Random();
+    this.abilities = abilities ?? TeamAbilityCatalog.registry(_random);
     id =
         restored?.id ?? 'session-${_now().microsecondsSinceEpoch}-${_nextId++}';
     createdAt = restored?.createdAt ?? _now();
@@ -70,6 +72,17 @@ class SessionViewModel extends ChangeNotifier {
                 : PauseReason.restored,
           );
     _pool = List.unmodifiable(_questions.forCategories(config.categoryIds));
+    _abilityQuestionIds = Set.unmodifiable(
+      restored?.abilityQuestionIds ??
+          (config.abilitiesEnabled
+              ? _pool
+                    .skip(
+                      GameRules.selectedCategoryCount *
+                          GameRules.questionsPerCategory,
+                    )
+                    .map((q) => q.id)
+              : const <String>[]),
+    );
     for (final q in _pool.where((q) => state.seenQuestionIds.contains(q.id))) {
       if (usage == null) _usage.mark(q);
     }
@@ -83,6 +96,7 @@ class SessionViewModel extends ChangeNotifier {
       // A backup may precede an already committed reveal. Never draw it again.
       _state = state.copyWith(
         phase: SessionPhase.categories,
+        seenQuestionIds: {...state.seenQuestionIds, state.question!.id},
         clearQuestion: true,
         revealedCards: 0,
         isAbilityRound: false,
@@ -102,6 +116,48 @@ class SessionViewModel extends ChangeNotifier {
         state.revealedCards >= 1 &&
         state.phase == SessionPhase.cards) {
       _applyOpeningSurprise();
+    }
+    if (config.abilitiesEnabled &&
+        state.phase == SessionPhase.categories &&
+        config.categoryIds.every(
+          (category) => remainingForCategory(category) == 0,
+        )) {
+      final eligible = state.teams
+          .where((team) => abilityChoicesLeft(team.id) > 0)
+          .toList();
+      if (eligible.isEmpty ||
+          remainingForCategory(GameRules.abilitiesCategoryId) == 0) {
+        _state = state.copyWith(
+          phase: SessionPhase.results,
+          pauseReason: PauseReason.none,
+        );
+      } else if (abilityChoicesLeft(state.activeTeam.id) == 0) {
+        final index = state.teams.indexWhere(
+          (team) => team.id == state.activeTeam.id,
+        );
+        final next = [
+          for (var step = 1; step <= state.teams.length; step++)
+            state.teams[(index + step) % state.teams.length],
+        ].firstWhere((team) => abilityChoicesLeft(team.id) > 0);
+        _state = state.copyWith(selectionTeamId: next.id);
+      }
+    }
+    if (restored != null && state.roundData['googlePendingCard'] != null) {
+      _state = state.copyWith(
+        roundData: {...state.roundData}..remove('googlePendingCard'),
+      );
+    }
+    if (restored != null && searchClockRunning) {
+      _state = state.copyWith(pauseReason: PauseReason.none);
+      syncSearchClock();
+      _state = state.copyWith(
+        pauseReason: PauseReason.restored,
+        roundData: {
+          ...state.roundData,
+          'searchPausedAt': _now().toUtc().toIso8601String(),
+        },
+      );
+      _timer?.cancel();
     }
     snapshot();
   }
@@ -135,6 +191,7 @@ class SessionViewModel extends ChangeNotifier {
   final SessionConfig config;
   final QuestionRepository _questions;
   late List<Question> _pool;
+  late Set<String> _abilityQuestionIds;
   late Set<String> _replayQuestionIds;
   late final Set<String> _blockedQuestionIds;
   late final QuestionUsage _usage;
@@ -145,6 +202,20 @@ class SessionViewModel extends ChangeNotifier {
   bool revealing = false;
   String? revealError;
   List<Question> _sectionQuestions(String id) {
+    if (config.abilitiesEnabled) {
+      return _pool
+          .where(
+            (q) => id == GameRules.abilitiesCategoryId
+                ? _abilityQuestionIds.contains(q.id)
+                : q.categoryId == id && !_abilityQuestionIds.contains(q.id),
+          )
+          .take(
+            id == GameRules.abilitiesCategoryId
+                ? GameRules.abilityQuestions
+                : GameRules.questionsPerCategory,
+          )
+          .toList();
+    }
     if (id == GameRules.abilitiesCategoryId) {
       final normalIds = {
         for (final category in config.categoryIds)
@@ -170,14 +241,24 @@ class SessionViewModel extends ChangeNotifier {
       (!_usage.contains(q) || _replayQuestionIds.contains(q.id)) &&
       !state.seenQuestionIds.contains(q.id) &&
       !_usage.claimedInSession(id, q);
-  final AbilityRegistry abilities;
+  late final AbilityRegistry abilities;
   final RiskRoundResolver? riskResolver;
   late SessionState _state;
   SessionState get state => _state;
   Timer? _timer;
+  DateTime? _clockDeadline;
   bool _foreground = true, _disposed = false;
   bool get abilitiesEnabled =>
+      config.abilitiesEnabled ||
       riskResolver != null && abilities.definitions.keys.any(abilities.isReady);
+  int abilityChoicesLeft(String teamId) => max(
+    0,
+    config.abilityChoicesPerTeam - (state.abilitySelections[teamId] ?? 0),
+  );
+  bool get opponentsBlocked =>
+      state.surpriseCard?.effect == SurpriseEffect.noOpponent ||
+      state.roundData['blockOpponentTeamId'] == state.activeTeam.id &&
+          state.roundData['blockOpponentQuestionId'] == state.question?.id;
   bool get canResume => !state.isAbilityRound || abilitiesEnabled;
   List<Question> get remainingQuestions =>
       _pool.where(_available).toList(growable: false);
@@ -192,12 +273,16 @@ class SessionViewModel extends ChangeNotifier {
     updatedAt: _updatedAt,
     revision: _revision,
     replayQuestionIds: _replayQuestionIds,
+    abilityQuestionIds: _abilityQuestionIds,
   );
 
   bool selectCategory(String id) {
     if (state.phase != SessionPhase.categories || state.isPaused) return false;
     final abilityRound = id == GameRules.abilitiesCategoryId;
-    if (abilityRound && !abilitiesEnabled ||
+    if (abilityRound &&
+            (!abilitiesEnabled ||
+                config.abilitiesEnabled &&
+                    abilityChoicesLeft(state.activeTeam.id) == 0) ||
         forcedCategoryId != null && id != forcedCategoryId ||
         !abilityRound && !config.categoryIds.contains(id)) {
       return false;
@@ -223,6 +308,12 @@ class SessionViewModel extends ChangeNotifier {
         revealedCards: 0,
         secondsRemaining: GameRules.primaryQuestionSeconds,
         isAbilityRound: abilityRound,
+        abilitySelections: {
+          ...state.abilitySelections,
+          if (abilityRound && config.abilitiesEnabled)
+            state.activeTeam.id:
+                (state.abilitySelections[state.activeTeam.id] ?? 0) + 1,
+        },
         roundData: {if (surprise != null) 'surpriseCard': surprise.toJson()},
       ),
     );
@@ -320,6 +411,7 @@ class SessionViewModel extends ChangeNotifier {
       updatedAt: _now(),
       revision: _revision + 1,
       replayQuestionIds: _replayQuestionIds,
+      abilityQuestionIds: _abilityQuestionIds,
     );
     revealing = true;
     revealError = null;
@@ -345,6 +437,7 @@ class SessionViewModel extends ChangeNotifier {
 
   bool get canShowAnswer =>
       !state.isPaused &&
+      state.roundData['googlePendingCard'] == null &&
       !revealing &&
       state.phase == SessionPhase.cards &&
       state.revealedCards == 3 &&
@@ -356,7 +449,7 @@ class SessionViewModel extends ChangeNotifier {
       (!state.isOpponentWindow || state.secondsRemaining == 0);
 
   bool startOpponentOpportunity() {
-    if (state.surpriseCard?.effect == SurpriseEffect.noOpponent) return false;
+    if (opponentsBlocked) return false;
     if (state.isPaused ||
         revealing ||
         state.phase != SessionPhase.cards ||
@@ -378,6 +471,11 @@ class SessionViewModel extends ChangeNotifier {
         roundData: {
           ...state.roundData,
           'answerWindow': 'opponent',
+          if (searchClockRunning) 'searchClockMode': 'countdown',
+          if (searchClockRunning)
+            'searchWindowDeadline': _opponentSearchDeadline()
+                .toUtc()
+                .toIso8601String(),
           'opponentTeamId': chosen.id,
           'opponentReason': others.length == 1
               ? 'only'
@@ -393,7 +491,18 @@ class SessionViewModel extends ChangeNotifier {
 
   void _startTimer() {
     _timer?.cancel();
-    if (!_foreground || state.isPaused) return;
+    if ((!_foreground && !searchClockRunning) || state.isPaused) return;
+    if (searchClockRunning) {
+      syncSearchClock();
+      _timer?.cancel();
+      if (state.secondsRemaining > 0 || state.plankRunning) {
+        _timer = Timer.periodic(
+          const Duration(seconds: 1),
+          (_) => syncSearchClock(),
+        );
+      }
+      return;
+    }
     if (state.surpriseCard?.effect == SurpriseEffect.silence &&
         (state.roundData['firstAnswers'] as Map? ?? const {}).containsKey(
           state.answeringTeam.id,
@@ -425,6 +534,7 @@ class SessionViewModel extends ChangeNotifier {
       }
       return;
     }
+    _clockDeadline = _now().add(Duration(seconds: state.secondsRemaining));
     _timer = Timer.periodic(const Duration(seconds: 1), (timer) {
       if (_disposed ||
           state.isPaused ||
@@ -461,7 +571,16 @@ class SessionViewModel extends ChangeNotifier {
       return;
     }
     _timer?.cancel();
-    _set(state.copyWith(pauseReason: reason));
+    _set(
+      state.copyWith(
+        pauseReason: reason,
+        roundData: {
+          ...state.roundData,
+          if (searchClockRunning)
+            'searchPausedAt': _now().toUtc().toIso8601String(),
+        },
+      ),
+    );
   }
 
   bool resume() {
@@ -472,7 +591,24 @@ class SessionViewModel extends ChangeNotifier {
         state.phase == SessionPhase.results) {
       return false;
     }
-    _set(state.copyWith(pauseReason: PauseReason.none));
+    final data = {...state.roundData};
+    if (searchClockRunning && data['searchPausedAt'] is String) {
+      final at = data['searchPausedAt'] as String;
+      final shift = _now().difference(DateTime.parse(at));
+      for (final key in [
+        'searchWindowDeadline',
+        'googleEndsAt',
+        'searchPlankStartedAt',
+      ]) {
+        if (data[key] case String value) {
+          data[key] = DateTime.parse(
+            value,
+          ).add(shift).toUtc().toIso8601String();
+        }
+      }
+      data.remove('searchPausedAt');
+    }
+    _set(state.copyWith(pauseReason: PauseReason.none, roundData: data));
     if (state.phase == SessionPhase.cards && state.revealedCards == 3) {
       _startTimer();
     }
@@ -481,6 +617,11 @@ class SessionViewModel extends ChangeNotifier {
 
   void setForeground(bool foreground) {
     _foreground = foreground;
+    if (searchClockRunning) {
+      syncSearchClock();
+      if (!state.isPaused) _startTimer();
+      return;
+    }
     if (!foreground) pause(PauseReason.background);
   }
 
@@ -599,6 +740,10 @@ class SessionViewModel extends ChangeNotifier {
     }
     if (card.maximumQuestionPoints != null &&
         state.question!.points > card.maximumQuestionPoints!) {
+      return false;
+    }
+    if (card.effect == SurpriseEffect.options &&
+        state.visibleOptions.length == 6) {
       return false;
     }
     return card.price == 0 || state.activeTeam.score >= card.price;
@@ -908,6 +1053,7 @@ class SessionViewModel extends ChangeNotifier {
         roundData: {
           ...state.roundData,
           'firstAnswers': answers,
+          'searchClockActive': false,
           'firstAnswerSeconds': seconds,
         },
       ),
@@ -973,6 +1119,7 @@ class SessionViewModel extends ChangeNotifier {
             updatedAt: _now(),
             revision: _revision + 1,
             replayQuestionIds: _replayQuestionIds,
+            abilityQuestionIds: _abilityQuestionIds,
           ),
           replacement,
         );
@@ -1157,6 +1304,9 @@ class SessionViewModel extends ChangeNotifier {
   }
 
   bool awardAnswer(String? teamId) {
+    if (teamId != null && opponentsBlocked && teamId != state.activeTeam.id) {
+      return false;
+    }
     if (teamId != null &&
         state.surpriseCard?.effect != null &&
         state.surpriseCard?.effect != SurpriseEffect.none &&
@@ -1177,7 +1327,16 @@ class SessionViewModel extends ChangeNotifier {
     final question = state.question!;
     final before = state.teams;
     var teams = before;
-    if (state.isAbilityRound) {
+    final rewardDefinition = state.isAbilityRound && config.abilitiesEnabled
+        ? state.roundData['rewardDefinitionId'] as String? ??
+              TeamAbilityCatalog
+                  .definitions[_random.nextInt(
+                    TeamAbilityCatalog.definitions.length,
+                  )]
+                  .id
+        : null;
+    final rewardId = '$id-ability-${state.turn}-${question.id}';
+    if (state.isAbilityRound && !config.abilitiesEnabled) {
       if (!abilitiesEnabled) return false;
       final settlement = riskResolver!.settle(
         question: question,
@@ -1214,6 +1373,15 @@ class SessionViewModel extends ChangeNotifier {
           )
           .toList();
     }
+    if (rewardDefinition != null && teamId == state.activeTeam.id) {
+      teams = _withReward(
+        teams,
+        rewardId,
+        rewardDefinition,
+        teamId,
+        state.turn,
+      );
+    }
     if (!state.isAbilityRound) {
       teams = teams
           .map(
@@ -1237,7 +1405,7 @@ class SessionViewModel extends ChangeNotifier {
     final settledWagers = SurpriseSessionEffects.dueWagers(
       state.sessionEffects,
       state.turn,
-    );
+    ).where((entry) => entry['target'] == state.activeTeam.id).toList();
     final wagerDeltas = SurpriseSessionEffects.wagerDeltas(
       settledWagers,
       teamId,
@@ -1269,18 +1437,36 @@ class SessionViewModel extends ChangeNotifier {
       answerTeamId: state.opponentTeamId,
       roundData: {
         ...state.roundData,
+        'rewardDefinitionId': ?rewardDefinition,
+        if (rewardDefinition != null) 'rewardId': rewardId,
         if (settledWagers.isNotEmpty) 'settledWagers': settledWagers,
       },
       effectsBefore: state.sessionEffects,
     );
+    final normalDone = config.categoryIds.every(
+      (id) => remainingForCategory(id) == 0,
+    );
+    final abilityDone =
+        !abilitiesEnabled ||
+        remainingForCategory(GameRules.abilitiesCategoryId) == 0 ||
+        config.abilitiesEnabled &&
+            state.teams.every((team) => abilityChoicesLeft(team.id) == 0);
+    final currentIndex = state.teams.indexWhere(
+      (team) => team.id == state.activeTeam.id,
+    );
+    final nextCandidates = [
+      for (var step = 1; step <= state.teams.length; step++)
+        state.teams[(currentIndex + step) % state.teams.length],
+    ];
+    final nextTeam = nextCandidates.firstWhere(
+      (team) => !normalDone || abilityDone || abilityChoicesLeft(team.id) > 0,
+    );
     _set(
       state.copyWith(
-        phase:
-            config.categoryIds.every((id) => remainingForCategory(id) == 0) &&
-                (!abilitiesEnabled ||
-                    remainingForCategory(GameRules.abilitiesCategoryId) == 0)
+        phase: normalDone && abilityDone
             ? SessionPhase.results
             : SessionPhase.categories,
+        selectionTeamId: nextTeam.id,
         teams: teams,
         history: [...state.history, record],
         turn: state.turn + 1,
@@ -1297,8 +1483,33 @@ class SessionViewModel extends ChangeNotifier {
     return true;
   }
 
+  List<TeamState> _withReward(
+    Iterable<TeamState> teams,
+    String cardId,
+    String definitionId,
+    String? winner,
+    int turn,
+  ) => teams
+      .map(
+        (team) => team.copyWith(
+          inventory: [
+            ...team.inventory.where((card) => card.id != cardId),
+            if (team.id == winner)
+              OwnedAbility(
+                id: cardId,
+                definitionId: definitionId,
+                ownerTeamId: team.id,
+                acquiredTurn: turn,
+                remainingUses: abilities.definitions[definitionId]!.usesPerCard,
+              ),
+          ],
+        ),
+      )
+      .toList();
   bool canCorrect(RoundRecord record) =>
-      !record.isAbilityRound && record.abilityRevision == state.abilityRevision;
+      (!record.isAbilityRound ||
+          record.roundData['rewardDefinitionId'] != null) &&
+      record.abilityRevision == state.abilityRevision;
   int pointsForTeam(String teamId) => state.question == null
       ? 0
       : SurpriseScoring.points(
@@ -1319,6 +1530,11 @@ class SessionViewModel extends ChangeNotifier {
       return false;
     }
     final record = state.history[index];
+    if (teamId != null &&
+        record.roundData['blockOpponentTeamId'] == record.actingTeamId &&
+        teamId != record.actingTeamId) {
+      return false;
+    }
     if (record.answerTeamId != null &&
         teamId != null &&
         teamId != record.answerTeamId) {
@@ -1358,14 +1574,25 @@ class SessionViewModel extends ChangeNotifier {
     for (final entry in wagerDeltas.entries) {
       newDeltas[entry.key] = newDeltas[entry.key]! + entry.value;
     }
-    final teams = state.teams.map(
-      (team) => team.copyWith(
-        score:
-            team.score -
-            (record.scoreDeltas[team.id] ?? 0) +
-            newDeltas[team.id]!,
-      ),
-    );
+    var teams = state.teams
+        .map(
+          (team) => team.copyWith(
+            score:
+                team.score -
+                (record.scoreDeltas[team.id] ?? 0) +
+                newDeltas[team.id]!,
+          ),
+        )
+        .toList();
+    if (record.roundData['rewardDefinitionId'] case String definitionId) {
+      teams = _withReward(
+        teams,
+        record.roundData['rewardId'] as String,
+        definitionId,
+        teamId == record.actingTeamId ? teamId : null,
+        record.turn,
+      );
+    }
     final history = [...state.history];
     history[index] = record.corrected(teamId, newDeltas);
     _set(
@@ -1397,14 +1624,25 @@ class SessionViewModel extends ChangeNotifier {
     if (!canUndoLastDecision) return false;
     _timer?.cancel();
     final record = state.history.last;
-    final teams = state.teams.map(
-      (team) => team.copyWith(
-        score:
-            team.score -
-            (record.scoreDeltas[team.id] ?? 0) +
-            (record.fixedScoreDeltas[team.id] ?? 0),
-      ),
-    );
+    var teams = state.teams
+        .map(
+          (team) => team.copyWith(
+            score:
+                team.score -
+                (record.scoreDeltas[team.id] ?? 0) +
+                (record.fixedScoreDeltas[team.id] ?? 0),
+          ),
+        )
+        .toList();
+    if (record.roundData['rewardDefinitionId'] case String definitionId) {
+      teams = _withReward(
+        teams,
+        record.roundData['rewardId'] as String,
+        definitionId,
+        null,
+        record.turn,
+      );
+    }
     _set(
       state.copyWith(
         phase: SessionPhase.answer,
@@ -1413,10 +1651,11 @@ class SessionViewModel extends ChangeNotifier {
         sessionEffects: record.effectsBefore,
         question: record.question,
         turn: record.turn,
+        selectionTeamId: record.actingTeamId,
         revealedCards: 3,
         secondsRemaining: record.secondsAtAnswer,
         pauseReason: PauseReason.manual,
-        isAbilityRound: false,
+        isAbilityRound: record.isAbilityRound,
         roundData: {
           ...record.roundData,
           'identityCluesRevealed': record.identityCluesRevealed,
@@ -1471,6 +1710,23 @@ class SessionViewModel extends ChangeNotifier {
     if (revealing || state.phase == SessionPhase.results || state.isPaused) {
       throw StateError('Abilities are unavailable while paused or finished.');
     }
+    if (state.roundData['googlePendingCard'] != null) {
+      throw StateError('جارٍ فتح البحث؛ انتظر اكتمال العملية.');
+    }
+    if (TeamAbilityCatalog.contains(
+          state.teams
+              .firstWhere((t) => t.id == ownerTeamId)
+              .inventory
+              .firstWhere((c) => c.id == cardId)
+              .definitionId,
+        ) &&
+        !config.abilitiesEnabled) {
+      throw StateError('اللعب بالقدرات غير مفعّل لهذه المباراة.');
+    }
+    final originalCard = state.teams
+        .firstWhere((t) => t.id == ownerTeamId)
+        .inventory
+        .firstWhere((c) => c.id == cardId);
     final result = AbilityService(abilities).use(
       teams: state.teams,
       ownerTeamId: ownerTeamId,
@@ -1478,15 +1734,232 @@ class SessionViewModel extends ChangeNotifier {
       window: abilityWindow,
       targetTeamId: targetTeamId,
       question: state.question,
-      roundData: state.roundData,
+      roundData: _abilityContextData(),
     );
+    final data = Map<String, Object?>.from(result.roundData)
+      ..removeWhere((key, _) => key.startsWith('_'));
+    data['lastAbilityTitle'] =
+        abilities.definitions[originalCard.definitionId]!.title;
+    data['lastAbilityTeamId'] = ownerTeamId;
+    data['abilityUseLog'] = [
+      ...?state.roundData['abilityUseLog'] as List?,
+      {
+        'cardId': originalCard.id,
+        'definitionId': originalCard.definitionId,
+        'ownerTeamId': ownerTeamId,
+        'targetTeamId': targetTeamId ?? ownerTeamId,
+        'at': _now().toUtc().toIso8601String(),
+        if (originalCard.definitionId == TeamAbilityCatalog.dice)
+          'diceResult': data['diceResult'],
+      },
+    ];
+    if (originalCard.definitionId == TeamAbilityCatalog.google) {
+      final now = _now();
+      final naturalDeadline = searchClockRunning && !state.plankRunning
+          ? DateTime.parse(state.roundData['searchWindowDeadline'] as String)
+          : _clockDeadline ??
+                now.add(Duration(seconds: state.secondsRemaining));
+      final searchEnd = now.add(const Duration(seconds: 20));
+      data['googleEndsAt'] =
+          (state.plankRunning || searchEnd.isBefore(naturalDeadline)
+                  ? searchEnd
+                  : naturalDeadline)
+              .toUtc()
+              .toIso8601String();
+      data['searchWindowDeadline'] =
+          (searchClockRunning && !state.plankRunning
+                  ? DateTime.parse(
+                      state.roundData['searchWindowDeadline'] as String,
+                    )
+                  : naturalDeadline)
+              .toUtc()
+              .toIso8601String();
+      data['searchClockActive'] = true;
+      data['searchClockMode'] = state.plankRunning ? 'plank' : 'countdown';
+      if (state.plankRunning) {
+        data['searchPlankStartedAt'] = now.toUtc().toIso8601String();
+        data['searchPlankBaseSeconds'] = state.plankSeconds;
+      }
+      data['googlePendingCard'] = originalCard.toJson();
+    }
     _set(
       state.copyWith(
         teams: result.teams,
-        roundData: result.roundData,
+        roundData: data,
         abilityRevision: state.abilityRevision + 1,
       ),
     );
+    if (originalCard.definitionId == TeamAbilityCatalog.google) _startTimer();
+  }
+
+  Map<String, Object?> _abilityContextData() => {
+    ...state.roundData,
+    '_activeTeam': state.activeTeam.id,
+    '_answeringTeam': state.answeringTeam.id,
+    '_opponentWindow': state.isOpponentWindow,
+    '_seconds': state.secondsRemaining,
+    '_elapsed': state.plankAccepted
+        ? state.plankSeconds
+        : state.roundData['questionElapsedSeconds'] as int? ?? 0,
+    '_plank': state.plankAccepted,
+    '_googleRemaining': googleSecondsLeft,
+    '_firstAnswerRecorded': (state.roundData['firstAnswers'] as Map? ?? {})
+        .containsKey(state.answeringTeam.id),
+    '_surpriseBlocks': state.surpriseCard?.effect == SurpriseEffect.noOpponent,
+  };
+
+  String? abilityUnavailableReason(
+    String ownerId,
+    OwnedAbility card, {
+    String? targetId,
+  }) {
+    if (state.roundData['googlePendingCard'] != null) return 'جارٍ فتح البحث…';
+    if (state.isPaused || revealing) return 'استأنف المباراة أولًا.';
+    if (state.phase == SessionPhase.results) return 'انتهت المباراة.';
+    final definition = abilities.definitions[card.definitionId];
+    if (definition == null || !abilities.isReady(card.definitionId)) {
+      return 'تعريف البطاقة غير متاح.';
+    }
+    if (TeamAbilityCatalog.contains(card.definitionId) &&
+        !config.abilitiesEnabled) {
+      return 'القدرات غير مفعّلة.';
+    }
+    if (!definition.windows.contains(AbilityWindow.anyTime) &&
+        !definition.windows.contains(abilityWindow)) {
+      return card.definitionId == TeamAbilityCatalog.doublePoints
+          ? 'اختر سؤال فريقك واستخدمها قبل كشفه.'
+          : 'غير متاحة في هذه المرحلة.';
+    }
+    return abilities.effects[definition.effectKey]!.validate(
+      AbilityContext(
+        teams: state.teams,
+        ownerTeamId: ownerId,
+        targetTeamId:
+            targetId ??
+            (definition.target == AbilityTarget.opponent
+                ? state.teams.firstWhere((t) => t.id != ownerId).id
+                : ownerId),
+        window: abilityWindow,
+        question: state.question,
+        roundData: _abilityContextData(),
+      ),
+    );
+  }
+
+  bool get searchClockRunning =>
+      state.phase == SessionPhase.cards &&
+      state.roundData['searchClockActive'] == true;
+  DateTime _opponentSearchDeadline() {
+    if (state.roundData['searchClockMode'] == 'plank') {
+      return _now().add(const Duration(seconds: 7));
+    }
+    final deadline = DateTime.parse(
+      state.roundData['searchWindowDeadline'] as String,
+    );
+    return (_now().isBefore(deadline) ? _now() : deadline).add(
+      const Duration(seconds: 7),
+    );
+  }
+
+  int get googleSecondsLeft {
+    final raw = state.roundData['googleEndsAt'];
+    if (raw is! String ||
+        state.phase != SessionPhase.cards ||
+        state.secondsRemaining <= 0 && !state.plankRunning ||
+        state.roundData['googleTeamId'] != state.answeringTeam.id) {
+      return 0;
+    }
+    final now = state.isPaused && state.roundData['searchPausedAt'] is String
+        ? DateTime.parse(state.roundData['searchPausedAt'] as String)
+        : _now();
+    final left = max(
+      0,
+      (DateTime.parse(raw).difference(now).inMilliseconds / 1000).ceil(),
+    );
+    return state.plankRunning ? left : min(left, state.secondsRemaining);
+  }
+
+  void syncSearchClock() {
+    if (!searchClockRunning || state.isPaused) return;
+    if (state.roundData['searchClockMode'] == 'plank') {
+      if (state.plankRunning) {
+        final elapsed = max(
+          0,
+          _now()
+              .difference(
+                DateTime.parse(
+                  state.roundData['searchPlankStartedAt'] as String,
+                ),
+              )
+              .inSeconds,
+        );
+        _set(
+          state.copyWith(
+            roundData: {
+              ...state.roundData,
+              'plankElapsedSeconds':
+                  (state.roundData['searchPlankBaseSeconds'] as int) + elapsed,
+            },
+          ),
+        );
+      }
+      return;
+    }
+    final deadline = DateTime.parse(
+      state.roundData['searchWindowDeadline'] as String,
+    );
+    final left = max(
+      0,
+      (deadline.difference(_now()).inMilliseconds / 1000).ceil(),
+    );
+    final elapsed =
+        (state.roundData['questionElapsedSeconds'] as int? ?? 0) +
+        max(0, state.secondsRemaining - left);
+    _set(
+      state.copyWith(
+        secondsRemaining: left,
+        roundData: {...state.roundData, 'questionElapsedSeconds': elapsed},
+      ),
+    );
+    if (left == 0 && !state.isOpponentWindow) startOpponentOpportunity();
+    if (state.secondsRemaining == 0) _timer?.cancel();
+  }
+
+  /// A failed external launch refunds exactly its pending card, once.
+  void finishGoogleLaunch(bool success) {
+    final raw = state.roundData['googlePendingCard'];
+    if (raw is! Map) return;
+    if (!success) syncSearchClock();
+    final card = OwnedAbility.fromJson(Map<String, dynamic>.from(raw));
+    final data = {...state.roundData}..remove('googlePendingCard');
+    if (!success) {
+      data.remove('googleTeamId');
+      data.remove('googleEndsAt');
+      data['searchClockActive'] = false;
+      _set(
+        state.copyWith(
+          teams: state.teams.map(
+            (team) => team.id == card.ownerTeamId
+                ? team.copyWith(
+                    inventory: [
+                      ...team.inventory.where((c) => c.id != card.id),
+                      card,
+                    ],
+                  )
+                : team,
+          ),
+          roundData: data,
+          abilityRevision: state.abilityRevision - 1,
+        ),
+      );
+      if (!_foreground) {
+        pause(PauseReason.background);
+      } else {
+        _startTimer();
+      }
+    } else {
+      _set(state.copyWith(roundData: data));
+    }
   }
 
   bool restart() {
@@ -1504,6 +1977,11 @@ class SessionViewModel extends ChangeNotifier {
     }
     _timer?.cancel();
     _pool = fresh;
+    _abilityQuestionIds = Set.unmodifiable(
+      config.abilitiesEnabled
+          ? fresh.skip(30).map((q) => q.id)
+          : const <String>[],
+    );
     _replayQuestionIds = Set.unmodifiable(
       fresh.where(_usage.contains).map((q) => q.id),
     );
@@ -1526,6 +2004,7 @@ class SessionViewModel extends ChangeNotifier {
     _state = state;
     _revision++;
     _updatedAt = _now();
+    OnlineSyncService().syncState(state);
     notifyListeners();
   }
 
@@ -1533,6 +2012,7 @@ class SessionViewModel extends ChangeNotifier {
   void dispose() {
     _disposed = true;
     _timer?.cancel();
+    OnlineSyncService().stopBroadcasting();
     super.dispose();
   }
 }

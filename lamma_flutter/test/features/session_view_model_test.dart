@@ -27,7 +27,7 @@ void main() {
     () {
       final vm = model();
       addTearDown(vm.dispose);
-      expect(vm.config.boardCategoryIds.length, 7);
+      expect(vm.config.boardCategoryIds.length, 6);
       expect(vm.abilitiesEnabled, false);
       expect(vm.selectCategory(GameRules.abilitiesCategoryId), false);
       expect(vm.selectCategory('geography'), false);

@@ -342,12 +342,9 @@ void main() {
         key,
         'board-${size.width == 390 ? 'portrait' : 'landscape'}',
       );
-      await tapText(tester, '07 / قسم القدرات');
-      expect(find.text('قدرات تغيّر اللعب'), findsOneWidget);
-      await tapText(tester, 'نكمل التحدّي');
-      await tapText(tester, 'الصقور');
-      expect(find.text('أوراق الصقور'), findsOneWidget);
-      expect(find.text('ما عندكم أوراق قدرات… للحين!'), findsOneWidget);
+      expect(find.text('07 / قسم القدرات'), findsNothing);
+      expect(find.text('أوراق الصقور'), findsNothing);
+      expect(find.text('0 قدرات'), findsNothing);
       expect(tester.takeException(), isNull);
       await tester.pumpWidget(const SizedBox());
     });

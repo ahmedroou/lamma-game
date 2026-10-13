@@ -3,7 +3,7 @@
   "categoryId": "meanings",
   "targetCount": 900,
   "targetPerDifficulty": 225,
-  "status": "draft",
+  "status": "complete",
   "questions": [
     {
       "id": "meanings-easy-0001",
@@ -49,7 +49,8 @@
         }
       ],
       "correctOptionId": "C",
-      "usageId": "67263874187031486303487570225889234775"
+      "usageId": "67263874187031486303487570225889234775",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0002",
@@ -96,7 +97,8 @@
         }
       ],
       "correctOptionId": "F",
-      "usageId": "320213450944349023227016820981049089368"
+      "usageId": "320213450944349023227016820981049089368",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0003",
@@ -143,7 +145,8 @@
         }
       ],
       "correctOptionId": "A",
-      "usageId": "200066636535551336647310584147925024071"
+      "usageId": "200066636535551336647310584147925024071",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0004",
@@ -190,7 +193,8 @@
         }
       ],
       "correctOptionId": "D",
-      "usageId": "125077700419970516153542867330280686959"
+      "usageId": "125077700419970516153542867330280686959",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0005",
@@ -236,7 +240,8 @@
         }
       ],
       "correctOptionId": "B",
-      "usageId": "57377719087301832333961741954407214568"
+      "usageId": "57377719087301832333961741954407214568",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0006",
@@ -283,7 +288,8 @@
         }
       ],
       "correctOptionId": "E",
-      "usageId": "52929669357936316332222425055033165841"
+      "usageId": "52929669357936316332222425055033165841",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0007",
@@ -330,7 +336,8 @@
         }
       ],
       "correctOptionId": "C",
-      "usageId": "178255535707359675295287967271440057607"
+      "usageId": "178255535707359675295287967271440057607",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0008",
@@ -376,7 +383,8 @@
         }
       ],
       "correctOptionId": "F",
-      "usageId": "307646385293441394559299809247935938691"
+      "usageId": "307646385293441394559299809247935938691",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0009",
@@ -423,7 +431,8 @@
         }
       ],
       "correctOptionId": "A",
-      "usageId": "120933891266567368487152140522574938533"
+      "usageId": "120933891266567368487152140522574938533",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0010",
@@ -470,7 +479,8 @@
         }
       ],
       "correctOptionId": "D",
-      "usageId": "94838647149502855095437479967433501485"
+      "usageId": "94838647149502855095437479967433501485",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0011",
@@ -517,7 +527,8 @@
         }
       ],
       "correctOptionId": "B",
-      "usageId": "195107237738612929555659429663895921048"
+      "usageId": "195107237738612929555659429663895921048",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0012",
@@ -564,7 +575,8 @@
         }
       ],
       "correctOptionId": "E",
-      "usageId": "156626532738101820643786755235923144723"
+      "usageId": "156626532738101820643786755235923144723",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0013",
@@ -611,7 +623,8 @@
         }
       ],
       "correctOptionId": "C",
-      "usageId": "313148139092550261382728863684900202056"
+      "usageId": "313148139092550261382728863684900202056",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0014",
@@ -657,7 +670,8 @@
         }
       ],
       "correctOptionId": "F",
-      "usageId": "329792813145570912546293170151525108250"
+      "usageId": "329792813145570912546293170151525108250",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0015",
@@ -704,7 +718,8 @@
         }
       ],
       "correctOptionId": "A",
-      "usageId": "338932455418110946666212146276845978929"
+      "usageId": "338932455418110946666212146276845978929",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0016",
@@ -751,7 +766,8 @@
         }
       ],
       "correctOptionId": "D",
-      "usageId": "302644175230567587262828525066737222901"
+      "usageId": "302644175230567587262828525066737222901",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0017",
@@ -798,7 +814,8 @@
         }
       ],
       "correctOptionId": "B",
-      "usageId": "207556144797414909532338022160500803532"
+      "usageId": "207556144797414909532338022160500803532",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0018",
@@ -845,7 +862,8 @@
         }
       ],
       "correctOptionId": "E",
-      "usageId": "226935157857182558783380268922591284954"
+      "usageId": "226935157857182558783380268922591284954",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0019",
@@ -892,7 +910,8 @@
         }
       ],
       "correctOptionId": "C",
-      "usageId": "40895954180423047053226987444341967405"
+      "usageId": "40895954180423047053226987444341967405",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0020",
@@ -939,7 +958,8 @@
         }
       ],
       "correctOptionId": "F",
-      "usageId": "107139975229779801282476963589914984782"
+      "usageId": "107139975229779801282476963589914984782",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0021",
@@ -986,7 +1006,8 @@
         }
       ],
       "correctOptionId": "A",
-      "usageId": "190695991324982186328289491306283199790"
+      "usageId": "190695991324982186328289491306283199790",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0022",
@@ -1033,7 +1054,8 @@
         }
       ],
       "correctOptionId": "D",
-      "usageId": "218993070783864802801578012642843703451"
+      "usageId": "218993070783864802801578012642843703451",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0023",
@@ -1080,7 +1102,8 @@
         }
       ],
       "correctOptionId": "B",
-      "usageId": "186770389069776700015564127066994891424"
+      "usageId": "186770389069776700015564127066994891424",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0024",
@@ -1127,7 +1150,8 @@
         }
       ],
       "correctOptionId": "E",
-      "usageId": "101999172530671025318801293837353503178"
+      "usageId": "101999172530671025318801293837353503178",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0025",
@@ -1174,7 +1198,8 @@
         }
       ],
       "correctOptionId": "C",
-      "usageId": "79193558469982588644622372041857407558"
+      "usageId": "79193558469982588644622372041857407558",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0026",
@@ -1220,7 +1245,8 @@
         }
       ],
       "correctOptionId": "F",
-      "usageId": "209489332951081531189005474385915008828"
+      "usageId": "209489332951081531189005474385915008828",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0027",
@@ -1266,7 +1292,8 @@
         }
       ],
       "correctOptionId": "A",
-      "usageId": "152042479952204768103029074259541477636"
+      "usageId": "152042479952204768103029074259541477636",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0028",
@@ -1312,7 +1339,8 @@
         }
       ],
       "correctOptionId": "D",
-      "usageId": "43924674025487586827760303071099071247"
+      "usageId": "43924674025487586827760303071099071247",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0029",
@@ -1358,7 +1386,8 @@
         }
       ],
       "correctOptionId": "B",
-      "usageId": "38337678827391138701162548808323906725"
+      "usageId": "38337678827391138701162548808323906725",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0030",
@@ -1404,7 +1433,8 @@
         }
       ],
       "correctOptionId": "E",
-      "usageId": "11344926806283559658937794982181243598"
+      "usageId": "11344926806283559658937794982181243598",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0031",
@@ -1449,7 +1479,8 @@
         }
       ],
       "correctOptionId": "C",
-      "usageId": "135288423231199118922781806038843087110"
+      "usageId": "135288423231199118922781806038843087110",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0032",
@@ -1494,7 +1525,8 @@
         }
       ],
       "correctOptionId": "F",
-      "usageId": "305963086633506364379861876808858904626"
+      "usageId": "305963086633506364379861876808858904626",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0033",
@@ -1540,7 +1572,8 @@
         }
       ],
       "correctOptionId": "A",
-      "usageId": "164433094815490055691749894792544718221"
+      "usageId": "164433094815490055691749894792544718221",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0034",
@@ -1585,7 +1618,8 @@
         }
       ],
       "correctOptionId": "D",
-      "usageId": "169774567501560272140325188657153532163"
+      "usageId": "169774567501560272140325188657153532163",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0035",
@@ -1631,13 +1665,14 @@
         }
       ],
       "correctOptionId": "B",
-      "usageId": "13670998214543644785392272279632087928"
+      "usageId": "13670998214543644785392272279632087928",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0036",
       "categoryId": "meanings",
       "difficulty": "easy",
-      "text": "ماذا يُسمّى المطر الشديد الضخم القَطْر في قوله تعالى: ﴿كَمَثَلِ جَنَّةٍ بِرَبْوَةٍ أَصَابَهَا وَابِلٌ﴾؟",
+      "text": "ماذا يُسمّى المطر الشديد الضخم القَطْر في لغة العرب والتعبير القرآني؟",
       "answer": "الوابل",
       "acceptedAnswers": [
         "المطر الغزير الضخم القطر",
@@ -1645,7 +1680,7 @@
       ],
       "hint": "الكلمة مذكورة في الآية وتقابل «الطَّلّ» الذي هو المطر الخفيف الضعيف.",
       "clues": [],
-      "explanation": "الوابل هو المطر الشديد الغزير العظيم القَطْر، ويقابله الطَّلّ وهو المطر الخفيف الضعيف.",
+      "explanation": "الوابل في اللغة هو المطر الشديد الضخم القطر، ومنه قوله تعالى: ﴿فَإِنْ لَمْ يُصِبْهَا وَابِلٌ فَطَلٌّ﴾.",
       "sources": [
         "المفردات في غريب القرآن للراغب الأصفهاني - مادة (وبل)",
         "فقه اللغة وسر العربية للثعالبي"
@@ -1677,7 +1712,8 @@
         }
       ],
       "correctOptionId": "E",
-      "usageId": "33971727698937454208922217361830297408"
+      "usageId": "33971727698937454208922217361830297408",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0037",
@@ -1723,7 +1759,8 @@
         }
       ],
       "correctOptionId": "C",
-      "usageId": "311453943963738726911404226869162563054"
+      "usageId": "311453943963738726911404226869162563054",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0038",
@@ -1769,7 +1806,8 @@
         }
       ],
       "correctOptionId": "F",
-      "usageId": "59846197176271935031609565974468667543"
+      "usageId": "59846197176271935031609565974468667543",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0039",
@@ -1815,7 +1853,8 @@
         }
       ],
       "correctOptionId": "A",
-      "usageId": "141854098924072123748730053521698592007"
+      "usageId": "141854098924072123748730053521698592007",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0040",
@@ -1861,7 +1900,8 @@
         }
       ],
       "correctOptionId": "D",
-      "usageId": "75487894482819309171891452130260523584"
+      "usageId": "75487894482819309171891452130260523584",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0041",
@@ -1906,7 +1946,8 @@
         }
       ],
       "correctOptionId": "B",
-      "usageId": "321513436209178805504713420556751148008"
+      "usageId": "321513436209178805504713420556751148008",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0042",
@@ -1951,7 +1992,8 @@
         }
       ],
       "correctOptionId": "E",
-      "usageId": "42121492963047870540862609171754077586"
+      "usageId": "42121492963047870540862609171754077586",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0043",
@@ -1998,7 +2040,8 @@
         }
       ],
       "correctOptionId": "C",
-      "usageId": "292307530276408910320138997476534780396"
+      "usageId": "292307530276408910320138997476534780396",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0044",
@@ -2044,7 +2087,8 @@
         }
       ],
       "correctOptionId": "F",
-      "usageId": "187369394279284664045370312461685785894"
+      "usageId": "187369394279284664045370312461685785894",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0045",
@@ -2089,7 +2133,8 @@
         }
       ],
       "correctOptionId": "A",
-      "usageId": "40624956967891296445661749088910078549"
+      "usageId": "40624956967891296445661749088910078549",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0046",
@@ -2134,7 +2179,8 @@
         }
       ],
       "correctOptionId": "D",
-      "usageId": "90930433091192006400959141870862329538"
+      "usageId": "90930433091192006400959141870862329538",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0047",
@@ -2180,7 +2226,8 @@
         }
       ],
       "correctOptionId": "B",
-      "usageId": "201482050338175998529383734844572162063"
+      "usageId": "201482050338175998529383734844572162063",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0048",
@@ -2226,7 +2273,8 @@
         }
       ],
       "correctOptionId": "E",
-      "usageId": "231347599894072903001323349185341301059"
+      "usageId": "231347599894072903001323349185341301059",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0049",
@@ -2273,7 +2321,8 @@
         }
       ],
       "correctOptionId": "C",
-      "usageId": "255639005133897568357070983478720271919"
+      "usageId": "255639005133897568357070983478720271919",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0050",
@@ -2320,7 +2369,8 @@
         }
       ],
       "correctOptionId": "F",
-      "usageId": "223136763934540024429271949193429351573"
+      "usageId": "223136763934540024429271949193429351573",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0051",
@@ -2367,7 +2417,8 @@
         }
       ],
       "correctOptionId": "A",
-      "usageId": "169776611635117322491320271872584370193"
+      "usageId": "169776611635117322491320271872584370193",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0052",
@@ -2413,7 +2464,8 @@
         }
       ],
       "correctOptionId": "D",
-      "usageId": "216856544263910114056351636182252873438"
+      "usageId": "216856544263910114056351636182252873438",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0053",
@@ -2460,7 +2512,8 @@
         }
       ],
       "correctOptionId": "B",
-      "usageId": "108508574395924479190893812227903259469"
+      "usageId": "108508574395924479190893812227903259469",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0054",
@@ -2507,7 +2560,8 @@
         }
       ],
       "correctOptionId": "E",
-      "usageId": "243490455434781486362185880683952617325"
+      "usageId": "243490455434781486362185880683952617325",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0055",
@@ -2554,7 +2608,8 @@
         }
       ],
       "correctOptionId": "C",
-      "usageId": "15462659936275592969870788763345386275"
+      "usageId": "15462659936275592969870788763345386275",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0056",
@@ -2600,7 +2655,8 @@
         }
       ],
       "correctOptionId": "F",
-      "usageId": "50799723252897451494185422970708949377"
+      "usageId": "50799723252897451494185422970708949377",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0057",
@@ -2647,7 +2703,8 @@
         }
       ],
       "correctOptionId": "A",
-      "usageId": "62553794235509863425239571664875107433"
+      "usageId": "62553794235509863425239571664875107433",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0058",
@@ -2693,7 +2750,8 @@
         }
       ],
       "correctOptionId": "D",
-      "usageId": "187016445039793171136110352893901659213"
+      "usageId": "187016445039793171136110352893901659213",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0059",
@@ -2739,7 +2797,8 @@
         }
       ],
       "correctOptionId": "B",
-      "usageId": "328611398084662212558856276776323392165"
+      "usageId": "328611398084662212558856276776323392165",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0060",
@@ -2785,7 +2844,8 @@
         }
       ],
       "correctOptionId": "E",
-      "usageId": "335116057353766210521215375285084165723"
+      "usageId": "335116057353766210521215375285084165723",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0061",
@@ -2831,7 +2891,8 @@
         }
       ],
       "correctOptionId": "C",
-      "usageId": "249112257503116479396599613052837830076"
+      "usageId": "249112257503116479396599613052837830076",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0062",
@@ -2877,7 +2938,8 @@
         }
       ],
       "correctOptionId": "F",
-      "usageId": "10660121541470459910435167060940662990"
+      "usageId": "10660121541470459910435167060940662990",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0063",
@@ -2923,7 +2985,8 @@
         }
       ],
       "correctOptionId": "A",
-      "usageId": "190485120290029438615306254422933934203"
+      "usageId": "190485120290029438615306254422933934203",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0064",
@@ -2969,7 +3032,8 @@
         }
       ],
       "correctOptionId": "D",
-      "usageId": "151720103514763191420010560412123045683"
+      "usageId": "151720103514763191420010560412123045683",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0065",
@@ -3017,7 +3081,8 @@
         }
       ],
       "correctOptionId": "B",
-      "usageId": "172553095302459218271043574504866492056"
+      "usageId": "172553095302459218271043574504866492056",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0066",
@@ -3063,7 +3128,8 @@
         }
       ],
       "correctOptionId": "E",
-      "usageId": "84048555332387841400257734582921055678"
+      "usageId": "84048555332387841400257734582921055678",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0067",
@@ -3109,7 +3175,8 @@
         }
       ],
       "correctOptionId": "C",
-      "usageId": "338074975636869288782916240557327712067"
+      "usageId": "338074975636869288782916240557327712067",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0068",
@@ -3155,7 +3222,8 @@
         }
       ],
       "correctOptionId": "F",
-      "usageId": "257330076135641567777772397519339006551"
+      "usageId": "257330076135641567777772397519339006551",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0069",
@@ -3201,7 +3269,8 @@
         }
       ],
       "correctOptionId": "A",
-      "usageId": "128894866995371701565406789861971526775"
+      "usageId": "128894866995371701565406789861971526775",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0070",
@@ -3247,13 +3316,14 @@
         }
       ],
       "correctOptionId": "D",
-      "usageId": "62922794420019783493201779461447340089"
+      "usageId": "62922794420019783493201779461447340089",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0071",
       "categoryId": "meanings",
       "difficulty": "easy",
-      "text": "ما الاسم الفصيح لصوت الحَمام في قول الشعراء: «شجاكَ هديلُ الحمامِ على الغصون»؟",
+      "text": "ما الاسم الفصيح لصوت الحَمام حين يترنّم على الغصون في كلام العرب؟",
       "answer": "الهَديل",
       "acceptedAnswers": [
         "الهديل",
@@ -3261,7 +3331,7 @@
       ],
       "hint": "الكلمة واردة في سياق البيت الشعري وتُطلق على ترجيع صوت الحمام.",
       "clues": [],
-      "explanation": "الهديل هو صوت الحمام وترجيعه، ويقال أيضًا: سَجَع الحمامُ وهدَلَ.",
+      "explanation": "الهَديل هو صوت الحمام الفصيح المشهور، وكان العرب يستحسنون ترنمه في فصول الربيع وعلى الأغصان.",
       "sources": [
         "فقه اللغة وسر العربية للثعالبي - باب الأصوات",
         "المعجم الوسيط - مادة (هدل)"
@@ -3293,7 +3363,8 @@
         }
       ],
       "correctOptionId": "B",
-      "usageId": "75383916113199296200403105448879724097"
+      "usageId": "75383916113199296200403105448879724097",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0072",
@@ -3339,7 +3410,8 @@
         }
       ],
       "correctOptionId": "E",
-      "usageId": "296413314559699367756497788215725637590"
+      "usageId": "296413314559699367756497788215725637590",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0073",
@@ -3385,7 +3457,8 @@
         }
       ],
       "correctOptionId": "C",
-      "usageId": "112128683669740377681016279259567431328"
+      "usageId": "112128683669740377681016279259567431328",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0074",
@@ -3430,7 +3503,8 @@
         }
       ],
       "correctOptionId": "F",
-      "usageId": "98483712722145790680425332238372030545"
+      "usageId": "98483712722145790680425332238372030545",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0075",
@@ -3441,7 +3515,7 @@
       "acceptedAnswers": [
         "المهر"
       ],
-      "hint": "الأنثى منه تُسمّى «مُهْرة»، وجمعه «أمهار» و«مِهار».",
+      "hint": "يبدأ بالميم المضمومة والهاء، وشاع إطلاق اسمه على الصداق الذي يُدفع للمرأة عند الزواج.",
       "clues": [],
       "explanation": "المُهْر هو أول ما ينتج من الخيل، والأنثى مُهْرة.",
       "sources": [
@@ -3475,7 +3549,8 @@
         }
       ],
       "correctOptionId": "A",
-      "usageId": "238928215174716939395726905328306612839"
+      "usageId": "238928215174716939395726905328306612839",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0076",
@@ -3521,7 +3596,8 @@
         }
       ],
       "correctOptionId": "D",
-      "usageId": "49313911084612165316141582237465932177"
+      "usageId": "49313911084612165316141582237465932177",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0077",
@@ -3567,7 +3643,8 @@
         }
       ],
       "correctOptionId": "B",
-      "usageId": "54387795117620703433373638640270041190"
+      "usageId": "54387795117620703433373638640270041190",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0078",
@@ -3613,7 +3690,8 @@
         }
       ],
       "correctOptionId": "E",
-      "usageId": "220960296746157646872741644395882981486"
+      "usageId": "220960296746157646872741644395882981486",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0079",
@@ -3659,7 +3737,8 @@
         }
       ],
       "correctOptionId": "C",
-      "usageId": "236397924090267037545751298898724043609"
+      "usageId": "236397924090267037545751298898724043609",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0080",
@@ -3705,7 +3784,8 @@
         }
       ],
       "correctOptionId": "F",
-      "usageId": "286099800595309966405208675513949649247"
+      "usageId": "286099800595309966405208675513949649247",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0081",
@@ -3752,7 +3832,8 @@
         }
       ],
       "correctOptionId": "A",
-      "usageId": "220988076112367940454335511819146032470"
+      "usageId": "220988076112367940454335511819146032470",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0082",
@@ -3800,7 +3881,8 @@
         }
       ],
       "correctOptionId": "D",
-      "usageId": "325407240270789202815001005090843114235"
+      "usageId": "325407240270789202815001005090843114235",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0083",
@@ -3847,7 +3929,8 @@
         }
       ],
       "correctOptionId": "B",
-      "usageId": "260419183369693173340738695255875354485"
+      "usageId": "260419183369693173340738695255875354485",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0084",
@@ -3894,7 +3977,8 @@
         }
       ],
       "correctOptionId": "E",
-      "usageId": "165253144539696448514449276704972055127"
+      "usageId": "165253144539696448514449276704972055127",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0085",
@@ -3941,7 +4025,8 @@
         }
       ],
       "correctOptionId": "C",
-      "usageId": "229719687736922644011393831785612599348"
+      "usageId": "229719687736922644011393831785612599348",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0086",
@@ -3989,7 +4074,8 @@
         }
       ],
       "correctOptionId": "F",
-      "usageId": "185773249871256936662254442075916634553"
+      "usageId": "185773249871256936662254442075916634553",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0087",
@@ -4036,7 +4122,8 @@
         }
       ],
       "correctOptionId": "A",
-      "usageId": "248146045223364912018656392457180702822"
+      "usageId": "248146045223364912018656392457180702822",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0088",
@@ -4082,7 +4169,8 @@
         }
       ],
       "correctOptionId": "D",
-      "usageId": "267438639987373953329247938493582950350"
+      "usageId": "267438639987373953329247938493582950350",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0089",
@@ -4128,7 +4216,8 @@
         }
       ],
       "correctOptionId": "B",
-      "usageId": "101531630245046041574635956340268628940"
+      "usageId": "101531630245046041574635956340268628940",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0090",
@@ -4174,7 +4263,8 @@
         }
       ],
       "correctOptionId": "E",
-      "usageId": "43058283230110730103499180596939278721"
+      "usageId": "43058283230110730103499180596939278721",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0091",
@@ -4220,7 +4310,8 @@
         }
       ],
       "correctOptionId": "C",
-      "usageId": "163669857446118177247475848147922603722"
+      "usageId": "163669857446118177247475848147922603722",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0092",
@@ -4266,7 +4357,8 @@
         }
       ],
       "correctOptionId": "F",
-      "usageId": "242386776460877664543030006854131357636"
+      "usageId": "242386776460877664543030006854131357636",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0093",
@@ -4312,7 +4404,8 @@
         }
       ],
       "correctOptionId": "A",
-      "usageId": "257147048996069112341732630648796184979"
+      "usageId": "257147048996069112341732630648796184979",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0094",
@@ -4358,7 +4451,8 @@
         }
       ],
       "correctOptionId": "D",
-      "usageId": "327324175206505947262104108688086179158"
+      "usageId": "327324175206505947262104108688086179158",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0095",
@@ -4404,7 +4498,8 @@
         }
       ],
       "correctOptionId": "B",
-      "usageId": "309076977121775744862592719927776049203"
+      "usageId": "309076977121775744862592719927776049203",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0096",
@@ -4450,7 +4545,8 @@
         }
       ],
       "correctOptionId": "E",
-      "usageId": "168729587472793193881581573248576051645"
+      "usageId": "168729587472793193881581573248576051645",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0097",
@@ -4496,7 +4592,8 @@
         }
       ],
       "correctOptionId": "C",
-      "usageId": "226078656839486299930259118090530552047"
+      "usageId": "226078656839486299930259118090530552047",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0098",
@@ -4542,7 +4639,8 @@
         }
       ],
       "correctOptionId": "F",
-      "usageId": "334830170967315435101341140009960254990"
+      "usageId": "334830170967315435101341140009960254990",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0099",
@@ -4589,7 +4687,8 @@
         }
       ],
       "correctOptionId": "A",
-      "usageId": "1767553283957062980500371754176769937"
+      "usageId": "1767553283957062980500371754176769937",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0100",
@@ -4635,7 +4734,8 @@
         }
       ],
       "correctOptionId": "D",
-      "usageId": "183199469675955340330115476236165220042"
+      "usageId": "183199469675955340330115476236165220042",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0101",
@@ -4682,7 +4782,8 @@
         }
       ],
       "correctOptionId": "B",
-      "usageId": "170789674583673292124300156069010457399"
+      "usageId": "170789674583673292124300156069010457399",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0102",
@@ -4728,7 +4829,8 @@
         }
       ],
       "correctOptionId": "E",
-      "usageId": "28546101817922362668677666710043352513"
+      "usageId": "28546101817922362668677666710043352513",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0103",
@@ -4774,7 +4876,8 @@
         }
       ],
       "correctOptionId": "C",
-      "usageId": "171937122343101294258829066660076033181"
+      "usageId": "171937122343101294258829066660076033181",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0104",
@@ -4820,7 +4923,8 @@
         }
       ],
       "correctOptionId": "F",
-      "usageId": "265414863135804287630717826910524681263"
+      "usageId": "265414863135804287630717826910524681263",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0105",
@@ -4870,7 +4974,8 @@
         }
       ],
       "correctOptionId": "A",
-      "usageId": "161152257665890800141917078668496499682"
+      "usageId": "161152257665890800141917078668496499682",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0106",
@@ -4917,7 +5022,8 @@
         }
       ],
       "correctOptionId": "D",
-      "usageId": "254108557281757999412591985629706588846"
+      "usageId": "254108557281757999412591985629706588846",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0107",
@@ -4963,7 +5069,8 @@
         }
       ],
       "correctOptionId": "B",
-      "usageId": "196585282782896198775856481942824946609"
+      "usageId": "196585282782896198775856481942824946609",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0108",
@@ -4979,7 +5086,7 @@
         "المرض الدائم",
         "التعب"
       ],
-      "hint": "يقترن بـ«النَّصَب» (التعب والإعياء)، ويدل على الوجع اللازم.",
+      "hint": "يقترن بـ«النَّصَب» (المشقة والإعياء)، ويشير إلى السَّقَم والألم الدائم الملازم للبدن.",
       "clues": [],
       "explanation": "الوَصَب هو الوجع والمرض الدائم اللازم، والنَّصَب هو التعب والإعياء.",
       "sources": [
@@ -5013,7 +5120,8 @@
         }
       ],
       "correctOptionId": "E",
-      "usageId": "73345323666211794392984282460229534038"
+      "usageId": "73345323666211794392984282460229534038",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0109",
@@ -5059,7 +5167,8 @@
         }
       ],
       "correctOptionId": "C",
-      "usageId": "138715070319697416097998006646849222640"
+      "usageId": "138715070319697416097998006646849222640",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0110",
@@ -5105,7 +5214,8 @@
         }
       ],
       "correctOptionId": "F",
-      "usageId": "287952976249739304823600829553767023558"
+      "usageId": "287952976249739304823600829553767023558",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0111",
@@ -5153,7 +5263,8 @@
         }
       ],
       "correctOptionId": "A",
-      "usageId": "259283470282700281784720703622287063592"
+      "usageId": "259283470282700281784720703622287063592",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0112",
@@ -5199,7 +5310,8 @@
         }
       ],
       "correctOptionId": "D",
-      "usageId": "139868463594762348901613338462079009644"
+      "usageId": "139868463594762348901613338462079009644",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0113",
@@ -5245,7 +5357,8 @@
         }
       ],
       "correctOptionId": "B",
-      "usageId": "231148573004415243097975796729253151968"
+      "usageId": "231148573004415243097975796729253151968",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0114",
@@ -5291,7 +5404,8 @@
         }
       ],
       "correctOptionId": "E",
-      "usageId": "168414491317957159130240689181927662830"
+      "usageId": "168414491317957159130240689181927662830",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0115",
@@ -5340,7 +5454,8 @@
         }
       ],
       "correctOptionId": "C",
-      "usageId": "315083913206734280058134708289456536061"
+      "usageId": "315083913206734280058134708289456536061",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0116",
@@ -5386,7 +5501,8 @@
         }
       ],
       "correctOptionId": "F",
-      "usageId": "122155743133141696418433554556637671183"
+      "usageId": "122155743133141696418433554556637671183",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0117",
@@ -5432,7 +5548,8 @@
         }
       ],
       "correctOptionId": "A",
-      "usageId": "116900695324275924085131136412910257593"
+      "usageId": "116900695324275924085131136412910257593",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0118",
@@ -5478,7 +5595,8 @@
         }
       ],
       "correctOptionId": "D",
-      "usageId": "252089108619072916939153044376919402698"
+      "usageId": "252089108619072916939153044376919402698",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0119",
@@ -5524,7 +5642,8 @@
         }
       ],
       "correctOptionId": "B",
-      "usageId": "14957420481063166501290340577374552762"
+      "usageId": "14957420481063166501290340577374552762",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0120",
@@ -5574,7 +5693,8 @@
         }
       ],
       "correctOptionId": "E",
-      "usageId": "279210443265758319362057478639473920721"
+      "usageId": "279210443265758319362057478639473920721",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0121",
@@ -5620,7 +5740,8 @@
         }
       ],
       "correctOptionId": "C",
-      "usageId": "192321550951792478761895109000066573906"
+      "usageId": "192321550951792478761895109000066573906",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0122",
@@ -5666,7 +5787,8 @@
         }
       ],
       "correctOptionId": "F",
-      "usageId": "35450084462387612414753690857984604199"
+      "usageId": "35450084462387612414753690857984604199",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0123",
@@ -5712,7 +5834,8 @@
         }
       ],
       "correctOptionId": "A",
-      "usageId": "146169765990411521579014111022716811472"
+      "usageId": "146169765990411521579014111022716811472",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0124",
@@ -5758,7 +5881,8 @@
         }
       ],
       "correctOptionId": "D",
-      "usageId": "331886495807555410180130361405935583754"
+      "usageId": "331886495807555410180130361405935583754",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0125",
@@ -5804,7 +5928,8 @@
         }
       ],
       "correctOptionId": "B",
-      "usageId": "46428462551632009188877615960438697277"
+      "usageId": "46428462551632009188877615960438697277",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0126",
@@ -5850,7 +5975,8 @@
         }
       ],
       "correctOptionId": "E",
-      "usageId": "10753115113173913785908715457486684050"
+      "usageId": "10753115113173913785908715457486684050",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0127",
@@ -5895,7 +6021,8 @@
         }
       ],
       "correctOptionId": "C",
-      "usageId": "81357065067428501113068346389609541673"
+      "usageId": "81357065067428501113068346389609541673",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0128",
@@ -5942,7 +6069,8 @@
         }
       ],
       "correctOptionId": "F",
-      "usageId": "117554654924381281739559689367350980621"
+      "usageId": "117554654924381281739559689367350980621",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0129",
@@ -5988,7 +6116,8 @@
         }
       ],
       "correctOptionId": "A",
-      "usageId": "44842837041629971758995670902718247168"
+      "usageId": "44842837041629971758995670902718247168",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0130",
@@ -6034,7 +6163,8 @@
         }
       ],
       "correctOptionId": "D",
-      "usageId": "186497006132034304880174738605599241108"
+      "usageId": "186497006132034304880174738605599241108",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0131",
@@ -6080,7 +6210,8 @@
         }
       ],
       "correctOptionId": "B",
-      "usageId": "138528505503912608495613483069101780777"
+      "usageId": "138528505503912608495613483069101780777",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0132",
@@ -6125,7 +6256,8 @@
         }
       ],
       "correctOptionId": "E",
-      "usageId": "216645552630410943352989763141622789209"
+      "usageId": "216645552630410943352989763141622789209",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0133",
@@ -6172,13 +6304,14 @@
         }
       ],
       "correctOptionId": "C",
-      "usageId": "108713004092014079966483820356607811465"
+      "usageId": "108713004092014079966483820356607811465",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0134",
       "categoryId": "meanings",
       "difficulty": "easy",
-      "text": "ماذا يُسمّى النبات اليابس المتكسّر بعد جفافه كما في قوله تعالى: ﴿فَأَصْبَحَ هَشِيمًا تَذْرُوهُ الرِّيَاحُ﴾؟",
+      "text": "ماذا يُسمّى النبات اليابس المتكسّر بعد جفافه وذرو الرياح له في لغة القرآن والعرب؟",
       "answer": "الهَشيم",
       "acceptedAnswers": [
         "الهشيم"
@@ -6217,7 +6350,8 @@
         }
       ],
       "correctOptionId": "F",
-      "usageId": "165014499100660259993291566744227016480"
+      "usageId": "165014499100660259993291566744227016480",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0135",
@@ -6262,7 +6396,8 @@
         }
       ],
       "correctOptionId": "A",
-      "usageId": "203425049327850494275745940603390828087"
+      "usageId": "203425049327850494275745940603390828087",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0136",
@@ -6308,7 +6443,8 @@
         }
       ],
       "correctOptionId": "D",
-      "usageId": "114855430742441864306046378353386667358"
+      "usageId": "114855430742441864306046378353386667358",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0137",
@@ -6355,7 +6491,8 @@
         }
       ],
       "correctOptionId": "B",
-      "usageId": "8901518966040240398188193514308284475"
+      "usageId": "8901518966040240398188193514308284475",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0138",
@@ -6400,7 +6537,8 @@
         }
       ],
       "correctOptionId": "E",
-      "usageId": "177027306879954060072367929329438847595"
+      "usageId": "177027306879954060072367929329438847595",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0139",
@@ -6447,7 +6585,8 @@
         }
       ],
       "correctOptionId": "C",
-      "usageId": "53800508730523150926222926948523627913"
+      "usageId": "53800508730523150926222926948523627913",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0140",
@@ -6493,7 +6632,8 @@
         }
       ],
       "correctOptionId": "F",
-      "usageId": "169514196597041183715313725243100323086"
+      "usageId": "169514196597041183715313725243100323086",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0141",
@@ -6504,7 +6644,7 @@
       "acceptedAnswers": [
         "القيلولة"
       ],
-      "hint": "مشتقة من الفعل «قالَ يَقيلُ قَيْلولةً» في وقت الظهيرة.",
+      "hint": "تبدأ بالقاف المفتوحة والياء الساكنة، وتُعين الجسد على استعادة نشاطه في هجير النهار.",
       "clues": [],
       "explanation": "القيلولة هي الاستراحة أو النوم في نصف النهار عند الهاجرة، وإن لم يكن معها نوم عند بعض أهل اللغة.",
       "sources": [
@@ -6538,7 +6678,8 @@
         }
       ],
       "correctOptionId": "A",
-      "usageId": "238740887836941279664777687843073783998"
+      "usageId": "238740887836941279664777687843073783998",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0142",
@@ -6584,7 +6725,8 @@
         }
       ],
       "correctOptionId": "D",
-      "usageId": "301952677618145229333281148916434695966"
+      "usageId": "301952677618145229333281148916434695966",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0143",
@@ -6629,7 +6771,8 @@
         }
       ],
       "correctOptionId": "B",
-      "usageId": "95412940227405926165356200714310513763"
+      "usageId": "95412940227405926165356200714310513763",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0144",
@@ -6675,7 +6818,8 @@
         }
       ],
       "correctOptionId": "E",
-      "usageId": "296122433615230568607318976337180968496"
+      "usageId": "296122433615230568607318976337180968496",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0145",
@@ -6721,7 +6865,8 @@
         }
       ],
       "correctOptionId": "C",
-      "usageId": "110926228728431212043549128943796566202"
+      "usageId": "110926228728431212043549128943796566202",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0146",
@@ -6767,7 +6912,8 @@
         }
       ],
       "correctOptionId": "F",
-      "usageId": "138050017573856144180961545989400089203"
+      "usageId": "138050017573856144180961545989400089203",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0147",
@@ -6813,7 +6959,8 @@
         }
       ],
       "correctOptionId": "A",
-      "usageId": "149187227509991820744303333602477953527"
+      "usageId": "149187227509991820744303333602477953527",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0148",
@@ -6859,7 +7006,8 @@
         }
       ],
       "correctOptionId": "D",
-      "usageId": "44227769577900136294897280583371640560"
+      "usageId": "44227769577900136294897280583371640560",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0149",
@@ -6905,7 +7053,8 @@
         }
       ],
       "correctOptionId": "B",
-      "usageId": "135035086387253365224701889264274627581"
+      "usageId": "135035086387253365224701889264274627581",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0150",
@@ -6951,7 +7100,8 @@
         }
       ],
       "correctOptionId": "E",
-      "usageId": "226619836332018725737074836063353705628"
+      "usageId": "226619836332018725737074836063353705628",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0151",
@@ -6997,7 +7147,8 @@
         }
       ],
       "correctOptionId": "C",
-      "usageId": "317725538077004331896648718293585740008"
+      "usageId": "317725538077004331896648718293585740008",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0152",
@@ -7043,7 +7194,8 @@
         }
       ],
       "correctOptionId": "F",
-      "usageId": "115155472878558848829995387793171161393"
+      "usageId": "115155472878558848829995387793171161393",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0153",
@@ -7089,7 +7241,8 @@
         }
       ],
       "correctOptionId": "A",
-      "usageId": "6291895605734705542803386330691963872"
+      "usageId": "6291895605734705542803386330691963872",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0154",
@@ -7135,7 +7288,8 @@
         }
       ],
       "correctOptionId": "D",
-      "usageId": "295600598349053381071892166545723528419"
+      "usageId": "295600598349053381071892166545723528419",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0155",
@@ -7181,7 +7335,8 @@
         }
       ],
       "correctOptionId": "B",
-      "usageId": "129655159887937951638874403959011604046"
+      "usageId": "129655159887937951638874403959011604046",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0156",
@@ -7227,7 +7382,8 @@
         }
       ],
       "correctOptionId": "E",
-      "usageId": "38603164221984108291155101007357004120"
+      "usageId": "38603164221984108291155101007357004120",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0157",
@@ -7273,7 +7429,8 @@
         }
       ],
       "correctOptionId": "C",
-      "usageId": "274409346399974928863048513061445895295"
+      "usageId": "274409346399974928863048513061445895295",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0158",
@@ -7319,7 +7476,8 @@
         }
       ],
       "correctOptionId": "F",
-      "usageId": "325652325592107730525799770265481177608"
+      "usageId": "325652325592107730525799770265481177608",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0159",
@@ -7365,7 +7523,8 @@
         }
       ],
       "correctOptionId": "A",
-      "usageId": "321912522671380186880319180961733330957"
+      "usageId": "321912522671380186880319180961733330957",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0160",
@@ -7411,7 +7570,8 @@
         }
       ],
       "correctOptionId": "D",
-      "usageId": "256524422349496261404376565219998425409"
+      "usageId": "256524422349496261404376565219998425409",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0161",
@@ -7423,7 +7583,7 @@
         "العواء",
         "عواء الذئب"
       ],
-      "hint": "يُقال في الفصحى: عَوى الذئبُ يَعْوي عُواءً.",
+      "hint": "صوت ممتد حزين ينطلق في عتمة الصحراء، وتسمع الكلاب أحيانًا تفعله تقليدًا.",
       "clues": [],
       "explanation": "العُواء هو صوت الذئب والكلب وابن آوى إذا لوى خطمه ومدّ صوته.",
       "sources": [
@@ -7457,7 +7617,8 @@
         }
       ],
       "correctOptionId": "B",
-      "usageId": "304065731649669466386018133742636321568"
+      "usageId": "304065731649669466386018133742636321568",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0162",
@@ -7503,7 +7664,8 @@
         }
       ],
       "correctOptionId": "E",
-      "usageId": "299452618081528903289325538765435411355"
+      "usageId": "299452618081528903289325538765435411355",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0163",
@@ -7549,7 +7711,8 @@
         }
       ],
       "correctOptionId": "C",
-      "usageId": "89621937603505394192954020960047662126"
+      "usageId": "89621937603505394192954020960047662126",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0164",
@@ -7561,7 +7724,7 @@
         "الخوار",
         "خوار البقر"
       ],
-      "hint": "ورد في قوله تعالى: ﴿فَأَخْرَجَ لَهُمْ عِجْلًا جَسَدًا لَّهُ خُوَارٌ﴾.",
+      "hint": "يبدأ بالخاء المضمومة والواو، وهو صوت غليظ ممتد يصدر عن ذوات القرون والأظلاف من الماشية.",
       "clues": [],
       "explanation": "الخُوار هو صوت البقر والعجول، يقال: خارَ الثورُ يَخورُ خُوارًا.",
       "sources": [
@@ -7595,7 +7758,8 @@
         }
       ],
       "correctOptionId": "F",
-      "usageId": "113110065220918783015217920545525454466"
+      "usageId": "113110065220918783015217920545525454466",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0165",
@@ -7641,7 +7805,8 @@
         }
       ],
       "correctOptionId": "A",
-      "usageId": "199003884752173432460892305167422698577"
+      "usageId": "199003884752173432460892305167422698577",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0166",
@@ -7688,7 +7853,8 @@
         }
       ],
       "correctOptionId": "D",
-      "usageId": "47275779457019847302308884164601679756"
+      "usageId": "47275779457019847302308884164601679756",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0167",
@@ -7735,7 +7901,8 @@
         }
       ],
       "correctOptionId": "B",
-      "usageId": "255986889196593842876832140550133923289"
+      "usageId": "255986889196593842876832140550133923289",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0168",
@@ -7787,7 +7954,8 @@
         }
       ],
       "correctOptionId": "E",
-      "usageId": "4645366320595535171792355629315833668"
+      "usageId": "4645366320595535171792355629315833668",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0169",
@@ -7832,7 +8000,8 @@
         }
       ],
       "correctOptionId": "C",
-      "usageId": "211617064461894522717749725023881560635"
+      "usageId": "211617064461894522717749725023881560635",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0170",
@@ -7878,7 +8047,8 @@
         }
       ],
       "correctOptionId": "F",
-      "usageId": "160812428181096326466045505013749075444"
+      "usageId": "160812428181096326466045505013749075444",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0171",
@@ -7925,7 +8095,8 @@
         }
       ],
       "correctOptionId": "A",
-      "usageId": "77271694429177243708090123402224603485"
+      "usageId": "77271694429177243708090123402224603485",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0172",
@@ -7971,7 +8142,8 @@
         }
       ],
       "correctOptionId": "D",
-      "usageId": "88408703466813937483157993452136801590"
+      "usageId": "88408703466813937483157993452136801590",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0173",
@@ -8018,7 +8190,8 @@
         }
       ],
       "correctOptionId": "B",
-      "usageId": "284796627186399626417528364414058299851"
+      "usageId": "284796627186399626417528364414058299851",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0174",
@@ -8064,7 +8237,8 @@
         }
       ],
       "correctOptionId": "E",
-      "usageId": "114529958125271022085472233852697980955"
+      "usageId": "114529958125271022085472233852697980955",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0175",
@@ -8112,7 +8286,8 @@
         }
       ],
       "correctOptionId": "C",
-      "usageId": "313435413807814147905305289918497700270"
+      "usageId": "313435413807814147905305289918497700270",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0176",
@@ -8163,7 +8338,8 @@
         }
       ],
       "correctOptionId": "F",
-      "usageId": "3027218986791417126663108800119591546"
+      "usageId": "3027218986791417126663108800119591546",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0177",
@@ -8209,7 +8385,8 @@
         }
       ],
       "correctOptionId": "A",
-      "usageId": "200834966199399611647333065747406892374"
+      "usageId": "200834966199399611647333065747406892374",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0178",
@@ -8255,7 +8432,8 @@
         }
       ],
       "correctOptionId": "D",
-      "usageId": "112784473173662494498732264744637402802"
+      "usageId": "112784473173662494498732264744637402802",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0179",
@@ -8301,7 +8479,8 @@
         }
       ],
       "correctOptionId": "B",
-      "usageId": "291942618603115526013945795687750556614"
+      "usageId": "291942618603115526013945795687750556614",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0180",
@@ -8347,7 +8526,8 @@
         }
       ],
       "correctOptionId": "E",
-      "usageId": "6370445372028195682789653594993004759"
+      "usageId": "6370445372028195682789653594993004759",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0181",
@@ -8393,7 +8573,8 @@
         }
       ],
       "correctOptionId": "C",
-      "usageId": "104815012319366836261039106461583136010"
+      "usageId": "104815012319366836261039106461583136010",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0182",
@@ -8440,7 +8621,8 @@
         }
       ],
       "correctOptionId": "F",
-      "usageId": "35971526877331224217935982545199020213"
+      "usageId": "35971526877331224217935982545199020213",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0183",
@@ -8486,7 +8668,8 @@
         }
       ],
       "correctOptionId": "A",
-      "usageId": "178297710804000461224433702127798210893"
+      "usageId": "178297710804000461224433702127798210893",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0184",
@@ -8532,7 +8715,8 @@
         }
       ],
       "correctOptionId": "D",
-      "usageId": "66139350079517395564543909863765004570"
+      "usageId": "66139350079517395564543909863765004570",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0185",
@@ -8580,7 +8764,8 @@
         }
       ],
       "correctOptionId": "B",
-      "usageId": "40352545252117304292283832206885859672"
+      "usageId": "40352545252117304292283832206885859672",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0186",
@@ -8627,7 +8812,8 @@
         }
       ],
       "correctOptionId": "E",
-      "usageId": "310396357187195518432262886274277058328"
+      "usageId": "310396357187195518432262886274277058328",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0187",
@@ -8675,7 +8861,8 @@
         }
       ],
       "correctOptionId": "C",
-      "usageId": "319025975180400872153812126737178866900"
+      "usageId": "319025975180400872153812126737178866900",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0188",
@@ -8721,7 +8908,8 @@
         }
       ],
       "correctOptionId": "F",
-      "usageId": "82557284404672508952833505989031971439"
+      "usageId": "82557284404672508952833505989031971439",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0189",
@@ -8767,7 +8955,8 @@
         }
       ],
       "correctOptionId": "A",
-      "usageId": "324105107806322651635208700576615714930"
+      "usageId": "324105107806322651635208700576615714930",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0190",
@@ -8813,7 +9002,8 @@
         }
       ],
       "correctOptionId": "D",
-      "usageId": "252475476533587565819157866299278839555"
+      "usageId": "252475476533587565819157866299278839555",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0191",
@@ -8859,7 +9049,8 @@
         }
       ],
       "correctOptionId": "B",
-      "usageId": "329193944822642314124514710143717602362"
+      "usageId": "329193944822642314124514710143717602362",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0192",
@@ -8905,7 +9096,8 @@
         }
       ],
       "correctOptionId": "E",
-      "usageId": "5172912930788217554311484772887031806"
+      "usageId": "5172912930788217554311484772887031806",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0193",
@@ -8951,7 +9143,8 @@
         }
       ],
       "correctOptionId": "C",
-      "usageId": "157881933766682546868485904141533643405"
+      "usageId": "157881933766682546868485904141533643405",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0194",
@@ -8997,7 +9190,8 @@
         }
       ],
       "correctOptionId": "F",
-      "usageId": "35143861635228004883318225425406460786"
+      "usageId": "35143861635228004883318225425406460786",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0195",
@@ -9043,7 +9237,8 @@
         }
       ],
       "correctOptionId": "A",
-      "usageId": "101354147506971036609881246711465380228"
+      "usageId": "101354147506971036609881246711465380228",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0196",
@@ -9089,7 +9284,8 @@
         }
       ],
       "correctOptionId": "D",
-      "usageId": "289487856817855453083459851710022671655"
+      "usageId": "289487856817855453083459851710022671655",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0197",
@@ -9139,7 +9335,8 @@
         }
       ],
       "correctOptionId": "B",
-      "usageId": "299927175577642752579449727211384104927"
+      "usageId": "299927175577642752579449727211384104927",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0198",
@@ -9186,7 +9383,8 @@
         }
       ],
       "correctOptionId": "E",
-      "usageId": "227296022765010577678599069719938310489"
+      "usageId": "227296022765010577678599069719938310489",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0199",
@@ -9237,7 +9435,8 @@
         }
       ],
       "correctOptionId": "C",
-      "usageId": "11409825681953286769986993448884733770"
+      "usageId": "11409825681953286769986993448884733770",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0200",
@@ -9282,7 +9481,8 @@
         }
       ],
       "correctOptionId": "F",
-      "usageId": "193353692288661635865673990354546042393"
+      "usageId": "193353692288661635865673990354546042393",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-easy-0201",
@@ -10403,7 +10603,8 @@
         }
       ],
       "correctOptionId": "F",
-      "usageId": "201806357011926905044800912604317077859"
+      "usageId": "201806357011926905044800912604317077859",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0002",
@@ -10452,7 +10653,8 @@
         }
       ],
       "correctOptionId": "A",
-      "usageId": "185266979819514832106196152856879496344"
+      "usageId": "185266979819514832106196152856879496344",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0003",
@@ -10498,7 +10700,8 @@
         }
       ],
       "correctOptionId": "D",
-      "usageId": "321183674017439689070567470052343980367"
+      "usageId": "321183674017439689070567470052343980367",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0004",
@@ -10544,7 +10747,8 @@
         }
       ],
       "correctOptionId": "B",
-      "usageId": "265221658019907669042845636730764483601"
+      "usageId": "265221658019907669042845636730764483601",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0005",
@@ -10590,7 +10794,8 @@
         }
       ],
       "correctOptionId": "E",
-      "usageId": "332964982391735082908035005386845337237"
+      "usageId": "332964982391735082908035005386845337237",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0006",
@@ -10640,7 +10845,8 @@
         }
       ],
       "correctOptionId": "C",
-      "usageId": "296277631208438090341581677328843568146"
+      "usageId": "296277631208438090341581677328843568146",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0007",
@@ -10686,7 +10892,8 @@
         }
       ],
       "correctOptionId": "F",
-      "usageId": "30800658941001941039036003292457308584"
+      "usageId": "30800658941001941039036003292457308584",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0008",
@@ -10732,7 +10939,8 @@
         }
       ],
       "correctOptionId": "A",
-      "usageId": "296138261423177320147900938614232144951"
+      "usageId": "296138261423177320147900938614232144951",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0009",
@@ -10778,7 +10986,8 @@
         }
       ],
       "correctOptionId": "D",
-      "usageId": "241381592592088845373276219824373712175"
+      "usageId": "241381592592088845373276219824373712175",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0010",
@@ -10824,7 +11033,8 @@
         }
       ],
       "correctOptionId": "B",
-      "usageId": "120305318321174363121509618304474544853"
+      "usageId": "120305318321174363121509618304474544853",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0011",
@@ -10870,7 +11080,8 @@
         }
       ],
       "correctOptionId": "E",
-      "usageId": "2564143872514127752388983476965972128"
+      "usageId": "2564143872514127752388983476965972128",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0012",
@@ -10916,7 +11127,8 @@
         }
       ],
       "correctOptionId": "C",
-      "usageId": "221465105309691560359231489807144306275"
+      "usageId": "221465105309691560359231489807144306275",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0013",
@@ -10962,7 +11174,8 @@
         }
       ],
       "correctOptionId": "F",
-      "usageId": "151440318220681017581304706208419105779"
+      "usageId": "151440318220681017581304706208419105779",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0014",
@@ -11008,7 +11221,8 @@
         }
       ],
       "correctOptionId": "A",
-      "usageId": "225851614621551512842215663688334634342"
+      "usageId": "225851614621551512842215663688334634342",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0015",
@@ -11054,7 +11268,8 @@
         }
       ],
       "correctOptionId": "D",
-      "usageId": "256597011273262302396229171488563385318"
+      "usageId": "256597011273262302396229171488563385318",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0016",
@@ -11101,7 +11316,8 @@
         }
       ],
       "correctOptionId": "B",
-      "usageId": "173916271696367911100115652371412681980"
+      "usageId": "173916271696367911100115652371412681980",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0017",
@@ -11147,7 +11363,8 @@
         }
       ],
       "correctOptionId": "E",
-      "usageId": "182684770838386099189347951238510371503"
+      "usageId": "182684770838386099189347951238510371503",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0018",
@@ -11193,7 +11410,8 @@
         }
       ],
       "correctOptionId": "C",
-      "usageId": "23369657386504097155270726240897476076"
+      "usageId": "23369657386504097155270726240897476076",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0019",
@@ -11239,7 +11457,8 @@
         }
       ],
       "correctOptionId": "F",
-      "usageId": "124746330862843193719239922187600961389"
+      "usageId": "124746330862843193719239922187600961389",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0020",
@@ -11285,7 +11504,8 @@
         }
       ],
       "correctOptionId": "A",
-      "usageId": "207454950669885784690227403326996895237"
+      "usageId": "207454950669885784690227403326996895237",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0021",
@@ -11331,7 +11551,8 @@
         }
       ],
       "correctOptionId": "D",
-      "usageId": "32501660957342448614885203812962315393"
+      "usageId": "32501660957342448614885203812962315393",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0022",
@@ -11379,7 +11600,8 @@
         }
       ],
       "correctOptionId": "B",
-      "usageId": "231435393972244148191730002730137531974"
+      "usageId": "231435393972244148191730002730137531974",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0023",
@@ -11424,7 +11646,8 @@
         }
       ],
       "correctOptionId": "E",
-      "usageId": "319144879640925203863493332517021872938"
+      "usageId": "319144879640925203863493332517021872938",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0024",
@@ -11470,7 +11693,8 @@
         }
       ],
       "correctOptionId": "C",
-      "usageId": "290872892878509443124486238610432825096"
+      "usageId": "290872892878509443124486238610432825096",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0025",
@@ -11516,7 +11740,8 @@
         }
       ],
       "correctOptionId": "F",
-      "usageId": "130556368854654043128208559868570819229"
+      "usageId": "130556368854654043128208559868570819229",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0026",
@@ -11561,7 +11786,8 @@
         }
       ],
       "correctOptionId": "A",
-      "usageId": "156289043451626641799638573561864324069"
+      "usageId": "156289043451626641799638573561864324069",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0027",
@@ -11606,7 +11832,8 @@
         }
       ],
       "correctOptionId": "D",
-      "usageId": "253420631752570981933879371947564048876"
+      "usageId": "253420631752570981933879371947564048876",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0028",
@@ -11651,7 +11878,8 @@
         }
       ],
       "correctOptionId": "B",
-      "usageId": "173994835479648706620620348864821313731"
+      "usageId": "173994835479648706620620348864821313731",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0029",
@@ -11664,7 +11892,7 @@
         "الغدوة",
         "الغُدُوّ"
       ],
-      "hint": "ورد المقابلان معًا في القرآن والحديث: «غُدُوُّها شهرٌ ورَواحُها شهر».",
+      "hint": "يبدأ بالغين المضمومة والدال، ويقترن بالبكور وانطلاق الطير من أوكارها طلبًا للرزق.",
       "clues": [],
       "explanation": "الغُدُوّ هو السير أول النهار، ويقابله الرَّواح وهو السير بعد زوال الشمس إلى العشي، والسُّرى بالليل.",
       "sources": [
@@ -11698,7 +11926,8 @@
         }
       ],
       "correctOptionId": "E",
-      "usageId": "100469271046740140074273982041916606596"
+      "usageId": "100469271046740140074273982041916606596",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0030",
@@ -11743,7 +11972,8 @@
         }
       ],
       "correctOptionId": "C",
-      "usageId": "217298367389999160490038318447113511017"
+      "usageId": "217298367389999160490038318447113511017",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0031",
@@ -11754,7 +11984,7 @@
       "acceptedAnswers": [
         "الغبوق"
       ],
-      "hint": "يقابل «الصَّبوح»؛ يُقال في الفصحى: سقاه صَبوحًا وغَبوقًا.",
+      "hint": "يبدأ بالغين المفتوحة والباء، وهو ضد ما يُشرب عند انبلاج الصبح مع الإشراق.",
       "clues": [],
       "explanation": "الغَبُوق هو الشراب الذي يُشرب بالعشيّ (المساء)، يُقال: غَبَقَ الضيفَ يَغْبِقُه إذا سقاه بالعشي.",
       "sources": [
@@ -11788,7 +12018,8 @@
         }
       ],
       "correctOptionId": "F",
-      "usageId": "91116680160030202307870226516670949577"
+      "usageId": "91116680160030202307870226516670949577",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0032",
@@ -11800,7 +12031,7 @@
         "القرى",
         "قرى الضيف"
       ],
-      "hint": "من الفعل «قَرى الضيفَ يَقْريهِ»، ومنه قولهم: «فلانٌ يُحسِنُ قِرى الأضياف».",
+      "hint": "اسم مقصور من ثلاثة أحرف يبدأ بالقاف المكسورة، وهو مظهر كرم الضيافة عند العرب.",
       "clues": [],
       "explanation": "القِرَى (بكسر القاف مقصورًا) هو طعام الضيف وإكرامه، ويقال للمطعم: مِقْرى ومِقْراة.",
       "sources": [
@@ -11834,7 +12065,8 @@
         }
       ],
       "correctOptionId": "A",
-      "usageId": "289988750189120660818881361227234036334"
+      "usageId": "289988750189120660818881361227234036334",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0033",
@@ -11879,7 +12111,8 @@
         }
       ],
       "correctOptionId": "D",
-      "usageId": "187899631138283306752106946729694291914"
+      "usageId": "187899631138283306752106946729694291914",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0034",
@@ -11924,7 +12157,8 @@
         }
       ],
       "correctOptionId": "B",
-      "usageId": "164490927891991995013119440773140135877"
+      "usageId": "164490927891991995013119440773140135877",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0035",
@@ -11969,7 +12203,8 @@
         }
       ],
       "correctOptionId": "E",
-      "usageId": "270069189069659373446720031986382560303"
+      "usageId": "270069189069659373446720031986382560303",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0036",
@@ -12014,7 +12249,8 @@
         }
       ],
       "correctOptionId": "C",
-      "usageId": "197376951002238642382119442524966920935"
+      "usageId": "197376951002238642382119442524966920935",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0037",
@@ -12031,7 +12267,7 @@
         "السَّغَب",
         "الضَّوَر"
       ],
-      "hint": "وردت الكلمة في سورة البلد: ﴿أَوْ إِطْعَامٌ فِي يَوْمٍ ذِي مَسْغَبَةٍ﴾.",
+      "hint": "تبدأ بالميم والسين، وتُطلق على المجاعة الكالحة التي تعصف بالبلاد والعباد.",
       "clues": [],
       "explanation": "السَّغَب والمَسْغَبة والضَّوَر هي مراتب الجوع الشديد المقرون بالتعب والهزال.",
       "sources": [
@@ -12065,7 +12301,8 @@
         }
       ],
       "correctOptionId": "F",
-      "usageId": "53733094139500771429203800102135940326"
+      "usageId": "53733094139500771429203800102135940326",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0038",
@@ -12116,7 +12353,8 @@
         }
       ],
       "correctOptionId": "A",
-      "usageId": "135250092117984938911720691319570569757"
+      "usageId": "135250092117984938911720691319570569757",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0039",
@@ -12161,7 +12399,8 @@
         }
       ],
       "correctOptionId": "D",
-      "usageId": "298900403439801671246713920216743444412"
+      "usageId": "298900403439801671246713920216743444412",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0040",
@@ -12207,7 +12446,8 @@
         }
       ],
       "correctOptionId": "B",
-      "usageId": "139742442784893146159223797720243802611"
+      "usageId": "139742442784893146159223797720243802611",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0041",
@@ -12252,7 +12492,8 @@
         }
       ],
       "correctOptionId": "E",
-      "usageId": "95309864957643429828699711468213917819"
+      "usageId": "95309864957643429828699711468213917819",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0042",
@@ -12302,7 +12543,8 @@
         }
       ],
       "correctOptionId": "C",
-      "usageId": "25587794462170569643456155617931103878"
+      "usageId": "25587794462170569643456155617931103878",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0043",
@@ -12352,7 +12594,8 @@
         }
       ],
       "correctOptionId": "F",
-      "usageId": "314994119545723259989679493443260713779"
+      "usageId": "314994119545723259989679493443260713779",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0044",
@@ -12397,7 +12640,8 @@
         }
       ],
       "correctOptionId": "A",
-      "usageId": "179872526846527979062596858854607864380"
+      "usageId": "179872526846527979062596858854607864380",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0045",
@@ -12445,7 +12689,8 @@
         }
       ],
       "correctOptionId": "D",
-      "usageId": "29217494471081153443503864400680105834"
+      "usageId": "29217494471081153443503864400680105834",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0046",
@@ -12490,7 +12735,8 @@
         }
       ],
       "correctOptionId": "B",
-      "usageId": "173356983187418419337430110155668384140"
+      "usageId": "173356983187418419337430110155668384140",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0047",
@@ -12536,7 +12782,8 @@
         }
       ],
       "correctOptionId": "E",
-      "usageId": "76046539937585394113644392332996327368"
+      "usageId": "76046539937585394113644392332996327368",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0048",
@@ -12587,7 +12834,8 @@
         }
       ],
       "correctOptionId": "C",
-      "usageId": "151594680775757846904763764502007162778"
+      "usageId": "151594680775757846904763764502007162778",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0049",
@@ -12633,7 +12881,8 @@
         }
       ],
       "correctOptionId": "F",
-      "usageId": "296494396392170815724265424106314886894"
+      "usageId": "296494396392170815724265424106314886894",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0050",
@@ -12679,7 +12928,8 @@
         }
       ],
       "correctOptionId": "A",
-      "usageId": "160288950741718148155899121289566351910"
+      "usageId": "160288950741718148155899121289566351910",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0051",
@@ -12725,7 +12975,8 @@
         }
       ],
       "correctOptionId": "D",
-      "usageId": "136078130950493963386550177179615665108"
+      "usageId": "136078130950493963386550177179615665108",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0052",
@@ -12773,7 +13024,8 @@
         }
       ],
       "correctOptionId": "B",
-      "usageId": "194027685773508092350658540298422040414"
+      "usageId": "194027685773508092350658540298422040414",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0053",
@@ -12819,7 +13071,8 @@
         }
       ],
       "correctOptionId": "E",
-      "usageId": "114366375372329966303877866126452903506"
+      "usageId": "114366375372329966303877866126452903506",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0054",
@@ -12865,7 +13118,8 @@
         }
       ],
       "correctOptionId": "C",
-      "usageId": "290452834312893971670162898148784048403"
+      "usageId": "290452834312893971670162898148784048403",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0055",
@@ -12913,7 +13167,8 @@
         }
       ],
       "correctOptionId": "F",
-      "usageId": "77515227312730060920585323741000964218"
+      "usageId": "77515227312730060920585323741000964218",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0056",
@@ -12959,7 +13214,8 @@
         }
       ],
       "correctOptionId": "A",
-      "usageId": "204637566458502015140310673258589594247"
+      "usageId": "204637566458502015140310673258589594247",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0057",
@@ -13005,7 +13261,8 @@
         }
       ],
       "correctOptionId": "D",
-      "usageId": "316660004988362657081523322741628001185"
+      "usageId": "316660004988362657081523322741628001185",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0058",
@@ -13051,7 +13308,8 @@
         }
       ],
       "correctOptionId": "B",
-      "usageId": "73825961383902727110392521311245214018"
+      "usageId": "73825961383902727110392521311245214018",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0059",
@@ -13097,7 +13355,8 @@
         }
       ],
       "correctOptionId": "E",
-      "usageId": "103315132766457899867828904274794750592"
+      "usageId": "103315132766457899867828904274794750592",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0060",
@@ -13143,7 +13402,8 @@
         }
       ],
       "correctOptionId": "C",
-      "usageId": "260977205235459925830872332239268189421"
+      "usageId": "260977205235459925830872332239268189421",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0061",
@@ -13189,7 +13449,8 @@
         }
       ],
       "correctOptionId": "F",
-      "usageId": "243416414166008798129042789828293275694"
+      "usageId": "243416414166008798129042789828293275694",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0062",
@@ -13235,7 +13496,8 @@
         }
       ],
       "correctOptionId": "A",
-      "usageId": "240782934056542582687298697246017821272"
+      "usageId": "240782934056542582687298697246017821272",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0063",
@@ -13281,7 +13543,8 @@
         }
       ],
       "correctOptionId": "D",
-      "usageId": "161893758504082156538813901197862300884"
+      "usageId": "161893758504082156538813901197862300884",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0064",
@@ -13327,7 +13590,8 @@
         }
       ],
       "correctOptionId": "B",
-      "usageId": "103646067309856732960072547153978939169"
+      "usageId": "103646067309856732960072547153978939169",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0065",
@@ -13373,7 +13637,8 @@
         }
       ],
       "correctOptionId": "E",
-      "usageId": "60349427998193544252464409283604337899"
+      "usageId": "60349427998193544252464409283604337899",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0066",
@@ -13419,7 +13684,8 @@
         }
       ],
       "correctOptionId": "C",
-      "usageId": "211623322146223924874530246344054985165"
+      "usageId": "211623322146223924874530246344054985165",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0067",
@@ -13465,7 +13731,8 @@
         }
       ],
       "correctOptionId": "F",
-      "usageId": "55625440021005612426293693672276245414"
+      "usageId": "55625440021005612426293693672276245414",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0068",
@@ -13512,7 +13779,8 @@
         }
       ],
       "correctOptionId": "A",
-      "usageId": "73700970604385357848320590556191577802"
+      "usageId": "73700970604385357848320590556191577802",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0069",
@@ -13560,7 +13828,8 @@
         }
       ],
       "correctOptionId": "D",
-      "usageId": "17116474508332492492009897893990719746"
+      "usageId": "17116474508332492492009897893990719746",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0070",
@@ -13608,7 +13877,8 @@
         }
       ],
       "correctOptionId": "B",
-      "usageId": "1688553607115509562622652588537915200"
+      "usageId": "1688553607115509562622652588537915200",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0071",
@@ -13655,7 +13925,8 @@
         }
       ],
       "correctOptionId": "E",
-      "usageId": "9085171303846567344430287127620361622"
+      "usageId": "9085171303846567344430287127620361622",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0072",
@@ -13701,7 +13972,8 @@
         }
       ],
       "correctOptionId": "C",
-      "usageId": "99730936141797414288430572003291026153"
+      "usageId": "99730936141797414288430572003291026153",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0073",
@@ -13749,7 +14021,8 @@
         }
       ],
       "correctOptionId": "F",
-      "usageId": "277550883860153567252375752185853918705"
+      "usageId": "277550883860153567252375752185853918705",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0074",
@@ -13795,7 +14068,8 @@
         }
       ],
       "correctOptionId": "A",
-      "usageId": "86145728970546697457415243668396409163"
+      "usageId": "86145728970546697457415243668396409163",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0075",
@@ -13807,7 +14081,7 @@
         "العرار",
         "عرار الظليم"
       ],
-      "hint": "يُقال في أمثال العرب وأشعارهم: «عَرَّ الظليمُ يَعِرُّ عِرارًا».",
+      "hint": "على وزن «فِعال» ويبدأ بالعين المكسورة، ومكرر الراء في وسطه وآخره.",
       "clues": [],
       "explanation": "العِرار هو صوت الظَّليم (ذكر النعام)، ويُقال: عارَّ الظليمُ وزمرتِ النعامةُ.",
       "sources": [
@@ -13841,7 +14115,8 @@
         }
       ],
       "correctOptionId": "D",
-      "usageId": "199266006362117078678708151108702231739"
+      "usageId": "199266006362117078678708151108702231739",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0076",
@@ -13858,7 +14133,7 @@
         "الزَّفير",
         "الأَجيج"
       ],
-      "hint": "منها الفعل «تأجّجت النار»، وورد «حَسيسَها» و«زَفيرًا» في القرآن الكريم.",
+      "hint": "صوت خفي مستمر يبدأ بالحاء المفتوحة والسين المكسورة، لا يسمعه أهل الجنة عن نار الجحيم.",
       "clues": [],
       "explanation": "صوت النار المستعرة يُسمّى الأجيج والكلحبة والزفير والحسيس.",
       "sources": [
@@ -13892,7 +14167,8 @@
         }
       ],
       "correctOptionId": "B",
-      "usageId": "306535856799482500673948534146270151368"
+      "usageId": "306535856799482500673948534146270151368",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0077",
@@ -13938,7 +14214,8 @@
         }
       ],
       "correctOptionId": "E",
-      "usageId": "195886454761174902004184546504949724948"
+      "usageId": "195886454761174902004184546504949724948",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0078",
@@ -13983,7 +14260,8 @@
         }
       ],
       "correctOptionId": "C",
-      "usageId": "30328466203562497356717303465026594910"
+      "usageId": "30328466203562497356717303465026594910",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0079",
@@ -14028,7 +14306,8 @@
         }
       ],
       "correctOptionId": "F",
-      "usageId": "50754008972383568219321958775575866197"
+      "usageId": "50754008972383568219321958775575866197",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0080",
@@ -14073,7 +14352,8 @@
         }
       ],
       "correctOptionId": "A",
-      "usageId": "314158887691672757106589772981474369886"
+      "usageId": "314158887691672757106589772981474369886",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0081",
@@ -14119,7 +14399,8 @@
         }
       ],
       "correctOptionId": "D",
-      "usageId": "145868756600159102004314658706369432029"
+      "usageId": "145868756600159102004314658706369432029",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0082",
@@ -14169,7 +14450,8 @@
         }
       ],
       "correctOptionId": "B",
-      "usageId": "85060533230643155968021351038144866412"
+      "usageId": "85060533230643155968021351038144866412",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0083",
@@ -14215,7 +14497,8 @@
         }
       ],
       "correctOptionId": "E",
-      "usageId": "265685808446257092966082329190386865879"
+      "usageId": "265685808446257092966082329190386865879",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0084",
@@ -14262,7 +14545,8 @@
         }
       ],
       "correctOptionId": "C",
-      "usageId": "143507555471454188127059870759102434773"
+      "usageId": "143507555471454188127059870759102434773",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0085",
@@ -14308,7 +14592,8 @@
         }
       ],
       "correctOptionId": "F",
-      "usageId": "124288641032526418536253084153212565629"
+      "usageId": "124288641032526418536253084153212565629",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0086",
@@ -14354,7 +14639,8 @@
         }
       ],
       "correctOptionId": "A",
-      "usageId": "316962667856394789164379322742377527918"
+      "usageId": "316962667856394789164379322742377527918",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0087",
@@ -14401,7 +14687,8 @@
         }
       ],
       "correctOptionId": "D",
-      "usageId": "277366479575799782457342595053441469686"
+      "usageId": "277366479575799782457342595053441469686",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0088",
@@ -14447,7 +14734,8 @@
         }
       ],
       "correctOptionId": "B",
-      "usageId": "89803112198099698167179504623190194807"
+      "usageId": "89803112198099698167179504623190194807",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0089",
@@ -14493,7 +14781,8 @@
         }
       ],
       "correctOptionId": "E",
-      "usageId": "139882555409243935569536612336655643557"
+      "usageId": "139882555409243935569536612336655643557",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0090",
@@ -14539,7 +14828,8 @@
         }
       ],
       "correctOptionId": "C",
-      "usageId": "254200097058632416462302801815496504469"
+      "usageId": "254200097058632416462302801815496504469",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0091",
@@ -14587,7 +14877,8 @@
         }
       ],
       "correctOptionId": "F",
-      "usageId": "270730142650454387163733992294382239756"
+      "usageId": "270730142650454387163733992294382239756",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0092",
@@ -14634,7 +14925,8 @@
         }
       ],
       "correctOptionId": "A",
-      "usageId": "172482540595404937282705180573157106902"
+      "usageId": "172482540595404937282705180573157106902",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0093",
@@ -14680,7 +14972,8 @@
         }
       ],
       "correctOptionId": "D",
-      "usageId": "131748954020015603263069194980093888036"
+      "usageId": "131748954020015603263069194980093888036",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0094",
@@ -14726,7 +15019,8 @@
         }
       ],
       "correctOptionId": "B",
-      "usageId": "277925687656057678481715246083811123924"
+      "usageId": "277925687656057678481715246083811123924",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0095",
@@ -14772,7 +15066,8 @@
         }
       ],
       "correctOptionId": "E",
-      "usageId": "59248845840664334664396432637319824301"
+      "usageId": "59248845840664334664396432637319824301",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0096",
@@ -14818,7 +15113,8 @@
         }
       ],
       "correctOptionId": "C",
-      "usageId": "57761870270303566407338151446185878768"
+      "usageId": "57761870270303566407338151446185878768",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0097",
@@ -14864,7 +15160,8 @@
         }
       ],
       "correctOptionId": "F",
-      "usageId": "145709884070419855134306958101931181306"
+      "usageId": "145709884070419855134306958101931181306",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0098",
@@ -14910,7 +15207,8 @@
         }
       ],
       "correctOptionId": "A",
-      "usageId": "215651086071930801334295379170612572888"
+      "usageId": "215651086071930801334295379170612572888",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0099",
@@ -14956,7 +15254,8 @@
         }
       ],
       "correctOptionId": "D",
-      "usageId": "171853122189713704717254715238904638691"
+      "usageId": "171853122189713704717254715238904638691",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0100",
@@ -15002,7 +15301,8 @@
         }
       ],
       "correctOptionId": "B",
-      "usageId": "188930795464087204245389604257207089972"
+      "usageId": "188930795464087204245389604257207089972",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0101",
@@ -15048,7 +15348,8 @@
         }
       ],
       "correctOptionId": "E",
-      "usageId": "28256590974985495820001966744975121400"
+      "usageId": "28256590974985495820001966744975121400",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0102",
@@ -15095,7 +15396,8 @@
         }
       ],
       "correctOptionId": "C",
-      "usageId": "111454740646865360090219210997721016156"
+      "usageId": "111454740646865360090219210997721016156",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0103",
@@ -15141,7 +15443,8 @@
         }
       ],
       "correctOptionId": "F",
-      "usageId": "165228486009027999874291887044428943557"
+      "usageId": "165228486009027999874291887044428943557",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0104",
@@ -15187,7 +15490,8 @@
         }
       ],
       "correctOptionId": "A",
-      "usageId": "110703367125763937234423072654577534541"
+      "usageId": "110703367125763937234423072654577534541",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0105",
@@ -15234,7 +15538,8 @@
         }
       ],
       "correctOptionId": "D",
-      "usageId": "104444620600034304904753309393868513048"
+      "usageId": "104444620600034304904753309393868513048",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0106",
@@ -15280,7 +15585,8 @@
         }
       ],
       "correctOptionId": "B",
-      "usageId": "98958041177514503440142432947551256240"
+      "usageId": "98958041177514503440142432947551256240",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0107",
@@ -15326,7 +15632,8 @@
         }
       ],
       "correctOptionId": "E",
-      "usageId": "171121286191363953843138342332529277410"
+      "usageId": "171121286191363953843138342332529277410",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0108",
@@ -15372,7 +15679,8 @@
         }
       ],
       "correctOptionId": "C",
-      "usageId": "118744684111168099932391710920786536736"
+      "usageId": "118744684111168099932391710920786536736",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0109",
@@ -15419,7 +15727,8 @@
         }
       ],
       "correctOptionId": "F",
-      "usageId": "168314726119942899853182278818935921272"
+      "usageId": "168314726119942899853182278818935921272",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0110",
@@ -15465,7 +15774,8 @@
         }
       ],
       "correctOptionId": "A",
-      "usageId": "210552353454487933601399143284050295476"
+      "usageId": "210552353454487933601399143284050295476",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0111",
@@ -15511,7 +15821,8 @@
         }
       ],
       "correctOptionId": "D",
-      "usageId": "146413530141434346479855689218441762857"
+      "usageId": "146413530141434346479855689218441762857",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0112",
@@ -15557,7 +15868,8 @@
         }
       ],
       "correctOptionId": "B",
-      "usageId": "106329258718044756769589541152774634463"
+      "usageId": "106329258718044756769589541152774634463",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0113",
@@ -15603,7 +15915,8 @@
         }
       ],
       "correctOptionId": "E",
-      "usageId": "198173607732402313210212321848596131480"
+      "usageId": "198173607732402313210212321848596131480",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0114",
@@ -15650,7 +15963,8 @@
         }
       ],
       "correctOptionId": "C",
-      "usageId": "316349175215782503849814667553482792812"
+      "usageId": "316349175215782503849814667553482792812",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0115",
@@ -15697,7 +16011,8 @@
         }
       ],
       "correctOptionId": "F",
-      "usageId": "228216529099658358612402206391812960840"
+      "usageId": "228216529099658358612402206391812960840",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0116",
@@ -15743,7 +16058,8 @@
         }
       ],
       "correctOptionId": "A",
-      "usageId": "207328839041041966793205653958450016365"
+      "usageId": "207328839041041966793205653958450016365",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0117",
@@ -15789,7 +16105,8 @@
         }
       ],
       "correctOptionId": "D",
-      "usageId": "279021565729647489668630276066109543529"
+      "usageId": "279021565729647489668630276066109543529",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0118",
@@ -15835,7 +16152,8 @@
         }
       ],
       "correctOptionId": "B",
-      "usageId": "185308374152711653731445651876067334863"
+      "usageId": "185308374152711653731445651876067334863",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0119",
@@ -15881,7 +16199,8 @@
         }
       ],
       "correctOptionId": "E",
-      "usageId": "210276422156939798313833559844451708104"
+      "usageId": "210276422156939798313833559844451708104",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0120",
@@ -15927,7 +16246,8 @@
         }
       ],
       "correctOptionId": "C",
-      "usageId": "76037691261401371849394858837818793646"
+      "usageId": "76037691261401371849394858837818793646",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0121",
@@ -15973,7 +16293,8 @@
         }
       ],
       "correctOptionId": "F",
-      "usageId": "14884466384428663974732434138603263676"
+      "usageId": "14884466384428663974732434138603263676",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0122",
@@ -16019,7 +16340,8 @@
         }
       ],
       "correctOptionId": "A",
-      "usageId": "67682652227235812766858081551258589802"
+      "usageId": "67682652227235812766858081551258589802",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0123",
@@ -16065,7 +16387,8 @@
         }
       ],
       "correctOptionId": "D",
-      "usageId": "217721509848464399260137615980471140264"
+      "usageId": "217721509848464399260137615980471140264",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0124",
@@ -16111,7 +16434,8 @@
         }
       ],
       "correctOptionId": "B",
-      "usageId": "186313994130130653871896625841909431168"
+      "usageId": "186313994130130653871896625841909431168",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0125",
@@ -16157,7 +16481,8 @@
         }
       ],
       "correctOptionId": "E",
-      "usageId": "110913858414867995949357326468552721791"
+      "usageId": "110913858414867995949357326468552721791",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0126",
@@ -16203,7 +16528,8 @@
         }
       ],
       "correctOptionId": "C",
-      "usageId": "247912451129388296707483690416347816997"
+      "usageId": "247912451129388296707483690416347816997",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0127",
@@ -16248,7 +16574,8 @@
         }
       ],
       "correctOptionId": "F",
-      "usageId": "323333400718654213572219357141337931380"
+      "usageId": "323333400718654213572219357141337931380",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0128",
@@ -16293,7 +16620,8 @@
         }
       ],
       "correctOptionId": "A",
-      "usageId": "138294434468284764323366861973662878841"
+      "usageId": "138294434468284764323366861973662878841",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0129",
@@ -16338,7 +16666,8 @@
         }
       ],
       "correctOptionId": "D",
-      "usageId": "136724198323911367225162843675256453869"
+      "usageId": "136724198323911367225162843675256453869",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0130",
@@ -16384,7 +16713,8 @@
         }
       ],
       "correctOptionId": "B",
-      "usageId": "21947949851052107163875541195992691413"
+      "usageId": "21947949851052107163875541195992691413",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0131",
@@ -16431,7 +16761,8 @@
         }
       ],
       "correctOptionId": "E",
-      "usageId": "146921984162902879942219435781989122675"
+      "usageId": "146921984162902879942219435781989122675",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0132",
@@ -16476,7 +16807,8 @@
         }
       ],
       "correctOptionId": "C",
-      "usageId": "179820148468441176876302875198505424138"
+      "usageId": "179820148468441176876302875198505424138",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0133",
@@ -16521,7 +16853,8 @@
         }
       ],
       "correctOptionId": "F",
-      "usageId": "318714836768435044108078173533123804435"
+      "usageId": "318714836768435044108078173533123804435",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0134",
@@ -16572,7 +16905,8 @@
         }
       ],
       "correctOptionId": "A",
-      "usageId": "229810581531609112940312712658930266519"
+      "usageId": "229810581531609112940312712658930266519",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0135",
@@ -16618,7 +16952,8 @@
         }
       ],
       "correctOptionId": "D",
-      "usageId": "47075385141501512149377478183798214689"
+      "usageId": "47075385141501512149377478183798214689",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0136",
@@ -16663,7 +16998,8 @@
         }
       ],
       "correctOptionId": "B",
-      "usageId": "120172424708843049471165804928000196440"
+      "usageId": "120172424708843049471165804928000196440",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0137",
@@ -16708,7 +17044,8 @@
         }
       ],
       "correctOptionId": "E",
-      "usageId": "177642938674899050743150736983772967901"
+      "usageId": "177642938674899050743150736983772967901",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0138",
@@ -16754,7 +17091,8 @@
         }
       ],
       "correctOptionId": "C",
-      "usageId": "125187298262548357976595689927292239230"
+      "usageId": "125187298262548357976595689927292239230",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0139",
@@ -16799,7 +17137,8 @@
         }
       ],
       "correctOptionId": "F",
-      "usageId": "149767328966200733876417700613770155828"
+      "usageId": "149767328966200733876417700613770155828",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0140",
@@ -16844,7 +17183,8 @@
         }
       ],
       "correctOptionId": "A",
-      "usageId": "122187937790729166957796108737022088417"
+      "usageId": "122187937790729166957796108737022088417",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0141",
@@ -16889,13 +17229,14 @@
         }
       ],
       "correctOptionId": "D",
-      "usageId": "102634628624967106694123175107055334904"
+      "usageId": "102634628624967106694123175107055334904",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0142",
       "categoryId": "meanings",
       "difficulty": "medium",
-      "text": "ما الاسم الذي تُطلقه العرب على الريح الباردة الشديدة الصوت أو البرد كما في قوله تعالى: ﴿رِيحٍ صَرْصَرٍ عَاتِيَةٍ﴾؟",
+      "text": "ما الاسم الذي تُطلقه العرب على الريح الباردة الشديدة العاصفة ذات الصوت الشديد كما ورد في قصة عاد؟",
       "answer": "الصَّرْصَر",
       "acceptedAnswers": [
         "الصرصر",
@@ -16935,13 +17276,14 @@
         }
       ],
       "correctOptionId": "B",
-      "usageId": "219809071259414900821657732434137510314"
+      "usageId": "219809071259414900821657732434137510314",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0143",
       "categoryId": "meanings",
       "difficulty": "medium",
-      "text": "ما اسم الريح اللينة الطيبة التي لا تُزعزعُ سفينةً ولا تثيرُ غبارًا كما في قوله تعالى: ﴿فَسَخَّرْنَا لَهُ الرِّيحَ تَجْرِي بِأَمْرِهِ رُخَاءً﴾؟",
+      "text": "ما اسم الريح اللينة الطيبة التي سُخِّرت لسليمان عليه السلام تجري بأمره هينةً رخية لا تزعزع شيئًا؟",
       "answer": "الرُّخاء",
       "acceptedAnswers": [
         "الرخاء",
@@ -16981,7 +17323,8 @@
         }
       ],
       "correctOptionId": "E",
-      "usageId": "39651690383828633346915972313333205166"
+      "usageId": "39651690383828633346915972313333205166",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0144",
@@ -17029,7 +17372,8 @@
         }
       ],
       "correctOptionId": "C",
-      "usageId": "121367280081156286243656601899384940003"
+      "usageId": "121367280081156286243656601899384940003",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0145",
@@ -17075,7 +17419,8 @@
         }
       ],
       "correctOptionId": "F",
-      "usageId": "319180342679257997192451572001601232384"
+      "usageId": "319180342679257997192451572001601232384",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0146",
@@ -17120,7 +17465,8 @@
         }
       ],
       "correctOptionId": "A",
-      "usageId": "25482919656249547643888036574727636970"
+      "usageId": "25482919656249547643888036574727636970",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0147",
@@ -17166,7 +17512,8 @@
         }
       ],
       "correctOptionId": "D",
-      "usageId": "268708481787873558202556578477044397613"
+      "usageId": "268708481787873558202556578477044397613",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0148",
@@ -17212,7 +17559,8 @@
         }
       ],
       "correctOptionId": "B",
-      "usageId": "123655847776693083437432378633415456981"
+      "usageId": "123655847776693083437432378633415456981",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0149",
@@ -17258,7 +17606,8 @@
         }
       ],
       "correctOptionId": "E",
-      "usageId": "74561910726356747615900130382032994459"
+      "usageId": "74561910726356747615900130382032994459",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0150",
@@ -17304,7 +17653,8 @@
         }
       ],
       "correctOptionId": "C",
-      "usageId": "167319512000610316541579101154144364435"
+      "usageId": "167319512000610316541579101154144364435",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0151",
@@ -17350,7 +17700,8 @@
         }
       ],
       "correctOptionId": "F",
-      "usageId": "206247476500194434711487247913503466339"
+      "usageId": "206247476500194434711487247913503466339",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0152",
@@ -17396,7 +17747,8 @@
         }
       ],
       "correctOptionId": "A",
-      "usageId": "119010780884286300954558373136061841394"
+      "usageId": "119010780884286300954558373136061841394",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0153",
@@ -17442,7 +17794,8 @@
         }
       ],
       "correctOptionId": "D",
-      "usageId": "190240318574889263879758496851020467915"
+      "usageId": "190240318574889263879758496851020467915",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0154",
@@ -17488,7 +17841,8 @@
         }
       ],
       "correctOptionId": "B",
-      "usageId": "193552927278189924159097578541096431309"
+      "usageId": "193552927278189924159097578541096431309",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0155",
@@ -17534,7 +17888,8 @@
         }
       ],
       "correctOptionId": "E",
-      "usageId": "84315220648437765784884884546011647530"
+      "usageId": "84315220648437765784884884546011647530",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0156",
@@ -17580,7 +17935,8 @@
         }
       ],
       "correctOptionId": "C",
-      "usageId": "213219928259190022947650127767530579791"
+      "usageId": "213219928259190022947650127767530579791",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0157",
@@ -17626,7 +17982,8 @@
         }
       ],
       "correctOptionId": "F",
-      "usageId": "317735300267485184823093026471781755355"
+      "usageId": "317735300267485184823093026471781755355",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0158",
@@ -17672,7 +18029,8 @@
         }
       ],
       "correctOptionId": "A",
-      "usageId": "104804604688462931039068816600180104379"
+      "usageId": "104804604688462931039068816600180104379",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0159",
@@ -17718,7 +18076,8 @@
         }
       ],
       "correctOptionId": "D",
-      "usageId": "109777719535255621641554665380547866478"
+      "usageId": "109777719535255621641554665380547866478",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0160",
@@ -17764,7 +18123,8 @@
         }
       ],
       "correctOptionId": "B",
-      "usageId": "303171320793742264669555758045283575200"
+      "usageId": "303171320793742264669555758045283575200",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0161",
@@ -17810,7 +18170,8 @@
         }
       ],
       "correctOptionId": "E",
-      "usageId": "169072707636739776581982932008425609460"
+      "usageId": "169072707636739776581982932008425609460",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0162",
@@ -17856,7 +18217,8 @@
         }
       ],
       "correctOptionId": "C",
-      "usageId": "299756428552680772243283627121767469855"
+      "usageId": "299756428552680772243283627121767469855",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0163",
@@ -17902,7 +18264,8 @@
         }
       ],
       "correctOptionId": "F",
-      "usageId": "217945923467055206567816302186352582174"
+      "usageId": "217945923467055206567816302186352582174",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0164",
@@ -17948,7 +18311,8 @@
         }
       ],
       "correctOptionId": "A",
-      "usageId": "278299130648257062855195193306649852220"
+      "usageId": "278299130648257062855195193306649852220",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0165",
@@ -17994,7 +18358,8 @@
         }
       ],
       "correctOptionId": "D",
-      "usageId": "290857011061370572003250214000930459810"
+      "usageId": "290857011061370572003250214000930459810",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0166",
@@ -18040,7 +18405,8 @@
         }
       ],
       "correctOptionId": "B",
-      "usageId": "306654371714050574755212019440412550132"
+      "usageId": "306654371714050574755212019440412550132",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0167",
@@ -18086,7 +18452,8 @@
         }
       ],
       "correctOptionId": "E",
-      "usageId": "173526487769601321949874182581311649256"
+      "usageId": "173526487769601321949874182581311649256",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0168",
@@ -18132,7 +18499,8 @@
         }
       ],
       "correctOptionId": "C",
-      "usageId": "72716567640406831513851559592668879100"
+      "usageId": "72716567640406831513851559592668879100",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0169",
@@ -18178,7 +18546,8 @@
         }
       ],
       "correctOptionId": "F",
-      "usageId": "165329841079828969817517487893651818562"
+      "usageId": "165329841079828969817517487893651818562",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0170",
@@ -18225,7 +18594,8 @@
         }
       ],
       "correctOptionId": "A",
-      "usageId": "55201480895492065708909992548642152355"
+      "usageId": "55201480895492065708909992548642152355",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0171",
@@ -18272,7 +18642,8 @@
         }
       ],
       "correctOptionId": "D",
-      "usageId": "44839447487361987411537172629015614754"
+      "usageId": "44839447487361987411537172629015614754",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0172",
@@ -18319,7 +18690,8 @@
         }
       ],
       "correctOptionId": "B",
-      "usageId": "188189614640497937603262749450557350308"
+      "usageId": "188189614640497937603262749450557350308",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0173",
@@ -18365,7 +18737,8 @@
         }
       ],
       "correctOptionId": "E",
-      "usageId": "28224528705158071779510942819095715731"
+      "usageId": "28224528705158071779510942819095715731",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0174",
@@ -18411,7 +18784,8 @@
         }
       ],
       "correctOptionId": "C",
-      "usageId": "25697968141178212176920908360956169559"
+      "usageId": "25697968141178212176920908360956169559",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0175",
@@ -18456,7 +18830,8 @@
         }
       ],
       "correctOptionId": "F",
-      "usageId": "313381421420630737649840698142838402449"
+      "usageId": "313381421420630737649840698142838402449",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0176",
@@ -18473,7 +18848,7 @@
         "الغَطْرَفَة",
         "الصَّرْصَرَة"
       ],
-      "hint": "للصقر «صَرْصَرة»، وللبازي والعقاب «صَفير»، وكلاهما من أصوات الطيور الجارحة.",
+      "hint": "صوت حاد نافذ يُشبه صوت الريح بين المضايق، أو صوت الإنسان بفمه دون كلام.",
       "clues": [],
       "explanation": "يُقال في أصوات الجوارح: صَرْصَرَ الصقرُ والبازي صَرْصَرةً، وصَفَرَ النسرُ والعقابُ صَفيرًا.",
       "sources": [
@@ -18507,7 +18882,8 @@
         }
       ],
       "correctOptionId": "A",
-      "usageId": "217389830082678592754049259228168672721"
+      "usageId": "217389830082678592754049259228168672721",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0177",
@@ -18523,7 +18899,7 @@
         "النَّعيب",
         "الصُّراخ"
       ],
-      "hint": "يُقال في الفصحى: ضَبَحَ البومُ والثعلبُ ضُباحًا، ونعبَ البومُ والغرابُ.",
+      "hint": "على وزن «فُعال» بالضاد المعجمة، وتشترك فيه الخيل عند عدوها والثعالب عند صياحها.",
       "clues": [],
       "explanation": "صوت البوم يُسمّى الضُّباح والنَّعيب والصُّراخ.",
       "sources": [
@@ -18557,7 +18933,8 @@
         }
       ],
       "correctOptionId": "D",
-      "usageId": "124928924644200036868336361706618923828"
+      "usageId": "124928924644200036868336361706618923828",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0178",
@@ -18603,7 +18980,8 @@
         }
       ],
       "correctOptionId": "B",
-      "usageId": "162149007807709808828750273619331671268"
+      "usageId": "162149007807709808828750273619331671268",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0179",
@@ -18648,7 +19026,8 @@
         }
       ],
       "correctOptionId": "E",
-      "usageId": "311560826937586035314621292203631197702"
+      "usageId": "311560826937586035314621292203631197702",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0180",
@@ -18694,7 +19073,8 @@
         }
       ],
       "correctOptionId": "C",
-      "usageId": "39726211471084155429513995928139312014"
+      "usageId": "39726211471084155429513995928139312014",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0181",
@@ -18710,7 +19090,7 @@
         "القَعْقَعَة",
         "الخَشْخَشَة"
       ],
-      "hint": "قال الأعشى: «تَسْمَعُ لِلحَلْيِ وَسْواسًا إذا انصَرَفَتْ»، وللسلاح اليابس «قَعْقَعة».",
+      "hint": "صوت رقيق خافت يتردد كصوت الأساور عند المشي، أو الحديث الخفي في النفس.",
       "clues": [],
       "explanation": "صوت الحليّ الأخفّ يُسمّى الوَسْواس، وصوت السلاح والتروس إذا اصطكّت يُسمّى القعقعة والخشخشة.",
       "sources": [
@@ -18744,13 +19124,14 @@
         }
       ],
       "correctOptionId": "F",
-      "usageId": "260254992340758407342480623829344940647"
+      "usageId": "260254992340758407342480623829344940647",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0182",
       "categoryId": "meanings",
       "difficulty": "medium",
-      "text": "ما الاسم الذي تُطلقه العرب على جماعة النساء الخالصة (لا رجل فيهن) كما في جماعة الرجال «الرَّهْط»؟",
+      "text": "ما الاسم الذي تُطلقه العرب على جماعة النساء الخالصة (التي لا رجل فيها)؟",
       "answer": "السِّرْب واللَّمَّة",
       "acceptedAnswers": [
         "السرب",
@@ -18774,7 +19155,7 @@
         },
         {
           "id": "C",
-          "text": "الرَّهْط"
+          "text": "العُصْبة"
         },
         {
           "id": "D",
@@ -18790,7 +19171,8 @@
         }
       ],
       "correctOptionId": "A",
-      "usageId": "184599445155288387875329109136008604548"
+      "usageId": "184599445155288387875329109136008604548",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0183",
@@ -18807,7 +19189,7 @@
         "الخَميس",
         "الفَيْلَق"
       ],
-      "hint": "سُمّي «الخَميس» خميسًا لأنه يتألف من خمسة أقسام (المقدمة، والقلب، والميمنة، والميسرة، والساقة)، و«الجَحْفَل» للكثيف العظيم.",
+      "hint": "وزنه «فَعْلَل» ويبدأ بالجيم والحاء، ويُشبه صوت كثرة الخيل والسلاح إذا زحف.",
       "clues": [],
       "explanation": "الجَحْفَل والفَيْلَق والخَميس والعَرَمْرَم كلها من أسماء الجيش العظيم الكثير العدد.",
       "sources": [
@@ -18841,7 +19223,8 @@
         }
       ],
       "correctOptionId": "D",
-      "usageId": "117408946367429132393489326495819723022"
+      "usageId": "117408946367429132393489326495819723022",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0184",
@@ -18888,7 +19271,8 @@
         }
       ],
       "correctOptionId": "B",
-      "usageId": "236540902499195664821930952236454258038"
+      "usageId": "236540902499195664821930952236454258038",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0185",
@@ -18935,7 +19319,8 @@
         }
       ],
       "correctOptionId": "E",
-      "usageId": "129191387767036050958981306545130322337"
+      "usageId": "129191387767036050958981306545130322337",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0186",
@@ -18982,7 +19367,8 @@
         }
       ],
       "correctOptionId": "C",
-      "usageId": "308082126110575386923094223328670347411"
+      "usageId": "308082126110575386923094223328670347411",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0187",
@@ -19030,7 +19416,8 @@
         }
       ],
       "correctOptionId": "F",
-      "usageId": "52824019348767355446772677052270681538"
+      "usageId": "52824019348767355446772677052270681538",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0188",
@@ -19076,7 +19463,8 @@
         }
       ],
       "correctOptionId": "A",
-      "usageId": "332403482121432950491741127693219320288"
+      "usageId": "332403482121432950491741127693219320288",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0189",
@@ -19122,7 +19510,8 @@
         }
       ],
       "correctOptionId": "D",
-      "usageId": "51933993553174444942426632019175466846"
+      "usageId": "51933993553174444942426632019175466846",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0190",
@@ -19168,7 +19557,8 @@
         }
       ],
       "correctOptionId": "B",
-      "usageId": "53628590519450494358299178800960948323"
+      "usageId": "53628590519450494358299178800960948323",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0191",
@@ -19215,7 +19605,8 @@
         }
       ],
       "correctOptionId": "E",
-      "usageId": "316634693996801372568009388566744260891"
+      "usageId": "316634693996801372568009388566744260891",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0192",
@@ -19263,7 +19654,8 @@
         }
       ],
       "correctOptionId": "C",
-      "usageId": "52566622375412327943271826664429486978"
+      "usageId": "52566622375412327943271826664429486978",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0193",
@@ -19309,7 +19701,8 @@
         }
       ],
       "correctOptionId": "F",
-      "usageId": "253196842824127610327306786993380426145"
+      "usageId": "253196842824127610327306786993380426145",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0194",
@@ -19354,7 +19747,8 @@
         }
       ],
       "correctOptionId": "A",
-      "usageId": "334352885493211858978607660336364170549"
+      "usageId": "334352885493211858978607660336364170549",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0195",
@@ -19400,7 +19794,8 @@
         }
       ],
       "correctOptionId": "D",
-      "usageId": "328815783161060595835914205467256364262"
+      "usageId": "328815783161060595835914205467256364262",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0196",
@@ -19446,7 +19841,8 @@
         }
       ],
       "correctOptionId": "B",
-      "usageId": "77813296147957972725233726791749950303"
+      "usageId": "77813296147957972725233726791749950303",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0197",
@@ -19492,7 +19888,8 @@
         }
       ],
       "correctOptionId": "E",
-      "usageId": "252505421737709811952221200315061360263"
+      "usageId": "252505421737709811952221200315061360263",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0198",
@@ -19538,7 +19935,8 @@
         }
       ],
       "correctOptionId": "C",
-      "usageId": "243257606445574347402952390001982175955"
+      "usageId": "243257606445574347402952390001982175955",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0199",
@@ -19584,7 +19982,8 @@
         }
       ],
       "correctOptionId": "F",
-      "usageId": "122962884419119952734184842696929068602"
+      "usageId": "122962884419119952734184842696929068602",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0200",
@@ -19631,7 +20030,8 @@
         }
       ],
       "correctOptionId": "A",
-      "usageId": "270260822741144318003177982460024011706"
+      "usageId": "270260822741144318003177982460024011706",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-medium-0201",
@@ -20753,7 +21153,8 @@
         }
       ],
       "correctOptionId": "A",
-      "usageId": "142317915981993661302692164274145581914"
+      "usageId": "142317915981993661302692164274145581914",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0002",
@@ -20799,7 +21200,8 @@
         }
       ],
       "correctOptionId": "D",
-      "usageId": "35832923533309205906327489831650184549"
+      "usageId": "35832923533309205906327489831650184549",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0003",
@@ -20846,7 +21248,8 @@
         }
       ],
       "correctOptionId": "B",
-      "usageId": "50377131120358370172031649110849930857"
+      "usageId": "50377131120358370172031649110849930857",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0004",
@@ -20892,7 +21295,8 @@
         }
       ],
       "correctOptionId": "E",
-      "usageId": "266146560504165924517445991505132738490"
+      "usageId": "266146560504165924517445991505132738490",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0005",
@@ -20938,7 +21342,8 @@
         }
       ],
       "correctOptionId": "C",
-      "usageId": "120985623479707252397886260023685698331"
+      "usageId": "120985623479707252397886260023685698331",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0006",
@@ -20984,7 +21389,8 @@
         }
       ],
       "correctOptionId": "F",
-      "usageId": "63212165367719071054621179025907906001"
+      "usageId": "63212165367719071054621179025907906001",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0007",
@@ -21031,7 +21437,8 @@
         }
       ],
       "correctOptionId": "A",
-      "usageId": "43057180444466877801202373256309923535"
+      "usageId": "43057180444466877801202373256309923535",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0008",
@@ -21077,7 +21484,8 @@
         }
       ],
       "correctOptionId": "D",
-      "usageId": "21684918133557325101526152309330289476"
+      "usageId": "21684918133557325101526152309330289476",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0009",
@@ -21123,7 +21531,8 @@
         }
       ],
       "correctOptionId": "B",
-      "usageId": "9743576356960921971791197823217981401"
+      "usageId": "9743576356960921971791197823217981401",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0010",
@@ -21170,7 +21579,8 @@
         }
       ],
       "correctOptionId": "E",
-      "usageId": "319805110084960799061628376809065088721"
+      "usageId": "319805110084960799061628376809065088721",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0011",
@@ -21217,7 +21627,8 @@
         }
       ],
       "correctOptionId": "C",
-      "usageId": "20946475737812779123949381116739355884"
+      "usageId": "20946475737812779123949381116739355884",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0012",
@@ -21263,7 +21674,8 @@
         }
       ],
       "correctOptionId": "F",
-      "usageId": "269300408814378131434013321276290861142"
+      "usageId": "269300408814378131434013321276290861142",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0013",
@@ -21309,7 +21721,8 @@
         }
       ],
       "correctOptionId": "A",
-      "usageId": "200729409219077961630618889517060201115"
+      "usageId": "200729409219077961630618889517060201115",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0014",
@@ -21357,7 +21770,8 @@
         }
       ],
       "correctOptionId": "D",
-      "usageId": "135881655554460918473635180882454732819"
+      "usageId": "135881655554460918473635180882454732819",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0015",
@@ -21404,7 +21818,8 @@
         }
       ],
       "correctOptionId": "B",
-      "usageId": "333913484142933299289300518728396476999"
+      "usageId": "333913484142933299289300518728396476999",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0016",
@@ -21450,7 +21865,8 @@
         }
       ],
       "correctOptionId": "E",
-      "usageId": "62463481295980297138328368493023933843"
+      "usageId": "62463481295980297138328368493023933843",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0017",
@@ -21497,7 +21913,8 @@
         }
       ],
       "correctOptionId": "C",
-      "usageId": "330375898294170592084231473673911458791"
+      "usageId": "330375898294170592084231473673911458791",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0018",
@@ -21543,7 +21960,8 @@
         }
       ],
       "correctOptionId": "F",
-      "usageId": "54095243307638420406344385907291763793"
+      "usageId": "54095243307638420406344385907291763793",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0019",
@@ -21589,7 +22007,8 @@
         }
       ],
       "correctOptionId": "A",
-      "usageId": "10206661449154652447766792189575607232"
+      "usageId": "10206661449154652447766792189575607232",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0020",
@@ -21635,7 +22054,8 @@
         }
       ],
       "correctOptionId": "D",
-      "usageId": "12453630643225339403437793158754167694"
+      "usageId": "12453630643225339403437793158754167694",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0021",
@@ -21681,7 +22101,8 @@
         }
       ],
       "correctOptionId": "B",
-      "usageId": "150536492428511575382343845782698453889"
+      "usageId": "150536492428511575382343845782698453889",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0022",
@@ -21727,7 +22148,8 @@
         }
       ],
       "correctOptionId": "E",
-      "usageId": "245273140025424943363221039513414179461"
+      "usageId": "245273140025424943363221039513414179461",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0023",
@@ -21773,7 +22195,8 @@
         }
       ],
       "correctOptionId": "C",
-      "usageId": "94321929033737248155042920661219826857"
+      "usageId": "94321929033737248155042920661219826857",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0024",
@@ -21819,7 +22242,8 @@
         }
       ],
       "correctOptionId": "F",
-      "usageId": "94935389535957197336818448485389146296"
+      "usageId": "94935389535957197336818448485389146296",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0025",
@@ -21867,7 +22291,8 @@
         }
       ],
       "correctOptionId": "A",
-      "usageId": "200419142953891024613247055716252893826"
+      "usageId": "200419142953891024613247055716252893826",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0026",
@@ -21912,7 +22337,8 @@
         }
       ],
       "correctOptionId": "D",
-      "usageId": "326355510482257143930000878729112744842"
+      "usageId": "326355510482257143930000878729112744842",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0027",
@@ -21957,7 +22383,8 @@
         }
       ],
       "correctOptionId": "B",
-      "usageId": "327864258343501404870069220476021833793"
+      "usageId": "327864258343501404870069220476021833793",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0028",
@@ -22003,7 +22430,8 @@
         }
       ],
       "correctOptionId": "E",
-      "usageId": "204664492256255372417180518083009665476"
+      "usageId": "204664492256255372417180518083009665476",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0029",
@@ -22049,7 +22477,8 @@
         }
       ],
       "correctOptionId": "C",
-      "usageId": "192962929346931749271688646738336754446"
+      "usageId": "192962929346931749271688646738336754446",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0030",
@@ -22094,7 +22523,8 @@
         }
       ],
       "correctOptionId": "F",
-      "usageId": "45437390616503865694846221410405569567"
+      "usageId": "45437390616503865694846221410405569567",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0031",
@@ -22140,7 +22570,8 @@
         }
       ],
       "correctOptionId": "A",
-      "usageId": "281506849955098513205336721759976680434"
+      "usageId": "281506849955098513205336721759976680434",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0032",
@@ -22185,7 +22616,8 @@
         }
       ],
       "correctOptionId": "D",
-      "usageId": "40598697325297633630017342887094742435"
+      "usageId": "40598697325297633630017342887094742435",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0033",
@@ -22231,7 +22663,8 @@
         }
       ],
       "correctOptionId": "B",
-      "usageId": "323030443728993636334816983101638035796"
+      "usageId": "323030443728993636334816983101638035796",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0034",
@@ -22277,7 +22710,8 @@
         }
       ],
       "correctOptionId": "E",
-      "usageId": "3898062002912729710399647878933563204"
+      "usageId": "3898062002912729710399647878933563204",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0035",
@@ -22323,7 +22757,8 @@
         }
       ],
       "correctOptionId": "C",
-      "usageId": "230680715246089929919517011384943525846"
+      "usageId": "230680715246089929919517011384943525846",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0036",
@@ -22369,7 +22804,8 @@
         }
       ],
       "correctOptionId": "F",
-      "usageId": "169878453371819131644290335615528120641"
+      "usageId": "169878453371819131644290335615528120641",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0037",
@@ -22415,7 +22851,8 @@
         }
       ],
       "correctOptionId": "A",
-      "usageId": "250751526147639569434115930703841937543"
+      "usageId": "250751526147639569434115930703841937543",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0038",
@@ -22461,7 +22898,8 @@
         }
       ],
       "correctOptionId": "D",
-      "usageId": "134849112634150097786833876300679381009"
+      "usageId": "134849112634150097786833876300679381009",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0039",
@@ -22507,7 +22945,8 @@
         }
       ],
       "correctOptionId": "B",
-      "usageId": "279278659217557617129342001127816392718"
+      "usageId": "279278659217557617129342001127816392718",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0040",
@@ -22558,7 +22997,8 @@
         }
       ],
       "correctOptionId": "E",
-      "usageId": "247773901325559421559371234095787115559"
+      "usageId": "247773901325559421559371234095787115559",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0041",
@@ -22608,7 +23048,8 @@
         }
       ],
       "correctOptionId": "C",
-      "usageId": "226153482610064571862279032951323554167"
+      "usageId": "226153482610064571862279032951323554167",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0042",
@@ -22655,7 +23096,8 @@
         }
       ],
       "correctOptionId": "F",
-      "usageId": "85967818133236874479500601671034005698"
+      "usageId": "85967818133236874479500601671034005698",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0043",
@@ -22701,7 +23143,8 @@
         }
       ],
       "correctOptionId": "A",
-      "usageId": "47164649505164464056107503274644781361"
+      "usageId": "47164649505164464056107503274644781361",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0044",
@@ -22747,7 +23190,8 @@
         }
       ],
       "correctOptionId": "D",
-      "usageId": "66225439477654745810353854898846153478"
+      "usageId": "66225439477654745810353854898846153478",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0045",
@@ -22793,7 +23237,8 @@
         }
       ],
       "correctOptionId": "B",
-      "usageId": "80345833458168658831369579483608903748"
+      "usageId": "80345833458168658831369579483608903748",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0046",
@@ -22838,7 +23283,8 @@
         }
       ],
       "correctOptionId": "E",
-      "usageId": "28079977515238984863313446326458499218"
+      "usageId": "28079977515238984863313446326458499218",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0047",
@@ -22884,7 +23330,8 @@
         }
       ],
       "correctOptionId": "C",
-      "usageId": "332003003719336820155753190677427151315"
+      "usageId": "332003003719336820155753190677427151315",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0048",
@@ -22929,7 +23376,8 @@
         }
       ],
       "correctOptionId": "F",
-      "usageId": "284616901835659757524008064558893404131"
+      "usageId": "284616901835659757524008064558893404131",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0049",
@@ -22976,7 +23424,8 @@
         }
       ],
       "correctOptionId": "A",
-      "usageId": "93459646425160813531507482805883131084"
+      "usageId": "93459646425160813531507482805883131084",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0050",
@@ -23021,7 +23470,8 @@
         }
       ],
       "correctOptionId": "D",
-      "usageId": "33733148824150004227768029031272637876"
+      "usageId": "33733148824150004227768029031272637876",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0051",
@@ -23067,7 +23517,8 @@
         }
       ],
       "correctOptionId": "B",
-      "usageId": "259025987524243826906358467839491934940"
+      "usageId": "259025987524243826906358467839491934940",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0052",
@@ -23115,7 +23566,8 @@
         }
       ],
       "correctOptionId": "E",
-      "usageId": "31812872386206655515143491401962254640"
+      "usageId": "31812872386206655515143491401962254640",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0053",
@@ -23162,7 +23614,8 @@
         }
       ],
       "correctOptionId": "C",
-      "usageId": "152923006040743684041229920390551384126"
+      "usageId": "152923006040743684041229920390551384126",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0054",
@@ -23208,7 +23661,8 @@
         }
       ],
       "correctOptionId": "F",
-      "usageId": "242063913448053751726405160577340349671"
+      "usageId": "242063913448053751726405160577340349671",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0055",
@@ -23254,7 +23708,8 @@
         }
       ],
       "correctOptionId": "A",
-      "usageId": "269317347716283976286973790397299966146"
+      "usageId": "269317347716283976286973790397299966146",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0056",
@@ -23300,7 +23755,8 @@
         }
       ],
       "correctOptionId": "D",
-      "usageId": "141629998735331873828828620058238842924"
+      "usageId": "141629998735331873828828620058238842924",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0057",
@@ -23346,7 +23802,8 @@
         }
       ],
       "correctOptionId": "B",
-      "usageId": "199051544090321623558439533559350124466"
+      "usageId": "199051544090321623558439533559350124466",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0058",
@@ -23392,7 +23849,8 @@
         }
       ],
       "correctOptionId": "E",
-      "usageId": "233861970372551266813422413218148196784"
+      "usageId": "233861970372551266813422413218148196784",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0059",
@@ -23438,7 +23896,8 @@
         }
       ],
       "correctOptionId": "C",
-      "usageId": "99255351563135290732493432482029166732"
+      "usageId": "99255351563135290732493432482029166732",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0060",
@@ -23485,7 +23944,8 @@
         }
       ],
       "correctOptionId": "F",
-      "usageId": "48345079763640784689990077841881271953"
+      "usageId": "48345079763640784689990077841881271953",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0061",
@@ -23531,7 +23991,8 @@
         }
       ],
       "correctOptionId": "A",
-      "usageId": "255023788217541256194721173984332948115"
+      "usageId": "255023788217541256194721173984332948115",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0062",
@@ -23578,7 +24039,8 @@
         }
       ],
       "correctOptionId": "D",
-      "usageId": "175626142117640943280340934527084936406"
+      "usageId": "175626142117640943280340934527084936406",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0063",
@@ -23625,7 +24087,8 @@
         }
       ],
       "correctOptionId": "B",
-      "usageId": "244156289318917864510448615570695639831"
+      "usageId": "244156289318917864510448615570695639831",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0064",
@@ -23671,7 +24134,8 @@
         }
       ],
       "correctOptionId": "E",
-      "usageId": "198849254057233637545034843482775719457"
+      "usageId": "198849254057233637545034843482775719457",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0065",
@@ -23717,7 +24181,8 @@
         }
       ],
       "correctOptionId": "C",
-      "usageId": "292641921835645984469171381027012791868"
+      "usageId": "292641921835645984469171381027012791868",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0066",
@@ -23764,7 +24229,8 @@
         }
       ],
       "correctOptionId": "F",
-      "usageId": "262498837166429338632174695022620257308"
+      "usageId": "262498837166429338632174695022620257308",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0067",
@@ -23810,7 +24276,8 @@
         }
       ],
       "correctOptionId": "A",
-      "usageId": "176330093227536047675081598554994150651"
+      "usageId": "176330093227536047675081598554994150651",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0068",
@@ -23857,7 +24324,8 @@
         }
       ],
       "correctOptionId": "D",
-      "usageId": "78729213128506581920245791500951210011"
+      "usageId": "78729213128506581920245791500951210011",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0069",
@@ -23904,7 +24372,8 @@
         }
       ],
       "correctOptionId": "B",
-      "usageId": "178278898911366807449136403589944688635"
+      "usageId": "178278898911366807449136403589944688635",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0070",
@@ -23951,7 +24420,8 @@
         }
       ],
       "correctOptionId": "E",
-      "usageId": "210342449547737886097732411003321004252"
+      "usageId": "210342449547737886097732411003321004252",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0071",
@@ -23997,7 +24467,8 @@
         }
       ],
       "correctOptionId": "C",
-      "usageId": "83611039265592307091453567234085707877"
+      "usageId": "83611039265592307091453567234085707877",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0072",
@@ -24043,7 +24514,8 @@
         }
       ],
       "correctOptionId": "F",
-      "usageId": "233588661085516107352064189117238311125"
+      "usageId": "233588661085516107352064189117238311125",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0073",
@@ -24089,7 +24561,8 @@
         }
       ],
       "correctOptionId": "A",
-      "usageId": "106675437872764264538093659812612760425"
+      "usageId": "106675437872764264538093659812612760425",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0074",
@@ -24134,7 +24607,8 @@
         }
       ],
       "correctOptionId": "D",
-      "usageId": "227994300373324443937733859248344296986"
+      "usageId": "227994300373324443937733859248344296986",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0075",
@@ -24185,7 +24659,8 @@
         }
       ],
       "correctOptionId": "B",
-      "usageId": "2231075355378863046924854802018986531"
+      "usageId": "2231075355378863046924854802018986531",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0076",
@@ -24230,7 +24705,8 @@
         }
       ],
       "correctOptionId": "E",
-      "usageId": "139267274007742316187564180716070361330"
+      "usageId": "139267274007742316187564180716070361330",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0077",
@@ -24276,7 +24752,8 @@
         }
       ],
       "correctOptionId": "C",
-      "usageId": "265127870728801855443500810364645360997"
+      "usageId": "265127870728801855443500810364645360997",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0078",
@@ -24326,7 +24803,8 @@
         }
       ],
       "correctOptionId": "F",
-      "usageId": "81139501570819107861927261310478220824"
+      "usageId": "81139501570819107861927261310478220824",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0079",
@@ -24342,7 +24820,7 @@
         "الرُّبَّاح",
         "الغَفْر"
       ],
-      "hint": "«القِشَّة» تُطلق على ولد القرد (أو أنثاه الصغيرة)، و«الرُّبّاح» للقرد الصغير والجدي.",
+      "hint": "كلمة ثلاثية تبدأ بالقاف المكسورة وتنتهي بتاء مربوطة، وشاع في العامية إطلاقها على خصلة التبن الصغيرة.",
       "clues": [],
       "explanation": "ولد القرد في المعاجم العربية يُسمّى القِشَّة والرُّبّاح والهجرس.",
       "sources": [
@@ -24376,7 +24854,8 @@
         }
       ],
       "correctOptionId": "A",
-      "usageId": "144755685350195414007149417285199136392"
+      "usageId": "144755685350195414007149417285199136392",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0080",
@@ -24421,7 +24900,8 @@
         }
       ],
       "correctOptionId": "D",
-      "usageId": "148516833420562280678356645063455758020"
+      "usageId": "148516833420562280678356645063455758020",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0081",
@@ -24432,7 +24912,7 @@
       "acceptedAnswers": [
         "السمع"
       ],
-      "hint": "كانت العرب تضرب المثل بحدّة سمعه وعدوه فتقول: «أسمعُ من سِمْعٍ»، وهو ولد الذئب من الضبع.",
+      "hint": "لفظ مكسور السين من ثلاثة أحرف، مشتق من حاسة الأذن والإنصات لدقة إدراكه للصوت.",
       "clues": [],
       "explanation": "السِّمْع (بكسر السين وسكون الميم) هو ولد الذئب من الضبع، أما العِسبار فولد الضبع من الذئب.",
       "sources": [
@@ -24466,7 +24946,8 @@
         }
       ],
       "correctOptionId": "B",
-      "usageId": "27015967072172130959810181051269225801"
+      "usageId": "27015967072172130959810181051269225801",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0082",
@@ -24515,7 +24996,8 @@
         }
       ],
       "correctOptionId": "E",
-      "usageId": "130524221388910410037762571394340576658"
+      "usageId": "130524221388910410037762571394340576658",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0083",
@@ -24561,7 +25043,8 @@
         }
       ],
       "correctOptionId": "C",
-      "usageId": "218636070803164347070403420750616493667"
+      "usageId": "218636070803164347070403420750616493667",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0084",
@@ -24610,7 +25093,8 @@
         }
       ],
       "correctOptionId": "F",
-      "usageId": "219783820672383047163401596243807307653"
+      "usageId": "219783820672383047163401596243807307653",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0085",
@@ -24657,7 +25141,8 @@
         }
       ],
       "correctOptionId": "A",
-      "usageId": "325720838270922602529869451298159149715"
+      "usageId": "325720838270922602529869451298159149715",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0086",
@@ -24703,7 +25188,8 @@
         }
       ],
       "correctOptionId": "D",
-      "usageId": "111783366069766378033567857928163949338"
+      "usageId": "111783366069766378033567857928163949338",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0087",
@@ -24749,7 +25235,8 @@
         }
       ],
       "correctOptionId": "B",
-      "usageId": "129065246631310578229319496553033829361"
+      "usageId": "129065246631310578229319496553033829361",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0088",
@@ -24796,7 +25283,8 @@
         }
       ],
       "correctOptionId": "E",
-      "usageId": "311448112602324911255832646465382349939"
+      "usageId": "311448112602324911255832646465382349939",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0089",
@@ -24842,7 +25330,8 @@
         }
       ],
       "correctOptionId": "C",
-      "usageId": "150577407586791033011518737240502705944"
+      "usageId": "150577407586791033011518737240502705944",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0090",
@@ -24889,7 +25378,8 @@
         }
       ],
       "correctOptionId": "F",
-      "usageId": "294372172630804719391908271412832452392"
+      "usageId": "294372172630804719391908271412832452392",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0091",
@@ -24935,7 +25425,8 @@
         }
       ],
       "correctOptionId": "A",
-      "usageId": "99430084075066685801613820210690685173"
+      "usageId": "99430084075066685801613820210690685173",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0092",
@@ -24981,7 +25472,8 @@
         }
       ],
       "correctOptionId": "D",
-      "usageId": "49589594531658844345747191421639407825"
+      "usageId": "49589594531658844345747191421639407825",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0093",
@@ -25027,7 +25519,8 @@
         }
       ],
       "correctOptionId": "B",
-      "usageId": "249112884885142345386294116647288321128"
+      "usageId": "249112884885142345386294116647288321128",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0094",
@@ -25073,7 +25566,8 @@
         }
       ],
       "correctOptionId": "E",
-      "usageId": "56164310876967448263571341731267549381"
+      "usageId": "56164310876967448263571341731267549381",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0095",
@@ -25118,7 +25612,8 @@
         }
       ],
       "correctOptionId": "C",
-      "usageId": "334767154068436440888951622862371547881"
+      "usageId": "334767154068436440888951622862371547881",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0096",
@@ -25163,7 +25658,8 @@
         }
       ],
       "correctOptionId": "F",
-      "usageId": "325847731076514617739376036365590584082"
+      "usageId": "325847731076514617739376036365590584082",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0097",
@@ -25209,7 +25705,8 @@
         }
       ],
       "correctOptionId": "A",
-      "usageId": "292864751076815138599472932586086740048"
+      "usageId": "292864751076815138599472932586086740048",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0098",
@@ -25255,7 +25752,8 @@
         }
       ],
       "correctOptionId": "D",
-      "usageId": "287701810432187233749747487606895990639"
+      "usageId": "287701810432187233749747487606895990639",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0099",
@@ -25301,7 +25799,8 @@
         }
       ],
       "correctOptionId": "B",
-      "usageId": "180000692328319945818899665974660251609"
+      "usageId": "180000692328319945818899665974660251609",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0100",
@@ -25346,7 +25845,8 @@
         }
       ],
       "correctOptionId": "E",
-      "usageId": "264521216982661261962140191325625236007"
+      "usageId": "264521216982661261962140191325625236007",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0101",
@@ -25392,7 +25892,8 @@
         }
       ],
       "correctOptionId": "C",
-      "usageId": "82706308117551862325084119841434536787"
+      "usageId": "82706308117551862325084119841434536787",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0102",
@@ -25439,7 +25940,8 @@
         }
       ],
       "correctOptionId": "F",
-      "usageId": "137252438193007903085752789307441275859"
+      "usageId": "137252438193007903085752789307441275859",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0103",
@@ -25486,7 +25988,8 @@
         }
       ],
       "correctOptionId": "A",
-      "usageId": "310774062086376101376758686738018427226"
+      "usageId": "310774062086376101376758686738018427226",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0104",
@@ -25532,7 +26035,8 @@
         }
       ],
       "correctOptionId": "D",
-      "usageId": "201204407179642787610379940731383445246"
+      "usageId": "201204407179642787610379940731383445246",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0105",
@@ -25579,7 +26083,8 @@
         }
       ],
       "correctOptionId": "B",
-      "usageId": "164139767833643449659410650957789307731"
+      "usageId": "164139767833643449659410650957789307731",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0106",
@@ -25625,7 +26130,8 @@
         }
       ],
       "correctOptionId": "E",
-      "usageId": "162705416215428286285206000538810093111"
+      "usageId": "162705416215428286285206000538810093111",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0107",
@@ -25671,7 +26177,8 @@
         }
       ],
       "correctOptionId": "C",
-      "usageId": "205991703674042769316763153824306452616"
+      "usageId": "205991703674042769316763153824306452616",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0108",
@@ -25718,7 +26225,8 @@
         }
       ],
       "correctOptionId": "F",
-      "usageId": "283131244240070920740905544508150645527"
+      "usageId": "283131244240070920740905544508150645527",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0109",
@@ -25765,7 +26273,8 @@
         }
       ],
       "correctOptionId": "A",
-      "usageId": "103761762589502218598539784313196102769"
+      "usageId": "103761762589502218598539784313196102769",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0110",
@@ -25811,7 +26320,8 @@
         }
       ],
       "correctOptionId": "D",
-      "usageId": "59227094157947422137721319075630253535"
+      "usageId": "59227094157947422137721319075630253535",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0111",
@@ -25858,7 +26368,8 @@
         }
       ],
       "correctOptionId": "B",
-      "usageId": "133884629918454589250605457975703604413"
+      "usageId": "133884629918454589250605457975703604413",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0112",
@@ -25904,7 +26415,8 @@
         }
       ],
       "correctOptionId": "E",
-      "usageId": "108559173025338295774073819604036162720"
+      "usageId": "108559173025338295774073819604036162720",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0113",
@@ -25950,7 +26462,8 @@
         }
       ],
       "correctOptionId": "C",
-      "usageId": "49653954641298521633091562787171782308"
+      "usageId": "49653954641298521633091562787171782308",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0114",
@@ -25995,7 +26508,8 @@
         }
       ],
       "correctOptionId": "F",
-      "usageId": "312649140300166457169102141729737503126"
+      "usageId": "312649140300166457169102141729737503126",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0115",
@@ -26041,7 +26555,8 @@
         }
       ],
       "correctOptionId": "A",
-      "usageId": "31499944922823521322043012568913892219"
+      "usageId": "31499944922823521322043012568913892219",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0116",
@@ -26087,7 +26602,8 @@
         }
       ],
       "correctOptionId": "D",
-      "usageId": "108725548873747514914799391227417036892"
+      "usageId": "108725548873747514914799391227417036892",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0117",
@@ -26133,7 +26649,8 @@
         }
       ],
       "correctOptionId": "B",
-      "usageId": "284189635711796995575743179264366008245"
+      "usageId": "284189635711796995575743179264366008245",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0118",
@@ -26178,7 +26695,8 @@
         }
       ],
       "correctOptionId": "E",
-      "usageId": "115373087458141684839640405604830736513"
+      "usageId": "115373087458141684839640405604830736513",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0119",
@@ -26225,7 +26743,8 @@
         }
       ],
       "correctOptionId": "C",
-      "usageId": "306969196292410541409354771860504389296"
+      "usageId": "306969196292410541409354771860504389296",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0120",
@@ -26271,7 +26790,8 @@
         }
       ],
       "correctOptionId": "F",
-      "usageId": "97474685114258540738256328112113565103"
+      "usageId": "97474685114258540738256328112113565103",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0121",
@@ -26318,7 +26838,8 @@
         }
       ],
       "correctOptionId": "A",
-      "usageId": "63659546294737829646609863393663888226"
+      "usageId": "63659546294737829646609863393663888226",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0122",
@@ -26365,7 +26886,8 @@
         }
       ],
       "correctOptionId": "D",
-      "usageId": "210783555923945389788930178452525875036"
+      "usageId": "210783555923945389788930178452525875036",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0123",
@@ -26412,7 +26934,8 @@
         }
       ],
       "correctOptionId": "B",
-      "usageId": "180917352282758413354123036646631018720"
+      "usageId": "180917352282758413354123036646631018720",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0124",
@@ -26459,7 +26982,8 @@
         }
       ],
       "correctOptionId": "E",
-      "usageId": "294353803369870760000186911698223482305"
+      "usageId": "294353803369870760000186911698223482305",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0125",
@@ -26506,7 +27030,8 @@
         }
       ],
       "correctOptionId": "C",
-      "usageId": "160927258452262787649659853428258196227"
+      "usageId": "160927258452262787649659853428258196227",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0126",
@@ -26552,7 +27077,8 @@
         }
       ],
       "correctOptionId": "F",
-      "usageId": "167548393023377475569732835912283495976"
+      "usageId": "167548393023377475569732835912283495976",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0127",
@@ -26597,7 +27123,8 @@
         }
       ],
       "correctOptionId": "A",
-      "usageId": "171737052753022873760017257939366059222"
+      "usageId": "171737052753022873760017257939366059222",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0128",
@@ -26642,7 +27169,8 @@
         }
       ],
       "correctOptionId": "D",
-      "usageId": "174861715878525950307334314999419039906"
+      "usageId": "174861715878525950307334314999419039906",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0129",
@@ -26689,7 +27217,8 @@
         }
       ],
       "correctOptionId": "B",
-      "usageId": "202380051419174256043364815790260557217"
+      "usageId": "202380051419174256043364815790260557217",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0130",
@@ -26735,7 +27264,8 @@
         }
       ],
       "correctOptionId": "E",
-      "usageId": "38988116591225760523422265974119019086"
+      "usageId": "38988116591225760523422265974119019086",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0131",
@@ -26780,7 +27310,8 @@
         }
       ],
       "correctOptionId": "C",
-      "usageId": "283195866990683740302044423430195695585"
+      "usageId": "283195866990683740302044423430195695585",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0132",
@@ -26825,7 +27356,8 @@
         }
       ],
       "correctOptionId": "F",
-      "usageId": "103057113625801074935416282897019746544"
+      "usageId": "103057113625801074935416282897019746544",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0133",
@@ -26870,7 +27402,8 @@
         }
       ],
       "correctOptionId": "A",
-      "usageId": "161028533060389901080122554316433297825"
+      "usageId": "161028533060389901080122554316433297825",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0134",
@@ -26916,7 +27449,8 @@
         }
       ],
       "correctOptionId": "D",
-      "usageId": "303390383827205999470171263794450822583"
+      "usageId": "303390383827205999470171263794450822583",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0135",
@@ -26962,7 +27496,8 @@
         }
       ],
       "correctOptionId": "B",
-      "usageId": "91533839906614775166907633600255122690"
+      "usageId": "91533839906614775166907633600255122690",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0136",
@@ -27007,7 +27542,8 @@
         }
       ],
       "correctOptionId": "E",
-      "usageId": "320491266743614330811997262690742687653"
+      "usageId": "320491266743614330811997262690742687653",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0137",
@@ -27053,7 +27589,8 @@
         }
       ],
       "correctOptionId": "C",
-      "usageId": "33751664454010724481488793386354616147"
+      "usageId": "33751664454010724481488793386354616147",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0138",
@@ -27099,7 +27636,8 @@
         }
       ],
       "correctOptionId": "F",
-      "usageId": "110614978497289447396486990127330058491"
+      "usageId": "110614978497289447396486990127330058491",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0139",
@@ -27145,7 +27683,8 @@
         }
       ],
       "correctOptionId": "A",
-      "usageId": "304640874527921047021326793936385128845"
+      "usageId": "304640874527921047021326793936385128845",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0140",
@@ -27193,7 +27732,8 @@
         }
       ],
       "correctOptionId": "D",
-      "usageId": "54452059493594857074281926421902411903"
+      "usageId": "54452059493594857074281926421902411903",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0141",
@@ -27240,7 +27780,8 @@
         }
       ],
       "correctOptionId": "B",
-      "usageId": "114954298630283026956239844952184654654"
+      "usageId": "114954298630283026956239844952184654654",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0142",
@@ -27285,7 +27826,8 @@
         }
       ],
       "correctOptionId": "E",
-      "usageId": "105702411102502892244476581759457526320"
+      "usageId": "105702411102502892244476581759457526320",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0143",
@@ -27330,7 +27872,8 @@
         }
       ],
       "correctOptionId": "C",
-      "usageId": "71617121575117577964330115377378770511"
+      "usageId": "71617121575117577964330115377378770511",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0144",
@@ -27376,7 +27919,8 @@
         }
       ],
       "correctOptionId": "F",
-      "usageId": "207772311243627845040880816019310979534"
+      "usageId": "207772311243627845040880816019310979534",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0145",
@@ -27422,7 +27966,8 @@
         }
       ],
       "correctOptionId": "A",
-      "usageId": "224272960901969848124902557563604741722"
+      "usageId": "224272960901969848124902557563604741722",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0146",
@@ -27467,7 +28012,8 @@
         }
       ],
       "correctOptionId": "D",
-      "usageId": "7064230029823296414242889520531388695"
+      "usageId": "7064230029823296414242889520531388695",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0147",
@@ -27513,7 +28059,8 @@
         }
       ],
       "correctOptionId": "B",
-      "usageId": "135015160580364152396057765255313273745"
+      "usageId": "135015160580364152396057765255313273745",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0148",
@@ -27559,7 +28106,8 @@
         }
       ],
       "correctOptionId": "E",
-      "usageId": "118207105986687259209352028303146723042"
+      "usageId": "118207105986687259209352028303146723042",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0149",
@@ -27606,7 +28154,8 @@
         }
       ],
       "correctOptionId": "C",
-      "usageId": "30858492316619681268405684115590400874"
+      "usageId": "30858492316619681268405684115590400874",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0150",
@@ -27653,7 +28202,8 @@
         }
       ],
       "correctOptionId": "F",
-      "usageId": "170338579186549447631757111124301631599"
+      "usageId": "170338579186549447631757111124301631599",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0151",
@@ -27699,7 +28249,8 @@
         }
       ],
       "correctOptionId": "A",
-      "usageId": "50601368431102335386108793468859121560"
+      "usageId": "50601368431102335386108793468859121560",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0152",
@@ -27745,7 +28296,8 @@
         }
       ],
       "correctOptionId": "D",
-      "usageId": "183978955430228207702754723696199490864"
+      "usageId": "183978955430228207702754723696199490864",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0153",
@@ -27791,7 +28343,8 @@
         }
       ],
       "correctOptionId": "B",
-      "usageId": "330799477321620208998185436485656988812"
+      "usageId": "330799477321620208998185436485656988812",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0154",
@@ -27838,7 +28391,8 @@
         }
       ],
       "correctOptionId": "E",
-      "usageId": "96889633419249880533184770081119871582"
+      "usageId": "96889633419249880533184770081119871582",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0155",
@@ -27884,7 +28438,8 @@
         }
       ],
       "correctOptionId": "C",
-      "usageId": "102923014952653572764311066209058207043"
+      "usageId": "102923014952653572764311066209058207043",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0156",
@@ -27930,7 +28485,8 @@
         }
       ],
       "correctOptionId": "F",
-      "usageId": "274308002526557937053385279663732905330"
+      "usageId": "274308002526557937053385279663732905330",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0157",
@@ -27976,7 +28532,8 @@
         }
       ],
       "correctOptionId": "A",
-      "usageId": "153294126086509444296530805575697712474"
+      "usageId": "153294126086509444296530805575697712474",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0158",
@@ -28023,7 +28580,8 @@
         }
       ],
       "correctOptionId": "D",
-      "usageId": "284062847472054501090981342387765572824"
+      "usageId": "284062847472054501090981342387765572824",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0159",
@@ -28069,7 +28627,8 @@
         }
       ],
       "correctOptionId": "B",
-      "usageId": "326544885175583969233743846707342227391"
+      "usageId": "326544885175583969233743846707342227391",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0160",
@@ -28115,7 +28674,8 @@
         }
       ],
       "correctOptionId": "E",
-      "usageId": "123203570476524526059012638118265767982"
+      "usageId": "123203570476524526059012638118265767982",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0161",
@@ -28162,7 +28722,8 @@
         }
       ],
       "correctOptionId": "C",
-      "usageId": "290876218167445927902822461814458968959"
+      "usageId": "290876218167445927902822461814458968959",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0162",
@@ -28208,7 +28769,8 @@
         }
       ],
       "correctOptionId": "F",
-      "usageId": "96465009857022378545982966915795812544"
+      "usageId": "96465009857022378545982966915795812544",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0163",
@@ -28255,7 +28817,8 @@
         }
       ],
       "correctOptionId": "A",
-      "usageId": "321627420638132343355820109116956657504"
+      "usageId": "321627420638132343355820109116956657504",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0164",
@@ -28301,7 +28864,8 @@
         }
       ],
       "correctOptionId": "D",
-      "usageId": "150877229981858977254440936504231628977"
+      "usageId": "150877229981858977254440936504231628977",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0165",
@@ -28347,7 +28911,8 @@
         }
       ],
       "correctOptionId": "B",
-      "usageId": "139758606494946842282006765153836687456"
+      "usageId": "139758606494946842282006765153836687456",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0166",
@@ -28393,7 +28958,8 @@
         }
       ],
       "correctOptionId": "E",
-      "usageId": "75969045693728323741919759280194887651"
+      "usageId": "75969045693728323741919759280194887651",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0167",
@@ -28439,7 +29005,8 @@
         }
       ],
       "correctOptionId": "C",
-      "usageId": "206974387854321092568944411666499946632"
+      "usageId": "206974387854321092568944411666499946632",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0168",
@@ -28485,7 +29052,8 @@
         }
       ],
       "correctOptionId": "F",
-      "usageId": "42018031288803814458524535406477183300"
+      "usageId": "42018031288803814458524535406477183300",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0169",
@@ -28532,7 +29100,8 @@
         }
       ],
       "correctOptionId": "A",
-      "usageId": "28050118563378100576840504426219470925"
+      "usageId": "28050118563378100576840504426219470925",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0170",
@@ -28579,7 +29148,8 @@
         }
       ],
       "correctOptionId": "D",
-      "usageId": "2354092011058081425628642225116292731"
+      "usageId": "2354092011058081425628642225116292731",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0171",
@@ -28624,7 +29194,8 @@
         }
       ],
       "correctOptionId": "B",
-      "usageId": "237459068108726797846807715364548309356"
+      "usageId": "237459068108726797846807715364548309356",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0172",
@@ -28670,7 +29241,8 @@
         }
       ],
       "correctOptionId": "E",
-      "usageId": "57031557469505879700743427257730528374"
+      "usageId": "57031557469505879700743427257730528374",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0173",
@@ -28715,7 +29287,8 @@
         }
       ],
       "correctOptionId": "C",
-      "usageId": "269470102942662445584708391136736489854"
+      "usageId": "269470102942662445584708391136736489854",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0174",
@@ -28760,7 +29333,8 @@
         }
       ],
       "correctOptionId": "F",
-      "usageId": "276969348594588416563164547320744925454"
+      "usageId": "276969348594588416563164547320744925454",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0175",
@@ -28806,7 +29380,8 @@
         }
       ],
       "correctOptionId": "A",
-      "usageId": "322816835806390751534393329637147261446"
+      "usageId": "322816835806390751534393329637147261446",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0176",
@@ -28818,7 +29393,7 @@
         "الضباح",
         "ضباح الثعلب"
       ],
-      "hint": "يُقال في الفصحى: «ضَبَحَ الثعلبُ يَضْبَحُ ضُباحًا» (بالضاد والباء والحاء).",
+      "hint": "صوت يبدأ بالضاد المعجمة، وورد في مستهل سورة العاديات لوصف صوت أنفاس الخيل عند إغارتها.",
       "clues": [],
       "explanation": "صوت الثعلب في العربية هو الضُّباح، يقال: ضَبَحَ الثعلبُ ضُباحًا.",
       "sources": [
@@ -28852,7 +29427,8 @@
         }
       ],
       "correctOptionId": "D",
-      "usageId": "292127954513165503914654520793753137873"
+      "usageId": "292127954513165503914654520793753137873",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0177",
@@ -28902,7 +29478,8 @@
         }
       ],
       "correctOptionId": "B",
-      "usageId": "269621084031462215757092384592699930825"
+      "usageId": "269621084031462215757092384592699930825",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0178",
@@ -28948,7 +29525,8 @@
         }
       ],
       "correctOptionId": "E",
-      "usageId": "100409384330773762214697330645377572952"
+      "usageId": "100409384330773762214697330645377572952",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0179",
@@ -28964,7 +29542,7 @@
         "البُغام",
         "الأَطِيط"
       ],
-      "hint": "من هذا الصوت الرقيق الحزين للناقة على ولدها اشتُقّ اسم «الحَنين» للشوق في كلام العرب كله!",
+      "hint": "مصدر يبدأ بالحاء والنون، ويُطلق في المشاعر على ألم الشوق ولوعته وذكراه.",
       "clues": [],
       "explanation": "حنين الناقة وبُغامها هو صوتها الرقيق المتقطع شوقًا إلى ولدها، ومنه استُعير الحنين لشوق الإنسان، أما أطيطها فصوت جوفها أو رحلها من ثقل الحمل.",
       "sources": [
@@ -28998,7 +29576,8 @@
         }
       ],
       "correctOptionId": "C",
-      "usageId": "126714181695829953801782437255183345044"
+      "usageId": "126714181695829953801782437255183345044",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0180",
@@ -29045,7 +29624,8 @@
         }
       ],
       "correctOptionId": "F",
-      "usageId": "172565440300299766595512364690201853858"
+      "usageId": "172565440300299766595512364690201853858",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0181",
@@ -29061,7 +29641,7 @@
         "الشَّخْشَخَة",
         "الحَفِيف"
       ],
-      "hint": "قال الثعالبي: «خَشْخَشَةُ القِرْطاسِ والثوبِ الجديدِ والسلاح».",
+      "hint": "لفظ رباعي مكرر الخاء والشين، يُحاكي حفيف الورق الجاف أو أوراق الشجر اليابسة.",
       "clues": [],
       "explanation": "صوت الورق اليابس والجلد والثوب الجديد إذا احتكّ بعضه ببعض يُسمّى الخشخشة والحفيف.",
       "sources": [
@@ -29095,7 +29675,8 @@
         }
       ],
       "correctOptionId": "A",
-      "usageId": "127936095603824216900487623045162145604"
+      "usageId": "127936095603824216900487623045162145604",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0182",
@@ -29141,7 +29722,8 @@
         }
       ],
       "correctOptionId": "D",
-      "usageId": "63346108748319396939256540791399882360"
+      "usageId": "63346108748319396939256540791399882360",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0183",
@@ -29187,7 +29769,8 @@
         }
       ],
       "correctOptionId": "B",
-      "usageId": "64880286395775712643914774635726295814"
+      "usageId": "64880286395775712643914774635726295814",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0184",
@@ -29233,7 +29816,8 @@
         }
       ],
       "correctOptionId": "E",
-      "usageId": "312413355603514586969580166613000953948"
+      "usageId": "312413355603514586969580166613000953948",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0185",
@@ -29279,7 +29863,8 @@
         }
       ],
       "correctOptionId": "C",
-      "usageId": "306099425726118640811790662810028017135"
+      "usageId": "306099425726118640811790662810028017135",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0186",
@@ -29324,7 +29909,8 @@
         }
       ],
       "correctOptionId": "F",
-      "usageId": "258941627216939972533013734177793609566"
+      "usageId": "258941627216939972533013734177793609566",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0187",
@@ -29370,7 +29956,8 @@
         }
       ],
       "correctOptionId": "A",
-      "usageId": "149510466589435647713151759579450940048"
+      "usageId": "149510466589435647713151759579450940048",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0188",
@@ -29417,7 +30004,8 @@
         }
       ],
       "correctOptionId": "D",
-      "usageId": "44297299761117207199439332948037224225"
+      "usageId": "44297299761117207199439332948037224225",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0189",
@@ -29462,7 +30050,8 @@
         }
       ],
       "correctOptionId": "B",
-      "usageId": "303564296799773642029739659922611286336"
+      "usageId": "303564296799773642029739659922611286336",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0190",
@@ -29509,7 +30098,8 @@
         }
       ],
       "correctOptionId": "E",
-      "usageId": "261534066824750687128885270352925837743"
+      "usageId": "261534066824750687128885270352925837743",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0191",
@@ -29555,7 +30145,8 @@
         }
       ],
       "correctOptionId": "C",
-      "usageId": "308122901994901734345665895340291762291"
+      "usageId": "308122901994901734345665895340291762291",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0192",
@@ -29601,7 +30192,8 @@
         }
       ],
       "correctOptionId": "F",
-      "usageId": "327830897034897781411526541919966350949"
+      "usageId": "327830897034897781411526541919966350949",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0193",
@@ -29647,7 +30239,8 @@
         }
       ],
       "correctOptionId": "A",
-      "usageId": "210009013533949256262333591464210130392"
+      "usageId": "210009013533949256262333591464210130392",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0194",
@@ -29692,7 +30285,8 @@
         }
       ],
       "correctOptionId": "D",
-      "usageId": "74130525336188202471439779825049017049"
+      "usageId": "74130525336188202471439779825049017049",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0195",
@@ -29737,7 +30331,8 @@
         }
       ],
       "correctOptionId": "B",
-      "usageId": "77935314211167290160269256207630387865"
+      "usageId": "77935314211167290160269256207630387865",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0196",
@@ -29784,7 +30379,8 @@
         }
       ],
       "correctOptionId": "E",
-      "usageId": "58161991507608560891786613653972478379"
+      "usageId": "58161991507608560891786613653972478379",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0197",
@@ -29830,7 +30426,8 @@
         }
       ],
       "correctOptionId": "C",
-      "usageId": "260736182449946356809017338317368302938"
+      "usageId": "260736182449946356809017338317368302938",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0198",
@@ -29876,7 +30473,8 @@
         }
       ],
       "correctOptionId": "F",
-      "usageId": "40188262349841827050546547877575556832"
+      "usageId": "40188262349841827050546547877575556832",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0199",
@@ -29923,7 +30521,8 @@
         }
       ],
       "correctOptionId": "A",
-      "usageId": "204275712295400011942460655653321416671"
+      "usageId": "204275712295400011942460655653321416671",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0200",
@@ -29969,7 +30568,8 @@
         }
       ],
       "correctOptionId": "D",
-      "usageId": "128610114032819500158835245634071843938"
+      "usageId": "128610114032819500158835245634071843938",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-hard-0201",
@@ -31086,7 +31686,8 @@
         }
       ],
       "correctOptionId": "E",
-      "usageId": "43682171656368636258193696886119793584"
+      "usageId": "43682171656368636258193696886119793584",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-legendary-0002",
@@ -31128,7 +31729,8 @@
         }
       ],
       "correctOptionId": "B",
-      "usageId": "213901421128312540340387220146454527020"
+      "usageId": "213901421128312540340387220146454527020",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-legendary-0003",
@@ -31170,7 +31772,8 @@
         }
       ],
       "correctOptionId": "F",
-      "usageId": "333465529965325651731231683258334482204"
+      "usageId": "333465529965325651731231683258334482204",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-legendary-0004",
@@ -31212,7 +31815,8 @@
         }
       ],
       "correctOptionId": "D",
-      "usageId": "48573666846456286118139159168191916016"
+      "usageId": "48573666846456286118139159168191916016",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-legendary-0005",
@@ -31256,7 +31860,8 @@
         }
       ],
       "correctOptionId": "A",
-      "usageId": "188615036058534851318285491029636277271"
+      "usageId": "188615036058534851318285491029636277271",
+      "qualityStatus": "reviewed"
     },
     {
       "id": "meanings-legendary-0006",

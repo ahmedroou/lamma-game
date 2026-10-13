@@ -242,6 +242,7 @@ extension _SessionManagement on _SessionScreenState {
                 (team) => TeamState(id: team.id, name: team.name),
               ),
               categoryIds: widget.config.categoryIds,
+              abilitiesEnabled: widget.config.abilitiesEnabled,
             ),
           );
           if (!mounted) return;
@@ -491,5 +492,309 @@ extension _SessionManagement on _SessionScreenState {
         ),
       );
     }
+  }
+
+  Future<void> _showLiveShareDialog() async {
+    final sync = OnlineSyncService();
+    await showModalBottomSheet<void>(
+      context: context,
+      isScrollControlled: true,
+      showDragHandle: true,
+      backgroundColor: AppColors.surface,
+      shape: const RoundedRectangleBorder(
+        borderRadius: BorderRadius.vertical(top: Radius.circular(24)),
+      ),
+      builder: (sheetContext) {
+        return StatefulBuilder(
+          builder: (context, setSheetState) {
+            final isBroadcasting = sync.isBroadcasting;
+            final roomId = sync.roomId;
+            final shareUrl = sync.shareUrl;
+
+            return SafeArea(
+              child: SingleChildScrollView(
+                padding: const EdgeInsets.fromLTRB(20, 8, 20, 24),
+                child: Column(
+                  mainAxisSize: MainAxisSize.min,
+                  crossAxisAlignment: CrossAxisAlignment.stretch,
+                  children: [
+                    Row(
+                      children: [
+                        Container(
+                          padding: const EdgeInsets.all(8),
+                          decoration: BoxDecoration(
+                            color: isBroadcasting
+                                ? AppColors.lime.withValues(alpha: 0.15)
+                                : AppColors.gold.withValues(alpha: 0.15),
+                            borderRadius: BorderRadius.circular(12),
+                          ),
+                          child: Icon(
+                            isBroadcasting
+                                ? Icons.sensors_rounded
+                                : Icons.share_rounded,
+                            color: isBroadcasting
+                                ? AppColors.lime
+                                : AppColors.gold,
+                          ),
+                        ),
+                        const SizedBox(width: 12),
+                        Expanded(
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Text(
+                                isBroadcasting
+                                    ? 'البث المباشر نشط 🟢'
+                                    : 'مشاركة اللعبة أونلاين',
+                                style: const TextStyle(
+                                  fontWeight: FontWeight.bold,
+                                  fontSize: 16,
+                                ),
+                              ),
+                              Text(
+                                isBroadcasting
+                                    ? 'يشاهد المشاركون الأسئلة والبطاقات في الوقت الفعلي'
+                                    : 'شارك الرابط مع اللاعبين في الأماكن الأخرى دون تحميل تطبيق',
+                                style: const TextStyle(
+                                  color: AppColors.muted,
+                                  fontSize: 12,
+                                ),
+                              ),
+                            ],
+                          ),
+                        ),
+                      ],
+                    ),
+                    const SizedBox(height: 18),
+                    if (isBroadcasting) ...[
+                      // TV PIN Code Card
+                      Container(
+                        padding: const EdgeInsets.all(16),
+                        decoration: BoxDecoration(
+                          color: const Color(0xFF252930),
+                          borderRadius: BorderRadius.circular(16),
+                          border: Border.all(
+                            color: AppColors.gold.withValues(alpha: 0.4),
+                            width: 1.5,
+                          ),
+                        ),
+                        child: Column(
+                          children: [
+                            Row(
+                              mainAxisAlignment: MainAxisAlignment.center,
+                              children: [
+                                const Icon(Icons.tv_rounded, color: AppColors.gold, size: 18),
+                                const SizedBox(width: 6),
+                                const Text(
+                                  'رمز التلفاز السريع (PIN)',
+                                  style: TextStyle(
+                                    color: AppColors.gold,
+                                    fontSize: 13,
+                                    fontWeight: FontWeight.bold,
+                                  ),
+                                ),
+                              ],
+                            ),
+                            const SizedBox(height: 8),
+                            SelectableText(
+                              sync.formattedPin ?? roomId ?? '',
+                              textAlign: TextAlign.center,
+                              style: const TextStyle(
+                                fontSize: 36,
+                                fontWeight: FontWeight.w900,
+                                color: Colors.white,
+                                letterSpacing: 4,
+                              ),
+                            ),
+                            const SizedBox(height: 4),
+                            const Text(
+                              'اكتب هذه الأرقام بالريموت في صفحة lamma-live.web.app على التلفاز',
+                              textAlign: TextAlign.center,
+                              style: TextStyle(
+                                color: AppColors.muted,
+                                fontSize: 11,
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+                      const SizedBox(height: 14),
+                      // QR Code Card for Mobile Scanning & Screen Casting
+                      if (sync.qrCodeUrl != null)
+                        Container(
+                          padding: const EdgeInsets.all(12),
+                          decoration: BoxDecoration(
+                            color: const Color(0xFF1E2228),
+                            borderRadius: BorderRadius.circular(14),
+                            border: Border.all(color: AppColors.border),
+                          ),
+                          child: Row(
+                            children: [
+                              ClipRRect(
+                                borderRadius: BorderRadius.circular(10),
+                                child: Container(
+                                  color: Colors.white,
+                                  padding: const EdgeInsets.all(4),
+                                  child: Image.network(
+                                    sync.qrCodeUrl!,
+                                    width: 80,
+                                    height: 80,
+                                    fit: BoxFit.contain,
+                                    errorBuilder: (ctx, err, stack) => const SizedBox(
+                                      width: 80,
+                                      height: 80,
+                                      child: Icon(Icons.qr_code_2_rounded, size: 40, color: Colors.black54),
+                                    ),
+                                  ),
+                                ),
+                              ),
+                              const SizedBox(width: 12),
+                              const Expanded(
+                                child: Column(
+                                  crossAxisAlignment: CrossAxisAlignment.start,
+                                  children: [
+                                    Text(
+                                      'امسح بالجوال للربط السريع 📲',
+                                      style: TextStyle(
+                                        fontSize: 13,
+                                        fontWeight: FontWeight.bold,
+                                        color: Colors.white,
+                                      ),
+                                    ),
+                                    SizedBox(height: 4),
+                                    Text(
+                                      'وجّه كاميرا الجوال للكود للدخول فوراً، أو لبث الشاشة للتلفاز (AirPlay / Smart View)',
+                                      style: TextStyle(
+                                        fontSize: 11,
+                                        color: AppColors.muted,
+                                        height: 1.35,
+                                      ),
+                                    ),
+                                  ],
+                                ),
+                              ),
+                            ],
+                          ),
+                        ),
+                      const SizedBox(height: 14),
+                      Row(
+                        children: [
+                          Expanded(
+                            child: OutlinedButton.icon(
+                              onPressed: () {
+                                if (shareUrl != null) {
+                                  final pin = sync.formattedPin ?? roomId ?? '';
+                                  final textToCopy =
+                                      'انضم لمشاهدة لعبة لَمّة لايف على التلفاز أو هاتفك:\n$shareUrl\nرمز التلفاز (PIN): $pin';
+                                  Clipboard.setData(ClipboardData(text: textToCopy));
+                                  ScaffoldMessenger.of(context).showSnackBar(
+                                    const SnackBar(
+                                      content: Text('تم نسخ رابط المشاهدة ورمز التلفاز بنجاح'),
+                                    ),
+                                  );
+                                }
+                              },
+                              icon: const Icon(Icons.copy_rounded, size: 18),
+                              label: const Text('نسخ الرابط والرمز'),
+                            ),
+                          ),
+                          const SizedBox(width: 10),
+                          Expanded(
+                            child: FilledButton.icon(
+                              onPressed: () async {
+                                if (shareUrl != null) {
+                                  final uri = Uri.parse(shareUrl);
+                                  if (await canLaunchUrl(uri)) {
+                                    await launchUrl(uri, mode: LaunchMode.externalApplication);
+                                  }
+                                }
+                              },
+                              icon: const Icon(Icons.open_in_browser_rounded, size: 18),
+                              label: const Text('فتح الرابط'),
+                            ),
+                          ),
+                        ],
+                      ),
+                      const SizedBox(height: 12),
+                      TextButton.icon(
+                        onPressed: () async {
+                          await sync.stopBroadcasting();
+                          setSheetState(() {});
+                          refreshView();
+                          if (context.mounted) {
+                            ScaffoldMessenger.of(context).showSnackBar(
+                              const SnackBar(
+                                content: Text('تم إيقاف البث المباشر'),
+                              ),
+                            );
+                          }
+                        },
+                        icon: const Icon(Icons.stop_circle_outlined, color: AppColors.peach),
+                        label: const Text(
+                          'إيقاف البث',
+                          style: TextStyle(color: AppColors.peach),
+                        ),
+                      ),
+                    ] else ...[
+                      Container(
+                        padding: const EdgeInsets.all(14),
+                        decoration: BoxDecoration(
+                          color: const Color(0xFF252930),
+                          borderRadius: BorderRadius.circular(14),
+                        ),
+                        child: const Row(
+                          children: [
+                            Icon(Icons.info_outline, color: AppColors.blue, size: 20),
+                            SizedBox(width: 10),
+                            Expanded(
+                              child: Text(
+                                'عند بدء البث، سيتم إنشاء رابط مباشر. أي شخص يفتح الرابط من هاتفه سيرى الأقسام والأسئلة والمؤقت لحظة بلحظة.',
+                                style: TextStyle(fontSize: 12, color: AppColors.muted),
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+                      const SizedBox(height: 18),
+                      FilledButton.icon(
+                        style: FilledButton.styleFrom(
+                          backgroundColor: AppColors.gold,
+                          foregroundColor: Colors.black,
+                          padding: const EdgeInsets.symmetric(vertical: 14),
+                          shape: RoundedRectangleBorder(
+                            borderRadius: BorderRadius.circular(14),
+                          ),
+                        ),
+                        onPressed: () async {
+                          final started = await sync.startBroadcasting(
+                            config: widget.config,
+                            state: _model.state,
+                          );
+                          setSheetState(() {});
+                          refreshView();
+                          if (!started && context.mounted) {
+                            ScaffoldMessenger.of(context).showSnackBar(
+                              const SnackBar(
+                                content: Text('تعذر بدء البث المباشر، تحقق من اتصال الإنترنت.'),
+                              ),
+                            );
+                          }
+                        },
+                        icon: const Icon(Icons.sensors_rounded),
+                        label: const Text(
+                          'بدء البث المباشر الآن',
+                          style: TextStyle(fontWeight: FontWeight.bold, fontSize: 15),
+                        ),
+                      ),
+                    ],
+                  ],
+                ),
+              ),
+            );
+          },
+        );
+      },
+    );
+    if (mounted) refreshView();
   }
 }

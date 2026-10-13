@@ -128,6 +128,10 @@ class AppController extends ChangeNotifier {
       );
       lastSavedAt = restored.session!.updatedAt;
       saveStatus = LocalSaveStatus.saved;
+      // Save reconciled external-search time and any chosen opponent before
+      // making restoration available to the UI. A new launch cannot reroll it.
+      _onSessionChanged();
+      await retrySave();
     }
     ready = true;
     _refreshAvailability();
@@ -149,6 +153,7 @@ class AppController extends ChangeNotifier {
       questions: _questions!.forCategories(config.categoryIds),
       categoryIds: config.categoryIds,
       usage: _usage,
+      includeAbilities: config.abilitiesEnabled,
     );
     final next = SessionViewModel(
       config: config,

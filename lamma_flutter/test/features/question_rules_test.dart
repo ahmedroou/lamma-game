@@ -66,7 +66,7 @@ void main() {
     )..addFont(rootBundle.load('fonts/MaterialIcons-Regular.otf'))).load();
   });
   test(
-    'Planner reserves exactly five per category and five disjoint ability questions',
+    'Planner reserves exactly five per category and six disjoint hard ability questions',
     () {
       final usage = QuestionUsage();
       final plan = planMatchQuestions(
@@ -75,8 +75,8 @@ void main() {
         usage: usage,
         includeAbilities: true,
       );
-      expect(plan.length, 35);
-      expect(plan.map((q) => q.id).toSet().length, 35);
+      expect(plan.length, 36);
+      expect(plan.map((q) => q.id).toSet().length, 36);
       for (final id in managementConfig().categoryIds) {
         expect(plan.take(30).where((q) => q.categoryId == id).length, 5);
       }

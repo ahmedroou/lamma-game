@@ -1,5 +1,9 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
+import 'package:url_launcher/url_launcher.dart';
+import '../../core/online_sync_service.dart';
+import '../../domain/abilities/team_ability_catalog.dart';
 import '../../core/app_theme.dart';
 import '../../core/app_controller.dart';
 import '../../core/app_scope.dart';
@@ -34,6 +38,7 @@ class _SessionScreenState extends State<SessionScreen>
   AppController? get _app => AppScope.maybeRead(context);
   bool _allowPop = false, _exitDialogOpen = false;
   void _permitPop() => setState(() => _allowPop = true);
+  void refreshView() => setState(() {});
   @override
   void initState() {
     super.initState();
@@ -84,6 +89,20 @@ class _SessionScreenState extends State<SessionScreen>
               tooltip: 'سجل الجولات',
               onPressed: _showHistory,
               icon: const Icon(Icons.history_rounded),
+            ),
+            IconButton(
+              tooltip: OnlineSyncService().isBroadcasting
+                  ? 'بث مباشر نشط (انقر للمشاركة)'
+                  : 'مشاركة اللعبة أونلاين',
+              onPressed: _showLiveShareDialog,
+              icon: Icon(
+                OnlineSyncService().isBroadcasting
+                    ? Icons.sensors_rounded
+                    : Icons.share_rounded,
+                color: OnlineSyncService().isBroadcasting
+                    ? AppColors.lime
+                    : null,
+              ),
             ),
             PopupMenuButton<String>(
               tooltip: 'إدارة الجلسة',
@@ -181,29 +200,68 @@ class _SessionScreenState extends State<SessionScreen>
         _model.state.phase != SessionPhase.results &&
         team.id == _model.state.answeringTeam.id;
     return Material(
-      color: AppColors.surface,
+      color: active ? color.withValues(alpha: .08) : AppColors.surface,
       borderRadius: BorderRadius.circular(16),
       child: InkWell(
-        onTap: () => _inventory(team.id),
+        onTap: _model.abilitiesEnabled || team.inventory.isNotEmpty
+            ? () => _inventory(team.id)
+            : null,
         borderRadius: BorderRadius.circular(16),
-        child: Container(
+        child: AnimatedContainer(
+          duration: const Duration(milliseconds: 250),
           padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 10),
           decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(16),
-            border: Border.all(color: active ? color : AppColors.border),
+            border: Border.all(
+              color: active ? color : AppColors.border,
+              width: active ? 1.8 : 1.0,
+            ),
+            boxShadow: [
+              if (active)
+                BoxShadow(
+                  color: color.withValues(alpha: .22),
+                  blurRadius: 10,
+                  offset: const Offset(0, 2),
+                ),
+            ],
           ),
           child: Column(
             children: [
-              Text(
-                team.name,
-                textAlign: TextAlign.center,
-                maxLines: 1,
-                overflow: TextOverflow.ellipsis,
-                style: TextStyle(
-                  color: active ? color : AppColors.white,
-                  fontWeight: FontWeight.w700,
-                  fontSize: 14,
-                ),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                mainAxisSize: MainAxisSize.min,
+                children: [
+                  if (active) ...[
+                    Container(
+                      width: 6,
+                      height: 6,
+                      margin: const EdgeInsetsDirectional.only(end: 5),
+                      decoration: BoxDecoration(
+                        color: color,
+                        shape: BoxShape.circle,
+                        boxShadow: [
+                          BoxShadow(
+                            color: color.withValues(alpha: .8),
+                            blurRadius: 4,
+                          ),
+                        ],
+                      ),
+                    ),
+                  ],
+                  Flexible(
+                    child: Text(
+                      team.name,
+                      textAlign: TextAlign.center,
+                      maxLines: 1,
+                      overflow: TextOverflow.ellipsis,
+                      style: TextStyle(
+                        color: active ? color : AppColors.white,
+                        fontWeight: FontWeight.w700,
+                        fontSize: 14,
+                      ),
+                    ),
+                  ),
+                ],
               ),
               const SizedBox(height: 4),
               Text(
@@ -215,23 +273,24 @@ class _SessionScreenState extends State<SessionScreen>
                 ),
               ),
               const SizedBox(height: 3),
-              Row(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: [
-                  Icon(Icons.style_outlined, size: 12, color: color),
-                  const SizedBox(width: 4),
-                  Flexible(
-                    child: Text(
-                      '${team.inventory.length} قدرات',
-                      textAlign: TextAlign.center,
-                      style: const TextStyle(
-                        fontSize: 11,
-                        color: AppColors.muted,
+              if (_model.abilitiesEnabled || team.inventory.isNotEmpty)
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Icon(Icons.style_outlined, size: 12, color: color),
+                    const SizedBox(width: 4),
+                    Flexible(
+                      child: Text(
+                        '${team.inventory.length} قدرات',
+                        textAlign: TextAlign.center,
+                        style: const TextStyle(
+                          fontSize: 11,
+                          color: AppColors.muted,
+                        ),
                       ),
                     ),
-                  ),
-                ],
-              ),
+                  ],
+                ),
             ],
           ),
         ),
@@ -243,15 +302,30 @@ class _SessionScreenState extends State<SessionScreen>
     crossAxisAlignment: CrossAxisAlignment.start,
     children: [
       Tag('الدور: ${_model.state.activeTeam.name}', icon: Icons.bolt_rounded),
+      if (_model.state.history.isNotEmpty &&
+          _model.state.history.last.isAbilityRound &&
+          _model.state.history.last.awardedTeamId ==
+              _model.state.history.last.actingTeamId &&
+          _model.state.history.last.roundData['rewardDefinitionId'] != null)
+        Padding(
+          padding: const EdgeInsets.only(top: 12),
+          child: Tag(
+            'بطاقة جديدة: ${_model.abilities.definitions[_model.state.history.last.roundData['rewardDefinitionId']]?.title ?? 'قدرة'} · ${_model.state.teams.firstWhere((t) => t.id == _model.state.history.last.actingTeamId).name}',
+            icon: Icons.auto_awesome,
+            color: AppColors.gold,
+          ),
+        ),
       const SizedBox(height: 18),
       Text(
         'اختار ساحة التحدّي',
         style: Theme.of(context).textTheme.headlineMedium,
       ),
       const SizedBox(height: 8),
-      const Text(
-        'ستة أقسام… وفي السابع مخاطرة تغيّر اللعبة.',
-        style: TextStyle(color: AppColors.muted),
+      Text(
+        _model.abilitiesEnabled
+            ? 'ستة أقسام، والسابع يمنح بطاقات تغيّر اللعب.'
+            : 'ستة أقسام وخمس أسئلة لكل قسم.',
+        style: const TextStyle(color: AppColors.muted),
       ),
       const SizedBox(height: 22),
       if (_model.forcedCategoryId case final String category)
@@ -301,60 +375,69 @@ class _SessionScreenState extends State<SessionScreen>
         },
       ),
       const SizedBox(height: 14),
-      Material(
-        color: const Color(0xFF28241B),
-        borderRadius: BorderRadius.circular(18),
-        child: InkWell(
-          onTap: () {
-            if (!_model.selectCategory(GameRules.abilitiesCategoryId)) {
-              _riskInfo();
-            }
-          },
+      if (_model.abilitiesEnabled)
+        Material(
+          color: const Color(0xFF28241B),
           borderRadius: BorderRadius.circular(18),
-          child: Container(
-            padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 14),
-            decoration: BoxDecoration(
-              borderRadius: BorderRadius.circular(18),
-              border: Border.all(color: AppColors.gold.withValues(alpha: .4)),
-            ),
-            child: Row(
-              children: [
-                const Icon(
-                  Icons.style_outlined,
-                  size: 32,
-                  color: AppColors.gold,
-                ),
-                const SizedBox(width: 14),
-                Expanded(
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      const Text(
-                        '07 / قسم القدرات',
-                        style: TextStyle(
-                          color: AppColors.gold,
-                          fontSize: 18,
-                          fontWeight: FontWeight.w700,
-                        ),
-                      ),
-                      const SizedBox(height: 3),
-                      const Text(
-                        'نقاط السؤال + ورقة قدرة… أو خسارة 50 / 100 / 150',
-                        style: TextStyle(color: AppColors.muted, fontSize: 12),
-                      ),
-                      const SizedBox(height: 7),
-                      Tag(
-                        _model.abilitiesEnabled ? 'جرّب حظك' : 'قريباً',
-                        color: AppColors.gold,
-                      ),
-                    ],
+          child: InkWell(
+            onTap:
+                _model.remainingForCategory(GameRules.abilitiesCategoryId) >
+                        0 &&
+                    _model.abilityChoicesLeft(_model.state.activeTeam.id) > 0
+                ? () {
+                    if (!_model.selectCategory(GameRules.abilitiesCategoryId)) {
+                      _riskInfo();
+                    }
+                  }
+                : _riskInfo,
+            borderRadius: BorderRadius.circular(18),
+            child: Container(
+              padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 14),
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(18),
+                border: Border.all(color: AppColors.gold.withValues(alpha: .4)),
+              ),
+              child: Row(
+                children: [
+                  const Icon(
+                    Icons.style_outlined,
+                    size: 32,
+                    color: AppColors.gold,
                   ),
-                ),
-              ],
+                  const SizedBox(width: 14),
+                  Expanded(
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        const Text(
+                          '07 / قسم القدرات',
+                          style: TextStyle(
+                            color: AppColors.gold,
+                            fontSize: 18,
+                            fontWeight: FontWeight.w700,
+                          ),
+                        ),
+                        const SizedBox(height: 3),
+                        const Text(
+                          'صعب أو خارق · نقاط السؤال + بطاقة عند صحة إجابة صاحب الدور',
+                          style: TextStyle(
+                            color: AppColors.muted,
+                            fontSize: 12,
+                          ),
+                        ),
+                        const SizedBox(height: 7),
+                        Tag(
+                          '${_model.remainingForCategory(GameRules.abilitiesCategoryId)}/6 أسئلة · لفريقك ${_model.abilityChoicesLeft(_model.state.activeTeam.id)} اختيارات',
+                          color: AppColors.gold,
+                        ),
+                      ],
+                    ),
+                  ),
+                ],
+              ),
             ),
           ),
         ),
-      ),
     ],
   );
 
@@ -381,12 +464,68 @@ class _SessionScreenState extends State<SessionScreen>
             Tag(
               '${state.opponentTeamId == null ? 'الدور' : 'فرصة الخصم'}: ${state.answeringTeam.name}',
               color: state.opponentTeamId == null
-                  ? AppColors.muted
+                  ? [AppColors.lime, AppColors.purple, AppColors.blue][state
+                        .teams
+                        .indexOf(state.answeringTeam)
+                        .clamp(0, 2)]
                   : AppColors.purple,
+              icon: state.opponentTeamId == null
+                  ? Icons.bolt_rounded
+                  : Icons.sports_score_rounded,
             ),
           ],
         ),
         const SizedBox(height: 20),
+        if (state.roundData['doubleAbilityTeamId'] != null)
+          const Tag(
+            'بطاقة الدبل مفعّلة لصاحبها',
+            icon: Icons.bolt,
+            color: AppColors.gold,
+          ),
+        if (state.roundData['blockOpponentTeamId'] != null)
+          const Padding(
+            padding: EdgeInsets.symmetric(vertical: 10),
+            child: Text(
+              'لا فرصة إجابة لأي خصم بعد الفريق الأساسي في هذا السؤال.',
+              textAlign: TextAlign.center,
+              style: TextStyle(color: AppColors.gold),
+            ),
+          ),
+        for (final ban
+            in (state.roundData['abilityPlayerBans'] as List? ?? const []))
+          Padding(
+            padding: const EdgeInsets.only(bottom: 10),
+            child: Text(
+              'منع لاعب من ${state.teams.firstWhere((t) => t.id == (ban as Map)['target']).name} لهذا السؤال؛ يحدد المضيف واللاعبون الشخص ويلتزمون بالمنع.',
+              textAlign: TextAlign.center,
+              style: const TextStyle(color: AppColors.peach),
+            ),
+          ),
+        if (state.roundData['googleTeamId'] != null &&
+            state.phase == SessionPhase.cards)
+          Padding(
+            padding: const EdgeInsets.symmetric(vertical: 10),
+            child: Text(
+              _model.googleSecondsLeft > 0
+                  ? 'وقت البحث: ${_model.googleSecondsLeft} ثانية · مؤقت السؤال مستمر'
+                  : 'انتهت مهلة البحث؛ أغلقوا قوقل وأكملوا وفق وقت السؤال.',
+              textAlign: TextAlign.center,
+              style: const TextStyle(color: AppColors.blue),
+            ),
+          ),
+        if (state.roundData['diceTeamId'] == state.answeringTeam.id &&
+            state.revealedCards == 3)
+          Padding(
+            padding: const EdgeInsets.only(bottom: 12),
+            child: Text(
+              '🎲 نتيجة النرد: ${state.roundData['diceResult']} · الصحيح بين الخيارات',
+              textAlign: TextAlign.center,
+              style: const TextStyle(
+                color: AppColors.gold,
+                fontWeight: FontWeight.w700,
+              ),
+            ),
+          ),
         for (final ban in SurpriseSessionEffects.activeBans(
           state.sessionEffects,
           state.turn,
@@ -597,6 +736,8 @@ class _SessionScreenState extends State<SessionScreen>
               SurpriseEffect.options,
             }.contains(state.surpriseCard?.effect)) ...[
           if (state.roundData['surpriseActionUsed'] != true &&
+              !(state.surpriseCard?.effect == SurpriseEffect.options &&
+                  state.visibleOptions.length == 6) &&
               !state.hintRevealed)
             LammaButton(
               label: state.surpriseCard!.price > 0
@@ -712,14 +853,12 @@ class _SessionScreenState extends State<SessionScreen>
             onPressed: _model.canShowAnswer ? _model.showAnswer : null,
             icon: Icons.visibility_outlined,
           ),
-          if (state.opponentTeamId == null &&
-              state.surpriseCard?.effect != SurpriseEffect.noOpponent)
+          if (state.opponentTeamId == null && !_model.opponentsBlocked)
             TextButton(
               onPressed: _model.startOpponentOpportunity,
               child: const Text('إجابة خاطئة أو تمرير · فرصة للخصم'),
             ),
-          if (state.opponentTeamId == null &&
-              state.surpriseCard?.effect != SurpriseEffect.noOpponent)
+          if (state.opponentTeamId == null && !_model.opponentsBlocked)
             const Text(
               'الكشف المبكر ينهي فرصة الإجابة لهذا السؤال. مرّر للخصم قبل كشف الجواب إذا كانت الإجابة خاطئة.',
               textAlign: TextAlign.center,
@@ -813,7 +952,7 @@ class _SessionScreenState extends State<SessionScreen>
               ),
               const SizedBox(height: 12),
               const Text(
-                'هنا تختبر حظك بسؤال من أقسام جلستك. تكسب نقاطه وورقة قدرة، أو تخسر 50 أو 100 أو 150 نقطة. قريباً تنكشف أوراق القدرات!',
+                'ستة أسئلة صعبة أو خارقة من أقسام جلستك. لكل فريق ثلاثة اختيارات عند وجود فريقين، واختياران عند وجود ثلاثة. صاحب الدور يحصل على نقاط السؤال وبطاقة عشوائية إذا أجاب صحيحًا؛ الخصم يحصل على النقاط فقط. لا خصم عند الإخفاق.',
                 textAlign: TextAlign.center,
                 style: TextStyle(color: AppColors.muted),
               ),
@@ -867,7 +1006,7 @@ class _SessionScreenState extends State<SessionScreen>
                           ),
                           SizedBox(height: 7),
                           Text(
-                            'لكل فريق مخزونه الخاص. القدرات الجديدة قريباً.',
+                            'أجب صحيحًا في قسم القدرات لتكسب بطاقة. المضيف يفعّلها بطلب فريقك.',
                             style: TextStyle(color: AppColors.muted),
                             textAlign: TextAlign.center,
                           ),
@@ -886,21 +1025,47 @@ class _SessionScreenState extends State<SessionScreen>
 
   Widget _ownedCard(TeamState team, OwnedAbility card) {
     final definition = _model.abilities.definitions[card.definitionId];
-    final enabled =
-        definition != null &&
-        _model.abilities.isReady(card.definitionId) &&
-        (definition.windows.contains(AbilityWindow.anyTime) ||
-            definition.windows.contains(_model.abilityWindow)) &&
-        _model.state.phase != SessionPhase.results &&
-        !_model.state.isPaused;
+    final reason = _model.abilityUnavailableReason(team.id, card);
+    final enabled = definition != null && reason == null;
+    final icon = switch (card.definitionId) {
+      TeamAbilityCatalog.banPlayer => Icons.person_off_outlined,
+      TeamAbilityCatalog.options => Icons.view_list_rounded,
+      TeamAbilityCatalog.dice => Icons.casino_outlined,
+      TeamAbilityCatalog.noOpponent => Icons.shield_outlined,
+      TeamAbilityCatalog.google => Icons.travel_explore_rounded,
+      TeamAbilityCatalog.doublePoints => Icons.bolt_rounded,
+      _ => Icons.style_outlined,
+    };
     return Padding(
       padding: const EdgeInsets.only(bottom: 12),
       child: Card(
+        color: enabled
+            ? AppColors.gold.withValues(alpha: .08)
+            : AppColors.surface,
+        shape: RoundedRectangleBorder(
+          borderRadius: BorderRadius.circular(22),
+          side: BorderSide(
+            color: enabled
+                ? AppColors.gold.withValues(alpha: .5)
+                : AppColors.border,
+          ),
+        ),
         child: Padding(
           padding: const EdgeInsets.all(18),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
+              Row(
+                children: [
+                  Icon(icon, color: AppColors.gold, size: 30),
+                  const Spacer(),
+                  Tag(
+                    '${card.remainingUses} من ${definition?.usesPerCard ?? card.remainingUses}',
+                    color: AppColors.gold,
+                  ),
+                ],
+              ),
+              const SizedBox(height: 14),
               Text(
                 definition?.title ?? 'ورقة قدرة',
                 style: const TextStyle(
@@ -915,6 +1080,26 @@ class _SessionScreenState extends State<SessionScreen>
                 style: const TextStyle(color: AppColors.muted),
               ),
               const SizedBox(height: 10),
+              Wrap(
+                spacing: 7,
+                children: [
+                  for (
+                    var i = 0;
+                    i < (definition?.usesPerCard ?? card.remainingUses);
+                    i++
+                  )
+                    Icon(
+                      Icons.bolt_rounded,
+                      size: 19,
+                      color: i < card.remainingUses
+                          ? AppColors.gold
+                          : AppColors.border,
+                    ),
+                ],
+              ),
+              const SizedBox(height: 10),
+              if (reason != null)
+                Text(reason, style: const TextStyle(color: AppColors.muted)),
               FilledButton(
                 onPressed: enabled
                     ? () async {
@@ -943,24 +1128,91 @@ class _SessionScreenState extends State<SessionScreen>
                           );
                         }
                         if (!mounted || target == null) return;
+                        final confirmed = await showDialog<bool>(
+                          context: context,
+                          builder: (context) => AlertDialog(
+                            title: Text('تفعيل ${definition.title}؟'),
+                            content: Text(
+                              'بطلب من ${team.name}. سيُستهلك استخدام واحد من البطاقة. ${definition.description}',
+                            ),
+                            actions: [
+                              TextButton(
+                                onPressed: () => Navigator.pop(context, false),
+                                child: const Text('إلغاء'),
+                              ),
+                              FilledButton(
+                                onPressed: () => Navigator.pop(context, true),
+                                child: const Text('تفعيل البطاقة'),
+                              ),
+                            ],
+                          ),
+                        );
+                        if (!mounted || confirmed != true) return;
                         try {
+                          final q = _model.state.question;
+                          final query = q?.isIdentity == true
+                              ? q!.clues
+                                    .take(_model.state.identityCluesRevealed)
+                                    .join(' ')
+                              : q?.text ?? '';
                           _model.useAbility(
                             ownerTeamId: team.id,
                             cardId: card.id,
                             targetTeamId: target,
                           );
-                        } on StateError {
+                          await _app?.flush();
+                          if (card.definitionId == TeamAbilityCatalog.google) {
+                            var launched = false;
+                            try {
+                              if (_model.googleSecondsLeft > 0) {
+                                launched = await launchUrl(
+                                  Uri.https('www.google.com', '/search', {
+                                    'q': query,
+                                  }),
+                                  mode: LaunchMode.externalApplication,
+                                );
+                              }
+                            } on Object {
+                              launched = false;
+                            }
+                            _model.finishGoogleLaunch(launched);
+                            await _app?.flush();
+                            if (!launched && mounted) {
+                              ScaffoldMessenger.of(context).showSnackBar(
+                                const SnackBar(
+                                  content: Text(
+                                    'تعذّر فتح قوقل؛ أُعيد استخدام البطاقة، ومؤقت السؤال استمر.',
+                                  ),
+                                ),
+                              );
+                            }
+                          }
+                          if (mounted) Navigator.of(context).pop();
+                        } on StateError catch (error) {
+                          if (card.definitionId == TeamAbilityCatalog.google) {
+                            _model.finishGoogleLaunch(false);
+                          }
+                          if (!mounted) return;
                           ScaffoldMessenger.of(context).showSnackBar(
-                            const SnackBar(
-                              content: Text(
-                                'هذه القدرة غير متاحة في هذه اللحظة.',
-                              ),
-                            ),
+                            SnackBar(content: Text(error.message.toString())),
                           );
+                        } on Object {
+                          if (card.definitionId == TeamAbilityCatalog.google) {
+                            _model.finishGoogleLaunch(false);
+                          }
+                          if (mounted) {
+                            ScaffoldMessenger.of(context).showSnackBar(
+                              const SnackBar(
+                                content: Text(
+                                  'تعذّر حفظ الاستخدام. أعد محاولة الحفظ قبل المتابعة.',
+                                ),
+                              ),
+                            );
+                          }
                         }
                       }
                     : null,
-                child: Text(enabled ? 'استخدم القدرة' : 'غير متاحة الآن'),
+                child: Text(enabled ? 'تفعيل بطلب الفريق' : 'غير متاحة الآن'),
               ),
             ],
           ),
@@ -975,6 +1227,8 @@ class _SessionScreenState extends State<SessionScreen>
         .map((team) => team.score)
         .reduce((a, b) => a > b ? a : b);
     final winners = teams.where((team) => team.score == maxScore).toList();
+    final sortedTeams = List<TeamState>.from(teams)
+      ..sort((a, b) => b.score.compareTo(a.score));
     return Column(
       children: [
         const Icon(
@@ -995,17 +1249,106 @@ class _SessionScreenState extends State<SessionScreen>
           style: Theme.of(context).textTheme.headlineMedium,
         ),
         if (winners.length > 1)
-          Text(
-            winners.map((team) => team.name).join(' • '),
-            textAlign: TextAlign.center,
-            style: const TextStyle(color: AppColors.lime),
+          Padding(
+            padding: const EdgeInsets.only(top: 6),
+            child: Text(
+              winners.map((team) => team.name).join(' • '),
+              textAlign: TextAlign.center,
+              style: const TextStyle(
+                color: AppColors.lime,
+                fontWeight: FontWeight.w700,
+              ),
+            ),
           ),
         const SizedBox(height: 12),
         const Text(
           'أحلى فوز؟ إنكم اجتمعتوا.',
           style: TextStyle(color: AppColors.muted),
         ),
-        const SizedBox(height: 30),
+        const SizedBox(height: 22),
+        Container(
+          padding: const EdgeInsets.all(16),
+          decoration: BoxDecoration(
+            color: AppColors.surface,
+            borderRadius: BorderRadius.circular(20),
+            border: Border.all(color: AppColors.border),
+          ),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.stretch,
+            children: [
+              const Text(
+                'الترتيب النهائي للفرق',
+                textAlign: TextAlign.center,
+                style: TextStyle(
+                  color: AppColors.muted,
+                  fontSize: 13,
+                  fontWeight: FontWeight.w700,
+                ),
+              ),
+              const SizedBox(height: 12),
+              for (var i = 0; i < sortedTeams.length; i++) ...[
+                Builder(
+                  builder: (context) {
+                    final team = sortedTeams[i];
+                    final isWinner = team.score == maxScore;
+                    final medal = i == 0
+                        ? (winners.length > 1 ? '🤝' : '🥇')
+                        : i == 1
+                        ? '🥈'
+                        : '🥉';
+                    final teamColor = [
+                      AppColors.lime,
+                      AppColors.purple,
+                      AppColors.blue,
+                    ][teams.indexOf(team).clamp(0, 2)];
+                    return Container(
+                      margin: const EdgeInsets.only(bottom: 8),
+                      padding: const EdgeInsets.symmetric(
+                        horizontal: 14,
+                        vertical: 10,
+                      ),
+                      decoration: BoxDecoration(
+                        color: isWinner
+                            ? teamColor.withValues(alpha: .12)
+                            : AppColors.background,
+                        borderRadius: BorderRadius.circular(14),
+                        border: Border.all(
+                          color: isWinner ? teamColor : AppColors.border,
+                          width: isWinner ? 1.5 : 1,
+                        ),
+                      ),
+                      child: Row(
+                        children: [
+                          Text(medal, style: const TextStyle(fontSize: 18)),
+                          const SizedBox(width: 10),
+                          Expanded(
+                            child: Text(
+                              team.name,
+                              style: TextStyle(
+                                fontWeight: FontWeight.w700,
+                                fontSize: 15,
+                                color: isWinner ? teamColor : AppColors.white,
+                              ),
+                            ),
+                          ),
+                          Text(
+                            '${team.score} نقطة',
+                            style: TextStyle(
+                              fontWeight: FontWeight.w700,
+                              fontSize: 15,
+                              color: teamColor,
+                            ),
+                          ),
+                        ],
+                      ),
+                    );
+                  },
+                ),
+              ],
+            ],
+          ),
+        ),
+        const SizedBox(height: 26),
         LammaButton(
           label: 'العودة للرئيسية',
           onPressed: () => _requestExit(returnHome: true),

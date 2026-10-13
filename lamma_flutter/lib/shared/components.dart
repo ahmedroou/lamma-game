@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import '../core/app_theme.dart';
 import '../domain/models/question.dart';
 
@@ -37,7 +38,12 @@ class LammaButton extends StatelessWidget {
   final bool secondary;
   @override
   Widget build(BuildContext context) => FilledButton(
-    onPressed: onPressed,
+    onPressed: onPressed == null
+        ? null
+        : () {
+            HapticFeedback.lightImpact();
+            onPressed!();
+          },
     style: FilledButton.styleFrom(
       backgroundColor: secondary ? AppColors.surface : AppColors.lime,
       foregroundColor: secondary ? AppColors.white : AppColors.ink,
