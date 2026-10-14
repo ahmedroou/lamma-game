@@ -1,3 +1,4 @@
+import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import '../../core/app_theme.dart';
@@ -11,14 +12,119 @@ import '../session/session_screen.dart';
 import '../session/session_view_model.dart';
 import 'card_scene.dart';
 import '../updates/app_update_screen.dart';
+import '../updates/app_update_view_model.dart';
 
 class HomeScreen extends StatefulWidget {
-  const HomeScreen({super.key});
+  const HomeScreen({super.key, this.updateModel});
+  final AppUpdateViewModel? updateModel;
   @override
   State<HomeScreen> createState() => _HomeScreenState();
 }
 
-class _HomeScreenState extends State<HomeScreen> {
+class _HomeScreenState extends State<HomeScreen> with WidgetsBindingObserver {
+  late final AppUpdateViewModel _updates =
+      widget.updateModel ??
+      AppUpdateViewModel(
+        beforeInstall: () async {
+          _app.session?.pause();
+          await _app.flush();
+        },
+      );
+  Timer? _updateTimer;
+  @override
+  void initState() {
+    super.initState();
+    WidgetsBinding.instance.addObserver(this);
+    _scheduleUpdateChecks();
+    WidgetsBinding.instance.addPostFrameCallback((_) => _checkForUpdate());
+  }
+
+  void _scheduleUpdateChecks() {
+    _updateTimer?.cancel();
+    if (!_updates.supported) return;
+    _updateTimer = Timer.periodic(
+      AppUpdateViewModel.automaticCheckInterval,
+      (_) => _checkForUpdate(),
+    );
+  }
+
+  void _checkForUpdate() {
+    if (!mounted ||
+        WidgetsBinding.instance.lifecycleState == AppLifecycleState.paused ||
+        WidgetsBinding.instance.lifecycleState == AppLifecycleState.inactive ||
+        !(ModalRoute.of(context)?.isCurrent ?? true)) {
+      return;
+    }
+    unawaited(_updates.check(automatic: true));
+  }
+
+  @override
+  void didChangeAppLifecycleState(AppLifecycleState state) {
+    if (state == AppLifecycleState.resumed) {
+      _scheduleUpdateChecks();
+      _checkForUpdate();
+    } else {
+      _updateTimer?.cancel();
+    }
+  }
+
+  @override
+  void dispose() {
+    _updateTimer?.cancel();
+    WidgetsBinding.instance.removeObserver(this);
+    if (widget.updateModel == null) _updates.dispose();
+    super.dispose();
+  }
+
+  void _openUpdates() {
+    if (_updates.status == UpdateStatus.idle ||
+        _updates.status == UpdateStatus.error) {
+      unawaited(_updates.check());
+    }
+    openPage<void>(context, AppUpdateScreen(model: _updates));
+  }
+
+  Widget _updateButton() => ListenableBuilder(
+    listenable: _updates,
+    builder: (context, _) => Semantics(
+      value: _updates.hasUpdate
+          ? 'يتوفر إصدار ${_updates.release!.version}'
+          : null,
+      child: Stack(
+        children: [
+          IconButton.filledTonal(
+            key: const ValueKey('home-update-button'),
+            tooltip: _updates.hasUpdate ? 'تحديث جديد متاح' : 'تحديث التطبيق',
+            onPressed: _openUpdates,
+            style: IconButton.styleFrom(
+              backgroundColor: AppColors.surface,
+              foregroundColor: _updates.hasUpdate
+                  ? AppColors.lime
+                  : AppColors.white,
+            ),
+            icon: const Icon(Icons.system_update_rounded, size: 21),
+          ),
+          if (_updates.hasUpdate)
+            PositionedDirectional(
+              top: 4,
+              end: 4,
+              child: IgnorePointer(
+                child: Container(
+                  key: const ValueKey('home-update-badge'),
+                  width: 10,
+                  height: 10,
+                  decoration: BoxDecoration(
+                    color: AppColors.peach,
+                    shape: BoxShape.circle,
+                    border: Border.all(color: AppColors.background, width: 2),
+                  ),
+                ),
+              ),
+            ),
+        ],
+      ),
+    ),
+  );
   AppController get _app => AppScope.read(context);
   bool get _motion => _app.settings.motion;
   bool get _haptics => _app.settings.haptics;
@@ -96,6 +202,8 @@ class _HomeScreenState extends State<HomeScreen> {
                             ),
                             icon: const Icon(Icons.tune_rounded, size: 21),
                           ),
+                          const SizedBox(width: 4),
+                          _updateButton(),
                         ],
                       ),
                     ),
@@ -798,7 +906,7 @@ class _HomeScreenState extends State<HomeScreen> {
             trailing: const Icon(Icons.chevron_left),
             onTap: () {
               Navigator.pop(context);
-              openPage<void>(context, const AppUpdateScreen());
+              _openUpdates();
             },
           ),
           const Text(

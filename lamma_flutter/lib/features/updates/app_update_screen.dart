@@ -160,6 +160,15 @@ class _AppUpdateScreenState extends State<AppUpdateScreen> {
                         textAlign: TextAlign.center,
                         style: const TextStyle(color: AppColors.peach),
                       ),
+                    if (model.error != null && model.supported)
+                      TextButton.icon(
+                        onPressed: () => launchUrl(
+                          AppRelease.downloadPage,
+                          mode: LaunchMode.externalApplication,
+                        ),
+                        icon: const Icon(Icons.open_in_new_rounded),
+                        label: const Text('فتح رابط التحميل المباشر'),
+                      ),
                     if (model.status == UpdateStatus.permission) ...[
                       const Text(
                         'Android يحتاج إذن «السماح من هذا المصدر» لتثبيت تحديث لَمّة. فعّله ثم عد واضغط «تثبيت التحديث».',

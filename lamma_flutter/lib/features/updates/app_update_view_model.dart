@@ -23,13 +23,18 @@ class AppUpdateViewModel extends ChangeNotifier {
     ApkStore? store,
     Future<AppRelease?> Function()? fetchRelease,
     this.beforeInstall,
+    DateTime Function()? now,
   }) : platform = platform ?? AndroidUpdatePlatform(),
        store = store ?? createApkStore(),
-       fetchRelease = fetchRelease ?? GithubReleaseService().latest;
+       fetchRelease = fetchRelease ?? GithubReleaseService().latest,
+       _now = now ?? DateTime.now;
   final UpdatePlatform platform;
   final ApkStore store;
   final Future<AppRelease?> Function() fetchRelease;
   final Future<void> Function()? beforeInstall;
+  final DateTime Function() _now;
+  DateTime? _lastCheckAt;
+  static const automaticCheckInterval = Duration(minutes: 15);
   UpdateStatus status = UpdateStatus.idle;
   InstalledApp? installed;
   AppRelease? release;
@@ -37,6 +42,10 @@ class AppUpdateViewModel extends ChangeNotifier {
   int received = 0;
   bool _disposed = false, _cancelled = false;
   bool get supported => platform.supported;
+  bool get hasUpdate =>
+      installed != null &&
+      release != null &&
+      release!.buildNumber > installed!.buildNumber;
   bool get busy =>
       status == UpdateStatus.checking || status == UpdateStatus.downloading;
   double get progress =>
@@ -60,14 +69,23 @@ class AppUpdateViewModel extends ChangeNotifier {
     }
   }
 
-  Future<void> check() async {
+  Future<void> check({bool automatic = false}) async {
     if (busy || _disposed) return;
+    if (automatic &&
+        (!supported ||
+            downloadedPath != null ||
+            _lastCheckAt != null &&
+                _now().difference(_lastCheckAt!) < automaticCheckInterval)) {
+      return;
+    }
+    _lastCheckAt = _now();
     error = null;
-    release = null;
+    if (!automatic) release = null;
     downloadedPath = null;
     _set(UpdateStatus.checking);
     try {
       installed = await platform.installedApp();
+      if (_disposed) return;
       final latest = await fetchRelease();
       if (_disposed) return;
       release = latest;
@@ -78,9 +96,15 @@ class AppUpdateViewModel extends ChangeNotifier {
             ? UpdateStatus.available
             : UpdateStatus.current,
       );
-    } on Object {
+    } on Object catch (exception) {
       if (!_disposed) {
-        error = 'تعذّر فحص التحديث. تحقق من اتصال الإنترنت وحاول مجددًا.';
+        error = exception is UpdateCheckException
+            ? exception.message
+            : exception is FormatException
+            ? const UpdateCheckException(
+                UpdateCheckFailure.invalidMetadata,
+              ).message
+            : 'تعذّر فحص التحديث. أعد المحاولة أو افتح رابط التحميل المباشر.';
         _set(UpdateStatus.error);
       }
     }

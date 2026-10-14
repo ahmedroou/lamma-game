@@ -1,5 +1,6 @@
 import 'dart:async';
 import 'dart:io';
+import 'dart:convert';
 import 'package:crypto/crypto.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:http/http.dart' as http;
@@ -87,6 +88,155 @@ class FakeStore implements ApkStore {
 
 void main() {
   TestWidgetsFlutterBinding.ensureInitialized();
+  test('GitHub percent-encoded release tags are accepted', () {
+    final data = metadata();
+    (data['assets'] as List).single['browser_download_url'] =
+        'https://github.com/ahmedroou/lamma-game/releases/download/v0.3.0%2B3/lamma-android.apk';
+    expect(AppRelease.fromGithub(data).buildNumber, 3);
+  });
+  test(
+    'Encoded slash, double encoding, credentials, port and extra URL parts stay rejected',
+    () {
+      for (final path in [
+        'https://github.com/ahmedroou/lamma-game/releases/download/v0.3.0%252B3/lamma-android.apk',
+        'https://github.com/ahmedroou%2Flamma-game/releases/download/v0.3.0%2B3/lamma-android.apk',
+        'https://github.com:8443/ahmedroou/lamma-game/releases/download/v0.3.0%2B3/lamma-android.apk',
+        'https://user@github.com/ahmedroou/lamma-game/releases/download/v0.3.0%2B3/lamma-android.apk',
+        '${release().url}?redirect=elsewhere',
+        '${release().url}#fragment',
+      ]) {
+        final data = metadata();
+        (data['assets'] as List).single['browser_download_url'] = path;
+        expect(() => AppRelease.fromGithub(data), throwsFormatException);
+      }
+    },
+  );
+  test(
+    'Direct manifest handles real encoded URL without using API quota',
+    () async {
+      final requests = <Uri>[];
+      final data = metadata();
+      (data['assets'] as List).single['browser_download_url'] =
+          'https://github.com/ahmedroou/lamma-game/releases/download/v0.3.0%2B3/lamma-android.apk';
+      final service = GithubReleaseService(
+        clientFactory: () => MockClient((request) async {
+          requests.add(request.url);
+          return http.Response.bytes(utf8.encode(jsonEncode(data)), 200);
+        }),
+      );
+      expect((await service.latest())!.buildNumber, 3);
+      expect(requests, [AppRelease.manifestUri]);
+    },
+  );
+  test(
+    'Missing or damaged manifest falls back to valid API metadata',
+    () async {
+      for (final response in [
+        http.Response('', 404),
+        http.Response('<html>error</html>', 200),
+        http.Response('{}', 200),
+      ]) {
+        var calls = 0;
+        final service = GithubReleaseService(
+          clientFactory: () => MockClient((request) async {
+            calls++;
+            return request.url == AppRelease.manifestUri
+                ? response
+                : http.Response.bytes(utf8.encode(jsonEncode(metadata())), 200);
+          }),
+        );
+        expect((await service.latest())!.buildNumber, 3);
+        expect(calls, 2);
+      }
+    },
+  );
+  test(
+    'Rate limit and invalid release metadata have distinct error messages',
+    () async {
+      for (final entry in [
+        (http.Response('', 429), 'يقيّد الطلبات'),
+        (http.Response('{}', 200), 'بيانات الإصدار'),
+        (http.Response('', 503), 'غير متاح مؤقتًا'),
+      ]) {
+        final service = GithubReleaseService(
+          clientFactory: () => MockClient((_) async => entry.$1),
+        );
+        final vm = AppUpdateViewModel(
+          platform: FakePlatform(),
+          store: FakeStore(),
+          fetchRelease: service.latest,
+        );
+        addTearDown(vm.dispose);
+        await vm.check();
+        expect(vm.status, UpdateStatus.error);
+        expect(vm.error, contains(entry.$2));
+      }
+    },
+  );
+  test(
+    'Automatic checks are throttled, can retry, and preserve downloaded files',
+    () async {
+      var now = DateTime.utc(2026, 10, 14), calls = 0;
+      var offline = false;
+      final vm = AppUpdateViewModel(
+        platform: FakePlatform(),
+        store: FakeStore(),
+        now: () => now,
+        fetchRelease: () async {
+          calls++;
+          if (offline) {
+            throw const UpdateCheckException(UpdateCheckFailure.network);
+          }
+          return release();
+        },
+      );
+      addTearDown(vm.dispose);
+      await vm.check(automatic: true);
+      expect(vm.hasUpdate, true);
+      await vm.check(automatic: true);
+      expect(calls, 1);
+      offline = true;
+      now = now.add(const Duration(minutes: 15));
+      await vm.check(automatic: true);
+      expect(vm.hasUpdate, true);
+      expect(vm.error, contains('الاتصال'));
+      offline = false;
+      await vm.check();
+      expect(calls, 3);
+      await vm.download();
+      now = now.add(const Duration(hours: 1));
+      await vm.check(automatic: true);
+      expect(calls, 3);
+      expect(vm.downloadedPath, isNotNull);
+      expect(vm.status, UpdateStatus.ready);
+    },
+  );
+  test(
+    'Automatic checks skip non-Android platforms and concurrent requests',
+    () async {
+      final platform = FakePlatform()..supported = false;
+      final gate = Completer<AppRelease?>();
+      var calls = 0;
+      final vm = AppUpdateViewModel(
+        platform: platform,
+        store: FakeStore(),
+        fetchRelease: () {
+          calls++;
+          return gate.future;
+        },
+      );
+      addTearDown(vm.dispose);
+      await vm.check(automatic: true);
+      expect(calls, 0);
+      platform.supported = true;
+      final first = vm.check(automatic: true);
+      await Future<void>.delayed(Duration.zero);
+      await vm.check();
+      expect(calls, 1);
+      gate.complete(release());
+      await first;
+    },
+  );
   test(
     'Stable release metadata requires trusted URL, numeric build, size and SHA256',
     () {

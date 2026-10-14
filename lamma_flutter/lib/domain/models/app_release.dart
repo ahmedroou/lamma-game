@@ -20,6 +20,10 @@ final class AppRelease {
     'github.com',
     '/$repository/releases/latest',
   );
+  static final manifestUri = Uri.https(
+    'github.com',
+    '/$repository/releases/latest/download/update.json',
+  );
   static const maxSize = 500 * 1024 * 1024;
   factory AppRelease.fromGithub(Map<String, dynamic> json) {
     final tag = json['tag_name'];
@@ -52,7 +56,10 @@ final class AppRelease {
         url.userInfo.isNotEmpty ||
         url.hasQuery ||
         url.hasFragment ||
-        url.path != '/$repository/releases/download/$tag/lamma-android.apk' ||
+        url.hasPort ||
+        url.pathSegments.length != 6 ||
+        url.pathSegments.join('/') !=
+            '$repository/releases/download/$tag/lamma-android.apk' ||
         !RegExp(r'^sha256:[a-fA-F0-9]{64}$').hasMatch(digest) ||
         size is! int ||
         size <= 0 ||
