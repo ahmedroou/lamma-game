@@ -91,20 +91,22 @@ void main() {
         await tapLabel(tester, title);
       }
       await tester.pump(const Duration(seconds: 2));
-      await tester.tap(find.byTooltip('إيقاف الجلسة'));
+      await tester.tap(find.byTooltip('خيارات اللعبة'));
+      await tester.pumpAndSettle();
+      await tester.tap(find.text('إيقاف الجلسة'));
       await tester.pump();
       final remaining = app.session!.state.secondsRemaining;
       await tester.pump(const Duration(seconds: 10));
       expect(app.session!.state.secondsRemaining, remaining);
       expect(find.text('الجلسة متوقفة'), findsOneWidget);
-      await tester.tap(find.byType(BackButton));
+      await tester.binding.handlePopRoute();
       await tester.pump();
       await tester.pump(const Duration(milliseconds: 400));
       expect(find.text('نحفظ اللمّة ونرجع؟'), findsOneWidget);
       await tapLabel(tester, 'البقاء');
       expect(app.session!.state.isPaused, true);
       await tapLabel(tester, 'متابعة اللعب');
-      await tester.tap(find.byType(BackButton));
+      await tester.binding.handlePopRoute();
       await tester.pump();
       await tester.pump(const Duration(milliseconds: 400));
       await tapLabel(tester, 'حفظ وخروج');
@@ -137,7 +139,9 @@ void main() {
       await tester.pump();
       await tapLabel(tester, 'استئناف الجلسة');
       await tapLabel(tester, 'متابعة اللعب');
-      await tester.tap(find.byTooltip('سجل الجولات'));
+      await tester.tap(find.byTooltip('خيارات اللعبة'));
+      await tester.pumpAndSettle();
+      await tester.tap(find.text('سجل الجولات'));
       await tester.pump();
       await tester.pump(const Duration(milliseconds: 400));
       await tapLabel(tester, 'تصحيح التحكيم');

@@ -3,6 +3,7 @@ import 'team.dart';
 import 'hint_access.dart';
 import 'session_config.dart';
 import '../abilities/surprise_scoring.dart';
+import 'host_score_adjustment.dart';
 
 enum SessionPhase { categories, cards, answer, results }
 
@@ -147,6 +148,7 @@ final class SessionState {
     this.abilityRevision = 0,
     Iterable<RoundRecord> history = const [],
     Iterable<JudgmentChange> corrections = const [],
+    Iterable<HostScoreAdjustment> scoreAdjustments = const [],
     Map<String, Object?> roundData = const {},
     Map<String, Object?> sessionEffects = const {},
     Map<String, int> abilitySelections = const {},
@@ -155,6 +157,7 @@ final class SessionState {
        seenQuestionIds = Set.unmodifiable(seenQuestionIds),
        history = List.unmodifiable(history),
        corrections = List.unmodifiable(corrections),
+       scoreAdjustments = List.unmodifiable(scoreAdjustments),
        roundData = Map.unmodifiable(roundData),
        sessionEffects = Map.unmodifiable(sessionEffects),
        abilitySelections = Map.unmodifiable(abilitySelections);
@@ -167,6 +170,7 @@ final class SessionState {
   final PauseReason pauseReason;
   final List<RoundRecord> history;
   final List<JudgmentChange> corrections;
+  final List<HostScoreAdjustment> scoreAdjustments;
   final Map<String, Object?> roundData;
   final Map<String, Object?> sessionEffects;
   final Map<String, int> abilitySelections;
@@ -267,6 +271,7 @@ final class SessionState {
     PauseReason? pauseReason,
     Iterable<RoundRecord>? history,
     Iterable<JudgmentChange>? corrections,
+    Iterable<HostScoreAdjustment>? scoreAdjustments,
     Map<String, Object?>? roundData,
     Map<String, Object?>? sessionEffects,
     Map<String, int>? abilitySelections,
@@ -285,6 +290,7 @@ final class SessionState {
     abilityRevision: abilityRevision ?? this.abilityRevision,
     history: history ?? this.history,
     corrections: corrections ?? this.corrections,
+    scoreAdjustments: scoreAdjustments ?? this.scoreAdjustments,
     roundData: roundData ?? this.roundData,
     sessionEffects: sessionEffects ?? this.sessionEffects,
     abilitySelections: abilitySelections ?? this.abilitySelections,
@@ -305,6 +311,10 @@ final class SessionState {
     'abilityRevision': abilityRevision,
     'history': history.map((round) => round.toJson()).toList(),
     'corrections': corrections.map((change) => change.toJson()).toList(),
+    if (scoreAdjustments.isNotEmpty)
+      'scoreAdjustments': scoreAdjustments
+          .map((change) => change.toJson())
+          .toList(),
     'roundData': roundData,
     'abilitySelections': abilitySelections,
     'selectionTeamId': selectionTeamId,
@@ -335,6 +345,10 @@ final class SessionState {
     ),
     corrections: (json['corrections'] as List<dynamic>).map(
       (raw) => JudgmentChange.fromJson(raw as Map<String, dynamic>),
+    ),
+    scoreAdjustments: (json['scoreAdjustments'] as List? ?? const []).map(
+      (raw) =>
+          HostScoreAdjustment.fromJson(Map<String, dynamic>.from(raw as Map)),
     ),
     roundData: Map<String, Object?>.from(
       json['roundData'] as Map<String, dynamic>,

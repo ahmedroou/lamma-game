@@ -14,21 +14,14 @@ extension _SessionPlayLayout on _SessionScreenState {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.stretch,
                 children: [
-                  if (_app != null)
-                    SizedBox(
-                      height: wide ? 18 : 24,
-                      child: LayoutBuilder(
-                        builder: (context, box) => FittedBox(
-                          fit: BoxFit.scaleDown,
-                          child: SizedBox(
-                            width: box.maxWidth,
-                            child: _saveIndicator(),
-                          ),
-                        ),
-                      ),
+                  if (_app != null) _saveIndicator(),
+                  if (_model.state.phase == SessionPhase.categories) ...[
+                    Padding(
+                      padding: const EdgeInsetsDirectional.only(end: 42),
+                      child: SizedBox(height: wide ? 36 : 50, child: _scores()),
                     ),
-                  SizedBox(height: wide ? 36 : 50, child: _scores()),
-                  SizedBox(height: wide ? 4 : 8),
+                    SizedBox(height: wide ? 4 : 8),
+                  ],
                   Expanded(
                     child: _model.state.isPaused
                         ? _compactPause()
@@ -46,6 +39,7 @@ extension _SessionPlayLayout on _SessionScreenState {
   );
 
   Widget _scores() => Row(
+    key: const ValueKey('team-scoreboard'),
     children: [
       for (var i = 0; i < _model.state.teams.length; i++) ...[
         if (i > 0) const SizedBox(width: 6),
@@ -739,77 +733,95 @@ extension _SessionPlayLayout on _SessionScreenState {
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
             SizedBox(
-              height: wide ? 22 : 30,
-              child: Row(
-                children: [
-                  Expanded(
-                    flex: 3,
-                    child: state.isOpponentWindow
-                        ? Column(
-                            key: const ValueKey('opponent-opportunity'),
-                            children: [
-                              Expanded(
-                                child: FitText(
-                                  'فرصة ${state.answeringTeam.name} وحده',
-                                  style: const TextStyle(
-                                    fontSize: 14,
-                                    color: AppColors.purple,
+              height: 32,
+              child: Padding(
+                padding: const EdgeInsetsDirectional.only(end: 42),
+                child: Row(
+                  children: [
+                    Expanded(
+                      flex: 3,
+                      child: state.isOpponentWindow
+                          ? Column(
+                              key: const ValueKey('opponent-opportunity'),
+                              children: [
+                                Expanded(
+                                  child: FitText(
+                                    'فرصة ${state.answeringTeam.name} وحده',
+                                    style: const TextStyle(
+                                      fontSize: 14,
+                                      color: AppColors.purple,
+                                    ),
                                   ),
                                 ),
-                              ),
-                              Expanded(
-                                child: FitText(
-                                  state.opponentSelectedByLot
-                                      ? 'اختير بالقرعة'
-                                      : state.teams.length == 3
-                                      ? 'الخصم الأقل نقاطاً'
-                                      : 'فرصة الفريق الآخر',
-                                  style: const TextStyle(
-                                    fontSize: 11,
-                                    color: AppColors.muted,
+                                Expanded(
+                                  child: FitText(
+                                    state.opponentSelectedByLot
+                                        ? 'اختير بالقرعة'
+                                        : state.teams.length == 3
+                                        ? 'الخصم الأقل نقاطاً'
+                                        : 'فرصة الفريق الآخر',
+                                    style: const TextStyle(
+                                      fontSize: 11,
+                                      color: AppColors.muted,
+                                    ),
                                   ),
                                 ),
-                              ),
-                            ],
-                          )
-                        : FitText(
-                            gameCategories
-                                .firstWhere((c) => c.id == q.categoryId)
-                                .title,
-                            style: const TextStyle(
-                              color: AppColors.blue,
-                              fontSize: 14,
-                              fontWeight: FontWeight.w700,
+                              ],
+                            )
+                          : Column(
+                              children: [
+                                Expanded(
+                                  child: FitText(
+                                    gameCategories
+                                        .firstWhere((c) => c.id == q.categoryId)
+                                        .title,
+                                    style: const TextStyle(
+                                      color: AppColors.blue,
+                                      fontSize: 14,
+                                      fontWeight: FontWeight.w700,
+                                    ),
+                                  ),
+                                ),
+                                Expanded(
+                                  child: FitText(
+                                    'الدور: ${state.answeringTeam.name}',
+                                    style: const TextStyle(
+                                      color: AppColors.lime,
+                                      fontSize: 12,
+                                    ),
+                                  ),
+                                ),
+                              ],
                             ),
-                          ),
-                  ),
-                  Expanded(
-                    flex: 2,
-                    child: FitText(
-                      '${state.availablePoints} نقطة',
-                      key: const ValueKey('question-points'),
-                      style: const TextStyle(
-                        fontSize: 16,
-                        color: AppColors.gold,
-                        fontWeight: FontWeight.w800,
-                      ),
                     ),
-                  ),
-                  if (opened)
                     Expanded(
                       flex: 2,
                       child: FitText(
-                        '${state.clockSeconds} ${state.plankAccepted ? 'ثانية بلانك' : 'ثانية'}',
-                        style: TextStyle(
-                          color: state.clockSeconds <= 7
-                              ? AppColors.peach
-                              : AppColors.lime,
-                          fontSize: 19,
+                        '${state.availablePoints} نقطة',
+                        key: const ValueKey('question-points'),
+                        style: const TextStyle(
+                          fontSize: 16,
+                          color: AppColors.gold,
                           fontWeight: FontWeight.w800,
                         ),
                       ),
                     ),
-                ],
+                    if (opened)
+                      Expanded(
+                        flex: 2,
+                        child: FitText(
+                          '${state.clockSeconds} ${state.plankAccepted ? 'ثانية بلانك' : 'ثانية'}',
+                          style: TextStyle(
+                            color: state.clockSeconds <= 7
+                                ? AppColors.peach
+                                : AppColors.lime,
+                            fontSize: 19,
+                            fontWeight: FontWeight.w800,
+                          ),
+                        ),
+                      ),
+                  ],
+                ),
               ),
             ),
             if (messages.isNotEmpty)

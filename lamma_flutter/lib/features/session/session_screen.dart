@@ -19,6 +19,7 @@ import 'category_replay_options.dart';
 import 'structured_question_panel.dart';
 import 'opening_card_controls.dart';
 import 'cinematic_round_deck.dart';
+import 'edit_team_scores_dialog.dart';
 import '../../domain/abilities/surprise_session_effects.dart';
 import '../../shared/fit_text.dart';
 part 'session_management.dart';
@@ -65,113 +66,56 @@ class _SessionScreenState extends State<SessionScreen>
         if (!didPop) unawaited(_requestExit());
       },
       child: Scaffold(
-        appBar: AppBar(
-          toolbarHeight: 44,
-          leading: BackButton(onPressed: () => _requestExit()),
-          title: Text(
-            _model.state.phase == SessionPhase.results
-                ? 'نتائج اللمّة'
-                : 'الجولة ${_model.state.turn + 1}',
-          ),
-          actions: [
-            if (_model.state.phase != SessionPhase.results)
-              IconButton(
-                tooltip: _model.state.isPaused
-                    ? 'استئناف اللعب'
-                    : 'إيقاف الجلسة',
-                onPressed: _model.state.isPaused ? _model.resume : _model.pause,
-                icon: Icon(
-                  _model.state.isPaused
-                      ? Icons.play_arrow_rounded
-                      : Icons.pause_rounded,
-                ),
-              ),
-            IconButton(
-              tooltip: 'سجل الجولات',
-              onPressed: _showHistory,
-              icon: const Icon(Icons.history_rounded),
-            ),
-            IconButton(
-              tooltip: OnlineSyncService().isBroadcasting
-                  ? 'بث مباشر نشط (انقر للمشاركة)'
-                  : 'مشاركة اللعبة أونلاين',
-              onPressed: _showLiveShareDialog,
-              icon: Icon(
-                OnlineSyncService().isBroadcasting
-                    ? Icons.sensors_rounded
-                    : Icons.share_rounded,
-                color: OnlineSyncService().isBroadcasting
-                    ? AppColors.lime
-                    : null,
-              ),
-            ),
-            PopupMenuButton<String>(
-              tooltip: 'إدارة الجلسة',
-              onSelected: (value) {
-                if (value == 'save') {
-                  _requestExit(returnHome: true);
-                } else if (value == 'end') {
-                  _confirmEnd();
-                } else {
-                  _restart();
-                }
-              },
-              itemBuilder: (context) => [
-                const PopupMenuItem(
-                  value: 'save',
-                  child: Text('حفظ والعودة للرئيسية'),
-                ),
-                if (_model.state.phase != SessionPhase.results)
-                  const PopupMenuItem(
-                    value: 'end',
-                    child: Text('إنهاء الجلسة'),
-                  ),
-                const PopupMenuItem(
-                  value: 'restart',
-                  child: Text('بدء المباراة من جديد'),
-                ),
-              ],
-            ),
-          ],
-        ),
-        body: _model.state.phase != SessionPhase.results
-            ? _playCanvas()
-            : SafeArea(
-                child: Center(
-                  child: ConstrainedBox(
-                    constraints: const BoxConstraints(maxWidth: 1000),
-                    child: SingleChildScrollView(
-                      padding: const EdgeInsets.all(22),
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.stretch,
-                        children: [
-                          if (_app != null) ...[
-                            _saveIndicator(),
-                            const SizedBox(height: 12),
-                          ],
-                          SizedBox(height: 50, child: _scores()),
-                          const SizedBox(height: 24),
-                          if (!_model.state.isPaused &&
-                              (_model.state.phase == SessionPhase.categories ||
-                                  _model.state.phase == SessionPhase.results))
-                            CategoryReplayOptions(
-                              categoryIds: widget.config.categoryIds,
-                            ),
-                          if (_model.state.isPaused)
-                            _pausedPanel()
-                          else if (_model.state.phase == SessionPhase.results)
-                            _result()
-                          else if (_model.state.phase ==
-                              SessionPhase.categories)
-                            _board()
-                          else
-                            _round(),
-                        ],
+        body: Stack(
+          fit: StackFit.expand,
+          children: [
+            _model.state.phase != SessionPhase.results
+                ? _playCanvas()
+                : SafeArea(
+                    child: Center(
+                      child: ConstrainedBox(
+                        constraints: const BoxConstraints(maxWidth: 1000),
+                        child: SingleChildScrollView(
+                          padding: const EdgeInsets.all(22),
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.stretch,
+                            children: [
+                              if (_app != null) _saveIndicator(),
+                              if (!_model.state.isPaused &&
+                                  (_model.state.phase ==
+                                          SessionPhase.categories ||
+                                      _model.state.phase ==
+                                          SessionPhase.results))
+                                CategoryReplayOptions(
+                                  categoryIds: widget.config.categoryIds,
+                                ),
+                              if (_model.state.isPaused)
+                                _pausedPanel()
+                              else if (_model.state.phase ==
+                                  SessionPhase.results)
+                                _result()
+                              else if (_model.state.phase ==
+                                  SessionPhase.categories)
+                                _board()
+                              else
+                                _round(),
+                            ],
+                          ),
+                        ),
                       ),
                     ),
                   ),
-                ),
-              ),
+            PositionedDirectional(
+              top: MediaQuery.paddingOf(context).top + 4,
+              end:
+                  8 +
+                  (Directionality.of(context) == TextDirection.rtl
+                      ? MediaQuery.paddingOf(context).left
+                      : MediaQuery.paddingOf(context).right),
+              child: _sessionMenu(),
+            ),
+          ],
+        ),
       ),
     ),
   );

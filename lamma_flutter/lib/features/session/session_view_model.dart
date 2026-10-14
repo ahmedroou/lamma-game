@@ -13,6 +13,7 @@ import '../../domain/models/session_config.dart';
 import '../../domain/models/session_save.dart';
 import '../../domain/models/session_state.dart';
 import '../../domain/models/team.dart';
+import '../../domain/models/host_score_adjustment.dart';
 import '../../domain/models/hint_access.dart';
 import '../../domain/abilities/surprise_scoring.dart';
 import '../../domain/abilities/surprise_catalog.dart';
@@ -1206,10 +1207,9 @@ class SessionViewModel extends ChangeNotifier {
     final amount = state.surpriseCard!.price;
     final fixed = SurpriseScoring.fixedDeltas(state.roundData);
     fixed[state.activeTeam.id] = (fixed[state.activeTeam.id] ?? 0) - amount;
-    final baseSeconds = (state.roundData['baseQuestionSeconds'] as int?) ??
-        GameRules.secondsForCategory(
-          state.question?.categoryId,
-        );
+    final baseSeconds =
+        (state.roundData['baseQuestionSeconds'] as int?) ??
+        GameRules.secondsForCategory(state.question?.categoryId);
     _set(
       state.copyWith(
         teams: state.teams.map(
@@ -1625,6 +1625,55 @@ class SessionViewModel extends ChangeNotifier {
         ),
       )
       .toList();
+  bool setTeamScores(
+    Map<String, int> scores, {
+    required Map<String, int> expectedScores,
+    String reason = '',
+  }) {
+    if (_disposed ||
+        revealing ||
+        reason.trim().length > 120 ||
+        scores.length != state.teams.length ||
+        expectedScores.length != state.teams.length ||
+        state.teams.any(
+          (team) =>
+              !scores.containsKey(team.id) ||
+              expectedScores[team.id] != team.score ||
+              scores[team.id]!.abs() > 999999999,
+        )) {
+      return false;
+    }
+    final changes = [
+      for (final team in state.teams)
+        if (scores[team.id] != team.score)
+          HostScoreAdjustment(
+            id: '$id-score-${_revision + 1}-${team.id}',
+            teamId: team.id,
+            before: team.score,
+            after: scores[team.id]!,
+            at: _now(),
+            reason: reason.trim(),
+          ),
+    ];
+    if (changes.isEmpty) return true;
+    final data = Map<String, Object?>.from(state.roundData);
+    if (data['roundStartingScores'] case final Map<Object?, Object?> raw) {
+      final starting = Map<String, int>.from(raw);
+      for (final change in changes) {
+        starting[change.teamId] = (starting[change.teamId] ?? 0) + change.delta;
+      }
+      data['roundStartingScores'] = starting;
+    }
+    _set(
+      state.copyWith(
+        teams: state.teams.map((team) => team.copyWith(score: scores[team.id])),
+        roundData: data,
+        scoreAdjustments: [...state.scoreAdjustments, ...changes],
+      ),
+    );
+    return true;
+  }
+
   bool canCorrect(RoundRecord record) =>
       (!record.isAbilityRound ||
           record.roundData['rewardDefinitionId'] != null) &&

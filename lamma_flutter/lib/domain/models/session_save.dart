@@ -26,7 +26,7 @@ final class SessionSave {
        abilityQuestionIds = Set.unmodifiable(abilityQuestionIds) {
     _validate();
   }
-  static const version = 5;
+  static const version = 6;
   final String id;
   final SessionConfig config;
   final SessionState state;
@@ -38,6 +38,13 @@ final class SessionSave {
 
   void _validate() {
     final teamIds = config.teams.map((team) => team.id).toSet();
+    if (state.scoreAdjustments.any(
+          (entry) => !teamIds.contains(entry.teamId),
+        ) ||
+        state.scoreAdjustments.map((entry) => entry.id).toSet().length !=
+            state.scoreAdjustments.length) {
+      throw const FormatException('Invalid score adjustment history.');
+    }
     final ids = questions.map((question) => question.id).toSet();
     if (!ids.containsAll(abilityQuestionIds) ||
         config.abilitiesEnabled &&
@@ -251,7 +258,7 @@ final class SessionSave {
     'revision': revision,
   };
   factory SessionSave.fromJson(Map<String, dynamic> json) {
-    if (![1, 2, 3, 4, version].contains(json['version'])) {
+    if (![1, 2, 3, 4, 5, version].contains(json['version'])) {
       throw const UnsupportedSaveVersion();
     }
     try {

@@ -102,6 +102,8 @@ void main() {
       expect(find.textContaining('لفريقك 2 اختيارات'), findsOneWidget);
       vm.selectCategory('myths');
       await tester.pump();
+      await tap(tester, find.byTooltip('خيارات اللعبة'));
+      await tap(tester, find.text('محافظ القدرات'));
       await tap(tester, find.text('فريق 0'));
       expect(find.text('أوراق فريق 0'), findsOneWidget);
       expect(find.text('الاستخدامات المتبقية: 3'), findsOneWidget);
@@ -120,6 +122,8 @@ void main() {
       await tap(tester, find.text('تفعيل البطاقة'));
       expect(vm.state.roundData['doubleAbilityTeamId'], '0');
       expect(owned(vm, '0', TeamAbilityCatalog.doublePoints).remainingUses, 1);
+      await tap(tester, find.byTooltip('خيارات اللعبة'));
+      await tap(tester, find.text('محافظ القدرات'));
       await tap(tester, find.text('فريق 0'));
       await tester.ensureVisible(find.text('دبل النقاط'));
       await tester.pump();

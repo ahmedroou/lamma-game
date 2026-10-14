@@ -268,8 +268,8 @@ void main() {
       openQuestion(game);
       expect(game.activateSurprise(), true);
       final raw = game.snapshot().toJson();
-      expect(raw['version'], 5);
-      for (final version in [1, 2, 3, 4, 5]) {
+      expect(raw['version'], 6);
+      for (final version in [1, 2, 3, 4, 5, 6]) {
         expect(
           SessionSave.fromJson(
             jsonDecode(jsonEncode({...raw, 'version': version}))

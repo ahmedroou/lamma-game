@@ -1,26 +1,180 @@
 part of 'session_screen.dart';
 
 extension _SessionManagement on _SessionScreenState {
+  Widget _sessionMenu() => Material(
+    color: AppColors.surface,
+    shape: const CircleBorder(side: BorderSide(color: AppColors.border)),
+    child: SizedBox(
+      width: 36,
+      height: 36,
+      child: PopupMenuButton<String>(
+        key: const ValueKey('session-options'),
+        tooltip: 'خيارات اللعبة',
+        padding: EdgeInsets.zero,
+        icon: const Icon(Icons.more_horiz_rounded, size: 22),
+        onSelected: (value) {
+          switch (value) {
+            case 'pause':
+              _model.state.isPaused ? _model.resume() : _model.pause();
+            case 'history':
+              _showHistory();
+            case 'scores':
+              _editScores();
+            case 'wallet':
+              _chooseWallet();
+            case 'save':
+              _requestExit(returnHome: true);
+            case 'end':
+              _confirmEnd();
+            case 'restart':
+              _restart();
+            case 'share':
+              _showLiveShareDialog();
+          }
+        },
+        itemBuilder: (_) => [
+          if (_model.state.phase != SessionPhase.results)
+            PopupMenuItem(
+              value: 'pause',
+              child: Text(
+                _model.state.isPaused ? 'استئناف اللعب' : 'إيقاف الجلسة',
+              ),
+            ),
+          const PopupMenuItem(value: 'history', child: Text('سجل الجولات')),
+          PopupMenuItem(
+            value: 'scores',
+            enabled: !_model.revealing,
+            child: const Text('تعديل نقاط الفرق'),
+          ),
+          if (_model.abilitiesEnabled ||
+              _model.state.teams.any((t) => t.inventory.isNotEmpty))
+            const PopupMenuItem(value: 'wallet', child: Text('محافظ القدرات')),
+          const PopupMenuDivider(),
+          const PopupMenuItem(
+            value: 'save',
+            child: Text('حفظ والعودة للرئيسية'),
+          ),
+          if (_model.state.phase != SessionPhase.results)
+            const PopupMenuItem(value: 'end', child: Text('إنهاء الجلسة')),
+          const PopupMenuItem(
+            value: 'restart',
+            child: Text('بدء المباراة من جديد'),
+          ),
+          const PopupMenuItem(value: 'share', child: Text('مشاركة اللعبة')),
+        ],
+      ),
+    ),
+  );
+
+  Future<void> _chooseWallet() async {
+    final team = await showDialog<String>(
+      context: context,
+      builder: (context) => SimpleDialog(
+        title: const Text('محافظ القدرات'),
+        children: [
+          for (final team in _model.state.teams)
+            SimpleDialogOption(
+              onPressed: () => Navigator.pop(context, team.id),
+              child: Text(team.name),
+            ),
+        ],
+      ),
+    );
+    if (mounted && team != null) _inventory(team);
+  }
+
+  Future<void> _editScores() async {
+    final wasPaused = _model.state.isPaused;
+    _model.pause(PauseReason.dialog);
+    final teams = _model.state.teams;
+    var resume = true;
+    try {
+      final result = await showDialog<ScoreEditResult>(
+        context: context,
+        builder: (_) => EditTeamScoresDialog(teams: teams),
+      );
+      if (!mounted || result == null) return;
+      final changed = _model.setTeamScores(
+        result.scores,
+        expectedScores: {for (final team in teams) team.id: team.score},
+        reason: result.reason,
+      );
+      if (!changed) {
+        ScaffoldMessenger.of(context).showSnackBar(
+          const SnackBar(
+            content: Text('تغيّرت النقاط أثناء التعديل. افتح النافذة مجددًا.'),
+          ),
+        );
+        return;
+      }
+      try {
+        await _app?.flush();
+      } on Object {
+        resume = false;
+        if (mounted) {
+          ScaffoldMessenger.of(context).showSnackBar(
+            const SnackBar(
+              content: Text(
+                'لم يكتمل حفظ النقاط. أعد محاولة الحفظ قبل المتابعة.',
+              ),
+            ),
+          );
+        }
+      }
+    } finally {
+      if (mounted &&
+          resume &&
+          !wasPaused &&
+          _model.state.pauseReason == PauseReason.dialog) {
+        _model.resume();
+      }
+    }
+  }
+
+  Future<void> _showScoreChanges() => showModalBottomSheet<void>(
+    context: context,
+    showDragHandle: true,
+    isScrollControlled: true,
+    builder: (context) => SafeArea(
+      child: SizedBox(
+        height: MediaQuery.sizeOf(context).height * .65,
+        child: ListView(
+          padding: const EdgeInsets.all(20),
+          children: [
+            Text(
+              'تعديلات المضيف على النقاط',
+              style: Theme.of(context).textTheme.titleLarge,
+            ),
+            for (final change in _model.state.scoreAdjustments.reversed)
+              ListTile(
+                title: Text(_teamName(change.teamId)),
+                subtitle: Text(
+                  '${change.before} ← ${change.after}${change.reason.isEmpty ? '' : '\n${change.reason}'}',
+                ),
+                trailing: Text('${change.delta > 0 ? '+' : ''}${change.delta}'),
+              ),
+          ],
+        ),
+      ),
+    ),
+  );
   Widget _saveIndicator() => ListenableBuilder(
     listenable: _app!,
     builder: (context, _) {
       final app = _app!;
       final error = app.saveStatus == LocalSaveStatus.error;
+      if (!error) return const SizedBox.shrink();
       return Row(
         children: [
           Icon(
-            error
-                ? Icons.warning_amber_rounded
-                : Icons.check_circle_outline,
+            error ? Icons.warning_amber_rounded : Icons.check_circle_outline,
             size: 16,
             color: error ? AppColors.peach : AppColors.muted,
           ),
           const SizedBox(width: 7),
           Expanded(
             child: Text(
-              error
-                  ? 'تعذّر الحفظ على الجهاز'
-                  : 'الجلسة محفوظة على الجهاز',
+              'تعذّر الحفظ على الجهاز',
               style: TextStyle(
                 fontSize: 12,
                 color: error ? AppColors.peach : AppColors.muted,
@@ -299,6 +453,13 @@ extension _SessionManagement on _SessionScreenState {
                     ),
                   ),
                   const SizedBox(height: 15),
+                  if (_model.state.scoreAdjustments.isNotEmpty)
+                    TextButton(
+                      onPressed: _showScoreChanges,
+                      child: Text(
+                        'تعديلات النقاط (${_model.state.scoreAdjustments.length})',
+                      ),
+                    ),
                   Expanded(
                     child: _model.state.history.isEmpty
                         ? const Center(child: Text('ما خلّصنا أي جولة للحين.'))
@@ -579,7 +740,11 @@ extension _SessionManagement on _SessionScreenState {
                             Row(
                               mainAxisAlignment: MainAxisAlignment.center,
                               children: [
-                                const Icon(Icons.tv_rounded, color: AppColors.gold, size: 18),
+                                const Icon(
+                                  Icons.tv_rounded,
+                                  color: AppColors.gold,
+                                  size: 18,
+                                ),
                                 const SizedBox(width: 6),
                                 const Text(
                                   'رمز التلفاز السريع (PIN)',
@@ -636,11 +801,16 @@ extension _SessionManagement on _SessionScreenState {
                                     width: 80,
                                     height: 80,
                                     fit: BoxFit.contain,
-                                    errorBuilder: (ctx, err, stack) => const SizedBox(
-                                      width: 80,
-                                      height: 80,
-                                      child: Icon(Icons.qr_code_2_rounded, size: 40, color: Colors.black54),
-                                    ),
+                                    errorBuilder: (ctx, err, stack) =>
+                                        const SizedBox(
+                                          width: 80,
+                                          height: 80,
+                                          child: Icon(
+                                            Icons.qr_code_2_rounded,
+                                            size: 40,
+                                            color: Colors.black54,
+                                          ),
+                                        ),
                                   ),
                                 ),
                               ),
@@ -682,10 +852,14 @@ extension _SessionManagement on _SessionScreenState {
                                   final pin = sync.formattedPin ?? roomId ?? '';
                                   final textToCopy =
                                       'انضم لمشاهدة لعبة لَمّة لايف على التلفاز أو هاتفك:\n$shareUrl\nرمز التلفاز (PIN): $pin';
-                                  Clipboard.setData(ClipboardData(text: textToCopy));
+                                  Clipboard.setData(
+                                    ClipboardData(text: textToCopy),
+                                  );
                                   ScaffoldMessenger.of(context).showSnackBar(
                                     const SnackBar(
-                                      content: Text('تم نسخ رابط المشاهدة ورمز التلفاز بنجاح'),
+                                      content: Text(
+                                        'تم نسخ رابط المشاهدة ورمز التلفاز بنجاح',
+                                      ),
                                     ),
                                   );
                                 }
@@ -701,11 +875,17 @@ extension _SessionManagement on _SessionScreenState {
                                 if (shareUrl != null) {
                                   final uri = Uri.parse(shareUrl);
                                   if (await canLaunchUrl(uri)) {
-                                    await launchUrl(uri, mode: LaunchMode.externalApplication);
+                                    await launchUrl(
+                                      uri,
+                                      mode: LaunchMode.externalApplication,
+                                    );
                                   }
                                 }
                               },
-                              icon: const Icon(Icons.open_in_browser_rounded, size: 18),
+                              icon: const Icon(
+                                Icons.open_in_browser_rounded,
+                                size: 18,
+                              ),
                               label: const Text('فتح الرابط'),
                             ),
                           ),
@@ -725,7 +905,10 @@ extension _SessionManagement on _SessionScreenState {
                             );
                           }
                         },
-                        icon: const Icon(Icons.stop_circle_outlined, color: AppColors.peach),
+                        icon: const Icon(
+                          Icons.stop_circle_outlined,
+                          color: AppColors.peach,
+                        ),
                         label: const Text(
                           'إيقاف البث',
                           style: TextStyle(color: AppColors.peach),
@@ -740,12 +923,19 @@ extension _SessionManagement on _SessionScreenState {
                         ),
                         child: const Row(
                           children: [
-                            Icon(Icons.info_outline, color: AppColors.blue, size: 20),
+                            Icon(
+                              Icons.info_outline,
+                              color: AppColors.blue,
+                              size: 20,
+                            ),
                             SizedBox(width: 10),
                             Expanded(
                               child: Text(
                                 'عند بدء البث، سيتم إنشاء رابط مباشر. أي شخص يفتح الرابط من هاتفه سيرى الأقسام والأسئلة والمؤقت لحظة بلحظة.',
-                                style: TextStyle(fontSize: 12, color: AppColors.muted),
+                                style: TextStyle(
+                                  fontSize: 12,
+                                  color: AppColors.muted,
+                                ),
                               ),
                             ),
                           ],
@@ -771,7 +961,9 @@ extension _SessionManagement on _SessionScreenState {
                           if (!started && context.mounted) {
                             ScaffoldMessenger.of(context).showSnackBar(
                               const SnackBar(
-                                content: Text('تعذر بدء البث المباشر، تحقق من اتصال الإنترنت.'),
+                                content: Text(
+                                  'تعذر بدء البث المباشر، تحقق من اتصال الإنترنت.',
+                                ),
                               ),
                             );
                           }
@@ -779,7 +971,10 @@ extension _SessionManagement on _SessionScreenState {
                         icon: const Icon(Icons.sensors_rounded),
                         label: const Text(
                           'بدء البث المباشر الآن',
-                          style: TextStyle(fontWeight: FontWeight.bold, fontSize: 15),
+                          style: TextStyle(
+                            fontWeight: FontWeight.bold,
+                            fontSize: 15,
+                          ),
                         ),
                       ),
                     ],
