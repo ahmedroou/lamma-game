@@ -44,8 +44,13 @@ try {
     [System.IO.File]::WriteAllText((Join-Path $outputDir 'lamma-android.apk.sha256'), "$digest  lamma-android.apk`n", [System.Text.UTF8Encoding]::new($false))
     Run-Native 'gh' @('release','create',$tag,'--repo',$repo,'--target',$sourceCommit,'--draft','--title',"لَمّة $versionName ($buildNumber)",'--notes-file',$notesFile)
     Run-Native 'gh' @('release','upload',$tag,$apk,(Join-Path $outputDir 'lamma-android.apk.sha256'),'--repo',$repo)
-    $remote = & gh api "repos/$repo/releases/tags/$tag" | ConvertFrom-Json
+    # Tag lookup excludes unpublished drafts. Find our draft in the
+    # authenticated list, then verify its uploaded assets before publication.
+    $releaseList = & gh api "repos/$repo/releases" | ConvertFrom-Json
     if ($LASTEXITCODE -ne 0) { throw 'Could not verify draft assets.' }
+    $matchingReleases = @($releaseList | Where-Object tag_name -eq $tag)
+    if ($matchingReleases.Count -ne 1 -or -not $matchingReleases[0].draft) { throw 'Expected exactly one draft release.' }
+    $remote = $matchingReleases[0]
     $asset = @($remote.assets | Where-Object name -eq 'lamma-android.apk')
     if ($asset.Count -ne 1 -or $asset[0].digest -ne "sha256:$digest" -or $asset[0].size -ne (Get-Item -LiteralPath $apk).Length) { throw 'Release asset integrity mismatch; draft was not published.' }
     Run-Native 'gh' @('release','edit',$tag,'--repo',$repo,'--draft=false','--latest')
