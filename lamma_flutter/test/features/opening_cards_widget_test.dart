@@ -26,6 +26,7 @@ Future<void> tapText(WidgetTester tester, String text) async {
   await tester.ensureVisible(finder);
   await tester.pump();
   await tester.tap(finder);
+  await tester.pump();
   await tester.pump(const Duration(milliseconds: 700));
 }
 
@@ -149,7 +150,7 @@ void main() {
       expect(find.text('تلميح الهوية الأول'), findsNothing);
       expect(game.revealCard(1), true);
       expect(game.revealCard(2), true);
-      await tester.pump();
+      await tester.pumpAndSettle();
       expect(game.state.secondsRemaining, 15);
       expect(find.text('تلميح الهوية الأول'), findsOneWidget);
       expect(tester.takeException(), isNull);

@@ -85,6 +85,15 @@ SessionViewModel game(String variant, DateTime Function() now) {
 }
 
 void fitsScreen(WidgetTester tester, Size size) {
+  if (size.width < size.height &&
+      find.byKey(const ValueKey('portrait-card-table')).evaluate().isNotEmpty) {
+    expect(find.byType(Scrollable), findsOneWidget);
+    for (var i = 0; i < 3; i++) {
+      expect(find.byKey(ValueKey('round-card-$i')), findsOneWidget);
+    }
+    expect(tester.takeException(), isNull);
+    return;
+  }
   expect(find.byType(Scrollable), findsNothing);
   expect(tester.takeException(), isNull);
   for (final element in find.byType(PlayButton).evaluate()) {
@@ -197,14 +206,23 @@ void main() {
             }
           }
           if (variant == 'matching') {
+            await tester.ensureVisible(
+              find.byKey(const ValueKey('element-e00')),
+            );
             await tester.tap(find.byKey(const ValueKey('element-e00')));
             await tester.pump();
+            await tester.ensureVisible(
+              find.byKey(const ValueKey('element-e10')),
+            );
             await tester.tap(find.byKey(const ValueKey('element-e10')));
             await tester.pump();
             expect(vm.state.questionDraft['pair:e00'], 'e10');
             fitsScreen(tester, size);
           }
           if (variant == 'grouping') {
+            await tester.ensureVisible(
+              find.byKey(const ValueKey('element-e00')),
+            );
             await tester.tap(find.byKey(const ValueKey('element-e00')));
             await tester.pump();
             expect(vm.state.questionDraft.values, contains('1'));
@@ -231,6 +249,7 @@ void main() {
           await tester.pump();
           fitsScreen(tester, size);
           expect(find.text('الإجابة الصحيحة الكاملة'), findsOneWidget);
+          await tester.ensureVisible(find.text('لا أحد · نكمل'));
           await tester.tap(find.text('لا أحد · نكمل'));
           await tester.pump();
           fitsScreen(tester, size);

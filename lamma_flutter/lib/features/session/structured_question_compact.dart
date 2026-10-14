@@ -3,24 +3,29 @@ part of 'structured_question_panel.dart';
 extension _CompactPremises on _StructuredQuestionPanelState {
   Widget _compactPanel() {
     final p = widget.presentation;
-    return Column(
-      children: [
-        if (widget.draft.isNotEmpty)
-          SizedBox(
-            height: 24,
-            child: Row(
-              children: [
-                const Expanded(
-                  child: FitText(
-                    'ترتيب الفريق',
-                    style: TextStyle(fontSize: 11, color: AppColors.muted),
-                  ),
-                ),
-                SizedBox(
-                  width: 100,
-                  child: PlayButton(
-                    label: 'مسح ترتيبك',
-                    secondary: true,
+    return LayoutBuilder(
+      builder: (context, box) {
+        if (widget.draft.isNotEmpty && box.maxHeight < 110) {
+          return Row(
+            crossAxisAlignment: CrossAxisAlignment.stretch,
+            children: [
+              Expanded(
+                child: p.type == QuestionPresentationType.matching
+                    ? _compactMatching()
+                    : _compactElements(),
+              ),
+              SizedBox(
+                width: 28,
+                child: Align(
+                  alignment: Alignment.topCenter,
+                  child: IconButton(
+                    tooltip: 'مسح ترتيبك',
+                    padding: EdgeInsets.zero,
+                    constraints: const BoxConstraints.tightFor(
+                      width: 28,
+                      height: 28,
+                    ),
+                    icon: const Icon(Icons.restart_alt_rounded, size: 18),
                     onPressed: widget.enabled
                         ? () {
                             _selectLeft(null);
@@ -29,15 +34,47 @@ extension _CompactPremises on _StructuredQuestionPanelState {
                         : null,
                   ),
                 ),
-              ],
+              ),
+            ],
+          );
+        }
+        return Column(
+          children: [
+            if (widget.draft.isNotEmpty)
+              SizedBox(
+                height: 24,
+                child: Row(
+                  children: [
+                    const Expanded(
+                      child: FitText(
+                        'ترتيب الفريق',
+                        style: TextStyle(fontSize: 11, color: AppColors.muted),
+                      ),
+                    ),
+                    SizedBox(
+                      width: 100,
+                      child: PlayButton(
+                        label: 'مسح ترتيبك',
+                        secondary: true,
+                        onPressed: widget.enabled
+                            ? () {
+                                _selectLeft(null);
+                                widget.onChanged(const {});
+                              }
+                            : null,
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+            Expanded(
+              child: p.type == QuestionPresentationType.matching
+                  ? _compactMatching()
+                  : _compactElements(),
             ),
-          ),
-        Expanded(
-          child: p.type == QuestionPresentationType.matching
-              ? _compactMatching()
-              : _compactElements(),
-        ),
-      ],
+          ],
+        );
+      },
     );
   }
 

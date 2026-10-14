@@ -5,35 +5,41 @@ extension _SessionPlayLayout on _SessionScreenState {
     child: Center(
       child: ConstrainedBox(
         constraints: const BoxConstraints(maxWidth: 1200),
-        child: Padding(
-          padding: const EdgeInsets.all(8),
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.stretch,
-            children: [
-              if (_app != null)
-                SizedBox(
-                  height: 24,
-                  child: LayoutBuilder(
-                    builder: (context, box) => FittedBox(
-                      fit: BoxFit.scaleDown,
-                      child: SizedBox(
-                        width: box.maxWidth,
-                        child: _saveIndicator(),
+        child: LayoutBuilder(
+          builder: (context, box) {
+            final wide =
+                box.maxWidth >= 480 && box.maxWidth > box.maxHeight * 1.35;
+            return Padding(
+              padding: EdgeInsets.all(wide ? 4 : 8),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.stretch,
+                children: [
+                  if (_app != null)
+                    SizedBox(
+                      height: wide ? 18 : 24,
+                      child: LayoutBuilder(
+                        builder: (context, box) => FittedBox(
+                          fit: BoxFit.scaleDown,
+                          child: SizedBox(
+                            width: box.maxWidth,
+                            child: _saveIndicator(),
+                          ),
+                        ),
                       ),
                     ),
+                  SizedBox(height: wide ? 36 : 50, child: _scores()),
+                  SizedBox(height: wide ? 4 : 8),
+                  Expanded(
+                    child: _model.state.isPaused
+                        ? _compactPause()
+                        : _model.state.phase == SessionPhase.categories
+                        ? _board()
+                        : _round(),
                   ),
-                ),
-              SizedBox(height: 50, child: _scores()),
-              const SizedBox(height: 8),
-              Expanded(
-                child: _model.state.isPaused
-                    ? _compactPause()
-                    : _model.state.phase == SessionPhase.categories
-                    ? _board()
-                    : _round(),
+                ],
               ),
-            ],
-          ),
+            );
+          },
         ),
       ),
     ),
@@ -401,7 +407,32 @@ extension _SessionPlayLayout on _SessionScreenState {
     ),
   );
 
-  Widget _round() {
+  Widget _round({bool fitViewport = false}) {
+    if (!fitViewport) {
+      return LayoutBuilder(
+        builder: (context, box) {
+          final wide =
+              box.maxWidth >= 480 && box.maxWidth > box.maxHeight * 1.25;
+          if (wide) return _round(fitViewport: true);
+          final q = _model.state.question!;
+          final scale = MediaQuery.textScalerOf(
+            context,
+          ).scale(1).clamp(1.0, 1.5);
+          final minimum =
+              (610 +
+                  (q.presentation != null ? 120 : 0) +
+                  (q.imageAsset != null ? 140 : 0)) *
+              scale;
+          return SingleChildScrollView(
+            key: const ValueKey('portrait-card-table'),
+            child: SizedBox(
+              height: box.maxHeight > minimum ? box.maxHeight : minimum,
+              child: _round(fitViewport: true),
+            ),
+          );
+        },
+      );
+    }
     final state = _model.state;
     final q = state.question!;
     final opened = state.revealedCards == 3;
@@ -416,54 +447,6 @@ extension _SessionPlayLayout on _SessionScreenState {
             q.presentation!.elements.every((e) => e.text == 'الرسم المرفق'));
     final actions = <Widget>[];
     if (!opened) {
-      if (q.isIdentity) {
-        if (paper != null && state.revealedCards == 0) {
-          actions.add(
-            PlayButton(
-              label: 'اكشف ورقة المفاجأة أولًا',
-              onPressed: () => _model.revealCard(0),
-            ),
-          );
-        } else {
-          actions.add(
-            PlayButton(
-              label: 'اكشف التلميح الأول · ${q.points} نقطة',
-              onPressed:
-                  state.roundData['plankDecision'] == 'pending' ||
-                      state.roundData['wheelStatus'] == 'pending'
-                  ? null
-                  : () {
-                      for (var i = 0; i < 3; i++) {
-                        _model.revealCard(i);
-                      }
-                    },
-            ),
-          );
-        }
-      } else {
-        for (var i = 0; i < 3; i++) {
-          final index = i;
-          actions.add(
-            PlayButton(
-              key: ValueKey('round-card-$i'),
-              label: [
-                'المفاجأة',
-                'الوقت',
-                q.categoryId == 'reverse_question' ? 'الجواب' : 'السؤال',
-              ][i],
-              secondary: state.revealedCards != i,
-              onPressed:
-                  state.revealedCards == i &&
-                      !(_model.revealing ||
-                          (i == 2 &&
-                              (state.roundData['plankDecision'] == 'pending' ||
-                                  state.roundData['wheelStatus'] == 'pending')))
-                  ? () => _model.revealCard(index)
-                  : null,
-            ),
-          );
-        }
-      }
       if (_model.revealError != null) {
         actions.add(
           PlayButton(
@@ -586,175 +569,125 @@ extension _SessionPlayLayout on _SessionScreenState {
     return LayoutBuilder(
       builder: (context, box) {
         final wide = box.maxWidth > box.maxHeight * 1.35;
-        Widget questionArea() => _surface(
-          Column(
-            crossAxisAlignment: CrossAxisAlignment.stretch,
-            children: [
-              if (q.categoryId == 'reverse_question')
-                const SizedBox(
-                  height: 26,
-                  child: FitText(
-                    'الجواب أمامك: ما السؤال الذي يُطرح لتكون هذه إجابته؟',
-                    style: TextStyle(fontSize: 12, color: AppColors.peach),
+        Widget questionArea() => Column(
+          crossAxisAlignment: CrossAxisAlignment.stretch,
+          children: [
+            if (q.categoryId == 'reverse_question')
+              const SizedBox(
+                height: 26,
+                child: FitText(
+                  'الجواب أمامك: ما السؤال الذي يُطرح لتكون هذه إجابته؟',
+                  style: TextStyle(fontSize: 12, color: AppColors.peach),
+                ),
+              ),
+            Expanded(
+              flex: opened && (q.imageAsset != null || answer) ? 2 : 3,
+              child: q.isIdentity && opened
+                  ? Column(
+                      children: [
+                        for (var i = 0; i < state.identityCluesRevealed; i++)
+                          Expanded(
+                            child: _surface(
+                              FitText(
+                                q.clues[i],
+                                style: const TextStyle(
+                                  fontSize: 22,
+                                  fontWeight: FontWeight.w700,
+                                ),
+                              ),
+                              color: AppColors.purple,
+                              padding: 5,
+                            ),
+                          ),
+                      ],
+                    )
+                  : FitText(
+                      opened
+                          ? q.text
+                          : q.isIdentity
+                          ? 'من أنا؟'
+                          : 'ثلاث بطاقات… والتحدّي يبدأ',
+                      style: TextStyle(
+                        fontSize: wide ? 25 : 30,
+                        fontWeight: FontWeight.w800,
+                        height: 1.4,
+                      ),
+                    ),
+            ),
+            if (opened && q.imageAsset != null)
+              Expanded(
+                flex: 3,
+                child: Padding(
+                  padding: const EdgeInsets.all(4),
+                  child: Image.asset(
+                    q.imageAsset!,
+                    fit: BoxFit.contain,
+                    semanticLabel: q.imageDescription,
+                    errorBuilder: (_, _, _) =>
+                        const FitText('تعذّر عرض صورة السؤال.'),
                   ),
                 ),
+              ),
+            if (opened &&
+                state.hintRevealed &&
+                !q.isIdentity &&
+                q.hint.isNotEmpty)
               Expanded(
-                flex: opened && (q.imageAsset != null || answer) ? 2 : 3,
-                child: q.isIdentity && opened
-                    ? Column(
-                        children: [
-                          for (var i = 0; i < state.identityCluesRevealed; i++)
-                            Expanded(
-                              child: _surface(
-                                FitText(
-                                  q.clues[i],
-                                  style: const TextStyle(
-                                    fontSize: 22,
-                                    fontWeight: FontWeight.w700,
-                                  ),
-                                ),
-                                color: AppColors.purple,
-                                padding: 5,
-                              ),
-                            ),
-                        ],
-                      )
-                    : FitText(
-                        opened
-                            ? q.text
-                            : q.isIdentity
-                            ? 'من أنا؟'
-                            : 'ثلاث بطاقات… والتحدّي يبدأ',
-                        style: TextStyle(
-                          fontSize: wide ? 25 : 30,
-                          fontWeight: FontWeight.w800,
-                          height: 1.4,
+                child: FitText(
+                  'تلميح مساعد: ${q.hint}',
+                  style: const TextStyle(fontSize: 16, color: AppColors.gold),
+                ),
+              ),
+            if (answer)
+              Expanded(
+                flex: 3,
+                child: _surface(
+                  Column(
+                    children: [
+                      const Expanded(
+                        child: FitText(
+                          'الإجابة الصحيحة',
+                          style: TextStyle(
+                            fontSize: 12,
+                            color: AppColors.muted,
+                          ),
                         ),
                       ),
-              ),
-              if (!opened && state.revealedCards >= 1 && paper != null) ...[
-                SizedBox(
-                  height: 32,
-                  child: FitText(
-                    paper.text,
-                    style: const TextStyle(
-                      fontSize: 19,
-                      color: AppColors.lime,
-                      fontWeight: FontWeight.w700,
-                    ),
-                  ),
-                ),
-                Expanded(
-                  flex: 2,
-                  child: FitText(
-                    paper.note,
-                    style: const TextStyle(fontSize: 16, height: 1.4),
-                  ),
-                ),
-              ],
-              if (opened && paper != null)
-                SizedBox(
-                  height: wide ? 22 : 34,
-                  child: FitText(
-                    '${paper.text} · ${paper.note}',
-                    style: const TextStyle(
-                      fontSize: 11,
-                      color: AppColors.muted,
-                    ),
-                  ),
-                ),
-              if (state.revealedCards >= 1 && paper != null)
-                OpeningCardControls(
-                  key: ValueKey(
-                    'opening-${state.turn}-${q.id}-${state.answeringTeam.id}',
-                  ),
-                  model: _model,
-                  compact: true,
-                ),
-              if (!opened && state.revealedCards >= 2)
-                SizedBox(
-                  height: 30,
-                  child: FitText(
-                    '${state.clockSeconds} ثانية',
-                    style: const TextStyle(color: AppColors.gold, fontSize: 22),
-                  ),
-                ),
-              if (opened && q.imageAsset != null)
-                Expanded(
-                  flex: 3,
-                  child: Padding(
-                    padding: const EdgeInsets.all(4),
-                    child: Image.asset(
-                      q.imageAsset!,
-                      fit: BoxFit.contain,
-                      semanticLabel: q.imageDescription,
-                      errorBuilder: (_, _, _) =>
-                          const FitText('تعذّر عرض صورة السؤال.'),
-                    ),
-                  ),
-                ),
-              if (opened &&
-                  state.hintRevealed &&
-                  !q.isIdentity &&
-                  q.hint.isNotEmpty)
-                Expanded(
-                  child: FitText(
-                    'تلميح مساعد: ${q.hint}',
-                    style: const TextStyle(fontSize: 16, color: AppColors.gold),
-                  ),
-                ),
-              if (answer)
-                Expanded(
-                  flex: 3,
-                  child: _surface(
-                    Column(
-                      children: [
-                        const Expanded(
+                      Expanded(
+                        flex: 2,
+                        child: FitText(
+                          q.answer,
+                          style: const TextStyle(
+                            fontSize: 26,
+                            color: AppColors.lime,
+                            fontWeight: FontWeight.w700,
+                          ),
+                        ),
+                      ),
+                      if (q.explanation.isNotEmpty)
+                        Expanded(
                           child: FitText(
-                            'الإجابة الصحيحة',
-                            style: TextStyle(
-                              fontSize: 12,
+                            q.explanation,
+                            style: const TextStyle(
+                              fontSize: 14,
                               color: AppColors.muted,
                             ),
                           ),
                         ),
+                      if (q.acceptedAnswers.isNotEmpty)
                         Expanded(
-                          flex: 2,
                           child: FitText(
-                            q.answer,
-                            style: const TextStyle(
-                              fontSize: 26,
-                              color: AppColors.lime,
-                              fontWeight: FontWeight.w700,
-                            ),
+                            'يُقبل أيضًا: ${q.acceptedAnswers.join('، ')}',
+                            style: const TextStyle(fontSize: 13),
                           ),
                         ),
-                        if (q.explanation.isNotEmpty)
-                          Expanded(
-                            child: FitText(
-                              q.explanation,
-                              style: const TextStyle(
-                                fontSize: 14,
-                                color: AppColors.muted,
-                              ),
-                            ),
-                          ),
-                        if (q.acceptedAnswers.isNotEmpty)
-                          Expanded(
-                            child: FitText(
-                              'يُقبل أيضًا: ${q.acceptedAnswers.join('، ')}',
-                              style: const TextStyle(fontSize: 13),
-                            ),
-                          ),
-                      ],
-                    ),
-                    color: AppColors.lime,
-                    padding: 5,
+                    ],
                   ),
+                  color: AppColors.lime,
+                  padding: 5,
                 ),
-            ],
-          ),
-          padding: wide ? 8 : 12,
+              ),
+          ],
         );
 
         Widget premises() => Column(
@@ -806,7 +739,7 @@ extension _SessionPlayLayout on _SessionScreenState {
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
             SizedBox(
-              height: 30,
+              height: wide ? 22 : 30,
               child: Row(
                 children: [
                   Expanded(
@@ -899,32 +832,158 @@ extension _SessionPlayLayout on _SessionScreenState {
               ),
             const SizedBox(height: 4),
             Expanded(
-              child: wide && hasPremises
-                  ? Row(
-                      children: [
-                        Expanded(flex: 5, child: questionArea()),
-                        const SizedBox(width: 8),
-                        Expanded(flex: 4, child: premises()),
-                      ],
-                    )
-                  : Column(
-                      children: [
-                        Expanded(flex: 5, child: questionArea()),
-                        if (hasPremises) ...[
-                          const SizedBox(height: 6),
-                          Expanded(flex: structured ? 5 : 3, child: premises()),
-                        ],
-                      ],
-                    ),
+              child: CinematicRoundDeck(
+                key: ValueKey('cinematic-${state.turn}-${q.id}'),
+                sideBySide: wide,
+                revealedCards: state.revealedCards,
+                animate: _app?.settings.motion ?? true,
+                questionTitle: q.categoryId == 'reverse_question'
+                    ? 'الجواب'
+                    : 'السؤال',
+                revealLabels: [
+                  q.isIdentity && paper != null
+                      ? 'اكشف ورقة المفاجأة أولًا'
+                      : 'اضغط للكشف',
+                  'اضغط للكشف',
+                  q.isIdentity
+                      ? 'اكشف التلميح الأول · ${q.points} نقطة'
+                      : 'اضغط للكشف',
+                ],
+                canReveal: [
+                  for (var i = 0; i < 3; i++)
+                    state.revealedCards == i &&
+                        !_model.revealing &&
+                        !(i == 2 &&
+                            (state.roundData['plankDecision'] == 'pending' ||
+                                state.roundData['wheelStatus'] == 'pending')),
+                ],
+                onReveal: (i) {
+                  if (_app?.settings.haptics ?? false) {
+                    HapticFeedback.lightImpact();
+                  }
+                  _model.revealCard(i);
+                },
+                faces: [
+                  Column(
+                    crossAxisAlignment: CrossAxisAlignment.stretch,
+                    children: [
+                      Expanded(
+                        flex: 2,
+                        child: FitText(
+                          paper?.text ?? 'جولة بلا مفاجأة',
+                          style: const TextStyle(
+                            fontSize: 23,
+                            color: AppColors.lime,
+                            fontWeight: FontWeight.w800,
+                          ),
+                        ),
+                      ),
+                      Expanded(
+                        flex: 4,
+                        child: FitText(
+                          paper?.note ?? 'جاوبوا عن السؤال ضمن الوقت المحدد.',
+                          style: const TextStyle(fontSize: 15, height: 1.5),
+                        ),
+                      ),
+                      if (paper != null)
+                        OpeningCardControls(
+                          key: ValueKey(
+                            'opening-${state.turn}-${q.id}-${state.answeringTeam.id}',
+                          ),
+                          model: _model,
+                          compact: true,
+                        ),
+                    ],
+                  ),
+                  Column(
+                    children: [
+                      const Expanded(
+                        child: FittedBox(
+                          fit: BoxFit.scaleDown,
+                          child: Icon(
+                            Icons.timer_outlined,
+                            size: 36,
+                            color: AppColors.purple,
+                          ),
+                        ),
+                      ),
+                      Expanded(
+                        flex: 3,
+                        child: FitText(
+                          '${state.clockSeconds}',
+                          style: TextStyle(
+                            fontSize: 66,
+                            color: state.clockSeconds <= 7 && opened
+                                ? AppColors.peach
+                                : AppColors.purple,
+                            fontWeight: FontWeight.w800,
+                          ),
+                        ),
+                      ),
+                      Expanded(
+                        child: FitText(
+                          state.plankAccepted ? 'ثانية بلانك' : 'ثانية',
+                          style: const TextStyle(
+                            fontSize: 14,
+                            color: AppColors.muted,
+                          ),
+                        ),
+                      ),
+                      Expanded(
+                        child: FitText(
+                          !opened
+                              ? 'المؤقت يبدأ بكشف السؤال'
+                              : state.isOpponentWindow
+                              ? 'فرصة الخصم'
+                              : state.secondsRemaining > 0
+                              ? 'الوقت يجري…'
+                              : 'انتهى الوقت',
+                          style: const TextStyle(
+                            fontSize: 12,
+                            color: AppColors.muted,
+                          ),
+                        ),
+                      ),
+                    ],
+                  ),
+                  wide && hasPremises
+                      ? Row(
+                          crossAxisAlignment: CrossAxisAlignment.stretch,
+                          children: [
+                            Expanded(flex: 4, child: questionArea()),
+                            const SizedBox(width: 8),
+                            Expanded(flex: 5, child: premises()),
+                          ],
+                        )
+                      : Column(
+                          children: [
+                            Expanded(flex: 4, child: questionArea()),
+                            if (hasPremises) ...[
+                              const SizedBox(height: 8),
+                              Expanded(flex: 5, child: premises()),
+                            ],
+                          ],
+                        ),
+                ],
+              ),
             ),
             const SizedBox(height: 6),
             SizedBox(
-              height: ((actions.length / (wide ? 4 : 2)).ceil() * 44 - 2)
-                  .toDouble(),
-              child: _fixedGrid(
-                actions,
-                wide ? actions.length.clamp(1, 4) : actions.length.clamp(1, 2),
-              ),
+              height:
+                  ((actions.length.clamp(1, 12) / (wide ? 4 : 2)).ceil() * 44 -
+                          2)
+                      .toDouble(),
+              child: actions.isEmpty
+                  ? const FitText(
+                      'اكشف المفاجأة، ثم الوقت، ثم السؤال',
+                      style: TextStyle(fontSize: 12, color: AppColors.muted),
+                    )
+                  : _fixedGrid(
+                      actions,
+                      wide
+                          ? actions.length.clamp(1, 4)
+                          : actions.length.clamp(1, 2),
+                    ),
             ),
           ],
         );

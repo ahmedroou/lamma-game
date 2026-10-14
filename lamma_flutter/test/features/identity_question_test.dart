@@ -140,6 +140,8 @@ void main() {
       }
 
       expect(find.text('تصل طاقتي إلى الأرض.'), findsNothing);
+      await tap('المفاجأة');
+      await tap('الوقت');
       await tap('اكشف التلميح الأول · 300 نقطة');
       expect(
         find.descendant(
