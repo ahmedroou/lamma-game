@@ -3,6 +3,7 @@ import '../../core/app_theme.dart';
 import '../../core/game_catalog.dart';
 import '../../domain/models/hint_access.dart';
 import '../../shared/components.dart';
+import 'lucky_wheel_dialog.dart';
 import 'session_view_model.dart';
 
 class OpeningCardControls extends StatefulWidget {
@@ -67,34 +68,6 @@ class _OpeningCardControlsState extends State<OpeningCardControls> {
           : null,
     );
     final children = <Widget>[];
-    if (model.requiresAnswerer && model.canPrepareSurprise) {
-      if (card.effect == SurpriseEffect.opponentDesignates) {
-        children.add(targetPicker());
-      }
-      children.addAll([
-        TextField(
-          controller: _name,
-          maxLength: 80,
-          decoration: InputDecoration(
-            labelText: card.effect == SurpriseEffect.opponentDesignates
-                ? 'اسم اللاعب الذي اختاره الخصم من فريقك'
-                : 'اسم المجيب الوحيد من فريقك',
-          ),
-        ),
-        LammaButton(
-          label: 'اعتماد المجيب قبل السؤال',
-          onPressed: () => _result(
-            model.chooseAnswerer(
-              _name.text,
-              choosingTeamId: card.effect == SurpriseEffect.opponentDesignates
-                  ? _target
-                  : null,
-            ),
-            'اكتب اسمًا واضحًا للاعب غير مستبعد، وحدد الفريق الذي اختاره إن لزم.',
-          ),
-        ),
-      ]);
-    }
     if (state.roundData['designatedPlayer'] case final String player) {
       children.add(
         Text(
@@ -257,6 +230,134 @@ class _OpeningCardControlsState extends State<OpeningCardControls> {
                   ),
           ),
         ]);
+      }
+    }
+    if (card.effect == SurpriseEffect.wheelOfFortune) {
+      final status = model.wheelStatus ?? 'pending';
+      final outcome = model.wheelOutcome;
+      if (status == 'pending') {
+        children.add(
+          Container(
+            padding: const EdgeInsets.all(14),
+            decoration: BoxDecoration(
+              color: AppColors.gold.withValues(alpha: 0.12),
+              borderRadius: BorderRadius.circular(16),
+              border: Border.all(color: AppColors.gold.withValues(alpha: 0.45)),
+            ),
+            child: Column(
+              children: [
+                const Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Icon(Icons.casino_rounded, color: AppColors.gold, size: 20),
+                    SizedBox(width: 8),
+                    Text(
+                      'ورقة المفاجأة: عجلة الحظ 🎡',
+                      style: TextStyle(
+                        color: AppColors.gold,
+                        fontWeight: FontWeight.w700,
+                        fontSize: 16,
+                      ),
+                    ),
+                  ],
+                ),
+                const SizedBox(height: 6),
+                const Text(
+                  'لصاحب الدور حرية الاختيار: لف العجلة لفرصة كسب حتى 600 نقطة، أو المجازفة بخسارة 500 نقطة أو الإفلاس أو تحويل الدور، أو التخطي.',
+                  textAlign: TextAlign.center,
+                  style: TextStyle(fontSize: 13, color: AppColors.white, height: 1.4),
+                ),
+                const SizedBox(height: 12),
+                Row(
+                  children: [
+                    Expanded(
+                      flex: 3,
+                      child: LammaButton(
+                        label: 'لف عجلة الحظ 🎡',
+                        onPressed: model.canSpinWheel
+                            ? () => LuckyWheelDialog.show(context, model: model)
+                            : null,
+                      ),
+                    ),
+                    const SizedBox(width: 10),
+                    Expanded(
+                      flex: 2,
+                      child: OutlinedButton(
+                        style: OutlinedButton.styleFrom(
+                          minimumSize: const Size(0, 56),
+                          side: const BorderSide(color: AppColors.border),
+                          shape: RoundedRectangleBorder(
+                            borderRadius: BorderRadius.circular(18),
+                          ),
+                        ),
+                        onPressed: model.canSkipWheel ? model.skipWheel : null,
+                        child: const Text(
+                          'تخطي العجلة',
+                          style: TextStyle(
+                            color: AppColors.muted,
+                            fontWeight: FontWeight.w700,
+                            fontSize: 14,
+                          ),
+                        ),
+                      ),
+                    ),
+                  ],
+                ),
+              ],
+            ),
+          ),
+        );
+      } else if (status == 'completed' && outcome != null) {
+        children.add(
+          Container(
+            padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 12),
+            decoration: BoxDecoration(
+              color: outcome.color.withValues(alpha: 0.12),
+              borderRadius: BorderRadius.circular(14),
+              border: Border.all(color: outcome.color.withValues(alpha: 0.5)),
+            ),
+            child: Row(
+              children: [
+                Icon(outcome.icon, color: outcome.color, size: 26),
+                const SizedBox(width: 10),
+                Expanded(
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Text(
+                        'نتيجة عجلة الحظ: ${outcome.title}',
+                        style: TextStyle(
+                          color: outcome.color,
+                          fontWeight: FontWeight.w700,
+                          fontSize: 15,
+                        ),
+                      ),
+                      const SizedBox(height: 2),
+                      Text(
+                        outcome.description,
+                        style: const TextStyle(
+                          fontSize: 12,
+                          color: AppColors.white,
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+              ],
+            ),
+          ),
+        );
+      } else if (status == 'skipped') {
+        children.add(
+          const Padding(
+            padding: EdgeInsets.symmetric(vertical: 4),
+            child: Text(
+              'تم تخطي عجلة الحظ لهذه الجولة والمتابعة بدون لف.',
+              textAlign: TextAlign.center,
+              style: TextStyle(color: AppColors.muted, fontSize: 13),
+            ),
+          ),
+        );
       }
     }
     if (children.isEmpty) return const SizedBox.shrink();

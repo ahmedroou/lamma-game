@@ -218,6 +218,19 @@ void main() {
       expect(other.state.history.single.awardedPoints, 400);
     },
   );
+  test(
+    'Host can award points to any team after answer reveal in active team turn with surprise card',
+    () {
+      final game = model('double_points');
+      addTearDown(game.dispose);
+      openQuestion(game);
+      expect(game.state.opponentTeamId, isNull);
+      game.showAnswer();
+      expect(game.awardAnswer('b'), isTrue);
+      expect(game.state.teams.last.score, 400);
+      expect(game.state.teams.first.score, 300);
+    },
+  );
   for (final amount in [50, 100, 200]) {
     test(
       'Failure penalty $amount affects only acting team and corrects cleanly',

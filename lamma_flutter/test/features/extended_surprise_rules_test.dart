@@ -81,25 +81,14 @@ void main() {
     'opponent_picks_answerer',
   ]) {
     test(
-      '$name requires exactly one nominee before revealing the question',
+      '$name does not block question revealing and nomination is handled in person',
       () {
         final game = model(name);
         addTearDown(game.dispose);
         game.selectCategory('myths');
         game.revealCard(0);
-        expect(game.revealCard(1), false);
-        expect(game.chooseAnswerer('', choosingTeamId: 'b'), false);
-        expect(
-          game.chooseAnswerer(
-            'لاعب محدد',
-            choosingTeamId: name == 'opponent_picks_answerer' ? 'b' : null,
-          ),
-          true,
-        );
-        expect(game.chooseAnswerer('لاعب آخر', choosingTeamId: 'b'), false);
         expect(game.revealCard(1), true);
         expect(game.revealCard(2), true);
-        expect(game.state.roundData['designatedPlayer'], 'لاعب محدد');
       },
     );
   }

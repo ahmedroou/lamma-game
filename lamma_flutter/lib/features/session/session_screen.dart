@@ -16,7 +16,6 @@ import '../../shared/components.dart';
 import '../../shared/category_card.dart';
 import 'session_view_model.dart';
 import 'question_card_deck.dart';
-import 'question_points_badge.dart';
 import 'identity_question_panel.dart';
 import 'category_replay_options.dart';
 import 'structured_question_panel.dart';
@@ -587,50 +586,45 @@ class _SessionScreenState extends State<SessionScreen>
         if (state.isOpponentWindow) ...[
           Container(
             key: const ValueKey('opponent-opportunity'),
-            padding: const EdgeInsets.all(20),
+            padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 8),
+            margin: const EdgeInsets.only(bottom: 14),
             decoration: BoxDecoration(
               color: AppColors.purple.withValues(alpha: .14),
-              border: Border.all(color: AppColors.purple),
-              borderRadius: BorderRadius.circular(20),
+              border: Border.all(color: AppColors.purple.withValues(alpha: .4)),
+              borderRadius: BorderRadius.circular(12),
             ),
-            child: Column(
+            child: Row(
               children: [
-                Text(
-                  'فرصة ${state.answeringTeam.name} وحده',
-                  textAlign: TextAlign.center,
-                  style: const TextStyle(
-                    fontSize: 22,
-                    fontWeight: FontWeight.w700,
+                const Icon(
+                  Icons.sports_score_rounded,
+                  size: 18,
+                  color: AppColors.purple,
+                ),
+                const SizedBox(width: 8),
+                Expanded(
+                  child: Text(
+                    'فرصة ${state.answeringTeam.name} وحده',
+                    style: const TextStyle(
+                      fontSize: 14,
+                      fontWeight: FontWeight.w700,
+                      color: AppColors.purple,
+                    ),
                   ),
                 ),
                 Text(
-                  '${state.secondsRemaining} ثوانٍ',
-                  style: const TextStyle(fontSize: 32, color: AppColors.gold),
-                ),
-                Text(
                   state.opponentSelectedByLot
-                      ? 'اختير بالقرعة لتساوي نقاط الخصمين'
+                      ? 'اختير بالقرعة'
                       : state.teams.length == 3
                       ? 'الخصم الأقل نقاطاً'
                       : 'فرصة الفريق الآخر',
-                  textAlign: TextAlign.center,
-                ),
-                const SizedBox(height: 14),
-                ClipRRect(
-                  borderRadius: BorderRadius.circular(8),
-                  child: LinearProgressIndicator(
-                    value:
-                        state.secondsRemaining /
-                        GameRules.opponentAnswerSeconds,
-                    minHeight: 4,
-                    color: AppColors.purple,
-                    backgroundColor: AppColors.purple.withValues(alpha: .15),
+                  style: const TextStyle(
+                    fontSize: 12,
+                    color: AppColors.muted,
                   ),
                 ),
               ],
             ),
           ),
-          const SizedBox(height: 18),
         ],
         if (question.isIdentity && state.surpriseCard != null) ...[
           if (state.revealedCards == 0)
@@ -673,9 +667,8 @@ class _SessionScreenState extends State<SessionScreen>
             state: state,
             onStart:
                 (state.surpriseCard != null && state.revealedCards == 0 ||
-                    _model.requiresAnswerer &&
-                        state.roundData['designatedPlayer'] == null ||
-                    state.roundData['plankDecision'] == 'pending')
+                    state.roundData['plankDecision'] == 'pending' ||
+                    state.roundData['wheelStatus'] == 'pending')
                 ? null
                 : () {
                     for (var i = 0; i < 3; i++) {
@@ -683,43 +676,6 @@ class _SessionScreenState extends State<SessionScreen>
                     }
                   },
             onNext: _model.revealNextClue,
-          )
-        else if (state.isOpponentWindow)
-          Container(
-            padding: const EdgeInsets.all(24),
-            decoration: BoxDecoration(
-              color: AppColors.blue.withValues(alpha: .12),
-              border: Border.all(color: AppColors.blue.withValues(alpha: .35)),
-              borderRadius: BorderRadius.circular(24),
-            ),
-            child: Column(
-              children: [
-                QuestionPointsBadge(
-                  key: const ValueKey('question-points'),
-                  points: state.availablePoints,
-                ),
-                const SizedBox(height: 16),
-                if (question.categoryId == 'reverse_question') ...[
-                  const Text(
-                    'ما السؤال الذي يُطرح لتكون هذه إجابته؟',
-                    style: TextStyle(
-                      fontSize: 14,
-                      color: AppColors.peach,
-                      fontWeight: FontWeight.w600,
-                    ),
-                  ),
-                  const SizedBox(height: 10),
-                ],
-                Text(
-                  question.text,
-                  textAlign: TextAlign.center,
-                  style: const TextStyle(
-                    fontSize: 23,
-                    fontWeight: FontWeight.w700,
-                  ),
-                ),
-              ],
-            ),
           )
         else
           QuestionCardDeck(
@@ -731,9 +687,10 @@ class _SessionScreenState extends State<SessionScreen>
             surpriseText: state.surpriseCard?.text,
             surpriseNote: state.surpriseCard?.note,
             countUpTimer: state.plankAccepted,
-            totalSeconds:
-                state.roundData['initialQuestionSeconds'] as int? ??
-                    GameRules.secondsForCategory(question.categoryId),
+            totalSeconds: state.isOpponentWindow
+                ? GameRules.opponentAnswerSeconds
+                : (state.roundData['initialQuestionSeconds'] as int? ??
+                    GameRules.secondsForCategory(question.categoryId)),
             revealedCards: state.revealedCards,
             secondsRemaining: state.clockSeconds,
             onReveal: _model.revealCard,
@@ -949,19 +906,17 @@ class _SessionScreenState extends State<SessionScreen>
             ),
           ),
           const SizedBox(height: 15),
-          for (var i = 0; i < state.teams.length; i++) ...[
+          for (final team in state.teams) ...[
             LammaButton(
               label:
-                  '${state.teams[i].name} +${_model.pointsForTeam(state.teams[i].id)}',
-              onPressed:
-                  (state.opponentTeamId == null &&
-                          (state.surpriseCard?.effect == null ||
-                              state.surpriseCard?.effect ==
-                                  SurpriseEffect.none) ||
-                      state.answeringTeam.id == state.teams[i].id)
-                  ? () => _model.awardAnswer(state.teams[i].id)
+                  '${team.name} +${_model.pointsForTeam(team.id)}',
+              onPressed: (state.opponentTeamId != null
+                      ? state.answeringTeam.id == team.id
+                      : (!_model.opponentsBlocked ||
+                          team.id == state.activeTeam.id))
+                  ? () => _model.awardAnswer(team.id)
                   : null,
-              secondary: i > 0,
+              secondary: team.id != state.answeringTeam.id,
             ),
             const SizedBox(height: 10),
           ],

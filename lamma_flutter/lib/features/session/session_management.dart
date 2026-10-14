@@ -11,8 +11,6 @@ extension _SessionManagement on _SessionScreenState {
           Icon(
             error
                 ? Icons.warning_amber_rounded
-                : app.saveStatus == LocalSaveStatus.saving
-                ? Icons.sync_rounded
                 : Icons.check_circle_outline,
             size: 16,
             color: error ? AppColors.peach : AppColors.muted,
@@ -22,8 +20,6 @@ extension _SessionManagement on _SessionScreenState {
             child: Text(
               error
                   ? 'تعذّر الحفظ على الجهاز'
-                  : app.saveStatus == LocalSaveStatus.saving
-                  ? 'جاري حفظ الجلسة…'
                   : 'الجلسة محفوظة على الجهاز',
               style: TextStyle(
                 fontSize: 12,

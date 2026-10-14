@@ -608,7 +608,7 @@ class _HomeScreenState extends State<HomeScreen> {
       const SizedBox(height: 20),
       const Tag('مكتبة البداية', icon: Icons.grid_view_rounded),
       const SizedBox(height: 20),
-      Text('وش جوّك اليوم؟', style: Theme.of(context).textTheme.headlineLarge),
+      Text('اختر تحدي اليوم', style: Theme.of(context).textTheme.headlineLarge),
       const SizedBox(height: 12),
       const Text(
         'اختار ستة أقسام من مكتبة البداية، وجهّز التحدّي.',

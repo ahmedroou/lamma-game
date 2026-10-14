@@ -50,6 +50,7 @@ enum SurpriseEffect {
   changeQuestion,
   chooseOpponentCategory,
   banPlayer,
+  wheelOfFortune,
 }
 
 /// An opening card with persisted effect parameters and visible conditions.

@@ -17,8 +17,10 @@ import '../../domain/models/hint_access.dart';
 import '../../domain/abilities/surprise_scoring.dart';
 import '../../domain/abilities/surprise_catalog.dart';
 import '../../domain/abilities/surprise_session_effects.dart';
+import '../../domain/models/wheel_outcome.dart';
 import '../../core/online_sync_service.dart';
 export '../../domain/models/session_state.dart';
+export '../../domain/models/wheel_outcome.dart';
 
 abstract interface class RiskRoundResolver {
   RiskSettlement settle({
@@ -328,13 +330,13 @@ class SessionViewModel extends ChangeNotifier {
 
   bool revealCard(int index) {
     if (index > 0 &&
-        requiresAnswerer &&
-        state.roundData['designatedPlayer'] == null) {
+        state.surpriseCard?.effect == SurpriseEffect.plank &&
+        state.roundData['plankDecision'] == 'pending') {
       return false;
     }
     if (index > 0 &&
-        state.surpriseCard?.effect == SurpriseEffect.plank &&
-        state.roundData['plankDecision'] == 'pending') {
+        state.surpriseCard?.effect == SurpriseEffect.wheelOfFortune &&
+        state.roundData['wheelStatus'] == 'pending') {
       return false;
     }
     if (revealing ||
@@ -391,9 +393,6 @@ class SessionViewModel extends ChangeNotifier {
 
   /// The text stays hidden until both the use flag and checkpoint commit.
   Future<bool> revealQuestion() async {
-    if (requiresAnswerer && state.roundData['designatedPlayer'] == null) {
-      return false;
-    }
     if (revealing ||
         state.isPaused ||
         state.phase != SessionPhase.cards ||
@@ -718,6 +717,9 @@ class SessionViewModel extends ChangeNotifier {
     }
     data['initialQuestionSeconds'] = seconds;
     if (card.effect == SurpriseEffect.plank) data['plankDecision'] = 'pending';
+    if (card.effect == SurpriseEffect.wheelOfFortune) {
+      data['wheelStatus'] = 'pending';
+    }
     _set(
       state.copyWith(
         teams: teams,
@@ -840,11 +842,12 @@ class SessionViewModel extends ChangeNotifier {
     return remainingForCategory(category) > 0 ? category : null;
   }
 
-  bool get requiresAnswerer => {
+  bool get isAnswererCard => {
     SurpriseEffect.designatedPlayer,
     SurpriseEffect.selfDesignates,
     SurpriseEffect.opponentDesignates,
   }.contains(state.surpriseCard?.effect);
+  bool get requiresAnswerer => false;
   bool get canPrepareSurprise =>
       !revealing &&
       !state.isPaused &&
@@ -929,7 +932,7 @@ class SessionViewModel extends ChangeNotifier {
   bool chooseAnswerer(String name, {String? choosingTeamId}) {
     name = name.trim();
     if (!canPrepareSurprise ||
-        !requiresAnswerer ||
+        !isAnswererCard ||
         name.isEmpty ||
         name.length > 80 ||
         SurpriseSessionEffects.banned(
@@ -1232,6 +1235,107 @@ class SessionViewModel extends ChangeNotifier {
     return startOpponentOpportunity();
   }
 
+  bool get canSpinWheel =>
+      !state.isPaused &&
+      !revealing &&
+      state.phase == SessionPhase.cards &&
+      state.revealedCards >= 1 &&
+      state.surpriseCard?.effect == SurpriseEffect.wheelOfFortune &&
+      state.roundData['wheelStatus'] == 'pending';
+
+  bool get canSkipWheel => canSpinWheel;
+
+  String? get wheelStatus => state.roundData['wheelStatus'] as String?;
+
+  WheelOutcome? get wheelOutcome {
+    final name = state.roundData['wheelOutcome'] as String?;
+    return name == null ? null : WheelOutcome.values.byName(name);
+  }
+
+  bool skipWheel() {
+    if (!canSkipWheel) return false;
+    _set(
+      state.copyWith(
+        roundData: {
+          ...state.roundData,
+          'wheelStatus': 'skipped',
+          'surpriseActionUsed': true,
+        },
+        abilityRevision: state.abilityRevision + 1,
+      ),
+    );
+    return true;
+  }
+
+  bool applyWheelOutcome(WheelOutcome outcome) {
+    if (state.surpriseCard?.effect != SurpriseEffect.wheelOfFortune ||
+        state.roundData['wheelStatus'] != 'pending' ||
+        state.isPaused ||
+        state.phase != SessionPhase.cards) {
+      return false;
+    }
+
+    final activeId = state.activeTeam.id;
+    var teams = state.teams;
+    final currentScore = state.activeTeam.score;
+    final delta = outcome.pointsDelta;
+    String? passOpponentId;
+
+    if (outcome == WheelOutcome.passTurn) {
+      final opponents = state.teams.where((t) => t.id != activeId).toList();
+      if (opponents.isNotEmpty) {
+        final lowest = opponents.map((t) => t.score).reduce(min);
+        final eligible = opponents.where((t) => t.score == lowest).toList();
+        final chosen = eligible.length == 1
+            ? eligible.single
+            : eligible[_random.nextInt(eligible.length)];
+        passOpponentId = chosen.id;
+      }
+    } else if (outcome == WheelOutcome.bankruptcy) {
+      // Active team loses all points (score becomes 0)
+      teams = teams.map((team) {
+        return team.id == activeId ? team.copyWith(score: 0) : team;
+      }).toList();
+    } else if (delta != 0) {
+      // +100, +200, +400, +600, or -500
+      teams = teams.map((team) {
+        return team.id == activeId
+            ? team.copyWith(score: team.score + delta)
+            : team;
+      }).toList();
+    }
+
+    final fixed = SurpriseScoring.fixedDeltas(state.roundData);
+    final recordedDelta = outcome == WheelOutcome.bankruptcy
+        ? -currentScore
+        : delta;
+    if (recordedDelta != 0) {
+      fixed[activeId] = (fixed[activeId] ?? 0) + recordedDelta;
+    }
+
+    final updatedRoundData = <String, Object?>{
+      ...state.roundData,
+      'wheelStatus': 'completed',
+      'wheelOutcome': outcome.name,
+      'surpriseActionUsed': true,
+      'surpriseFixedDeltas': fixed,
+      if (passOpponentId != null) ...{
+        'wheelTurnPassed': true,
+        'opponentTeamId': passOpponentId,
+        'opponentReason': 'wheel_pass',
+      },
+    };
+
+    _set(
+      state.copyWith(
+        teams: teams,
+        roundData: updatedRoundData,
+        abilityRevision: state.abilityRevision + 1,
+      ),
+    );
+    return true;
+  }
+
   bool get canEditQuestionDraft =>
       !revealing &&
       !state.isPaused &&
@@ -1315,12 +1419,6 @@ class SessionViewModel extends ChangeNotifier {
 
   bool awardAnswer(String? teamId) {
     if (teamId != null && opponentsBlocked && teamId != state.activeTeam.id) {
-      return false;
-    }
-    if (teamId != null &&
-        state.surpriseCard?.effect != null &&
-        state.surpriseCard?.effect != SurpriseEffect.none &&
-        teamId != state.answeringTeam.id) {
       return false;
     }
     if (state.isPaused ||

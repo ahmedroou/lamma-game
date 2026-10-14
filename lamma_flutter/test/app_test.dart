@@ -293,7 +293,7 @@ void main() {
     await tester.pump(const Duration(milliseconds: 300));
     expect(tester.takeException(), isNull);
     await tapText(tester, 'الفئات');
-    expect(find.text('وش جوّك اليوم؟'), findsOneWidget);
+    expect(find.text('اختر تحدي اليوم'), findsOneWidget);
     expect(tester.takeException(), isNull);
     await tapText(tester, 'كيف نلعب؟');
     expect(find.text('3 كروت.\nوجلسة غير.'), findsOneWidget);
