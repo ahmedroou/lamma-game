@@ -47,7 +47,8 @@ class _LammaBootstrapState extends State<LammaBootstrap> {
         return;
       }
       setState(() => _controller = controller);
-    } on Object {
+    } on Object catch (e, st) {
+      debugPrint('LOAD FAILED: $e\n$st');
       controller?.dispose();
       if (mounted) setState(() => _failed = true);
     }

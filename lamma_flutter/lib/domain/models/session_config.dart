@@ -8,7 +8,15 @@ abstract final class GameRules {
   static const questionsPerCategory = 5;
   static const abilityQuestions = 6;
   static const primaryQuestionSeconds = 30;
+  static const reverseQuestionSeconds = 20;
   static const opponentAnswerSeconds = 7;
+
+  static int secondsForCategory(String? categoryId) {
+    if (categoryId == 'reverse_question') {
+      return reverseQuestionSeconds;
+    }
+    return primaryQuestionSeconds;
+  }
 }
 
 final class SessionConfig {

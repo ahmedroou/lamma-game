@@ -181,4 +181,11 @@ const List<GameCategory> gameCategories = [
     Icons.numbers_rounded,
     AppColors.gold,
   ),
+  GameCategory(
+    'reverse_question',
+    'سؤال عكسي',
+    'ما السؤال الذي يُطرح لتكون هذه إجابته؟',
+    Icons.sync_alt_rounded,
+    AppColors.peach,
+  ),
 ];

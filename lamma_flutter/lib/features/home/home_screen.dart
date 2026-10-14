@@ -25,7 +25,7 @@ class _HomeScreenState extends State<HomeScreen> {
       _app.updateSettings(_app.settings.copyWith(motion: value));
   set _haptics(bool value) =>
       _app.updateSettings(_app.settings.copyWith(haptics: value));
-  int _tab = 0;
+  int _tab = int.tryParse(Uri.base.queryParameters['tab'] ?? '') ?? 0;
   void _start([GameCategory? category]) {
     if (_haptics) HapticFeedback.lightImpact();
     openPage<void>(

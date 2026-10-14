@@ -24,8 +24,8 @@ void nextQuestion(SessionViewModel game, String category) {
 }
 
 void main() {
-  test('Current catalog has 24 categories and configured new bank targets', () {
-    expect(gameCategories, hasLength(24));
+  test('Current catalog has 25 categories and configured new bank targets', () {
+    expect(gameCategories, hasLength(25));
   });
   testWidgets(
     'No-opponent card finishes the primary window without choosing an opponent',

@@ -475,6 +475,33 @@ class _SessionScreenState extends State<SessionScreen>
             ),
           ],
         ),
+        if (question.categoryId == 'reverse_question') ...[
+          const SizedBox(height: 12),
+          Container(
+            padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 8),
+            decoration: BoxDecoration(
+              color: AppColors.peach.withValues(alpha: .12),
+              borderRadius: BorderRadius.circular(12),
+              border: Border.all(color: AppColors.peach.withValues(alpha: .3)),
+            ),
+            child: const Row(
+              children: [
+                Icon(Icons.sync_alt_rounded, size: 18, color: AppColors.peach),
+                SizedBox(width: 8),
+                Expanded(
+                  child: Text(
+                    'الجواب أمامك: ما السؤال الذي يُطرح لتكون هذه إجابته؟',
+                    style: TextStyle(
+                      fontSize: 13,
+                      fontWeight: FontWeight.w600,
+                      color: AppColors.peach,
+                    ),
+                  ),
+                ),
+              ],
+            ),
+          ),
+        ],
         const SizedBox(height: 20),
         if (state.roundData['doubleAbilityTeamId'] != null)
           const Tag(
@@ -672,6 +699,17 @@ class _SessionScreenState extends State<SessionScreen>
                   points: state.availablePoints,
                 ),
                 const SizedBox(height: 16),
+                if (question.categoryId == 'reverse_question') ...[
+                  const Text(
+                    'ما السؤال الذي يُطرح لتكون هذه إجابته؟',
+                    style: TextStyle(
+                      fontSize: 14,
+                      color: AppColors.peach,
+                      fontWeight: FontWeight.w600,
+                    ),
+                  ),
+                  const SizedBox(height: 10),
+                ],
                 Text(
                   question.text,
                   textAlign: TextAlign.center,
@@ -687,12 +725,15 @@ class _SessionScreenState extends State<SessionScreen>
           QuestionCardDeck(
             key: ValueKey('${state.turn}-${question.id}'),
             question: question.text,
+            questionTitle:
+                question.categoryId == 'reverse_question' ? 'الجواب' : null,
             points: state.availablePoints,
             surpriseText: state.surpriseCard?.text,
             surpriseNote: state.surpriseCard?.note,
             countUpTimer: state.plankAccepted,
             totalSeconds:
-                state.roundData['initialQuestionSeconds'] as int? ?? 30,
+                state.roundData['initialQuestionSeconds'] as int? ??
+                    GameRules.secondsForCategory(question.categoryId),
             revealedCards: state.revealedCards,
             secondsRemaining: state.clockSeconds,
             onReveal: _model.revealCard,

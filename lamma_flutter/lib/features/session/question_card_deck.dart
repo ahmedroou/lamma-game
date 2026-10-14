@@ -19,12 +19,14 @@ class QuestionCardDeck extends StatefulWidget {
     this.surpriseNote,
     this.totalSeconds = 30,
     this.countUpTimer = false,
+    this.questionTitle,
   });
 
   final String question;
   final int points;
   final String? surpriseText;
   final String? surpriseNote;
+  final String? questionTitle;
   final int totalSeconds;
   final bool countUpTimer;
   final int revealedCards, secondsRemaining;
@@ -112,6 +114,7 @@ class _QuestionCardDeckState extends State<QuestionCardDeck>
               : smallHeight,
           child: _RevealCard(
             index: index,
+            cardTitle: index == 2 ? widget.questionTitle : null,
             points: widget.points,
             content: content[index],
             note: index == 0 ? widget.surpriseNote : null,
@@ -269,6 +272,7 @@ class _RevealCard extends StatefulWidget {
     required this.timerRunning,
     required this.onTap,
     this.note,
+    this.cardTitle,
     this.totalSeconds = 30,
     this.countUpTimer = false,
   });
@@ -283,6 +287,7 @@ class _RevealCard extends StatefulWidget {
   final int index, secondsRemaining, points;
   final String content;
   final String? note;
+  final String? cardTitle;
   final int totalSeconds;
   final bool countUpTimer;
   final bool open, available, compact, timerRunning;
@@ -329,7 +334,7 @@ class _RevealCardState extends State<_RevealCard>
   @override
   Widget build(BuildContext context) {
     final color = _RevealCard.colors[widget.index];
-    final title = _RevealCard.titles[widget.index];
+    final title = widget.cardTitle ?? _RevealCard.titles[widget.index];
     return Semantics(
       button: !widget.open,
       enabled: widget.open || widget.available,

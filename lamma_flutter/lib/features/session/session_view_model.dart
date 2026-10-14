@@ -301,12 +301,15 @@ class SessionViewModel extends ChangeNotifier {
             isAllowed: (card) => _openingCardAllowed(card, candidates.first),
           )
         : null;
+    final initialSeconds = GameRules.secondsForCategory(
+      candidates.first.categoryId,
+    );
     _set(
       state.copyWith(
         phase: SessionPhase.cards,
         question: candidates.first,
         revealedCards: 0,
-        secondsRemaining: GameRules.primaryQuestionSeconds,
+        secondsRemaining: initialSeconds,
         isAbilityRound: abilityRound,
         abilitySelections: {
           ...state.abilitySelections,
@@ -314,7 +317,10 @@ class SessionViewModel extends ChangeNotifier {
             state.activeTeam.id:
                 (state.abilitySelections[state.activeTeam.id] ?? 0) + 1,
         },
-        roundData: {if (surprise != null) 'surpriseCard': surprise.toJson()},
+        roundData: {
+          'initialQuestionSeconds': initialSeconds,
+          if (surprise != null) 'surpriseCard': surprise.toJson(),
+        },
       ),
     );
     return true;
@@ -1193,13 +1199,17 @@ class SessionViewModel extends ChangeNotifier {
               ? team.copyWith(score: team.score - amount)
               : team,
         ),
-        secondsRemaining: GameRules.primaryQuestionSeconds,
+        secondsRemaining: GameRules.secondsForCategory(
+          state.question?.categoryId,
+        ),
         abilityRevision: state.abilityRevision + 1,
         roundData: {
           ...state.roundData,
           'plankDecision': 'refused',
           'surpriseFixedDeltas': fixed,
-          'initialQuestionSeconds': GameRules.primaryQuestionSeconds,
+          'initialQuestionSeconds': GameRules.secondsForCategory(
+            state.question?.categoryId,
+          ),
         },
       ),
     );

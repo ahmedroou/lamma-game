@@ -14,9 +14,24 @@ abstract final class QuestionBankConfig {
     'complete_sequence',
     'relationship',
     'numbers',
+    'reverse_question',
   };
-  static int countFor(String categoryId) =>
-      newCategoryIds.contains(categoryId) ? 300 : questionsPerCategory;
+  static const categories400 = {
+    'abbreviations',
+    'complete_sequence',
+    'currency_stories',
+    'first_last',
+    'numbers',
+    'one_wrong',
+    'pair_up',
+    'relationship',
+    'split_groups',
+    'symbols_signals',
+  };
+  static int countFor(String categoryId) {
+    if (categories400.contains(categoryId)) return 400;
+    return newCategoryIds.contains(categoryId) ? 300 : questionsPerCategory;
+  }
   static int perDifficultyFor(String categoryId) => countFor(categoryId) ~/ 4;
   static int totalFor(Iterable<String> categoryIds) =>
       categoryIds.fold(0, (total, id) => total + countFor(id));
