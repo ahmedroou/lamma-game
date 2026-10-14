@@ -1,3 +1,4 @@
+import 'dart:math';
 import 'team.dart';
 
 abstract final class GameRules {
@@ -10,10 +11,14 @@ abstract final class GameRules {
   static const primaryQuestionSeconds = 30;
   static const reverseQuestionSeconds = 20;
   static const opponentAnswerSeconds = 7;
+  static const randomizedQuestionSeconds = [30, 45, 60];
 
-  static int secondsForCategory(String? categoryId) {
+  static int secondsForCategory(String? categoryId, [Random? random]) {
     if (categoryId == 'reverse_question') {
       return reverseQuestionSeconds;
+    }
+    if (random != null) {
+      return randomizedQuestionSeconds[random.nextInt(randomizedQuestionSeconds.length)];
     }
     return primaryQuestionSeconds;
   }

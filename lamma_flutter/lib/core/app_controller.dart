@@ -17,8 +17,10 @@ class AppController extends ChangeNotifier {
     this.repository, {
     QuestionRepository? questions,
     this.openingCardsEnabled = true,
+    this.randomizeQuestionSeconds = true,
   }) : _questions = questions;
   final bool openingCardsEnabled;
+  final bool randomizeQuestionSeconds;
   QuestionRepository? _questions;
   late QuestionUsage _usage;
   Map<String, int> _availableCounts = const {};
@@ -124,6 +126,7 @@ class AppController extends ChangeNotifier {
           commitReveal: _commitReveal,
           blockedQuestionIds: blocked,
           openingCardsEnabled: openingCardsEnabled,
+          randomizeQuestionSeconds: randomizeQuestionSeconds,
         ),
       );
       lastSavedAt = restored.session!.updatedAt;
@@ -162,6 +165,7 @@ class AppController extends ChangeNotifier {
       commitReveal: _commitReveal,
       replayQuestionIds: planned.where(_usage.contains).map((q) => q.id),
       openingCardsEnabled: openingCardsEnabled,
+      randomizeQuestionSeconds: randomizeQuestionSeconds,
     );
     try {
       await repository.saveSession(next.snapshot());

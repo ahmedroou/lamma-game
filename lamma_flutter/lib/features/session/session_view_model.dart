@@ -46,6 +46,8 @@ class SessionViewModel extends ChangeNotifier {
     Random? random,
     this.surpriseResolver,
     this.openingCardsEnabled = false,
+    this.randomizeQuestionSeconds = false,
+    this.questionSecondsResolver,
     Iterable<String> replayQuestionIds = const [],
     Iterable<String> blockedQuestionIds = const [],
   }) : _questions = questions,
@@ -171,6 +173,8 @@ class SessionViewModel extends ChangeNotifier {
     Future<void> Function(SessionSave, Question)? commitReveal,
     SurpriseCard? Function(Question, TeamState, int)? surpriseResolver,
     bool openingCardsEnabled = false,
+    bool randomizeQuestionSeconds = false,
+    int Function(Question, Random)? questionSecondsResolver,
     Iterable<String> blockedQuestionIds = const [],
   }) => SessionViewModel(
     config: save.config,
@@ -182,6 +186,8 @@ class SessionViewModel extends ChangeNotifier {
     commitReveal: commitReveal,
     surpriseResolver: surpriseResolver,
     openingCardsEnabled: openingCardsEnabled,
+    randomizeQuestionSeconds: randomizeQuestionSeconds,
+    questionSecondsResolver: questionSecondsResolver,
     blockedQuestionIds: blockedQuestionIds,
   );
   static int _nextId = 0;
@@ -201,6 +207,8 @@ class SessionViewModel extends ChangeNotifier {
   final Future<void> Function(SessionSave, Question)? commitReveal;
   final SurpriseCard? Function(Question, TeamState, int)? surpriseResolver;
   final bool openingCardsEnabled;
+  final bool randomizeQuestionSeconds;
+  final int Function(Question, Random)? questionSecondsResolver;
   bool revealing = false;
   String? revealError;
   List<Question> _sectionQuestions(String id) {
@@ -303,9 +311,11 @@ class SessionViewModel extends ChangeNotifier {
             isAllowed: (card) => _openingCardAllowed(card, candidates.first),
           )
         : null;
-    final initialSeconds = GameRules.secondsForCategory(
-      candidates.first.categoryId,
-    );
+    final initialSeconds = questionSecondsResolver != null
+        ? questionSecondsResolver!(candidates.first, _random)
+        : randomizeQuestionSeconds
+        ? GameRules.secondsForCategory(candidates.first.categoryId, _random)
+        : GameRules.secondsForCategory(candidates.first.categoryId);
     _set(
       state.copyWith(
         phase: SessionPhase.cards,
@@ -320,6 +330,7 @@ class SessionViewModel extends ChangeNotifier {
                 (state.abilitySelections[state.activeTeam.id] ?? 0) + 1,
         },
         roundData: {
+          'baseQuestionSeconds': initialSeconds,
           'initialQuestionSeconds': initialSeconds,
           if (surprise != null) 'surpriseCard': surprise.toJson(),
         },
@@ -1195,6 +1206,10 @@ class SessionViewModel extends ChangeNotifier {
     final amount = state.surpriseCard!.price;
     final fixed = SurpriseScoring.fixedDeltas(state.roundData);
     fixed[state.activeTeam.id] = (fixed[state.activeTeam.id] ?? 0) - amount;
+    final baseSeconds = (state.roundData['baseQuestionSeconds'] as int?) ??
+        GameRules.secondsForCategory(
+          state.question?.categoryId,
+        );
     _set(
       state.copyWith(
         teams: state.teams.map(
@@ -1202,17 +1217,13 @@ class SessionViewModel extends ChangeNotifier {
               ? team.copyWith(score: team.score - amount)
               : team,
         ),
-        secondsRemaining: GameRules.secondsForCategory(
-          state.question?.categoryId,
-        ),
+        secondsRemaining: baseSeconds,
         abilityRevision: state.abilityRevision + 1,
         roundData: {
           ...state.roundData,
           'plankDecision': 'refused',
           'surpriseFixedDeltas': fixed,
-          'initialQuestionSeconds': GameRules.secondsForCategory(
-            state.question?.categoryId,
-          ),
+          'initialQuestionSeconds': baseSeconds,
         },
       ),
     );

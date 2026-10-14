@@ -1,6 +1,7 @@
 import 'question.dart';
 import 'team.dart';
 import 'hint_access.dart';
+import 'session_config.dart';
 import '../abilities/surprise_scoring.dart';
 
 enum SessionPhase { categories, cards, answer, results }
@@ -188,6 +189,16 @@ final class SessionState {
       phase == SessionPhase.cards;
   int get plankSeconds => roundData['plankElapsedSeconds'] as int? ?? 0;
   int get clockSeconds => plankAccepted ? plankSeconds : secondsRemaining;
+  int get initialQuestionSeconds =>
+      roundData['initialQuestionSeconds'] as int? ??
+      (question?.categoryId == 'reverse_question'
+          ? GameRules.reverseQuestionSeconds
+          : GameRules.primaryQuestionSeconds);
+  int get baseQuestionSeconds =>
+      roundData['baseQuestionSeconds'] as int? ??
+      (question?.categoryId == 'reverse_question'
+          ? GameRules.reverseQuestionSeconds
+          : GameRules.primaryQuestionSeconds);
   TeamState get answeringTeam => opponentTeamId == null
       ? activeTeam
       : teams.firstWhere((team) => team.id == opponentTeamId);

@@ -187,7 +187,7 @@ abstract final class SurpriseCatalog {
       text: 'نصف الوقت',
       effect: SurpriseEffect.halfTime,
       note:
-          'يُخفض وقت الفريق الأساسي تلقائيًا إلى النصف: 30 تصبح 15 ثانية. فرصة المنافس تبقى 7 ثوانٍ.',
+          'يُخفض وقت الفريق الأساسي تلقائيًا إلى النصف (مثال: 60 تصبح 30، 45 تصبح 22، 30 تصبح 15 ثانية). فرصة المنافس تبقى 7 ثوانٍ.',
     ),
     SurpriseCard(
       id: 'change_question',
