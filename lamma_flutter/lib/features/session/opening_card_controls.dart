@@ -4,11 +4,17 @@ import '../../core/game_catalog.dart';
 import '../../domain/models/hint_access.dart';
 import '../../shared/components.dart';
 import 'lucky_wheel_dialog.dart';
+import '../../shared/fit_text.dart';
 import 'session_view_model.dart';
 
 class OpeningCardControls extends StatefulWidget {
-  const OpeningCardControls({super.key, required this.model});
+  const OpeningCardControls({
+    super.key,
+    required this.model,
+    this.compact = false,
+  });
   final SessionViewModel model;
+  final bool compact;
   @override
   State<OpeningCardControls> createState() => _OpeningCardControlsState();
 }
@@ -265,7 +271,11 @@ class _OpeningCardControlsState extends State<OpeningCardControls> {
                 const Text(
                   'لصاحب الدور حرية الاختيار: لف العجلة لفرصة كسب حتى 600 نقطة، أو المجازفة بخسارة 500 نقطة أو الإفلاس أو تحويل الدور، أو التخطي.',
                   textAlign: TextAlign.center,
-                  style: TextStyle(fontSize: 13, color: AppColors.white, height: 1.4),
+                  style: TextStyle(
+                    fontSize: 13,
+                    color: AppColors.white,
+                    height: 1.4,
+                  ),
                 ),
                 const SizedBox(height: 12),
                 Row(
@@ -361,6 +371,76 @@ class _OpeningCardControlsState extends State<OpeningCardControls> {
       }
     }
     if (children.isEmpty) return const SizedBox.shrink();
+    if (widget.compact &&
+        !{
+          SurpriseEffect.selfWager,
+          SurpriseEffect.opponentWager,
+          SurpriseEffect.chooseOpponentCategory,
+          SurpriseEffect.banPlayer,
+          SurpriseEffect.changeQuestion,
+          SurpriseEffect.silence,
+          SurpriseEffect.wheelOfFortune,
+        }.contains(card.effect)) {
+      return const SizedBox.shrink();
+    }
+    if (widget.compact) {
+      if (card.effect == SurpriseEffect.wheelOfFortune &&
+          model.wheelStatus == 'pending') {
+        return SizedBox(
+          height: 40,
+          child: Row(
+            children: [
+              Expanded(
+                child: PlayButton(
+                  label: 'لف عجلة الحظ 🎡',
+                  onPressed: model.canSpinWheel
+                      ? () => LuckyWheelDialog.show(context, model: model)
+                      : null,
+                ),
+              ),
+              const SizedBox(width: 6),
+              Expanded(
+                child: PlayButton(
+                  label: 'تخطي العجلة',
+                  secondary: true,
+                  onPressed: model.canSkipWheel ? model.skipWheel : null,
+                ),
+              ),
+            ],
+          ),
+        );
+      }
+      return SizedBox(
+        height: 36,
+        child: PlayButton(
+          label:
+              card.effect == SurpriseEffect.wheelOfFortune &&
+                  model.wheelStatus == 'pending'
+              ? 'لف عجلة الحظ أو تخطّها'
+              : 'إعداد ورقة المفاجأة · ${card.text}',
+          secondary: true,
+          onPressed: () => showModalBottomSheet<void>(
+            context: context,
+            isScrollControlled: true,
+            showDragHandle: true,
+            builder: (sheetContext) => SafeArea(
+              child: Padding(
+                padding: EdgeInsets.only(
+                  bottom: MediaQuery.viewInsetsOf(sheetContext).bottom,
+                ),
+                child: SingleChildScrollView(
+                  padding: const EdgeInsets.all(16),
+                  child: ListenableBuilder(
+                    listenable: model,
+                    builder: (_, _) => OpeningCardControls(model: model),
+                  ),
+                ),
+              ),
+            ),
+          ),
+        ),
+      );
+    }
     return Container(
       padding: const EdgeInsets.all(16),
       margin: const EdgeInsets.only(bottom: 18),

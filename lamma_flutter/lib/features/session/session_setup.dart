@@ -274,9 +274,12 @@ class _SessionSetupState extends State<SessionSetup> {
                   ],
                   CategoryGrid(
                     categories: gameCategories,
+                    columns: 3,
+                    compact: true,
                     itemBuilder: (category) => CategoryCard(
                       key: ValueKey('select-category-${category.id}'),
                       category: category,
+                      dense: true,
                       selected: _selected.contains(category.id),
                       onTap: () {
                         final selected = !_selected.contains(category.id);

@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/widget_previews.dart';
 import '../core/app_theme.dart';
 import '../core/game_catalog.dart';
+import 'fit_text.dart';
 
 /// Equal-width category tiles that leave room for enlarged Arabic text.
 class CategoryGrid extends StatelessWidget {
@@ -11,21 +12,26 @@ class CategoryGrid extends StatelessWidget {
     required this.itemBuilder,
     this.maxColumns = 5,
     this.compact = false,
+    this.columns,
   });
 
   final List<GameCategory> categories;
   final Widget Function(GameCategory category) itemBuilder;
   final int maxColumns;
   final bool compact;
+  final int? columns;
 
   @override
   Widget build(BuildContext context) => LayoutBuilder(
     builder: (context, constraints) {
       final scale = MediaQuery.textScalerOf(context).scale(1);
       final minimum = (compact ? 104.0 : 146.0) * scale.clamp(1.0, 2.0);
-      final columns = ((constraints.maxWidth + 12) / (minimum + 12))
-          .floor()
-          .clamp(1, maxColumns);
+      final columns =
+          this.columns ??
+          ((constraints.maxWidth + 12) / (minimum + 12)).floor().clamp(
+            1,
+            maxColumns,
+          );
       final width = (constraints.maxWidth - 12 * (columns - 1)) / columns;
       return Wrap(
         spacing: 12,
@@ -48,6 +54,7 @@ class CategoryCard extends StatefulWidget {
     this.selected,
     this.remaining,
     this.compact = false,
+    this.dense = false,
   });
 
   final GameCategory category;
@@ -55,6 +62,7 @@ class CategoryCard extends StatefulWidget {
   final bool? selected;
   final int? remaining;
   final bool compact;
+  final bool dense;
 
   @override
   State<CategoryCard> createState() => _CategoryCardState();
@@ -118,7 +126,13 @@ class _CategoryCardState extends State<CategoryCard> {
             borderRadius: radius,
             child: AnimatedContainer(
               duration: duration,
-              padding: EdgeInsets.all(widget.compact ? 10 : 14),
+              padding: EdgeInsets.all(
+                widget.dense
+                    ? 7
+                    : widget.compact
+                    ? 10
+                    : 14,
+              ),
               decoration: BoxDecoration(
                 borderRadius: radius,
                 border: Border.all(
@@ -128,125 +142,225 @@ class _CategoryCardState extends State<CategoryCard> {
                       : accent.withValues(alpha: enabled ? .20 : .08),
                 ),
               ),
-              child: Column(
-                children: [
-                  SizedBox(
-                    height: size + 8,
-                    child: Stack(
-                      alignment: Alignment.center,
+              child: widget.dense
+                  ? _denseContent(category, accent, enabled, selected)
+                  : Column(
                       children: [
-                        AnimatedScale(
-                          scale: reduceMotion
-                              ? 1
-                              : (_pressed ? .94 : (active ? 1.09 : 1)),
-                          duration: duration,
-                          curve: Curves.easeOutCubic,
-                          child: AnimatedRotation(
-                            turns: reduceMotion || !active ? 0 : -.015,
-                            duration: duration,
-                            child: Opacity(
-                              opacity: enabled ? 1 : .35,
-                              child: ClipRRect(
-                                borderRadius: BorderRadius.circular(18),
-                                child: category.usesVectorArt
-                                    ? _CategoryEmblem(
-                                        category: category,
-                                        size: size,
-                                      )
-                                    : Image.asset(
-                                        category.imageAsset,
-                                        width: size,
-                                        height: size,
-                                        cacheWidth: 300,
-                                        fit: BoxFit.cover,
-                                        excludeFromSemantics: true,
-                                      ),
-                              ),
-                            ),
-                          ),
-                        ),
-                        if (widget.selected != null)
-                          PositionedDirectional(
-                            top: 0,
-                            end: 0,
-                            child: AnimatedContainer(
-                              duration: duration,
-                              width: 25,
-                              height: 25,
-                              decoration: BoxDecoration(
-                                color: selected ? accent : AppColors.background,
-                                shape: BoxShape.circle,
-                                border: Border.all(
-                                  color: selected ? accent : AppColors.border,
+                        SizedBox(
+                          height: size + 8,
+                          child: Stack(
+                            alignment: Alignment.center,
+                            children: [
+                              AnimatedScale(
+                                scale: reduceMotion
+                                    ? 1
+                                    : (_pressed ? .94 : (active ? 1.09 : 1)),
+                                duration: duration,
+                                curve: Curves.easeOutCubic,
+                                child: AnimatedRotation(
+                                  turns: reduceMotion || !active ? 0 : -.015,
+                                  duration: duration,
+                                  child: Opacity(
+                                    opacity: enabled ? 1 : .35,
+                                    child: ClipRRect(
+                                      borderRadius: BorderRadius.circular(18),
+                                      child: category.usesVectorArt
+                                          ? _CategoryEmblem(
+                                              category: category,
+                                              size: size,
+                                            )
+                                          : Image.asset(
+                                              category.imageAsset,
+                                              width: size,
+                                              height: size,
+                                              cacheWidth: 300,
+                                              fit: BoxFit.cover,
+                                              excludeFromSemantics: true,
+                                            ),
+                                    ),
+                                  ),
                                 ),
                               ),
-                              child: Icon(
-                                selected
-                                    ? Icons.check_rounded
-                                    : Icons.add_rounded,
-                                size: 17,
-                                color: selected
-                                    ? AppColors.ink
+                              if (widget.selected != null)
+                                PositionedDirectional(
+                                  top: 0,
+                                  end: 0,
+                                  child: AnimatedContainer(
+                                    duration: duration,
+                                    width: 25,
+                                    height: 25,
+                                    decoration: BoxDecoration(
+                                      color: selected
+                                          ? accent
+                                          : AppColors.background,
+                                      shape: BoxShape.circle,
+                                      border: Border.all(
+                                        color: selected
+                                            ? accent
+                                            : AppColors.border,
+                                      ),
+                                    ),
+                                    child: Icon(
+                                      selected
+                                          ? Icons.check_rounded
+                                          : Icons.add_rounded,
+                                      size: 17,
+                                      color: selected
+                                          ? AppColors.ink
+                                          : AppColors.muted,
+                                    ),
+                                  ),
+                                ),
+                            ],
+                          ),
+                        ),
+                        const SizedBox(height: 10),
+                        SizedBox(
+                          height: scale.scale(titleSize) * 2.8,
+                          child: Center(
+                            child: Text(
+                              category.title,
+                              textAlign: TextAlign.center,
+                              style: TextStyle(
+                                color: enabled
+                                    ? AppColors.white
                                     : AppColors.muted,
+                                fontWeight: FontWeight.w700,
+                                fontSize: titleSize,
+                                height: 1.4,
                               ),
                             ),
                           ),
-                      ],
-                    ),
-                  ),
-                  const SizedBox(height: 10),
-                  SizedBox(
-                    height: scale.scale(titleSize) * 2.8,
-                    child: Center(
-                      child: Text(
-                        category.title,
-                        textAlign: TextAlign.center,
-                        style: TextStyle(
-                          color: enabled ? AppColors.white : AppColors.muted,
-                          fontWeight: FontWeight.w700,
-                          fontSize: titleSize,
-                          height: 1.4,
                         ),
-                      ),
-                    ),
-                  ),
-                  if (widget.remaining case final remaining?) ...[
-                    const SizedBox(height: 8),
-                    Row(
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children: [
-                        for (var i = 0; i < 5; i++)
-                          Container(
-                            width: 12,
-                            height: 4,
-                            margin: const EdgeInsets.symmetric(horizontal: 2),
-                            decoration: BoxDecoration(
-                              color: i < remaining ? accent : AppColors.border,
-                              borderRadius: BorderRadius.circular(4),
+                        if (widget.remaining case final remaining?) ...[
+                          const SizedBox(height: 8),
+                          Row(
+                            mainAxisAlignment: MainAxisAlignment.center,
+                            children: [
+                              for (var i = 0; i < 5; i++)
+                                Container(
+                                  width: 12,
+                                  height: 4,
+                                  margin: const EdgeInsets.symmetric(
+                                    horizontal: 2,
+                                  ),
+                                  decoration: BoxDecoration(
+                                    color: i < remaining
+                                        ? accent
+                                        : AppColors.border,
+                                    borderRadius: BorderRadius.circular(4),
+                                  ),
+                                ),
+                            ],
+                          ),
+                          const SizedBox(height: 8),
+                          Text(
+                            remaining > 0
+                                ? '$remaining / 5 أسئلة متبقية'
+                                : 'اكتمل القسم',
+                            textAlign: TextAlign.center,
+                            style: const TextStyle(
+                              fontSize: 12,
+                              color: AppColors.muted,
                             ),
                           ),
+                        ],
                       ],
                     ),
-                    const SizedBox(height: 8),
-                    Text(
-                      remaining > 0
-                          ? '$remaining / 5 أسئلة متبقية'
-                          : 'اكتمل القسم',
-                      textAlign: TextAlign.center,
-                      style: const TextStyle(
-                        fontSize: 12,
-                        color: AppColors.muted,
-                      ),
-                    ),
-                  ],
-                ],
-              ),
             ),
           ),
         ),
       ),
     );
   }
+
+  Widget _denseContent(
+    GameCategory category,
+    Color accent,
+    bool enabled,
+    bool selected,
+  ) => LayoutBuilder(
+    builder: (context, box) {
+      final short = box.hasBoundedHeight && box.maxHeight < 100;
+      final artwork = Stack(
+        alignment: Alignment.center,
+        children: [
+          Padding(
+            padding: const EdgeInsets.all(3),
+            child: Opacity(
+              opacity: enabled ? 1 : .4,
+              child: category.usesVectorArt
+                  ? FittedBox(
+                      child: _CategoryEmblem(category: category, size: 64),
+                    )
+                  : ClipRRect(
+                      borderRadius: BorderRadius.circular(12),
+                      child: Image.asset(
+                        category.imageAsset,
+                        fit: BoxFit.contain,
+                        cacheWidth: 200,
+                        excludeFromSemantics: true,
+                      ),
+                    ),
+            ),
+          ),
+          if (widget.selected != null)
+            PositionedDirectional(
+              top: 0,
+              end: 0,
+              child: Icon(
+                selected
+                    ? Icons.check_circle_rounded
+                    : Icons.add_circle_outline,
+                size: 20,
+                color: accent,
+              ),
+            ),
+        ],
+      );
+      final title = FitText(
+        category.title,
+        style: TextStyle(
+          fontSize: 13,
+          color: enabled ? AppColors.white : AppColors.muted,
+          fontWeight: FontWeight.w700,
+          height: 1.2,
+        ),
+      );
+      final remaining = FitText(
+        (widget.remaining ?? 0) > 0
+            ? '${widget.remaining} / 5 أسئلة'
+            : 'اكتمل القسم',
+        style: const TextStyle(fontSize: 11, color: AppColors.muted),
+      );
+      return SizedBox(
+        height: box.hasBoundedHeight ? box.maxHeight : 112,
+        child: short
+            ? Row(
+                children: [
+                  Expanded(flex: 2, child: artwork),
+                  Expanded(
+                    flex: 3,
+                    child: Column(
+                      children: [
+                        Expanded(flex: 2, child: title),
+                        if (widget.remaining != null)
+                          Expanded(child: remaining),
+                      ],
+                    ),
+                  ),
+                ],
+              )
+            : Column(
+                children: [
+                  Expanded(flex: 3, child: artwork),
+                  Expanded(flex: 2, child: title),
+                  if (widget.remaining != null) Expanded(child: remaining),
+                ],
+              ),
+      );
+    },
+  );
 }
 
 class _CategoryEmblem extends StatelessWidget {

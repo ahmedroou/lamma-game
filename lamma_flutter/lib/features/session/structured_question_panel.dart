@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter/widget_previews.dart';
 import '../../core/app_theme.dart';
 import '../../domain/models/question_presentation.dart';
+import '../../shared/fit_text.dart';
+part 'structured_question_compact.dart';
 
 /// The question's visible premises. Hidden answer options are never read here.
 enum ComparisonInteraction { order, nearest, endpoints }
@@ -15,12 +17,14 @@ class StructuredQuestionPanel extends StatefulWidget {
     required this.enabled,
     required this.onChanged,
     this.comparisonInteraction = ComparisonInteraction.order,
+    this.compact = false,
   });
   final QuestionPresentation presentation;
   final Map<String, String> draft;
   final bool enabled;
   final ValueChanged<Map<String, String>> onChanged;
   final ComparisonInteraction comparisonInteraction;
+  final bool compact;
   @override
   State<StructuredQuestionPanel> createState() =>
       _StructuredQuestionPanelState();
@@ -28,6 +32,7 @@ class StructuredQuestionPanel extends StatefulWidget {
 
 class _StructuredQuestionPanelState extends State<StructuredQuestionPanel> {
   String? _left;
+  void _selectLeft(String? id) => setState(() => _left = id);
   void _change(String key, String? value) {
     if (!widget.enabled) return;
     final next = Map<String, String>.from(widget.draft);
@@ -378,60 +383,65 @@ class _StructuredQuestionPanelState extends State<StructuredQuestionPanel> {
   }
 
   @override
-  Widget build(BuildContext context) => Container(
-    padding: const EdgeInsets.all(16),
-    decoration: BoxDecoration(
-      borderRadius: BorderRadius.circular(22),
-      border: Border.all(color: AppColors.border),
-    ),
-    child: Column(
-      children: [
-        switch (widget.presentation.type) {
-          QuestionPresentationType.matching => _matching(),
-          QuestionPresentationType.grouping => _grouping(),
-          QuestionPresentationType.comparison => _comparison(),
-          _ => Column(
+  Widget build(BuildContext context) => widget.compact
+      ? _compactPanel()
+      : Container(
+          padding: const EdgeInsets.all(16),
+          decoration: BoxDecoration(
+            borderRadius: BorderRadius.circular(22),
+            border: Border.all(color: AppColors.border),
+          ),
+          child: Column(
             children: [
-              for (final section in widget.presentation.sections) ...[
-                if (section.title.isNotEmpty)
-                  Padding(
-                    padding: const EdgeInsets.only(bottom: 12),
-                    child: Text(section.title),
-                  ),
-                for (var i = 0; i < section.items.length; i++)
-                  _tile(
-                    section.items[i],
-                    selected: widget.draft['selected'] == section.items[i].id,
-                    onTap:
-                        widget.presentation.type ==
-                            QuestionPresentationType.statements
-                        ? () => _change('selected', section.items[i].id)
-                        : null,
-                    footer:
-                        widget.presentation.type ==
-                            QuestionPresentationType.sequence
-                        ? Text(
-                            'الموضع ${i + 1}',
-                            style: const TextStyle(color: AppColors.muted),
-                          )
-                        : null,
-                  ),
-              ],
+              switch (widget.presentation.type) {
+                QuestionPresentationType.matching => _matching(),
+                QuestionPresentationType.grouping => _grouping(),
+                QuestionPresentationType.comparison => _comparison(),
+                _ => Column(
+                  children: [
+                    for (final section in widget.presentation.sections) ...[
+                      if (section.title.isNotEmpty)
+                        Padding(
+                          padding: const EdgeInsets.only(bottom: 12),
+                          child: Text(section.title),
+                        ),
+                      for (var i = 0; i < section.items.length; i++)
+                        _tile(
+                          section.items[i],
+                          selected:
+                              widget.draft['selected'] == section.items[i].id,
+                          onTap:
+                              widget.presentation.type ==
+                                  QuestionPresentationType.statements
+                              ? () => _change('selected', section.items[i].id)
+                              : null,
+                          footer:
+                              widget.presentation.type ==
+                                  QuestionPresentationType.sequence
+                              ? Text(
+                                  'الموضع ${i + 1}',
+                                  style: const TextStyle(
+                                    color: AppColors.muted,
+                                  ),
+                                )
+                              : null,
+                        ),
+                    ],
+                  ],
+                ),
+              },
+              if (widget.enabled && widget.draft.isNotEmpty)
+                TextButton.icon(
+                  onPressed: () {
+                    setState(() => _left = null);
+                    widget.onChanged(const {});
+                  },
+                  icon: const Icon(Icons.restart_alt_rounded),
+                  label: const Text('مسح ترتيبك'),
+                ),
             ],
           ),
-        },
-        if (widget.enabled && widget.draft.isNotEmpty)
-          TextButton.icon(
-            onPressed: () {
-              setState(() => _left = null);
-              widget.onChanged(const {});
-            },
-            icon: const Icon(Icons.restart_alt_rounded),
-            label: const Text('مسح ترتيبك'),
-          ),
-      ],
-    ),
-  );
+        );
 }
 
 class _MissingElement extends StatefulWidget {
