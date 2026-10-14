@@ -195,4 +195,11 @@ const List<GameCategory> gameCategories = [
     Icons.psychology_rounded,
     AppColors.gold,
   ),
+  GameCategory(
+    'animal_world',
+    'عالم الحيوان',
+    'أسرار الكائنات وغرائب البراري',
+    Icons.pets_rounded,
+    AppColors.lime,
+  ),
 ];

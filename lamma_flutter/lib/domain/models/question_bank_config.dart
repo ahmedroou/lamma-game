@@ -18,9 +18,13 @@ abstract final class QuestionBankConfig {
     'numbers',
     'reverse_question',
     'general_aptitude',
+    'animal_world',
   };
   static const categories700 = {
     'reverse_question',
+  };
+  static const categories500 = {
+    'animal_world',
   };
   static const categories400 = {
     'abbreviations',
@@ -37,6 +41,7 @@ abstract final class QuestionBankConfig {
   };
   static int countFor(String categoryId) {
     if (categories700.contains(categoryId)) return 700;
+    if (categories500.contains(categoryId)) return 500;
     if (categories400.contains(categoryId)) return 400;
     return newCategoryIds.contains(categoryId) ? 300 : questionsPerCategory;
   }

@@ -10,6 +10,7 @@ import '../session/session_setup.dart';
 import '../session/session_screen.dart';
 import '../session/session_view_model.dart';
 import 'card_scene.dart';
+import '../updates/app_update_screen.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -786,6 +787,20 @@ class _HomeScreenState extends State<HomeScreen> {
             },
           ),
           const Divider(),
+          ListTile(
+            contentPadding: EdgeInsets.zero,
+            leading: const Icon(
+              Icons.system_update_rounded,
+              color: AppColors.lime,
+            ),
+            title: const Text('تحديث التطبيق'),
+            subtitle: const Text('فحص وتنزيل إصدارات لَمّة من GitHub'),
+            trailing: const Icon(Icons.chevron_left),
+            onTap: () {
+              Navigator.pop(context);
+              openPage<void>(context, const AppUpdateScreen());
+            },
+          ),
           const Text(
             'لَمّة · النسخة الأولى\nتُحفظ الإعدادات تلقائياً على هذا الجهاز.',
             style: TextStyle(color: AppColors.muted, fontSize: 12),
