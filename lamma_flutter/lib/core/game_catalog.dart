@@ -188,4 +188,11 @@ const List<GameCategory> gameCategories = [
     Icons.sync_alt_rounded,
     AppColors.peach,
   ),
+  GameCategory(
+    'general_aptitude',
+    'قدرات عامة',
+    'لفظي وكمي… قس مهاراتك',
+    Icons.psychology_rounded,
+    AppColors.gold,
+  ),
 ];

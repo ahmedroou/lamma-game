@@ -1,3 +1,5 @@
+import 'question.dart';
+
 /// Authoring targets, independent of match sizes and difficulty point values.
 abstract final class QuestionBankConfig {
   static const questionsPerCategory = 900;
@@ -15,12 +17,17 @@ abstract final class QuestionBankConfig {
     'relationship',
     'numbers',
     'reverse_question',
+    'general_aptitude',
+  };
+  static const categories700 = {
+    'reverse_question',
   };
   static const categories400 = {
     'abbreviations',
     'complete_sequence',
     'currency_stories',
     'first_last',
+    'general_aptitude',
     'numbers',
     'one_wrong',
     'pair_up',
@@ -29,10 +36,24 @@ abstract final class QuestionBankConfig {
     'symbols_signals',
   };
   static int countFor(String categoryId) {
+    if (categories700.contains(categoryId)) return 700;
     if (categories400.contains(categoryId)) return 400;
     return newCategoryIds.contains(categoryId) ? 300 : questionsPerCategory;
   }
-  static int perDifficultyFor(String categoryId) => countFor(categoryId) ~/ 4;
+  static int perDifficultyFor(String categoryId, [QuestionDifficulty? difficulty]) {
+    if (categoryId == 'reverse_question') {
+      if (difficulty != null) {
+        return switch (difficulty) {
+          QuestionDifficulty.easy => 195,
+          QuestionDifficulty.medium => 215,
+          QuestionDifficulty.hard => 170,
+          QuestionDifficulty.legendary => 120,
+        };
+      }
+      return 175;
+    }
+    return countFor(categoryId) ~/ 4;
+  }
   static int totalFor(Iterable<String> categoryIds) =>
       categoryIds.fold(0, (total, id) => total + countFor(id));
 }

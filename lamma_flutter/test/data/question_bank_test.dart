@@ -38,9 +38,9 @@ Future<List<Question>> verifyQuestionBank({bool complete = false}) async {
       expect(
         count,
         complete
-            ? QuestionBankConfig.perDifficultyFor(category.id)
+            ? QuestionBankConfig.perDifficultyFor(category.id, level)
             : lessThanOrEqualTo(
-                QuestionBankConfig.perDifficultyFor(category.id),
+                QuestionBankConfig.perDifficultyFor(category.id, level),
               ),
         reason: '${category.id}/${level.name}',
       );
@@ -100,8 +100,8 @@ void main() {
     'Approved local bank loads, round-trips and validates all media',
     () async {
       final questions = await verifyQuestionBank();
-      expect(gameCategories.length, 25);
-      expect(questions.map((q) => q.categoryId).toSet().length, 25);
+      expect(gameCategories.length, 26);
+      expect(questions.map((q) => q.categoryId).toSet().length, 26);
       expect(
         gameCategories.any(
           (c) => [
