@@ -202,4 +202,11 @@ const List<GameCategory> gameCategories = [
     Icons.pets_rounded,
     AppColors.lime,
   ),
+  GameCategory(
+    'guess_food',
+    'خمن الأكلة',
+    'تذوّق التحدي واكتشف الطبق',
+    Icons.restaurant_rounded,
+    AppColors.peach,
+  ),
 ];

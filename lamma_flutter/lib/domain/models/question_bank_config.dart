@@ -19,6 +19,7 @@ abstract final class QuestionBankConfig {
     'reverse_question',
     'general_aptitude',
     'animal_world',
+    'guess_food',
   };
   static const categories700 = {
     'reverse_question',
@@ -39,10 +40,14 @@ abstract final class QuestionBankConfig {
     'split_groups',
     'symbols_signals',
   };
+  static const categories80 = {
+    'guess_food',
+  };
   static int countFor(String categoryId) {
     if (categories700.contains(categoryId)) return 700;
     if (categories500.contains(categoryId)) return 500;
     if (categories400.contains(categoryId)) return 400;
+    if (categories80.contains(categoryId)) return 80;
     return newCategoryIds.contains(categoryId) ? 300 : questionsPerCategory;
   }
   static int perDifficultyFor(String categoryId, [QuestionDifficulty? difficulty]) {

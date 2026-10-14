@@ -100,8 +100,8 @@ void main() {
     'Approved local bank loads, round-trips and validates all media',
     () async {
       final questions = await verifyQuestionBank();
-      expect(gameCategories.length, 27);
-      expect(questions.map((q) => q.categoryId).toSet().length, 27);
+      expect(gameCategories.length, 28);
+      expect(questions.map((q) => q.categoryId).toSet().length, 28);
       expect(
         gameCategories.any(
           (c) => [
