@@ -3,7 +3,7 @@
   "categoryId": "numbers",
   "targetCount": 300,
   "targetPerDifficulty": 75,
-  "status": "draft",
+  "status": "complete",
   "questions": [
     {
       "id": "numbers-easy-0001",
@@ -45,7 +45,7 @@
         }
       ],
       "correctOptionId": "F",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "subtype": "number_owner",
       "usageId": "215236134784742748921659705402564963097"
     },
@@ -89,7 +89,7 @@
         }
       ],
       "correctOptionId": "C",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "statements",
         "sections": [
@@ -160,7 +160,7 @@
         }
       ],
       "correctOptionId": "B",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -239,7 +239,7 @@
         }
       ],
       "correctOptionId": "B",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "matching",
         "sections": [
@@ -324,7 +324,7 @@
         }
       ],
       "correctOptionId": "E",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -391,7 +391,7 @@
         }
       ],
       "correctOptionId": "D",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "subtype": "number_owner",
       "usageId": "37180805376606795043810172344319525984"
     },
@@ -435,7 +435,7 @@
         }
       ],
       "correctOptionId": "F",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "statements",
         "sections": [
@@ -506,7 +506,7 @@
         }
       ],
       "correctOptionId": "E",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -585,7 +585,7 @@
         }
       ],
       "correctOptionId": "B",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "matching",
         "sections": [
@@ -670,7 +670,7 @@
         }
       ],
       "correctOptionId": "A",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -737,7 +737,7 @@
         }
       ],
       "correctOptionId": "E",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "subtype": "number_owner",
       "usageId": "141912349162092314872428862365027947717"
     },
@@ -781,7 +781,7 @@
         }
       ],
       "correctOptionId": "F",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "statements",
         "sections": [
@@ -852,7 +852,7 @@
         }
       ],
       "correctOptionId": "E",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -931,7 +931,7 @@
         }
       ],
       "correctOptionId": "D",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "matching",
         "sections": [
@@ -1016,7 +1016,7 @@
         }
       ],
       "correctOptionId": "D",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -1083,7 +1083,7 @@
         }
       ],
       "correctOptionId": "B",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "subtype": "number_owner",
       "usageId": "183151156183935817769408837439977878140"
     },
@@ -1127,7 +1127,7 @@
         }
       ],
       "correctOptionId": "C",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "statements",
         "sections": [
@@ -1198,7 +1198,7 @@
         }
       ],
       "correctOptionId": "F",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -1277,7 +1277,7 @@
         }
       ],
       "correctOptionId": "D",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "matching",
         "sections": [
@@ -1362,7 +1362,7 @@
         }
       ],
       "correctOptionId": "D",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -1429,7 +1429,7 @@
         }
       ],
       "correctOptionId": "D",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "subtype": "number_owner",
       "usageId": "293895231679072523841624847718924959797"
     },
@@ -1473,7 +1473,7 @@
         }
       ],
       "correctOptionId": "C",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "statements",
         "sections": [
@@ -1544,7 +1544,7 @@
         }
       ],
       "correctOptionId": "E",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -1623,7 +1623,7 @@
         }
       ],
       "correctOptionId": "E",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "matching",
         "sections": [
@@ -1708,7 +1708,7 @@
         }
       ],
       "correctOptionId": "A",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -1742,7 +1742,7 @@
       "text": "أي كوكب يبلغ قطره الاستوائي نحو 120536 كم؟ القيم من جدول ناسا المحدث 18 مارس 2025، بحسب تقريب الجدول.",
       "answer": "زحل",
       "acceptedAnswers": [],
-      "hint": "المشتري وزحل أكبر بكثير من الكواكب الصخرية، وأورانوس أكبر قليلًا من نبتون.",
+      "hint": "ثاني أضخم كواكب المجموعة الشمسية حجماً، ويشتهر بمنظومة حلقاته البهية الباهرة.",
       "clues": [],
       "explanation": "زحل: 120536 كم. القيم الصحيحة لهذه الخيارات: المريخ=6792 كم؛ عطارد=4879 كم؛ زحل=120536 كم؛ الزهرة=12104 كم؛ المشتري=142984 كم؛ نبتون=49528 كم. تقريب جدول ناسا المحدث 18 مارس 2025.",
       "sources": [
@@ -1775,7 +1775,7 @@
         }
       ],
       "correctOptionId": "C",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "subtype": "number_owner",
       "usageId": "126566778455319681933836213128496240420"
     },
@@ -1819,7 +1819,7 @@
         }
       ],
       "correctOptionId": "B",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "statements",
         "sections": [
@@ -1890,7 +1890,7 @@
         }
       ],
       "correctOptionId": "A",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -1969,7 +1969,7 @@
         }
       ],
       "correctOptionId": "B",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "matching",
         "sections": [
@@ -2054,7 +2054,7 @@
         }
       ],
       "correctOptionId": "D",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -2121,7 +2121,7 @@
         }
       ],
       "correctOptionId": "E",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "subtype": "number_owner",
       "usageId": "11333340750081165365200870259426594377"
     },
@@ -2165,7 +2165,7 @@
         }
       ],
       "correctOptionId": "F",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "statements",
         "sections": [
@@ -2236,7 +2236,7 @@
         }
       ],
       "correctOptionId": "E",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -2315,7 +2315,7 @@
         }
       ],
       "correctOptionId": "B",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "matching",
         "sections": [
@@ -2400,7 +2400,7 @@
         }
       ],
       "correctOptionId": "F",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -2467,7 +2467,7 @@
         }
       ],
       "correctOptionId": "E",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "subtype": "number_owner",
       "usageId": "321781916284560799296751678801383920254"
     },
@@ -2511,7 +2511,7 @@
         }
       ],
       "correctOptionId": "C",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "statements",
         "sections": [
@@ -2582,7 +2582,7 @@
         }
       ],
       "correctOptionId": "F",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -2661,7 +2661,7 @@
         }
       ],
       "correctOptionId": "F",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "matching",
         "sections": [
@@ -2746,7 +2746,7 @@
         }
       ],
       "correctOptionId": "C",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -2813,7 +2813,7 @@
         }
       ],
       "correctOptionId": "A",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "subtype": "number_owner",
       "usageId": "316654012786341578758781562417160931467"
     },
@@ -2857,7 +2857,7 @@
         }
       ],
       "correctOptionId": "D",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "statements",
         "sections": [
@@ -2928,7 +2928,7 @@
         }
       ],
       "correctOptionId": "B",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -3007,7 +3007,7 @@
         }
       ],
       "correctOptionId": "E",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "matching",
         "sections": [
@@ -3092,7 +3092,7 @@
         }
       ],
       "correctOptionId": "B",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -3159,7 +3159,7 @@
         }
       ],
       "correctOptionId": "B",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "subtype": "number_owner",
       "usageId": "298498631036354991060201570638634769118"
     },
@@ -3203,7 +3203,7 @@
         }
       ],
       "correctOptionId": "A",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "statements",
         "sections": [
@@ -3274,7 +3274,7 @@
         }
       ],
       "correctOptionId": "F",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -3353,7 +3353,7 @@
         }
       ],
       "correctOptionId": "D",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "matching",
         "sections": [
@@ -3438,7 +3438,7 @@
         }
       ],
       "correctOptionId": "A",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -3505,7 +3505,7 @@
         }
       ],
       "correctOptionId": "A",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "subtype": "number_owner",
       "usageId": "265455013563346955210825224317589026630"
     },
@@ -3549,7 +3549,7 @@
         }
       ],
       "correctOptionId": "A",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "statements",
         "sections": [
@@ -3620,7 +3620,7 @@
         }
       ],
       "correctOptionId": "F",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -3699,7 +3699,7 @@
         }
       ],
       "correctOptionId": "D",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "matching",
         "sections": [
@@ -3784,7 +3784,7 @@
         }
       ],
       "correctOptionId": "A",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -3851,7 +3851,7 @@
         }
       ],
       "correctOptionId": "F",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "subtype": "number_owner",
       "usageId": "150818522802397115134034472959416748365"
     },
@@ -3895,7 +3895,7 @@
         }
       ],
       "correctOptionId": "E",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "statements",
         "sections": [
@@ -3966,7 +3966,7 @@
         }
       ],
       "correctOptionId": "C",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -4045,7 +4045,7 @@
         }
       ],
       "correctOptionId": "C",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "matching",
         "sections": [
@@ -4130,7 +4130,7 @@
         }
       ],
       "correctOptionId": "C",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -4197,7 +4197,7 @@
         }
       ],
       "correctOptionId": "C",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "subtype": "number_owner",
       "usageId": "128672948029658994871526970221526348899"
     },
@@ -4241,7 +4241,7 @@
         }
       ],
       "correctOptionId": "C",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "statements",
         "sections": [
@@ -4312,7 +4312,7 @@
         }
       ],
       "correctOptionId": "E",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -4391,7 +4391,7 @@
         }
       ],
       "correctOptionId": "B",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "matching",
         "sections": [
@@ -4476,7 +4476,7 @@
         }
       ],
       "correctOptionId": "A",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -4543,7 +4543,7 @@
         }
       ],
       "correctOptionId": "B",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "subtype": "number_owner",
       "usageId": "58120398628048378075342975086279100616"
     },
@@ -4587,7 +4587,7 @@
         }
       ],
       "correctOptionId": "A",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "statements",
         "sections": [
@@ -4658,7 +4658,7 @@
         }
       ],
       "correctOptionId": "D",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -4737,7 +4737,7 @@
         }
       ],
       "correctOptionId": "D",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "matching",
         "sections": [
@@ -4822,7 +4822,7 @@
         }
       ],
       "correctOptionId": "A",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -4889,7 +4889,7 @@
         }
       ],
       "correctOptionId": "C",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "subtype": "number_owner",
       "usageId": "87455853370588790941549788642236950849"
     },
@@ -4933,7 +4933,7 @@
         }
       ],
       "correctOptionId": "A",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "statements",
         "sections": [
@@ -5004,7 +5004,7 @@
         }
       ],
       "correctOptionId": "B",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -5083,7 +5083,7 @@
         }
       ],
       "correctOptionId": "C",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "matching",
         "sections": [
@@ -5168,7 +5168,7 @@
         }
       ],
       "correctOptionId": "F",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -5235,7 +5235,7 @@
         }
       ],
       "correctOptionId": "E",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "subtype": "number_owner",
       "usageId": "296497478909530327274921325373163238231"
     },
@@ -5279,7 +5279,7 @@
         }
       ],
       "correctOptionId": "D",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "statements",
         "sections": [
@@ -5350,7 +5350,7 @@
         }
       ],
       "correctOptionId": "D",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -5429,7 +5429,7 @@
         }
       ],
       "correctOptionId": "A",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "matching",
         "sections": [
@@ -5514,7 +5514,7 @@
         }
       ],
       "correctOptionId": "F",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -5581,7 +5581,7 @@
         }
       ],
       "correctOptionId": "F",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "subtype": "number_owner",
       "usageId": "40719483751999863729567652717350645214"
     },
@@ -5625,7 +5625,7 @@
         }
       ],
       "correctOptionId": "C",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "statements",
         "sections": [
@@ -5696,7 +5696,7 @@
         }
       ],
       "correctOptionId": "C",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -5775,7 +5775,7 @@
         }
       ],
       "correctOptionId": "F",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "matching",
         "sections": [
@@ -5860,7 +5860,7 @@
         }
       ],
       "correctOptionId": "A",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -5927,7 +5927,7 @@
         }
       ],
       "correctOptionId": "F",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "subtype": "number_owner",
       "usageId": "99015304676251651023946045451554362046"
     },
@@ -5971,7 +5971,7 @@
         }
       ],
       "correctOptionId": "B",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "statements",
         "sections": [
@@ -6042,7 +6042,7 @@
         }
       ],
       "correctOptionId": "A",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -6121,7 +6121,7 @@
         }
       ],
       "correctOptionId": "F",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "matching",
         "sections": [
@@ -6206,7 +6206,7 @@
         }
       ],
       "correctOptionId": "D",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -6273,7 +6273,7 @@
         }
       ],
       "correctOptionId": "C",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "subtype": "number_owner",
       "usageId": "139409902966971601754101313363717503259"
     },
@@ -6317,7 +6317,7 @@
         }
       ],
       "correctOptionId": "A",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "statements",
         "sections": [
@@ -6388,7 +6388,7 @@
         }
       ],
       "correctOptionId": "E",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -6467,7 +6467,7 @@
         }
       ],
       "correctOptionId": "E",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "matching",
         "sections": [
@@ -6552,7 +6552,7 @@
         }
       ],
       "correctOptionId": "F",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -6619,7 +6619,7 @@
         }
       ],
       "correctOptionId": "C",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "subtype": "number_owner",
       "usageId": "97386231521978669738435409417713258178"
     },
@@ -6663,7 +6663,7 @@
         }
       ],
       "correctOptionId": "D",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "statements",
         "sections": [
@@ -6734,7 +6734,7 @@
         }
       ],
       "correctOptionId": "E",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -6813,7 +6813,7 @@
         }
       ],
       "correctOptionId": "C",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "matching",
         "sections": [
@@ -6898,7 +6898,7 @@
         }
       ],
       "correctOptionId": "B",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -6965,7 +6965,7 @@
         }
       ],
       "correctOptionId": "B",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "subtype": "number_owner",
       "usageId": "226280582529785682297176411754524409379"
     },
@@ -7009,7 +7009,7 @@
         }
       ],
       "correctOptionId": "D",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "statements",
         "sections": [
@@ -7080,7 +7080,7 @@
         }
       ],
       "correctOptionId": "F",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -7159,7 +7159,7 @@
         }
       ],
       "correctOptionId": "B",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "matching",
         "sections": [
@@ -7244,7 +7244,7 @@
         }
       ],
       "correctOptionId": "A",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -7311,7 +7311,7 @@
         }
       ],
       "correctOptionId": "E",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "subtype": "number_owner",
       "usageId": "316436357510872444171703698337919063350"
     },
@@ -7355,7 +7355,7 @@
         }
       ],
       "correctOptionId": "B",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "statements",
         "sections": [
@@ -7426,7 +7426,7 @@
         }
       ],
       "correctOptionId": "B",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -7505,7 +7505,7 @@
         }
       ],
       "correctOptionId": "C",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "matching",
         "sections": [
@@ -7590,7 +7590,7 @@
         }
       ],
       "correctOptionId": "C",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -7657,7 +7657,7 @@
         }
       ],
       "correctOptionId": "B",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "subtype": "number_owner",
       "usageId": "298897289149292824704378653223237522741"
     },
@@ -7701,7 +7701,7 @@
         }
       ],
       "correctOptionId": "B",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "statements",
         "sections": [
@@ -7772,7 +7772,7 @@
         }
       ],
       "correctOptionId": "D",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -7851,7 +7851,7 @@
         }
       ],
       "correctOptionId": "A",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "matching",
         "sections": [
@@ -7936,7 +7936,7 @@
         }
       ],
       "correctOptionId": "E",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -8003,7 +8003,7 @@
         }
       ],
       "correctOptionId": "E",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "subtype": "number_owner",
       "usageId": "329181525969906489749125538298056796583"
     },
@@ -8047,7 +8047,7 @@
         }
       ],
       "correctOptionId": "F",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "statements",
         "sections": [
@@ -8118,7 +8118,7 @@
         }
       ],
       "correctOptionId": "E",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -8197,7 +8197,7 @@
         }
       ],
       "correctOptionId": "E",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "matching",
         "sections": [
@@ -8282,7 +8282,7 @@
         }
       ],
       "correctOptionId": "A",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -8349,7 +8349,7 @@
         }
       ],
       "correctOptionId": "D",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "subtype": "number_owner",
       "usageId": "103087096996303866228301259133885925524"
     },
@@ -8393,7 +8393,7 @@
         }
       ],
       "correctOptionId": "D",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "statements",
         "sections": [
@@ -8464,7 +8464,7 @@
         }
       ],
       "correctOptionId": "D",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -8543,7 +8543,7 @@
         }
       ],
       "correctOptionId": "F",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "matching",
         "sections": [
@@ -8628,7 +8628,7 @@
         }
       ],
       "correctOptionId": "E",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -8662,7 +8662,7 @@
       "text": "في أي مضلع محدب مسطح يبلغ مجموع الزوايا الداخلية 180 درجة؟",
       "answer": "مثلث",
       "acceptedAnswers": [],
-      "hint": "يمكن تقسيم المضلع من رأس واحد إلى مثلثات دون تداخل.",
+      "hint": "أبسط الأشكال الهندسية المغلقة ذات الأضلاع المستقيمة، وله ثلاثة رؤوس وثلاث زوايا.",
       "clues": [],
       "explanation": "مثلث: 180 درجة. القيم الصحيحة لهذه الخيارات: عشاري=1440 درجة؛ ثماني=1080 درجة؛ مثلث=180 درجة؛ خماسي=540 درجة؛ سداسي=720 درجة؛ رباعي=360 درجة. إثبات أصلي: تقسيم المضلع إلى n−2 مثلثًا.",
       "sources": [
@@ -8695,7 +8695,7 @@
         }
       ],
       "correctOptionId": "A",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "subtype": "number_owner",
       "usageId": "132488839171975647823064921738236628709"
     },
@@ -8739,7 +8739,7 @@
         }
       ],
       "correctOptionId": "A",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "statements",
         "sections": [
@@ -8810,7 +8810,7 @@
         }
       ],
       "correctOptionId": "D",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -8889,7 +8889,7 @@
         }
       ],
       "correctOptionId": "A",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "matching",
         "sections": [
@@ -8974,7 +8974,7 @@
         }
       ],
       "correctOptionId": "C",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -9041,7 +9041,7 @@
         }
       ],
       "correctOptionId": "B",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "subtype": "number_owner",
       "usageId": "144511435994580173916648461418940891218"
     },
@@ -9085,7 +9085,7 @@
         }
       ],
       "correctOptionId": "E",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "statements",
         "sections": [
@@ -9156,7 +9156,7 @@
         }
       ],
       "correctOptionId": "F",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -9235,7 +9235,7 @@
         }
       ],
       "correctOptionId": "B",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "matching",
         "sections": [
@@ -9320,7 +9320,7 @@
         }
       ],
       "correctOptionId": "C",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -9387,7 +9387,7 @@
         }
       ],
       "correctOptionId": "A",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "subtype": "number_owner",
       "usageId": "313083356211270987462361889039386270546"
     },
@@ -9431,7 +9431,7 @@
         }
       ],
       "correctOptionId": "D",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "statements",
         "sections": [
@@ -9502,7 +9502,7 @@
         }
       ],
       "correctOptionId": "F",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -9581,7 +9581,7 @@
         }
       ],
       "correctOptionId": "C",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "matching",
         "sections": [
@@ -9666,7 +9666,7 @@
         }
       ],
       "correctOptionId": "D",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -9733,7 +9733,7 @@
         }
       ],
       "correctOptionId": "E",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "subtype": "number_owner",
       "usageId": "287871640003976890216865214823541449588"
     },
@@ -9777,7 +9777,7 @@
         }
       ],
       "correctOptionId": "F",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "statements",
         "sections": [
@@ -9848,7 +9848,7 @@
         }
       ],
       "correctOptionId": "C",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -9927,7 +9927,7 @@
         }
       ],
       "correctOptionId": "A",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "matching",
         "sections": [
@@ -10012,7 +10012,7 @@
         }
       ],
       "correctOptionId": "C",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -10079,7 +10079,7 @@
         }
       ],
       "correctOptionId": "B",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "subtype": "number_owner",
       "usageId": "252572799479901147722819765263943480295"
     },
@@ -10123,7 +10123,7 @@
         }
       ],
       "correctOptionId": "F",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "statements",
         "sections": [
@@ -10194,7 +10194,7 @@
         }
       ],
       "correctOptionId": "D",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -10273,7 +10273,7 @@
         }
       ],
       "correctOptionId": "E",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "matching",
         "sections": [
@@ -10358,7 +10358,7 @@
         }
       ],
       "correctOptionId": "B",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -10425,7 +10425,7 @@
         }
       ],
       "correctOptionId": "A",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "subtype": "number_owner",
       "usageId": "137750615750767293342801848323603971427"
     },
@@ -10469,7 +10469,7 @@
         }
       ],
       "correctOptionId": "B",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "statements",
         "sections": [
@@ -10544,7 +10544,7 @@
         }
       ],
       "correctOptionId": "D",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -10623,7 +10623,7 @@
         }
       ],
       "correctOptionId": "A",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "matching",
         "sections": [
@@ -10708,7 +10708,7 @@
         }
       ],
       "correctOptionId": "C",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -10779,7 +10779,7 @@
         }
       ],
       "correctOptionId": "D",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "subtype": "number_owner",
       "usageId": "16455422537161260628678225994818885421"
     },
@@ -10823,7 +10823,7 @@
         }
       ],
       "correctOptionId": "E",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "statements",
         "sections": [
@@ -10898,7 +10898,7 @@
         }
       ],
       "correctOptionId": "C",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -10977,7 +10977,7 @@
         }
       ],
       "correctOptionId": "E",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "matching",
         "sections": [
@@ -11062,7 +11062,7 @@
         }
       ],
       "correctOptionId": "E",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -11133,7 +11133,7 @@
         }
       ],
       "correctOptionId": "E",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "subtype": "number_owner",
       "usageId": "199465287850610363066686136213342322336"
     },
@@ -11177,7 +11177,7 @@
         }
       ],
       "correctOptionId": "F",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "statements",
         "sections": [
@@ -11252,7 +11252,7 @@
         }
       ],
       "correctOptionId": "E",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -11331,7 +11331,7 @@
         }
       ],
       "correctOptionId": "D",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "matching",
         "sections": [
@@ -11416,7 +11416,7 @@
         }
       ],
       "correctOptionId": "D",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -11487,7 +11487,7 @@
         }
       ],
       "correctOptionId": "A",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "subtype": "number_owner",
       "usageId": "207654175396213213504726970616950436755"
     },
@@ -11531,7 +11531,7 @@
         }
       ],
       "correctOptionId": "A",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "statements",
         "sections": [
@@ -11606,7 +11606,7 @@
         }
       ],
       "correctOptionId": "C",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -11685,7 +11685,7 @@
         }
       ],
       "correctOptionId": "E",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "matching",
         "sections": [
@@ -11770,7 +11770,7 @@
         }
       ],
       "correctOptionId": "B",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -11841,7 +11841,7 @@
         }
       ],
       "correctOptionId": "F",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "subtype": "number_owner",
       "usageId": "109740274935460758008858088537967109899"
     },
@@ -11885,7 +11885,7 @@
         }
       ],
       "correctOptionId": "C",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "statements",
         "sections": [
@@ -11960,7 +11960,7 @@
         }
       ],
       "correctOptionId": "D",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -12039,7 +12039,7 @@
         }
       ],
       "correctOptionId": "F",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "matching",
         "sections": [
@@ -12124,7 +12124,7 @@
         }
       ],
       "correctOptionId": "D",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -12195,7 +12195,7 @@
         }
       ],
       "correctOptionId": "F",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "subtype": "number_owner",
       "usageId": "153091054584490224022124970203890417467"
     },
@@ -12239,7 +12239,7 @@
         }
       ],
       "correctOptionId": "C",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "statements",
         "sections": [
@@ -12314,7 +12314,7 @@
         }
       ],
       "correctOptionId": "B",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -12393,7 +12393,7 @@
         }
       ],
       "correctOptionId": "F",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "matching",
         "sections": [
@@ -12478,7 +12478,7 @@
         }
       ],
       "correctOptionId": "C",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -12549,7 +12549,7 @@
         }
       ],
       "correctOptionId": "C",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "subtype": "number_owner",
       "usageId": "72539007639408253830712292278611901234"
     },
@@ -12593,7 +12593,7 @@
         }
       ],
       "correctOptionId": "B",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "statements",
         "sections": [
@@ -12668,7 +12668,7 @@
         }
       ],
       "correctOptionId": "D",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -12747,7 +12747,7 @@
         }
       ],
       "correctOptionId": "B",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "matching",
         "sections": [
@@ -12832,7 +12832,7 @@
         }
       ],
       "correctOptionId": "C",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -12903,7 +12903,7 @@
         }
       ],
       "correctOptionId": "C",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "subtype": "number_owner",
       "usageId": "312415848545322683557282453829962072590"
     },
@@ -12947,7 +12947,7 @@
         }
       ],
       "correctOptionId": "F",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "statements",
         "sections": [
@@ -13022,7 +13022,7 @@
         }
       ],
       "correctOptionId": "E",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -13101,7 +13101,7 @@
         }
       ],
       "correctOptionId": "D",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "matching",
         "sections": [
@@ -13186,7 +13186,7 @@
         }
       ],
       "correctOptionId": "E",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -13257,7 +13257,7 @@
         }
       ],
       "correctOptionId": "F",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "subtype": "number_owner",
       "usageId": "65960478340196126507618684751182106766"
     },
@@ -13301,7 +13301,7 @@
         }
       ],
       "correctOptionId": "C",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "statements",
         "sections": [
@@ -13376,7 +13376,7 @@
         }
       ],
       "correctOptionId": "F",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -13455,7 +13455,7 @@
         }
       ],
       "correctOptionId": "B",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "matching",
         "sections": [
@@ -13540,7 +13540,7 @@
         }
       ],
       "correctOptionId": "B",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -13611,7 +13611,7 @@
         }
       ],
       "correctOptionId": "A",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "subtype": "number_owner",
       "usageId": "205416162561750801697535897619715476900"
     },
@@ -13655,7 +13655,7 @@
         }
       ],
       "correctOptionId": "D",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "statements",
         "sections": [
@@ -13730,7 +13730,7 @@
         }
       ],
       "correctOptionId": "C",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -13809,7 +13809,7 @@
         }
       ],
       "correctOptionId": "A",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "matching",
         "sections": [
@@ -13894,7 +13894,7 @@
         }
       ],
       "correctOptionId": "A",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -13967,7 +13967,7 @@
         }
       ],
       "correctOptionId": "B",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "subtype": "number_owner",
       "usageId": "232321565031006944839882074975304328982"
     },
@@ -14011,7 +14011,7 @@
         }
       ],
       "correctOptionId": "E",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "statements",
         "sections": [
@@ -14086,7 +14086,7 @@
         }
       ],
       "correctOptionId": "C",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -14165,7 +14165,7 @@
         }
       ],
       "correctOptionId": "E",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "matching",
         "sections": [
@@ -14250,7 +14250,7 @@
         }
       ],
       "correctOptionId": "A",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -14323,7 +14323,7 @@
         }
       ],
       "correctOptionId": "D",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "subtype": "number_owner",
       "usageId": "25150633056697116273359988714533664805"
     },
@@ -14367,7 +14367,7 @@
         }
       ],
       "correctOptionId": "F",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "statements",
         "sections": [
@@ -14442,7 +14442,7 @@
         }
       ],
       "correctOptionId": "A",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -14521,7 +14521,7 @@
         }
       ],
       "correctOptionId": "B",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "matching",
         "sections": [
@@ -14606,7 +14606,7 @@
         }
       ],
       "correctOptionId": "F",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -14679,7 +14679,7 @@
         }
       ],
       "correctOptionId": "D",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "subtype": "number_owner",
       "usageId": "250467959326333494497113628406027201288"
     },
@@ -14723,7 +14723,7 @@
         }
       ],
       "correctOptionId": "D",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "statements",
         "sections": [
@@ -14798,7 +14798,7 @@
         }
       ],
       "correctOptionId": "A",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -14877,7 +14877,7 @@
         }
       ],
       "correctOptionId": "E",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "matching",
         "sections": [
@@ -14962,7 +14962,7 @@
         }
       ],
       "correctOptionId": "A",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -15033,7 +15033,7 @@
         }
       ],
       "correctOptionId": "B",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "subtype": "number_owner",
       "usageId": "140976548281222952455497291762099618783"
     },
@@ -15077,7 +15077,7 @@
         }
       ],
       "correctOptionId": "A",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "statements",
         "sections": [
@@ -15152,7 +15152,7 @@
         }
       ],
       "correctOptionId": "B",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -15231,7 +15231,7 @@
         }
       ],
       "correctOptionId": "C",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "matching",
         "sections": [
@@ -15316,7 +15316,7 @@
         }
       ],
       "correctOptionId": "F",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -15387,7 +15387,7 @@
         }
       ],
       "correctOptionId": "B",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "subtype": "number_owner",
       "usageId": "228393518610227641820706520264241833530"
     },
@@ -15431,7 +15431,7 @@
         }
       ],
       "correctOptionId": "A",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "statements",
         "sections": [
@@ -15506,7 +15506,7 @@
         }
       ],
       "correctOptionId": "B",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -15585,7 +15585,7 @@
         }
       ],
       "correctOptionId": "E",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "matching",
         "sections": [
@@ -15670,7 +15670,7 @@
         }
       ],
       "correctOptionId": "F",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -15741,7 +15741,7 @@
         }
       ],
       "correctOptionId": "A",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "subtype": "number_owner",
       "usageId": "281800285878003533636432260345018022939"
     },
@@ -15785,7 +15785,7 @@
         }
       ],
       "correctOptionId": "F",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "statements",
         "sections": [
@@ -15860,7 +15860,7 @@
         }
       ],
       "correctOptionId": "A",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -15939,7 +15939,7 @@
         }
       ],
       "correctOptionId": "C",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "matching",
         "sections": [
@@ -16024,7 +16024,7 @@
         }
       ],
       "correctOptionId": "E",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -16095,7 +16095,7 @@
         }
       ],
       "correctOptionId": "F",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "subtype": "number_owner",
       "usageId": "191851606340200028903478648643084327714"
     },
@@ -16139,7 +16139,7 @@
         }
       ],
       "correctOptionId": "E",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "statements",
         "sections": [
@@ -16214,7 +16214,7 @@
         }
       ],
       "correctOptionId": "C",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -16293,7 +16293,7 @@
         }
       ],
       "correctOptionId": "D",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "matching",
         "sections": [
@@ -16378,7 +16378,7 @@
         }
       ],
       "correctOptionId": "A",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -16449,7 +16449,7 @@
         }
       ],
       "correctOptionId": "D",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "subtype": "number_owner",
       "usageId": "235271610209003190897966962859828642613"
     },
@@ -16493,7 +16493,7 @@
         }
       ],
       "correctOptionId": "D",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "statements",
         "sections": [
@@ -16568,7 +16568,7 @@
         }
       ],
       "correctOptionId": "E",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -16647,7 +16647,7 @@
         }
       ],
       "correctOptionId": "B",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "matching",
         "sections": [
@@ -16732,7 +16732,7 @@
         }
       ],
       "correctOptionId": "A",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -16803,7 +16803,7 @@
         }
       ],
       "correctOptionId": "C",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "subtype": "number_owner",
       "usageId": "308705481492296831414766025302185969269"
     },
@@ -16847,7 +16847,7 @@
         }
       ],
       "correctOptionId": "F",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "statements",
         "sections": [
@@ -16922,7 +16922,7 @@
         }
       ],
       "correctOptionId": "B",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -17001,7 +17001,7 @@
         }
       ],
       "correctOptionId": "F",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "matching",
         "sections": [
@@ -17086,7 +17086,7 @@
         }
       ],
       "correctOptionId": "E",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -17157,7 +17157,7 @@
         }
       ],
       "correctOptionId": "C",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "subtype": "number_owner",
       "usageId": "263689151610330732811390918795523004396"
     },
@@ -17201,7 +17201,7 @@
         }
       ],
       "correctOptionId": "C",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "statements",
         "sections": [
@@ -17276,7 +17276,7 @@
         }
       ],
       "correctOptionId": "F",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -17355,7 +17355,7 @@
         }
       ],
       "correctOptionId": "B",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "matching",
         "sections": [
@@ -17440,7 +17440,7 @@
         }
       ],
       "correctOptionId": "A",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -17511,7 +17511,7 @@
         }
       ],
       "correctOptionId": "F",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "subtype": "number_owner",
       "usageId": "17028185626459439750196329273336748114"
     },
@@ -17555,7 +17555,7 @@
         }
       ],
       "correctOptionId": "A",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "statements",
         "sections": [
@@ -17630,7 +17630,7 @@
         }
       ],
       "correctOptionId": "B",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -17709,7 +17709,7 @@
         }
       ],
       "correctOptionId": "D",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "matching",
         "sections": [
@@ -17794,7 +17794,7 @@
         }
       ],
       "correctOptionId": "A",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -17865,7 +17865,7 @@
         }
       ],
       "correctOptionId": "C",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "subtype": "number_owner",
       "usageId": "160086894456839580597424445353523779617"
     },
@@ -17909,7 +17909,7 @@
         }
       ],
       "correctOptionId": "D",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "statements",
         "sections": [
@@ -17984,7 +17984,7 @@
         }
       ],
       "correctOptionId": "E",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -18063,7 +18063,7 @@
         }
       ],
       "correctOptionId": "E",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "matching",
         "sections": [
@@ -18148,7 +18148,7 @@
         }
       ],
       "correctOptionId": "D",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -18219,7 +18219,7 @@
         }
       ],
       "correctOptionId": "B",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "subtype": "number_owner",
       "usageId": "251314989990457826569792208722983141891"
     },
@@ -18263,7 +18263,7 @@
         }
       ],
       "correctOptionId": "A",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "statements",
         "sections": [
@@ -18338,7 +18338,7 @@
         }
       ],
       "correctOptionId": "D",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -18417,7 +18417,7 @@
         }
       ],
       "correctOptionId": "F",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "matching",
         "sections": [
@@ -18502,7 +18502,7 @@
         }
       ],
       "correctOptionId": "B",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -18573,7 +18573,7 @@
         }
       ],
       "correctOptionId": "E",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "subtype": "number_owner",
       "usageId": "74004400939952583996015887676338556935"
     },
@@ -18617,7 +18617,7 @@
         }
       ],
       "correctOptionId": "E",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "statements",
         "sections": [
@@ -18692,7 +18692,7 @@
         }
       ],
       "correctOptionId": "E",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -18771,7 +18771,7 @@
         }
       ],
       "correctOptionId": "F",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "matching",
         "sections": [
@@ -18856,7 +18856,7 @@
         }
       ],
       "correctOptionId": "D",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -18929,7 +18929,7 @@
         }
       ],
       "correctOptionId": "D",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "subtype": "number_owner",
       "usageId": "149705028036009618717928985131813105853"
     },
@@ -18973,7 +18973,7 @@
         }
       ],
       "correctOptionId": "D",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "statements",
         "sections": [
@@ -19048,7 +19048,7 @@
         }
       ],
       "correctOptionId": "C",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -19127,7 +19127,7 @@
         }
       ],
       "correctOptionId": "E",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "matching",
         "sections": [
@@ -19212,7 +19212,7 @@
         }
       ],
       "correctOptionId": "C",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -19285,7 +19285,7 @@
         }
       ],
       "correctOptionId": "A",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "subtype": "number_owner",
       "usageId": "337579011257926570913995917832712851853"
     },
@@ -19329,7 +19329,7 @@
         }
       ],
       "correctOptionId": "C",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "statements",
         "sections": [
@@ -19404,7 +19404,7 @@
         }
       ],
       "correctOptionId": "A",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -19483,7 +19483,7 @@
         }
       ],
       "correctOptionId": "F",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "matching",
         "sections": [
@@ -19568,7 +19568,7 @@
         }
       ],
       "correctOptionId": "B",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -19641,7 +19641,7 @@
         }
       ],
       "correctOptionId": "D",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "subtype": "number_owner",
       "usageId": "265363599901975289535723244933983781802"
     },
@@ -19685,7 +19685,7 @@
         }
       ],
       "correctOptionId": "E",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "statements",
         "sections": [
@@ -19760,7 +19760,7 @@
         }
       ],
       "correctOptionId": "C",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -19839,7 +19839,7 @@
         }
       ],
       "correctOptionId": "B",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "matching",
         "sections": [
@@ -19924,7 +19924,7 @@
         }
       ],
       "correctOptionId": "D",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -19997,7 +19997,7 @@
         }
       ],
       "correctOptionId": "A",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "subtype": "number_owner",
       "usageId": "57707745880046789901535959044062990798"
     },
@@ -20041,7 +20041,7 @@
         }
       ],
       "correctOptionId": "B",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "statements",
         "sections": [
@@ -20116,7 +20116,7 @@
         }
       ],
       "correctOptionId": "F",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -20195,7 +20195,7 @@
         }
       ],
       "correctOptionId": "F",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "matching",
         "sections": [
@@ -20280,7 +20280,7 @@
         }
       ],
       "correctOptionId": "F",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -20353,7 +20353,7 @@
         }
       ],
       "correctOptionId": "B",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "subtype": "number_owner",
       "usageId": "289633296868106288251099564450263391301"
     },
@@ -20397,7 +20397,7 @@
         }
       ],
       "correctOptionId": "E",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "statements",
         "sections": [
@@ -20472,7 +20472,7 @@
         }
       ],
       "correctOptionId": "D",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -20551,7 +20551,7 @@
         }
       ],
       "correctOptionId": "A",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "matching",
         "sections": [
@@ -20636,7 +20636,7 @@
         }
       ],
       "correctOptionId": "C",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -20707,7 +20707,7 @@
         }
       ],
       "correctOptionId": "B",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "subtype": "number_owner",
       "usageId": "278063808004074600157740880236063454794"
     },
@@ -20751,7 +20751,7 @@
         }
       ],
       "correctOptionId": "B",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "statements",
         "sections": [
@@ -20826,7 +20826,7 @@
         }
       ],
       "correctOptionId": "C",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -20905,7 +20905,7 @@
         }
       ],
       "correctOptionId": "E",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "matching",
         "sections": [
@@ -20990,7 +20990,7 @@
         }
       ],
       "correctOptionId": "F",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [

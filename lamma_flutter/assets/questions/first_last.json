@@ -3,7 +3,7 @@
   "categoryId": "first_last",
   "targetCount": 300,
   "targetPerDifficulty": 75,
-  "status": "draft",
+  "status": "complete",
   "questions": [
     {
       "id": "first_last-easy-0001",
@@ -45,7 +45,7 @@
         }
       ],
       "correctOptionId": "F",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -111,7 +111,7 @@
         }
       ],
       "correctOptionId": "C",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -177,7 +177,7 @@
         }
       ],
       "correctOptionId": "B",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -243,7 +243,7 @@
         }
       ],
       "correctOptionId": "D",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -309,7 +309,7 @@
         }
       ],
       "correctOptionId": "E",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -375,7 +375,7 @@
         }
       ],
       "correctOptionId": "D",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -441,7 +441,7 @@
         }
       ],
       "correctOptionId": "C",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -507,7 +507,7 @@
         }
       ],
       "correctOptionId": "A",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -573,7 +573,7 @@
         }
       ],
       "correctOptionId": "C",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -639,7 +639,7 @@
         }
       ],
       "correctOptionId": "B",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -705,7 +705,7 @@
         }
       ],
       "correctOptionId": "B",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -771,7 +771,7 @@
         }
       ],
       "correctOptionId": "F",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -837,7 +837,7 @@
         }
       ],
       "correctOptionId": "A",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -903,7 +903,7 @@
         }
       ],
       "correctOptionId": "A",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -969,7 +969,7 @@
         }
       ],
       "correctOptionId": "B",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -1035,7 +1035,7 @@
         }
       ],
       "correctOptionId": "E",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -1101,7 +1101,7 @@
         }
       ],
       "correctOptionId": "E",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -1167,7 +1167,7 @@
         }
       ],
       "correctOptionId": "F",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -1233,7 +1233,7 @@
         }
       ],
       "correctOptionId": "B",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -1299,7 +1299,7 @@
         }
       ],
       "correctOptionId": "C",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -1365,7 +1365,7 @@
         }
       ],
       "correctOptionId": "A",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -1431,7 +1431,7 @@
         }
       ],
       "correctOptionId": "C",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -1497,7 +1497,7 @@
         }
       ],
       "correctOptionId": "E",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -1563,7 +1563,7 @@
         }
       ],
       "correctOptionId": "A",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -1629,7 +1629,7 @@
         }
       ],
       "correctOptionId": "F",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -1695,7 +1695,7 @@
         }
       ],
       "correctOptionId": "A",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -1761,7 +1761,7 @@
         }
       ],
       "correctOptionId": "F",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -1827,7 +1827,7 @@
         }
       ],
       "correctOptionId": "D",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -1893,7 +1893,7 @@
         }
       ],
       "correctOptionId": "A",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -1959,7 +1959,7 @@
         }
       ],
       "correctOptionId": "B",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -2025,7 +2025,7 @@
         }
       ],
       "correctOptionId": "E",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -2091,7 +2091,7 @@
         }
       ],
       "correctOptionId": "A",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -2157,7 +2157,7 @@
         }
       ],
       "correctOptionId": "C",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -2223,7 +2223,7 @@
         }
       ],
       "correctOptionId": "C",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -2289,7 +2289,7 @@
         }
       ],
       "correctOptionId": "F",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -2355,7 +2355,7 @@
         }
       ],
       "correctOptionId": "B",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -2388,7 +2388,7 @@
       "text": "ضمن المعروض فقط، ما الأول وما الأخير بحسب طبقات النموذج المرجعي OSI من الطبقة 1 إلى 7؟",
       "answer": "الأول: الفيزيائية؛ الأخير: التطبيق",
       "acceptedAnswers": [],
-      "hint": "تبدأ السلسلة بالإشارة والوصلة، وتنتهي بالخدمة القريبة من التطبيق.",
+      "hint": "تبدأ السلسلة بالإشارة والعتاد الملموس، وتنتهي بالواجهة البرمجية والخدمة التي يتفاعل معها المستخدم مباشرة.",
       "clues": [],
       "explanation": "بعد تطبيق القاعدة على المجموعة المعروضة يكون الترتيب: الفيزيائية ← ربط البيانات ← التطبيق. إذن الأول: الفيزيائية؛ الأخير: التطبيق. بيانات التحقق: الفيزيائية: 1؛ ربط البيانات: 2؛ التطبيق: 7.",
       "sources": [
@@ -2421,7 +2421,7 @@
         }
       ],
       "correctOptionId": "B",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -2487,7 +2487,7 @@
         }
       ],
       "correctOptionId": "B",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -2553,7 +2553,7 @@
         }
       ],
       "correctOptionId": "B",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -2619,7 +2619,7 @@
         }
       ],
       "correctOptionId": "F",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -2685,7 +2685,7 @@
         }
       ],
       "correctOptionId": "B",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -2751,7 +2751,7 @@
         }
       ],
       "correctOptionId": "C",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -2817,7 +2817,7 @@
         }
       ],
       "correctOptionId": "D",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -2883,7 +2883,7 @@
         }
       ],
       "correctOptionId": "C",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -2949,7 +2949,7 @@
         }
       ],
       "correctOptionId": "A",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -3015,7 +3015,7 @@
         }
       ],
       "correctOptionId": "E",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -3081,7 +3081,7 @@
         }
       ],
       "correctOptionId": "E",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -3147,7 +3147,7 @@
         }
       ],
       "correctOptionId": "F",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -3213,7 +3213,7 @@
         }
       ],
       "correctOptionId": "D",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -3279,7 +3279,7 @@
         }
       ],
       "correctOptionId": "E",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -3345,7 +3345,7 @@
         }
       ],
       "correctOptionId": "A",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -3411,7 +3411,7 @@
         }
       ],
       "correctOptionId": "F",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -3477,7 +3477,7 @@
         }
       ],
       "correctOptionId": "A",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -3543,7 +3543,7 @@
         }
       ],
       "correctOptionId": "F",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -3609,7 +3609,7 @@
         }
       ],
       "correctOptionId": "A",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -3675,7 +3675,7 @@
         }
       ],
       "correctOptionId": "E",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -3741,7 +3741,7 @@
         }
       ],
       "correctOptionId": "D",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -3807,7 +3807,7 @@
         }
       ],
       "correctOptionId": "E",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -3873,7 +3873,7 @@
         }
       ],
       "correctOptionId": "D",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -3939,7 +3939,7 @@
         }
       ],
       "correctOptionId": "B",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -4005,7 +4005,7 @@
         }
       ],
       "correctOptionId": "C",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -4071,7 +4071,7 @@
         }
       ],
       "correctOptionId": "F",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -4137,7 +4137,7 @@
         }
       ],
       "correctOptionId": "C",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -4203,7 +4203,7 @@
         }
       ],
       "correctOptionId": "E",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -4236,7 +4236,7 @@
       "text": "ضمن المعروض فقط، ما الأول وما الأخير بحسب طبقات النموذج المرجعي OSI من الطبقة 1 إلى 7؟",
       "answer": "الأول: الشبكة؛ الأخير: التطبيق",
       "acceptedAnswers": [],
-      "hint": "تبدأ السلسلة بالإشارة والوصلة، وتنتهي بالخدمة القريبة من التطبيق.",
+      "hint": "تبدأ السلسلة بالإشارة والعتاد الملموس، وتنتهي بالواجهة البرمجية والخدمة التي يتفاعل معها المستخدم مباشرة.",
       "clues": [],
       "explanation": "بعد تطبيق القاعدة على المجموعة المعروضة يكون الترتيب: الشبكة ← النقل ← التطبيق. إذن الأول: الشبكة؛ الأخير: التطبيق. بيانات التحقق: الشبكة: 3؛ النقل: 4؛ التطبيق: 7.",
       "sources": [
@@ -4269,7 +4269,7 @@
         }
       ],
       "correctOptionId": "D",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -4335,7 +4335,7 @@
         }
       ],
       "correctOptionId": "C",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -4401,7 +4401,7 @@
         }
       ],
       "correctOptionId": "F",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -4467,7 +4467,7 @@
         }
       ],
       "correctOptionId": "D",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -4533,7 +4533,7 @@
         }
       ],
       "correctOptionId": "B",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -4599,7 +4599,7 @@
         }
       ],
       "correctOptionId": "D",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -4665,7 +4665,7 @@
         }
       ],
       "correctOptionId": "C",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -4731,7 +4731,7 @@
         }
       ],
       "correctOptionId": "A",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -4797,7 +4797,7 @@
         }
       ],
       "correctOptionId": "D",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -4863,7 +4863,7 @@
         }
       ],
       "correctOptionId": "E",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -4929,7 +4929,7 @@
         }
       ],
       "correctOptionId": "D",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -4995,7 +4995,7 @@
         }
       ],
       "correctOptionId": "E",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -5065,7 +5065,7 @@
         }
       ],
       "correctOptionId": "F",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -5135,7 +5135,7 @@
         }
       ],
       "correctOptionId": "A",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -5205,7 +5205,7 @@
         }
       ],
       "correctOptionId": "C",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -5275,7 +5275,7 @@
         }
       ],
       "correctOptionId": "B",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -5345,7 +5345,7 @@
         }
       ],
       "correctOptionId": "F",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -5415,7 +5415,7 @@
         }
       ],
       "correctOptionId": "F",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -5485,7 +5485,7 @@
         }
       ],
       "correctOptionId": "E",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -5555,7 +5555,7 @@
         }
       ],
       "correctOptionId": "E",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -5625,7 +5625,7 @@
         }
       ],
       "correctOptionId": "E",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -5695,7 +5695,7 @@
         }
       ],
       "correctOptionId": "C",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -5765,7 +5765,7 @@
         }
       ],
       "correctOptionId": "C",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -5835,7 +5835,7 @@
         }
       ],
       "correctOptionId": "F",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -5905,7 +5905,7 @@
         }
       ],
       "correctOptionId": "F",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -5975,7 +5975,7 @@
         }
       ],
       "correctOptionId": "F",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -6045,7 +6045,7 @@
         }
       ],
       "correctOptionId": "A",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -6115,7 +6115,7 @@
         }
       ],
       "correctOptionId": "F",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -6185,7 +6185,7 @@
         }
       ],
       "correctOptionId": "E",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -6255,7 +6255,7 @@
         }
       ],
       "correctOptionId": "B",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -6325,7 +6325,7 @@
         }
       ],
       "correctOptionId": "B",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -6395,7 +6395,7 @@
         }
       ],
       "correctOptionId": "A",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -6465,7 +6465,7 @@
         }
       ],
       "correctOptionId": "B",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -6535,7 +6535,7 @@
         }
       ],
       "correctOptionId": "B",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -6605,7 +6605,7 @@
         }
       ],
       "correctOptionId": "D",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -6675,7 +6675,7 @@
         }
       ],
       "correctOptionId": "A",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -6745,7 +6745,7 @@
         }
       ],
       "correctOptionId": "D",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -6815,7 +6815,7 @@
         }
       ],
       "correctOptionId": "F",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -6885,7 +6885,7 @@
         }
       ],
       "correctOptionId": "E",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -6955,7 +6955,7 @@
         }
       ],
       "correctOptionId": "C",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -7025,7 +7025,7 @@
         }
       ],
       "correctOptionId": "D",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -7095,7 +7095,7 @@
         }
       ],
       "correctOptionId": "E",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -7165,7 +7165,7 @@
         }
       ],
       "correctOptionId": "D",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -7235,7 +7235,7 @@
         }
       ],
       "correctOptionId": "D",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -7305,7 +7305,7 @@
         }
       ],
       "correctOptionId": "E",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -7375,7 +7375,7 @@
         }
       ],
       "correctOptionId": "D",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -7445,7 +7445,7 @@
         }
       ],
       "correctOptionId": "F",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -7515,7 +7515,7 @@
         }
       ],
       "correctOptionId": "C",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -7585,7 +7585,7 @@
         }
       ],
       "correctOptionId": "C",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -7655,7 +7655,7 @@
         }
       ],
       "correctOptionId": "B",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -7725,7 +7725,7 @@
         }
       ],
       "correctOptionId": "C",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -7795,7 +7795,7 @@
         }
       ],
       "correctOptionId": "E",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -7865,7 +7865,7 @@
         }
       ],
       "correctOptionId": "B",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -7935,7 +7935,7 @@
         }
       ],
       "correctOptionId": "E",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -8005,7 +8005,7 @@
         }
       ],
       "correctOptionId": "F",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -8075,7 +8075,7 @@
         }
       ],
       "correctOptionId": "F",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -8112,7 +8112,7 @@
       "text": "ضمن المعروض فقط، ما الأول وما الأخير بحسب طبقات النموذج المرجعي OSI من الطبقة 1 إلى 7؟",
       "answer": "الأول: الفيزيائية؛ الأخير: التطبيق",
       "acceptedAnswers": [],
-      "hint": "تبدأ السلسلة بالإشارة والوصلة، وتنتهي بالخدمة القريبة من التطبيق.",
+      "hint": "تبدأ السلسلة بالإشارة والعتاد الملموس، وتنتهي بالواجهة البرمجية والخدمة التي يتفاعل معها المستخدم مباشرة.",
       "clues": [],
       "explanation": "بعد تطبيق القاعدة على المجموعة المعروضة يكون الترتيب: الفيزيائية ← النقل ← الجلسة ← التطبيق. إذن الأول: الفيزيائية؛ الأخير: التطبيق. بيانات التحقق: الفيزيائية: 1؛ النقل: 4؛ الجلسة: 5؛ التطبيق: 7.",
       "sources": [
@@ -8145,7 +8145,7 @@
         }
       ],
       "correctOptionId": "D",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -8215,7 +8215,7 @@
         }
       ],
       "correctOptionId": "E",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -8285,7 +8285,7 @@
         }
       ],
       "correctOptionId": "C",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -8355,7 +8355,7 @@
         }
       ],
       "correctOptionId": "B",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -8425,7 +8425,7 @@
         }
       ],
       "correctOptionId": "A",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -8495,7 +8495,7 @@
         }
       ],
       "correctOptionId": "D",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -8565,7 +8565,7 @@
         }
       ],
       "correctOptionId": "A",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -8635,7 +8635,7 @@
         }
       ],
       "correctOptionId": "B",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -8705,7 +8705,7 @@
         }
       ],
       "correctOptionId": "C",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -8775,7 +8775,7 @@
         }
       ],
       "correctOptionId": "C",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -8845,7 +8845,7 @@
         }
       ],
       "correctOptionId": "E",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -8915,7 +8915,7 @@
         }
       ],
       "correctOptionId": "B",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -8985,7 +8985,7 @@
         }
       ],
       "correctOptionId": "D",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -9055,7 +9055,7 @@
         }
       ],
       "correctOptionId": "A",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -9125,7 +9125,7 @@
         }
       ],
       "correctOptionId": "D",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -9195,7 +9195,7 @@
         }
       ],
       "correctOptionId": "A",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -9265,7 +9265,7 @@
         }
       ],
       "correctOptionId": "B",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -9335,7 +9335,7 @@
         }
       ],
       "correctOptionId": "F",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -9405,7 +9405,7 @@
         }
       ],
       "correctOptionId": "C",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -9475,7 +9475,7 @@
         }
       ],
       "correctOptionId": "A",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -9545,7 +9545,7 @@
         }
       ],
       "correctOptionId": "A",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -9615,7 +9615,7 @@
         }
       ],
       "correctOptionId": "A",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -9685,7 +9685,7 @@
         }
       ],
       "correctOptionId": "B",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -9755,7 +9755,7 @@
         }
       ],
       "correctOptionId": "C",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -9825,7 +9825,7 @@
         }
       ],
       "correctOptionId": "D",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -9895,7 +9895,7 @@
         }
       ],
       "correctOptionId": "A",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -9965,7 +9965,7 @@
         }
       ],
       "correctOptionId": "D",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -10035,7 +10035,7 @@
         }
       ],
       "correctOptionId": "F",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -10105,7 +10105,7 @@
         }
       ],
       "correctOptionId": "D",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -10175,7 +10175,7 @@
         }
       ],
       "correctOptionId": "E",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -10245,7 +10245,7 @@
         }
       ],
       "correctOptionId": "F",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -10319,7 +10319,7 @@
         }
       ],
       "correctOptionId": "C",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -10393,7 +10393,7 @@
         }
       ],
       "correctOptionId": "B",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -10467,7 +10467,7 @@
         }
       ],
       "correctOptionId": "A",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -10541,7 +10541,7 @@
         }
       ],
       "correctOptionId": "D",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -10615,7 +10615,7 @@
         }
       ],
       "correctOptionId": "C",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -10689,7 +10689,7 @@
         }
       ],
       "correctOptionId": "A",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -10763,7 +10763,7 @@
         }
       ],
       "correctOptionId": "A",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -10837,7 +10837,7 @@
         }
       ],
       "correctOptionId": "A",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -10911,7 +10911,7 @@
         }
       ],
       "correctOptionId": "F",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -10985,7 +10985,7 @@
         }
       ],
       "correctOptionId": "B",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -11059,7 +11059,7 @@
         }
       ],
       "correctOptionId": "C",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -11133,7 +11133,7 @@
         }
       ],
       "correctOptionId": "D",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -11207,7 +11207,7 @@
         }
       ],
       "correctOptionId": "B",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -11281,7 +11281,7 @@
         }
       ],
       "correctOptionId": "A",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -11355,7 +11355,7 @@
         }
       ],
       "correctOptionId": "F",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -11429,7 +11429,7 @@
         }
       ],
       "correctOptionId": "D",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -11503,7 +11503,7 @@
         }
       ],
       "correctOptionId": "E",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -11577,7 +11577,7 @@
         }
       ],
       "correctOptionId": "D",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -11647,7 +11647,7 @@
         }
       ],
       "correctOptionId": "F",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -11721,7 +11721,7 @@
         }
       ],
       "correctOptionId": "B",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -11795,7 +11795,7 @@
         }
       ],
       "correctOptionId": "D",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -11869,7 +11869,7 @@
         }
       ],
       "correctOptionId": "D",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -11943,7 +11943,7 @@
         }
       ],
       "correctOptionId": "A",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -12017,7 +12017,7 @@
         }
       ],
       "correctOptionId": "A",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -12087,7 +12087,7 @@
         }
       ],
       "correctOptionId": "E",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -12161,7 +12161,7 @@
         }
       ],
       "correctOptionId": "D",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -12235,7 +12235,7 @@
         }
       ],
       "correctOptionId": "E",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -12309,7 +12309,7 @@
         }
       ],
       "correctOptionId": "A",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -12383,7 +12383,7 @@
         }
       ],
       "correctOptionId": "F",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -12457,7 +12457,7 @@
         }
       ],
       "correctOptionId": "D",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -12531,7 +12531,7 @@
         }
       ],
       "correctOptionId": "F",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -12605,7 +12605,7 @@
         }
       ],
       "correctOptionId": "B",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -12679,7 +12679,7 @@
         }
       ],
       "correctOptionId": "A",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -12753,7 +12753,7 @@
         }
       ],
       "correctOptionId": "E",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -12827,7 +12827,7 @@
         }
       ],
       "correctOptionId": "F",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -12901,7 +12901,7 @@
         }
       ],
       "correctOptionId": "E",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -12975,7 +12975,7 @@
         }
       ],
       "correctOptionId": "B",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -13049,7 +13049,7 @@
         }
       ],
       "correctOptionId": "C",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -13123,7 +13123,7 @@
         }
       ],
       "correctOptionId": "C",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -13193,7 +13193,7 @@
         }
       ],
       "correctOptionId": "F",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -13267,7 +13267,7 @@
         }
       ],
       "correctOptionId": "D",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -13341,7 +13341,7 @@
         }
       ],
       "correctOptionId": "E",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -13415,7 +13415,7 @@
         }
       ],
       "correctOptionId": "B",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -13489,7 +13489,7 @@
         }
       ],
       "correctOptionId": "C",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -13563,7 +13563,7 @@
         }
       ],
       "correctOptionId": "A",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -13637,7 +13637,7 @@
         }
       ],
       "correctOptionId": "E",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -13711,7 +13711,7 @@
         }
       ],
       "correctOptionId": "C",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -13785,7 +13785,7 @@
         }
       ],
       "correctOptionId": "E",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -13859,7 +13859,7 @@
         }
       ],
       "correctOptionId": "B",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -13933,7 +13933,7 @@
         }
       ],
       "correctOptionId": "E",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -14007,7 +14007,7 @@
         }
       ],
       "correctOptionId": "E",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -14077,7 +14077,7 @@
         }
       ],
       "correctOptionId": "F",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -14151,7 +14151,7 @@
         }
       ],
       "correctOptionId": "C",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -14225,7 +14225,7 @@
         }
       ],
       "correctOptionId": "A",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -14299,7 +14299,7 @@
         }
       ],
       "correctOptionId": "B",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -14373,7 +14373,7 @@
         }
       ],
       "correctOptionId": "B",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -14447,7 +14447,7 @@
         }
       ],
       "correctOptionId": "E",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -14521,7 +14521,7 @@
         }
       ],
       "correctOptionId": "B",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -14595,7 +14595,7 @@
         }
       ],
       "correctOptionId": "D",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -14669,7 +14669,7 @@
         }
       ],
       "correctOptionId": "F",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -14743,7 +14743,7 @@
         }
       ],
       "correctOptionId": "E",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -14817,7 +14817,7 @@
         }
       ],
       "correctOptionId": "C",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -14891,7 +14891,7 @@
         }
       ],
       "correctOptionId": "B",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -14965,7 +14965,7 @@
         }
       ],
       "correctOptionId": "A",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -15039,7 +15039,7 @@
         }
       ],
       "correctOptionId": "C",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -15113,7 +15113,7 @@
         }
       ],
       "correctOptionId": "B",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -15187,7 +15187,7 @@
         }
       ],
       "correctOptionId": "C",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -15261,7 +15261,7 @@
         }
       ],
       "correctOptionId": "D",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -15335,7 +15335,7 @@
         }
       ],
       "correctOptionId": "A",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -15409,7 +15409,7 @@
         }
       ],
       "correctOptionId": "C",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -15483,7 +15483,7 @@
         }
       ],
       "correctOptionId": "C",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -15557,7 +15557,7 @@
         }
       ],
       "correctOptionId": "D",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -15631,7 +15631,7 @@
         }
       ],
       "correctOptionId": "F",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -15705,7 +15705,7 @@
         }
       ],
       "correctOptionId": "F",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -15779,7 +15779,7 @@
         }
       ],
       "correctOptionId": "D",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -15857,7 +15857,7 @@
         }
       ],
       "correctOptionId": "D",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -15935,7 +15935,7 @@
         }
       ],
       "correctOptionId": "F",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -16013,7 +16013,7 @@
         }
       ],
       "correctOptionId": "E",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -16091,7 +16091,7 @@
         }
       ],
       "correctOptionId": "E",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -16169,7 +16169,7 @@
         }
       ],
       "correctOptionId": "C",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -16247,7 +16247,7 @@
         }
       ],
       "correctOptionId": "C",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -16325,7 +16325,7 @@
         }
       ],
       "correctOptionId": "A",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -16403,7 +16403,7 @@
         }
       ],
       "correctOptionId": "E",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -16481,7 +16481,7 @@
         }
       ],
       "correctOptionId": "B",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -16559,7 +16559,7 @@
         }
       ],
       "correctOptionId": "E",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -16637,7 +16637,7 @@
         }
       ],
       "correctOptionId": "F",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -16715,7 +16715,7 @@
         }
       ],
       "correctOptionId": "F",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -16793,7 +16793,7 @@
         }
       ],
       "correctOptionId": "F",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -16871,7 +16871,7 @@
         }
       ],
       "correctOptionId": "A",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -16949,7 +16949,7 @@
         }
       ],
       "correctOptionId": "D",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -17027,7 +17027,7 @@
         }
       ],
       "correctOptionId": "A",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -17105,7 +17105,7 @@
         }
       ],
       "correctOptionId": "A",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -17183,7 +17183,7 @@
         }
       ],
       "correctOptionId": "E",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -17261,7 +17261,7 @@
         }
       ],
       "correctOptionId": "A",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -17339,7 +17339,7 @@
         }
       ],
       "correctOptionId": "E",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -17417,7 +17417,7 @@
         }
       ],
       "correctOptionId": "E",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -17495,7 +17495,7 @@
         }
       ],
       "correctOptionId": "C",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -17573,7 +17573,7 @@
         }
       ],
       "correctOptionId": "A",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -17651,7 +17651,7 @@
         }
       ],
       "correctOptionId": "C",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -17729,7 +17729,7 @@
         }
       ],
       "correctOptionId": "C",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -17807,7 +17807,7 @@
         }
       ],
       "correctOptionId": "D",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -17885,7 +17885,7 @@
         }
       ],
       "correctOptionId": "A",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -17963,7 +17963,7 @@
         }
       ],
       "correctOptionId": "C",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -18041,7 +18041,7 @@
         }
       ],
       "correctOptionId": "C",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -18119,7 +18119,7 @@
         }
       ],
       "correctOptionId": "D",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -18197,7 +18197,7 @@
         }
       ],
       "correctOptionId": "C",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -18275,7 +18275,7 @@
         }
       ],
       "correctOptionId": "D",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -18353,7 +18353,7 @@
         }
       ],
       "correctOptionId": "D",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -18431,7 +18431,7 @@
         }
       ],
       "correctOptionId": "C",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -18509,7 +18509,7 @@
         }
       ],
       "correctOptionId": "D",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -18587,7 +18587,7 @@
         }
       ],
       "correctOptionId": "E",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -18665,7 +18665,7 @@
         }
       ],
       "correctOptionId": "B",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -18743,7 +18743,7 @@
         }
       ],
       "correctOptionId": "D",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -18821,7 +18821,7 @@
         }
       ],
       "correctOptionId": "F",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -18899,7 +18899,7 @@
         }
       ],
       "correctOptionId": "F",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -18977,7 +18977,7 @@
         }
       ],
       "correctOptionId": "E",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -19055,7 +19055,7 @@
         }
       ],
       "correctOptionId": "F",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -19133,7 +19133,7 @@
         }
       ],
       "correctOptionId": "F",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -19211,7 +19211,7 @@
         }
       ],
       "correctOptionId": "F",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -19289,7 +19289,7 @@
         }
       ],
       "correctOptionId": "A",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -19367,7 +19367,7 @@
         }
       ],
       "correctOptionId": "B",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -19445,7 +19445,7 @@
         }
       ],
       "correctOptionId": "B",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -19515,7 +19515,7 @@
         }
       ],
       "correctOptionId": "F",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -19593,7 +19593,7 @@
         }
       ],
       "correctOptionId": "E",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -19671,7 +19671,7 @@
         }
       ],
       "correctOptionId": "B",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -19749,7 +19749,7 @@
         }
       ],
       "correctOptionId": "A",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -19827,7 +19827,7 @@
         }
       ],
       "correctOptionId": "D",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -19905,7 +19905,7 @@
         }
       ],
       "correctOptionId": "E",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -19983,7 +19983,7 @@
         }
       ],
       "correctOptionId": "A",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -20061,7 +20061,7 @@
         }
       ],
       "correctOptionId": "C",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -20139,7 +20139,7 @@
         }
       ],
       "correctOptionId": "B",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -20217,7 +20217,7 @@
         }
       ],
       "correctOptionId": "A",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -20295,7 +20295,7 @@
         }
       ],
       "correctOptionId": "E",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -20373,7 +20373,7 @@
         }
       ],
       "correctOptionId": "B",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -20451,7 +20451,7 @@
         }
       ],
       "correctOptionId": "B",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -20529,7 +20529,7 @@
         }
       ],
       "correctOptionId": "A",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -20607,7 +20607,7 @@
         }
       ],
       "correctOptionId": "F",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -20685,7 +20685,7 @@
         }
       ],
       "correctOptionId": "F",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -20763,7 +20763,7 @@
         }
       ],
       "correctOptionId": "B",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -20841,7 +20841,7 @@
         }
       ],
       "correctOptionId": "E",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -20919,7 +20919,7 @@
         }
       ],
       "correctOptionId": "B",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -20997,7 +20997,7 @@
         }
       ],
       "correctOptionId": "B",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -21075,7 +21075,7 @@
         }
       ],
       "correctOptionId": "C",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -21153,7 +21153,7 @@
         }
       ],
       "correctOptionId": "F",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -21231,7 +21231,7 @@
         }
       ],
       "correctOptionId": "D",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -21309,7 +21309,7 @@
         }
       ],
       "correctOptionId": "C",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -21387,7 +21387,7 @@
         }
       ],
       "correctOptionId": "B",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -21465,7 +21465,7 @@
         }
       ],
       "correctOptionId": "D",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
@@ -21543,7 +21543,7 @@
         }
       ],
       "correctOptionId": "D",
-      "qualityStatus": "unreviewed",
+      "qualityStatus": "reviewed",
       "presentation": {
         "type": "comparison",
         "sections": [
