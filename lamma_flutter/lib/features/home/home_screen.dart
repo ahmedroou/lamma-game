@@ -1,10 +1,14 @@
 import 'dart:async';
+import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:url_launcher/url_launcher.dart';
 import '../../core/app_theme.dart';
 import '../../core/app_controller.dart';
 import '../../core/app_scope.dart';
 import '../../core/game_catalog.dart';
+import '../../domain/models/question.dart';
+import '../../domain/models/question_audio.dart';
 import '../../shared/components.dart';
 import '../../shared/category_card.dart';
 import '../session/session_setup.dart';
@@ -134,6 +138,17 @@ class _HomeScreenState extends State<HomeScreen> with WidgetsBindingObserver {
       _app.updateSettings(_app.settings.copyWith(haptics: value));
   int _tab = int.tryParse(Uri.base.queryParameters['tab'] ?? '') ?? 0;
   void _start([GameCategory? category]) {
+    if (category?.id == 'character_voice' &&
+        !_app.canPlayCategory('character_voice')) {
+      ScaffoldMessenger.of(context).showSnackBar(
+        const SnackBar(
+          content: Text(
+            'صوت الشخصية قيد مراجعة التسجيلات. اختر قسمًا آخر حتى تتوفر خمسة مقاطع معتمدة.',
+          ),
+        ),
+      );
+      return;
+    }
     if (_haptics) HapticFeedback.lightImpact();
     openPage<void>(
       context,
@@ -801,8 +816,16 @@ class _HomeScreenState extends State<HomeScreen> with WidgetsBindingObserver {
         Icons.style_outlined,
         AppColors.gold,
       ),
+      _step(
+        'صوت',
+        'صوت الشخصية',
+        'استمع للمقطع الصوتي الحقيقي لشخصيات تاريخية وعربية وعالمية من زر التشغيل المدمج، وأعد الاستماع وقتما تشاء دون التأثير على عداد السؤال، ثم خمن صاحب الصوت!',
+        Icons.graphic_eq_rounded,
+        AppColors.purple,
+      ),
       const SizedBox(height: 12),
       const DifficultyLegend(),
+
       const SizedBox(height: 20),
       LammaButton(label: 'جاهزين؟ نبدأ', onPressed: _start),
     ],
@@ -909,6 +932,21 @@ class _HomeScreenState extends State<HomeScreen> with WidgetsBindingObserver {
               _openUpdates();
             },
           ),
+          ListTile(
+            contentPadding: EdgeInsets.zero,
+            leading: const Icon(
+              Icons.graphic_eq_rounded,
+              color: AppColors.purple,
+            ),
+            title: const Text('أرشيف صوت الشخصية'),
+            subtitle: const Text('المصادر والتراخيص وحالة مراجعة التسجيلات'),
+            trailing: const Icon(Icons.chevron_left),
+            onTap: () {
+              Navigator.pop(context);
+              _showAudioAttributionDialog();
+            },
+          ),
+          const SizedBox(height: 8),
           const Text(
             'لَمّة · النسخة الأولى\nتُحفظ الإعدادات تلقائياً على هذا الجهاز.',
             style: TextStyle(color: AppColors.muted, fontSize: 12),
@@ -917,4 +955,268 @@ class _HomeScreenState extends State<HomeScreen> with WidgetsBindingObserver {
       ),
     ),
   );
+
+  Future<List<Question>> _loadAudioCredits() async {
+    final content = await rootBundle.loadString(
+      'assets/questions/character_voice.json',
+    );
+    final decoded = jsonDecode(content);
+    if (decoded is! Map<String, dynamic> || decoded['questions'] is! List) {
+      throw const FormatException('Invalid character voice bank.');
+    }
+    final clips = <Question>[];
+    final seen = <String>{};
+    for (final record in decoded['questions'] as List) {
+      if (record is! Map<String, dynamic>) {
+        throw const FormatException('Invalid character voice question.');
+      }
+      final question = Question.fromJson(record);
+      final candidate = question.audio;
+      if (question.categoryId != 'character_voice' ||
+          candidate == null ||
+          candidate.sourceUrl.isEmpty ||
+          candidate.licenseUrl.isEmpty ||
+          candidate.attribution.isEmpty ||
+          candidate.license.isEmpty) {
+        continue;
+      }
+      final audio = question.audio!;
+      final key = jsonEncode([
+        audio.recordingId,
+        audio.sourceUrl,
+        audio.licenseUrl,
+        audio.sourceStartMs,
+        audio.sourceEndMs,
+        audio.attribution,
+        audio.speaker,
+      ]);
+      if (seen.add(key)) clips.add(question);
+    }
+    return clips;
+  }
+
+  Future<void> _openAudioCreditLink(String value) async {
+    final uri = Uri.tryParse(value);
+    var opened = false;
+    if (uri != null && uri.scheme == 'https' && uri.host.isNotEmpty) {
+      try {
+        opened = await launchUrl(uri, mode: LaunchMode.externalApplication);
+      } catch (_) {
+        // A missing browser or platform failure is handled in the same UI.
+      }
+    }
+    if (!opened && mounted) {
+      ScaffoldMessenger.of(context).showSnackBar(
+        const SnackBar(content: Text('تعذّر فتح الرابط. حاول مرة أخرى.')),
+      );
+    }
+  }
+
+  String _audioCreditTime(int milliseconds) {
+    final duration = Duration(milliseconds: milliseconds);
+    final minutes = duration.inMinutes.toString().padLeft(2, '0');
+    final seconds = (duration.inSeconds % 60).toString().padLeft(2, '0');
+    final fraction = (milliseconds % 1000).toString().padLeft(3, '0');
+    return '$minutes:$seconds.$fraction';
+  }
+
+  Widget _audioCredit(QuestionAudio audio, bool available) => Container(
+    margin: const EdgeInsets.only(top: 12),
+    padding: const EdgeInsets.all(12),
+    decoration: BoxDecoration(
+      color: AppColors.background,
+      borderRadius: BorderRadius.circular(14),
+      border: Border.all(color: AppColors.border),
+    ),
+    child: Column(
+      mainAxisSize: MainAxisSize.min,
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        SelectableText(
+          audio.speaker,
+          style: const TextStyle(
+            color: AppColors.lime,
+            fontWeight: FontWeight.w700,
+            fontSize: 16,
+          ),
+        ),
+        if (!available) ...[
+          const SizedBox(height: 6),
+          const Text(
+            'مقطع مجهّز قيد المراجعة؛ غير متاح للعب بعد.',
+            style: TextStyle(color: AppColors.peach, fontSize: 12),
+          ),
+        ],
+        const SizedBox(height: 6),
+        SelectableText(audio.attribution, style: const TextStyle(height: 1.5)),
+        const SizedBox(height: 6),
+        SelectableText(
+          'الترخيص: ${audio.license}',
+          style: const TextStyle(
+            color: AppColors.muted,
+            fontSize: 13,
+            height: 1.5,
+          ),
+        ),
+        const SizedBox(height: 6),
+        Text(
+          'مقطع مقتطع من التسجيل الأصلي؛ حدود الاقتطاع:',
+          style: const TextStyle(
+            color: AppColors.muted,
+            fontSize: 12,
+            height: 1.5,
+          ),
+        ),
+        Directionality(
+          textDirection: TextDirection.ltr,
+          child: SelectableText(
+            '${_audioCreditTime(audio.sourceStartMs)} – '
+            '${_audioCreditTime(audio.sourceEndMs)}',
+            style: const TextStyle(color: AppColors.muted, fontSize: 12),
+          ),
+        ),
+        const SizedBox(height: 6),
+        Wrap(
+          spacing: 8,
+          runSpacing: 4,
+          children: [
+            TextButton.icon(
+              onPressed: () => _openAudioCreditLink(audio.sourceUrl),
+              icon: const Icon(Icons.open_in_new_rounded, size: 16),
+              label: const Text('صفحة التسجيل الأصلي'),
+            ),
+            TextButton.icon(
+              onPressed: () => _openAudioCreditLink(audio.licenseUrl),
+              icon: const Icon(Icons.description_outlined, size: 16),
+              label: const Text('تفاصيل الترخيص'),
+            ),
+          ],
+        ),
+      ],
+    ),
+  );
+
+  void _showAudioAttributionDialog() {
+    var credits = _loadAudioCredits();
+    showDialog<void>(
+      context: context,
+      builder: (context) => StatefulBuilder(
+        builder: (context, refresh) => Directionality(
+          textDirection: TextDirection.rtl,
+          child: AlertDialog(
+            backgroundColor: AppColors.surface,
+            shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.circular(20),
+            ),
+            title: const Row(
+              children: [
+                Icon(Icons.graphic_eq_rounded, color: AppColors.purple),
+                SizedBox(width: 10),
+                Expanded(
+                  child: Text(
+                    'أرشيف صوت الشخصية',
+                    style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+                  ),
+                ),
+              ],
+            ),
+            content: SizedBox(
+              width: 520,
+              child: FutureBuilder<List<Question>>(
+                future: credits,
+                builder: (context, snapshot) {
+                  if (snapshot.connectionState != ConnectionState.done) {
+                    return const Padding(
+                      padding: EdgeInsets.symmetric(vertical: 24),
+                      child: Column(
+                        mainAxisSize: MainAxisSize.min,
+                        children: [
+                          CircularProgressIndicator(),
+                          SizedBox(height: 12),
+                          Text('جارٍ تحميل معلومات التسجيلات…'),
+                        ],
+                      ),
+                    );
+                  }
+                  if (snapshot.hasError) {
+                    return Column(
+                      mainAxisSize: MainAxisSize.min,
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        const Text(
+                          'تعذّر تحميل معلومات التسجيلات.',
+                          style: TextStyle(height: 1.5),
+                        ),
+                        const SizedBox(height: 8),
+                        TextButton.icon(
+                          onPressed: () =>
+                              refresh(() => credits = _loadAudioCredits()),
+                          icon: const Icon(Icons.refresh_rounded),
+                          label: const Text('إعادة المحاولة'),
+                        ),
+                      ],
+                    );
+                  }
+                  final clips = snapshot.data ?? const <Question>[];
+                  if (clips.isEmpty) {
+                    return const SingleChildScrollView(
+                      child: Text(
+                        'تسجيلات «صوت الشخصية» قيد المراجعة. لا يتاح أي تسجيل '
+                        'للعب قبل تأكيد هويته ومصدره وترخيصه ومراجعته سمعيًا. '
+                        'ستظهر هنا مصادر وتراخيص المقاطع عند اعتمادها.',
+                        style: TextStyle(fontSize: 14, height: 1.7),
+                      ),
+                    );
+                  }
+                  return SingleChildScrollView(
+                    child: Column(
+                      mainAxisSize: MainAxisSize.min,
+                      crossAxisAlignment: CrossAxisAlignment.stretch,
+                      children: [
+                        Text(
+                          'عدد المقاطع المجهزة: ${clips.length} · المتاح للعب: ${clips.where((question) => question.hasApprovedVoice).length}',
+                          style: const TextStyle(
+                            fontWeight: FontWeight.w700,
+                            height: 1.5,
+                          ),
+                        ),
+                        const SizedBox(height: 6),
+                        const Text(
+                          'هذه معلومات التسجيلات المجهزة، بما فيها المقاطع قيد المراجعة '
+                          'والممنوعة من اللعب حتى اعتمادها. '
+                          'تحتاج الروابط إلى اتصال بالإنترنت؛ تشغيل المقاطع داخل اللعبة محلي.',
+                          style: TextStyle(
+                            color: AppColors.muted,
+                            fontSize: 12,
+                            height: 1.6,
+                          ),
+                        ),
+                        for (final question in clips)
+                          _audioCredit(
+                            question.audio!,
+                            question.hasApprovedVoice,
+                          ),
+                      ],
+                    ),
+                  );
+                },
+              ),
+            ),
+            actions: [
+              TextButton(
+                onPressed: () => Navigator.pop(context),
+                child: const Text(
+                  'إغلاق',
+                  style: TextStyle(
+                    color: AppColors.lime,
+                    fontWeight: FontWeight.bold,
+                  ),
+                ),
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
 }

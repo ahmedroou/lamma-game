@@ -1,0 +1,2923 @@
+[
+  {
+    "id": "character_voice-easy-0001",
+    "categoryId": "character_voice",
+    "difficulty": "easy",
+    "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+    "answer": "محمد أنور السادات",
+    "acceptedAnswers": [
+      "أنور السادات",
+      "السادات",
+      "محمد انور السادات",
+      "الرئيس السادات"
+    ],
+    "hint": "رئيس مصري قاد حرب أكتوبر 1973 وحصل على جائزة نوبل للسلام.",
+    "clues": [],
+    "explanation": "التسجيل للرئيس المصري أنور السادات من خطابه التاريخي بالقدس عام 1977.",
+    "sources": [
+      "https://commons.wikimedia.org/wiki/File:Anwar_Sadat_voice.ogg"
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "جمال عبد الناصر"
+      },
+      {
+        "id": "B",
+        "text": "محمد أنور السادات"
+      },
+      {
+        "id": "C",
+        "text": "حسني مبارك"
+      },
+      {
+        "id": "D",
+        "text": "الحبيب بورقيبة"
+      },
+      {
+        "id": "E",
+        "text": "معمر القذافي"
+      },
+      {
+        "id": "F",
+        "text": "جعفر النميري"
+      }
+    ],
+    "correctOptionId": "B",
+    "qualityStatus": "quarantined",
+    "usageId": "119280522058275959857882605966156263098",
+    "audio": {
+      "assetPath": "assets/question_audio/voice-001.mp3",
+      "durationMs": 7000,
+      "attribution": "أرشيف الرئاسة المصرية / مكتبة الإسكندرية الرقمية / ويكيميديا كومنز",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Anwar_Sadat_voice.ogg",
+      "license": "Public Domain / خطابات رسمية موثقة",
+      "reviewStatus": "unverified"
+    },
+    "qualityReasons": [
+      "سحب الاعتماد السابق: أداة التجهيز كانت تستبدل المصدر المفقود بصوت شخص آخر. يلزم إثبات المصدر وهوية المتحدث ومراجعة المقطع النهائي قبل إتاحته."
+    ]
+  },
+  {
+    "id": "character_voice-easy-0002",
+    "categoryId": "character_voice",
+    "difficulty": "easy",
+    "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+    "answer": "جمال عبد الناصر",
+    "acceptedAnswers": [
+      "عبد الناصر",
+      "جمال عبدالناصر",
+      "عبدالناصر",
+      "الرئيس عبد الناصر"
+    ],
+    "hint": "ثاني رؤساء مصر وقائد ثورة 23 يوليو وأحد مؤسسي حركة عدم الانحياز.",
+    "clues": [],
+    "explanation": "التسجيل للزعيم جمال عبد الناصر، أحد أبرز رموز حركة التحرر الوطني والقومية العربية.",
+    "sources": [
+      "https://commons.wikimedia.org/wiki/File:Nasser_announcing_UAR.flac"
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "جمال عبد الناصر"
+      },
+      {
+        "id": "B",
+        "text": "عبد الكريم قاسم"
+      },
+      {
+        "id": "C",
+        "text": "محمد نجيب"
+      },
+      {
+        "id": "D",
+        "text": "أحمد بن بلة"
+      },
+      {
+        "id": "E",
+        "text": "عبد السلام عارف"
+      },
+      {
+        "id": "F",
+        "text": "شكري القوتلي"
+      }
+    ],
+    "correctOptionId": "A",
+    "qualityStatus": "quarantined",
+    "usageId": "134824233770247917943440295630655068830",
+    "audio": {
+      "assetPath": "assets/question_audio/voice-002.mp3",
+      "durationMs": 7000,
+      "attribution": "أرشيف جمال عبد الناصر بمكتبة الإسكندرية / التلفزيون المصري / ويكيميديا كومنز",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nasser_announcing_UAR.flac",
+      "license": "Public Domain / تسجيلات الدولة الرسمية",
+      "reviewStatus": "unverified"
+    },
+    "qualityReasons": [
+      "سحب الاعتماد السابق: أداة التجهيز كانت تستبدل المصدر المفقود بصوت شخص آخر. يلزم إثبات المصدر وهوية المتحدث ومراجعة المقطع النهائي قبل إتاحته."
+    ]
+  },
+  {
+    "id": "character_voice-easy-0003",
+    "categoryId": "character_voice",
+    "difficulty": "easy",
+    "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+    "answer": "الشيخ محمد متولي الشعراوي",
+    "acceptedAnswers": [
+      "الشعراوي",
+      "محمد متولي الشعراوي",
+      "الشيخ الشعراوي",
+      "محمد متولي الشعراوى"
+    ],
+    "hint": "عالم أزهري ووزير أوقاف مصري سابق لُقب بـ «إمام الدعاة» واشتهر بخواطره التفسيرية التلفزيونية.",
+    "clues": [],
+    "explanation": "الصوت لفضيلة الشيخ محمد متولي الشعراوي، أحد أشهر مفسري القرآن الكريم في العصر الحديث.",
+    "sources": [
+      "https://archive.org/details/elsharawy.tafser.alquran_016.alnahl_full_audio_dvdrip_320kbs_mp3_by.mahmoud_hass_202512"
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "الشيخ عبد الحميد كشك"
+      },
+      {
+        "id": "B",
+        "text": "الشيخ محمد متولي الشعراوي"
+      },
+      {
+        "id": "C",
+        "text": "الشيخ محمد الغزالي"
+      },
+      {
+        "id": "D",
+        "text": "الشيخ جاد الحق علي جاد الحق"
+      },
+      {
+        "id": "E",
+        "text": "الشيخ أحمد حسن الباقوري"
+      },
+      {
+        "id": "F",
+        "text": "الشيخ يوسف القرضاوي"
+      }
+    ],
+    "correctOptionId": "B",
+    "qualityStatus": "quarantined",
+    "usageId": "7593444637834347720308211755553288457",
+    "audio": {
+      "assetPath": "assets/question_audio/voice-003.mp3",
+      "durationMs": 7000,
+      "attribution": "إذاعة القرآن الكريم والتلفزيون المصري / أرشيف خواطر الشيخ الشعراوي",
+      "sourceUrl": "https://archive.org/details/elsharawy.tafser.alquran_016.alnahl_full_audio_dvdrip_320kbs_mp3_by.mahmoud_hass_202512",
+      "license": "Creative Commons / تسجيل دعوي عام ومتاح للتوزيع الثقافي",
+      "reviewStatus": "unverified"
+    },
+    "qualityReasons": [
+      "سحب الاعتماد السابق: أداة التجهيز كانت تستبدل المصدر المفقود بصوت شخص آخر. يلزم إثبات المصدر وهوية المتحدث ومراجعة المقطع النهائي قبل إتاحته."
+    ]
+  },
+  {
+    "id": "character_voice-easy-0004",
+    "categoryId": "character_voice",
+    "difficulty": "easy",
+    "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+    "answer": "الملك فيصل بن عبد العزيز",
+    "acceptedAnswers": [
+      "الملك فيصل",
+      "فيصل بن عبد العزيز",
+      "الملك فيصل بن عبدالعزيز",
+      "فيصل بن عبدالعزيز",
+      "الملك فيصل بن عبد العزيز آل سعود"
+    ],
+    "hint": "ثالث ملوك المملكة العربية السعودية، عُرف بمواقفه الحازمة في حرب 1973 ودفاعه المستميت عن القدس.",
+    "clues": [],
+    "explanation": "التسجيل للملك فيصل بن عبد العزيز آل سعود في ندائه المشهور للأمة الإسلامية لنجدة القدس.",
+    "sources": [
+      "https://archive.org/details/king-faisal-speech-jerusalem"
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "الملك سعود بن عبد العزيز"
+      },
+      {
+        "id": "B",
+        "text": "الملك فيصل بن عبد العزيز"
+      },
+      {
+        "id": "C",
+        "text": "الملك خالد بن عبد العزيز"
+      },
+      {
+        "id": "D",
+        "text": "الملك فهد بن عبد العزيز"
+      },
+      {
+        "id": "E",
+        "text": "الملك عبد الله بن عبد العزيز"
+      },
+      {
+        "id": "F",
+        "text": "الأمير سلطان بن عبد العزيز"
+      }
+    ],
+    "correctOptionId": "B",
+    "qualityStatus": "quarantined",
+    "usageId": "26966747821484112475647008361509436577",
+    "audio": {
+      "assetPath": "assets/question_audio/voice-004.mp3",
+      "durationMs": 7000,
+      "attribution": "دارة الملك عبد العزيز / الأرشيف الصوتي التاريخي للمملكة العربية السعودية",
+      "sourceUrl": "https://archive.org/details/king-faisal-speech-jerusalem",
+      "license": "Public Domain / خطابات ملكية رسمية تاريخية",
+      "reviewStatus": "unverified"
+    },
+    "qualityReasons": [
+      "سحب الاعتماد السابق: أداة التجهيز كانت تستبدل المصدر المفقود بصوت شخص آخر. يلزم إثبات المصدر وهوية المتحدث ومراجعة المقطع النهائي قبل إتاحته."
+    ]
+  },
+  {
+    "id": "character_voice-easy-0005",
+    "categoryId": "character_voice",
+    "difficulty": "easy",
+    "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+    "answer": "الشيخ زايد بن سلطان آل نهيان",
+    "acceptedAnswers": [
+      "الشيخ زايد",
+      "زايد بن سلطان",
+      "زايد بن سلطان آل نهيان",
+      "الشيخ زايد بن سلطان"
+    ],
+    "hint": "مؤسس دولة الإمارات العربية المتحدة وأول رئيس لها، لُقب بـ «حكيم العرب».",
+    "clues": [],
+    "explanation": "التسجيل لمؤسس دولة الإمارات العربية المتحدة وباني نهضتها المغفور له الشيخ زايد بن سلطان آل نهيان.",
+    "sources": [
+      "https://archive.org/details/sheikh-zayed-speeches-archive"
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "الشيخ راشد بن سعيد آل مكتوم"
+      },
+      {
+        "id": "B",
+        "text": "الشيخ زايد بن سلطان آل نهيان"
+      },
+      {
+        "id": "C",
+        "text": "الشيخ جابر الأحمد الصباح"
+      },
+      {
+        "id": "D",
+        "text": "الشيخ خليفة بن زايد آل نهيان"
+      },
+      {
+        "id": "E",
+        "text": "الشيخ عيسى بن سلمان آل خليفة"
+      },
+      {
+        "id": "F",
+        "text": "السلطان قابوس بن سعيد"
+      }
+    ],
+    "correctOptionId": "B",
+    "qualityStatus": "quarantined",
+    "usageId": "139016896992377677364818418573374607097",
+    "audio": {
+      "assetPath": "assets/question_audio/voice-005.mp3",
+      "durationMs": 7000,
+      "attribution": "الأرشيف والمكتبة الوطنية لدولة الإمارات العربية المتحدة",
+      "sourceUrl": "https://archive.org/details/sheikh-zayed-speeches-archive",
+      "license": "Public Domain / تصريحات وأقوال رسمية تاريخية مفتوحة",
+      "reviewStatus": "unverified"
+    },
+    "qualityReasons": [
+      "سحب الاعتماد السابق: أداة التجهيز كانت تستبدل المصدر المفقود بصوت شخص آخر. يلزم إثبات المصدر وهوية المتحدث ومراجعة المقطع النهائي قبل إتاحته."
+    ]
+  },
+  {
+    "id": "character_voice-easy-0006",
+    "categoryId": "character_voice",
+    "difficulty": "easy",
+    "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+    "answer": "صدام حسين",
+    "acceptedAnswers": [
+      "صدام",
+      "الرئيس صدام حسين"
+    ],
+    "hint": "رئيس العراق بين عامي 1979 و2003، تميز بنبرة صوت حادة وعبارة «وليخسأ الخاسئون».",
+    "clues": [],
+    "explanation": "التسجيل للرئيس العراقي الأسبق صدام حسين بنبرته الخطابية المعروفة.",
+    "sources": [
+      "https://archive.org/details/saddam-hussein-speeches-archive"
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "أحمد حسن البكر"
+      },
+      {
+        "id": "B",
+        "text": "صدام حسين"
+      },
+      {
+        "id": "C",
+        "text": "طارق عزيز"
+      },
+      {
+        "id": "D",
+        "text": "عبد السلام عارف"
+      },
+      {
+        "id": "E",
+        "text": "برزان التكريتي"
+      },
+      {
+        "id": "F",
+        "text": "طه ياسين رمضان"
+      }
+    ],
+    "correctOptionId": "B",
+    "qualityStatus": "quarantined",
+    "usageId": "19148482614050943546600296561426823139",
+    "audio": {
+      "assetPath": "assets/question_audio/voice-006.mp3",
+      "durationMs": 7000,
+      "attribution": "أرشيف الإذاعة والتلفزيون العراقي التاريخي / أرشيف الإنترنت",
+      "sourceUrl": "https://archive.org/details/saddam-hussein-speeches-archive",
+      "license": "Public Domain / خطابات رسمية تاريخية مفتوحة",
+      "reviewStatus": "unverified"
+    },
+    "qualityReasons": [
+      "سحب الاعتماد السابق: أداة التجهيز كانت تستبدل المصدر المفقود بصوت شخص آخر. يلزم إثبات المصدر وهوية المتحدث ومراجعة المقطع النهائي قبل إتاحته."
+    ]
+  },
+  {
+    "id": "character_voice-easy-0007",
+    "categoryId": "character_voice",
+    "difficulty": "easy",
+    "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+    "answer": "ياسر عرفات",
+    "acceptedAnswers": [
+      "أبو عمار",
+      "عرفات",
+      "ابو عمار",
+      "ياسر عرفات (أبو عمار)"
+    ],
+    "hint": "الزعيم الفلسطيني الراحل ومؤسس حركة فتح ورئيس السلطة الوطنية الفلسطينية، حاز نوبل للسلام 1994.",
+    "clues": [],
+    "explanation": "التسجيل للزعيم الفلسطيني ياسر عرفات (أبو عمار) في خطابه التاريخي بالأمم المتحدة 1974.",
+    "sources": [
+      "https://archive.org/details/un-arafat-1974-speech"
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "جورج حبش"
+      },
+      {
+        "id": "B",
+        "text": "أحمد الشقيري"
+      },
+      {
+        "id": "C",
+        "text": "ياسر عرفات"
+      },
+      {
+        "id": "D",
+        "text": "محمود عباس"
+      },
+      {
+        "id": "E",
+        "text": "خليل الوزير (أبو جهاد)"
+      },
+      {
+        "id": "F",
+        "text": "صلاح خلف (أبو إياد)"
+      }
+    ],
+    "correctOptionId": "C",
+    "qualityStatus": "quarantined",
+    "usageId": "125443184678504684366652586833161454667",
+    "audio": {
+      "assetPath": "assets/question_audio/voice-007.mp3",
+      "durationMs": 7000,
+      "attribution": "United Nations Audiovisual Library / أرشيف منظمة التحرير الفلسطينية",
+      "sourceUrl": "https://archive.org/details/un-arafat-1974-speech",
+      "license": "Public Domain / United Nations Audiovisual Archives",
+      "reviewStatus": "unverified"
+    },
+    "qualityReasons": [
+      "سحب الاعتماد السابق: أداة التجهيز كانت تستبدل المصدر المفقود بصوت شخص آخر. يلزم إثبات المصدر وهوية المتحدث ومراجعة المقطع النهائي قبل إتاحته."
+    ]
+  },
+  {
+    "id": "character_voice-easy-0008",
+    "categoryId": "character_voice",
+    "difficulty": "easy",
+    "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+    "answer": "نجيب محفوظ",
+    "acceptedAnswers": [
+      "محفوظ",
+      "نجيب محفوظ عبد العزيز"
+    ],
+    "hint": "أول أديب عربي ينال جائزة نوبل في الأدب (1988)، وصاحب روايات «الثلاثية» و«أولاد حارتنا».",
+    "clues": [],
+    "explanation": "التسجيل للروائي المصري العالمي نجيب محفوظ وهو يتحدث عن فلسفته في الحياة والعمل.",
+    "sources": [
+      "https://archive.org/details/naguib-mahfouz-radio-interview"
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "يوسف إدريس"
+      },
+      {
+        "id": "B",
+        "text": "توفيق الحكيم"
+      },
+      {
+        "id": "C",
+        "text": "نجيب محفوظ"
+      },
+      {
+        "id": "D",
+        "text": "إحسان عبد القدوس"
+      },
+      {
+        "id": "E",
+        "text": "يحيى حقي"
+      },
+      {
+        "id": "F",
+        "text": "طه حسين"
+      }
+    ],
+    "correctOptionId": "C",
+    "qualityStatus": "quarantined",
+    "usageId": "146477505021427671219842544160505588043",
+    "audio": {
+      "assetPath": "assets/question_audio/voice-008.mp3",
+      "durationMs": 7000,
+      "attribution": "الإذاعة المصرية (ماسبيرو) / أرشيف الحوارات الأدبية التاريخية",
+      "sourceUrl": "https://archive.org/details/naguib-mahfouz-radio-interview",
+      "license": "Public Domain / أرشيف الإذاعة المصرية التراثي",
+      "reviewStatus": "unverified"
+    },
+    "qualityReasons": [
+      "سحب الاعتماد السابق: أداة التجهيز كانت تستبدل المصدر المفقود بصوت شخص آخر. يلزم إثبات المصدر وهوية المتحدث ومراجعة المقطع النهائي قبل إتاحته."
+    ]
+  },
+  {
+    "id": "character_voice-easy-0009",
+    "categoryId": "character_voice",
+    "difficulty": "easy",
+    "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+    "answer": "د. أحمد زويل",
+    "acceptedAnswers": [
+      "أحمد زويل",
+      "احمد زويل",
+      "زويل",
+      "دكتور أحمد زويل"
+    ],
+    "hint": "عالم كيمياء مصري حاز جائزة نوبل في الكيمياء عام 1999 بفضل ابتكاره لكاميرا الفيمتو ثانية.",
+    "clues": [],
+    "explanation": "التسجيل للعالم الكبير الدكتور أحمد زويل، مؤسس مدينة زويل للعلوم والتكنولوجيا.",
+    "sources": [
+      "https://archive.org/details/ahmed-zewail-speeches-interviews"
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "د. فاروق الباز"
+      },
+      {
+        "id": "B",
+        "text": "د. أحمد زويل"
+      },
+      {
+        "id": "C",
+        "text": "د. مجدي يعقوب"
+      },
+      {
+        "id": "D",
+        "text": "د. مصطفى السيد"
+      },
+      {
+        "id": "E",
+        "text": "د. علي مصطفى مشرفة"
+      },
+      {
+        "id": "F",
+        "text": "د. منير نايفة"
+      }
+    ],
+    "correctOptionId": "B",
+    "qualityStatus": "quarantined",
+    "usageId": "141919469714491720498539584513012443856",
+    "audio": {
+      "assetPath": "assets/question_audio/voice-009.mp3",
+      "durationMs": 7000,
+      "attribution": "أرشيف مكتبة الإسكندرية / تسجيلات الدكتور أحمد زويل العلمية",
+      "sourceUrl": "https://archive.org/details/ahmed-zewail-speeches-interviews",
+      "license": "Creative Commons / محاضرات علمية وتوعوية مفتوحة",
+      "reviewStatus": "unverified"
+    },
+    "qualityReasons": [
+      "سحب الاعتماد السابق: أداة التجهيز كانت تستبدل المصدر المفقود بصوت شخص آخر. يلزم إثبات المصدر وهوية المتحدث ومراجعة المقطع النهائي قبل إتاحته."
+    ]
+  },
+  {
+    "id": "character_voice-easy-0010",
+    "categoryId": "character_voice",
+    "difficulty": "easy",
+    "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+    "answer": "د. مصطفى محمود",
+    "acceptedAnswers": [
+      "مصطفى محمود",
+      "دكتور مصطفى محمود",
+      "مصطفى كمال محمود"
+    ],
+    "hint": "طبيب وكاتب ومفكر مصري اشتهر ببرنامجه التلفزيوني الأيقوني «العلم والإيمان».",
+    "clues": [],
+    "explanation": "الصوت للدكتور مصطفى محمود، مؤلف العديد من الكتب الفلسفية والإيمانية مثل «رحلتي من الشك إلى الإيمان».",
+    "sources": [
+      "https://archive.org/details/dr-mustafa-mahmoud-elm-w-eiman"
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "د. زكي نجيب محمود"
+      },
+      {
+        "id": "B",
+        "text": "د. مصطفى محمود"
+      },
+      {
+        "id": "C",
+        "text": "أحمد بهجت"
+      },
+      {
+        "id": "D",
+        "text": "د. عبد الصبور شاهين"
+      },
+      {
+        "id": "E",
+        "text": "د. عبد الوهاب المسيري"
+      },
+      {
+        "id": "F",
+        "text": "د. مصطفى السباعي"
+      }
+    ],
+    "correctOptionId": "B",
+    "qualityStatus": "quarantined",
+    "usageId": "168465712787056655659577485218288856180",
+    "audio": {
+      "assetPath": "assets/question_audio/voice-010.mp3",
+      "durationMs": 7000,
+      "attribution": "التلفزيون المصري / مؤسسة الدكتور مصطفى محمود الخيرية",
+      "sourceUrl": "https://archive.org/details/dr-mustafa-mahmoud-elm-w-eiman",
+      "license": "Public Domain / أرشيف التلفزيون المصري التعليمي",
+      "reviewStatus": "unverified"
+    },
+    "qualityReasons": [
+      "سحب الاعتماد السابق: أداة التجهيز كانت تستبدل المصدر المفقود بصوت شخص آخر. يلزم إثبات المصدر وهوية المتحدث ومراجعة المقطع النهائي قبل إتاحته."
+    ]
+  },
+  {
+    "id": "character_voice-easy-0011",
+    "categoryId": "character_voice",
+    "difficulty": "easy",
+    "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+    "answer": "نزار قباني",
+    "acceptedAnswers": [
+      "نزار قبانى",
+      "قباني",
+      "الشاعر نزار قباني"
+    ],
+    "hint": "دبلوماسي وشاعر سوري دمشقي يُعد من أشهر شعراء الغزل والسياسة والوطن في العصر الحديث.",
+    "clues": [],
+    "explanation": "التسجيل للشاعر السوري الراحل نزار قباني ملقياً قصيدته الخالدة «يا قدس».",
+    "sources": [
+      "https://archive.org/details/nizar-qabbani-poetry-recitation"
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "أدونيس"
+      },
+      {
+        "id": "B",
+        "text": "نزار قباني"
+      },
+      {
+        "id": "C",
+        "text": "أحمد عبد المعطي حجازي"
+      },
+      {
+        "id": "D",
+        "text": "محمد الماغوط"
+      },
+      {
+        "id": "E",
+        "text": "عبد الوهاب البياتي"
+      },
+      {
+        "id": "F",
+        "text": "عمر أبو ريشة"
+      }
+    ],
+    "correctOptionId": "B",
+    "qualityStatus": "quarantined",
+    "usageId": "94189591512899852525753828948193515080",
+    "audio": {
+      "assetPath": "assets/question_audio/voice-011.mp3",
+      "durationMs": 7000,
+      "attribution": "أرشيف الشعر العربي الصوتي / تسجيلات أمسيات نزار قباني الشعرية",
+      "sourceUrl": "https://archive.org/details/nizar-qabbani-poetry-recitation",
+      "license": "Creative Commons / تسجيلات إلقاء شعري عام",
+      "reviewStatus": "unverified"
+    },
+    "qualityReasons": [
+      "سحب الاعتماد السابق: أداة التجهيز كانت تستبدل المصدر المفقود بصوت شخص آخر. يلزم إثبات المصدر وهوية المتحدث ومراجعة المقطع النهائي قبل إتاحته."
+    ]
+  },
+  {
+    "id": "character_voice-easy-0012",
+    "categoryId": "character_voice",
+    "difficulty": "easy",
+    "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+    "answer": "محمود درويش",
+    "acceptedAnswers": [
+      "درويش",
+      "الشاعر محمود درويش"
+    ],
+    "hint": "شاعر الثورة الفلسطينية وعضو اللجنة التنفيذية لمنظمة التحرير سابقاً وكاتب وثيقة إعلان الاستقلال الفلسطيني 1988.",
+    "clues": [],
+    "explanation": "التسجيل للشاعر الفلسطيني العالمي محمود درويش في إلقائه لقصيدة «على هذه الأرض ما يستحق الحياة».",
+    "sources": [
+      "https://archive.org/details/mahmoud-darwish-recitations"
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "سميح القاسم"
+      },
+      {
+        "id": "B",
+        "text": "معين بسيسو"
+      },
+      {
+        "id": "C",
+        "text": "محمود درويش"
+      },
+      {
+        "id": "D",
+        "text": "توفيق زياد"
+      },
+      {
+        "id": "E",
+        "text": "إبراهيم طوقان"
+      },
+      {
+        "id": "F",
+        "text": "فدوى طوقان"
+      }
+    ],
+    "correctOptionId": "C",
+    "qualityStatus": "quarantined",
+    "usageId": "110114607468566153125708928981203816267",
+    "audio": {
+      "assetPath": "assets/question_audio/voice-012.mp3",
+      "durationMs": 7000,
+      "attribution": "مؤسسة محمود درويش / أرشيف مهرجان جرش ومعهد العالم العربي بباريس",
+      "sourceUrl": "https://archive.org/details/mahmoud-darwish-recitations",
+      "license": "Creative Commons / تسجيلات المهرجانات الثقافية الدولية المفتوحة",
+      "reviewStatus": "unverified"
+    },
+    "qualityReasons": [
+      "سحب الاعتماد السابق: أداة التجهيز كانت تستبدل المصدر المفقود بصوت شخص آخر. يلزم إثبات المصدر وهوية المتحدث ومراجعة المقطع النهائي قبل إتاحته."
+    ]
+  },
+  {
+    "id": "character_voice-easy-0013",
+    "categoryId": "character_voice",
+    "difficulty": "easy",
+    "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+    "answer": "الملك الحسين بن طلال",
+    "acceptedAnswers": [
+      "الملك حسين",
+      "الحسين بن طلال",
+      "الملك الحسين"
+    ],
+    "hint": "ملك الأردن الراحل الذي حكم البلاد لأكثر من 46 عاماً من 1952 حتى 1999 ولُقب بـ «الباني».",
+    "clues": [],
+    "explanation": "التسجيل للملك الحسين بن طلال بنبرته العميقة الرخيمة المعروفة.",
+    "sources": [
+      "https://archive.org/details/king-hussein-jordan-speeches"
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "الملك طلال بن عبد الله"
+      },
+      {
+        "id": "B",
+        "text": "الملك عبد الله الثاني"
+      },
+      {
+        "id": "C",
+        "text": "الملك الحسين بن طلال"
+      },
+      {
+        "id": "D",
+        "text": "الأمير الحسن بن طلال"
+      },
+      {
+        "id": "E",
+        "text": "الملك فيصل الثاني"
+      },
+      {
+        "id": "F",
+        "text": "الشريف حسين بن علي"
+      }
+    ],
+    "correctOptionId": "C",
+    "qualityStatus": "quarantined",
+    "usageId": "132319058158415050276124221262736952608",
+    "audio": {
+      "assetPath": "assets/question_audio/voice-013.mp3",
+      "durationMs": 7000,
+      "attribution": "مؤسسة الإذاعة والتلفزيون الأردنية / الديوان الملكي الهاشمي",
+      "sourceUrl": "https://archive.org/details/king-hussein-jordan-speeches",
+      "license": "Public Domain / أرشيف الخطابات الملكية الرسمية",
+      "reviewStatus": "unverified"
+    },
+    "qualityReasons": [
+      "سحب الاعتماد السابق: أداة التجهيز كانت تستبدل المصدر المفقود بصوت شخص آخر. يلزم إثبات المصدر وهوية المتحدث ومراجعة المقطع النهائي قبل إتاحته."
+    ]
+  },
+  {
+    "id": "character_voice-medium-0001",
+    "categoryId": "character_voice",
+    "difficulty": "medium",
+    "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+    "answer": "د. طه حسين",
+    "acceptedAnswers": [
+      "طه حسين",
+      "عميد الأدب العربي",
+      "الدكتور طه حسين",
+      "د. طه حسين (عميد الأدب العربي)"
+    ],
+    "hint": "أديب وناقد ومفكر مصري رائد أطلق مبدأ «التعليم كالماء والهواء» وكتب سيرة «الأيام».",
+    "clues": [],
+    "explanation": "التسجيل لعميد الأدب العربي الدكتور طه حسين الذي فقد بصره في طفولته وصار منارة الفكر العربي الحديث.",
+    "sources": [
+      "https://archive.org/details/taha-hussein-radio-speeches"
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "أحمد لطفي السيد"
+      },
+      {
+        "id": "B",
+        "text": "د. طه حسين"
+      },
+      {
+        "id": "C",
+        "text": "د. زكي مبارك"
+      },
+      {
+        "id": "D",
+        "text": "سلامة موسى"
+      },
+      {
+        "id": "E",
+        "text": "عباس محمود العقاد"
+      },
+      {
+        "id": "F",
+        "text": "مصطفى صادق الرافعي"
+      }
+    ],
+    "correctOptionId": "B",
+    "qualityStatus": "quarantined",
+    "usageId": "158427145251886373055589853066803508593",
+    "audio": {
+      "assetPath": "assets/question_audio/voice-014.mp3",
+      "durationMs": 7000,
+      "attribution": "الإذاعة المصرية (ماسبيرو زمان) / أرشيف وزارة المعارف المصرية",
+      "sourceUrl": "https://archive.org/details/taha-hussein-radio-speeches",
+      "license": "Public Domain / أرشيف الإذاعة المصرية التأسيسي",
+      "reviewStatus": "unverified"
+    },
+    "qualityReasons": [
+      "سحب الاعتماد السابق: أداة التجهيز كانت تستبدل المصدر المفقود بصوت شخص آخر. يلزم إثبات المصدر وهوية المتحدث ومراجعة المقطع النهائي قبل إتاحته."
+    ]
+  },
+  {
+    "id": "character_voice-medium-0002",
+    "categoryId": "character_voice",
+    "difficulty": "medium",
+    "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+    "answer": "الحبيب بورقيبة",
+    "acceptedAnswers": [
+      "بورقيبة",
+      "الحبيب بورقيبه",
+      "الرئيس الحبيب بورقيبة"
+    ],
+    "hint": "أول رئيس للجمهورية التونسية وقائد حركة استقلالها، عُرف بلقب «المجاهد الأكبر».",
+    "clues": [],
+    "explanation": "التسجيل للرئيس التونسي الراحل الحبيب بورقيبة بنبرته الخطابية المميزة ولهجته التونسية الفصيحة.",
+    "sources": [
+      "https://archive.org/details/bourguiba-historical-speeches"
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "صالح بن يوسف"
+      },
+      {
+        "id": "B",
+        "text": "الحبيب بورقيبة"
+      },
+      {
+        "id": "C",
+        "text": "زين العابدين بن علي"
+      },
+      {
+        "id": "D",
+        "text": "الباهي الأدغم"
+      },
+      {
+        "id": "E",
+        "text": "عبد العزيز الثعالبي"
+      },
+      {
+        "id": "F",
+        "text": "الهادي نويرة"
+      }
+    ],
+    "correctOptionId": "B",
+    "qualityStatus": "quarantined",
+    "usageId": "79690049677861111113596068024686825424",
+    "audio": {
+      "assetPath": "assets/question_audio/voice-015.mp3",
+      "durationMs": 7000,
+      "attribution": "مؤسسة التلفزة التونسية / الأرشيف الوطني للجمهورية التونسية",
+      "sourceUrl": "https://archive.org/details/bourguiba-historical-speeches",
+      "license": "Public Domain / الأرشيف الوطني التونسي",
+      "reviewStatus": "unverified"
+    },
+    "qualityReasons": [
+      "سحب الاعتماد السابق: أداة التجهيز كانت تستبدل المصدر المفقود بصوت شخص آخر. يلزم إثبات المصدر وهوية المتحدث ومراجعة المقطع النهائي قبل إتاحته."
+    ]
+  },
+  {
+    "id": "character_voice-medium-0003",
+    "categoryId": "character_voice",
+    "difficulty": "medium",
+    "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+    "answer": "الشيخ عبد الباسط عبد الصمد",
+    "acceptedAnswers": [
+      "عبد الباسط عبد الصمد",
+      "عبدالباسط عبدالصمد",
+      "الشيخ عبد الباسط",
+      "عبد الباسط"
+    ],
+    "hint": "أشهر قراء القرآن الكريم في العالم الإسلامي، لُقب بـ «صوت مكة» و«الحنجرة الذهبية».",
+    "clues": [],
+    "explanation": "الصوت للشيخ عبد الباسط عبد الصمد في لقاء إذاعي نادر يتحدث فيه عن خدمة القرآن الكريم.",
+    "sources": [
+      "https://archive.org/details/abdelbasset-interview-rare"
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "الشيخ محمد رفعت"
+      },
+      {
+        "id": "B",
+        "text": "الشيخ عبد الباسط عبد الصمد"
+      },
+      {
+        "id": "C",
+        "text": "الشيخ محمود خليل الحصري"
+      },
+      {
+        "id": "D",
+        "text": "الشيخ صديق المنشاوي"
+      },
+      {
+        "id": "E",
+        "text": "الشيخ مصطفى إسماعيل"
+      },
+      {
+        "id": "F",
+        "text": "الشيخ محمود علي البنا"
+      }
+    ],
+    "correctOptionId": "B",
+    "qualityStatus": "quarantined",
+    "usageId": "94197451845870691653563632388524545071",
+    "audio": {
+      "assetPath": "assets/question_audio/voice-016.mp3",
+      "durationMs": 7000,
+      "attribution": "إذاعة القرآن الكريم بمصر / أرشيف لقاءات كبار القراء",
+      "sourceUrl": "https://archive.org/details/abdelbasset-interview-rare",
+      "license": "Creative Commons / تسجيلات إذاعية وثائقية مفتوحة",
+      "reviewStatus": "unverified"
+    },
+    "qualityReasons": [
+      "سحب الاعتماد السابق: أداة التجهيز كانت تستبدل المصدر المفقود بصوت شخص آخر. يلزم إثبات المصدر وهوية المتحدث ومراجعة المقطع النهائي قبل إتاحته."
+    ]
+  },
+  {
+    "id": "character_voice-medium-0004",
+    "categoryId": "character_voice",
+    "difficulty": "medium",
+    "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+    "answer": "د. غازي القصيبي",
+    "acceptedAnswers": [
+      "غازي القصيبي",
+      "غازي القصيبى",
+      "القصيبي",
+      "دكتور غازي القصيبي"
+    ],
+    "hint": "شاعر ووزير وروائي وسفير سعودي بارز، ألّف «حياة في الإدارة» ورواية «شقة الحرية».",
+    "clues": [],
+    "explanation": "التسجيل للدكتور غازي القصيبي بنبرته الصريحة الرصينة التي عُرف بها في حواراته ومحاضراته.",
+    "sources": [
+      "https://archive.org/details/ghazi-algosaibi-talks"
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "د. عبد العزيز الخويطر"
+      },
+      {
+        "id": "B",
+        "text": "د. غازي القصيبي"
+      },
+      {
+        "id": "C",
+        "text": "عبد الله بن خميس"
+      },
+      {
+        "id": "D",
+        "text": "حمد الجاسر"
+      },
+      {
+        "id": "E",
+        "text": "تركي الحمد"
+      },
+      {
+        "id": "F",
+        "text": "محمد عبده يماني"
+      }
+    ],
+    "correctOptionId": "B",
+    "qualityStatus": "quarantined",
+    "usageId": "162337899605808292835803026716258433911",
+    "audio": {
+      "assetPath": "assets/question_audio/voice-017.mp3",
+      "durationMs": 7000,
+      "attribution": "النادي الأدبي بالرياض / مكتبة الملك فهد الوطنية",
+      "sourceUrl": "https://archive.org/details/ghazi-algosaibi-talks",
+      "license": "Creative Commons / تسجيلات الندوات الثقافية المفتوحة",
+      "reviewStatus": "unverified"
+    },
+    "qualityReasons": [
+      "سحب الاعتماد السابق: أداة التجهيز كانت تستبدل المصدر المفقود بصوت شخص آخر. يلزم إثبات المصدر وهوية المتحدث ومراجعة المقطع النهائي قبل إتاحته."
+    ]
+  },
+  {
+    "id": "character_voice-medium-0005",
+    "categoryId": "character_voice",
+    "difficulty": "medium",
+    "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+    "answer": "د. مجدي يعقوب",
+    "acceptedAnswers": [
+      "مجدي يعقوب",
+      "مجدى يعقوب",
+      "سير مجدي يعقوب",
+      "دكتور مجدي يعقوب"
+    ],
+    "hint": "جراح قلب مصري-بريطاني عالمي، أجرى آلاف العمليات الجراحية المجانية للأطفال وأسس مركز أسوان للقلب.",
+    "clues": [],
+    "explanation": "الصوت للسير الدكتور مجدي يعقوب متحدثاً عن رسالته الإنسانية في إنقاذ قلوب الأطفال.",
+    "sources": [
+      "https://archive.org/details/dr-magdi-yacoub-interviews"
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "د. محمد غنيم"
+      },
+      {
+        "id": "B",
+        "text": "د. مجدي يعقوب"
+      },
+      {
+        "id": "C",
+        "text": "د. هاني عازر"
+      },
+      {
+        "id": "D",
+        "text": "د. يحيى الرخاوي"
+      },
+      {
+        "id": "E",
+        "text": "د. أحمد عكاشة"
+      },
+      {
+        "id": "F",
+        "text": "د. إبراهيم بدران"
+      }
+    ],
+    "correctOptionId": "B",
+    "qualityStatus": "quarantined",
+    "usageId": "5668739587723747913677017364099912372",
+    "audio": {
+      "assetPath": "assets/question_audio/voice-018.mp3",
+      "durationMs": 7000,
+      "attribution": "مؤسسة مجدي يعقوب للقلب بأسوان / الأرشيف الإعلامي المفتوح",
+      "sourceUrl": "https://archive.org/details/dr-magdi-yacoub-interviews",
+      "license": "Creative Commons / لقاءات إنسانية وتوعوية عامة",
+      "reviewStatus": "unverified"
+    },
+    "qualityReasons": [
+      "سحب الاعتماد السابق: أداة التجهيز كانت تستبدل المصدر المفقود بصوت شخص آخر. يلزم إثبات المصدر وهوية المتحدث ومراجعة المقطع النهائي قبل إتاحته."
+    ]
+  },
+  {
+    "id": "character_voice-medium-0006",
+    "categoryId": "character_voice",
+    "difficulty": "medium",
+    "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+    "answer": "د. فاروق الباز",
+    "acceptedAnswers": [
+      "فاروق الباز",
+      "دكتور فاروق الباز",
+      "الباز"
+    ],
+    "hint": "عالم جيولوجيا مصري أمريكي عمل في وكالة ناسا لاختيار مواقع هبوط رواد فضاء أبوللو على سطح القمر.",
+    "clues": [],
+    "explanation": "التسجيل للدكتور فاروق الباز متحدثاً عن استكشاف باطن الأرض وتطوير الصحراء.",
+    "sources": [
+      "https://archive.org/details/farouk-elbaz-interviews"
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "د. عصام حجي"
+      },
+      {
+        "id": "B",
+        "text": "د. فاروق الباز"
+      },
+      {
+        "id": "C",
+        "text": "د. أسامة الباز"
+      },
+      {
+        "id": "D",
+        "text": "د. رشدي سعيد"
+      },
+      {
+        "id": "E",
+        "text": "د. كمال اليازجي"
+      },
+      {
+        "id": "F",
+        "text": "د. شادي البوريني"
+      }
+    ],
+    "correctOptionId": "B",
+    "qualityStatus": "quarantined",
+    "usageId": "167404926139973539953965554193988547066",
+    "audio": {
+      "assetPath": "assets/question_audio/voice-019.mp3",
+      "durationMs": 7000,
+      "attribution": "NASA History Division / الجمعية الجغرافية المصرية",
+      "sourceUrl": "https://archive.org/details/farouk-elbaz-interviews",
+      "license": "Public Domain / NASA Educational and Historical Archive",
+      "reviewStatus": "unverified"
+    },
+    "qualityReasons": [
+      "سحب الاعتماد السابق: أداة التجهيز كانت تستبدل المصدر المفقود بصوت شخص آخر. يلزم إثبات المصدر وهوية المتحدث ومراجعة المقطع النهائي قبل إتاحته."
+    ]
+  },
+  {
+    "id": "character_voice-medium-0007",
+    "categoryId": "character_voice",
+    "difficulty": "medium",
+    "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+    "answer": "عباس محمود العقاد",
+    "acceptedAnswers": [
+      "عباس العقاد",
+      "العقاد",
+      "عباس محمود العقّاد"
+    ],
+    "hint": "مفكر وكاتب عصامي مصري ومؤسس مدرسة الديوان الشعرية، ألف سلسلة «العبقريات».",
+    "clues": [],
+    "explanation": "التسجيل للمفكر الكبير عباس محمود العقاد في لقاء إذاعي حول العقل وحرية التفكير.",
+    "sources": [
+      "https://archive.org/details/al-aqqad-rare-recordings"
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "مصطفى صادق الرافعي"
+      },
+      {
+        "id": "B",
+        "text": "عباس محمود العقاد"
+      },
+      {
+        "id": "C",
+        "text": "إبراهيم عبد القادر المازني"
+      },
+      {
+        "id": "D",
+        "text": "محمد حسين هيكل"
+      },
+      {
+        "id": "E",
+        "text": "أحمد حسن الزيات"
+      },
+      {
+        "id": "F",
+        "text": "زكي مبارك"
+      }
+    ],
+    "correctOptionId": "B",
+    "qualityStatus": "quarantined",
+    "usageId": "110575488862828938602613189344396714048",
+    "audio": {
+      "assetPath": "assets/question_audio/voice-020.mp3",
+      "durationMs": 7000,
+      "attribution": "إذاعة صوت العرب / ماسبيرو زمان / أرشيف الأدب العربي",
+      "sourceUrl": "https://archive.org/details/al-aqqad-rare-recordings",
+      "license": "Public Domain / أرشيف الإذاعة المصرية الكلاسيكي",
+      "reviewStatus": "unverified"
+    },
+    "qualityReasons": [
+      "سحب الاعتماد السابق: أداة التجهيز كانت تستبدل المصدر المفقود بصوت شخص آخر. يلزم إثبات المصدر وهوية المتحدث ومراجعة المقطع النهائي قبل إتاحته."
+    ]
+  },
+  {
+    "id": "character_voice-medium-0008",
+    "categoryId": "character_voice",
+    "difficulty": "medium",
+    "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+    "answer": "الملك عبد الله الأول بن الحسين",
+    "acceptedAnswers": [
+      "عبد الله الأول",
+      "الملك عبد الله الأول بن الحسين",
+      "الملك عبدالله الاول"
+    ],
+    "hint": "مؤسس إمارة شرق الأردن عام 1921 وأول ملوك المملكة الأردنية الهاشمية بعد الاستقلال عام 1946.",
+    "clues": [],
+    "explanation": "التسجيل للملك عبد الله الأول بن الحسين، أحد قادة الثورة العربية الكبرى ومؤسس الأردن الحديث.",
+    "sources": [
+      "https://archive.org/details/king-abdullah-first-speeches"
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "الملك فيصل الأول"
+      },
+      {
+        "id": "B",
+        "text": "الملك علي بن الحسين"
+      },
+      {
+        "id": "C",
+        "text": "الملك عبد الله الأول بن الحسين"
+      },
+      {
+        "id": "D",
+        "text": "الملك طلال بن عبد الله"
+      },
+      {
+        "id": "E",
+        "text": "الأمير زيد بن الحسين"
+      },
+      {
+        "id": "F",
+        "text": "الملك غازي الأول"
+      }
+    ],
+    "correctOptionId": "C",
+    "qualityStatus": "quarantined",
+    "usageId": "125146813169521749863945737845219842124",
+    "audio": {
+      "assetPath": "assets/question_audio/voice-021.mp3",
+      "durationMs": 7000,
+      "attribution": "الديوان الملكي الهاشمي / أرشيف الإذاعة الأردنية التاريخي",
+      "sourceUrl": "https://archive.org/details/king-abdullah-first-speeches",
+      "license": "Public Domain / أرشيف الوثائق التاريخية الهاشمية",
+      "reviewStatus": "unverified"
+    },
+    "qualityReasons": [
+      "سحب الاعتماد السابق: أداة التجهيز كانت تستبدل المصدر المفقود بصوت شخص آخر. يلزم إثبات المصدر وهوية المتحدث ومراجعة المقطع النهائي قبل إتاحته."
+    ]
+  },
+  {
+    "id": "character_voice-medium-0009",
+    "categoryId": "character_voice",
+    "difficulty": "medium",
+    "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+    "answer": "محمد الفيتوري",
+    "acceptedAnswers": [
+      "الفيتوري",
+      "محمد مفتاح الفيتوري",
+      "الشاعر محمد الفيتوري"
+    ],
+    "hint": "شاعر سوداني رائد لُقب بـ «شاعر إفريقيا»، صاحب دواوين «أغاني إفريقيا» و«معزوفة لدرويش متجول».",
+    "clues": [],
+    "explanation": "التسجيل للشاعر السوداني الكبير محمد الفيتوري وهو يلقي رائعة «أصبح الصبح» الخالدة.",
+    "sources": [
+      "https://archive.org/details/fayturi-african-poems"
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "محمد المهدي المجذوب"
+      },
+      {
+        "id": "B",
+        "text": "محمد الفيتوري"
+      },
+      {
+        "id": "C",
+        "text": "صلاح أحمد إبراهيم"
+      },
+      {
+        "id": "D",
+        "text": "التجاني يوسف بشير"
+      },
+      {
+        "id": "E",
+        "text": "محيي الدين فارس"
+      },
+      {
+        "id": "F",
+        "text": "جيلي عبد الرحمن"
+      }
+    ],
+    "correctOptionId": "B",
+    "qualityStatus": "quarantined",
+    "usageId": "156280845160722263795052193620064562091",
+    "audio": {
+      "assetPath": "assets/question_audio/voice-022.mp3",
+      "durationMs": 7000,
+      "attribution": "أرشيف إذاعة أم درمان / اتحاد الكتاب والأدباء السودانيين",
+      "sourceUrl": "https://archive.org/details/fayturi-african-poems",
+      "license": "Creative Commons / تسجيلات إلقاء شعري عام",
+      "reviewStatus": "unverified"
+    },
+    "qualityReasons": [
+      "سحب الاعتماد السابق: أداة التجهيز كانت تستبدل المصدر المفقود بصوت شخص آخر. يلزم إثبات المصدر وهوية المتحدث ومراجعة المقطع النهائي قبل إتاحته."
+    ]
+  },
+  {
+    "id": "character_voice-medium-0010",
+    "categoryId": "character_voice",
+    "difficulty": "medium",
+    "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+    "answer": "هواري بومدين",
+    "acceptedAnswers": [
+      "بومدين",
+      "هواري بومدين (محمد بوخروبة)",
+      "الرئيس هواري بومدين"
+    ],
+    "hint": "ثاني رؤساء الجزائر المستقلة وقائد مرحلة التصنيع وبناء الدولة، عُرف بعبارة «مع فلسطين ظالمة أو مظلومة».",
+    "clues": [],
+    "explanation": "التسجيل للرئيس الجزائري الراحل هواري بومدين بنبرته الصارمة المعروفة في الدفاع عن ثروات العالم الثالث.",
+    "sources": [
+      "https://archive.org/details/boumediene-un-speech-1974"
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "أحمد بن بلة"
+      },
+      {
+        "id": "B",
+        "text": "الشاذلي بن جديد"
+      },
+      {
+        "id": "C",
+        "text": "هواري بومدين"
+      },
+      {
+        "id": "D",
+        "text": "محمد بوضياف"
+      },
+      {
+        "id": "E",
+        "text": "عبد العزيز بوتفليقة"
+      },
+      {
+        "id": "F",
+        "text": "مصطفى بن بولعيد"
+      }
+    ],
+    "correctOptionId": "C",
+    "qualityStatus": "quarantined",
+    "usageId": "104225818787911439258749676055212725514",
+    "audio": {
+      "assetPath": "assets/question_audio/voice-023.mp3",
+      "durationMs": 7000,
+      "attribution": "United Nations Audiovisual Library / التلفزيون الجزائري",
+      "sourceUrl": "https://archive.org/details/boumediene-un-speech-1974",
+      "license": "Public Domain / الأمم المتحدة والتلفزيون الجزائري",
+      "reviewStatus": "unverified"
+    },
+    "qualityReasons": [
+      "سحب الاعتماد السابق: أداة التجهيز كانت تستبدل المصدر المفقود بصوت شخص آخر. يلزم إثبات المصدر وهوية المتحدث ومراجعة المقطع النهائي قبل إتاحته."
+    ]
+  },
+  {
+    "id": "character_voice-medium-0011",
+    "categoryId": "character_voice",
+    "difficulty": "medium",
+    "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+    "answer": "الطيب صالح",
+    "acceptedAnswers": [
+      "الطيب صالح",
+      "الطيب صالح أحمد"
+    ],
+    "hint": "أديب وروائي سوداني لُقب بـ «عبقري الرواية العربية»، ألّف رواية «موسم الهجرة إلى الشمال».",
+    "clues": [],
+    "explanation": "التسجيل للأديب السوداني الكبير الطيب صالح في حديثه عن الهوية وأدب الهجرة والوطن.",
+    "sources": [
+      "https://archive.org/details/tayeb-salih-bbc-interview"
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "إبراهيم الكوني"
+      },
+      {
+        "id": "B",
+        "text": "عبد الرحمن منيف"
+      },
+      {
+        "id": "C",
+        "text": "الطيب صالح"
+      },
+      {
+        "id": "D",
+        "text": "واسيني الأعرج"
+      },
+      {
+        "id": "E",
+        "text": "جمال الغيطاني"
+      },
+      {
+        "id": "F",
+        "text": "بهاء طاهر"
+      }
+    ],
+    "correctOptionId": "C",
+    "qualityStatus": "quarantined",
+    "usageId": "88744176026339602309394663172528068657",
+    "audio": {
+      "assetPath": "assets/question_audio/voice-024.mp3",
+      "durationMs": 7000,
+      "attribution": "BBC Arabic Radio Archive / تسجيلات عباقرة الرواية العربية",
+      "sourceUrl": "https://archive.org/details/tayeb-salih-bbc-interview",
+      "license": "Creative Commons / أرشيف هيئة الإذاعة البريطانية للبرامج الثقافية",
+      "reviewStatus": "unverified"
+    },
+    "qualityReasons": [
+      "سحب الاعتماد السابق: أداة التجهيز كانت تستبدل المصدر المفقود بصوت شخص آخر. يلزم إثبات المصدر وهوية المتحدث ومراجعة المقطع النهائي قبل إتاحته."
+    ]
+  },
+  {
+    "id": "character_voice-medium-0012",
+    "categoryId": "character_voice",
+    "difficulty": "medium",
+    "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+    "answer": "الشيخ أحمد ديدات",
+    "acceptedAnswers": [
+      "أحمد ديدات",
+      "احمد ديدات",
+      "ديدات",
+      "الشيخ ديدات"
+    ],
+    "hint": "داعية ومناظر إسلامي جنوب إفريقي من أصل هندي اشتهر بمناظراته العالمية المتلفزة ودفاعه بالحجة والبرهان.",
+    "clues": [],
+    "explanation": "التسجيل للشيخ أحمد ديدات في إحدى كلماته الموجهة للعالم العربي حول أسس الحوار الفكري والمقارنة البرهانية.",
+    "sources": [
+      "https://archive.org/details/ahmed-deedat-arabic-lectures"
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "د. ذاكر نايك"
+      },
+      {
+        "id": "B",
+        "text": "الشيخ أحمد ديدات"
+      },
+      {
+        "id": "C",
+        "text": "الشيخ يوسف القرضاوي"
+      },
+      {
+        "id": "D",
+        "text": "د. عبد الصبور مرزوق"
+      },
+      {
+        "id": "E",
+        "text": "د. محمد عمارة"
+      },
+      {
+        "id": "F",
+        "text": "الشيخ محمد الغزالي"
+      }
+    ],
+    "correctOptionId": "B",
+    "qualityStatus": "quarantined",
+    "usageId": "145602203251814820173050681168200520444",
+    "audio": {
+      "assetPath": "assets/question_audio/voice-025.mp3",
+      "durationMs": 7000,
+      "attribution": "المركز الدولي للدعوة الإسلامية (IPCI) / أرشيف محاضرات أحمد ديدات",
+      "sourceUrl": "https://archive.org/details/ahmed-deedat-arabic-lectures",
+      "license": "Public Domain / محاضرات دعوية مسجلة ومفتوحة النشر",
+      "reviewStatus": "unverified"
+    },
+    "qualityReasons": [
+      "سحب الاعتماد السابق: أداة التجهيز كانت تستبدل المصدر المفقود بصوت شخص آخر. يلزم إثبات المصدر وهوية المتحدث ومراجعة المقطع النهائي قبل إتاحته."
+    ]
+  },
+  {
+    "id": "character_voice-medium-0013",
+    "categoryId": "character_voice",
+    "difficulty": "medium",
+    "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+    "answer": "بابا شارو (محمد محمود شعبان)",
+    "acceptedAnswers": [
+      "بابا شارو",
+      "محمد محمود شعبان",
+      "الإذاعي محمد محمود شعبان"
+    ],
+    "hint": "إعلامي مصري رائد أطلق برنامج الأطفال الإذاعي الشهير «حكايات بابا شارو» منذ عام 1940.",
+    "clues": [],
+    "explanation": "التسجيل للإذاعي الرائد محمد محمود شعبان المعروف باسم «بابا شارو».",
+    "sources": [
+      "https://archive.org/details/baba-sharo-radio-episodes"
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "أحمد طاهر"
+      },
+      {
+        "id": "B",
+        "text": "وجدي الحكيم"
+      },
+      {
+        "id": "C",
+        "text": "بابا شارو (محمد محمود شعبان)"
+      },
+      {
+        "id": "D",
+        "text": "أبلة فضيلة"
+      },
+      {
+        "id": "E",
+        "text": "طاهر أبو زيد"
+      },
+      {
+        "id": "F",
+        "text": "فهمي عمر"
+      }
+    ],
+    "correctOptionId": "C",
+    "qualityStatus": "quarantined",
+    "usageId": "44790708602342323277409778436584231929",
+    "audio": {
+      "assetPath": "assets/question_audio/voice-026.mp3",
+      "durationMs": 7000,
+      "attribution": "الهيئة الوطنية للإعلام (ماسبيرو) / أرشيف رواد الإذاعة العربية",
+      "sourceUrl": "https://archive.org/details/baba-sharo-radio-episodes",
+      "license": "Public Domain / أرشيف الإذاعة المصرية الكلاسيكي",
+      "reviewStatus": "unverified"
+    },
+    "qualityReasons": [
+      "سحب الاعتماد السابق: أداة التجهيز كانت تستبدل المصدر المفقود بصوت شخص آخر. يلزم إثبات المصدر وهوية المتحدث ومراجعة المقطع النهائي قبل إتاحته."
+    ]
+  },
+  {
+    "id": "character_voice-hard-0001",
+    "categoryId": "character_voice",
+    "difficulty": "hard",
+    "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+    "answer": "عمر المختار",
+    "acceptedAnswers": [
+      "عمر المختار",
+      "شيخ الشهداء",
+      "سيدي عمر المختار",
+      "عمر المختار (شيخ الشهداء)"
+    ],
+    "hint": "قائد المقاومة الليبية ضد الاستعمار الإيطالي لأكثر من 20 عاماً، لُقب بـ «شيخ الشهداء» و«أسد الصحراء».",
+    "clues": [],
+    "explanation": "التسجيل يوثق الكلمات التاريخية للمجاهد الليبي عمر المختار قبيل استشهاده شنقاً عام 1931.",
+    "sources": [
+      "https://archive.org/details/omar-al-mukhtar-historical-trial"
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "الأمير عبد القادر الجزائري"
+      },
+      {
+        "id": "B",
+        "text": "عمر المختار"
+      },
+      {
+        "id": "C",
+        "text": "محمد عبد الكريم الخطابي"
+      },
+      {
+        "id": "D",
+        "text": "عز الدين القسام"
+      },
+      {
+        "id": "E",
+        "text": "يوسف العظمة"
+      },
+      {
+        "id": "F",
+        "text": "رمضان السويحلي"
+      }
+    ],
+    "correctOptionId": "B",
+    "qualityStatus": "quarantined",
+    "usageId": "57535944999137466569886108350945724336",
+    "audio": {
+      "assetPath": "assets/question_audio/voice-027.mp3",
+      "durationMs": 7000,
+      "attribution": "مركز جهاد الليبيين للدراسات التاريخية / الأرشيف العسكري الإيطالي التاريخي",
+      "sourceUrl": "https://archive.org/details/omar-al-mukhtar-historical-trial",
+      "license": "Public Domain / وثائق تاريخية عسكرية مسجلة",
+      "reviewStatus": "unverified"
+    },
+    "qualityReasons": [
+      "سحب الاعتماد السابق: أداة التجهيز كانت تستبدل المصدر المفقود بصوت شخص آخر. يلزم إثبات المصدر وهوية المتحدث ومراجعة المقطع النهائي قبل إتاحته."
+    ]
+  },
+  {
+    "id": "character_voice-hard-0002",
+    "categoryId": "character_voice",
+    "difficulty": "hard",
+    "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+    "answer": "أحمد شوقي",
+    "acceptedAnswers": [
+      "شوقي",
+      "امير الشعراء",
+      "أحمد شوقي بك",
+      "احمد شوقي",
+      "أمير الشعراء أحمد شوقي"
+    ],
+    "hint": "بويع أميراً للشعراء عام 1927، وألّف مسرحيات شعرية شهيرة مثل «مصرع كليوباترا» و«مجنون ليلى».",
+    "clues": [],
+    "explanation": "التسجيل لأمير الشعراء أحمد شوقي ملقياً أشهر أبياته في حب الوطن الصادرة في نفي الأندلس.",
+    "sources": [
+      "https://archive.org/details/ahmed-shawqi-1927-rare-cylinder"
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "حافظ إبراهيم"
+      },
+      {
+        "id": "B",
+        "text": "أحمد شوقي"
+      },
+      {
+        "id": "C",
+        "text": "محمود سامي البارودي"
+      },
+      {
+        "id": "D",
+        "text": "إسماعيل صبري"
+      },
+      {
+        "id": "E",
+        "text": "خليل مطران"
+      },
+      {
+        "id": "F",
+        "text": "ولي الدين يكن"
+      }
+    ],
+    "correctOptionId": "B",
+    "qualityStatus": "quarantined",
+    "usageId": "148898990825466958398949134093197098046",
+    "audio": {
+      "assetPath": "assets/question_audio/voice-028.mp3",
+      "durationMs": 7000,
+      "attribution": "دار الكتب والوثائق القومية المصرية / أسطوانات بيضافون التاريخية",
+      "sourceUrl": "https://archive.org/details/ahmed-shawqi-1927-rare-cylinder",
+      "license": "Public Domain / أسطوانات فونوغرافية تاريخية (مسجلة قبل 1930)",
+      "reviewStatus": "unverified"
+    },
+    "qualityReasons": [
+      "سحب الاعتماد السابق: أداة التجهيز كانت تستبدل المصدر المفقود بصوت شخص آخر. يلزم إثبات المصدر وهوية المتحدث ومراجعة المقطع النهائي قبل إتاحته."
+    ]
+  },
+  {
+    "id": "character_voice-hard-0003",
+    "categoryId": "character_voice",
+    "difficulty": "hard",
+    "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+    "answer": "سعد زغلول",
+    "acceptedAnswers": [
+      "سعد زغلول",
+      "زعيم الأمة",
+      "سعد باشا زغلول"
+    ],
+    "hint": "قائد ثورة 1919 في مصر ومؤسس حزب الوفد، لُقب بـ «زعيم الأمة» ورئيس أول وزارة شعبية 1924.",
+    "clues": [],
+    "explanation": "التسجيل للزعيم سعد زغلول من أسطوانة أصلية ترجع لعام 1923.",
+    "sources": [
+      "https://archive.org/details/saad-zaghloul-rare-speech"
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "مصطفى النحاس"
+      },
+      {
+        "id": "B",
+        "text": "سعد زغلول"
+      },
+      {
+        "id": "C",
+        "text": "علي شعراوي"
+      },
+      {
+        "id": "D",
+        "text": "عبد العزيز فهمي"
+      },
+      {
+        "id": "E",
+        "text": "محمد محمود باشا"
+      },
+      {
+        "id": "F",
+        "text": "إسماعيل صدقي"
+      }
+    ],
+    "correctOptionId": "B",
+    "qualityStatus": "quarantined",
+    "usageId": "37709167809485198861115993599081763318",
+    "audio": {
+      "assetPath": "assets/question_audio/voice-029.mp3",
+      "durationMs": 7000,
+      "attribution": "متحف بيت الأمة / دار الوثائق القومية بالقاهرة",
+      "sourceUrl": "https://archive.org/details/saad-zaghloul-rare-speech",
+      "license": "Public Domain / أسطوانات تاريخية مسجلة في أوائل القرن العشرين",
+      "reviewStatus": "unverified"
+    },
+    "qualityReasons": [
+      "سحب الاعتماد السابق: أداة التجهيز كانت تستبدل المصدر المفقود بصوت شخص آخر. يلزم إثبات المصدر وهوية المتحدث ومراجعة المقطع النهائي قبل إتاحته."
+    ]
+  },
+  {
+    "id": "character_voice-hard-0004",
+    "categoryId": "character_voice",
+    "difficulty": "hard",
+    "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+    "answer": "خليل مطران",
+    "acceptedAnswers": [
+      "مطران",
+      "شاعر القطرين",
+      "خليل مطران بك",
+      "خليل مطران (شاعر القطرين)"
+    ],
+    "hint": "شاعر وكاتب لبناني مصري لُقب بـ «شاعر القطرين»، أسس الاتجاه الوجداني وأدار الفرقة القومية للمسرح.",
+    "clues": [],
+    "explanation": "التسجيل لشاعر القطرين خليل مطران ملقياً مطلع قصيدته المشهورة «المساء» في الإسكندرية.",
+    "sources": [
+      "https://archive.org/details/khalil-mutran-evening-poem"
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "بشارة الخوري (الأخطل الصغير)"
+      },
+      {
+        "id": "B",
+        "text": "خليل مطران"
+      },
+      {
+        "id": "C",
+        "text": "أحمد زكي أبو شادي"
+      },
+      {
+        "id": "D",
+        "text": "إبراهيم ناجي"
+      },
+      {
+        "id": "E",
+        "text": "شبلي الملاط"
+      },
+      {
+        "id": "F",
+        "text": "أمين ناصر الدين"
+      }
+    ],
+    "correctOptionId": "B",
+    "qualityStatus": "quarantined",
+    "usageId": "156500372812902018057156617745091707680",
+    "audio": {
+      "assetPath": "assets/question_audio/voice-030.mp3",
+      "durationMs": 7000,
+      "attribution": "الإذاعة المصرية القديمة / أرشيف رواد الشعر والمسرح القومي",
+      "sourceUrl": "https://archive.org/details/khalil-mutran-evening-poem",
+      "license": "Public Domain / تسجيلات الإذاعة المصرية التأسيسية",
+      "reviewStatus": "unverified"
+    },
+    "qualityReasons": [
+      "سحب الاعتماد السابق: أداة التجهيز كانت تستبدل المصدر المفقود بصوت شخص آخر. يلزم إثبات المصدر وهوية المتحدث ومراجعة المقطع النهائي قبل إتاحته."
+    ]
+  },
+  {
+    "id": "character_voice-hard-0005",
+    "categoryId": "character_voice",
+    "difficulty": "hard",
+    "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+    "answer": "فهمي عمر",
+    "acceptedAnswers": [
+      "فهمي عمر",
+      "الإذاعي فهمي عمر",
+      "فهمى عمر",
+      "الإذاعي الكبير فهمي عمر"
+    ],
+    "hint": "إعلامي وإذاعي مصري كبير تولى رئاسة الإذاعة المصرية واشتهر ببرنامجه «ساعة لقلبك» والتغطيات الرياضية الشهيرة.",
+    "clues": [],
+    "explanation": "الصوت للإذاعي القدير فهمي عمر رائد البرامج الرياضية والإذاعية في مصر والعالم العربي.",
+    "sources": [
+      "https://archive.org/details/fahmy-omar-radio-master"
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "طاهر أبو زيد"
+      },
+      {
+        "id": "B",
+        "text": "فهمي عمر"
+      },
+      {
+        "id": "C",
+        "text": "محمد لطيف"
+      },
+      {
+        "id": "D",
+        "text": "علي زيوار"
+      },
+      {
+        "id": "E",
+        "text": "محمود بكر"
+      },
+      {
+        "id": "F",
+        "text": "كمال الشناوي"
+      }
+    ],
+    "correctOptionId": "B",
+    "qualityStatus": "quarantined",
+    "usageId": "41233405530641193753927467950312676938",
+    "audio": {
+      "assetPath": "assets/question_audio/voice-031.mp3",
+      "durationMs": 7000,
+      "attribution": "الهيئة الوطنية للإعلام (ماسبيرو) / أرشيف إذاعة البرنامج العام وصوت العرب",
+      "sourceUrl": "https://archive.org/details/fahmy-omar-radio-master",
+      "license": "Public Domain / أرشيف الإذاعة المصرية الكلاسيكي",
+      "reviewStatus": "unverified"
+    },
+    "qualityReasons": [
+      "سحب الاعتماد السابق: أداة التجهيز كانت تستبدل المصدر المفقود بصوت شخص آخر. يلزم إثبات المصدر وهوية المتحدث ومراجعة المقطع النهائي قبل إتاحته."
+    ]
+  },
+  {
+    "id": "character_voice-hard-0006",
+    "categoryId": "character_voice",
+    "difficulty": "hard",
+    "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+    "answer": "الشيخ د. سلطان بن محمد القاسمي",
+    "acceptedAnswers": [
+      "سلطان القاسمي",
+      "الشيخ سلطان القاسمي",
+      "د. سلطان القاسمي"
+    ],
+    "hint": "عضو المجلس الأعلى لدولة الإمارات وحاكم إمارة الشارقة، مؤرخ وأديب وراعي معرض الشارقة الدولي للكتاب.",
+    "clues": [],
+    "explanation": "التسجيل للشيخ الدكتور سلطان بن محمد القاسمي متحدثاً عن التحقيق التاريخي والوثائق.",
+    "sources": [
+      "https://archive.org/details/dr-sultan-al-qasimi-talks"
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "الشيخ حميد بن راشد النعيمي"
+      },
+      {
+        "id": "B",
+        "text": "الشيخ د. سلطان بن محمد القاسمي"
+      },
+      {
+        "id": "C",
+        "text": "الشيخ سعود بن صقر القاسمي"
+      },
+      {
+        "id": "D",
+        "text": "الشيخ حمد بن محمد الشرقي"
+      },
+      {
+        "id": "E",
+        "text": "الشيخ صقر بن محمد القاسمي"
+      },
+      {
+        "id": "F",
+        "text": "الشيخ راشد بن أحمد المعلا"
+      }
+    ],
+    "correctOptionId": "B",
+    "qualityStatus": "quarantined",
+    "usageId": "89733131718578236670188585769277199093",
+    "audio": {
+      "assetPath": "assets/question_audio/voice-032.mp3",
+      "durationMs": 7000,
+      "attribution": "هيئة الشارقة للإذاعة والتلفزيون / مركز الشارقة للوثائق والبحوث",
+      "sourceUrl": "https://archive.org/details/dr-sultan-al-qasimi-talks",
+      "license": "Creative Commons / تغطيات وكلمات رسمية ثقافية مفتوحة",
+      "reviewStatus": "unverified"
+    },
+    "qualityReasons": [
+      "سحب الاعتماد السابق: أداة التجهيز كانت تستبدل المصدر المفقود بصوت شخص آخر. يلزم إثبات المصدر وهوية المتحدث ومراجعة المقطع النهائي قبل إتاحته."
+    ]
+  },
+  {
+    "id": "character_voice-hard-0007",
+    "categoryId": "character_voice",
+    "difficulty": "hard",
+    "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+    "answer": "يوسف إدريس",
+    "acceptedAnswers": [
+      "يوسف ادريس",
+      "إدريس",
+      "يوسف إدريس علي"
+    ],
+    "hint": "طبيب وكاتب مسرحي وقصصي مصري كبير كتب «أرخص ليالي» و«جمهورية فرحات» و«الفرافير».",
+    "clues": [],
+    "explanation": "التسجيل للأديب يوسف إدريس متحدثاً عن فلسفة فن القصة القصيرة والواقعية الأدبية.",
+    "sources": [
+      "https://archive.org/details/yusuf-idris-rare-talk"
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "يحيى حقي"
+      },
+      {
+        "id": "B",
+        "text": "يوسف إدريس"
+      },
+      {
+        "id": "C",
+        "text": "بهاء طاهر"
+      },
+      {
+        "id": "D",
+        "text": "صنع الله إبراهيم"
+      },
+      {
+        "id": "E",
+        "text": "إحسان عبد القدوس"
+      },
+      {
+        "id": "F",
+        "text": "عبد الرحمن الشرقاوي"
+      }
+    ],
+    "correctOptionId": "B",
+    "qualityStatus": "quarantined",
+    "usageId": "144125487211038850179559670623090803627",
+    "audio": {
+      "assetPath": "assets/question_audio/voice-033.mp3",
+      "durationMs": 7000,
+      "attribution": "التلفزيون المصري (ماسبيرو زمان) / اتحاد كتاب مصر",
+      "sourceUrl": "https://archive.org/details/yusuf-idris-rare-talk",
+      "license": "Public Domain / أرشيف البرامج الثقافية المصرية",
+      "reviewStatus": "unverified"
+    },
+    "qualityReasons": [
+      "سحب الاعتماد السابق: أداة التجهيز كانت تستبدل المصدر المفقود بصوت شخص آخر. يلزم إثبات المصدر وهوية المتحدث ومراجعة المقطع النهائي قبل إتاحته."
+    ]
+  },
+  {
+    "id": "character_voice-hard-0008",
+    "categoryId": "character_voice",
+    "difficulty": "hard",
+    "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+    "answer": "بدر شاكر السياب",
+    "acceptedAnswers": [
+      "السياب",
+      "بدر شاكر السيّاب",
+      "بدر السياب"
+    ],
+    "hint": "شاعر عراقي من قرية جيكور بالبصرة، يُعد من أبرز مؤسسي الشعر الحر ورائد قصيدة التفعيلة.",
+    "clues": [],
+    "explanation": "التسجيل لبدر شاكر السياب في إلقائه لأشهر مطالع قصائد الشعر العربي الحديث «أنشودة المطر».",
+    "sources": [
+      "https://archive.org/details/sayyab-rain-song-recording"
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "نازك الملائكة"
+      },
+      {
+        "id": "B",
+        "text": "عبد الوهاب البياتي"
+      },
+      {
+        "id": "C",
+        "text": "بدر شاكر السياب"
+      },
+      {
+        "id": "D",
+        "text": "بلند الحيدري"
+      },
+      {
+        "id": "E",
+        "text": "معروف الرصافي"
+      },
+      {
+        "id": "F",
+        "text": "جميل صدقي الزهاوي"
+      }
+    ],
+    "correctOptionId": "C",
+    "qualityStatus": "quarantined",
+    "usageId": "117751015220927605268391517844019322100",
+    "audio": {
+      "assetPath": "assets/question_audio/voice-034.mp3",
+      "durationMs": 7000,
+      "attribution": "إذاعة بغداد / أرشيف الأدب العراقي الحديث",
+      "sourceUrl": "https://archive.org/details/sayyab-rain-song-recording",
+      "license": "Public Domain / أرشيف الإذاعة العراقية التاريخي",
+      "reviewStatus": "unverified"
+    },
+    "qualityReasons": [
+      "سحب الاعتماد السابق: أداة التجهيز كانت تستبدل المصدر المفقود بصوت شخص آخر. يلزم إثبات المصدر وهوية المتحدث ومراجعة المقطع النهائي قبل إتاحته."
+    ]
+  },
+  {
+    "id": "character_voice-hard-0009",
+    "categoryId": "character_voice",
+    "difficulty": "hard",
+    "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+    "answer": "الملك فهد بن عبد العزيز",
+    "acceptedAnswers": [
+      "الملك فهد",
+      "فهد بن عبد العزيز",
+      "خادم الحرمين الملك فهد",
+      "الملك فهد بن عبد العزيز آل سعود"
+    ],
+    "hint": "خامس ملوك المملكة العربية السعودية، أول من اتخذ لقب «خادم الحرمين الشريفين» رسمياً عام 1986.",
+    "clues": [],
+    "explanation": "التسجيل للملك فهد بن عبد العزيز آل سعود في كلمته التاريخية بالمدينة المنورة.",
+    "sources": [
+      "https://archive.org/details/king-fahd-historic-announcement"
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "الملك خالد بن عبد العزيز"
+      },
+      {
+        "id": "B",
+        "text": "الملك فهد بن عبد العزيز"
+      },
+      {
+        "id": "C",
+        "text": "الملك عبد الله بن عبد العزيز"
+      },
+      {
+        "id": "D",
+        "text": "الملك سلمان بن عبد العزيز"
+      },
+      {
+        "id": "E",
+        "text": "الأمير نايف بن عبد العزيز"
+      },
+      {
+        "id": "F",
+        "text": "الأمير سلطان بن عبد العزيز"
+      }
+    ],
+    "correctOptionId": "B",
+    "qualityStatus": "quarantined",
+    "usageId": "88950893603809987478952776383853740778",
+    "audio": {
+      "assetPath": "assets/question_audio/voice-035.mp3",
+      "durationMs": 7000,
+      "attribution": "وكالة الأنباء السعودية (واس) / التلفزيون السعودي / دارة الملك عبد العزيز",
+      "sourceUrl": "https://archive.org/details/king-fahd-historic-announcement",
+      "license": "Public Domain / أرشيف الخطابات والبيانات الملكية الرسمية",
+      "reviewStatus": "unverified"
+    },
+    "qualityReasons": [
+      "سحب الاعتماد السابق: أداة التجهيز كانت تستبدل المصدر المفقود بصوت شخص آخر. يلزم إثبات المصدر وهوية المتحدث ومراجعة المقطع النهائي قبل إتاحته."
+    ]
+  },
+  {
+    "id": "character_voice-hard-0010",
+    "categoryId": "character_voice",
+    "difficulty": "hard",
+    "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+    "answer": "الشيخ مصطفى إسماعيل",
+    "acceptedAnswers": [
+      "مصطفى إسماعيل",
+      "الشيخ مصطفى اسماعيل",
+      "مصطفى اسماعيل"
+    ],
+    "hint": "قارئ مصري أسطوري لُقب بـ «عبقري التلاوة» و«مهندس الأنغام القرآنية»، كان قارئ الأزهر المعتمد.",
+    "clues": [],
+    "explanation": "التسجيل للشيخ مصطفى إسماعيل في حديث إذاعي يتناول فيه فلسفة الأداء القرآني.",
+    "sources": [
+      "https://archive.org/details/mustafa-ismail-interview"
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "الشيخ أبو العينين شعيشع"
+      },
+      {
+        "id": "B",
+        "text": "الشيخ مصطفى إسماعيل"
+      },
+      {
+        "id": "C",
+        "text": "الشيخ محمود علي البنا"
+      },
+      {
+        "id": "D",
+        "text": "الشيخ طه الفشني"
+      },
+      {
+        "id": "E",
+        "text": "الشيخ عبد الباسط عبد الصمد"
+      },
+      {
+        "id": "F",
+        "text": "الشيخ كامل يوسف البهتيمي"
+      }
+    ],
+    "correctOptionId": "B",
+    "qualityStatus": "quarantined",
+    "usageId": "20251863581192677186958991021255060595",
+    "audio": {
+      "assetPath": "assets/question_audio/voice-036.mp3",
+      "durationMs": 7000,
+      "attribution": "إذاعة القرآن الكريم بمصر / جمعية قراء القرآن الكريم",
+      "sourceUrl": "https://archive.org/details/mustafa-ismail-interview",
+      "license": "Public Domain / أرشيف إذاعة القرآن الكريم المصرية",
+      "reviewStatus": "unverified"
+    },
+    "qualityReasons": [
+      "سحب الاعتماد السابق: أداة التجهيز كانت تستبدل المصدر المفقود بصوت شخص آخر. يلزم إثبات المصدر وهوية المتحدث ومراجعة المقطع النهائي قبل إتاحته."
+    ]
+  },
+  {
+    "id": "character_voice-hard-0011",
+    "categoryId": "character_voice",
+    "difficulty": "hard",
+    "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+    "answer": "الحاج أمين الحسيني",
+    "acceptedAnswers": [
+      "أمين الحسيني",
+      "الحاج امين الحسيني",
+      "مفتي القدس أمين الحسيني"
+    ],
+    "hint": "مفتي القدس ورئيس المجلس الإسلامي الأعلى ورئيس الهيئة العربية العليا لفلسطين في فترة الانتداب البريطاني.",
+    "clues": [],
+    "explanation": "التسجيل للحاج محمد أمين الحسيني في خطابه دفاعاً عن عروبة وإسلامية القدس.",
+    "sources": [
+      "https://archive.org/details/haj-amin-al-husseini-speeches"
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "عز الدين القسام"
+      },
+      {
+        "id": "B",
+        "text": "موسى كاظم الحسيني"
+      },
+      {
+        "id": "C",
+        "text": "الحاج أمين الحسيني"
+      },
+      {
+        "id": "D",
+        "text": "أحمد حلمي عبد الباقي"
+      },
+      {
+        "id": "E",
+        "text": "عبد القادر الحسيني"
+      },
+      {
+        "id": "F",
+        "text": "راغب النشاشيبي"
+      }
+    ],
+    "correctOptionId": "C",
+    "qualityStatus": "quarantined",
+    "usageId": "107764819546839822996883070632535326687",
+    "audio": {
+      "assetPath": "assets/question_audio/voice-037.mp3",
+      "durationMs": 7000,
+      "attribution": "مؤسسة الدراسات الفلسطينية / أرشيف الهيئة العربية العليا لفلسطين",
+      "sourceUrl": "https://archive.org/details/haj-amin-al-husseini-speeches",
+      "license": "Public Domain / وثائق المؤتمرات الإسلامية التاريخية",
+      "reviewStatus": "unverified"
+    },
+    "qualityReasons": [
+      "سحب الاعتماد السابق: أداة التجهيز كانت تستبدل المصدر المفقود بصوت شخص آخر. يلزم إثبات المصدر وهوية المتحدث ومراجعة المقطع النهائي قبل إتاحته."
+    ]
+  },
+  {
+    "id": "character_voice-hard-0012",
+    "categoryId": "character_voice",
+    "difficulty": "hard",
+    "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+    "answer": "د. عبد الرحمن بدوي",
+    "acceptedAnswers": [
+      "عبد الرحمن بدوي",
+      "عبدالرحمن بدوي",
+      "دكتور عبد الرحمن بدوي"
+    ],
+    "hint": "أبرز فلاسفة العرب في القرن العشرين، عُرف بريادته للوجودية وترجماته الشاملة لأرسطو ونيتشه وكانط.",
+    "clues": [],
+    "explanation": "التسجيل للدكتور عبد الرحمن بدوي في حوار عن مكانة العقل والفلسفة في الحضارة العربية.",
+    "sources": [
+      "https://archive.org/details/abdurrahman-badawi-philosophy"
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "د. مراد وهبة"
+      },
+      {
+        "id": "B",
+        "text": "د. عبد الرحمن بدوي"
+      },
+      {
+        "id": "C",
+        "text": "د. حسن حنفي"
+      },
+      {
+        "id": "D",
+        "text": "د. فؤاد زكريا"
+      },
+      {
+        "id": "E",
+        "text": "د. عاطف العراقي"
+      },
+      {
+        "id": "F",
+        "text": "د. توفيق الطويل"
+      }
+    ],
+    "correctOptionId": "B",
+    "qualityStatus": "quarantined",
+    "usageId": "49836434652227910229260900842036406498",
+    "audio": {
+      "assetPath": "assets/question_audio/voice-038.mp3",
+      "durationMs": 7000,
+      "attribution": "الإذاعة المصرية / الهيئة المصرية العامة للكتاب",
+      "sourceUrl": "https://archive.org/details/abdurrahman-badawi-philosophy",
+      "license": "Public Domain / أرشيف اللقاءات الثقافية للإذاعة المصرية",
+      "reviewStatus": "unverified"
+    },
+    "qualityReasons": [
+      "سحب الاعتماد السابق: أداة التجهيز كانت تستبدل المصدر المفقود بصوت شخص آخر. يلزم إثبات المصدر وهوية المتحدث ومراجعة المقطع النهائي قبل إتاحته."
+    ]
+  },
+  {
+    "id": "character_voice-legendary-0001",
+    "categoryId": "character_voice",
+    "difficulty": "legendary",
+    "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+    "answer": "الشريف حسين بن علي",
+    "acceptedAnswers": [
+      "الشريف حسين",
+      "شريف مكة الحسين بن علي",
+      "الحسين بن علي"
+    ],
+    "hint": "شريف مكة وأميرها الذي أطلق رصاصة إعلان الثورة العربية الكبرى في يونيو 1916.",
+    "clues": [],
+    "explanation": "التسجيل للشريف حسين بن علي ملك الحجاز وقائد الثورة العربية الكبرى.",
+    "sources": [
+      "https://archive.org/details/sharif-hussein-1917-cylinder"
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "الشريف علي حيدر"
+      },
+      {
+        "id": "B",
+        "text": "الشريف حسين بن علي"
+      },
+      {
+        "id": "C",
+        "text": "الملك فيصل الأول"
+      },
+      {
+        "id": "D",
+        "text": "الأمير زيد بن الحسين"
+      },
+      {
+        "id": "E",
+        "text": "الملك عبد الله الأول"
+      },
+      {
+        "id": "F",
+        "text": "الشريف شرف بن راجح"
+      }
+    ],
+    "correctOptionId": "B",
+    "qualityStatus": "quarantined",
+    "usageId": "137230988816953275732207732201059509037",
+    "audio": {
+      "assetPath": "assets/question_audio/voice-039.mp3",
+      "durationMs": 7000,
+      "attribution": "أرشيف جامعة هارفارد الصوتي / مكتبة الكونغرس الأمريكية (Library of Congress)",
+      "sourceUrl": "https://archive.org/details/sharif-hussein-1917-cylinder",
+      "license": "Public Domain / أسطوانات فونوغراف تاريخية مسجلة قبل 1920",
+      "reviewStatus": "unverified"
+    },
+    "qualityReasons": [
+      "سحب الاعتماد السابق: أداة التجهيز كانت تستبدل المصدر المفقود بصوت شخص آخر. يلزم إثبات المصدر وهوية المتحدث ومراجعة المقطع النهائي قبل إتاحته."
+    ]
+  },
+  {
+    "id": "character_voice-legendary-0002",
+    "categoryId": "character_voice",
+    "difficulty": "legendary",
+    "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+    "answer": "رياض الصلح",
+    "acceptedAnswers": [
+      "رياض الصلح",
+      "دولة الرئيس رياض الصلح"
+    ],
+    "hint": "أول رئيس وزراء للبنان بعد الاستقلال عام 1943 وصاحب مقولة الميثاق الوطني «لا شرق ولا غرب».",
+    "clues": [],
+    "explanation": "التسجيل لدولة الرئيس رياض الصلح، أحد أبطال استقلال لبنان.",
+    "sources": [
+      "https://archive.org/details/riad-solh-independence-1943"
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "بشارة الخوري"
+      },
+      {
+        "id": "B",
+        "text": "رياض الصلح"
+      },
+      {
+        "id": "C",
+        "text": "كميل شمعون"
+      },
+      {
+        "id": "D",
+        "text": "عبد الحميد كرامي"
+      },
+      {
+        "id": "E",
+        "text": "صائب سلام"
+      },
+      {
+        "id": "F",
+        "text": "سليم الحص"
+      }
+    ],
+    "correctOptionId": "B",
+    "qualityStatus": "quarantined",
+    "usageId": "147317542783881650169206591696918819668",
+    "audio": {
+      "assetPath": "assets/question_audio/voice-040.mp3",
+      "durationMs": 7000,
+      "attribution": "الأرشيف الوطني اللبناني / إذاعة لبنان الرسمية",
+      "sourceUrl": "https://archive.org/details/riad-solh-independence-1943",
+      "license": "Public Domain / خطابات استقلال وتأسيس رسمية",
+      "reviewStatus": "unverified"
+    },
+    "qualityReasons": [
+      "سحب الاعتماد السابق: أداة التجهيز كانت تستبدل المصدر المفقود بصوت شخص آخر. يلزم إثبات المصدر وهوية المتحدث ومراجعة المقطع النهائي قبل إتاحته."
+    ]
+  },
+  {
+    "id": "character_voice-legendary-0003",
+    "categoryId": "character_voice",
+    "difficulty": "legendary",
+    "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+    "answer": "الملك عبد العزيز آل سعود",
+    "acceptedAnswers": [
+      "الملك عبد العزيز",
+      "عبد العزيز بن عبد الرحمن",
+      "الملك عبدالعزيز",
+      "ابن سعود",
+      "الملك المؤسس عبد العزيز آل سعود"
+    ],
+    "hint": "مؤسس المملكة العربية السعودية وموحد أرجائها عام 1932 بعد استرداد الرياض عام 1902.",
+    "clues": [],
+    "explanation": "التسجيل للملك المؤسس عبد العزيز بن عبد الرحمن آل سعود في محادثاته التاريخية بالبحيرات المرة عام 1945.",
+    "sources": [
+      "https://archive.org/details/king-abdulaziz-quincy-1945"
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "الملك عبد العزيز آل سعود"
+      },
+      {
+        "id": "B",
+        "text": "الملك سعود بن عبد العزيز"
+      },
+      {
+        "id": "C",
+        "text": "الإمام عبد الرحمن بن فيصل"
+      },
+      {
+        "id": "D",
+        "text": "الملك فيصل بن عبد العزيز"
+      },
+      {
+        "id": "E",
+        "text": "الأمير محمد بن عبد الرحمن"
+      },
+      {
+        "id": "F",
+        "text": "الأمير عبد الله بن عبد الرحمن"
+      }
+    ],
+    "correctOptionId": "A",
+    "qualityStatus": "quarantined",
+    "usageId": "154652641355672716565200469346049379326",
+    "audio": {
+      "assetPath": "assets/question_audio/voice-041.mp3",
+      "durationMs": 7000,
+      "attribution": "دارة الملك عبد العزيز / المكتبة الرئاسية لفرانكلين روزفلت (FDR Library)",
+      "sourceUrl": "https://archive.org/details/king-abdulaziz-quincy-1945",
+      "license": "Public Domain / وثائق لقاءات تاريخية رسمية للحكومة الأمريكية والسعودية",
+      "reviewStatus": "unverified"
+    },
+    "qualityReasons": [
+      "سحب الاعتماد السابق: أداة التجهيز كانت تستبدل المصدر المفقود بصوت شخص آخر. يلزم إثبات المصدر وهوية المتحدث ومراجعة المقطع النهائي قبل إتاحته."
+    ]
+  },
+  {
+    "id": "character_voice-legendary-0004",
+    "categoryId": "character_voice",
+    "difficulty": "legendary",
+    "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+    "answer": "أحمد عرابي",
+    "acceptedAnswers": [
+      "أحمد عرابي",
+      "احمد عرابي",
+      "الزعيم أحمد عرابي",
+      "عرابي باشا"
+    ],
+    "hint": "زعيم الثورة العرابية عام 1881 وناظر الجهادية (وزير الحربية)، ردد أمام الخديوي توفيق «لقد ولدتنا أمهاتنا أحراراً».",
+    "clues": [],
+    "explanation": "التسجيل للزعيم أحمد عرابي باشا مسترجعاً صيحته الوطنية الخالدة.",
+    "sources": [
+      "https://archive.org/details/ahmed-orabi-wax-cylinder"
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "علي فهمي باشا"
+      },
+      {
+        "id": "B",
+        "text": "محمود سامي البارودي"
+      },
+      {
+        "id": "C",
+        "text": "أحمد عرابي"
+      },
+      {
+        "id": "D",
+        "text": "عبد الله النديم"
+      },
+      {
+        "id": "E",
+        "text": "عبد العال حلمي"
+      },
+      {
+        "id": "F",
+        "text": "محمد عبده"
+      }
+    ],
+    "correctOptionId": "C",
+    "qualityStatus": "quarantined",
+    "usageId": "115252196620215182162311050430904633970",
+    "audio": {
+      "assetPath": "assets/question_audio/voice-042.mp3",
+      "durationMs": 7000,
+      "attribution": "دار الكتب والوثائق القومية المصرية / أرشيف الجمعية الجغرافية",
+      "sourceUrl": "https://archive.org/details/ahmed-orabi-wax-cylinder",
+      "license": "Public Domain / تسجيل أسطوانات شمعية وفونوغرافية تعود للقرن التاسع عشر وأوائل القرن العشرين",
+      "reviewStatus": "unverified"
+    },
+    "qualityReasons": [
+      "سحب الاعتماد السابق: أداة التجهيز كانت تستبدل المصدر المفقود بصوت شخص آخر. يلزم إثبات المصدر وهوية المتحدث ومراجعة المقطع النهائي قبل إتاحته."
+    ]
+  },
+  {
+    "id": "character_voice-legendary-0005",
+    "categoryId": "character_voice",
+    "difficulty": "legendary",
+    "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+    "answer": "ميخائيل نعيمة",
+    "acceptedAnswers": [
+      "ميخائيل نعيمه",
+      "نعيمة",
+      "المفكر ميخائيل نعيمة"
+    ],
+    "hint": "كاتب ومفكر وفيلسوف لبناني من رواد أدب المهجر ونائب رئيس الرابطة القلمية، لُقب بـ «ناسك الشخروب».",
+    "clues": [],
+    "explanation": "التسجيل للمفكر اللبناني الكبير ميخائيل نعيمة مؤلف «مرداد» و«الغربال» و«كرم على درب».",
+    "sources": [
+      "https://archive.org/details/mikhail-naimy-radio-meditation"
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "أمين الريحاني"
+      },
+      {
+        "id": "B",
+        "text": "ميخائيل نعيمة"
+      },
+      {
+        "id": "C",
+        "text": "إيليا أبو ماضي"
+      },
+      {
+        "id": "D",
+        "text": "نسيب عريضة"
+      },
+      {
+        "id": "E",
+        "text": "رشيد أيوب"
+      },
+      {
+        "id": "F",
+        "text": "ندرة حداد"
+      }
+    ],
+    "correctOptionId": "B",
+    "qualityStatus": "quarantined",
+    "usageId": "162807230246764797870355303821082275274",
+    "audio": {
+      "assetPath": "assets/question_audio/voice-043.mp3",
+      "durationMs": 7000,
+      "attribution": "مؤسسة ميخائيل نعيمة في بسكنتا / إذاعة لبنان",
+      "sourceUrl": "https://archive.org/details/mikhail-naimy-radio-meditation",
+      "license": "Creative Commons / أرشيف الإذاعة اللبنانية التراثي",
+      "reviewStatus": "unverified"
+    },
+    "qualityReasons": [
+      "سحب الاعتماد السابق: أداة التجهيز كانت تستبدل المصدر المفقود بصوت شخص آخر. يلزم إثبات المصدر وهوية المتحدث ومراجعة المقطع النهائي قبل إتاحته."
+    ]
+  },
+  {
+    "id": "character_voice-legendary-0006",
+    "categoryId": "character_voice",
+    "difficulty": "legendary",
+    "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+    "answer": "الشيخ محمد رفعت",
+    "acceptedAnswers": [
+      "محمد رفعت",
+      "الشيخ محمد رفعت",
+      "قيثارة السماء",
+      "الشيخ محمد رفعت (قيثارة السماء)"
+    ],
+    "hint": "رائد إذاعة القرآن الكريم المصرية وأول من رتل القرآن في افتتاحها عام 1934، لُقب بـ «قيثارة السماء».",
+    "clues": [],
+    "explanation": "التسجيل النادر لصوت فضيلة الشيخ محمد رفعت متحدثاً عن حرمة وأمانة التلاوة.",
+    "sources": [
+      "https://archive.org/details/sheikh-mohamed-refaat-speech"
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "الشيخ علي محمود"
+      },
+      {
+        "id": "B",
+        "text": "الشيخ محمد رفعت"
+      },
+      {
+        "id": "C",
+        "text": "الشيخ منصور بدار"
+      },
+      {
+        "id": "D",
+        "text": "الشيخ أحمد ندا"
+      },
+      {
+        "id": "E",
+        "text": "الشيخ محمد الصيفي"
+      },
+      {
+        "id": "F",
+        "text": "الشيخ عبد الفتاح الشعشاعي"
+      }
+    ],
+    "correctOptionId": "B",
+    "qualityStatus": "quarantined",
+    "usageId": "95472949109802007210768076466441619235",
+    "audio": {
+      "assetPath": "assets/question_audio/voice-044.mp3",
+      "durationMs": 7000,
+      "attribution": "الهيئة الوطنية للإعلام (ماسبيرو زمان) / جمعية محبي الشيخ محمد رفعت",
+      "sourceUrl": "https://archive.org/details/sheikh-mohamed-refaat-speech",
+      "license": "Public Domain / تسجيلات الإذاعة المصرية الرسمية لعام 1934-1937",
+      "reviewStatus": "unverified"
+    },
+    "qualityReasons": [
+      "سحب الاعتماد السابق: أداة التجهيز كانت تستبدل المصدر المفقود بصوت شخص آخر. يلزم إثبات المصدر وهوية المتحدث ومراجعة المقطع النهائي قبل إتاحته."
+    ]
+  },
+  {
+    "id": "character_voice-legendary-0007",
+    "categoryId": "character_voice",
+    "difficulty": "legendary",
+    "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+    "answer": "د. علي مصطفى مشرفة",
+    "acceptedAnswers": [
+      "علي مصطفى مشرفة",
+      "علي مصطفى مشرفه",
+      "دكتور مشرفة",
+      "علي مشرفة",
+      "د. علي مصطفى مشرفة (أينشتاين العرب)"
+    ],
+    "hint": "عالم فيزياء ورياضيات مصري بارز راسل أينشتاين ولُقب بـ «أينشتاين العرب»، كان عميداً لعلوم جامعة القاهرة.",
+    "clues": [],
+    "explanation": "التسجيل للدكتور علي مصطفى مشرفة وهو يبسط مفاهيم الفيزياء الذرية والنسبية.",
+    "sources": [
+      "https://archive.org/details/ali-moustafa-mosharafa-talk"
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "د. سميرة موسى"
+      },
+      {
+        "id": "B",
+        "text": "د. علي مصطفى مشرفة"
+      },
+      {
+        "id": "C",
+        "text": "د. مصطفى نظيف"
+      },
+      {
+        "id": "D",
+        "text": "د. يحيى المشد"
+      },
+      {
+        "id": "E",
+        "text": "د. إبراهيم أدهم الدمرداش"
+      },
+      {
+        "id": "F",
+        "text": "د. أحمد مستجير"
+      }
+    ],
+    "correctOptionId": "B",
+    "qualityStatus": "quarantined",
+    "usageId": "30218162775169964694463256179324370599",
+    "audio": {
+      "assetPath": "assets/question_audio/voice-045.mp3",
+      "durationMs": 7000,
+      "attribution": "كلية العلوم بجامعة القاهرة / الجمعية المصرية للموسيقى والعلوم",
+      "sourceUrl": "https://archive.org/details/ali-moustafa-mosharafa-talk",
+      "license": "Public Domain / أرشيف الإذاعة المصرية العلمي لعام 1948",
+      "reviewStatus": "unverified"
+    },
+    "qualityReasons": [
+      "سحب الاعتماد السابق: أداة التجهيز كانت تستبدل المصدر المفقود بصوت شخص آخر. يلزم إثبات المصدر وهوية المتحدث ومراجعة المقطع النهائي قبل إتاحته."
+    ]
+  },
+  {
+    "id": "character_voice-legendary-0008",
+    "categoryId": "character_voice",
+    "difficulty": "legendary",
+    "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+    "answer": "ساطع الحصري",
+    "acceptedAnswers": [
+      "ساطع الحصري",
+      "ساطع الحصري (أبو خلدون)",
+      "أبو خلدون الحصري"
+    ],
+    "hint": "مفكر وتربوي عربي سوري المولد، يُعد المنظر الأول للفكر القومي العربي الحديث وأحد رواد النهضة التعليمية في العراق وسوريا.",
+    "clues": [],
+    "explanation": "التسجيل للمفكر ساطع الحصري متحدثاً عن اللغة العربية ورابطتها القومية الجامعة.",
+    "sources": [
+      "https://archive.org/details/sati-al-husri-language-speech"
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "شكيب أرسلان"
+      },
+      {
+        "id": "B",
+        "text": "ساطع الحصري"
+      },
+      {
+        "id": "C",
+        "text": "قسطنطين زريق"
+      },
+      {
+        "id": "D",
+        "text": "نجيب عازوري"
+      },
+      {
+        "id": "E",
+        "text": "عبد الرحمن الكواكبي"
+      },
+      {
+        "id": "F",
+        "text": "رشيد رضا"
+      }
+    ],
+    "correctOptionId": "B",
+    "qualityStatus": "quarantined",
+    "usageId": "45132875810808966840522126409079207192",
+    "audio": {
+      "assetPath": "assets/question_audio/voice-046.mp3",
+      "durationMs": 7000,
+      "attribution": "مجمع اللغة العربية بالقاهرة / معهد البحوث والدراسات العربية التابع لجامعة الدول العربية",
+      "sourceUrl": "https://archive.org/details/sati-al-husri-language-speech",
+      "license": "Public Domain / تسجيلات مؤتمرات التعريب ومجمع اللغة العربية",
+      "reviewStatus": "unverified"
+    },
+    "qualityReasons": [
+      "سحب الاعتماد السابق: أداة التجهيز كانت تستبدل المصدر المفقود بصوت شخص آخر. يلزم إثبات المصدر وهوية المتحدث ومراجعة المقطع النهائي قبل إتاحته."
+    ]
+  },
+  {
+    "id": "character_voice-legendary-0009",
+    "categoryId": "character_voice",
+    "difficulty": "legendary",
+    "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+    "answer": "الشيخ محمود خليل الحصري",
+    "acceptedAnswers": [
+      "محمود خليل الحصري",
+      "الشيخ الحصري",
+      "الحصري"
+    ],
+    "hint": "شيخ عموم المقارئ المصرية وصاحب التسجيل الصوتي المرجعي الأول للمصحف المرتل في التاريخ عام 1961.",
+    "clues": [],
+    "explanation": "الصوت للشيخ محمود خليل الحصري مبيناً قواعد الترتيل المحكم.",
+    "sources": [
+      "https://archive.org/details/sheikh-al-hossary-talks"
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "الشيخ عبد الفتاح الشعشاعي"
+      },
+      {
+        "id": "B",
+        "text": "الشيخ محمود خليل الحصري"
+      },
+      {
+        "id": "C",
+        "text": "الشيخ كامل يوسف البهتيمي"
+      },
+      {
+        "id": "D",
+        "text": "الشيخ أحمد الرزيقي"
+      },
+      {
+        "id": "E",
+        "text": "الشيخ شعبان الصياد"
+      },
+      {
+        "id": "F",
+        "text": "الشيخ طه الفشني"
+      }
+    ],
+    "correctOptionId": "B",
+    "qualityStatus": "quarantined",
+    "usageId": "98611460393306177910583803276123927570",
+    "audio": {
+      "assetPath": "assets/question_audio/voice-047.mp3",
+      "durationMs": 7000,
+      "attribution": "إذاعة القرآن الكريم بمصر / مشيخة عموم المقارئ المصرية",
+      "sourceUrl": "https://archive.org/details/sheikh-al-hossary-talks",
+      "license": "Public Domain / أرشيف إذاعة القرآن الكريم والمجلس الأعلى للشؤون الإسلامية",
+      "reviewStatus": "unverified"
+    },
+    "qualityReasons": [
+      "سحب الاعتماد السابق: أداة التجهيز كانت تستبدل المصدر المفقود بصوت شخص آخر. يلزم إثبات المصدر وهوية المتحدث ومراجعة المقطع النهائي قبل إتاحته."
+    ]
+  },
+  {
+    "id": "character_voice-legendary-0010",
+    "categoryId": "character_voice",
+    "difficulty": "legendary",
+    "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+    "answer": "مكرم عبيد باشا",
+    "acceptedAnswers": [
+      "مكرم عبيد",
+      "مكرم باشا عبيد",
+      "وليم مكرم عبيد"
+    ],
+    "hint": "سياسي ومفكر وخطيب مصري بارز، شغل منصب وزير المالية وسكرتير عام حزب الوفد، وأطلق مقولة «مصر وطن يعيش فينا».",
+    "clues": [],
+    "explanation": "التسجيل للسياسي الكبير مكرم عبيد باشا، أحد رموز الوحدة الوطنية المصرية.",
+    "sources": [
+      "https://archive.org/details/makram-ebeid-speeches"
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "بطرس غالي باشا"
+      },
+      {
+        "id": "B",
+        "text": "مكرم عبيد باشا"
+      },
+      {
+        "id": "C",
+        "text": "واصف بطرس غالي"
+      },
+      {
+        "id": "D",
+        "text": "سينوت حنا باشا"
+      },
+      {
+        "id": "E",
+        "text": "سري باشا"
+      },
+      {
+        "id": "F",
+        "text": "فخري عبد النور"
+      }
+    ],
+    "correctOptionId": "B",
+    "qualityStatus": "quarantined",
+    "usageId": "95656287766275856751009506622793108812",
+    "audio": {
+      "assetPath": "assets/question_audio/voice-048.mp3",
+      "durationMs": 7000,
+      "attribution": "دار الكتب والوثائق القومية المصرية / أرشيف حزب الوفد التاريخي",
+      "sourceUrl": "https://archive.org/details/makram-ebeid-speeches",
+      "license": "Public Domain / وثائق وخطابات الحركة الوطنية المصرية التاريخية",
+      "reviewStatus": "unverified"
+    },
+    "qualityReasons": [
+      "سحب الاعتماد السابق: أداة التجهيز كانت تستبدل المصدر المفقود بصوت شخص آخر. يلزم إثبات المصدر وهوية المتحدث ومراجعة المقطع النهائي قبل إتاحته."
+    ]
+  },
+  {
+    "id": "character_voice-legendary-0011",
+    "categoryId": "character_voice",
+    "difficulty": "legendary",
+    "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+    "answer": "الملك محمد الخامس",
+    "acceptedAnswers": [
+      "محمد الخامس",
+      "الملك محمد الخامس بن يوسف",
+      "السلطان محمد الخامس"
+    ],
+    "hint": "سلطان وملِك المغرب الملقب بـ «أب الاستقلال»، نفته سلطات الحماية الفرنسية إلى كورسيكا ومدغشقر وعاد ليعلن استقلال وطنه.",
+    "clues": [],
+    "explanation": "التسجيل للملك محمد الخامس في خطابه التاريخي الحاسم بإنهاء الحماية وإعلان استقلال المملكة المغربية.",
+    "sources": [
+      "https://archive.org/details/king-mohammed-fifth-speeches"
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "الملك الحسن الثاني"
+      },
+      {
+        "id": "B",
+        "text": "السلطان يوسف بن الحسن"
+      },
+      {
+        "id": "C",
+        "text": "الملك محمد الخامس"
+      },
+      {
+        "id": "D",
+        "text": "السلطان عبد الحفيظ"
+      },
+      {
+        "id": "E",
+        "text": "السلطان عبد العزيز"
+      },
+      {
+        "id": "F",
+        "text": "الأمير مولاي عبد الله"
+      }
+    ],
+    "correctOptionId": "C",
+    "qualityStatus": "quarantined",
+    "usageId": "125329361526358680390520171547961989430",
+    "audio": {
+      "assetPath": "assets/question_audio/voice-049.mp3",
+      "durationMs": 7000,
+      "attribution": "الشركة الوطنية للإذاعة والتلفزة المغربية (SNRT) / أرشيف القصر الملكي بالرباط",
+      "sourceUrl": "https://archive.org/details/king-mohammed-fifth-speeches",
+      "license": "Public Domain / الأرشيف الملكي المغربي والشركة الوطنية للإذاعة والتلفزة",
+      "reviewStatus": "unverified"
+    },
+    "qualityReasons": [
+      "سحب الاعتماد السابق: أداة التجهيز كانت تستبدل المصدر المفقود بصوت شخص آخر. يلزم إثبات المصدر وهوية المتحدث ومراجعة المقطع النهائي قبل إتاحته."
+    ]
+  },
+  {
+    "id": "character_voice-legendary-0012",
+    "categoryId": "character_voice",
+    "difficulty": "legendary",
+    "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+    "answer": "الشيخ محمد الطاهر بن عاشور",
+    "acceptedAnswers": [
+      "ابن عاشور",
+      "الطاهر بن عاشور",
+      "محمد الطاهر بن عاشور",
+      "الشيخ ابن عاشور"
+    ],
+    "hint": "عالم ومصلح تونسي وشيخ جامع الزيتونة، رائد علم مقاصد الشريعة وصاحب تفسير «التحرير والتنوير».",
+    "clues": [],
+    "explanation": "التسجيل لشيخ جامع الزيتونة العلامة محمد الطاهر بن عاشور في درس مقاصد الشريعة.",
+    "sources": [
+      "https://archive.org/details/ibn-ashur-rare-zitouna-talk"
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "الشيخ عبد العزيز جعيط"
+      },
+      {
+        "id": "B",
+        "text": "الشيخ محمد الطاهر بن عاشور"
+      },
+      {
+        "id": "C",
+        "text": "الشيخ محمد الخضر حسين"
+      },
+      {
+        "id": "D",
+        "text": "الشيخ محمد الفاضل بن عاشور"
+      },
+      {
+        "id": "E",
+        "text": "الشيخ سالم بوحاجب"
+      },
+      {
+        "id": "F",
+        "text": "الشيخ محمد بيرم الخامس"
+      }
+    ],
+    "correctOptionId": "B",
+    "qualityStatus": "quarantined",
+    "usageId": "82750739699673788491009343144399772056",
+    "audio": {
+      "assetPath": "assets/question_audio/voice-050.mp3",
+      "durationMs": 7000,
+      "attribution": "أرشيف مشيخة جامع الزيتونة / الإذاعة الوطنية التونسية",
+      "sourceUrl": "https://archive.org/details/ibn-ashur-rare-zitouna-talk",
+      "license": "Public Domain / أرشيف جامع الزيتونة المعمور والإذاعة التونسية",
+      "reviewStatus": "unverified"
+    },
+    "qualityReasons": [
+      "سحب الاعتماد السابق: أداة التجهيز كانت تستبدل المصدر المفقود بصوت شخص آخر. يلزم إثبات المصدر وهوية المتحدث ومراجعة المقطع النهائي قبل إتاحته."
+    ]
+  }
+]

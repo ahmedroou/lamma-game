@@ -93,12 +93,16 @@ class SessionViewModel extends ChangeNotifier {
     }
     if (restored != null &&
         state.question != null &&
-        state.revealedCards < 3 &&
-        (_blockedQuestionIds.contains(state.question!.id) ||
-            _usage.claimedInSession(id, state.question!) ||
-            _usage.contains(state.question!) &&
-                !_replayQuestionIds.contains(state.question!.id))) {
-      // A backup may precede an already committed reveal. Never draw it again.
+        (state.question!.categoryId == 'character_voice' &&
+                !state.question!.hasApprovedVoice ||
+            state.revealedCards < 3 &&
+                (_blockedQuestionIds.contains(state.question!.id) ||
+                    _usage.claimedInSession(id, state.question!) ||
+                    _usage.contains(state.question!) &&
+                        !_replayQuestionIds.contains(state.question!.id)))) {
+      // Do not resume an unsafe voice snapshot, even if its cards were already
+      // opened. Preserve scores/use history and return to category selection.
+      // Other backups may precede an already committed reveal.
       _state = state.copyWith(
         phase: SessionPhase.categories,
         seenQuestionIds: {...state.seenQuestionIds, state.question!.id},

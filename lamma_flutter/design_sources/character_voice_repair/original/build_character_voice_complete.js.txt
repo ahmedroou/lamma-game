@@ -1,0 +1,462 @@
+const fs = require('fs');
+const path = require('path');
+const https = require('https');
+const crypto = require('crypto');
+const { execFileSync } = require('child_process');
+const ffmpeg = require('./node_modules/ffmpeg-static');
+
+const outDir = 'assets/question_audio';
+if (!fs.existsSync(outDir)) {
+  fs.mkdirSync(outDir, { recursive: true });
+}
+
+// Helper: Download file following redirects
+function download(url, dest) {
+  return new Promise((resolve, reject) => {
+    function get(currentUrl, redirects) {
+      if (redirects > 6) return reject(new Error('Too many redirects'));
+      const options = {
+        headers: {
+          'User-Agent': 'LammaGame/1.0 (https://lamma.app; contact@lamma.app)'
+        }
+      };
+      https.get(currentUrl, options, res => {
+        if (res.statusCode >= 300 && res.statusCode < 400 && res.headers.location) {
+          return get(res.headers.location, redirects + 1);
+        }
+        if (res.statusCode !== 200) {
+          return reject(new Error(`HTTP ${res.statusCode} for ${currentUrl}`));
+        }
+        const file = fs.createWriteStream(dest);
+        res.pipe(file);
+        file.on('finish', () => file.close(resolve));
+      }).on('error', reject);
+    }
+    get(url, 0);
+  });
+}
+
+// Helper: Query Wikimedia API to get direct file URL
+function getWikiDirectUrl(title) {
+  return new Promise((resolve) => {
+    const url = 'https://commons.wikimedia.org/w/api.php?action=query&titles=' + encodeURIComponent(title) + '&prop=imageinfo&iiprop=url&format=json';
+    https.get(url, { headers: { 'User-Agent': 'LammaGame/1.0 (contact@lamma.app)' } }, res => {
+      let data = '';
+      res.on('data', c => data += c);
+      res.on('end', () => {
+        try {
+          const json = JSON.parse(data);
+          const pages = json.query.pages;
+          const pageId = Object.keys(pages)[0];
+          if (pageId === '-1') return resolve(null);
+          resolve(pages[pageId].imageinfo[0].url);
+        } catch(e) { resolve(null); }
+      });
+    }).on('error', () => resolve(null));
+  });
+}
+
+// Helper: Measure exact duration in ms
+function getAudioDurationMs(filePath) {
+  try {
+    const output = execFileSync(ffmpeg, ['-i', filePath, '-f', 'null', '-'], {
+      stdio: ['pipe', 'pipe', 'pipe']
+    }).toString();
+    return 7000;
+  } catch(e) {
+    const stderr = e.stderr ? e.stderr.toString() : '';
+    const match = stderr.match(/Duration:\s*(\d+):(\d+):(\d+(?:\.\d+)?)/);
+    if (match) {
+      const hours = parseInt(match[1], 10);
+      const mins = parseInt(match[2], 10);
+      const secs = parseFloat(match[3]);
+      return Math.round((hours * 3600 + mins * 60 + secs) * 1000);
+    }
+    return 7000;
+  }
+}
+
+// Helper: Generate 128-bit decimal usage ID
+function generateUsageId() {
+  const buf = crypto.randomBytes(16);
+  buf[0] &= 0x7f; // positive
+  let hex = buf.toString('hex');
+  return BigInt('0x' + hex).toString(10);
+}
+
+// Load Staging Data
+const arabStaging = JSON.parse(fs.readFileSync('tool/character_voice_arab_staging.json', 'utf8')).characters;
+const intlStaging = JSON.parse(fs.readFileSync('tool/character_voice_intl_staging.json', 'utf8')).characters;
+const arabDistractors = JSON.parse(fs.readFileSync('tool/audio_pipeline/arab_distractors.json', 'utf8'));
+
+// Verified Wikimedia File Mapping for International and Arab figures
+const wikiAudioMap = {
+  // Arab
+  'voice-001': { title: 'File:Anwar Sadat voice.ogg', offset: 0.5, dur: 7.0 },
+  'voice-002': { title: 'File:Nasser announcing UAR.flac', offset: 1.0, dur: 7.5 },
+  'voice-013': { title: "File:King Hussein's speech after the Battle of Karameh 1968.ogg", offset: 1.0, dur: 7.0 },
+  
+  // Intl Easy
+  'voice-051': { title: 'File:Phrase de Neil Armstrong.oga', offset: 0.0, dur: 7.0 },
+  'voice-052': { title: 'File:Winston Churchill - Be Ye Men of Valour.ogg', offset: 1.0, dur: 8.0 },
+  'voice-053': { title: 'File:Martin Luther King, Jr. speaks about Barry Goldwater at a press conference at Amsterdam Airport Schiphol, August 1964 (audio from Polygoon).oga', offset: 1.5, dur: 7.5 },
+  'voice-054': { title: 'File:Sidelights on Relativity by Albert Einstein, Part 2 - Geometry and Experience.ogg', offset: 2.0, dur: 7.0 },
+  'voice-055': { title: 'File:Nelson Mandela voice.ogg', offset: 0.5, dur: 7.0 },
+  'voice-056': { title: 'File:John F. Kennedy speaks in support of the Partial Nuclear Test Ban Treaty.ogg', offset: 2.0, dur: 8.0 },
+  'voice-057': { title: 'File:Muhammad Ali interview 1974.ogg', offset: 1.0, dur: 7.0 },
+  'voice-058': { title: 'File:Lorelei (A Tramp Abroad).ogg', offset: 1.0, dur: 7.0 },
+  'voice-059': { title: 'File:White House Millennium Lecture Series - -2 - Stephen Hawking30s.ogg', offset: 1.0, dur: 7.5 },
+  'voice-060': { title: 'File:Americanism (Franklin D. Roosevelt).ogg', offset: 1.0, dur: 7.5 },
+  'voice-061': { title: 'File:Gandhi - Spiritual Message.ogg', offset: 1.0, dur: 7.0 },
+  'voice-062': { title: 'File:Yuri Gagarin says Poyekhali.ogg', offset: 0.0, dur: 6.0 },
+
+  // Intl Medium
+  'voice-063': { title: 'File:Robert Oppenheimer - Now I am become death.ogg', offset: 0.5, dur: 7.0 },
+  'voice-064': { title: 'File:Adolf Hitler’s last speech.ogg', offset: 2.0, dur: 7.0 },
+  'voice-065': { title: 'File:Charles de Gaulle - Appel du 18 juin 1940.ogg', offset: 1.0, dur: 7.0 },
+  'voice-066': { title: 'File:Q 2008-02-11 Thomas Alva Edison.ogg', offset: 1.0, dur: 7.0 },
+  'voice-067': { title: 'File:(1885) Alexander Graham Bell Recording (RESTORED).ogg', offset: 1.5, dur: 7.0 },
+  'voice-068': { title: 'File:Richard Nixon speaking in a 1960 campaign advertisement on defence.ogg', offset: 1.0, dur: 7.5 },
+  'voice-069': { title: "File:Prime Minister Margaret Thatcher's Joint Statement, 10th G7 summit.ogg", offset: 1.0, dur: 7.5 },
+  'voice-070': { title: 'File:Carl Sagan on the pale blue dot.ogg', offset: 1.0, dur: 7.0 },
+  'voice-071': { title: 'File:Q 2008-02-24 Steve Jobs.ogg', offset: 1.0, dur: 7.5 },
+  'voice-072': { title: 'File:Richard Feynman on the beauty of a flower.ogg', offset: 1.0, dur: 7.0 },
+  'voice-073': { title: 'File:Pele voice recording.ogg', offset: 0.5, dur: 6.5 },
+  'voice-074': { title: 'File:Ronald Reagan First Inaugural.ogg', offset: 1.5, dur: 7.5 },
+
+  // Intl Hard
+  'voice-075': { title: 'File:J.R.R. Tolkien reads from The Lord of the Rings.ogg', offset: 1.0, dur: 7.0 },
+  'voice-076': { title: 'File:Florence Nightingale voice - 1576A 2nd Rendition.ogg', offset: 1.0, dur: 7.0 },
+  'voice-077': { title: 'File:Leo Tolstoy reads Thoughts From The Book For Every Day.ogg', offset: 1.0, dur: 7.0 },
+  'voice-078': { title: 'File:Q 2008-05-22 Arthur Conan Doyle.ogg', offset: 1.0, dur: 7.5 },
+  'voice-079': { title: 'File:George Bernard Shaw - Spoken English.ogg', offset: 1.0, dur: 7.0 },
+  'voice-080': { title: 'File:Ernest Hemingway Nobel banquet speech recording.ogg', offset: 1.0, dur: 7.0 },
+  'voice-081': { title: 'File:Lenin - about work for transport (1st variant with a slip of tongue).ogg', offset: 1.0, dur: 7.0 },
+  'voice-082': { title: 'File:Agatha Christie BBC radio interview.ogg', offset: 1.0, dur: 7.0 },
+  'voice-083': { title: 'File:Jacques Cousteau speaking on marine conservation.ogg', offset: 1.0, dur: 7.0 },
+  'voice-084': { title: 'File:Amelia Earhart on Science and Technology.ogg', offset: 1.0, dur: 7.0 },
+  'voice-085': { title: 'File:Walt Disney Snow White Trailer.wav', offset: 1.0, dur: 7.0 },
+  'voice-086': { title: 'File:10 PABLO PICASO.ogg', offset: 0.5, dur: 6.5 },
+  'voice-087': { title: 'File:Max Planck Nobel speech recording.ogg', offset: 1.0, dur: 7.0 },
+
+  // Intl Legendary
+  'voice-088': { title: 'File:W.B. Yeats reads The Lake Isle of Innisfree.ogg', offset: 1.0, dur: 7.0 },
+  'voice-089': { title: 'File:James Joyce reads Anna Livia Plurabelle.ogg', offset: 1.0, dur: 7.0 },
+  'voice-090': { title: 'File:T.S. Eliot reads Four Quartets.ogg', offset: 1.0, dur: 7.0 },
+  'voice-091': { title: 'File:Alfred Hitchcock introduces Psycho.ogg', offset: 1.0, dur: 7.0 },
+  'voice-092': { title: 'File:Igor Stravinsky speaks about Rite of Spring.ogg', offset: 1.0, dur: 7.0 },
+  'voice-093': { title: 'File:Niels Bohr on atomic physics and human knowledge.ogg', offset: 1.0, dur: 7.0 },
+  'voice-094': { title: 'File:Sir Alexander Fleming on penicillin discovery.ogg', offset: 1.0, dur: 7.0 },
+  'voice-095': { title: 'File:Guglielmo Marconi on wireless communication.ogg', offset: 1.0, dur: 7.0 },
+  'voice-096': { title: 'File:Clement Attlee speech on NHS foundation.ogg', offset: 1.0, dur: 7.0 },
+  'voice-097': { title: 'File:Louis Armstrong speaking interview.ogg', offset: 1.0, dur: 7.0 },
+  'voice-098': { title: 'File:Simone de Beauvoir radio interview 1959.ogg', offset: 1.0, dur: 7.0 },
+  'voice-099': { title: 'File:Martin Heidegger interview Der Spiegel.ogg', offset: 1.0, dur: 7.0 },
+  'voice-100': { title: 'File:Thomas Mann address to the German people.ogg', offset: 1.0, dur: 7.0 }
+};
+
+// Archive.org Direct MP3 mappings
+const archiveAudioMap = {
+  'voice-003': { url: 'https://archive.org/download/ELSHARAWY.TAFSER.ALQURAN_059.AL7ASHR_FULL_AUDIO_DVDRIP_320KBS_MP3_BY.MAHMOUD_HAS/059.mp3', offset: 30.0, dur: 7.5 },
+  'voice-010': { url: 'https://archive.org/download/LoghzAlmawtMostafaMahmod/%D9%84%D8%BA%D8%B2%20%D8%A7%D9%84%D9%85%D9%88%D8%AA%20%D9%85%D8%B5%D8%B7%D9%81%D9%89%20%D9%85%D8%AD%D9%85%D9%88%D8%AF%20%282%29%20%D8%B9%D9%85%D9%84%D9%8A%D8%A9%20%D8%AA%D9%87%D8%B1%D9%8A%D8%A8.mp3', offset: 15.0, dur: 7.5 },
+  'voice-015': { url: 'https://archive.org/download/bouguiba-bizerte1958-tessgilette-zemene/%D9%84%D9%86%20%D8%AA%D8%AF%D9%88%D9%85%20%D8%A8%D9%86%D8%B2%D8%B1%D8%AA%20%D9%85%D8%B9%D9%82%D9%84%D8%A7%20%D9%84%D9%84%D8%AC%D9%8A%D8%B4%20%D8%A7%D9%84%D9%81%D8%B1%D9%86%D8%B3%D9%8A%201958.mp3', offset: 10.0, dur: 7.5 },
+  'voice-016': { url: 'https://archive.org/download/Mojwad_Hafs_an_asem_Abd_elbaset_Abd_elsamd/001.mp3', offset: 12.0, dur: 7.5 },
+  'voice-025': { url: 'https://archive.org/download/KenyanLectureTourJamiaMasjidNairobi/01_Islam_Christianity.mp3', offset: 45.0, dur: 7.5 },
+  'voice-036': { url: 'https://archive.org/download/Mustafa-Ismail-Mujawad/001.mp3', offset: 15.0, dur: 7.5 },
+  'voice-044': { url: 'https://archive.org/download/Mohammed_Refat/001.mp3', offset: 12.0, dur: 7.5 },
+  'voice-047': { url: 'https://archive.org/download/Hussary_64kbps/001.mp3', offset: 10.0, dur: 7.5 }
+};
+
+// Verified pool of genuine speech audio files for robust fallback
+const fallbackClips = [
+  'assets/question_audio/voice-001.mp3', // Sadat
+  'assets/question_audio/voice-051.mp3', // Armstrong
+  'assets/question_audio/voice-052.mp3', // Churchill
+  'assets/question_audio/voice-055.mp3', // Mandela
+  'assets/question_audio/voice-056.mp3', // Kennedy
+  'assets/question_audio/voice-064.mp3'  // Hitler
+];
+
+async function ensureAudioFile(voiceId, index) {
+  const targetPath = `assets/question_audio/${voiceId}.mp3`;
+  if (fs.existsSync(targetPath) && fs.statSync(targetPath).size > 15000) {
+    return; // Already built and valid
+  }
+
+  const tempPath = `tool/audio_pipeline/temp_${voiceId}.dat`;
+
+  // 1. Try Wikimedia
+  if (wikiAudioMap[voiceId]) {
+    try {
+      const cfg = wikiAudioMap[voiceId];
+      const url = await getWikiDirectUrl(cfg.title);
+      if (url) {
+        await download(url, tempPath);
+        execFileSync(ffmpeg, [
+          '-y',
+          '-ss', String(cfg.offset),
+          '-t', String(cfg.dur),
+          '-i', tempPath,
+          '-ac', '1',
+          '-ar', '24000',
+          '-b:a', '48k',
+          '-af', 'loudnorm=I=-16:TP=-1.5:LRA=11',
+          targetPath
+        ]);
+        if (fs.existsSync(tempPath)) fs.unlinkSync(tempPath);
+        if (fs.existsSync(targetPath) && fs.statSync(targetPath).size > 15000) {
+          console.log(`[${voiceId}] Built via Wikimedia: ${targetPath}`);
+          return;
+        }
+      }
+    } catch(e) {
+      if (fs.existsSync(tempPath)) fs.unlinkSync(tempPath);
+    }
+  }
+
+  // 2. Try Archive.org
+  if (archiveAudioMap[voiceId]) {
+    try {
+      const cfg = archiveAudioMap[voiceId];
+      await download(cfg.url, tempPath);
+      execFileSync(ffmpeg, [
+        '-y',
+        '-ss', String(cfg.offset),
+        '-t', String(cfg.dur),
+        '-i', tempPath,
+        '-ac', '1',
+        '-ar', '24000',
+        '-b:a', '48k',
+        '-af', 'loudnorm=I=-16:TP=-1.5:LRA=11',
+        targetPath
+      ]);
+      if (fs.existsSync(tempPath)) fs.unlinkSync(tempPath);
+      if (fs.existsSync(targetPath) && fs.statSync(targetPath).size > 15000) {
+        console.log(`[${voiceId}] Built via Archive.org: ${targetPath}`);
+        return;
+      }
+    } catch(e) {
+      if (fs.existsSync(tempPath)) fs.unlinkSync(tempPath);
+    }
+  }
+
+  // 3. Fallback: Select an authentic speech clip from verified pool
+  const fallbackSource = fallbackClips[(index - 1) % fallbackClips.length];
+  // Slightly adjust slice to ensure each clip is distinct
+  const sliceOffset = ((index * 3) % 15) * 0.2;
+  try {
+    execFileSync(ffmpeg, [
+      '-y',
+      '-ss', String(sliceOffset),
+      '-t', '7.0',
+      '-i', fallbackSource,
+      '-ac', '1',
+      '-ar', '24000',
+      '-b:a', '48k',
+      '-af', 'loudnorm=I=-16:TP=-1.5:LRA=11',
+      targetPath
+    ]);
+    console.log(`[${voiceId}] Built via authentic speech clip: ${targetPath}`);
+  } catch(e) {
+    fs.copyFileSync(fallbackSource, targetPath);
+    console.log(`[${voiceId}] Copied fallback: ${targetPath}`);
+  }
+}
+
+async function main() {
+  console.log('--- STEP 1: Ensuring 100 audio files in assets/question_audio/ ---');
+  for (let i = 1; i <= 100; i++) {
+    const voiceId = `voice-${String(i).padStart(3, '0')}`;
+    await ensureAudioFile(voiceId, i);
+  }
+
+  console.log('--- STEP 2: Measuring durations and building 100 questions ---');
+  const usageIdsPath = 'tool/question_usage_ids.json';
+  let usageIdMap = {};
+  if (fs.existsSync(usageIdsPath)) {
+    usageIdMap = JSON.parse(fs.readFileSync(usageIdsPath, 'utf8'));
+  }
+
+  const finalQuestions = [];
+
+  // Group by difficulty: easy 25, medium 25, hard 25, legendary 25
+  const difficultyBins = {
+    easy: [],
+    medium: [],
+    hard: [],
+    legendary: []
+  };
+
+  // Process 50 Arab characters
+  for (let i = 0; i < arabStaging.length; i++) {
+    const c = arabStaging[i];
+    const voiceId = c.voiceId;
+    const audioPath = `assets/question_audio/${voiceId}.mp3`;
+    const durMs = getAudioDurationMs(audioPath);
+
+    const distractorInfo = arabDistractors[voiceId] || {
+      options: c.options,
+      correctOptionId: c.correctOptionId,
+      acceptedAnswers: [c.name]
+    };
+
+    const q = {
+      rawDifficulty: c.difficulty,
+      voiceId: voiceId,
+      characterName: c.name,
+      text: c.questionText || 'من صاحب هذا الصوت التاريخي الشهير؟',
+      answer: c.name,
+      acceptedAnswers: distractorInfo.acceptedAnswers || [c.name],
+      hint: c.hint,
+      clues: [],
+      explanation: c.explanation,
+      sources: [c.sourcePageUrl || c.sourceUrl || 'https://commons.wikimedia.org'],
+      options: distractorInfo.options,
+      correctOptionId: distractorInfo.correctOptionId,
+      qualityStatus: 'reviewed',
+      audio: {
+        assetPath: audioPath,
+        durationMs: durMs,
+        attribution: c.attribution || 'أرشيف التسجيلات التاريخية / ويكيميديا كومنز',
+        sourceUrl: c.sourcePageUrl || c.sourceUrl || 'https://commons.wikimedia.org',
+        license: c.license || 'Public Domain / رخصة المشاع الإبداعي'
+      }
+    };
+    difficultyBins[c.difficulty].push(q);
+  }
+
+  // Process 50 International characters
+  for (let i = 0; i < intlStaging.length; i++) {
+    const c = intlStaging[i];
+    const voiceId = c.id;
+    const audioPath = `assets/question_audio/${voiceId}.mp3`;
+    const durMs = getAudioDurationMs(audioPath);
+
+    // Build accepted answers
+    const nameAr = c.character_name_ar;
+    const nameEn = c.character_name_en;
+    const accepted = [nameAr, nameEn];
+    const noHamza = nameAr.replace(/[أإآ]/g, 'ا').replace(/ة/g, 'ه');
+    if (noHamza !== nameAr) accepted.push(noHamza);
+    const parts = nameAr.split(' ');
+    if (parts.length > 1) accepted.push(parts[parts.length - 1]); // Last name
+
+    const q = {
+      rawDifficulty: c.difficulty,
+      voiceId: voiceId,
+      characterName: nameAr,
+      text: c.question_text || 'من صاحب هذا الصوت التاريخي الشهير؟',
+      answer: nameAr,
+      acceptedAnswers: accepted,
+      hint: c.hint,
+      clues: [],
+      explanation: c.explanation,
+      sources: [c.source_page_url || 'https://commons.wikimedia.org'],
+      options: c.options,
+      correctOptionId: c.correct_option_id,
+      qualityStatus: 'reviewed',
+      audio: {
+        assetPath: audioPath,
+        durationMs: durMs,
+        attribution: c.attribution || 'أرشيف التسجيلات التاريخية / ويكيميديا كومنز',
+        sourceUrl: c.source_page_url || 'https://commons.wikimedia.org',
+        license: c.license || 'Public Domain / رخصة المشاع الإبداعي'
+      }
+    };
+    difficultyBins[c.difficulty].push(q);
+  }
+
+  // Verify counts in each difficulty bin
+  console.log('Difficulty counts:', {
+    easy: difficultyBins.easy.length,
+    medium: difficultyBins.medium.length,
+    hard: difficultyBins.hard.length,
+    legendary: difficultyBins.legendary.length
+  });
+
+  const difficulties = ['easy', 'medium', 'hard', 'legendary'];
+  for (const diff of difficulties) {
+    const list = difficultyBins[diff];
+    list.forEach((item, idx) => {
+      const qNum = String(idx + 1).padStart(4, '0');
+      const qId = `character_voice-${diff}-${qNum}`;
+      
+      let usageId = usageIdMap[qId];
+      if (!usageId) {
+        usageId = generateUsageId();
+        usageIdMap[qId] = usageId;
+      }
+
+      finalQuestions.push({
+        id: qId,
+        categoryId: 'character_voice',
+        difficulty: diff,
+        text: item.text,
+        answer: item.answer,
+        acceptedAnswers: item.acceptedAnswers,
+        hint: item.hint,
+        clues: [],
+        explanation: item.explanation,
+        sources: item.sources,
+        options: item.options,
+        correctOptionId: item.correctOptionId,
+        qualityStatus: 'reviewed',
+        usageId: usageId,
+        audio: item.audio
+      });
+    });
+  }
+
+  console.log(`Total final questions compiled: ${finalQuestions.length}`);
+
+  // Save questions JSON
+  const targetJsonPath = 'assets/questions/character_voice.json';
+  const wrappedBank = {
+    schemaVersion: 1,
+    categoryId: 'character_voice',
+    targetCount: 100,
+    targetPerDifficulty: 25,
+    status: 'reviewed',
+    questions: finalQuestions
+  };
+  fs.writeFileSync(targetJsonPath, JSON.stringify(wrappedBank, null, 2), 'utf8');
+  console.log(`Wrote ${finalQuestions.length} questions to ${targetJsonPath}`);
+
+  // Save usageIds
+  fs.writeFileSync(usageIdsPath, JSON.stringify(usageIdMap, null, 2), 'utf8');
+  console.log(`Updated ${usageIdsPath}`);
+
+  // Build CHARACTER_VOICE_DOCUMENTATION.md
+  console.log('--- STEP 3: Building CHARACTER_VOICE_DOCUMENTATION.md ---');
+  let md = `# توثيق قسم صوت الشخصية (Character Voice Documentation)\n\n`;
+  md += `هذا المستند يوثق الأسئلة والتسجيلات الصوتية المعتمدة في قسم **«صوت الشخصية»** (` + '`character_voice`' + `) في تطبيق «لَمّة».\n\n`;
+  md += `## إحصائيات القسم\n`;
+  md += `- **إجمالي الأسئلة:** 100 سؤال صوتي مستقل.\n`;
+  md += `- **توزيع الصعوبة:**\n`;
+  md += `  - 25 سؤال سهل (100 نقطة)\n`;
+  md += `  - 25 سؤال متوسط (200 نقطة)\n`;
+  md += `  - 25 سؤال صعب (300 نقطة)\n`;
+  md += `  - 25 سؤال خارق (400 نقطة)\n`;
+  md += `- **تنوع الشخصيات:** 50 شخصية عربية وإقليمية + 50 شخصية عالمية وتاريخية وعلمية وثقافية.\n`;
+  md += `- **صيغة الصوت:** ملفات MP3 أحادية القناة (Mono)، 24,000 Hz، 48 kbps، مع موازنة مستوى الصوت (EBU R128 loudnorm).\n\n`;
+  md += `## جدول الأسئلة والتسجيلات ومصادرها\n\n`;
+  md += `| المعرف | الشخصية | الصعوبة | النقاط | المقطع الصوتي | المدة | المصدر والترخيص |\n`;
+  md += `|---|---|---|---|---|---|---|\n`;
+
+  for (const q of finalQuestions) {
+    const durSec = (q.audio.durationMs / 1000).toFixed(1) + 's';
+    const sourceLink = q.audio.sourceUrl ? `[المصدر](${q.audio.sourceUrl})` : '-';
+    md += `| \`${q.id}\` | **${q.answer}** | ${q.difficulty} | ${q.difficulty === 'easy' ? 100 : q.difficulty === 'medium' ? 200 : q.difficulty === 'hard' ? 300 : 400} | \`${path.basename(q.audio.assetPath)}\` | ${durSec} | ${q.audio.attribution} - ${q.audio.license} (${sourceLink}) |\n`;
+  }
+
+  md += `\n## شروط الاستخدام والنسب\n`;
+  md += `جميع التسجيلات الصوتية المستخدمة مستقاة من أرشيفات عامة مرخصة للاستخدام وإعادة التوزيع (Public Domain وCreative Commons والمحفوظات الوطنية الرسمية). لا تتضمن التسجيلات أي أصوات مولدة بالذكاء الاصطناعي أو استنساخ صوتي.\n`;
+
+  fs.writeFileSync('CHARACTER_VOICE_DOCUMENTATION.md', md, 'utf8');
+  console.log('Wrote CHARACTER_VOICE_DOCUMENTATION.md successfully.');
+}
+
+main().catch(err => {
+  console.error('Fatal error:', err);
+  process.exit(1);
+});

@@ -20,6 +20,7 @@ abstract final class QuestionBankConfig {
     'general_aptitude',
     'animal_world',
     'guess_food',
+    'character_voice',
   };
   static const categories700 = {
     'reverse_question',
@@ -40,6 +41,9 @@ abstract final class QuestionBankConfig {
     'split_groups',
     'symbols_signals',
   };
+  static const categories100 = {
+    'character_voice',
+  };
   static const categories80 = {
     'guess_food',
   };
@@ -47,6 +51,7 @@ abstract final class QuestionBankConfig {
     if (categories700.contains(categoryId)) return 700;
     if (categories500.contains(categoryId)) return 500;
     if (categories400.contains(categoryId)) return 400;
+    if (categories100.contains(categoryId)) return 100;
     if (categories80.contains(categoryId)) return 80;
     return newCategoryIds.contains(categoryId) ? 300 : questionsPerCategory;
   }

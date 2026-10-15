@@ -254,6 +254,17 @@ class _SessionSetupState extends State<SessionSetup> {
                   ),
                   const SizedBox(height: 14),
                   const CategoryReplayOptions(),
+                  if (AppScope.maybeRead(
+                        context,
+                      )?.canPlayCategory('character_voice') ==
+                      false)
+                    const Padding(
+                      padding: EdgeInsets.only(bottom: 14),
+                      child: Text(
+                        'صوت الشخصية قيد مراجعة التسجيلات؛ لن تُسحب المقاطع غير المعتمدة.',
+                        style: TextStyle(color: AppColors.muted, fontSize: 12),
+                      ),
+                    ),
                   if (_shortages.isNotEmpty) ...[
                     Container(
                       key: const ValueKey('insufficient-content'),
@@ -282,6 +293,21 @@ class _SessionSetupState extends State<SessionSetup> {
                       dense: true,
                       selected: _selected.contains(category.id),
                       onTap: () {
+                        if (category.id == 'character_voice' &&
+                            !_selected.contains(category.id) &&
+                            AppScope.maybeRead(
+                                  context,
+                                )?.canPlayCategory(category.id) ==
+                                false) {
+                          ScaffoldMessenger.of(context).showSnackBar(
+                            const SnackBar(
+                              content: Text(
+                                'هذا القسم قيد مراجعة التسجيلات؛ اختر قسمًا آخر مؤقتًا.',
+                              ),
+                            ),
+                          );
+                          return;
+                        }
                         final selected = !_selected.contains(category.id);
                         if (selected &&
                             _selected.length ==

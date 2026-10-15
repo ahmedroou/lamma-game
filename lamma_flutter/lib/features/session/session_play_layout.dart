@@ -473,7 +473,8 @@ extension _SessionPlayLayout on _SessionScreenState {
           final minimum =
               (610 +
                   (q.presentation != null ? 120 : 0) +
-                  (q.imageAsset != null ? 140 : 0)) *
+                  (q.imageAsset != null ? 140 : 0) +
+                  (q.audio != null ? 95 : 0)) *
               scale;
           return SingleChildScrollView(
             key: const ValueKey('portrait-card-table'),
@@ -633,7 +634,10 @@ extension _SessionPlayLayout on _SessionScreenState {
                 ),
               ),
             Expanded(
-              flex: opened && (q.imageAsset != null || answer) ? 2 : 3,
+              flex:
+                  opened && (q.imageAsset != null || q.audio != null || answer)
+                  ? 2
+                  : 3,
               child: q.isIdentity && opened
                   ? Column(
                       children: [
@@ -666,6 +670,29 @@ extension _SessionPlayLayout on _SessionScreenState {
                       ),
                     ),
             ),
+            if (opened && q.audio != null && !answer)
+              Flexible(
+                flex: 2,
+                child: SingleChildScrollView(
+                  child: Padding(
+                    padding: const EdgeInsets.symmetric(vertical: 4),
+                    child: q.hasApprovedVoice
+                        ? CharacterVoicePlayer(
+                            key: ValueKey(
+                              'voice-${q.id}-${q.audio!.recordingId}',
+                            ),
+                            audio: q.audio!,
+                            points: state.availablePoints,
+                            isActive: !answer && !state.isPaused,
+                          )
+                        : const Text(
+                            'هذا التسجيل قيد المراجعة ولا يُشغّل. اختر سؤالًا آخر.',
+                            textAlign: TextAlign.center,
+                            style: TextStyle(color: AppColors.peach),
+                          ),
+                  ),
+                ),
+              ),
             if (opened && q.imageAsset != null)
               Expanded(
                 flex: 3,

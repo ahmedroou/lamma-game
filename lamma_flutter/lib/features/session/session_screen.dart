@@ -19,6 +19,7 @@ import 'category_replay_options.dart';
 import 'structured_question_panel.dart';
 import 'opening_card_controls.dart';
 import 'cinematic_round_deck.dart';
+import 'character_voice_player.dart';
 import '../../domain/abilities/surprise_session_effects.dart';
 import '../../shared/fit_text.dart';
 part 'session_management.dart';

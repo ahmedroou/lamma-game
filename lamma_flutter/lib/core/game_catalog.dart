@@ -209,4 +209,12 @@ const List<GameCategory> gameCategories = [
     Icons.restaurant_rounded,
     AppColors.peach,
   ),
+  GameCategory(
+    'character_voice',
+    'صوت الشخصية',
+    'استمع واكتشف صاحب الصوت',
+    Icons.graphic_eq_rounded,
+    AppColors.purple,
+  ),
 ];
+

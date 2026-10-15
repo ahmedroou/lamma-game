@@ -1,0 +1,5111 @@
+{
+  "schemaVersion": 1,
+  "categoryId": "character_voice",
+  "targetCount": 100,
+  "targetPerDifficulty": 25,
+  "status": "draft",
+  "questions": [
+    {
+      "id": "character_voice-easy-0001",
+      "categoryId": "character_voice",
+      "difficulty": "easy",
+      "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+      "answer": "محمد أنور السادات",
+      "acceptedAnswers": [
+        "أنور السادات",
+        "السادات",
+        "محمد انور السادات",
+        "الرئيس السادات"
+      ],
+      "hint": "شخصية سياسية مصرية تولت الحكم خلال النصف الثاني من القرن العشرين.",
+      "clues": [],
+      "explanation": "المتحدث محمد أنور السادات، في كلمته الإنجليزية بالبيت الأبيض عند ختام اجتماعات كامب ديفيد في 17 سبتمبر 1978. هذا المقطع ليس من خطاب القدس 1977. لم تتم المراجعة السمعية النهائية.",
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File:Egyptian_President_Sadat%27s_Remarks_at_the_Camp_David_Agreement,_17_September_1978.webm",
+        "https://commons.wikimedia.org/wiki/TimedText:Egyptian_President_Sadat%27s_Remarks_at_the_Camp_David_Agreement,_17_September_1978.webm.en.srt",
+        "https://www.presidency.ucsb.edu/documents/remarks-the-president-president-anwar-al-sadat-egypt-and-prime-minister-menahem-begin"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "جمال عبد الناصر"
+        },
+        {
+          "id": "B",
+          "text": "الحبيب بورقيبة"
+        },
+        {
+          "id": "C",
+          "text": "حسني مبارك"
+        },
+        {
+          "id": "D",
+          "text": "محمد أنور السادات"
+        },
+        {
+          "id": "E",
+          "text": "معمر القذافي"
+        },
+        {
+          "id": "F",
+          "text": "جعفر النميري"
+        }
+      ],
+      "correctOptionId": "D",
+      "qualityStatus": "quarantined",
+      "usageId": "119280522058275959857882605966156263098",
+      "audio": {
+        "assetPath": "assets/question_audio/voice-001.mp3",
+        "durationMs": 8430,
+        "attribution": "Central Intelligence Agency / U.S. Government, Camp David Agreement ceremony, 17 September 1978; excerpted 00:34.300–00:42.730 and converted to mono MP3 by Lamma. File-specific PD-CIA statement on Wikimedia Commons; no endorsement implied.",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Egyptian_President_Sadat%27s_Remarks_at_the_Camp_David_Agreement,_17_September_1978.webm",
+        "license": "Public domain in the United States — PD-CIA, U.S. Government official work (file-specific source statement)",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-CIA",
+        "reviewStatus": "sourceVerified",
+        "speaker": "محمد أنور السادات",
+        "recordingId": "cia-camp-david-sadat-1978-09-17-34300-42730",
+        "sourceStartMs": 34300,
+        "sourceEndMs": 42730,
+        "transcript": "The challenge was great, and the risks were high.",
+        "listeningStatus": "pending"
+      },
+      "qualityReasons": [
+        "السادات: ألغيت نسبة الملف إلى القدس 1977 ونسبة الترخيص إلى الرئاسة المصرية. استبدلت المصدر فعليًا بتسجيل كامب ديفيد 17 سبتمبر 1978 المحدد أدناه. التعليق النصي والتوقيت موثقان، لكن لم يتم سماع الملف، فلا اعتماد نهائي."
+      ]
+    },
+    {
+      "id": "character_voice-easy-0002",
+      "categoryId": "character_voice",
+      "difficulty": "easy",
+      "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+      "answer": "جمال عبد الناصر",
+      "acceptedAnswers": [
+        "عبد الناصر",
+        "جمال عبدالناصر",
+        "عبدالناصر",
+        "الرئيس عبد الناصر"
+      ],
+      "hint": "شخصية سياسية مصرية برزت في العقود التالية للحرب العالمية الثانية.",
+      "clues": [],
+      "explanation": "تعذر إثبات أن التسجيل المرفق يعود إلى جمال عبد الناصر من مصدر صوتي موثق يسمح بإعادة استخدامه؛ ليس سؤالًا معتمدًا، ولا يجوز تشغيله أو نسبته إليه قبل استكمال الإثبات والمراجعة السمعية.",
+      "sources": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "جمال عبد الناصر"
+        },
+        {
+          "id": "B",
+          "text": "عبد الكريم قاسم"
+        },
+        {
+          "id": "C",
+          "text": "محمد نجيب"
+        },
+        {
+          "id": "D",
+          "text": "أحمد بن بلة"
+        },
+        {
+          "id": "E",
+          "text": "عبد السلام عارف"
+        },
+        {
+          "id": "F",
+          "text": "شكري القوتلي"
+        }
+      ],
+      "correctOptionId": "A",
+      "qualityStatus": "quarantined",
+      "usageId": "134824233770247917943440295630655068830",
+      "qualityReasons": [
+        "عبد الناصر: لا توجد سلسلة مثبتة بين ملف voice-002 وتسجيل الوحدة. ملف Nasser announcing UAR.flac ليس دليلاً كافيًا على الحقوق؛ ملف المنشية البديل موسوم PD-Egypt فقط، ولم يحسم وضع إعادة التوزيع في بقية الأقاليم. لا يوصف تسجيل الدولة تلقائيًا بأنه ملك عام."
+      ]
+    },
+    {
+      "id": "character_voice-easy-0003",
+      "categoryId": "character_voice",
+      "difficulty": "easy",
+      "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+      "answer": "الشيخ محمد متولي الشعراوي",
+      "acceptedAnswers": [
+        "الشعراوي",
+        "محمد متولي الشعراوي",
+        "الشيخ الشعراوي",
+        "محمد متولي الشعراوى"
+      ],
+      "hint": "عالم دين مصري انتشرت دروسه عبر الإذاعة والتلفزيون.",
+      "clues": [],
+      "explanation": "تعذر إثبات أن التسجيل المرفق يعود إلى الشيخ محمد متولي الشعراوي من مصدر صوتي موثق يسمح بإعادة استخدامه؛ ليس سؤالًا معتمدًا، ولا يجوز تشغيله أو نسبته إليه قبل استكمال الإثبات والمراجعة السمعية.",
+      "sources": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "الشيخ عبد الحميد كشك"
+        },
+        {
+          "id": "B",
+          "text": "الشيخ يوسف القرضاوي"
+        },
+        {
+          "id": "C",
+          "text": "الشيخ محمد الغزالي"
+        },
+        {
+          "id": "D",
+          "text": "الشيخ جاد الحق علي جاد الحق"
+        },
+        {
+          "id": "E",
+          "text": "الشيخ أحمد حسن الباقوري"
+        },
+        {
+          "id": "F",
+          "text": "الشيخ محمد متولي الشعراوي"
+        }
+      ],
+      "correctOptionId": "F",
+      "qualityStatus": "quarantined",
+      "usageId": "7593444637834347720308211755553288457",
+      "qualityReasons": [
+        "الشعراوي: مصدر JSON لسورة النحل يختلف عن رابط سورة الحشر في أداة التجهيز. عبارة Creative Commons العامة لا تحدد رخصة ولا صاحب الحق؛ لا يوجد إثبات لملف الخواطر المستخدم أو تفريغه وقصه."
+      ]
+    },
+    {
+      "id": "character_voice-easy-0004",
+      "categoryId": "character_voice",
+      "difficulty": "easy",
+      "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+      "answer": "الملك فيصل بن عبد العزيز",
+      "acceptedAnswers": [
+        "الملك فيصل",
+        "فيصل بن عبد العزيز",
+        "الملك فيصل بن عبدالعزيز",
+        "فيصل بن عبدالعزيز",
+        "الملك فيصل بن عبد العزيز آل سعود"
+      ],
+      "hint": "أحد أفراد الأسرة السعودية الحاكمة الذين برزوا في السياسة خلال القرن العشرين.",
+      "clues": [],
+      "explanation": "تعذر إثبات أن التسجيل المرفق يعود إلى الملك فيصل بن عبد العزيز من مصدر صوتي موثق يسمح بإعادة استخدامه؛ ليس سؤالًا معتمدًا، ولا يجوز تشغيله أو نسبته إليه قبل استكمال الإثبات والمراجعة السمعية.",
+      "sources": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "الملك سعود بن عبد العزيز"
+        },
+        {
+          "id": "B",
+          "text": "الملك خالد بن عبد العزيز"
+        },
+        {
+          "id": "C",
+          "text": "الملك فيصل بن عبد العزيز"
+        },
+        {
+          "id": "D",
+          "text": "الملك فهد بن عبد العزيز"
+        },
+        {
+          "id": "E",
+          "text": "الملك عبد الله بن عبد العزيز"
+        },
+        {
+          "id": "F",
+          "text": "الأمير سلطان بن عبد العزيز"
+        }
+      ],
+      "correctOptionId": "C",
+      "qualityStatus": "quarantined",
+      "usageId": "26966747821484112475647008361509436577",
+      "qualityReasons": [
+        "الملك فيصل: ادعاء وجود تسجيل القدس وحق الخطابات الملكية العام غير موثق. أرشيف نيكسون يتضمن مواد لزيارات فيصل، لكنه يتضمن كذلك نشرات ABC/CBS مملوكة للغير؛ مجرد وجودها فيه لا يرخص الصوت. لم يثبت مصدر صوت ملكي مناسب لهذا الملف."
+      ]
+    },
+    {
+      "id": "character_voice-easy-0005",
+      "categoryId": "character_voice",
+      "difficulty": "easy",
+      "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+      "answer": "الشيخ زايد بن سلطان آل نهيان",
+      "acceptedAnswers": [
+        "الشيخ زايد",
+        "زايد بن سلطان",
+        "زايد بن سلطان آل نهيان",
+        "الشيخ زايد بن سلطان"
+      ],
+      "hint": "شخصية قيادية خليجية ارتبطت ببناء مؤسسات الدولة الحديثة.",
+      "clues": [],
+      "explanation": "تعذر إثبات أن التسجيل المرفق يعود إلى الشيخ زايد بن سلطان آل نهيان من مصدر صوتي موثق يسمح بإعادة استخدامه؛ ليس سؤالًا معتمدًا، ولا يجوز تشغيله أو نسبته إليه قبل استكمال الإثبات والمراجعة السمعية.",
+      "sources": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "الشيخ راشد بن سعيد آل مكتوم"
+        },
+        {
+          "id": "B",
+          "text": "الشيخ زايد بن سلطان آل نهيان"
+        },
+        {
+          "id": "C",
+          "text": "الشيخ جابر الأحمد الصباح"
+        },
+        {
+          "id": "D",
+          "text": "الشيخ خليفة بن زايد آل نهيان"
+        },
+        {
+          "id": "E",
+          "text": "الشيخ عيسى بن سلمان آل خليفة"
+        },
+        {
+          "id": "F",
+          "text": "السلطان قابوس بن سعيد"
+        }
+      ],
+      "correctOptionId": "B",
+      "qualityStatus": "quarantined",
+      "usageId": "139016896992377677364818418573374607097",
+      "qualityReasons": [
+        "الشيخ زايد: اسم أرشيف الإنترنت العام لا يثبت تسجيلًا بعينه أو تصريح الأرشيف الوطني بإعادة توزيعه. لا توجد نقطة قص أو تفريغ أو ترخيص مطابق، والتلميح يمنح الاسم تقريبًا."
+      ]
+    },
+    {
+      "id": "character_voice-easy-0006",
+      "categoryId": "character_voice",
+      "difficulty": "easy",
+      "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+      "answer": "صدام حسين",
+      "acceptedAnswers": [
+        "صدام",
+        "الرئيس صدام حسين"
+      ],
+      "hint": "شخصية سياسية عراقية ارتبطت بفترة حكم حزب البعث.",
+      "clues": [],
+      "explanation": "تعذر إثبات أن التسجيل المرفق يعود إلى صدام حسين من مصدر صوتي موثق يسمح بإعادة استخدامه؛ ليس سؤالًا معتمدًا، ولا يجوز تشغيله أو نسبته إليه قبل استكمال الإثبات والمراجعة السمعية.",
+      "sources": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "أحمد حسن البكر"
+        },
+        {
+          "id": "B",
+          "text": "برزان التكريتي"
+        },
+        {
+          "id": "C",
+          "text": "طارق عزيز"
+        },
+        {
+          "id": "D",
+          "text": "عبد السلام عارف"
+        },
+        {
+          "id": "E",
+          "text": "صدام حسين"
+        },
+        {
+          "id": "F",
+          "text": "طه ياسين رمضان"
+        }
+      ],
+      "correctOptionId": "E",
+      "qualityStatus": "quarantined",
+      "usageId": "19148482614050943546600296561426823139",
+      "qualityReasons": [
+        "صدام حسين: لا دليل يربط ملف الصوت بخطاب محدد له؛ الرسمية والتاريخ لا يساويان الملك العام. لم يثبت ترخيص الملف المنسوب للإذاعة العراقية، ولا يعتمد الصوت البديل الخاص بشخص آخر."
+      ]
+    },
+    {
+      "id": "character_voice-easy-0007",
+      "categoryId": "character_voice",
+      "difficulty": "easy",
+      "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+      "answer": "ياسر عرفات",
+      "acceptedAnswers": [
+        "أبو عمار",
+        "عرفات",
+        "ابو عمار",
+        "ياسر عرفات (أبو عمار)"
+      ],
+      "hint": "شخصية سياسية فلسطينية شاركت في العمل الوطني والدبلوماسي.",
+      "clues": [],
+      "explanation": "تعذر إثبات أن التسجيل المرفق يعود إلى ياسر عرفات من مصدر صوتي موثق يسمح بإعادة استخدامه؛ ليس سؤالًا معتمدًا، ولا يجوز تشغيله أو نسبته إليه قبل استكمال الإثبات والمراجعة السمعية.",
+      "sources": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "جورج حبش"
+        },
+        {
+          "id": "B",
+          "text": "ياسر عرفات"
+        },
+        {
+          "id": "C",
+          "text": "أحمد الشقيري"
+        },
+        {
+          "id": "D",
+          "text": "محمود عباس"
+        },
+        {
+          "id": "E",
+          "text": "خليل الوزير (أبو جهاد)"
+        },
+        {
+          "id": "F",
+          "text": "صلاح خلف (أبو إياد)"
+        }
+      ],
+      "correctOptionId": "B",
+      "qualityStatus": "quarantined",
+      "usageId": "125443184678504684366652586833161454667",
+      "qualityReasons": [
+        "ياسر عرفات: وصف تسجيل الأمم المتحدة بأنه Public Domain غير مثبت. البديل Yassir Arafat.ogv يذكر Visnews كمؤلف بينما يلصق وسم الحكومة الأمريكية؛ هذا التعارض لم يحسم. لا ينسب أي قص إلى خطاب 1974 بلا دليل."
+      ]
+    },
+    {
+      "id": "character_voice-easy-0008",
+      "categoryId": "character_voice",
+      "difficulty": "easy",
+      "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+      "answer": "نجيب محفوظ",
+      "acceptedAnswers": [
+        "محفوظ",
+        "نجيب محفوظ عبد العزيز"
+      ],
+      "hint": "أديب مصري تناولت أعماله حياة المجتمع وتحولاته في القرن العشرين.",
+      "clues": [],
+      "explanation": "تعذر إثبات أن التسجيل المرفق يعود إلى نجيب محفوظ من مصدر صوتي موثق يسمح بإعادة استخدامه؛ ليس سؤالًا معتمدًا، ولا يجوز تشغيله أو نسبته إليه قبل استكمال الإثبات والمراجعة السمعية.",
+      "sources": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "يوسف إدريس"
+        },
+        {
+          "id": "B",
+          "text": "توفيق الحكيم"
+        },
+        {
+          "id": "C",
+          "text": "طه حسين"
+        },
+        {
+          "id": "D",
+          "text": "إحسان عبد القدوس"
+        },
+        {
+          "id": "E",
+          "text": "يحيى حقي"
+        },
+        {
+          "id": "F",
+          "text": "نجيب محفوظ"
+        }
+      ],
+      "correctOptionId": "F",
+      "qualityStatus": "quarantined",
+      "usageId": "146477505021427671219842544160505588043",
+      "qualityReasons": [
+        "نجيب محفوظ: لا سند لادعاء اللقاء الإذاعي أو ترخيصه. لم أستخدم محاضرة نوبل كبديل: موقع نوبل يوضح أن محمد سلماوي قرأها، وليس محفوظ، وبالتالي ليست صوته. ملف الصوت الحالي غير معتمد."
+      ]
+    },
+    {
+      "id": "character_voice-easy-0009",
+      "categoryId": "character_voice",
+      "difficulty": "easy",
+      "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+      "answer": "د. أحمد زويل",
+      "acceptedAnswers": [
+        "أحمد زويل",
+        "احمد زويل",
+        "زويل",
+        "دكتور أحمد زويل"
+      ],
+      "hint": "عالم مصري بنى جزءًا من مسيرته العلمية في الولايات المتحدة.",
+      "clues": [],
+      "explanation": "تعذر إثبات أن التسجيل المرفق يعود إلى د. أحمد زويل من مصدر صوتي موثق يسمح بإعادة استخدامه؛ ليس سؤالًا معتمدًا، ولا يجوز تشغيله أو نسبته إليه قبل استكمال الإثبات والمراجعة السمعية.",
+      "sources": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "د. فاروق الباز"
+        },
+        {
+          "id": "B",
+          "text": "د. مصطفى السيد"
+        },
+        {
+          "id": "C",
+          "text": "د. مجدي يعقوب"
+        },
+        {
+          "id": "D",
+          "text": "د. أحمد زويل"
+        },
+        {
+          "id": "E",
+          "text": "د. علي مصطفى مشرفة"
+        },
+        {
+          "id": "F",
+          "text": "د. منير نايفة"
+        }
+      ],
+      "correctOptionId": "D",
+      "qualityStatus": "quarantined",
+      "usageId": "141919469714491720498539584513012443856",
+      "qualityReasons": [
+        "أحمد زويل: رابط الأرشيف العام لا يثبت مقابلة أو ملفًا ولا رخصة CC محددة. لا يكفي ذكر مكتبة الإسكندرية أو الجامعة للسماح بالتوزيع؛ ادعاء محتوى التسجيل غير موثق."
+      ]
+    },
+    {
+      "id": "character_voice-easy-0010",
+      "categoryId": "character_voice",
+      "difficulty": "easy",
+      "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+      "answer": "د. مصطفى محمود",
+      "acceptedAnswers": [
+        "مصطفى محمود",
+        "دكتور مصطفى محمود",
+        "مصطفى كمال محمود"
+      ],
+      "hint": "مفكر مصري قدم أفكاره إلى جمهور واسع عبر الكتب والتلفزيون.",
+      "clues": [],
+      "explanation": "تعذر إثبات أن التسجيل المرفق يعود إلى د. مصطفى محمود من مصدر صوتي موثق يسمح بإعادة استخدامه؛ ليس سؤالًا معتمدًا، ولا يجوز تشغيله أو نسبته إليه قبل استكمال الإثبات والمراجعة السمعية.",
+      "sources": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "د. مصطفى محمود"
+        },
+        {
+          "id": "B",
+          "text": "د. زكي نجيب محمود"
+        },
+        {
+          "id": "C",
+          "text": "أحمد بهجت"
+        },
+        {
+          "id": "D",
+          "text": "د. عبد الصبور شاهين"
+        },
+        {
+          "id": "E",
+          "text": "د. عبد الوهاب المسيري"
+        },
+        {
+          "id": "F",
+          "text": "د. مصطفى السباعي"
+        }
+      ],
+      "correctOptionId": "A",
+      "qualityStatus": "quarantined",
+      "usageId": "168465712787056655659577485218288856180",
+      "qualityReasons": [
+        "مصطفى محمود: مصدر البرنامج في السؤال يختلف عن الملف المشار إليه في أداة التجهيز؛ لا يوجد ترخيص من صاحب حق البرنامج أو ملف موثق. التعليم والإتاحة على الإنترنت لا يحولان تسجيل التلفزيون إلى ملك عام."
+      ]
+    },
+    {
+      "id": "character_voice-easy-0011",
+      "categoryId": "character_voice",
+      "difficulty": "easy",
+      "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+      "answer": "نزار قباني",
+      "acceptedAnswers": [
+        "نزار قبانى",
+        "قباني",
+        "الشاعر نزار قباني"
+      ],
+      "hint": "شاعر من بلاد الشام كتب في الحب وقضايا المجتمع والسياسة.",
+      "clues": [],
+      "explanation": "تعذر إثبات أن التسجيل المرفق يعود إلى نزار قباني من مصدر صوتي موثق يسمح بإعادة استخدامه؛ ليس سؤالًا معتمدًا، ولا يجوز تشغيله أو نسبته إليه قبل استكمال الإثبات والمراجعة السمعية.",
+      "sources": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "أدونيس"
+        },
+        {
+          "id": "B",
+          "text": "أحمد عبد المعطي حجازي"
+        },
+        {
+          "id": "C",
+          "text": "نزار قباني"
+        },
+        {
+          "id": "D",
+          "text": "محمد الماغوط"
+        },
+        {
+          "id": "E",
+          "text": "عبد الوهاب البياتي"
+        },
+        {
+          "id": "F",
+          "text": "عمر أبو ريشة"
+        }
+      ],
+      "correctOptionId": "C",
+      "qualityStatus": "quarantined",
+      "usageId": "94189591512899852525753828948193515080",
+      "qualityReasons": [
+        "نزار قباني: لا ملف أصلي محدد يثبت أنه يلقي يا قدس ولا رخصة للأداء والتسجيل. وصف إلقاء شعري عام ليس رخصة CC، ولا يجوز استبداله بقارئ أو ممثل آخر."
+      ]
+    },
+    {
+      "id": "character_voice-easy-0012",
+      "categoryId": "character_voice",
+      "difficulty": "easy",
+      "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+      "answer": "محمود درويش",
+      "acceptedAnswers": [
+        "درويش",
+        "الشاعر محمود درويش"
+      ],
+      "hint": "شاعر فلسطيني كتب عن الوطن والمنفى وتجربة الإنسان.",
+      "clues": [],
+      "explanation": "تعذر إثبات أن التسجيل المرفق يعود إلى محمود درويش من مصدر صوتي موثق يسمح بإعادة استخدامه؛ ليس سؤالًا معتمدًا، ولا يجوز تشغيله أو نسبته إليه قبل استكمال الإثبات والمراجعة السمعية.",
+      "sources": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "سميح القاسم"
+        },
+        {
+          "id": "B",
+          "text": "معين بسيسو"
+        },
+        {
+          "id": "C",
+          "text": "إبراهيم طوقان"
+        },
+        {
+          "id": "D",
+          "text": "توفيق زياد"
+        },
+        {
+          "id": "E",
+          "text": "محمود درويش"
+        },
+        {
+          "id": "F",
+          "text": "فدوى طوقان"
+        }
+      ],
+      "correctOptionId": "E",
+      "qualityStatus": "quarantined",
+      "usageId": "110114607468566153125708928981203816267",
+      "qualityReasons": [
+        "محمود درويش: لم يثبت أن الملف يحتوي على إلقائه على هذه الأرض أو أن الجهة المالكة سمحت بتضمينه في تطبيق. وصف مهرجان ثقافي مفتوح لا يحدد ترخيص التسجيل أو الأداء."
+      ]
+    },
+    {
+      "id": "character_voice-easy-0013",
+      "categoryId": "character_voice",
+      "difficulty": "easy",
+      "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+      "answer": "الملك الحسين بن طلال",
+      "acceptedAnswers": [
+        "الملك حسين",
+        "الحسين بن طلال",
+        "الملك الحسين"
+      ],
+      "hint": "شخصية من الأسرة الهاشمية ارتبطت بتاريخ الأردن الحديث.",
+      "clues": [],
+      "explanation": "تعذر إثبات أن التسجيل المرفق يعود إلى الملك الحسين بن طلال من مصدر صوتي موثق يسمح بإعادة استخدامه؛ ليس سؤالًا معتمدًا، ولا يجوز تشغيله أو نسبته إليه قبل استكمال الإثبات والمراجعة السمعية.",
+      "sources": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "الملك الحسين بن طلال"
+        },
+        {
+          "id": "B",
+          "text": "الملك عبد الله الثاني"
+        },
+        {
+          "id": "C",
+          "text": "الملك طلال بن عبد الله"
+        },
+        {
+          "id": "D",
+          "text": "الأمير الحسن بن طلال"
+        },
+        {
+          "id": "E",
+          "text": "الملك فيصل الثاني"
+        },
+        {
+          "id": "F",
+          "text": "الشريف حسين بن علي"
+        }
+      ],
+      "correctOptionId": "A",
+      "qualityStatus": "quarantined",
+      "usageId": "132319058158415050276124221262736952608",
+      "qualityReasons": [
+        "الملك الحسين: راجعت ملف خطاب الكرامة في كومنز؛ وسم PD-Jordan يناقش صورًا وفنونًا تطبيقية، فلا يثبت وحده حقوق الصوت الإذاعي. وجدت تسجيلًا آخر رسميًا في مكتبة ريغان لكنه لم يجهز بقص وتفريغ وسماع، فبقي هذا الملف معزولًا."
+      ]
+    },
+    {
+      "id": "character_voice-easy-0014",
+      "categoryId": "character_voice",
+      "difficulty": "easy",
+      "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+      "answer": "نيل أرمسترونغ",
+      "acceptedAnswers": [
+        "نيل أرمسترونغ",
+        "Neil Armstrong",
+        "نيل ارمسترونغ",
+        "أرمسترونغ"
+      ],
+      "hint": "من رواد برنامج أبوللو، وسُمع هذا الصوت عبر اتصال لاسلكي.",
+      "clues": [],
+      "explanation": "صوت نيل أرمسترونغ عند خطوته الأولى على سطح القمر في مهمة أبوللو 11؛ التاريخ بتوقيت UTC هو 21 يوليو 1969.",
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File:Phrase_de_Neil_Armstrong.oga",
+        "https://commons.wikimedia.org/wiki/TimedText:Phrase_de_Neil_Armstrong.oga.en.srt"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "باز ألدرين"
+        },
+        {
+          "id": "B",
+          "text": "مايكل كولينز"
+        },
+        {
+          "id": "C",
+          "text": "يوري غاغارين"
+        },
+        {
+          "id": "D",
+          "text": "نيل أرمسترونغ"
+        },
+        {
+          "id": "E",
+          "text": "جون غلين"
+        },
+        {
+          "id": "F",
+          "text": "آلان شيبارد"
+        }
+      ],
+      "correctOptionId": "D",
+      "qualityStatus": "quarantined",
+      "usageId": "152994385011296918704562855556851331965",
+      "audio": {
+        "assetPath": "assets/question_audio/voice-051.mp3",
+        "durationMs": 7700,
+        "attribution": "NASA / Neil Armstrong, Apollo 11, 21 July 1969 UTC. MP3 conversion; no voice imitation.",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Phrase_de_Neil_Armstrong.oga",
+        "license": "Public domain — NASA recording (PD-USGov-NASA)",
+        "licenseUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+        "sourceStartMs": 0,
+        "sourceEndMs": 7700,
+        "transcript": "That's one small step for man, one giant leap for mankind.",
+        "reviewStatus": "sourceVerified",
+        "speaker": "نيل أرمسترونغ",
+        "recordingId": "https://commons.wikimedia.org/wiki/File:Phrase_de_Neil_Armstrong.oga",
+        "listeningStatus": "pending"
+      },
+      "qualityReasons": [
+        "أصل NASA القصير يطابق العبارة والتاريخ، وله تفريغ مؤقت منشور. أُعيد تنزيله بدل الثقة بالمقطع القديم. تبقى المعاينة السمعية للمخرج النهائي لازمة.",
+        "لم يُستمع إلى المقتطف النهائي؛ هذه البيئة لا تدعم إدخال الصوت. لا اعتماد آلي أو مراجعة سمعية مدعاة."
+      ]
+    },
+    {
+      "id": "character_voice-easy-0015",
+      "categoryId": "character_voice",
+      "difficulty": "easy",
+      "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+      "answer": "ونستون تشرشل",
+      "acceptedAnswers": [
+        "ونستون تشرشل",
+        "Winston Churchill",
+        "تشرشل"
+      ],
+      "hint": "تولى رئاسة الحكومة البريطانية خلال سنوات الحرب العالمية الثانية.",
+      "clues": [],
+      "explanation": "صوت ونستون تشرشل في بث Be Ye Men of Valour في 19 مايو 1940. هذا ليس تسجيل خطاب «سنقاتل على الشواطئ»؛ صُحح السياق الخاطئ السابق.",
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File:Winston_Churchill_-_Be_Ye_Men_of_Valour.ogg",
+        "https://commons.wikimedia.org/wiki/TimedText:Winston_Churchill_-_Be_Ye_Men_of_Valour.ogg.en.srt"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "هارولد ماكميلان"
+        },
+        {
+          "id": "B",
+          "text": "كليمنت أتلي"
+        },
+        {
+          "id": "C",
+          "text": "نيفيل تشامبرلين"
+        },
+        {
+          "id": "D",
+          "text": "أنتوني إيدن"
+        },
+        {
+          "id": "E",
+          "text": "برنارد مونتغمري"
+        },
+        {
+          "id": "F",
+          "text": "ونستون تشرشل"
+        }
+      ],
+      "correctOptionId": "F",
+      "qualityStatus": "quarantined",
+      "usageId": "111508479311515239016076588721734664369",
+      "audio": {
+        "assetPath": "assets/question_audio/voice-052.mp3",
+        "durationMs": 9400,
+        "attribution": "Winston Churchill / BBC, Be Ye Men of Valour, 19 May 1940; Commons uploader TeleComNasSprVen. Excerpt and MP3 conversion.",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Winston_Churchill_-_Be_Ye_Men_of_Valour.ogg",
+        "license": "Public domain — expired Crown copyright, as documented on the file page",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Winston_Churchill_-_Be_Ye_Men_of_Valour.ogg#Licensing",
+        "sourceStartMs": 200,
+        "sourceEndMs": 9600,
+        "transcript": "I speak to you for the first time as Prime Minister in a solemn hour for the life of our country, of our empire.",
+        "reviewStatus": "sourceVerified",
+        "speaker": "ونستون تشرشل",
+        "recordingId": "https://commons.wikimedia.org/wiki/File:Winston_Churchill_-_Be_Ye_Men_of_Valour.ogg",
+        "listeningStatus": "pending"
+      },
+      "qualityReasons": [
+        "المصدر الحقيقي Be Ye Men of Valour مؤرخ 19 مايو 1940، لا خطاب الشواطئ. أُصلح المرجع والسياق، واستُخدم النص المؤقت المنشور. التلميح القديم كان يسمي صاحب الصوت عمليًا.",
+        "لم يُستمع إلى المقتطف النهائي؛ هذه البيئة لا تدعم إدخال الصوت. لا اعتماد آلي أو مراجعة سمعية مدعاة."
+      ]
+    },
+    {
+      "id": "character_voice-easy-0016",
+      "categoryId": "character_voice",
+      "difficulty": "easy",
+      "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+      "answer": "مارتن لوثر كينغ",
+      "acceptedAnswers": [
+        "مارتن لوثر كينغ",
+        "Martin Luther King Jr.",
+        "كينغ"
+      ],
+      "hint": "من قادة الحقوق المدنية الأمريكيين في ستينيات القرن العشرين.",
+      "clues": [],
+      "explanation": "التسجيل الأرشيفي لمارتن لوثر كينغ في مؤتمر صحفي بمطار سخيبول بتاريخ 15 أغسطس 1964 عن باري غولدووتر؛ ليس خطاب «لدي حلم». التفريغ والاستماع النهائي لم يُنجزا.",
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File:Martin_Luther_King,_Jr._speaks_about_Barry_Goldwater_at_a_press_conference_at_Amsterdam_Airport_Schiphol,_August_1964_(audio_from_Polygoon).oga"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "مالكوم إكس"
+        },
+        {
+          "id": "B",
+          "text": "مارتن لوثر كينغ"
+        },
+        {
+          "id": "C",
+          "text": "جون لويس"
+        },
+        {
+          "id": "D",
+          "text": "جيسي جاكسون"
+        },
+        {
+          "id": "E",
+          "text": "أندرو يونغ"
+        },
+        {
+          "id": "F",
+          "text": "رالف أبيرناثي"
+        }
+      ],
+      "correctOptionId": "B",
+      "qualityStatus": "quarantined",
+      "usageId": "67423981160077152653970662384914258093",
+      "audio": {
+        "assetPath": "assets/question_audio/voice-053.mp3",
+        "durationMs": 12000,
+        "attribution": "Polygoon Hollands Nieuws / Netherlands Institute for Sound and Vision, Open Images, Amsterdam Schiphol, 15 August 1964. Excerpt and MP3 conversion; CC BY-SA 3.0 NL.",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Martin_Luther_King,_Jr._speaks_about_Barry_Goldwater_at_a_press_conference_at_Amsterdam_Airport_Schiphol,_August_1964_(audio_from_Polygoon).oga",
+        "license": "CC BY-SA 3.0 Netherlands — excerpt under the same license",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/nl/deed.en",
+        "sourceStartMs": 0,
+        "sourceEndMs": 12000,
+        "transcript": "",
+        "reviewStatus": "unverified",
+        "speaker": "مارتن لوثر كينغ",
+        "recordingId": "https://commons.wikimedia.org/wiki/File:Martin_Luther_King,_Jr._speaks_about_Barry_Goldwater_at_a_press_conference_at_Amsterdam_Airport_Schiphol,_August_1964_(audio_from_Polygoon).oga",
+        "listeningStatus": "pending"
+      },
+      "qualityReasons": [
+        "مادة Polygoon المرخصة تتناول باري غولدووتر في سخيبول في 15 أغسطس 1964، وليست I Have a Dream لعام 1963. يلزم تفريغ المقتطف والاستماع قبل اعتماد السؤال؛ حذفت خيارين غير معاصرين من قائمة الإجابات.",
+        "لم يُستمع إلى المقتطف النهائي؛ هذه البيئة لا تدعم إدخال الصوت. لا اعتماد آلي أو مراجعة سمعية مدعاة."
+      ]
+    },
+    {
+      "id": "character_voice-easy-0017",
+      "categoryId": "character_voice",
+      "difficulty": "easy",
+      "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+      "answer": "ألبرت أينشتاين",
+      "acceptedAnswers": [
+        "ألبرت أينشتاين",
+        "Albert Einstein",
+        "البرت اينشتاين",
+        "أينشتاين"
+      ],
+      "hint": "جمع بين الكتابة في الفيزياء والتأمل في دور العلم والمعرفة.",
+      "clues": [],
+      "explanation": "تسجيل حقيقي لألبرت أينشتاين من كلمة عام 1943 عن التطور الفكري والبحث عن المعرفة، من محفوظات Radio Universidad Nacional de La Plata. لا علاقة له بالكتاب المقروء بصوت Paul Adams ولا بشرح معادلة الكتلة والطاقة.",
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File:03_ALBERT_EINSTEIN.ogg",
+        "https://commons.wikimedia.org/wiki/TimedText:03_ALBERT_EINSTEIN.ogg.en.srt"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "نيلز بور"
+        },
+        {
+          "id": "B",
+          "text": "إنريكو فيرمي"
+        },
+        {
+          "id": "C",
+          "text": "إرفين شرودنغر"
+        },
+        {
+          "id": "D",
+          "text": "ماكس بلانك"
+        },
+        {
+          "id": "E",
+          "text": "ألبرت أينشتاين"
+        },
+        {
+          "id": "F",
+          "text": "فيرنر هايزنبرغ"
+        }
+      ],
+      "correctOptionId": "E",
+      "qualityStatus": "quarantined",
+      "usageId": "140718008990945716678621672321302988398",
+      "audio": {
+        "assetPath": "assets/question_audio/voice-054.mp3",
+        "durationMs": 11200,
+        "attribution": "Radio Universidad Nacional de La Plata / Albert Einstein, 1943; permission ticket 2014041010009117. Excerpt and MP3 conversion; CC BY-SA 3.0.",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:03_ALBERT_EINSTEIN.ogg",
+        "license": "CC BY-SA 3.0 Unported — excerpt distributed under the same license",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "sourceStartMs": 500,
+        "sourceEndMs": 11700,
+        "transcript": "Ladies and gentlemen, our age is proud of the progress it has made in man's intellectual development.",
+        "reviewStatus": "sourceVerified",
+        "speaker": "ألبرت أينشتاين",
+        "recordingId": "https://commons.wikimedia.org/wiki/File:03_ALBERT_EINSTEIN.ogg",
+        "listeningStatus": "pending"
+      },
+      "qualityReasons": [
+        "المصدر القديم كتاب LibriVox بصوت Paul Adams؛ أُلغي. البديل كلمة حقيقية لأينشتاين في 1943 من مجموعة UNLP المرخصة CC BY-SA 3.0 والمثبتة بتذكرة VRT. قُصت المقدمة وتُجنب إعلان اسمه عند 84 ثانية. لا أدعي الاستماع.",
+        "لم يُستمع إلى المقتطف النهائي؛ هذه البيئة لا تدعم إدخال الصوت. لا اعتماد آلي أو مراجعة سمعية مدعاة."
+      ]
+    },
+    {
+      "id": "character_voice-easy-0018",
+      "categoryId": "character_voice",
+      "difficulty": "easy",
+      "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+      "answer": "نيلسون مانديلا",
+      "acceptedAnswers": [
+        "نيلسون مانديلا",
+        "Nelson Mandela",
+        "مانديلا"
+      ],
+      "hint": "من القادة الأفارقة الذين ارتبط اسمهم بالنضال ضد الفصل العنصري.",
+      "clues": [],
+      "explanation": "مقتطف من الملف الأرشيفي لزيارة نيلسون مانديلا الرسمية للولايات المتحدة بتاريخ 4 أكتوبر 1994. يُسحب الادعاء السابق بأنه خطاب الإفراج عام 1990؛ بداية المقتطف وتفريغه ينتظران الاستماع.",
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File:Nelson_Mandela_voice.ogg"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "ديزموند توتو"
+        },
+        {
+          "id": "B",
+          "text": "كوفي عنان"
+        },
+        {
+          "id": "C",
+          "text": "نيلسون مانديلا"
+        },
+        {
+          "id": "D",
+          "text": "باتريس لومومبا"
+        },
+        {
+          "id": "E",
+          "text": "جواكيم شيسانو"
+        },
+        {
+          "id": "F",
+          "text": "روبرت موغابي"
+        }
+      ],
+      "correctOptionId": "C",
+      "qualityStatus": "quarantined",
+      "usageId": "2739166035936255241653223178312558952",
+      "audio": {
+        "assetPath": "assets/question_audio/voice-055.mp3",
+        "durationMs": 12000,
+        "attribution": "Courtesy; William J. Clinton Presidential Library. White House recording of Nelson Mandela state visit, 4 October 1994. Excerpt and MP3 conversion.",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nelson_Mandela_voice.ogg",
+        "license": "Public domain — official White House/Clinton Library recording (PD-USGov)",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Nelson_Mandela_voice.ogg#Licensing",
+        "sourceStartMs": 500,
+        "sourceEndMs": 12500,
+        "transcript": "",
+        "reviewStatus": "unverified",
+        "speaker": "نيلسون مانديلا",
+        "recordingId": "https://commons.wikimedia.org/wiki/File:Nelson_Mandela_voice.ogg",
+        "listeningStatus": "pending"
+      },
+      "qualityReasons": [
+        "الملف الحقيقي يعود لزيارة الولايات المتحدة في 4 أكتوبر 1994 من مكتبة كلينتون، لا خطاب الإفراج عام 1990 ولا SABC. أُصلح الإسناد؛ بداية المقطع والتفريغ وهوية أي صوت افتتاحي تحتاج الاستماع.",
+        "لم يُستمع إلى المقتطف النهائي؛ هذه البيئة لا تدعم إدخال الصوت. لا اعتماد آلي أو مراجعة سمعية مدعاة."
+      ]
+    },
+    {
+      "id": "character_voice-easy-0019",
+      "categoryId": "character_voice",
+      "difficulty": "easy",
+      "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+      "answer": "جون كينيدي",
+      "acceptedAnswers": [
+        "جون كينيدي",
+        "John F. Kennedy",
+        "كينيدي"
+      ],
+      "hint": "كان من رؤساء الولايات المتحدة في فترة الحرب الباردة.",
+      "clues": [],
+      "explanation": "صوت جون كينيدي في ختام خطاب برلين بتاريخ 26 يونيو 1963، متحدثًا بالإنجليزية والألمانية. هذا ليس خطاب تنصيبه عام 1961 ولا كلمة معاهدة الحظر الجزئي للتجارب النووية.",
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File:Jfk_berlin_address_high.ogg",
+        "https://commons.wikimedia.org/wiki/TimedText:Jfk_berlin_address_high.ogg.en.srt"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "جيمي كارتر"
+        },
+        {
+          "id": "B",
+          "text": "ريتشارد نيكسون"
+        },
+        {
+          "id": "C",
+          "text": "ليندون جونسون"
+        },
+        {
+          "id": "D",
+          "text": "دوايت أيزنهاور"
+        },
+        {
+          "id": "E",
+          "text": "جيرالد فورد"
+        },
+        {
+          "id": "F",
+          "text": "جون كينيدي"
+        }
+      ],
+      "correctOptionId": "F",
+      "qualityStatus": "quarantined",
+      "usageId": "76703765965791173018264230612903051309",
+      "audio": {
+        "assetPath": "assets/question_audio/voice-056.mp3",
+        "durationMs": 7350,
+        "attribution": "John F. Kennedy Presidential Library / John F. Kennedy, Berlin, 26 June 1963. Excerpt and MP3 conversion. Early crowd chanting his name excluded.",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jfk_berlin_address_high.ogg",
+        "license": "Public domain — US federal government recording (PD-USGov)",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Jfk_berlin_address_high.ogg#Licensing",
+        "sourceStartMs": 550650,
+        "sourceEndMs": 558000,
+        "transcript": "As a free man, I take pride in the words: Ich bin ein Berliner!",
+        "reviewStatus": "sourceVerified",
+        "speaker": "جون كينيدي",
+        "recordingId": "https://commons.wikimedia.org/wiki/File:Jfk_berlin_address_high.ogg",
+        "listeningStatus": "pending"
+      },
+      "qualityReasons": [
+        "المصدر السابق الذي استخدمه البناء كلمة معاهدة التجارب النووية، خلافًا لسياق التنصيب المدعى. اختير بدلًا منه ختام خطاب برلين الحقيقي 26 يونيو 1963 بتوقيت منشور. هتاف الجمهور باسم كينيدي في أول التسجيل خارج القصّة المختارة.",
+        "لم يُستمع إلى المقتطف النهائي؛ هذه البيئة لا تدعم إدخال الصوت. لا اعتماد آلي أو مراجعة سمعية مدعاة."
+      ]
+    },
+    {
+      "id": "character_voice-easy-0020",
+      "categoryId": "character_voice",
+      "difficulty": "easy",
+      "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+      "answer": "محمد علي كلاي",
+      "acceptedAnswers": [
+        "محمد علي كلاي",
+        "Muhammad Ali",
+        "كلاي"
+      ],
+      "hint": "اشتهر بمؤتمراته الصحفية الواثقة، إلى جانب إنجازاته في الملاكمة.",
+      "clues": [],
+      "explanation": "لم يُثبت بعد تسجيل صالح ومرخّص لهذه الشخصية. هذا السؤال معزول ولا يجوز عرضه في المباراة. تفاصيل السبب محفوظة في qualityReasons.",
+      "sources": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "جو فريزر"
+        },
+        {
+          "id": "B",
+          "text": "جورج فورمان"
+        },
+        {
+          "id": "C",
+          "text": "محمد علي كلاي"
+        },
+        {
+          "id": "D",
+          "text": "مايك تايسون"
+        },
+        {
+          "id": "E",
+          "text": "سوني ليستون"
+        },
+        {
+          "id": "F",
+          "text": "شوغار راي ليونارد"
+        }
+      ],
+      "correctOptionId": "C",
+      "qualityStatus": "quarantined",
+      "usageId": "136242738735898616973650901084170929889",
+      "qualityReasons": [
+        "Muhammad Ali voice.ogg وMuhammad Ali interview 1974.ogg غير موجودين في بيانات Commons المقروءة. لا دليل على أن الصوت المحلي صوت محمد علي، وعبارة Historical Press Conference ليست رخصة. يبقى معزولًا دون استبداله بصوت بطل آخر.",
+        "لم يُستمع إلى المقتطف النهائي؛ هذه البيئة لا تدعم إدخال الصوت. لا اعتماد آلي أو مراجعة سمعية مدعاة."
+      ]
+    },
+    {
+      "id": "character_voice-easy-0021",
+      "categoryId": "character_voice",
+      "difficulty": "easy",
+      "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+      "answer": "تشارلي تشابلن",
+      "acceptedAnswers": [
+        "تشارلي تشابلن",
+        "Charlie Chaplin",
+        "تشابلن"
+      ],
+      "hint": "جمع بين التمثيل والإخراج في بدايات السينما الناطقة.",
+      "clues": [],
+      "explanation": "لم يُثبت بعد تسجيل صالح ومرخّص لهذه الشخصية. هذا السؤال معزول ولا يجوز عرضه في المباراة. تفاصيل السبب محفوظة في qualityReasons.",
+      "sources": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "تشارلي تشابلن"
+        },
+        {
+          "id": "B",
+          "text": "باستر كيتون"
+        },
+        {
+          "id": "C",
+          "text": "أورسون ويلز"
+        },
+        {
+          "id": "D",
+          "text": "ستان لوريل"
+        },
+        {
+          "id": "E",
+          "text": "مارلون براندو"
+        },
+        {
+          "id": "F",
+          "text": "همفري بوغارت"
+        }
+      ],
+      "correctOptionId": "A",
+      "qualityStatus": "quarantined",
+      "usageId": "46823313253721675964884351821249892992",
+      "qualityReasons": [
+        "المصدر Lorelei موسيقى لآلة كلارينيت أنشأها Beeswaxcandle في 2013 وليس صوت تشابلن. المصدر الآخر Charlie chaplin.ogg قارئ لمقال ويكيبيديا الفرنسي أيضًا. Roy Export يعلن ملكية حقوق The Great Dictator؛ سُحب ادعاء CC0 وعدم تجديد الحقوق، ولا أُنزّل الخطاب دون رخصة صالحة.",
+        "لم يُستمع إلى المقتطف النهائي؛ هذه البيئة لا تدعم إدخال الصوت. لا اعتماد آلي أو مراجعة سمعية مدعاة."
+      ]
+    },
+    {
+      "id": "character_voice-easy-0022",
+      "categoryId": "character_voice",
+      "difficulty": "easy",
+      "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+      "answer": "ستيفن هوكينغ",
+      "acceptedAnswers": [
+        "ستيفن هوكينغ",
+        "Stephen Hawking",
+        "هوكينغ"
+      ],
+      "hint": "له أعمال في تبسيط فيزياء الكون، وعمل في جامعة كامبريدج.",
+      "clues": [],
+      "explanation": "ستيفن هوكينغ يتحدث بجهاز توليد الصوت في محاضرة البيت الأبيض «Imagination and Change» بتاريخ 6 مارس 1998. التسجيل أرشيف حقيقي لا استنساخًا جديدًا لصوته.",
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File:White_House_Millennium_Lecture_Series_-_-2_-_Stephen_Hawking30s.ogg",
+        "https://commons.wikimedia.org/wiki/TimedText:White_House_Millennium_Lecture_Series_-_-2_-_Stephen_Hawking30s.ogg.en.srt"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "كارل ساغان"
+        },
+        {
+          "id": "B",
+          "text": "براين كوكس"
+        },
+        {
+          "id": "C",
+          "text": "روجر بنروز"
+        },
+        {
+          "id": "D",
+          "text": "ميشيو كاكو"
+        },
+        {
+          "id": "E",
+          "text": "ستيفن هوكينغ"
+        },
+        {
+          "id": "F",
+          "text": "نيل ديغراس تايسون"
+        }
+      ],
+      "correctOptionId": "E",
+      "qualityStatus": "quarantined",
+      "usageId": "164843036848788868292455244340004906448",
+      "audio": {
+        "assetPath": "assets/question_audio/voice-059.mp3",
+        "durationMs": 8800,
+        "attribution": "Courtesy; William J. Clinton Presidential Library. White House Television, Stephen Hawking lecture, 6 March 1998. Excerpt and MP3 conversion.",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:White_House_Millennium_Lecture_Series_-_-2_-_Stephen_Hawking30s.ogg",
+        "license": "Public domain — White House Television official recording; NARA 5860063",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:White_House_Millennium_Lecture_Series_-_-2_-_Stephen_Hawking30s.ogg#Licensing",
+        "sourceStartMs": 0,
+        "sourceEndMs": 8800,
+        "transcript": "Nearly all the visions of the future that we have been shown from H.G. Wells onwards have been essentially static.",
+        "reviewStatus": "sourceVerified",
+        "speaker": "ستيفن هوكينغ",
+        "recordingId": "https://commons.wikimedia.org/wiki/File:White_House_Millennium_Lecture_Series_-_-2_-_Stephen_Hawking30s.ogg",
+        "listeningStatus": "pending"
+      },
+      "qualityReasons": [
+        "المصدر الصحيح محاضرة البيت الأبيض 6 مارس 1998 رقم NARA 5860063، لا TED أو تسجيل جامعة كامبريدج. النص المؤقت يحدد البداية؛ هو تسجيل الجهاز الذي استعمله هوكينغ نفسه، لا توليدًا جديدًا بصوت مستنسخ.",
+        "لم يُستمع إلى المقتطف النهائي؛ هذه البيئة لا تدعم إدخال الصوت. لا اعتماد آلي أو مراجعة سمعية مدعاة."
+      ]
+    },
+    {
+      "id": "character_voice-easy-0023",
+      "categoryId": "character_voice",
+      "difficulty": "easy",
+      "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+      "answer": "فرانكلين روزفلت",
+      "acceptedAnswers": [
+        "فرانكلين روزفلت",
+        "Franklin D. Roosevelt",
+        "روزفلت"
+      ],
+      "hint": "رئيس أمريكي خاطب الجمهور خلال سنوات الحرب العالمية الثانية.",
+      "clues": [],
+      "explanation": "صوت فرانكلين روزفلت في مستهل خطاب 8 ديسمبر 1941 أمام الكونغرس، عن هجوم بيرل هاربر في اليوم السابق. استُبدل المصدر السابق الذي كان تسجيلاً مختلفًا بعنوان Americanism.",
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File:Roosevelt_Infamy.ogg",
+        "https://commons.wikimedia.org/wiki/TimedText:Roosevelt_Infamy.ogg.en.srt"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "ثيودور روزفلت"
+        },
+        {
+          "id": "B",
+          "text": "وودرو ويلسون"
+        },
+        {
+          "id": "C",
+          "text": "هاري ترومان"
+        },
+        {
+          "id": "D",
+          "text": "فرانكلين روزفلت"
+        },
+        {
+          "id": "E",
+          "text": "هربرت هوفر"
+        },
+        {
+          "id": "F",
+          "text": "دوايت أيزنهاور"
+        }
+      ],
+      "correctOptionId": "D",
+      "qualityStatus": "quarantined",
+      "usageId": "87493632294504892715959695019324030156",
+      "audio": {
+        "assetPath": "assets/question_audio/voice-060.mp3",
+        "durationMs": 14200,
+        "attribution": "Franklin D. Roosevelt; John G. Bradley recording / NARA 1436350; W. Guy Finley derivative. Excerpt and MP3 conversion under CC BY-SA 2.0.",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Roosevelt_Infamy.ogg",
+        "license": "Original recording public domain; W. Guy Finley derivative CC BY-SA 2.0; excerpt CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "sourceStartMs": 0,
+        "sourceEndMs": 14200,
+        "transcript": "Yesterday, December 7, 1941 — a date which will live in infamy.",
+        "reviewStatus": "sourceVerified",
+        "speaker": "فرانكلين روزفلت",
+        "recordingId": "https://commons.wikimedia.org/wiki/File:Roosevelt_Infamy.ogg",
+        "listeningStatus": "pending"
+      },
+      "qualityReasons": [
+        "المصدر الذي اختاره البناء Americanism تسجيل مختلف عن خطاب بيرل هاربر. استُبدل بمقتطف Roosevelt Infamy، مع مراعاة ترخيص نسخة W. Guy Finley CC BY-SA 2.0 وعدم الاكتفاء بوصف الأصل بأنه ملكية عامة.",
+        "لم يُستمع إلى المقتطف النهائي؛ هذه البيئة لا تدعم إدخال الصوت. لا اعتماد آلي أو مراجعة سمعية مدعاة."
+      ]
+    },
+    {
+      "id": "character_voice-easy-0024",
+      "categoryId": "character_voice",
+      "difficulty": "easy",
+      "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+      "answer": "مهاتما غاندي",
+      "acceptedAnswers": [
+        "مهاتما غاندي",
+        "Mahatma Gandhi",
+        "غاندي"
+      ],
+      "hint": "ارتبط نشاطه السياسي بأساليب الاحتجاج السلمي في الهند.",
+      "clues": [],
+      "explanation": "لم يُثبت بعد تسجيل صالح ومرخّص لهذه الشخصية. هذا السؤال معزول ولا يجوز عرضه في المباراة. تفاصيل السبب محفوظة في qualityReasons.",
+      "sources": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "جواهر لال نهرو"
+        },
+        {
+          "id": "B",
+          "text": "مهاتما غاندي"
+        },
+        {
+          "id": "C",
+          "text": "سوبهاش شاندرا بوز"
+        },
+        {
+          "id": "D",
+          "text": "سردار باتيل"
+        },
+        {
+          "id": "E",
+          "text": "محمد علي جناح"
+        },
+        {
+          "id": "F",
+          "text": "رابندرانات طاغور"
+        }
+      ],
+      "correctOptionId": "B",
+      "qualityStatus": "quarantined",
+      "usageId": "87417652346682853354732705764482283495",
+      "qualityReasons": [
+        "Mahatma Gandhi voice.ogg وGandhi - Spiritual Message.ogg غير مثبتين. عثرت على M. K. Gandhi speech IARC.oga لعام 1947، لكن وسم PD-India لا يثبت وحده حقوق التسجيل في بقية النطاقات؛ لم أُنزله أو أزعم أنه تسجيل لندن 1931.",
+        "لم يُستمع إلى المقتطف النهائي؛ هذه البيئة لا تدعم إدخال الصوت. لا اعتماد آلي أو مراجعة سمعية مدعاة."
+      ]
+    },
+    {
+      "id": "character_voice-easy-0025",
+      "categoryId": "character_voice",
+      "difficulty": "easy",
+      "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+      "answer": "يوري غاغارين",
+      "acceptedAnswers": [
+        "يوري غاغارين",
+        "Yuri Gagarin",
+        "غاغارين"
+      ],
+      "hint": "من رواد المرحلة الأولى لاستكشاف الفضاء في الاتحاد السوفيتي.",
+      "clues": [],
+      "explanation": "لم يُثبت بعد تسجيل صالح ومرخّص لهذه الشخصية. هذا السؤال معزول ولا يجوز عرضه في المباراة. تفاصيل السبب محفوظة في qualityReasons.",
+      "sources": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "يوري غاغارين"
+        },
+        {
+          "id": "B",
+          "text": "غيرمان تيتوف"
+        },
+        {
+          "id": "C",
+          "text": "أليكسي ليونوف"
+        },
+        {
+          "id": "D",
+          "text": "سيرجي كوروليف"
+        },
+        {
+          "id": "E",
+          "text": "فالنتينا تيريشكوفا"
+        },
+        {
+          "id": "F",
+          "text": "فلاديمير كوماروف"
+        }
+      ],
+      "correctOptionId": "A",
+      "qualityStatus": "quarantined",
+      "usageId": "114967081543539106236267611797684661333",
+      "qualityReasons": [
+        "Poyekhali!.ogg والعنوان الذي استعمله البناء مفقودان؛ البديل الفعلي Gagarin-Poyekhali.ogg موصوف بصوت غاغارين لكنه يعتمد PD other reasons ومصدر يوتيوب. يلزم إثبات حقوق وتفريغ أفضل؛ لا أتعامل مع وسم Soviet Space Archives كرخصة.",
+        "لم يُستمع إلى المقتطف النهائي؛ هذه البيئة لا تدعم إدخال الصوت. لا اعتماد آلي أو مراجعة سمعية مدعاة."
+      ]
+    },
+    {
+      "id": "character_voice-medium-0001",
+      "categoryId": "character_voice",
+      "difficulty": "medium",
+      "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+      "answer": "د. طه حسين",
+      "acceptedAnswers": [
+        "طه حسين",
+        "عميد الأدب العربي",
+        "الدكتور طه حسين",
+        "د. طه حسين (عميد الأدب العربي)"
+      ],
+      "hint": "أديب وناقد مصري شارك في النقاش الثقافي والفكري خلال القرن العشرين.",
+      "clues": [],
+      "explanation": "تعذر إثبات أن التسجيل المرفق يعود إلى د. طه حسين من مصدر صوتي موثق يسمح بإعادة استخدامه؛ ليس سؤالًا معتمدًا، ولا يجوز تشغيله أو نسبته إليه قبل استكمال الإثبات والمراجعة السمعية.",
+      "sources": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "أحمد لطفي السيد"
+        },
+        {
+          "id": "B",
+          "text": "د. طه حسين"
+        },
+        {
+          "id": "C",
+          "text": "د. زكي مبارك"
+        },
+        {
+          "id": "D",
+          "text": "سلامة موسى"
+        },
+        {
+          "id": "E",
+          "text": "عباس محمود العقاد"
+        },
+        {
+          "id": "F",
+          "text": "مصطفى صادق الرافعي"
+        }
+      ],
+      "correctOptionId": "B",
+      "qualityStatus": "quarantined",
+      "usageId": "158427145251886373055589853066803508593",
+      "qualityReasons": [
+        "طه حسين: المصدر المزعوم للخطابات لا يثبت صوتًا أصليًا أو رخصة. وجود كتب أو قراءة صوتية لكتاب له لا يجعل القارئ طه حسين. النص نفسه يذكر لقبه الشهير فيفسد التعرف على الصوت."
+      ]
+    },
+    {
+      "id": "character_voice-medium-0002",
+      "categoryId": "character_voice",
+      "difficulty": "medium",
+      "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+      "answer": "الحبيب بورقيبة",
+      "acceptedAnswers": [
+        "بورقيبة",
+        "الحبيب بورقيبه",
+        "الرئيس الحبيب بورقيبة"
+      ],
+      "hint": "شخصية سياسية تونسية عاصرت الانتقال من الاستعمار إلى بناء الدولة.",
+      "clues": [],
+      "explanation": "تعذر إثبات أن التسجيل المرفق يعود إلى الحبيب بورقيبة من مصدر صوتي موثق يسمح بإعادة استخدامه؛ ليس سؤالًا معتمدًا، ولا يجوز تشغيله أو نسبته إليه قبل استكمال الإثبات والمراجعة السمعية.",
+      "sources": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "صالح بن يوسف"
+        },
+        {
+          "id": "B",
+          "text": "عبد العزيز الثعالبي"
+        },
+        {
+          "id": "C",
+          "text": "زين العابدين بن علي"
+        },
+        {
+          "id": "D",
+          "text": "الباهي الأدغم"
+        },
+        {
+          "id": "E",
+          "text": "الحبيب بورقيبة"
+        },
+        {
+          "id": "F",
+          "text": "الهادي نويرة"
+        }
+      ],
+      "correctOptionId": "E",
+      "qualityStatus": "quarantined",
+      "usageId": "79690049677861111113596068024686825424",
+      "qualityReasons": [
+        "بورقيبة: استبعدت رابط خطاب الأرشيف غير الموثق. يوجد بديل حقيقي مرخص CC BY 3.0 لمكتبة ريغان بتاريخ 18 يونيو 1985، لكن المصدر الأولي يقول إنه يتكلم الفرنسية ثم يترجم مترجم؛ لم أثبت نقطة قص بصوت بورقيبة نفسه، فلا أستبدل به الملف الحالي عشوائيًا."
+      ]
+    },
+    {
+      "id": "character_voice-medium-0003",
+      "categoryId": "character_voice",
+      "difficulty": "medium",
+      "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+      "answer": "الشيخ عبد الباسط عبد الصمد",
+      "acceptedAnswers": [
+        "عبد الباسط عبد الصمد",
+        "عبدالباسط عبدالصمد",
+        "الشيخ عبد الباسط",
+        "عبد الباسط"
+      ],
+      "hint": "أحد قراء القرآن المصريين الذين اشتهروا عبر التسجيلات والإذاعة.",
+      "clues": [],
+      "explanation": "تعذر إثبات أن التسجيل المرفق يعود إلى الشيخ عبد الباسط عبد الصمد من مصدر صوتي موثق يسمح بإعادة استخدامه؛ ليس سؤالًا معتمدًا، ولا يجوز تشغيله أو نسبته إليه قبل استكمال الإثبات والمراجعة السمعية.",
+      "sources": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "الشيخ عبد الباسط عبد الصمد"
+        },
+        {
+          "id": "B",
+          "text": "الشيخ محمد رفعت"
+        },
+        {
+          "id": "C",
+          "text": "الشيخ محمود خليل الحصري"
+        },
+        {
+          "id": "D",
+          "text": "الشيخ صديق المنشاوي"
+        },
+        {
+          "id": "E",
+          "text": "الشيخ مصطفى إسماعيل"
+        },
+        {
+          "id": "F",
+          "text": "الشيخ محمود علي البنا"
+        }
+      ],
+      "correctOptionId": "A",
+      "qualityStatus": "quarantined",
+      "usageId": "94197451845870691653563632388524545071",
+      "qualityReasons": [
+        "عبد الباسط: أداة التجهيز تشير إلى تلاوة الفاتحة، بينما السؤال يدعي لقاء إذاعيًا وحديثًا نثريًا. لم يثبت مصدر اللقاء أو حق تسجيله؛ لا أعتمد التلاوة وكأنها المقابلة الموصوفة."
+      ]
+    },
+    {
+      "id": "character_voice-medium-0004",
+      "categoryId": "character_voice",
+      "difficulty": "medium",
+      "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+      "answer": "د. غازي القصيبي",
+      "acceptedAnswers": [
+        "غازي القصيبي",
+        "غازي القصيبى",
+        "القصيبي",
+        "دكتور غازي القصيبي"
+      ],
+      "hint": "أديب سعودي جمع بين الكتابة والعمل في مؤسسات الدولة.",
+      "clues": [],
+      "explanation": "تعذر إثبات أن التسجيل المرفق يعود إلى د. غازي القصيبي من مصدر صوتي موثق يسمح بإعادة استخدامه؛ ليس سؤالًا معتمدًا، ولا يجوز تشغيله أو نسبته إليه قبل استكمال الإثبات والمراجعة السمعية.",
+      "sources": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "د. عبد العزيز الخويطر"
+        },
+        {
+          "id": "B",
+          "text": "محمد عبده يماني"
+        },
+        {
+          "id": "C",
+          "text": "عبد الله بن خميس"
+        },
+        {
+          "id": "D",
+          "text": "حمد الجاسر"
+        },
+        {
+          "id": "E",
+          "text": "تركي الحمد"
+        },
+        {
+          "id": "F",
+          "text": "د. غازي القصيبي"
+        }
+      ],
+      "correctOptionId": "F",
+      "qualityStatus": "quarantined",
+      "usageId": "162337899605808292835803026716258433911",
+      "qualityReasons": [
+        "غازي القصيبي: لا تسجيل أو حدث أو تفريغ أو ترخيص محدد يدعم رابط الندوات العام. العنوان والتلميح يسردان مؤلفاته ويجعلان سؤال الصوت سؤال سيرة، ولا يصلح ذلك لتعويض غياب صوت أصلي موثق."
+      ]
+    },
+    {
+      "id": "character_voice-medium-0005",
+      "categoryId": "character_voice",
+      "difficulty": "medium",
+      "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+      "answer": "د. مجدي يعقوب",
+      "acceptedAnswers": [
+        "مجدي يعقوب",
+        "مجدى يعقوب",
+        "سير مجدي يعقوب",
+        "دكتور مجدي يعقوب"
+      ],
+      "hint": "طبيب مصري امتدت خبرته ومشروعاته إلى خارج مصر.",
+      "clues": [],
+      "explanation": "تعذر إثبات أن التسجيل المرفق يعود إلى د. مجدي يعقوب من مصدر صوتي موثق يسمح بإعادة استخدامه؛ ليس سؤالًا معتمدًا، ولا يجوز تشغيله أو نسبته إليه قبل استكمال الإثبات والمراجعة السمعية.",
+      "sources": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "د. محمد غنيم"
+        },
+        {
+          "id": "B",
+          "text": "د. يحيى الرخاوي"
+        },
+        {
+          "id": "C",
+          "text": "د. هاني عازر"
+        },
+        {
+          "id": "D",
+          "text": "د. مجدي يعقوب"
+        },
+        {
+          "id": "E",
+          "text": "د. أحمد عكاشة"
+        },
+        {
+          "id": "F",
+          "text": "د. إبراهيم بدران"
+        }
+      ],
+      "correctOptionId": "D",
+      "qualityStatus": "quarantined",
+      "usageId": "5668739587723747913677017364099912372",
+      "qualityReasons": [
+        "مجدي يعقوب: لم يثبت أن الملف مقابلة له عن الأطفال، ولا من مالك التسجيل أو رخصته. اللقاء التوعوي العام ليس ترخيصًا لإعادة توزيع تسجيل جهة أخرى."
+      ]
+    },
+    {
+      "id": "character_voice-medium-0006",
+      "categoryId": "character_voice",
+      "difficulty": "medium",
+      "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+      "answer": "د. فاروق الباز",
+      "acceptedAnswers": [
+        "فاروق الباز",
+        "دكتور فاروق الباز",
+        "الباز"
+      ],
+      "hint": "عالم مصري ارتبط جزء من عمله بمؤسسات بحثية أمريكية.",
+      "clues": [],
+      "explanation": "تعذر إثبات أن التسجيل المرفق يعود إلى د. فاروق الباز من مصدر صوتي موثق يسمح بإعادة استخدامه؛ ليس سؤالًا معتمدًا، ولا يجوز تشغيله أو نسبته إليه قبل استكمال الإثبات والمراجعة السمعية.",
+      "sources": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "د. عصام حجي"
+        },
+        {
+          "id": "B",
+          "text": "د. أحمد زويل"
+        },
+        {
+          "id": "C",
+          "text": "د. فاروق الباز"
+        },
+        {
+          "id": "D",
+          "text": "د. رشدي سعيد"
+        },
+        {
+          "id": "E",
+          "text": "د. مصطفى السيد"
+        },
+        {
+          "id": "F",
+          "text": "د. منير نايفة"
+        }
+      ],
+      "correctOptionId": "C",
+      "qualityStatus": "quarantined",
+      "usageId": "167404926139973539953965554193988547066",
+      "qualityReasons": [
+        "فاروق الباز: ذكر NASA في خانة الحقوق لا يثبت أن هذه المقابلة من إنتاج الوكالة أو أن حقوق الصوت للشخص والمنتج واضحة. رابط عام بلا ملف أو تاريخ أو قص، وبعض الخيارات خارج تخصصه فتضعف المنافسة."
+      ]
+    },
+    {
+      "id": "character_voice-medium-0007",
+      "categoryId": "character_voice",
+      "difficulty": "medium",
+      "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+      "answer": "عباس محمود العقاد",
+      "acceptedAnswers": [
+        "عباس العقاد",
+        "العقاد",
+        "عباس محمود العقّاد"
+      ],
+      "hint": "كاتب مصري جمع بين الأدب والنقد والبحث الفكري.",
+      "clues": [],
+      "explanation": "تعذر إثبات أن التسجيل المرفق يعود إلى عباس محمود العقاد من مصدر صوتي موثق يسمح بإعادة استخدامه؛ ليس سؤالًا معتمدًا، ولا يجوز تشغيله أو نسبته إليه قبل استكمال الإثبات والمراجعة السمعية.",
+      "sources": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "مصطفى صادق الرافعي"
+        },
+        {
+          "id": "B",
+          "text": "زكي مبارك"
+        },
+        {
+          "id": "C",
+          "text": "إبراهيم عبد القادر المازني"
+        },
+        {
+          "id": "D",
+          "text": "محمد حسين هيكل"
+        },
+        {
+          "id": "E",
+          "text": "أحمد حسن الزيات"
+        },
+        {
+          "id": "F",
+          "text": "عباس محمود العقاد"
+        }
+      ],
+      "correctOptionId": "F",
+      "qualityStatus": "quarantined",
+      "usageId": "110575488862828938602613189344396714048",
+      "qualityReasons": [
+        "العقاد: لم يثبت لقاء العقل وحرية التفكير الموصوف أو تاريخ إذاعته أو صاحب الحق. وصف أرشيف الإذاعة الكلاسيكي لا يثبت الملك العام، وملف عتيق المظهر قد يكون لقارئ لاحق."
+      ]
+    },
+    {
+      "id": "character_voice-medium-0008",
+      "categoryId": "character_voice",
+      "difficulty": "medium",
+      "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+      "answer": "الملك عبد الله الأول بن الحسين",
+      "acceptedAnswers": [
+        "عبد الله الأول",
+        "الملك عبد الله الأول بن الحسين",
+        "الملك عبدالله الاول"
+      ],
+      "hint": "شخصية هاشمية شاركت في الحياة السياسية العربية في النصف الأول من القرن العشرين.",
+      "clues": [],
+      "explanation": "تعذر إثبات أن التسجيل المرفق يعود إلى الملك عبد الله الأول بن الحسين من مصدر صوتي موثق يسمح بإعادة استخدامه؛ ليس سؤالًا معتمدًا، ولا يجوز تشغيله أو نسبته إليه قبل استكمال الإثبات والمراجعة السمعية.",
+      "sources": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "الملك فيصل الأول"
+        },
+        {
+          "id": "B",
+          "text": "الملك علي بن الحسين"
+        },
+        {
+          "id": "C",
+          "text": "الملك طلال بن عبد الله"
+        },
+        {
+          "id": "D",
+          "text": "الملك عبد الله الأول بن الحسين"
+        },
+        {
+          "id": "E",
+          "text": "الأمير زيد بن الحسين"
+        },
+        {
+          "id": "F",
+          "text": "الملك غازي الأول"
+        }
+      ],
+      "correctOptionId": "D",
+      "qualityStatus": "quarantined",
+      "usageId": "125146813169521749863945737845219842124",
+      "qualityReasons": [
+        "عبد الله الأول: لا مصدر أولي لخطاب مسموع أو حق ملف محدد. لا تطبق رخص الصور الأردنية على تسجيل ملكي لمجرد قدمه، ولم يثبت المتكلم أو نص القص."
+      ]
+    },
+    {
+      "id": "character_voice-medium-0009",
+      "categoryId": "character_voice",
+      "difficulty": "medium",
+      "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+      "answer": "محمد الفيتوري",
+      "acceptedAnswers": [
+        "الفيتوري",
+        "محمد مفتاح الفيتوري",
+        "الشاعر محمد الفيتوري"
+      ],
+      "hint": "شاعر سوداني تناولت أعماله الحرية والهوية وتجارب إفريقيا.",
+      "clues": [],
+      "explanation": "تعذر إثبات أن التسجيل المرفق يعود إلى محمد الفيتوري من مصدر صوتي موثق يسمح بإعادة استخدامه؛ ليس سؤالًا معتمدًا، ولا يجوز تشغيله أو نسبته إليه قبل استكمال الإثبات والمراجعة السمعية.",
+      "sources": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "محمد المهدي المجذوب"
+        },
+        {
+          "id": "B",
+          "text": "صلاح أحمد إبراهيم"
+        },
+        {
+          "id": "C",
+          "text": "محمد الفيتوري"
+        },
+        {
+          "id": "D",
+          "text": "التجاني يوسف بشير"
+        },
+        {
+          "id": "E",
+          "text": "محيي الدين فارس"
+        },
+        {
+          "id": "F",
+          "text": "جيلي عبد الرحمن"
+        }
+      ],
+      "correctOptionId": "C",
+      "qualityStatus": "quarantined",
+      "usageId": "156280845160722263795052193620064562091",
+      "qualityReasons": [
+        "محمد الفيتوري: لا تسجيل موثق له وهو يلقي أصبح الصبح. وجود قصيدة من تأليفه أو أداء غنائي لها ليس صوته؛ لا رخصة محددة للأداء الصوتي الحالي."
+      ]
+    },
+    {
+      "id": "character_voice-medium-0010",
+      "categoryId": "character_voice",
+      "difficulty": "medium",
+      "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+      "answer": "هواري بومدين",
+      "acceptedAnswers": [
+        "بومدين",
+        "هواري بومدين (محمد بوخروبة)",
+        "الرئيس هواري بومدين"
+      ],
+      "hint": "شخصية جزائرية ارتبطت بتاريخ الاستقلال وبناء الدولة.",
+      "clues": [],
+      "explanation": "تعذر إثبات أن التسجيل المرفق يعود إلى هواري بومدين من مصدر صوتي موثق يسمح بإعادة استخدامه؛ ليس سؤالًا معتمدًا، ولا يجوز تشغيله أو نسبته إليه قبل استكمال الإثبات والمراجعة السمعية.",
+      "sources": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "أحمد بن بلة"
+        },
+        {
+          "id": "B",
+          "text": "هواري بومدين"
+        },
+        {
+          "id": "C",
+          "text": "الشاذلي بن جديد"
+        },
+        {
+          "id": "D",
+          "text": "محمد بوضياف"
+        },
+        {
+          "id": "E",
+          "text": "عبد العزيز بوتفليقة"
+        },
+        {
+          "id": "F",
+          "text": "مصطفى بن بولعيد"
+        }
+      ],
+      "correctOptionId": "B",
+      "qualityStatus": "quarantined",
+      "usageId": "104225818787911439258749676055212725514",
+      "qualityReasons": [
+        "هواري بومدين: الخطاب المنسوب للأمم المتحدة 1974 غير مرتبط بملف وتوقيت موثقين؛ الأمم المتحدة والتلفزيون الجزائري لا يعنيان الملك العام. لا يوجد تصريح إعادة توزيع مطابق لهذا الملف."
+      ]
+    },
+    {
+      "id": "character_voice-medium-0011",
+      "categoryId": "character_voice",
+      "difficulty": "medium",
+      "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+      "answer": "الطيب صالح",
+      "acceptedAnswers": [
+        "الطيب صالح",
+        "الطيب صالح أحمد"
+      ],
+      "hint": "روائي عربي كتب عن علاقة الإنسان ببيئته وتحولات مجتمعه.",
+      "clues": [],
+      "explanation": "تعذر إثبات أن التسجيل المرفق يعود إلى الطيب صالح من مصدر صوتي موثق يسمح بإعادة استخدامه؛ ليس سؤالًا معتمدًا، ولا يجوز تشغيله أو نسبته إليه قبل استكمال الإثبات والمراجعة السمعية.",
+      "sources": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "الطيب صالح"
+        },
+        {
+          "id": "B",
+          "text": "عبد الرحمن منيف"
+        },
+        {
+          "id": "C",
+          "text": "إبراهيم الكوني"
+        },
+        {
+          "id": "D",
+          "text": "واسيني الأعرج"
+        },
+        {
+          "id": "E",
+          "text": "جمال الغيطاني"
+        },
+        {
+          "id": "F",
+          "text": "بهاء طاهر"
+        }
+      ],
+      "correctOptionId": "A",
+      "qualityStatus": "quarantined",
+      "usageId": "88744176026339602309394663172528068657",
+      "qualityReasons": [
+        "الطيب صالح: مصدر BBC المنسوب ليس ترخيص CC محددًا ولا رابط ملف يثبت المقابلة. نص السؤال يسمي الرواية المميزة فيكشف الهوية قبل الصوت؛ لا يمكن إصلاح غياب تسجيله بصوت قارئ للرواية."
+      ]
+    },
+    {
+      "id": "character_voice-medium-0012",
+      "categoryId": "character_voice",
+      "difficulty": "medium",
+      "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+      "answer": "الشيخ أحمد ديدات",
+      "acceptedAnswers": [
+        "أحمد ديدات",
+        "احمد ديدات",
+        "ديدات",
+        "الشيخ ديدات"
+      ],
+      "hint": "داعية اهتم بالحوار ومقارنة الأديان وخاطب جمهورًا خارج بلده.",
+      "clues": [],
+      "explanation": "تعذر إثبات أن التسجيل المرفق يعود إلى الشيخ أحمد ديدات من مصدر صوتي موثق يسمح بإعادة استخدامه؛ ليس سؤالًا معتمدًا، ولا يجوز تشغيله أو نسبته إليه قبل استكمال الإثبات والمراجعة السمعية.",
+      "sources": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "د. ذاكر نايك"
+        },
+        {
+          "id": "B",
+          "text": "د. محمد عمارة"
+        },
+        {
+          "id": "C",
+          "text": "الشيخ يوسف القرضاوي"
+        },
+        {
+          "id": "D",
+          "text": "د. عبد الصبور مرزوق"
+        },
+        {
+          "id": "E",
+          "text": "الشيخ أحمد ديدات"
+        },
+        {
+          "id": "F",
+          "text": "الشيخ محمد الغزالي"
+        }
+      ],
+      "correctOptionId": "E",
+      "qualityStatus": "quarantined",
+      "usageId": "145602203251814820173050681168200520444",
+      "qualityReasons": [
+        "أحمد ديدات: أداة التجهيز تقصد محاضرة نيروبي الإنجليزية، بينما السؤال يدعي كلمات موجهة للعالم العربي بمصدر آخر. لم يثبت ترخيص إعادة التوزيع؛ مجانية المحاضرة لا تكفي، وتفسير اللغة والسياق غير موثق."
+      ]
+    },
+    {
+      "id": "character_voice-medium-0013",
+      "categoryId": "character_voice",
+      "difficulty": "medium",
+      "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+      "answer": "بابا شارو (محمد محمود شعبان)",
+      "acceptedAnswers": [
+        "بابا شارو",
+        "محمد محمود شعبان",
+        "الإذاعي محمد محمود شعبان"
+      ],
+      "hint": "صوت من أصوات الإذاعة المصرية التي خاطبت العائلة والمستمعين الصغار.",
+      "clues": [],
+      "explanation": "تعذر إثبات أن التسجيل المرفق يعود إلى بابا شارو (محمد محمود شعبان) من مصدر صوتي موثق يسمح بإعادة استخدامه؛ ليس سؤالًا معتمدًا، ولا يجوز تشغيله أو نسبته إليه قبل استكمال الإثبات والمراجعة السمعية.",
+      "sources": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "أحمد طاهر"
+        },
+        {
+          "id": "B",
+          "text": "وجدي الحكيم"
+        },
+        {
+          "id": "C",
+          "text": "طاهر أبو زيد"
+        },
+        {
+          "id": "D",
+          "text": "أبلة فضيلة"
+        },
+        {
+          "id": "E",
+          "text": "بابا شارو (محمد محمود شعبان)"
+        },
+        {
+          "id": "F",
+          "text": "فهمي عمر"
+        }
+      ],
+      "correctOptionId": "E",
+      "qualityStatus": "quarantined",
+      "usageId": "44790708602342323277409778436584231929",
+      "qualityReasons": [
+        "بابا شارو: لا حلقة أو مقطع أصلي أو سنة ورخصة يمكن تتبعها. لا أعتمد تسجيل مقلد أو مقدم إذاعي آخر بدلاً منه؛ التلميح يذكر اسم البرنامج المطابق للإجابة."
+      ]
+    },
+    {
+      "id": "character_voice-medium-0014",
+      "categoryId": "character_voice",
+      "difficulty": "medium",
+      "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+      "answer": "روبرت أوبنهايمر",
+      "acceptedAnswers": [
+        "روبرت أوبنهايمر",
+        "J. Robert Oppenheimer",
+        "روبرت اوبنهايمر",
+        "أوبنهايمر"
+      ],
+      "hint": "عمل في أبحاث الأسلحة النووية الأمريكية خلال الحرب العالمية الثانية.",
+      "clues": [],
+      "explanation": "لم يُثبت بعد تسجيل صالح ومرخّص لهذه الشخصية. هذا السؤال معزول ولا يجوز عرضه في المباراة. تفاصيل السبب محفوظة في qualityReasons.",
+      "sources": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "روبرت أوبنهايمر"
+        },
+        {
+          "id": "B",
+          "text": "إنريكو فيرمي"
+        },
+        {
+          "id": "C",
+          "text": "إدوارد تيلر"
+        },
+        {
+          "id": "D",
+          "text": "ريتشارد فاينمان"
+        },
+        {
+          "id": "E",
+          "text": "نيلز بور"
+        },
+        {
+          "id": "F",
+          "text": "إرنست لورنس"
+        }
+      ],
+      "correctOptionId": "A",
+      "qualityStatus": "quarantined",
+      "usageId": "135723672107862505797142458575289538338",
+      "qualityReasons": [
+        "عنوانا Now I am become death غير مثبتين. Robert Oppenheimer.ogg وRobert Oppenheimer intro.ogg هما قراءة مقال ويكيبيديا بصوت Willmcw، لا مقابلة أوبنهايمر. مقابلة NBC ليست ملكية عامة بمجرد أن الموضوع مشروع أمريكي حكومي.",
+        "لم يُستمع إلى المقتطف النهائي؛ هذه البيئة لا تدعم إدخال الصوت. لا اعتماد آلي أو مراجعة سمعية مدعاة."
+      ]
+    },
+    {
+      "id": "character_voice-medium-0015",
+      "categoryId": "character_voice",
+      "difficulty": "medium",
+      "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+      "answer": "أدولف هتلر",
+      "acceptedAnswers": [
+        "أدولف هتلر",
+        "Adolf Hitler",
+        "ادولف هتلر",
+        "هتلر"
+      ],
+      "hint": "شخصية سياسية أوروبية من فترة الحرب العالمية الثانية.",
+      "clues": [],
+      "explanation": "لم يُثبت بعد تسجيل صالح ومرخّص لهذه الشخصية. هذا السؤال معزول ولا يجوز عرضه في المباراة. تفاصيل السبب محفوظة في qualityReasons.",
+      "sources": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "يوزف غوبلز"
+        },
+        {
+          "id": "B",
+          "text": "هاينريش هيملر"
+        },
+        {
+          "id": "C",
+          "text": "هيرمان غورينغ"
+        },
+        {
+          "id": "D",
+          "text": "أدولف هتلر"
+        },
+        {
+          "id": "E",
+          "text": "بينيتو موسوليني"
+        },
+        {
+          "id": "F",
+          "text": "فرانكو"
+        }
+      ],
+      "correctOptionId": "D",
+      "qualityStatus": "quarantined",
+      "usageId": "84646487601070870614335172041934942246",
+      "qualityReasons": [
+        "المصدر الموجود Adolf Hitler’s last speech.ogg يؤرخ 30 يناير 1945 لا محادثة فنلندا 1942. صفحة الملف تستخدم PD-1996 مع تحذير صريح أن الوسم لا يستخدم للتسجيلات الصوتية؛ لا أعتمد حقوقه، ولا أستبدل سياق السؤال أو أنسبه إلى YLE.",
+        "لم يُستمع إلى المقتطف النهائي؛ هذه البيئة لا تدعم إدخال الصوت. لا اعتماد آلي أو مراجعة سمعية مدعاة."
+      ]
+    },
+    {
+      "id": "character_voice-medium-0016",
+      "categoryId": "character_voice",
+      "difficulty": "medium",
+      "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+      "answer": "شارل ديغول",
+      "acceptedAnswers": [
+        "شارل ديغول",
+        "Charles de Gaulle",
+        "ديغول"
+      ],
+      "hint": "شخصية سياسية فرنسية ذات خلفية عسكرية.",
+      "clues": [],
+      "explanation": "لم يُثبت بعد تسجيل صالح ومرخّص لهذه الشخصية. هذا السؤال معزول ولا يجوز عرضه في المباراة. تفاصيل السبب محفوظة في qualityReasons.",
+      "sources": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "فيليب بيتان"
+        },
+        {
+          "id": "B",
+          "text": "فرانسوا ميتران"
+        },
+        {
+          "id": "C",
+          "text": "شارل ديغول"
+        },
+        {
+          "id": "D",
+          "text": "جورج بومبيدو"
+        },
+        {
+          "id": "E",
+          "text": "جان مولان"
+        },
+        {
+          "id": "F",
+          "text": "بيير منديس فرانس"
+        }
+      ],
+      "correctOptionId": "C",
+      "qualityStatus": "quarantined",
+      "usageId": "167217563510840989825508995610099510248",
+      "qualityReasons": [
+        "مرجعا Appel du 18 juin 1940 غير مثبتين. لا يجوز تحويل نداء 18 يونيو غير المسجل إلى مقطع صوتي مصطنع أو نسب تسجيل 22 يونيو إليه. يلزم مصدر فعلي مؤرخ ومرخص لديغول.",
+        "لم يُستمع إلى المقتطف النهائي؛ هذه البيئة لا تدعم إدخال الصوت. لا اعتماد آلي أو مراجعة سمعية مدعاة."
+      ]
+    },
+    {
+      "id": "character_voice-medium-0017",
+      "categoryId": "character_voice",
+      "difficulty": "medium",
+      "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+      "answer": "توماس إديسون",
+      "acceptedAnswers": [
+        "توماس إديسون",
+        "Thomas Edison",
+        "توماس اديسون",
+        "إديسون"
+      ],
+      "hint": "من الرواد الذين جمعوا بين التجريب الكهربائي وتقنيات الاتصال أو تسجيل الصوت.",
+      "clues": [],
+      "explanation": "لم يُثبت بعد تسجيل صالح ومرخّص لهذه الشخصية. هذا السؤال معزول ولا يجوز عرضه في المباراة. تفاصيل السبب محفوظة في qualityReasons.",
+      "sources": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "نيكولا تسلا"
+        },
+        {
+          "id": "B",
+          "text": "جورج ويستنغهاوس"
+        },
+        {
+          "id": "C",
+          "text": "ألكسندر غراهام بل"
+        },
+        {
+          "id": "D",
+          "text": "غوغلييلمو ماركوني"
+        },
+        {
+          "id": "E",
+          "text": "صمويل مورس"
+        },
+        {
+          "id": "F",
+          "text": "توماس إديسون"
+        }
+      ],
+      "correctOptionId": "F",
+      "qualityStatus": "quarantined",
+      "usageId": "100197986056072621097138430273987835651",
+      "qualityReasons": [
+        "البناء ربط إديسون بقراءة Wikiquote أنجزها Bookkeeper في 2008. عثرت على Thomas Edison Mary had lamb.ogg: الصفحة تنص على إعادة أداء عام 1927 لواقعة 1877، لا التسجيل الأول الأصلي. لم أنسخها دون حسم أساس ترخيص الصوت، ولا أنسب قراءة Bookkeeper لإديسون.",
+        "لم يُستمع إلى المقتطف النهائي؛ هذه البيئة لا تدعم إدخال الصوت. لا اعتماد آلي أو مراجعة سمعية مدعاة."
+      ]
+    },
+    {
+      "id": "character_voice-medium-0018",
+      "categoryId": "character_voice",
+      "difficulty": "medium",
+      "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+      "answer": "ألكسندر غراهام بل",
+      "acceptedAnswers": [
+        "ألكسندر غراهام بل",
+        "Alexander Graham Bell",
+        "الكسندر غراهام بل",
+        "بل"
+      ],
+      "hint": "من مخترعي تقنيات نقل الصوت في القرن التاسع عشر.",
+      "clues": [],
+      "explanation": "لم يُثبت بعد تسجيل صالح ومرخّص لهذه الشخصية. هذا السؤال معزول ولا يجوز عرضه في المباراة. تفاصيل السبب محفوظة في qualityReasons.",
+      "sources": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "إليشا غراي"
+        },
+        {
+          "id": "B",
+          "text": "ألكسندر غراهام بل"
+        },
+        {
+          "id": "C",
+          "text": "أنطونيو ميوتشي"
+        },
+        {
+          "id": "D",
+          "text": "هاينريش هيرتز"
+        },
+        {
+          "id": "E",
+          "text": "صمويل مورس"
+        },
+        {
+          "id": "F",
+          "text": "توماس إديسون"
+        }
+      ],
+      "correctOptionId": "B",
+      "qualityStatus": "quarantined",
+      "usageId": "150259839555947463013652346123799208366",
+      "qualityReasons": [
+        "المصدر الحقيقي (1885) Alexander Graham Bell Recording (RESTORED).ogg موصوف بأنه بل يعد أرقامًا؛ المرجع الحالي AlexanderGrahamBell’sVoice غير موجود. الترميم وعد الأرقام وعبارة الاسم النهائية تحتاج تفريغًا وتوقيتًا قبل قص سليم؛ سُحب الادعاء بأنه التسجيل الوحيد على إطلاقه.",
+        "لم يُستمع إلى المقتطف النهائي؛ هذه البيئة لا تدعم إدخال الصوت. لا اعتماد آلي أو مراجعة سمعية مدعاة."
+      ]
+    },
+    {
+      "id": "character_voice-medium-0019",
+      "categoryId": "character_voice",
+      "difficulty": "medium",
+      "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+      "answer": "ريتشارد نيكسون",
+      "acceptedAnswers": [
+        "ريتشارد نيكسون",
+        "Richard Nixon",
+        "نيكسون"
+      ],
+      "hint": "تولى الرئاسة الأمريكية خلال سبعينيات القرن العشرين.",
+      "clues": [],
+      "explanation": "ريتشارد نيكسون يعلن مساء 8 أغسطس 1974 استقالته النافذة ظهر اليوم التالي. استُبدلت إحالته القديمة إلى إعلان انتخابي لعام 1960.",
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File:Nixon_Resign.ogg",
+        "https://commons.wikimedia.org/wiki/TimedText:Nixon_Resign.ogg.en.srt"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "ليندون جونسون"
+        },
+        {
+          "id": "B",
+          "text": "جيرالد فورد"
+        },
+        {
+          "id": "C",
+          "text": "ريتشارد نيكسون"
+        },
+        {
+          "id": "D",
+          "text": "سبيرو أغنيو"
+        },
+        {
+          "id": "E",
+          "text": "رونالد ريغان"
+        },
+        {
+          "id": "F",
+          "text": "جورج بوش الأب"
+        }
+      ],
+      "correctOptionId": "C",
+      "qualityStatus": "quarantined",
+      "usageId": "149180061000886065828219886009668635608",
+      "audio": {
+        "assetPath": "assets/question_audio/voice-068.mp3",
+        "durationMs": 7150,
+        "attribution": "Richard Nixon / MSU Vincent Voice Library; cleanup and selection by W. Guy Finley. Excerpt and MP3 conversion under CC BY-SA 2.0.",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nixon_Resign.ogg",
+        "license": "CC BY-SA 2.0 Generic — W. Guy Finley cleanup/section of original public-domain recording; excerpt CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "sourceStartMs": 800,
+        "sourceEndMs": 7950,
+        "transcript": "Therefore I shall resign the presidency effective at noon tomorrow.",
+        "reviewStatus": "sourceVerified",
+        "speaker": "ريتشارد نيكسون",
+        "recordingId": "https://commons.wikimedia.org/wiki/File:Nixon_Resign.ogg",
+        "listeningStatus": "pending"
+      },
+      "qualityReasons": [
+        "أُلغي إسناد إعلان انتخابي 1960 إلى الاستقالة. مصدر Nixon Resign هو مقطع الاستقالة الفعلي بتفريغ مؤقت 1–7.8 ثانية وترخيص تعديل W. Guy Finley CC BY-SA 2.0. لم تُعتمد أي دعوى أن مجرد إعلان انتخابي عمل حكومي.",
+        "لم يُستمع إلى المقتطف النهائي؛ هذه البيئة لا تدعم إدخال الصوت. لا اعتماد آلي أو مراجعة سمعية مدعاة."
+      ]
+    },
+    {
+      "id": "character_voice-medium-0020",
+      "categoryId": "character_voice",
+      "difficulty": "medium",
+      "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+      "answer": "مارغريت تاتشر",
+      "acceptedAnswers": [
+        "مارغريت تاتشر",
+        "Margaret Thatcher",
+        "تاتشر"
+      ],
+      "hint": "شخصية بريطانية ظهرت بكثرة في تسجيلات الثمانينيات.",
+      "clues": [],
+      "explanation": "لم يُثبت بعد تسجيل صالح ومرخّص لهذه الشخصية. هذا السؤال معزول ولا يجوز عرضه في المباراة. تفاصيل السبب محفوظة في qualityReasons.",
+      "sources": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "تيريزا ماي"
+        },
+        {
+          "id": "B",
+          "text": "بينظير بوتو"
+        },
+        {
+          "id": "C",
+          "text": "الملكة إليزابيث الثانية"
+        },
+        {
+          "id": "D",
+          "text": "أنديرا غاندي"
+        },
+        {
+          "id": "E",
+          "text": "غولدا مائير"
+        },
+        {
+          "id": "F",
+          "text": "مارغريت تاتشر"
+        }
+      ],
+      "correctOptionId": "F",
+      "qualityStatus": "quarantined",
+      "usageId": "1235404103353889415071921096420867511",
+      "qualityReasons": [
+        "مصدر G7 حقيقي في 9 يونيو 1984، ويحدد أن تاتشر تبدأ عند 1:02؛ قص البناء القديم يبدأ 1 ثانية، فلا يُثبت صوتها. البديل يبدأ 62 ثانية، ويظل التفريغ والاستماع قيد الانتظار. ليس خطاب السيدة لن تتراجع لعام 1980.",
+        "لم يُستمع إلى المقتطف النهائي؛ هذه البيئة لا تدعم إدخال الصوت. لا اعتماد آلي أو مراجعة سمعية مدعاة."
+      ]
+    },
+    {
+      "id": "character_voice-medium-0021",
+      "categoryId": "character_voice",
+      "difficulty": "medium",
+      "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+      "answer": "كارل ساغان",
+      "acceptedAnswers": [
+        "كارل ساغان",
+        "Carl Sagan",
+        "ساغان"
+      ],
+      "hint": "اشتهر بتبسيط علم الفلك والحديث عن مكان الإنسان في الكون.",
+      "clues": [],
+      "explanation": "لم يُثبت بعد تسجيل صالح ومرخّص لهذه الشخصية. هذا السؤال معزول ولا يجوز عرضه في المباراة. تفاصيل السبب محفوظة في qualityReasons.",
+      "sources": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "نيل ديغراس تايسون"
+        },
+        {
+          "id": "B",
+          "text": "كارل ساغان"
+        },
+        {
+          "id": "C",
+          "text": "ستيفن هوكينغ"
+        },
+        {
+          "id": "D",
+          "text": "إدوين هابل"
+        },
+        {
+          "id": "E",
+          "text": "آرثر كلارك"
+        },
+        {
+          "id": "F",
+          "text": "براين غرين"
+        }
+      ],
+      "correctOptionId": "B",
+      "qualityStatus": "quarantined",
+      "usageId": "45379533351634110520974895893304905203",
+      "qualityReasons": [
+        "مرجعا Pale Blue Dot غير مثبتين. صورة فوياجر ملكية عامة لا تجعل قراءة كتاب ساغان أو صوته ملكية عامة. لا تكفي NASA Voyager / Educational Fair Use كرخصة؛ لا يُستبدل بقارئ آلي لمقال ساغان.",
+        "لم يُستمع إلى المقتطف النهائي؛ هذه البيئة لا تدعم إدخال الصوت. لا اعتماد آلي أو مراجعة سمعية مدعاة."
+      ]
+    },
+    {
+      "id": "character_voice-medium-0022",
+      "categoryId": "character_voice",
+      "difficulty": "medium",
+      "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+      "answer": "ستيف جوبز",
+      "acceptedAnswers": [
+        "ستيف جوبز",
+        "Steve Jobs",
+        "جوبز"
+      ],
+      "hint": "من رواد شركات التقنية الأمريكية في عصر الحاسوب الشخصي.",
+      "clues": [],
+      "explanation": "لم يُثبت بعد تسجيل صالح ومرخّص لهذه الشخصية. هذا السؤال معزول ولا يجوز عرضه في المباراة. تفاصيل السبب محفوظة في qualityReasons.",
+      "sources": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "بيل غيتس"
+        },
+        {
+          "id": "B",
+          "text": "إيلون ماسك"
+        },
+        {
+          "id": "C",
+          "text": "ستيف فوزنياك"
+        },
+        {
+          "id": "D",
+          "text": "تيم كوك"
+        },
+        {
+          "id": "E",
+          "text": "ستيف جوبز"
+        },
+        {
+          "id": "F",
+          "text": "مارك زوكربيرغ"
+        }
+      ],
+      "correctOptionId": "E",
+      "qualityStatus": "quarantined",
+      "usageId": "120400075209033208280082891321266929737",
+      "qualityReasons": [
+        "البناء يستخدم Q 2008-02-24 Steve Jobs.ogg: وصف الصفحة Own work وArtist Bookkeeper يبين أنه قارئ اقتباس، لا صوت جوبز. مرجع عرض آيفون الحالي غير مثبت، ولا تُنسب قراءة Quote of the Day إلى مؤتمر Macworld.",
+        "لم يُستمع إلى المقتطف النهائي؛ هذه البيئة لا تدعم إدخال الصوت. لا اعتماد آلي أو مراجعة سمعية مدعاة."
+      ]
+    },
+    {
+      "id": "character_voice-medium-0023",
+      "categoryId": "character_voice",
+      "difficulty": "medium",
+      "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+      "answer": "ريتشارد فاينمان",
+      "acceptedAnswers": [
+        "ريتشارد فاينمان",
+        "Richard Feynman",
+        "فاينمان"
+      ],
+      "hint": "فيزيائي أمريكي نال نوبل، واشتهر أيضًا بالشرح والمحاضرات.",
+      "clues": [],
+      "explanation": "لم يُثبت بعد تسجيل صالح ومرخّص لهذه الشخصية. هذا السؤال معزول ولا يجوز عرضه في المباراة. تفاصيل السبب محفوظة في qualityReasons.",
+      "sources": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "موراي جيل مان"
+        },
+        {
+          "id": "B",
+          "text": "جوليان شوينغر"
+        },
+        {
+          "id": "C",
+          "text": "بول ديراك"
+        },
+        {
+          "id": "D",
+          "text": "ريتشارد فاينمان"
+        },
+        {
+          "id": "E",
+          "text": "هانز بيته"
+        },
+        {
+          "id": "F",
+          "text": "جون ويلر"
+        }
+      ],
+      "correctOptionId": "D",
+      "qualityStatus": "quarantined",
+      "usageId": "56537407515037544874238919906409328310",
+      "qualityReasons": [
+        "لا ملف مثبت للمقابلة المدعاة عن الزهرة؛ نتيجة Commons Q 2008-05-11 Richard Feynman قراءة اقتباس أيضًا. موقع فاينمان الرسمي يطلب التواصل بشأن استخدام أعماله؛ لا دليل على رخصة BBC / CC BY المذكورة.",
+        "لم يُستمع إلى المقتطف النهائي؛ هذه البيئة لا تدعم إدخال الصوت. لا اعتماد آلي أو مراجعة سمعية مدعاة."
+      ]
+    },
+    {
+      "id": "character_voice-medium-0024",
+      "categoryId": "character_voice",
+      "difficulty": "medium",
+      "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+      "answer": "بيليه",
+      "acceptedAnswers": [
+        "بيليه",
+        "Pelé"
+      ],
+      "hint": "نجم برازيلي لعب في كأس العالم خلال القرن العشرين.",
+      "clues": [],
+      "explanation": "لم يُثبت بعد تسجيل صالح ومرخّص لهذه الشخصية. هذا السؤال معزول ولا يجوز عرضه في المباراة. تفاصيل السبب محفوظة في qualityReasons.",
+      "sources": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "بيليه"
+        },
+        {
+          "id": "B",
+          "text": "غارينشيا"
+        },
+        {
+          "id": "C",
+          "text": "زيكو"
+        },
+        {
+          "id": "D",
+          "text": "روماريو"
+        },
+        {
+          "id": "E",
+          "text": "رونالدو نازاريو"
+        },
+        {
+          "id": "F",
+          "text": "سقراط"
+        }
+      ],
+      "correctOptionId": "A",
+      "qualityStatus": "quarantined",
+      "usageId": "72957308731718967314330823100291017473",
+      "qualityReasons": [
+        "مرجع هدف بيليه الألف والعنوان البديل في البناء غير مثبتين. أرشيف إذاعي برازيلي ليس ترخيص ملكية عامة تلقائيًا؛ لا تُنسب قصّة من متحدث آخر إلى بيليه.",
+        "لم يُستمع إلى المقتطف النهائي؛ هذه البيئة لا تدعم إدخال الصوت. لا اعتماد آلي أو مراجعة سمعية مدعاة."
+      ]
+    },
+    {
+      "id": "character_voice-medium-0025",
+      "categoryId": "character_voice",
+      "difficulty": "medium",
+      "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+      "answer": "رونالد ريغان",
+      "acceptedAnswers": [
+        "رونالد ريغان",
+        "Ronald Reagan",
+        "ريغان"
+      ],
+      "hint": "رئيس أمريكي برز خطابه السياسي في الثمانينيات.",
+      "clues": [],
+      "explanation": "رونالد ريغان في نداء «اهدم هذا الجدار» عند بوابة براندنبورغ بتاريخ 12 يونيو 1987. استُبدل المصدر القديم الذي كان خطاب تنصيبه الأول عام 1981.",
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File:Tear_down_this_wall.ogv",
+        "https://commons.wikimedia.org/wiki/TimedText:Tear_down_this_wall.ogv.en.srt"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "جورج بوش الأب"
+        },
+        {
+          "id": "B",
+          "text": "رونالد ريغان"
+        },
+        {
+          "id": "C",
+          "text": "جيمي كارتر"
+        },
+        {
+          "id": "D",
+          "text": "ريتشارد نيكسون"
+        },
+        {
+          "id": "E",
+          "text": "بيل كلينتون"
+        },
+        {
+          "id": "F",
+          "text": "جيرالد فورد"
+        }
+      ],
+      "correctOptionId": "B",
+      "qualityStatus": "quarantined",
+      "usageId": "81604690900334331655953257980527071739",
+      "audio": {
+        "assetPath": "assets/question_audio/voice-074.mp3",
+        "durationMs": 9716,
+        "attribution": "The White House / Ronald Reagan, Brandenburg Gate, Berlin, 12 June 1987. Audio excerpt and MP3 conversion.",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tear_down_this_wall.ogv",
+        "license": "Public domain — official White House recording (PD-USGov)",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Tear_down_this_wall.ogv#Licensing",
+        "sourceStartMs": 710300,
+        "sourceEndMs": 720000,
+        "transcript": "Mr. Gorbachev, tear down this wall!",
+        "reviewStatus": "sourceVerified",
+        "speaker": "رونالد ريغان",
+        "recordingId": "https://commons.wikimedia.org/wiki/File:Tear_down_this_wall.ogv",
+        "listeningStatus": "pending"
+      },
+      "qualityReasons": [
+        "البناء اختار تنصيب ريغان 1981 مع وصفه بأنه خطاب برلين 1987. البديل الحقيقي Tear down this wall من White House وتفريغه يحدد العبارة عند 11:50.498–11:59.595؛ قُص المصدر الصحيح بعد توثيق الحقوق.",
+        "لم يُستمع إلى المقتطف النهائي؛ هذه البيئة لا تدعم إدخال الصوت. لا اعتماد آلي أو مراجعة سمعية مدعاة."
+      ]
+    },
+    {
+      "id": "character_voice-hard-0001",
+      "categoryId": "character_voice",
+      "difficulty": "hard",
+      "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+      "answer": "عمر المختار",
+      "acceptedAnswers": [
+        "عمر المختار",
+        "شيخ الشهداء",
+        "سيدي عمر المختار",
+        "عمر المختار (شيخ الشهداء)"
+      ],
+      "hint": "شخصية من شخصيات المقاومة العربية للاستعمار في النصف الأول من القرن العشرين.",
+      "clues": [],
+      "explanation": "تعذر إثبات أن التسجيل المرفق يعود إلى عمر المختار من مصدر صوتي موثق يسمح بإعادة استخدامه؛ ليس سؤالًا معتمدًا، ولا يجوز تشغيله أو نسبته إليه قبل استكمال الإثبات والمراجعة السمعية.",
+      "sources": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "الأمير عبد القادر الجزائري"
+        },
+        {
+          "id": "B",
+          "text": "يوسف العظمة"
+        },
+        {
+          "id": "C",
+          "text": "محمد عبد الكريم الخطابي"
+        },
+        {
+          "id": "D",
+          "text": "عز الدين القسام"
+        },
+        {
+          "id": "E",
+          "text": "عمر المختار"
+        },
+        {
+          "id": "F",
+          "text": "رمضان السويحلي"
+        }
+      ],
+      "correctOptionId": "E",
+      "qualityStatus": "quarantined",
+      "usageId": "57535944999137466569886108350945724336",
+      "qualityReasons": [
+        "عمر المختار: لا يوجد في البيانات دليل أصلي على تسجيل المحاكمة أو صوته قبيل إعدامه. المقاطع التمثيلية المشهورة ليست صوت عمر المختار. لم أثبت وجود تسجيل أصلي صالح؛ أوقف السؤال ولا أدعي استحالة وجوده مطلقًا."
+      ]
+    },
+    {
+      "id": "character_voice-hard-0002",
+      "categoryId": "character_voice",
+      "difficulty": "hard",
+      "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+      "answer": "أحمد شوقي",
+      "acceptedAnswers": [
+        "شوقي",
+        "امير الشعراء",
+        "أحمد شوقي بك",
+        "احمد شوقي",
+        "أمير الشعراء أحمد شوقي"
+      ],
+      "hint": "شاعر عربي من جيل النهضة الأدبية كتب الشعر الوطني والوجداني.",
+      "clues": [],
+      "explanation": "تعذر إثبات أن التسجيل المرفق يعود إلى أحمد شوقي من مصدر صوتي موثق يسمح بإعادة استخدامه؛ ليس سؤالًا معتمدًا، ولا يجوز تشغيله أو نسبته إليه قبل استكمال الإثبات والمراجعة السمعية.",
+      "sources": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "حافظ إبراهيم"
+        },
+        {
+          "id": "B",
+          "text": "محمود سامي البارودي"
+        },
+        {
+          "id": "C",
+          "text": "أحمد شوقي"
+        },
+        {
+          "id": "D",
+          "text": "إسماعيل صبري"
+        },
+        {
+          "id": "E",
+          "text": "خليل مطران"
+        },
+        {
+          "id": "F",
+          "text": "ولي الدين يكن"
+        }
+      ],
+      "correctOptionId": "C",
+      "qualityStatus": "quarantined",
+      "usageId": "148898990825466958398949134093197098046",
+      "qualityReasons": [
+        "أحمد شوقي: زعم أسطوانة 1927 ومحتواها لم يدعمه سجل أرشيف أو شركة أسطوانات أو ملف أصلي. صوت قارئ شعره ليس صوته، وقدم التسجيل المزعوم لا يثبت وقوعه أو حقوقه."
+      ]
+    },
+    {
+      "id": "character_voice-hard-0003",
+      "categoryId": "character_voice",
+      "difficulty": "hard",
+      "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+      "answer": "سعد زغلول",
+      "acceptedAnswers": [
+        "سعد زغلول",
+        "زعيم الأمة",
+        "سعد باشا زغلول"
+      ],
+      "hint": "سياسي مصري برز في الحركة الوطنية خلال النصف الأول من القرن العشرين.",
+      "clues": [],
+      "explanation": "تعذر إثبات أن التسجيل المرفق يعود إلى سعد زغلول من مصدر صوتي موثق يسمح بإعادة استخدامه؛ ليس سؤالًا معتمدًا، ولا يجوز تشغيله أو نسبته إليه قبل استكمال الإثبات والمراجعة السمعية.",
+      "sources": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "مصطفى النحاس"
+        },
+        {
+          "id": "B",
+          "text": "سعد زغلول"
+        },
+        {
+          "id": "C",
+          "text": "علي شعراوي"
+        },
+        {
+          "id": "D",
+          "text": "عبد العزيز فهمي"
+        },
+        {
+          "id": "E",
+          "text": "محمد محمود باشا"
+        },
+        {
+          "id": "F",
+          "text": "إسماعيل صدقي"
+        }
+      ],
+      "correctOptionId": "B",
+      "qualityStatus": "quarantined",
+      "usageId": "37709167809485198861115993599081763318",
+      "qualityReasons": [
+        "سعد زغلول: لا مصدر أولي للأسطوانة المزعومة لعام 1923 أو إثبات للمتكلم ونص القص. لم أجد في المصادر التي راجعتها ملفًا صالحًا للتجهيز؛ لا أحول غياب الدليل إلى تسجيل مصنوع."
+      ]
+    },
+    {
+      "id": "character_voice-hard-0004",
+      "categoryId": "character_voice",
+      "difficulty": "hard",
+      "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+      "answer": "خليل مطران",
+      "acceptedAnswers": [
+        "مطران",
+        "شاعر القطرين",
+        "خليل مطران بك",
+        "خليل مطران (شاعر القطرين)"
+      ],
+      "hint": "شاعر عربي ارتبط نشاطه الأدبي بمصر وبلاد الشام.",
+      "clues": [],
+      "explanation": "تعذر إثبات أن التسجيل المرفق يعود إلى خليل مطران من مصدر صوتي موثق يسمح بإعادة استخدامه؛ ليس سؤالًا معتمدًا، ولا يجوز تشغيله أو نسبته إليه قبل استكمال الإثبات والمراجعة السمعية.",
+      "sources": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "خليل مطران"
+        },
+        {
+          "id": "B",
+          "text": "بشارة الخوري (الأخطل الصغير)"
+        },
+        {
+          "id": "C",
+          "text": "أحمد زكي أبو شادي"
+        },
+        {
+          "id": "D",
+          "text": "إبراهيم ناجي"
+        },
+        {
+          "id": "E",
+          "text": "شبلي الملاط"
+        },
+        {
+          "id": "F",
+          "text": "أمين ناصر الدين"
+        }
+      ],
+      "correctOptionId": "A",
+      "qualityStatus": "quarantined",
+      "usageId": "156500372812902018057156617745091707680",
+      "qualityReasons": [
+        "خليل مطران: لا سند لتسجيل المساء بالإسكندرية أو حقوقه. المؤلف والإلقاء والحدث ثلاثة أمور مختلفة تحتاج إلى توثيق؛ لا يعتمد ملف fallback ذي المتكلم الآخر."
+      ]
+    },
+    {
+      "id": "character_voice-hard-0005",
+      "categoryId": "character_voice",
+      "difficulty": "hard",
+      "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+      "answer": "فهمي عمر",
+      "acceptedAnswers": [
+        "فهمي عمر",
+        "الإذاعي فهمي عمر",
+        "فهمى عمر",
+        "الإذاعي الكبير فهمي عمر"
+      ],
+      "hint": "إعلامي مصري عمل في الإذاعة وارتبط اسمه بالبرامج الجماهيرية.",
+      "clues": [],
+      "explanation": "تعذر إثبات أن التسجيل المرفق يعود إلى فهمي عمر من مصدر صوتي موثق يسمح بإعادة استخدامه؛ ليس سؤالًا معتمدًا، ولا يجوز تشغيله أو نسبته إليه قبل استكمال الإثبات والمراجعة السمعية.",
+      "sources": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "طاهر أبو زيد"
+        },
+        {
+          "id": "B",
+          "text": "وجدي الحكيم"
+        },
+        {
+          "id": "C",
+          "text": "محمد لطيف"
+        },
+        {
+          "id": "D",
+          "text": "علي زيوار"
+        },
+        {
+          "id": "E",
+          "text": "محمود بكر"
+        },
+        {
+          "id": "F",
+          "text": "فهمي عمر"
+        }
+      ],
+      "correctOptionId": "F",
+      "qualityStatus": "quarantined",
+      "usageId": "41233405530641193753927467950312676938",
+      "qualityReasons": [
+        "فهمي عمر: لا مقطع أصلي موثق أو رخصة وإذاعة وتوقيت. خيار كمال الشناوي الممثل أضعف من بقية المذيعين فيكشف التفاوت، لكن إصلاح الخيار لا يصحح نسبة الصوت."
+      ]
+    },
+    {
+      "id": "character_voice-hard-0006",
+      "categoryId": "character_voice",
+      "difficulty": "hard",
+      "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+      "answer": "الشيخ د. سلطان بن محمد القاسمي",
+      "acceptedAnswers": [
+        "سلطان القاسمي",
+        "الشيخ سلطان القاسمي",
+        "د. سلطان القاسمي"
+      ],
+      "hint": "شخصية قيادية إماراتية اهتمت بالتاريخ والثقافة إلى جانب العمل العام.",
+      "clues": [],
+      "explanation": "تعذر إثبات أن التسجيل المرفق يعود إلى الشيخ د. سلطان بن محمد القاسمي من مصدر صوتي موثق يسمح بإعادة استخدامه؛ ليس سؤالًا معتمدًا، ولا يجوز تشغيله أو نسبته إليه قبل استكمال الإثبات والمراجعة السمعية.",
+      "sources": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "الشيخ حميد بن راشد النعيمي"
+        },
+        {
+          "id": "B",
+          "text": "الشيخ حمد بن محمد الشرقي"
+        },
+        {
+          "id": "C",
+          "text": "الشيخ سعود بن صقر القاسمي"
+        },
+        {
+          "id": "D",
+          "text": "الشيخ د. سلطان بن محمد القاسمي"
+        },
+        {
+          "id": "E",
+          "text": "الشيخ صقر بن محمد القاسمي"
+        },
+        {
+          "id": "F",
+          "text": "الشيخ راشد بن أحمد المعلا"
+        }
+      ],
+      "correctOptionId": "D",
+      "qualityStatus": "quarantined",
+      "usageId": "89733131718578236670188585769277199093",
+      "qualityReasons": [
+        "سلطان القاسمي: لا كلمة ثقافية بعينها أو مصدر رسمي برخصة محددة. كلمة رسمية منشورة لا تعني أنها مرخصة للتضمين محليًا، والملف لا يحمل سلسلة مصدر يمكن اعتمادها."
+      ]
+    },
+    {
+      "id": "character_voice-hard-0007",
+      "categoryId": "character_voice",
+      "difficulty": "hard",
+      "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+      "answer": "يوسف إدريس",
+      "acceptedAnswers": [
+        "يوسف ادريس",
+        "إدريس",
+        "يوسف إدريس علي"
+      ],
+      "hint": "كاتب مصري تناول الحياة الاجتماعية في القصص والأعمال المسرحية.",
+      "clues": [],
+      "explanation": "تعذر إثبات أن التسجيل المرفق يعود إلى يوسف إدريس من مصدر صوتي موثق يسمح بإعادة استخدامه؛ ليس سؤالًا معتمدًا، ولا يجوز تشغيله أو نسبته إليه قبل استكمال الإثبات والمراجعة السمعية.",
+      "sources": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "يوسف إدريس"
+        },
+        {
+          "id": "B",
+          "text": "يحيى حقي"
+        },
+        {
+          "id": "C",
+          "text": "بهاء طاهر"
+        },
+        {
+          "id": "D",
+          "text": "صنع الله إبراهيم"
+        },
+        {
+          "id": "E",
+          "text": "إحسان عبد القدوس"
+        },
+        {
+          "id": "F",
+          "text": "عبد الرحمن الشرقاوي"
+        }
+      ],
+      "correctOptionId": "A",
+      "qualityStatus": "quarantined",
+      "usageId": "144125487211038850179559670623090803627",
+      "qualityReasons": [
+        "يوسف إدريس: لا دليل لحديث فلسفة القصة القصيرة المزعوم أو حق إعادة توزيع التسجيل. لا تثبت الملكية عبارة البرامج الثقافية المصرية، ولا يمكن تمرير هوية المؤلف على أي قارئ."
+      ]
+    },
+    {
+      "id": "character_voice-hard-0008",
+      "categoryId": "character_voice",
+      "difficulty": "hard",
+      "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+      "answer": "بدر شاكر السياب",
+      "acceptedAnswers": [
+        "السياب",
+        "بدر شاكر السيّاب",
+        "بدر السياب"
+      ],
+      "hint": "شاعر عراقي شارك في تجديد الشعر العربي خلال القرن العشرين.",
+      "clues": [],
+      "explanation": "تعذر إثبات أن التسجيل المرفق يعود إلى بدر شاكر السياب من مصدر صوتي موثق يسمح بإعادة استخدامه؛ ليس سؤالًا معتمدًا، ولا يجوز تشغيله أو نسبته إليه قبل استكمال الإثبات والمراجعة السمعية.",
+      "sources": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "نازك الملائكة"
+        },
+        {
+          "id": "B",
+          "text": "عبد الوهاب البياتي"
+        },
+        {
+          "id": "C",
+          "text": "جميل صدقي الزهاوي"
+        },
+        {
+          "id": "D",
+          "text": "بلند الحيدري"
+        },
+        {
+          "id": "E",
+          "text": "معروف الرصافي"
+        },
+        {
+          "id": "F",
+          "text": "بدر شاكر السياب"
+        }
+      ],
+      "correctOptionId": "F",
+      "qualityStatus": "quarantined",
+      "usageId": "117751015220927605268391517844019322100",
+      "qualityReasons": [
+        "السياب: لا تسجيل أصلي محدد يثبت إلقاء أنشودة المطر بصوته. العنوان وحده لا يفرق بين أداء شاعر وقارئ لاحق، وحقوق الإذاعة المزعومة غير موثقة."
+      ]
+    },
+    {
+      "id": "character_voice-hard-0009",
+      "categoryId": "character_voice",
+      "difficulty": "hard",
+      "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+      "answer": "الملك فهد بن عبد العزيز",
+      "acceptedAnswers": [
+        "الملك فهد",
+        "فهد بن عبد العزيز",
+        "خادم الحرمين الملك فهد",
+        "الملك فهد بن عبد العزيز آل سعود"
+      ],
+      "hint": "أحد أبناء الملك عبد العزيز الذين برزوا في قيادة الدولة السعودية.",
+      "clues": [],
+      "explanation": "تعذر إثبات أن التسجيل المرفق يعود إلى الملك فهد بن عبد العزيز من مصدر صوتي موثق يسمح بإعادة استخدامه؛ ليس سؤالًا معتمدًا، ولا يجوز تشغيله أو نسبته إليه قبل استكمال الإثبات والمراجعة السمعية.",
+      "sources": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "الملك خالد بن عبد العزيز"
+        },
+        {
+          "id": "B",
+          "text": "الأمير نايف بن عبد العزيز"
+        },
+        {
+          "id": "C",
+          "text": "الملك عبد الله بن عبد العزيز"
+        },
+        {
+          "id": "D",
+          "text": "الملك سلمان بن عبد العزيز"
+        },
+        {
+          "id": "E",
+          "text": "الملك فهد بن عبد العزيز"
+        },
+        {
+          "id": "F",
+          "text": "الأمير سلطان بن عبد العزيز"
+        }
+      ],
+      "correctOptionId": "E",
+      "qualityStatus": "quarantined",
+      "usageId": "88950893603809987478952776383853740778",
+      "qualityReasons": [
+        "الملك فهد: لا ملف أولي لخطاب المدينة المنورة المقصود ولا تفريغ أو تاريخ أو تصريح استخدام. وصف البيانات الملكية الرسمية لا يثبت الملك العام؛ التلميح يذكر ترتيب الملك ولقبه بصورة كاشفة."
+      ]
+    },
+    {
+      "id": "character_voice-hard-0010",
+      "categoryId": "character_voice",
+      "difficulty": "hard",
+      "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+      "answer": "الشيخ مصطفى إسماعيل",
+      "acceptedAnswers": [
+        "مصطفى إسماعيل",
+        "الشيخ مصطفى اسماعيل",
+        "مصطفى اسماعيل"
+      ],
+      "hint": "قارئ مصري اشتهر بتنوع الأداء في التلاوة والإذاعة.",
+      "clues": [],
+      "explanation": "تعذر إثبات أن التسجيل المرفق يعود إلى الشيخ مصطفى إسماعيل من مصدر صوتي موثق يسمح بإعادة استخدامه؛ ليس سؤالًا معتمدًا، ولا يجوز تشغيله أو نسبته إليه قبل استكمال الإثبات والمراجعة السمعية.",
+      "sources": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "الشيخ أبو العينين شعيشع"
+        },
+        {
+          "id": "B",
+          "text": "الشيخ طه الفشني"
+        },
+        {
+          "id": "C",
+          "text": "الشيخ محمود علي البنا"
+        },
+        {
+          "id": "D",
+          "text": "الشيخ مصطفى إسماعيل"
+        },
+        {
+          "id": "E",
+          "text": "الشيخ عبد الباسط عبد الصمد"
+        },
+        {
+          "id": "F",
+          "text": "الشيخ كامل يوسف البهتيمي"
+        }
+      ],
+      "correctOptionId": "D",
+      "qualityStatus": "quarantined",
+      "usageId": "20251863581192677186958991021255060595",
+      "qualityReasons": [
+        "مصطفى إسماعيل: أداة التجهيز تشير إلى تلاوة بينما السؤال يدعي حديثًا نثريًا عن الأداء. لم يثبت ملف المقابلة أو حقه؛ لا أعيد تسمية التلاوة لتطابق قصة غير موثقة."
+      ]
+    },
+    {
+      "id": "character_voice-hard-0011",
+      "categoryId": "character_voice",
+      "difficulty": "hard",
+      "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+      "answer": "الحاج أمين الحسيني",
+      "acceptedAnswers": [
+        "أمين الحسيني",
+        "الحاج امين الحسيني",
+        "مفتي القدس أمين الحسيني"
+      ],
+      "hint": "شخصية فلسطينية شاركت في الحياة السياسية والدينية في زمن الانتداب.",
+      "clues": [],
+      "explanation": "تعذر إثبات أن التسجيل المرفق يعود إلى الحاج أمين الحسيني من مصدر صوتي موثق يسمح بإعادة استخدامه؛ ليس سؤالًا معتمدًا، ولا يجوز تشغيله أو نسبته إليه قبل استكمال الإثبات والمراجعة السمعية.",
+      "sources": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "عز الدين القسام"
+        },
+        {
+          "id": "B",
+          "text": "موسى كاظم الحسيني"
+        },
+        {
+          "id": "C",
+          "text": "الحاج أمين الحسيني"
+        },
+        {
+          "id": "D",
+          "text": "أحمد حلمي عبد الباقي"
+        },
+        {
+          "id": "E",
+          "text": "عبد القادر الحسيني"
+        },
+        {
+          "id": "F",
+          "text": "راغب النشاشيبي"
+        }
+      ],
+      "correctOptionId": "C",
+      "qualityStatus": "quarantined",
+      "usageId": "107764819546839822996883070632535326687",
+      "qualityReasons": [
+        "أمين الحسيني: لا خطاب بعينه أو حدث أو تفريغ أو رخصة محددة. مواد الحرب القديمة قد تنطوي على إنتاج إذاعي ودعاية وحقوق متعددة؛ لا يكفي وصف وثائق مؤتمر تاريخي."
+      ]
+    },
+    {
+      "id": "character_voice-hard-0012",
+      "categoryId": "character_voice",
+      "difficulty": "hard",
+      "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+      "answer": "د. عبد الرحمن بدوي",
+      "acceptedAnswers": [
+        "عبد الرحمن بدوي",
+        "عبدالرحمن بدوي",
+        "دكتور عبد الرحمن بدوي"
+      ],
+      "hint": "أكاديمي مصري اهتم بالفلسفة وترجمة التراث الفكري.",
+      "clues": [],
+      "explanation": "تعذر إثبات أن التسجيل المرفق يعود إلى د. عبد الرحمن بدوي من مصدر صوتي موثق يسمح بإعادة استخدامه؛ ليس سؤالًا معتمدًا، ولا يجوز تشغيله أو نسبته إليه قبل استكمال الإثبات والمراجعة السمعية.",
+      "sources": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "د. مراد وهبة"
+        },
+        {
+          "id": "B",
+          "text": "د. عبد الرحمن بدوي"
+        },
+        {
+          "id": "C",
+          "text": "د. حسن حنفي"
+        },
+        {
+          "id": "D",
+          "text": "د. فؤاد زكريا"
+        },
+        {
+          "id": "E",
+          "text": "د. عاطف العراقي"
+        },
+        {
+          "id": "F",
+          "text": "د. توفيق الطويل"
+        }
+      ],
+      "correctOptionId": "B",
+      "qualityStatus": "quarantined",
+      "usageId": "49836434652227910229260900842036406498",
+      "qualityReasons": [
+        "عبد الرحمن بدوي: رابط المقابلة الفلسفية العام لا يثبت ملفًا أصليًا أو جهة إنتاج وحق توزيع. السؤال يسمي الاتجاه الفلسفي قبل الصوت، ولا توجد مادة صوتية موثقة لإصلاح نسبتها."
+      ]
+    },
+    {
+      "id": "character_voice-hard-0013",
+      "categoryId": "character_voice",
+      "difficulty": "hard",
+      "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+      "answer": "جي آر آر تولكين",
+      "acceptedAnswers": [
+        "جي آر آر تولكين",
+        "J.R.R. Tolkien",
+        "جي ار ار تولكين",
+        "تولكين"
+      ],
+      "hint": "كاتب بريطاني اهتم باللغة والأساطير وبناء عوالم خيالية.",
+      "clues": [],
+      "explanation": "لم يُثبت بعد تسجيل صالح ومرخّص لهذه الشخصية. هذا السؤال معزول ولا يجوز عرضه في المباراة. تفاصيل السبب محفوظة في qualityReasons.",
+      "sources": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "سي إس لويس"
+        },
+        {
+          "id": "B",
+          "text": "ألدوس هكسلي"
+        },
+        {
+          "id": "C",
+          "text": "جورج أورويل"
+        },
+        {
+          "id": "D",
+          "text": "جي آر آر تولكين"
+        },
+        {
+          "id": "E",
+          "text": "إتش جي ويلز"
+        },
+        {
+          "id": "F",
+          "text": "آرثر كلارك"
+        }
+      ],
+      "correctOptionId": "D",
+      "qualityStatus": "quarantined",
+      "usageId": "36108168787889905645349481305421499321",
+      "qualityReasons": [
+        "ملفا قراءة تولكين المذكوران غير مثبتين. تسمية Tolkien Estate Historical Recording لا تمنح ترخيصًا، وكون التسجيل في 1952 لا يثبت سقوط حقوق الأداء أو النص. تبقى الهوية والحقوق غير مثبتتين.",
+        "لم يُستمع إلى المقتطف النهائي؛ هذه البيئة لا تدعم إدخال الصوت. لا اعتماد آلي أو مراجعة سمعية مدعاة."
+      ]
+    },
+    {
+      "id": "character_voice-hard-0014",
+      "categoryId": "character_voice",
+      "difficulty": "hard",
+      "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+      "answer": "فلورنس نايتينجيل",
+      "acceptedAnswers": [
+        "فلورنس نايتينجيل",
+        "Florence Nightingale",
+        "نايتينجيل"
+      ],
+      "hint": "شخصية بريطانية ارتبط اسمها بالإصلاح الاجتماعي في القرن التاسع عشر.",
+      "clues": [],
+      "explanation": "صوت فلورنس نايتينجيل في تسجيل الأسطوانة الشمعية بتاريخ 30 يوليو 1890 لدعم قدامى محاربي بالاكلافا. المقتطف يتجنب توقيعها المنطوق في نهاية المصدر.",
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File:Florence_Nightingale_voice_-_1576A_2nd_Rendition_Crop.ogg",
+        "https://commons.wikimedia.org/wiki/TimedText:Florence_Nightingale_voice_-_1576A_2nd_Rendition_Crop.ogg.en.srt"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "كلارا بارتون"
+        },
+        {
+          "id": "B",
+          "text": "فلورنس نايتينجيل"
+        },
+        {
+          "id": "C",
+          "text": "ماري سيكول"
+        },
+        {
+          "id": "D",
+          "text": "دوروثيا ديكس"
+        },
+        {
+          "id": "E",
+          "text": "ماري كاربنتر"
+        },
+        {
+          "id": "F",
+          "text": "إليزابيث فراي"
+        }
+      ],
+      "correctOptionId": "B",
+      "qualityStatus": "quarantined",
+      "usageId": "34377466775693384097492346570015442994",
+      "audio": {
+        "assetPath": "assets/question_audio/voice-076.mp3",
+        "durationMs": 9900,
+        "attribution": "Florence Nightingale, wax-cylinder recording, 30 July 1890. Excerpt and MP3 conversion; final spoken name at 41 seconds excluded.",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Florence_Nightingale_voice_-_1576A_2nd_Rendition_Crop.ogg",
+        "license": "Public domain — 1890 published historical sound recording; PD-old-100-expired",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Florence_Nightingale_voice_-_1576A_2nd_Rendition_Crop.ogg",
+        "sourceStartMs": 0,
+        "sourceEndMs": 9900,
+        "transcript": "When I am no longer even a memory, just a name.",
+        "reviewStatus": "sourceVerified",
+        "speaker": "فلورنس نايتينجيل",
+        "recordingId": "https://commons.wikimedia.org/wiki/File:Florence_Nightingale_voice_-_1576A_2nd_Rendition_Crop.ogg",
+        "listeningStatus": "pending"
+      },
+      "qualityReasons": [
+        "المصدر المزود بتفريغ مؤقت هو تسجيل نايتينجيل 30 يوليو 1890. قُص 0–9.9 ثانية قبل قول اسمها عند 41 ثانية. عُدلت الخيارات لتكون جميعها نساء مرتبطات بالإصلاح والرعاية الاجتماعية؛ الاعتماد السمعي النهائي معلق.",
+        "لم يُستمع إلى المقتطف النهائي؛ هذه البيئة لا تدعم إدخال الصوت. لا اعتماد آلي أو مراجعة سمعية مدعاة."
+      ]
+    },
+    {
+      "id": "character_voice-hard-0015",
+      "categoryId": "character_voice",
+      "difficulty": "hard",
+      "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+      "answer": "ليو تولستوي",
+      "acceptedAnswers": [
+        "ليو تولستوي",
+        "Leo Tolstoy",
+        "تولستوي"
+      ],
+      "hint": "من كبار الأدباء الروس في القرن التاسع عشر.",
+      "clues": [],
+      "explanation": "لم يُثبت بعد تسجيل صالح ومرخّص لهذه الشخصية. هذا السؤال معزول ولا يجوز عرضه في المباراة. تفاصيل السبب محفوظة في qualityReasons.",
+      "sources": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "ليو تولستوي"
+        },
+        {
+          "id": "B",
+          "text": "فيودور دوستويفسكي"
+        },
+        {
+          "id": "C",
+          "text": "أنطون تشيخوف"
+        },
+        {
+          "id": "D",
+          "text": "مكسيم غوركي"
+        },
+        {
+          "id": "E",
+          "text": "إيفان تورغينيف"
+        },
+        {
+          "id": "F",
+          "text": "ألكسندر بوشكين"
+        }
+      ],
+      "correctOptionId": "A",
+      "qualityStatus": "quarantined",
+      "usageId": "118788327622383986243305808833130035825",
+      "qualityReasons": [
+        "عنوان قراءة Children/Thoughts غير مثبت. عثرت على Tolstoy - Letter to Davydov.ogg مقدمًا من RGAFD مع نص روسي وتاريخ 9 أبريل 1908. هذا خطاب إلى نيكولاي دافيدوف لا أطفال المدرسة، ولم أستبدل المقطع دون توقيت واستماع.",
+        "لم يُستمع إلى المقتطف النهائي؛ هذه البيئة لا تدعم إدخال الصوت. لا اعتماد آلي أو مراجعة سمعية مدعاة."
+      ]
+    },
+    {
+      "id": "character_voice-hard-0016",
+      "categoryId": "character_voice",
+      "difficulty": "hard",
+      "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+      "answer": "آرثر كونان دويل",
+      "acceptedAnswers": [
+        "آرثر كونان دويل",
+        "Arthur Conan Doyle",
+        "ارثر كونان دويل",
+        "دويل"
+      ],
+      "hint": "كاتب بريطاني مارس مهنة أخرى قبل أن يشتهر بقصصه.",
+      "clues": [],
+      "explanation": "لم يُثبت بعد تسجيل صالح ومرخّص لهذه الشخصية. هذا السؤال معزول ولا يجوز عرضه في المباراة. تفاصيل السبب محفوظة في qualityReasons.",
+      "sources": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "أغاثا كريستي"
+        },
+        {
+          "id": "B",
+          "text": "إتش جي ويلز"
+        },
+        {
+          "id": "C",
+          "text": "إدغار آلان بو"
+        },
+        {
+          "id": "D",
+          "text": "روبرت لويس ستيفنسون"
+        },
+        {
+          "id": "E",
+          "text": "آرثر كونان دويل"
+        },
+        {
+          "id": "F",
+          "text": "جي كي تشسترتون"
+        }
+      ],
+      "correctOptionId": "E",
+      "qualityStatus": "quarantined",
+      "usageId": "21921742559157958199262140944723260198",
+      "qualityReasons": [
+        "البناء يستخدم Q 2008-05-22 Arthur Conan Doyle.ogg من Bookkeeper يقرأ اقتباسًا في 2008. لا صوت دويل ولا فيلمه القديم مثبت هنا. مرجع Sir Arthur Conan Doyle speaks مفقود؛ يُحظر تكرار مغالطة اسم صاحب الاقتباس يساوي اسم القارئ.",
+        "لم يُستمع إلى المقتطف النهائي؛ هذه البيئة لا تدعم إدخال الصوت. لا اعتماد آلي أو مراجعة سمعية مدعاة."
+      ]
+    },
+    {
+      "id": "character_voice-hard-0017",
+      "categoryId": "character_voice",
+      "difficulty": "hard",
+      "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+      "answer": "جورج برنارد شو",
+      "acceptedAnswers": [
+        "جورج برنارد شو",
+        "George Bernard Shaw",
+        "شو"
+      ],
+      "hint": "أديب أيرلندي اشتهر بالحوار والسخرية.",
+      "clues": [],
+      "explanation": "لم يُثبت بعد تسجيل صالح ومرخّص لهذه الشخصية. هذا السؤال معزول ولا يجوز عرضه في المباراة. تفاصيل السبب محفوظة في qualityReasons.",
+      "sources": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "أوسكار وايلد"
+        },
+        {
+          "id": "B",
+          "text": "شين أوكيسي"
+        },
+        {
+          "id": "C",
+          "text": "صامويل بيكيت"
+        },
+        {
+          "id": "D",
+          "text": "جيمس جويس"
+        },
+        {
+          "id": "E",
+          "text": "ويليام بتلر ييتس"
+        },
+        {
+          "id": "F",
+          "text": "جورج برنارد شو"
+        }
+      ],
+      "correctOptionId": "F",
+      "qualityStatus": "quarantined",
+      "usageId": "87660154516584302378479651277576208666",
+      "qualityReasons": [
+        "المصدر الحالي ومصدر Spoken English في البناء غير مثبتين. التلميح السابق يزعم أنه الوحيد الجامع بين نوبل والأوسكار، وهو تعميم غير صالح. أُزيل الادعاء والتاريخ 1937 إلى حين مصدر فعلي.",
+        "لم يُستمع إلى المقتطف النهائي؛ هذه البيئة لا تدعم إدخال الصوت. لا اعتماد آلي أو مراجعة سمعية مدعاة."
+      ]
+    },
+    {
+      "id": "character_voice-hard-0018",
+      "categoryId": "character_voice",
+      "difficulty": "hard",
+      "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+      "answer": "إرنست همنغواي",
+      "acceptedAnswers": [
+        "إرنست همنغواي",
+        "Ernest Hemingway",
+        "ارنست همنغواي",
+        "همنغواي"
+      ],
+      "hint": "كاتب أمريكي من أدباء النصف الأول من القرن العشرين.",
+      "clues": [],
+      "explanation": "لم يُثبت بعد تسجيل صالح ومرخّص لهذه الشخصية. هذا السؤال معزول ولا يجوز عرضه في المباراة. تفاصيل السبب محفوظة في qualityReasons.",
+      "sources": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "وليام فوكنر"
+        },
+        {
+          "id": "B",
+          "text": "جون شتاينبك"
+        },
+        {
+          "id": "C",
+          "text": "إرنست همنغواي"
+        },
+        {
+          "id": "D",
+          "text": "إف سكوت فيتزجيرالد"
+        },
+        {
+          "id": "E",
+          "text": "ترومان كابوتي"
+        },
+        {
+          "id": "F",
+          "text": "جاك لندن"
+        }
+      ],
+      "correctOptionId": "C",
+      "qualityStatus": "quarantined",
+      "usageId": "87447123281324041076029886741065620754",
+      "qualityReasons": [
+        "مصدر Nobel banquet المدعى غير مثبت. NobelPrize.org يوضح حقوق الكلام والصوت وقيود الترخيص؛ تسجيلات المؤسسة ليست ملكية عامة بمجرد كونها تاريخية. كما أن كلمة الحفل قد يقرأها ممثل عن الفائز، فلا يُستدل بعنوان الجائزة على هوية الصوت.",
+        "لم يُستمع إلى المقتطف النهائي؛ هذه البيئة لا تدعم إدخال الصوت. لا اعتماد آلي أو مراجعة سمعية مدعاة."
+      ]
+    },
+    {
+      "id": "character_voice-hard-0019",
+      "categoryId": "character_voice",
+      "difficulty": "hard",
+      "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+      "answer": "فلاديمير لينين",
+      "acceptedAnswers": [
+        "فلاديمير لينين",
+        "Vladimir Lenin",
+        "لينين"
+      ],
+      "hint": "شخصية سياسية من المرحلة المبكرة للحكم السوفيتي.",
+      "clues": [],
+      "explanation": "لم يُثبت بعد تسجيل صالح ومرخّص لهذه الشخصية. هذا السؤال معزول ولا يجوز عرضه في المباراة. تفاصيل السبب محفوظة في qualityReasons.",
+      "sources": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "جوزيف ستالين"
+        },
+        {
+          "id": "B",
+          "text": "فلاديمير لينين"
+        },
+        {
+          "id": "C",
+          "text": "ليون تروتسكي"
+        },
+        {
+          "id": "D",
+          "text": "نيكيتا خروتشوف"
+        },
+        {
+          "id": "E",
+          "text": "فياتشيسلاف مولوتوف"
+        },
+        {
+          "id": "F",
+          "text": "نيكولاي بوخارين"
+        }
+      ],
+      "correctOptionId": "B",
+      "qualityStatus": "quarantined",
+      "usageId": "148525709298391579505890142659356560649",
+      "qualityReasons": [
+        "المصدر الحقيقي الذي وجده البناء عن العمل في النقل يختلف عن What is Soviet Power المدعى. لا تفريغ مؤقت ولا سماع يثبت أن القصّة الحالية من لينين؛ يجب تصحيح الموضوع وتوثيق النسخة الصوتية قبل اعتمادها.",
+        "لم يُستمع إلى المقتطف النهائي؛ هذه البيئة لا تدعم إدخال الصوت. لا اعتماد آلي أو مراجعة سمعية مدعاة."
+      ]
+    },
+    {
+      "id": "character_voice-hard-0020",
+      "categoryId": "character_voice",
+      "difficulty": "hard",
+      "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+      "answer": "أغاثا كريستي",
+      "acceptedAnswers": [
+        "أغاثا كريستي",
+        "Agatha Christie",
+        "اغاثا كريستي",
+        "كريستي"
+      ],
+      "hint": "كاتبة بريطانية اشتهرت بأعمال التحقيق والألغاز.",
+      "clues": [],
+      "explanation": "لم يُثبت بعد تسجيل صالح ومرخّص لهذه الشخصية. هذا السؤال معزول ولا يجوز عرضه في المباراة. تفاصيل السبب محفوظة في qualityReasons.",
+      "sources": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "فرجينيا وولف"
+        },
+        {
+          "id": "B",
+          "text": "جين أوستن"
+        },
+        {
+          "id": "C",
+          "text": "ماري شيلي"
+        },
+        {
+          "id": "D",
+          "text": "أغاثا كريستي"
+        },
+        {
+          "id": "E",
+          "text": "دوروثي سايرز"
+        },
+        {
+          "id": "F",
+          "text": "إينيد بليتون"
+        }
+      ],
+      "correctOptionId": "D",
+      "qualityStatus": "quarantined",
+      "usageId": "48673341965003379739189072558937242464",
+      "qualityReasons": [
+        "لا ملف Agatha Christie voice ولا مقابلة BBC المدعاة في نتائج صفحات المصدر. CC BY / BBC Historic Interview صياغة بلا رخصة محددة؛ عُدل التلميح الذي كان يسمي بوارو وماربل ويحسم الجواب كتابة.",
+        "لم يُستمع إلى المقتطف النهائي؛ هذه البيئة لا تدعم إدخال الصوت. لا اعتماد آلي أو مراجعة سمعية مدعاة."
+      ]
+    },
+    {
+      "id": "character_voice-hard-0021",
+      "categoryId": "character_voice",
+      "difficulty": "hard",
+      "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+      "answer": "جاك كوستو",
+      "acceptedAnswers": [
+        "جاك كوستو",
+        "Jacques Cousteau",
+        "كوستو"
+      ],
+      "hint": "شخصية ارتبطت بالأفلام الوثائقية عن الطبيعة والمياه.",
+      "clues": [],
+      "explanation": "لم يُثبت بعد تسجيل صالح ومرخّص لهذه الشخصية. هذا السؤال معزول ولا يجوز عرضه في المباراة. تفاصيل السبب محفوظة في qualityReasons.",
+      "sources": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "ثور هيردال"
+        },
+        {
+          "id": "B",
+          "text": "روبرت بالارد"
+        },
+        {
+          "id": "C",
+          "text": "جاك كوستو"
+        },
+        {
+          "id": "D",
+          "text": "ويليام بيب"
+        },
+        {
+          "id": "E",
+          "text": "جان فيليب كوستو"
+        },
+        {
+          "id": "F",
+          "text": "ديفيد أتينبورو"
+        }
+      ],
+      "correctOptionId": "C",
+      "qualityStatus": "quarantined",
+      "usageId": "42625691604153896681257450645675768374",
+      "qualityReasons": [
+        "مرجعا صوت كوستو غير مثبتين. جمعية كوستو ليست رخصة CC BY تلقائيًا، ولا تكفي تسمية الفيلم أو سفينة كاليبسو لإثبات المتحدث في الصوت المحلي.",
+        "لم يُستمع إلى المقتطف النهائي؛ هذه البيئة لا تدعم إدخال الصوت. لا اعتماد آلي أو مراجعة سمعية مدعاة."
+      ]
+    },
+    {
+      "id": "character_voice-hard-0022",
+      "categoryId": "character_voice",
+      "difficulty": "hard",
+      "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+      "answer": "أميليا إيرهارت",
+      "acceptedAnswers": [
+        "أميليا إيرهارت",
+        "Amelia Earhart",
+        "اميليا ايرهارت",
+        "إيرهارت"
+      ],
+      "hint": "رائدة طيران من النصف الأول من القرن العشرين.",
+      "clues": [],
+      "explanation": "لم يُثبت بعد تسجيل صالح ومرخّص لهذه الشخصية. هذا السؤال معزول ولا يجوز عرضه في المباراة. تفاصيل السبب محفوظة في qualityReasons.",
+      "sources": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "إيمي جونسون"
+        },
+        {
+          "id": "B",
+          "text": "هارييت كيمبي"
+        },
+        {
+          "id": "C",
+          "text": "بيسي كولمان"
+        },
+        {
+          "id": "D",
+          "text": "جاكلين كوكران"
+        },
+        {
+          "id": "E",
+          "text": "فالنتينا تيريشكوفا"
+        },
+        {
+          "id": "F",
+          "text": "أميليا إيرهارت"
+        }
+      ],
+      "correctOptionId": "F",
+      "qualityStatus": "quarantined",
+      "usageId": "87403428752317448209327407025434627336",
+      "qualityReasons": [
+        "العنوانان الصوتيان المدعيان غير مثبتين. دليل Library of Congress يشير إلى خطاب On the Future of Women in Flying، لكن وجوده في المكتبة لا يثبت ترخيص إعادة توزيعه أو مطابقة المقتطف القديم. يلزم المصدر الصوتي الفعلي قبل نسب عام 1932 إليه.",
+        "لم يُستمع إلى المقتطف النهائي؛ هذه البيئة لا تدعم إدخال الصوت. لا اعتماد آلي أو مراجعة سمعية مدعاة."
+      ]
+    },
+    {
+      "id": "character_voice-hard-0023",
+      "categoryId": "character_voice",
+      "difficulty": "hard",
+      "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+      "answer": "والت ديزني",
+      "acceptedAnswers": [
+        "والت ديزني",
+        "Walt Disney",
+        "ديزني"
+      ],
+      "hint": "جمع بين العمل الإبداعي وإدارة صناعة الرسوم المتحركة.",
+      "clues": [],
+      "explanation": "لم يُثبت بعد تسجيل صالح ومرخّص لهذه الشخصية. هذا السؤال معزول ولا يجوز عرضه في المباراة. تفاصيل السبب محفوظة في qualityReasons.",
+      "sources": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "والت ديزني"
+        },
+        {
+          "id": "B",
+          "text": "روي ديزني"
+        },
+        {
+          "id": "C",
+          "text": "أوب إيويركس"
+        },
+        {
+          "id": "D",
+          "text": "ماكس فلايشر"
+        },
+        {
+          "id": "E",
+          "text": "تشاك جونز"
+        },
+        {
+          "id": "F",
+          "text": "ويليام هانا"
+        }
+      ],
+      "correctOptionId": "A",
+      "qualityStatus": "quarantined",
+      "usageId": "98141914610392121166622154483666640743",
+      "qualityReasons": [
+        "المصدر الحقيقي Walt Disney Snow White Trailer.wav موصوف بديزني يشرح الأقزام في إعلان Snow White لعام 1937، لا افتتاح ديزني لاند 1955. لا تنطبق عبارة Broadcast 1955 على حقوقه. بقي معزولًا دون نسبة التسجيل القديم للمتنزه.",
+        "لم يُستمع إلى المقتطف النهائي؛ هذه البيئة لا تدعم إدخال الصوت. لا اعتماد آلي أو مراجعة سمعية مدعاة."
+      ]
+    },
+    {
+      "id": "character_voice-hard-0024",
+      "categoryId": "character_voice",
+      "difficulty": "hard",
+      "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+      "answer": "بابلو بيكاسو",
+      "acceptedAnswers": [
+        "بابلو بيكاسو",
+        "Pablo Picasso",
+        "بيكاسو"
+      ],
+      "hint": "فنان أوروبي ارتبط بالتجريب في الرسم خلال القرن العشرين.",
+      "clues": [],
+      "explanation": "لم يُثبت بعد تسجيل صالح ومرخّص لهذه الشخصية. هذا السؤال معزول ولا يجوز عرضه في المباراة. تفاصيل السبب محفوظة في qualityReasons.",
+      "sources": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "سلفادور دالي"
+        },
+        {
+          "id": "B",
+          "text": "جورج براك"
+        },
+        {
+          "id": "C",
+          "text": "هنري ماتيس"
+        },
+        {
+          "id": "D",
+          "text": "خوان ميرو"
+        },
+        {
+          "id": "E",
+          "text": "بابلو بيكاسو"
+        },
+        {
+          "id": "F",
+          "text": "فنسنت فان غوخ"
+        }
+      ],
+      "correctOptionId": "E",
+      "qualityStatus": "quarantined",
+      "usageId": "162771822286582788708421634610612633225",
+      "qualityReasons": [
+        "المصدر الحقيقي 10 PABLO PICASO.ogg من UNLP وتذكرة ترخيص المجموعة، لا RTF أو متحف باريس. استُبدلت قصّة الأصل؛ تفريغها والتحقق من عدم وجود مذيع أو اسم في البداية معلقان. سُحبت دعوى موضوع الفن والروح دون تفريغ.",
+        "لم يُستمع إلى المقتطف النهائي؛ هذه البيئة لا تدعم إدخال الصوت. لا اعتماد آلي أو مراجعة سمعية مدعاة."
+      ]
+    },
+    {
+      "id": "character_voice-hard-0025",
+      "categoryId": "character_voice",
+      "difficulty": "hard",
+      "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+      "answer": "ماكس بلانك",
+      "acceptedAnswers": [
+        "ماكس بلانك",
+        "Max Planck",
+        "بلانك"
+      ],
+      "hint": "فيزيائي ألماني ارتبط بأبحاث الإشعاع والفيزياء الحديثة.",
+      "clues": [],
+      "explanation": "لم يُثبت بعد تسجيل صالح ومرخّص لهذه الشخصية. هذا السؤال معزول ولا يجوز عرضه في المباراة. تفاصيل السبب محفوظة في qualityReasons.",
+      "sources": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "نيلز بور"
+        },
+        {
+          "id": "B",
+          "text": "ألبرت أينشتاين"
+        },
+        {
+          "id": "C",
+          "text": "ماكس بلانك"
+        },
+        {
+          "id": "D",
+          "text": "لويس دي بروي"
+        },
+        {
+          "id": "E",
+          "text": "فيلهلم رونتغن"
+        },
+        {
+          "id": "F",
+          "text": "ماكس بورن"
+        }
+      ],
+      "correctOptionId": "C",
+      "qualityStatus": "quarantined",
+      "usageId": "73119326448213385679350378060224951668",
+      "qualityReasons": [
+        "لا ملف Max Planck voice أو Nobel speech المثبت في المصدر. جمعية ماكس بلانك ليست تصريح حقوق لهذه القصّة، والتاريخ 1942 بلا سند. يبقى السؤال معزولًا ولا يُستبدل بصوت أينشتاين أو هوكينغ.",
+        "لم يُستمع إلى المقتطف النهائي؛ هذه البيئة لا تدعم إدخال الصوت. لا اعتماد آلي أو مراجعة سمعية مدعاة."
+      ]
+    },
+    {
+      "id": "character_voice-legendary-0001",
+      "categoryId": "character_voice",
+      "difficulty": "legendary",
+      "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+      "answer": "الشريف حسين بن علي",
+      "acceptedAnswers": [
+        "الشريف حسين",
+        "شريف مكة الحسين بن علي",
+        "الحسين بن علي"
+      ],
+      "hint": "شخصية هاشمية ارتبطت بالحجاز والسياسة العربية في مطلع القرن العشرين.",
+      "clues": [],
+      "explanation": "تعذر إثبات أن التسجيل المرفق يعود إلى الشريف حسين بن علي من مصدر صوتي موثق يسمح بإعادة استخدامه؛ ليس سؤالًا معتمدًا، ولا يجوز تشغيله أو نسبته إليه قبل استكمال الإثبات والمراجعة السمعية.",
+      "sources": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "الشريف علي حيدر"
+        },
+        {
+          "id": "B",
+          "text": "الشريف شرف بن راجح"
+        },
+        {
+          "id": "C",
+          "text": "الملك فيصل الأول"
+        },
+        {
+          "id": "D",
+          "text": "الأمير زيد بن الحسين"
+        },
+        {
+          "id": "E",
+          "text": "الملك عبد الله الأول"
+        },
+        {
+          "id": "F",
+          "text": "الشريف حسين بن علي"
+        }
+      ],
+      "correctOptionId": "F",
+      "qualityStatus": "quarantined",
+      "usageId": "137230988816953275732207732201059509037",
+      "qualityReasons": [
+        "الشريف حسين: زعم أسطوانة 1917 فائق الندرة بلا سجل أرشيف أولي أو بيانات شركة أسطوانات. لا يثبت عمر السنة وجود الصوت أو هوية صاحبه؛ لا يعتمد تمثيل أو قراءة لاحقة."
+      ]
+    },
+    {
+      "id": "character_voice-legendary-0002",
+      "categoryId": "character_voice",
+      "difficulty": "legendary",
+      "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+      "answer": "رياض الصلح",
+      "acceptedAnswers": [
+        "رياض الصلح",
+        "دولة الرئيس رياض الصلح"
+      ],
+      "hint": "سياسي لبناني شارك في الحياة العامة خلال مرحلة الانتقال إلى الاستقلال.",
+      "clues": [],
+      "explanation": "تعذر إثبات أن التسجيل المرفق يعود إلى رياض الصلح من مصدر صوتي موثق يسمح بإعادة استخدامه؛ ليس سؤالًا معتمدًا، ولا يجوز تشغيله أو نسبته إليه قبل استكمال الإثبات والمراجعة السمعية.",
+      "sources": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "بشارة الخوري"
+        },
+        {
+          "id": "B",
+          "text": "رياض الصلح"
+        },
+        {
+          "id": "C",
+          "text": "كميل شمعون"
+        },
+        {
+          "id": "D",
+          "text": "عبد الحميد كرامي"
+        },
+        {
+          "id": "E",
+          "text": "صائب سلام"
+        },
+        {
+          "id": "F",
+          "text": "سليم الحص"
+        }
+      ],
+      "correctOptionId": "B",
+      "qualityStatus": "quarantined",
+      "usageId": "147317542783881650169206591696918819668",
+      "qualityReasons": [
+        "رياض الصلح: لا دليل محدد على خطاب الاستقلال المسموع أو مصدر ملفه وترخيصه. الوصف الوطني والتأسيسي لا يساوي رخصة، والمقولة المضمنة تحتاج تحققًا منفصلاً ولا تثبت الصوت."
+      ]
+    },
+    {
+      "id": "character_voice-legendary-0003",
+      "categoryId": "character_voice",
+      "difficulty": "legendary",
+      "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+      "answer": "الملك عبد العزيز آل سعود",
+      "acceptedAnswers": [
+        "الملك عبد العزيز",
+        "عبد العزيز بن عبد الرحمن",
+        "الملك عبدالعزيز",
+        "ابن سعود",
+        "الملك المؤسس عبد العزيز آل سعود"
+      ],
+      "hint": "شخصية من آل سعود ارتبطت بقيادة الدولة في النصف الأول من القرن العشرين.",
+      "clues": [],
+      "explanation": "تعذر إثبات أن التسجيل المرفق يعود إلى الملك عبد العزيز آل سعود من مصدر صوتي موثق يسمح بإعادة استخدامه؛ ليس سؤالًا معتمدًا، ولا يجوز تشغيله أو نسبته إليه قبل استكمال الإثبات والمراجعة السمعية.",
+      "sources": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "الملك فيصل بن عبد العزيز"
+        },
+        {
+          "id": "B",
+          "text": "الملك سعود بن عبد العزيز"
+        },
+        {
+          "id": "C",
+          "text": "الإمام عبد الرحمن بن فيصل"
+        },
+        {
+          "id": "D",
+          "text": "الملك عبد العزيز آل سعود"
+        },
+        {
+          "id": "E",
+          "text": "الأمير محمد بن عبد الرحمن"
+        },
+        {
+          "id": "F",
+          "text": "الأمير عبد الله بن عبد الرحمن"
+        }
+      ],
+      "correctOptionId": "D",
+      "qualityStatus": "quarantined",
+      "usageId": "154652641355672716565200469346049379326",
+      "qualityReasons": [
+        "الملك عبد العزيز: لم يثبت تسجيل حواره في لقاء كوينسي 1945. تفريغ NARA للمادة المتاحة يصف راوياً ومترجماً عن اللقاء، لا مقطعاً بصوت الملك؛ لا أنسب رواية المعلق إليه أو أزعم أن مجرد ظهور صورته يثبت صوته."
+      ]
+    },
+    {
+      "id": "character_voice-legendary-0004",
+      "categoryId": "character_voice",
+      "difficulty": "legendary",
+      "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+      "answer": "أحمد عرابي",
+      "acceptedAnswers": [
+        "أحمد عرابي",
+        "احمد عرابي",
+        "الزعيم أحمد عرابي",
+        "عرابي باشا"
+      ],
+      "hint": "شخصية مصرية شاركت في الحركة الوطنية خلال أواخر القرن التاسع عشر.",
+      "clues": [],
+      "explanation": "تعذر إثبات أن التسجيل المرفق يعود إلى أحمد عرابي من مصدر صوتي موثق يسمح بإعادة استخدامه؛ ليس سؤالًا معتمدًا، ولا يجوز تشغيله أو نسبته إليه قبل استكمال الإثبات والمراجعة السمعية.",
+      "sources": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "علي فهمي باشا"
+        },
+        {
+          "id": "B",
+          "text": "محمود سامي البارودي"
+        },
+        {
+          "id": "C",
+          "text": "عبد العال حلمي"
+        },
+        {
+          "id": "D",
+          "text": "عبد الله النديم"
+        },
+        {
+          "id": "E",
+          "text": "أحمد عرابي"
+        },
+        {
+          "id": "F",
+          "text": "محمد عبده"
+        }
+      ],
+      "correctOptionId": "E",
+      "qualityStatus": "quarantined",
+      "usageId": "115252196620215182162311050430904633970",
+      "qualityReasons": [
+        "أحمد عرابي: لا سجل أولي للأسطوانة الشمعية المزعومة أو تفريغ مؤرخ أو صوت يمكن إثباته. الصيحة التاريخية على لسان ممثل ليست تسجيلًا له؛ يعزل السؤال ولا يصنع صوت تاريخي."
+      ]
+    },
+    {
+      "id": "character_voice-legendary-0005",
+      "categoryId": "character_voice",
+      "difficulty": "legendary",
+      "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+      "answer": "ميخائيل نعيمة",
+      "acceptedAnswers": [
+        "ميخائيل نعيمه",
+        "نعيمة",
+        "المفكر ميخائيل نعيمة"
+      ],
+      "hint": "أديب مهجري لبناني جمع بين الكتابة والتأمل الفكري.",
+      "clues": [],
+      "explanation": "تعذر إثبات أن التسجيل المرفق يعود إلى ميخائيل نعيمة من مصدر صوتي موثق يسمح بإعادة استخدامه؛ ليس سؤالًا معتمدًا، ولا يجوز تشغيله أو نسبته إليه قبل استكمال الإثبات والمراجعة السمعية.",
+      "sources": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "ميخائيل نعيمة"
+        },
+        {
+          "id": "B",
+          "text": "أمين الريحاني"
+        },
+        {
+          "id": "C",
+          "text": "إيليا أبو ماضي"
+        },
+        {
+          "id": "D",
+          "text": "نسيب عريضة"
+        },
+        {
+          "id": "E",
+          "text": "رشيد أيوب"
+        },
+        {
+          "id": "F",
+          "text": "ندرة حداد"
+        }
+      ],
+      "correctOptionId": "A",
+      "qualityStatus": "quarantined",
+      "usageId": "162807230246764797870355303821082275274",
+      "qualityReasons": [
+        "ميخائيل نعيمة: لا لقاء محدد موثق أو حق إذاعي واضح. وصف إذاعة تراثية وCC بلا إصدار ليس رخصة، ولا تثبت قراءة نص مرداد أو الغربال هوية القارئ."
+      ]
+    },
+    {
+      "id": "character_voice-legendary-0006",
+      "categoryId": "character_voice",
+      "difficulty": "legendary",
+      "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+      "answer": "الشيخ محمد رفعت",
+      "acceptedAnswers": [
+        "محمد رفعت",
+        "الشيخ محمد رفعت",
+        "قيثارة السماء",
+        "الشيخ محمد رفعت (قيثارة السماء)"
+      ],
+      "hint": "قارئ مصري من جيل التسجيلات المبكرة وبدايات الإذاعة.",
+      "clues": [],
+      "explanation": "تعذر إثبات أن التسجيل المرفق يعود إلى الشيخ محمد رفعت من مصدر صوتي موثق يسمح بإعادة استخدامه؛ ليس سؤالًا معتمدًا، ولا يجوز تشغيله أو نسبته إليه قبل استكمال الإثبات والمراجعة السمعية.",
+      "sources": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "الشيخ علي محمود"
+        },
+        {
+          "id": "B",
+          "text": "الشيخ منصور بدار"
+        },
+        {
+          "id": "C",
+          "text": "الشيخ محمد رفعت"
+        },
+        {
+          "id": "D",
+          "text": "الشيخ أحمد ندا"
+        },
+        {
+          "id": "E",
+          "text": "الشيخ محمد الصيفي"
+        },
+        {
+          "id": "F",
+          "text": "الشيخ عبد الفتاح الشعشاعي"
+        }
+      ],
+      "correctOptionId": "C",
+      "qualityStatus": "quarantined",
+      "usageId": "95472949109802007210768076466441619235",
+      "qualityReasons": [
+        "محمد رفعت: أداة التجهيز تقصد تلاوة الفاتحة، بينما السؤال والتفسير يدعيان حديثًا عن أمانة التلاوة. تاريخ افتتاح الإذاعة لا يثبت أن هذا التسجيل حديث نثري له أو أن حقوقه انتهت."
+      ]
+    },
+    {
+      "id": "character_voice-legendary-0007",
+      "categoryId": "character_voice",
+      "difficulty": "legendary",
+      "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+      "answer": "د. علي مصطفى مشرفة",
+      "acceptedAnswers": [
+        "علي مصطفى مشرفة",
+        "علي مصطفى مشرفه",
+        "دكتور مشرفة",
+        "علي مشرفة",
+        "د. علي مصطفى مشرفة (أينشتاين العرب)"
+      ],
+      "hint": "باحث مصري اهتم بالعلوم والرياضيات في القرن العشرين.",
+      "clues": [],
+      "explanation": "تعذر إثبات أن التسجيل المرفق يعود إلى د. علي مصطفى مشرفة من مصدر صوتي موثق يسمح بإعادة استخدامه؛ ليس سؤالًا معتمدًا، ولا يجوز تشغيله أو نسبته إليه قبل استكمال الإثبات والمراجعة السمعية.",
+      "sources": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "د. سميرة موسى"
+        },
+        {
+          "id": "B",
+          "text": "د. مصطفى نظيف"
+        },
+        {
+          "id": "C",
+          "text": "د. علي مصطفى مشرفة"
+        },
+        {
+          "id": "D",
+          "text": "د. يحيى المشد"
+        },
+        {
+          "id": "E",
+          "text": "د. إبراهيم أدهم الدمرداش"
+        },
+        {
+          "id": "F",
+          "text": "د. أحمد مستجير"
+        }
+      ],
+      "correctOptionId": "C",
+      "qualityStatus": "quarantined",
+      "usageId": "30218162775169964694463256179324370599",
+      "qualityReasons": [
+        "مشرفة: لا مصدر أولي لتبسيطه الإذاعي المزعوم عام 1948 أو نص الكلام وحقوقه. لا تثبت الألقاب والتشبيه بأينشتاين هوية الصوت، ولا أقبل ملء الملف بصوت عالم مختلف."
+      ]
+    },
+    {
+      "id": "character_voice-legendary-0008",
+      "categoryId": "character_voice",
+      "difficulty": "legendary",
+      "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+      "answer": "ساطع الحصري",
+      "acceptedAnswers": [
+        "ساطع الحصري",
+        "ساطع الحصري (أبو خلدون)",
+        "أبو خلدون الحصري"
+      ],
+      "hint": "مفكر عربي اهتم بالتعليم واللغة وقضايا المجتمع.",
+      "clues": [],
+      "explanation": "تعذر إثبات أن التسجيل المرفق يعود إلى ساطع الحصري من مصدر صوتي موثق يسمح بإعادة استخدامه؛ ليس سؤالًا معتمدًا، ولا يجوز تشغيله أو نسبته إليه قبل استكمال الإثبات والمراجعة السمعية.",
+      "sources": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "ساطع الحصري"
+        },
+        {
+          "id": "B",
+          "text": "شكيب أرسلان"
+        },
+        {
+          "id": "C",
+          "text": "قسطنطين زريق"
+        },
+        {
+          "id": "D",
+          "text": "نجيب عازوري"
+        },
+        {
+          "id": "E",
+          "text": "عبد الرحمن الكواكبي"
+        },
+        {
+          "id": "F",
+          "text": "رشيد رضا"
+        }
+      ],
+      "correctOptionId": "A",
+      "qualityStatus": "quarantined",
+      "usageId": "45132875810808966840522126409079207192",
+      "qualityReasons": [
+        "ساطع الحصري: لا مؤتمر معرّب بعينه أو مصدر مسموع وتفريغ وترخيص مطابق. نص التعريف يحدد اسمه تقريبًا؛ لا توجد سلسلة مصدر تتيح تصحيح الملف الحالي."
+      ]
+    },
+    {
+      "id": "character_voice-legendary-0009",
+      "categoryId": "character_voice",
+      "difficulty": "legendary",
+      "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+      "answer": "الشيخ محمود خليل الحصري",
+      "acceptedAnswers": [
+        "محمود خليل الحصري",
+        "الشيخ الحصري",
+        "الحصري"
+      ],
+      "hint": "قارئ مصري اهتم بالتلاوة وضبط الأداء القرآني.",
+      "clues": [],
+      "explanation": "تعذر إثبات أن التسجيل المرفق يعود إلى الشيخ محمود خليل الحصري من مصدر صوتي موثق يسمح بإعادة استخدامه؛ ليس سؤالًا معتمدًا، ولا يجوز تشغيله أو نسبته إليه قبل استكمال الإثبات والمراجعة السمعية.",
+      "sources": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "الشيخ عبد الفتاح الشعشاعي"
+        },
+        {
+          "id": "B",
+          "text": "الشيخ شعبان الصياد"
+        },
+        {
+          "id": "C",
+          "text": "الشيخ كامل يوسف البهتيمي"
+        },
+        {
+          "id": "D",
+          "text": "الشيخ أحمد الرزيقي"
+        },
+        {
+          "id": "E",
+          "text": "الشيخ محمود خليل الحصري"
+        },
+        {
+          "id": "F",
+          "text": "الشيخ طه الفشني"
+        }
+      ],
+      "correctOptionId": "E",
+      "qualityStatus": "quarantined",
+      "usageId": "98611460393306177910583803276123927570",
+      "qualityReasons": [
+        "الحصري: رابط التجهيز لتلاوة لا يثبت الحديث النثري الموصوف في السؤال. لا توجد مقابلة محددة أو حقوق مثبتة؛ لا تصير التسجيلات متاحة لإعادة التوزيع لمجرد نسبتها لإذاعة القرآن."
+      ]
+    },
+    {
+      "id": "character_voice-legendary-0010",
+      "categoryId": "character_voice",
+      "difficulty": "legendary",
+      "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+      "answer": "مكرم عبيد باشا",
+      "acceptedAnswers": [
+        "مكرم عبيد",
+        "مكرم باشا عبيد",
+        "وليم مكرم عبيد"
+      ],
+      "hint": "شخصية سياسية مصرية شاركت في العمل الوطني والبرلماني.",
+      "clues": [],
+      "explanation": "تعذر إثبات أن التسجيل المرفق يعود إلى مكرم عبيد باشا من مصدر صوتي موثق يسمح بإعادة استخدامه؛ ليس سؤالًا معتمدًا، ولا يجوز تشغيله أو نسبته إليه قبل استكمال الإثبات والمراجعة السمعية.",
+      "sources": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "بطرس غالي باشا"
+        },
+        {
+          "id": "B",
+          "text": "فخري عبد النور"
+        },
+        {
+          "id": "C",
+          "text": "واصف بطرس غالي"
+        },
+        {
+          "id": "D",
+          "text": "سينوت حنا باشا"
+        },
+        {
+          "id": "E",
+          "text": "سري باشا"
+        },
+        {
+          "id": "F",
+          "text": "مكرم عبيد باشا"
+        }
+      ],
+      "correctOptionId": "F",
+      "qualityStatus": "quarantined",
+      "usageId": "95656287766275856751009506622793108812",
+      "qualityReasons": [
+        "مكرم عبيد: لا ملف أصلي أو خطاب مؤرخ يثبت الصوت أو المقولة المنسوبة ضمن التلميح. وصف الحركة الوطنية لا يرخص تسجيلًا ولا يثبت أن المتكلم هو عبيد."
+      ]
+    },
+    {
+      "id": "character_voice-legendary-0011",
+      "categoryId": "character_voice",
+      "difficulty": "legendary",
+      "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+      "answer": "الملك محمد الخامس",
+      "acceptedAnswers": [
+        "محمد الخامس",
+        "الملك محمد الخامس بن يوسف",
+        "السلطان محمد الخامس"
+      ],
+      "hint": "شخصية من الأسرة العلوية المغربية ارتبطت بتاريخ البلاد الحديث.",
+      "clues": [],
+      "explanation": "تعذر إثبات أن التسجيل المرفق يعود إلى الملك محمد الخامس من مصدر صوتي موثق يسمح بإعادة استخدامه؛ ليس سؤالًا معتمدًا، ولا يجوز تشغيله أو نسبته إليه قبل استكمال الإثبات والمراجعة السمعية.",
+      "sources": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "الملك الحسن الثاني"
+        },
+        {
+          "id": "B",
+          "text": "الملك محمد الخامس"
+        },
+        {
+          "id": "C",
+          "text": "السلطان يوسف بن الحسن"
+        },
+        {
+          "id": "D",
+          "text": "السلطان عبد الحفيظ"
+        },
+        {
+          "id": "E",
+          "text": "السلطان عبد العزيز"
+        },
+        {
+          "id": "F",
+          "text": "الأمير مولاي عبد الله"
+        }
+      ],
+      "correctOptionId": "B",
+      "qualityStatus": "quarantined",
+      "usageId": "125329361526358680390520171547961989430",
+      "qualityReasons": [
+        "محمد الخامس: لا مصدر صوتي محدد يثبت خطاب إعلان الاستقلال وتاريخه ونصه وحقوقه. نسبة مادة إلى الأرشيف الملكي أو التلفزيون لا تثبت الإذن بالتضمين في اللعبة."
+      ]
+    },
+    {
+      "id": "character_voice-legendary-0012",
+      "categoryId": "character_voice",
+      "difficulty": "legendary",
+      "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+      "answer": "الشيخ محمد الطاهر بن عاشور",
+      "acceptedAnswers": [
+        "ابن عاشور",
+        "الطاهر بن عاشور",
+        "محمد الطاهر بن عاشور",
+        "الشيخ ابن عاشور"
+      ],
+      "hint": "عالم تونسي ارتبط بالتعليم الديني والإصلاح في بيئة جامع الزيتونة.",
+      "clues": [],
+      "explanation": "تعذر إثبات أن التسجيل المرفق يعود إلى الشيخ محمد الطاهر بن عاشور من مصدر صوتي موثق يسمح بإعادة استخدامه؛ ليس سؤالًا معتمدًا، ولا يجوز تشغيله أو نسبته إليه قبل استكمال الإثبات والمراجعة السمعية.",
+      "sources": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "الشيخ عبد العزيز جعيط"
+        },
+        {
+          "id": "B",
+          "text": "الشيخ محمد الفاضل بن عاشور"
+        },
+        {
+          "id": "C",
+          "text": "الشيخ محمد الخضر حسين"
+        },
+        {
+          "id": "D",
+          "text": "الشيخ محمد الطاهر بن عاشور"
+        },
+        {
+          "id": "E",
+          "text": "الشيخ سالم بوحاجب"
+        },
+        {
+          "id": "F",
+          "text": "الشيخ محمد بيرم الخامس"
+        }
+      ],
+      "correctOptionId": "D",
+      "qualityStatus": "quarantined",
+      "usageId": "82750739699673788491009343144399772056",
+      "qualityReasons": [
+        "ابن عاشور: لا درس زيتوني مؤرخ أو ملف أصلي أو ترخيص يدعم التسجيل المزعوم. لا يصح إسناد درس قارئ أو مدرس لاحق إليه لأن عنوانه مقاصد الشريعة، والسؤال نفسه يسمي تفسيره الكاشف للهوية."
+      ]
+    },
+    {
+      "id": "character_voice-legendary-0013",
+      "categoryId": "character_voice",
+      "difficulty": "legendary",
+      "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+      "answer": "ويليام بتلر ييتس",
+      "acceptedAnswers": [
+        "ويليام بتلر ييتس",
+        "W.B. Yeats",
+        "ييتس"
+      ],
+      "hint": "شاعر أيرلندي من رواد الأدب الحديث.",
+      "clues": [],
+      "explanation": "لم يُثبت بعد تسجيل صالح ومرخّص لهذه الشخصية. هذا السؤال معزول ولا يجوز عرضه في المباراة. تفاصيل السبب محفوظة في qualityReasons.",
+      "sources": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "جيمس جويس"
+        },
+        {
+          "id": "B",
+          "text": "ويليام بتلر ييتس"
+        },
+        {
+          "id": "C",
+          "text": "جورج برنارد شو"
+        },
+        {
+          "id": "D",
+          "text": "تي إس إليوت"
+        },
+        {
+          "id": "E",
+          "text": "إزرا باوند"
+        },
+        {
+          "id": "F",
+          "text": "دبليو إتش أودن"
+        }
+      ],
+      "correctOptionId": "B",
+      "qualityStatus": "quarantined",
+      "usageId": "46424235730720317674878743904186589033",
+      "qualityReasons": [
+        "عنوانا قصيدة إينيسفري المذكوران غير مثبتين في صفحات المصدر المقروءة. بث BBC في 1932 لا يثبت تلقائيًا الملكية العامة للأداء والتسجيل والنص معًا؛ لا أُبقي دعوى القراءة حتى مصدر فعلي.",
+        "لم يُستمع إلى المقتطف النهائي؛ هذه البيئة لا تدعم إدخال الصوت. لا اعتماد آلي أو مراجعة سمعية مدعاة."
+      ]
+    },
+    {
+      "id": "character_voice-legendary-0014",
+      "categoryId": "character_voice",
+      "difficulty": "legendary",
+      "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+      "answer": "جيمس جويس",
+      "acceptedAnswers": [
+        "جيمس جويس",
+        "James Joyce",
+        "جويس"
+      ],
+      "hint": "أديب أيرلندي اهتم بتجريب أساليب السرد واللغة.",
+      "clues": [],
+      "explanation": "لم يُثبت بعد تسجيل صالح ومرخّص لهذه الشخصية. هذا السؤال معزول ولا يجوز عرضه في المباراة. تفاصيل السبب محفوظة في qualityReasons.",
+      "sources": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "مارسيل بروست"
+        },
+        {
+          "id": "B",
+          "text": "فرانز كافكا"
+        },
+        {
+          "id": "C",
+          "text": "فرجينيا وولف"
+        },
+        {
+          "id": "D",
+          "text": "جيمس جويس"
+        },
+        {
+          "id": "E",
+          "text": "صامويل بيكيت"
+        },
+        {
+          "id": "F",
+          "text": "روبرت موزيل"
+        }
+      ],
+      "correctOptionId": "D",
+      "qualityStatus": "quarantined",
+      "usageId": "88711415506649744698599905073864377091",
+      "qualityReasons": [
+        "مرجع Ulysses 1924 ومصدر البناء Anna Livia Plurabelle غير مثبتين. جامعة بافلو تميز التسجيلين؛ مصدر Joyce Tower يعرّف Anna Livia بتسجيل 1929 ويضع CC BY-NC-ND للعرض المنشور. لم أخلط الرواية أو السنة ولم أنزل نسخة غير قابلة للتحرير.",
+        "لم يُستمع إلى المقتطف النهائي؛ هذه البيئة لا تدعم إدخال الصوت. لا اعتماد آلي أو مراجعة سمعية مدعاة."
+      ]
+    },
+    {
+      "id": "character_voice-legendary-0015",
+      "categoryId": "character_voice",
+      "difficulty": "legendary",
+      "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+      "answer": "تي إس إليوت",
+      "acceptedAnswers": [
+        "تي إس إليوت",
+        "T.S. Eliot",
+        "تي اس اليوت",
+        "إليوت"
+      ],
+      "hint": "شاعر كتب بالإنجليزية ونال جائزة نوبل للأدب.",
+      "clues": [],
+      "explanation": "لم يُثبت بعد تسجيل صالح ومرخّص لهذه الشخصية. هذا السؤال معزول ولا يجوز عرضه في المباراة. تفاصيل السبب محفوظة في qualityReasons.",
+      "sources": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "إزرا باوند"
+        },
+        {
+          "id": "B",
+          "text": "إي إي كامينغز"
+        },
+        {
+          "id": "C",
+          "text": "ويليام ييتس"
+        },
+        {
+          "id": "D",
+          "text": "والاس ستيفنز"
+        },
+        {
+          "id": "E",
+          "text": "روبرت فروست"
+        },
+        {
+          "id": "F",
+          "text": "تي إس إليوت"
+        }
+      ],
+      "correctOptionId": "F",
+      "qualityStatus": "quarantined",
+      "usageId": "149382411468190907357271155275798583655",
+      "qualityReasons": [
+        "المصدر الحالي The Waste Land ومصدر البناء Four Quartets مفقودان ومختلفان. تسجيل في مكتبة الكونغرس عام 1946 ليس ملكية عامة تلقائيًا. يبقى موضوع القراءة والتاريخ والحقوق غير مثبتة.",
+        "لم يُستمع إلى المقتطف النهائي؛ هذه البيئة لا تدعم إدخال الصوت. لا اعتماد آلي أو مراجعة سمعية مدعاة."
+      ]
+    },
+    {
+      "id": "character_voice-legendary-0016",
+      "categoryId": "character_voice",
+      "difficulty": "legendary",
+      "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+      "answer": "ألفريد هتشكوك",
+      "acceptedAnswers": [
+        "ألفريد هتشكوك",
+        "Alfred Hitchcock",
+        "الفريد هتشكوك",
+        "هتشكوك"
+      ],
+      "hint": "مخرج عمل في بريطانيا والولايات المتحدة.",
+      "clues": [],
+      "explanation": "لم يُثبت بعد تسجيل صالح ومرخّص لهذه الشخصية. هذا السؤال معزول ولا يجوز عرضه في المباراة. تفاصيل السبب محفوظة في qualityReasons.",
+      "sources": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "ستانلي كوبريك"
+        },
+        {
+          "id": "B",
+          "text": "أورسون ويلز"
+        },
+        {
+          "id": "C",
+          "text": "ألفريد هتشكوك"
+        },
+        {
+          "id": "D",
+          "text": "بيلي وايلدر"
+        },
+        {
+          "id": "E",
+          "text": "فرانسوا تروفو"
+        },
+        {
+          "id": "F",
+          "text": "هوارد هوكس"
+        }
+      ],
+      "correctOptionId": "C",
+      "qualityStatus": "quarantined",
+      "usageId": "90561236153642513478901346889901971478",
+      "qualityReasons": [
+        "لا ملف Good Evening أو مقدمة Psycho المدعيين. عرض على CBS في 1955 لا يمنح Public Domain، ومقدمة برنامج تختلف عن إعلان فيلم. حُذف لقب سيد التشويق من نص السؤال لأنه يجيب عنه.",
+        "لم يُستمع إلى المقتطف النهائي؛ هذه البيئة لا تدعم إدخال الصوت. لا اعتماد آلي أو مراجعة سمعية مدعاة."
+      ]
+    },
+    {
+      "id": "character_voice-legendary-0017",
+      "categoryId": "character_voice",
+      "difficulty": "legendary",
+      "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+      "answer": "إيغور سترافينسكي",
+      "acceptedAnswers": [
+        "إيغور سترافينسكي",
+        "Igor Stravinsky",
+        "ايغور سترافينسكي",
+        "سترافينسكي"
+      ],
+      "hint": "مؤلف موسيقي روسي عمل خارج روسيا أيضًا.",
+      "clues": [],
+      "explanation": "لم يُثبت بعد تسجيل صالح ومرخّص لهذه الشخصية. هذا السؤال معزول ولا يجوز عرضه في المباراة. تفاصيل السبب محفوظة في qualityReasons.",
+      "sources": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "سيرجي رحمانينوف"
+        },
+        {
+          "id": "B",
+          "text": "أرنولد شوينبيرج"
+        },
+        {
+          "id": "C",
+          "text": "ديمتري شوستاكوفيتش"
+        },
+        {
+          "id": "D",
+          "text": "سيرجي بروكوفييف"
+        },
+        {
+          "id": "E",
+          "text": "إيغور سترافينسكي"
+        },
+        {
+          "id": "F",
+          "text": "موريس رافيل"
+        }
+      ],
+      "correctOptionId": "E",
+      "qualityStatus": "quarantined",
+      "usageId": "146442222871332381475177198466490905795",
+      "qualityReasons": [
+        "لا ملف للصوت المذكور أو للكلام عن Rite of Spring في المصدر. Creative Commons Attribution / Historical Recording لا يحدد رخصة أو صاحب صلاحية. لا إثبات لموضوع الروح والموسيقى في القصّة المحلية.",
+        "لم يُستمع إلى المقتطف النهائي؛ هذه البيئة لا تدعم إدخال الصوت. لا اعتماد آلي أو مراجعة سمعية مدعاة."
+      ]
+    },
+    {
+      "id": "character_voice-legendary-0018",
+      "categoryId": "character_voice",
+      "difficulty": "legendary",
+      "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+      "answer": "نيلز بور",
+      "acceptedAnswers": [
+        "نيلز بور",
+        "Niels Bohr",
+        "بور"
+      ],
+      "hint": "من علماء الفيزياء في أوروبا خلال النصف الأول من القرن العشرين.",
+      "clues": [],
+      "explanation": "لم يُثبت بعد تسجيل صالح ومرخّص لهذه الشخصية. هذا السؤال معزول ولا يجوز عرضه في المباراة. تفاصيل السبب محفوظة في qualityReasons.",
+      "sources": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "نيلز بور"
+        },
+        {
+          "id": "B",
+          "text": "إرنست رذرفورد"
+        },
+        {
+          "id": "C",
+          "text": "ماكس بورن"
+        },
+        {
+          "id": "D",
+          "text": "فيرنر هايزنبرغ"
+        },
+        {
+          "id": "E",
+          "text": "فولفغانغ باولي"
+        },
+        {
+          "id": "F",
+          "text": "هندريك لورنتز"
+        }
+      ],
+      "correctOptionId": "A",
+      "qualityStatus": "quarantined",
+      "usageId": "123774927797986635078964178731637376309",
+      "qualityReasons": [
+        "لا Niels Bohr voice ولا Atomic physics and human knowledge في بيانات الملف. أرشيف كوبنهاغن ليس مرادفًا للملكية العامة. قادة مدرسة كوبنهاغن ونموذج بور من النص والتلميح السابقين يكشفان الاسم دون صوت؛ أُزيلا.",
+        "لم يُستمع إلى المقتطف النهائي؛ هذه البيئة لا تدعم إدخال الصوت. لا اعتماد آلي أو مراجعة سمعية مدعاة."
+      ]
+    },
+    {
+      "id": "character_voice-legendary-0019",
+      "categoryId": "character_voice",
+      "difficulty": "legendary",
+      "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+      "answer": "ألكسندر فلمنج",
+      "acceptedAnswers": [
+        "ألكسندر فلمنج",
+        "Alexander Fleming",
+        "الكسندر فلمنج",
+        "فلمنج"
+      ],
+      "hint": "طبيب وباحث ارتبط اسمه بتاريخ المضادات الحيوية.",
+      "clues": [],
+      "explanation": "لم يُثبت بعد تسجيل صالح ومرخّص لهذه الشخصية. هذا السؤال معزول ولا يجوز عرضه في المباراة. تفاصيل السبب محفوظة في qualityReasons.",
+      "sources": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "بول إرليخ"
+        },
+        {
+          "id": "B",
+          "text": "إرنست تشين"
+        },
+        {
+          "id": "C",
+          "text": "سلمان واكسمان"
+        },
+        {
+          "id": "D",
+          "text": "هوارد فلوري"
+        },
+        {
+          "id": "E",
+          "text": "ألكسندر فلمنج"
+        },
+        {
+          "id": "F",
+          "text": "غرهارد دوماك"
+        }
+      ],
+      "correctOptionId": "E",
+      "qualityStatus": "quarantined",
+      "usageId": "50695709266622997276793061628423692732",
+      "qualityReasons": [
+        "لا ملف Fleming voice أو Penicillin discovery المثبتين. BBC Historic Archives 1945 لا يثبت سقوط الحقوق، ولا يجوز افتراض أن كلمة نوبل بصوت صاحب الجائزة. خيارات المقترح استُبدلت لتجنب علماء سابقين للمضادات الحيوية.",
+        "لم يُستمع إلى المقتطف النهائي؛ هذه البيئة لا تدعم إدخال الصوت. لا اعتماد آلي أو مراجعة سمعية مدعاة."
+      ]
+    },
+    {
+      "id": "character_voice-legendary-0020",
+      "categoryId": "character_voice",
+      "difficulty": "legendary",
+      "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+      "answer": "غوغلييلمو ماركوني",
+      "acceptedAnswers": [
+        "غوغلييلمو ماركوني",
+        "Guglielmo Marconi",
+        "ماركوني"
+      ],
+      "hint": "من رواد تجارب الاتصال اللاسلكي قبل انتشار الإذاعة.",
+      "clues": [],
+      "explanation": "لم يُثبت بعد تسجيل صالح ومرخّص لهذه الشخصية. هذا السؤال معزول ولا يجوز عرضه في المباراة. تفاصيل السبب محفوظة في qualityReasons.",
+      "sources": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "ألكسندر غراهام بل"
+        },
+        {
+          "id": "B",
+          "text": "توماس إديسون"
+        },
+        {
+          "id": "C",
+          "text": "غوغلييلمو ماركوني"
+        },
+        {
+          "id": "D",
+          "text": "نيكولا تسلا"
+        },
+        {
+          "id": "E",
+          "text": "هاينريش هيرتز"
+        },
+        {
+          "id": "F",
+          "text": "ألكسندر بوبوف"
+        }
+      ],
+      "correctOptionId": "C",
+      "qualityStatus": "quarantined",
+      "usageId": "134524048855270980700253243703732864782",
+      "qualityReasons": [
+        "لا ملف Marconi speaks ولا Wireless communication المثبتين. اسم مؤسسة ماركوني وتاريخ 1930 لا يثبتان الحقوق. عُدلت الخيارات لأشخاص مرتبطين فعلًا بالاتصال واللاسلكي؛ لا يُختزل اختراع الراديو في نسبة قطعية لمخترع واحد.",
+        "لم يُستمع إلى المقتطف النهائي؛ هذه البيئة لا تدعم إدخال الصوت. لا اعتماد آلي أو مراجعة سمعية مدعاة."
+      ]
+    },
+    {
+      "id": "character_voice-legendary-0021",
+      "categoryId": "character_voice",
+      "difficulty": "legendary",
+      "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+      "answer": "كليمنت أتلي",
+      "acceptedAnswers": [
+        "كليمنت أتلي",
+        "Clement Attlee",
+        "كليمنت اتلي",
+        "أتلي"
+      ],
+      "hint": "سياسي بريطاني تولى رئاسة الحكومة خلال القرن العشرين.",
+      "clues": [],
+      "explanation": "لم يُثبت بعد تسجيل صالح ومرخّص لهذه الشخصية. هذا السؤال معزول ولا يجوز عرضه في المباراة. تفاصيل السبب محفوظة في qualityReasons.",
+      "sources": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "كليمنت أتلي"
+        },
+        {
+          "id": "B",
+          "text": "ونستون تشرشل"
+        },
+        {
+          "id": "C",
+          "text": "أنتوني إيدن"
+        },
+        {
+          "id": "D",
+          "text": "رامزي ماكدونالد"
+        },
+        {
+          "id": "E",
+          "text": "هارولد ويلسون"
+        },
+        {
+          "id": "F",
+          "text": "نيفيل تشامبرلين"
+        }
+      ],
+      "correctOptionId": "A",
+      "qualityStatus": "quarantined",
+      "usageId": "97978423544279757272804917546011248827",
+      "qualityReasons": [
+        "لا ملف Clement Attlee voice أو خطاب NHS المدعى. وصفه بأنه مؤسس NHS وحده يحجب دور بيفان؛ أُزيل هذا التلميح الكاشف والادعاء البرلماني لعام 1947 إلى حين مصدر موثق.",
+        "لم يُستمع إلى المقتطف النهائي؛ هذه البيئة لا تدعم إدخال الصوت. لا اعتماد آلي أو مراجعة سمعية مدعاة."
+      ]
+    },
+    {
+      "id": "character_voice-legendary-0022",
+      "categoryId": "character_voice",
+      "difficulty": "legendary",
+      "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+      "answer": "لويس أرمسترونغ",
+      "acceptedAnswers": [
+        "لويس أرمسترونغ",
+        "Louis Armstrong",
+        "لويس ارمسترونغ",
+        "أرمسترونغ"
+      ],
+      "hint": "موسيقي أمريكي ارتبط بالغناء والجاز، إلى جانب عزف آلة موسيقية.",
+      "clues": [],
+      "explanation": "لم يُثبت بعد تسجيل صالح ومرخّص لهذه الشخصية. هذا السؤال معزول ولا يجوز عرضه في المباراة. تفاصيل السبب محفوظة في qualityReasons.",
+      "sources": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "مايلز ديفيس"
+        },
+        {
+          "id": "B",
+          "text": "جون كولترين"
+        },
+        {
+          "id": "C",
+          "text": "ديوك إلينغتون"
+        },
+        {
+          "id": "D",
+          "text": "لويس أرمسترونغ"
+        },
+        {
+          "id": "E",
+          "text": "راي تشارلز"
+        },
+        {
+          "id": "F",
+          "text": "نات كينغ كول"
+        }
+      ],
+      "correctOptionId": "D",
+      "qualityStatus": "quarantined",
+      "usageId": "47815225604033892672691630938195565669",
+      "qualityReasons": [
+        "لا ملف Louis Armstrong voice spoken أو Speaking interview في المصدر. تسجيل ABC 1967 ليس CC BY بمجرد الاسم، ولا دليل على أن العبارة قبل What a Wonderful World. حُذف الاسم الفني ساتشمو من نص السؤال.",
+        "لم يُستمع إلى المقتطف النهائي؛ هذه البيئة لا تدعم إدخال الصوت. لا اعتماد آلي أو مراجعة سمعية مدعاة."
+      ]
+    },
+    {
+      "id": "character_voice-legendary-0023",
+      "categoryId": "character_voice",
+      "difficulty": "legendary",
+      "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+      "answer": "سيمون دي بوفوار",
+      "acceptedAnswers": [
+        "سيمون دي بوفوار",
+        "Simone de Beauvoir",
+        "بوفوار"
+      ],
+      "hint": "كاتبة فرنسية نشطت في النقاشات الفكرية والاجتماعية في القرن العشرين.",
+      "clues": [],
+      "explanation": "لم يُثبت بعد تسجيل صالح ومرخّص لهذه الشخصية. هذا السؤال معزول ولا يجوز عرضه في المباراة. تفاصيل السبب محفوظة في qualityReasons.",
+      "sources": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "كوليت"
+        },
+        {
+          "id": "B",
+          "text": "مارغريت يورسنار"
+        },
+        {
+          "id": "C",
+          "text": "مارغريت دوراس"
+        },
+        {
+          "id": "D",
+          "text": "سيمون فايل"
+        },
+        {
+          "id": "E",
+          "text": "فرانسواز ساغان"
+        },
+        {
+          "id": "F",
+          "text": "سيمون دي بوفوار"
+        }
+      ],
+      "correctOptionId": "F",
+      "qualityStatus": "quarantined",
+      "usageId": "112087848824274362960152670858200448389",
+      "qualityReasons": [
+        "لا مصدر مثبت لمقابلة سيمون دي بوفوار 1959. رصيد INA/RTF لا يجعل العمل ملكية عامة. التلميح السابق يذكر مؤلفها وشريكها فيحسم الاسم؛ استُبدل، واستُبدل خيار الرجل بخيار كاتبة فرنسية معاصرة.",
+        "لم يُستمع إلى المقتطف النهائي؛ هذه البيئة لا تدعم إدخال الصوت. لا اعتماد آلي أو مراجعة سمعية مدعاة."
+      ]
+    },
+    {
+      "id": "character_voice-legendary-0024",
+      "categoryId": "character_voice",
+      "difficulty": "legendary",
+      "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+      "answer": "مارتن هايدغر",
+      "acceptedAnswers": [
+        "مارتن هايدغر",
+        "Martin Heidegger",
+        "هايدغر"
+      ],
+      "hint": "فيلسوف ألماني من تيار الفكر القاري في القرن العشرين.",
+      "clues": [],
+      "explanation": "لم يُثبت بعد تسجيل صالح ومرخّص لهذه الشخصية. هذا السؤال معزول ولا يجوز عرضه في المباراة. تفاصيل السبب محفوظة في qualityReasons.",
+      "sources": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "إدموند هوسرل"
+        },
+        {
+          "id": "B",
+          "text": "مارتن هايدغر"
+        },
+        {
+          "id": "C",
+          "text": "هانز جورج غادامير"
+        },
+        {
+          "id": "D",
+          "text": "تيودور أدورنو"
+        },
+        {
+          "id": "E",
+          "text": "لودفيغ فيتغنشتاين"
+        },
+        {
+          "id": "F",
+          "text": "كارل ياسبرز"
+        }
+      ],
+      "correctOptionId": "B",
+      "qualityStatus": "quarantined",
+      "usageId": "44717748217987296561604931070950038025",
+      "qualityReasons": [
+        "لا مصدر مثبت للصوت: البناء يذكر Der Spiegel فيما الشرح يذكر حوارًا تلفزيونيًا عام 1969. لا حقوق PD مثبتة لـZDF. عنوان الوجود والزمان في السؤال كان كافيًا لمعرفة الجواب بلا صوت؛ أُزيل.",
+        "لم يُستمع إلى المقتطف النهائي؛ هذه البيئة لا تدعم إدخال الصوت. لا اعتماد آلي أو مراجعة سمعية مدعاة."
+      ]
+    },
+    {
+      "id": "character_voice-legendary-0025",
+      "categoryId": "character_voice",
+      "difficulty": "legendary",
+      "text": "استمع إلى المقطع. من صاحب هذا الصوت؟",
+      "answer": "توماس مان",
+      "acceptedAnswers": [
+        "توماس مان",
+        "Thomas Mann",
+        "مان"
+      ],
+      "hint": "روائي كتب بالألمانية وعاش خارج بلاده في مرحلة من حياته.",
+      "clues": [],
+      "explanation": "لم يُثبت بعد تسجيل صالح ومرخّص لهذه الشخصية. هذا السؤال معزول ولا يجوز عرضه في المباراة. تفاصيل السبب محفوظة في qualityReasons.",
+      "sources": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "هرمان هيسه"
+        },
+        {
+          "id": "B",
+          "text": "برتولت بريشت"
+        },
+        {
+          "id": "C",
+          "text": "هاينريش بول"
+        },
+        {
+          "id": "D",
+          "text": "توماس مان"
+        },
+        {
+          "id": "E",
+          "text": "شتيفان تسفايغ"
+        },
+        {
+          "id": "F",
+          "text": "فرانتس فرفل"
+        }
+      ],
+      "correctOptionId": "D",
+      "qualityStatus": "quarantined",
+      "usageId": "84090476224098848798782624954841865279",
+      "qualityReasons": [
+        "ملف Deutsche Hörer وAddress to the German people غير مثبتين. ورود البث في أرشيف BBC لا يثبت حقوق توزيعه، ولا دليل على عام 1941 أو المصدر المسموع. عناوين الروايات ونوبل السابقة أُزيلت من نص السؤال والتلميح.",
+        "لم يُستمع إلى المقتطف النهائي؛ هذه البيئة لا تدعم إدخال الصوت. لا اعتماد آلي أو مراجعة سمعية مدعاة."
+      ]
+    }
+  ]
+}

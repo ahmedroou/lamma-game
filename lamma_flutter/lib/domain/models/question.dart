@@ -1,3 +1,4 @@
+import 'question_audio.dart';
 import 'question_presentation.dart';
 
 enum QuestionDifficulty {
@@ -51,6 +52,7 @@ final class Question {
     this.sources = const [],
     this.imageAsset,
     this.imageDescription,
+    this.audio,
     this.options = const [],
     this.correctOptionId,
     this.qualityStatus = QuestionQualityStatus.unreviewed,
@@ -65,6 +67,7 @@ final class Question {
   final String hint, explanation;
   final List<String> clues, acceptedAnswers, sources;
   final String? imageAsset, imageDescription;
+  final QuestionAudio? audio;
   final List<QuestionOption> options;
   final String? correctOptionId;
   final QuestionDifficulty difficulty;
@@ -90,7 +93,15 @@ final class Question {
       ).hasMatch(text.trim());
   bool get isQuarantined =>
       qualityStatus == QuestionQualityStatus.quarantined ||
-      hasKnownPlaceholderContent;
+      hasKnownPlaceholderContent ||
+      categoryId == 'character_voice' && !hasApprovedVoice;
+  bool get hasApprovedVoice =>
+      audio?.isApproved == true &&
+      qualityStatus == QuestionQualityStatus.reviewed &&
+      [
+        answer,
+        ...acceptedAnswers,
+      ].any((name) => name.trim() == audio!.speaker.trim());
   int get points => difficulty.points;
   bool get isIdentity => categoryId == 'who_am_i';
   int pointsForClues(int revealed) {
@@ -126,6 +137,11 @@ final class Question {
         sources: _strings(json['sources']),
         imageAsset: json['imageAsset'] as String?,
         imageDescription: json['imageDescription'] as String?,
+        audio: json['audio'] == null
+            ? null
+            : QuestionAudio.fromJson(
+                Map<String, dynamic>.from(json['audio'] as Map),
+              ),
         options: List<QuestionOption>.unmodifiable(
           (json['options'] as List<dynamic>? ?? const []).map(
             (raw) => QuestionOption.fromJson(raw as Map<String, dynamic>),
@@ -160,6 +176,7 @@ final class Question {
     'sources': sources,
     if (imageAsset != null) 'imageAsset': imageAsset,
     if (imageDescription != null) 'imageDescription': imageDescription,
+    if (audio != null) 'audio': audio!.toJson(),
     'options': options.map((option) => option.toJson()).toList(),
     if (correctOptionId != null) 'correctOptionId': correctOptionId,
     if (qualityStatus != QuestionQualityStatus.unreviewed)

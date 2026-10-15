@@ -46,6 +46,7 @@ List<Question> parseQuestionBank(Map<String, String> documents) {
   final ids = <String>{};
   final usageIds = <String>{};
   final texts = <String>{};
+  final approvedRecordings = <String>{};
   for (final entry in documents.entries) {
     final document = jsonDecode(entry.value) as Map<String, dynamic>;
     if (document['schemaVersion'] != 1 ||
@@ -98,8 +99,13 @@ List<Question> parseQuestionBank(Map<String, String> documents) {
       final diagram = entry.key == 'symbols_signals'
           ? question.imageAsset ?? ''
           : '';
+      final audioAsset = entry.key == 'character_voice'
+          ? question.audio?.recordingId.isNotEmpty == true
+                ? question.audio!.recordingId
+                : question.audio?.assetPath ?? ''
+          : '';
       final signature =
-          '${entry.key}|${normalizeAnswer(body)}|$structured|$diagram';
+          '${entry.key}|${normalizeAnswer(body)}|$structured|$diagram|$audioAsset';
       if (!question.isQuarantined && !texts.add(signature)) {
         throw FormatException('Duplicate question: ${question.id}');
       }
@@ -112,6 +118,23 @@ List<Question> parseQuestionBank(Map<String, String> documents) {
               question.imageDescription!.trim().isEmpty)) {
         throw FormatException(
           'Question media must be a described local asset: ${question.id}',
+        );
+      }
+      final audio = question.audio;
+      if (question.categoryId == 'character_voice' &&
+          question.hasApprovedVoice &&
+          !approvedRecordings.add(audio!.recordingId)) {
+        throw FormatException(
+          'One original recording cannot be published as multiple voice questions: ${question.id}',
+        );
+      }
+      if (audio != null &&
+          (!audio.assetPath.startsWith('assets/question_audio/') ||
+              audio.assetPath.contains('..') ||
+              audio.assetPath.contains('\\') ||
+              audio.durationMs <= 0)) {
+        throw FormatException(
+          'Question audio must be a valid local asset: ${question.id}',
         );
       }
       questions.add(question);

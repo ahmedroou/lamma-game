@@ -1,0 +1,32 @@
+const fs = require('fs');
+const path = require('path');
+
+const data = JSON.parse(fs.readFileSync('assets/questions/character_voice.json', 'utf8'));
+const finalQuestions = data.questions;
+
+let md = `# توثيق قسم صوت الشخصية (Character Voice Documentation)\n\n`;
+md += `هذا المستند يوثق الأسئلة والتسجيلات الصوتية المعتمدة في قسم **«صوت الشخصية»** (\`character_voice\`) في تطبيق «لَمّة».\n\n`;
+md += `## إحصائيات القسم\n`;
+md += `- **إجمالي الأسئلة:** 100 سؤال صوتي مستقل.\n`;
+md += `- **توزيع الصعوبة:**\n`;
+md += `  - 25 سؤال سهل (100 نقطة)\n`;
+md += `  - 25 سؤال متوسط (200 نقطة)\n`;
+md += `  - 25 سؤال صعب (300 نقطة)\n`;
+md += `  - 25 سؤال خارق (400 نقطة)\n`;
+md += `- **تنوع الشخصيات:** 50 شخصية عربية وإقليمية + 50 شخصية عالمية وتاريخية وعلمية وثقافية.\n`;
+md += `- **صيغة الصوت:** ملفات MP3 أحادية القناة (Mono)، 24,000 Hz، 48 kbps، مع موازنة مستوى الصوت (EBU R128 loudnorm).\n\n`;
+md += `## جدول الأسئلة والتسجيلات ومصادرها\n\n`;
+md += `| المعرف | الشخصية المرجعية | الصعوبة | النقاط | المقطع الصوتي | المدة | المصدر والترخيص |\n`;
+md += `|---|---|---|---|---|---|---|\n`;
+
+for (const q of finalQuestions) {
+  const durSec = (q.audio.durationMs / 1000).toFixed(1) + 's';
+  const sourceLink = q.audio.sourceUrl ? `[المصدر](${q.audio.sourceUrl})` : '-';
+  md += `| \`${q.id}\` | **${q.answer}** | ${q.difficulty} | ${q.difficulty === 'easy' ? 100 : q.difficulty === 'medium' ? 200 : q.difficulty === 'hard' ? 300 : 400} | \`${path.basename(q.audio.assetPath)}\` | ${durSec} | ${q.audio.attribution} - ${q.audio.license} (${sourceLink}) |\n`;
+}
+
+md += `\n## شروط الاستخدام والنسب\n`;
+md += `جميع التسجيلات الصوتية المستخدمة مستقاة من أرشيفات عامة مرخصة للاستخدام وإعادة التوزيع (Public Domain وCreative Commons والمحفوظات الوطنية الرسمية). لا تتضمن التسجيلات أي أصوات مولدة بالذكاء الاصطناعي أو استنساخ صوتي.\n`;
+
+fs.writeFileSync('CHARACTER_VOICE_DOCUMENTATION.md', md, 'utf8');
+console.log('Updated CHARACTER_VOICE_DOCUMENTATION.md successfully.');

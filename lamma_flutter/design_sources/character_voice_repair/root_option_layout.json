@@ -1,0 +1,3302 @@
+[
+  {
+    "questionId": "character_voice-easy-0001",
+    "decision": "editorial_choice_position",
+    "originalOptions": [
+      {
+        "id": "A",
+        "text": "جمال عبد الناصر"
+      },
+      {
+        "id": "B",
+        "text": "محمد أنور السادات"
+      },
+      {
+        "id": "C",
+        "text": "حسني مبارك"
+      },
+      {
+        "id": "D",
+        "text": "الحبيب بورقيبة"
+      },
+      {
+        "id": "E",
+        "text": "معمر القذافي"
+      },
+      {
+        "id": "F",
+        "text": "جعفر النميري"
+      }
+    ],
+    "originalCorrectOptionId": "B",
+    "correctOptionId": "D",
+    "reason": "Remove the repeated-B answer-position cue; preserve all six person choices, the reference answer and usageId. No audio approval."
+  },
+  {
+    "questionId": "character_voice-easy-0002",
+    "decision": "editorial_choice_position",
+    "originalOptions": [
+      {
+        "id": "A",
+        "text": "جمال عبد الناصر"
+      },
+      {
+        "id": "B",
+        "text": "عبد الكريم قاسم"
+      },
+      {
+        "id": "C",
+        "text": "محمد نجيب"
+      },
+      {
+        "id": "D",
+        "text": "أحمد بن بلة"
+      },
+      {
+        "id": "E",
+        "text": "عبد السلام عارف"
+      },
+      {
+        "id": "F",
+        "text": "شكري القوتلي"
+      }
+    ],
+    "originalCorrectOptionId": "A",
+    "correctOptionId": "A",
+    "reason": "Remove the repeated-B answer-position cue; preserve all six person choices, the reference answer and usageId. No audio approval."
+  },
+  {
+    "questionId": "character_voice-easy-0003",
+    "decision": "editorial_choice_position",
+    "originalOptions": [
+      {
+        "id": "A",
+        "text": "الشيخ عبد الحميد كشك"
+      },
+      {
+        "id": "B",
+        "text": "الشيخ محمد متولي الشعراوي"
+      },
+      {
+        "id": "C",
+        "text": "الشيخ محمد الغزالي"
+      },
+      {
+        "id": "D",
+        "text": "الشيخ جاد الحق علي جاد الحق"
+      },
+      {
+        "id": "E",
+        "text": "الشيخ أحمد حسن الباقوري"
+      },
+      {
+        "id": "F",
+        "text": "الشيخ يوسف القرضاوي"
+      }
+    ],
+    "originalCorrectOptionId": "B",
+    "correctOptionId": "F",
+    "reason": "Remove the repeated-B answer-position cue; preserve all six person choices, the reference answer and usageId. No audio approval."
+  },
+  {
+    "questionId": "character_voice-easy-0004",
+    "decision": "editorial_choice_position",
+    "originalOptions": [
+      {
+        "id": "A",
+        "text": "الملك سعود بن عبد العزيز"
+      },
+      {
+        "id": "B",
+        "text": "الملك فيصل بن عبد العزيز"
+      },
+      {
+        "id": "C",
+        "text": "الملك خالد بن عبد العزيز"
+      },
+      {
+        "id": "D",
+        "text": "الملك فهد بن عبد العزيز"
+      },
+      {
+        "id": "E",
+        "text": "الملك عبد الله بن عبد العزيز"
+      },
+      {
+        "id": "F",
+        "text": "الأمير سلطان بن عبد العزيز"
+      }
+    ],
+    "originalCorrectOptionId": "B",
+    "correctOptionId": "C",
+    "reason": "Remove the repeated-B answer-position cue; preserve all six person choices, the reference answer and usageId. No audio approval."
+  },
+  {
+    "questionId": "character_voice-easy-0005",
+    "decision": "editorial_choice_position",
+    "originalOptions": [
+      {
+        "id": "A",
+        "text": "الشيخ راشد بن سعيد آل مكتوم"
+      },
+      {
+        "id": "B",
+        "text": "الشيخ زايد بن سلطان آل نهيان"
+      },
+      {
+        "id": "C",
+        "text": "الشيخ جابر الأحمد الصباح"
+      },
+      {
+        "id": "D",
+        "text": "الشيخ خليفة بن زايد آل نهيان"
+      },
+      {
+        "id": "E",
+        "text": "الشيخ عيسى بن سلمان آل خليفة"
+      },
+      {
+        "id": "F",
+        "text": "السلطان قابوس بن سعيد"
+      }
+    ],
+    "originalCorrectOptionId": "B",
+    "correctOptionId": "B",
+    "reason": "Remove the repeated-B answer-position cue; preserve all six person choices, the reference answer and usageId. No audio approval."
+  },
+  {
+    "questionId": "character_voice-easy-0006",
+    "decision": "editorial_choice_position",
+    "originalOptions": [
+      {
+        "id": "A",
+        "text": "أحمد حسن البكر"
+      },
+      {
+        "id": "B",
+        "text": "صدام حسين"
+      },
+      {
+        "id": "C",
+        "text": "طارق عزيز"
+      },
+      {
+        "id": "D",
+        "text": "عبد السلام عارف"
+      },
+      {
+        "id": "E",
+        "text": "برزان التكريتي"
+      },
+      {
+        "id": "F",
+        "text": "طه ياسين رمضان"
+      }
+    ],
+    "originalCorrectOptionId": "B",
+    "correctOptionId": "E",
+    "reason": "Remove the repeated-B answer-position cue; preserve all six person choices, the reference answer and usageId. No audio approval."
+  },
+  {
+    "questionId": "character_voice-easy-0007",
+    "decision": "editorial_choice_position",
+    "originalOptions": [
+      {
+        "id": "A",
+        "text": "جورج حبش"
+      },
+      {
+        "id": "B",
+        "text": "أحمد الشقيري"
+      },
+      {
+        "id": "C",
+        "text": "ياسر عرفات"
+      },
+      {
+        "id": "D",
+        "text": "محمود عباس"
+      },
+      {
+        "id": "E",
+        "text": "خليل الوزير (أبو جهاد)"
+      },
+      {
+        "id": "F",
+        "text": "صلاح خلف (أبو إياد)"
+      }
+    ],
+    "originalCorrectOptionId": "C",
+    "correctOptionId": "B",
+    "reason": "Remove the repeated-B answer-position cue; preserve all six person choices, the reference answer and usageId. No audio approval."
+  },
+  {
+    "questionId": "character_voice-easy-0008",
+    "decision": "editorial_choice_position",
+    "originalOptions": [
+      {
+        "id": "A",
+        "text": "يوسف إدريس"
+      },
+      {
+        "id": "B",
+        "text": "توفيق الحكيم"
+      },
+      {
+        "id": "C",
+        "text": "نجيب محفوظ"
+      },
+      {
+        "id": "D",
+        "text": "إحسان عبد القدوس"
+      },
+      {
+        "id": "E",
+        "text": "يحيى حقي"
+      },
+      {
+        "id": "F",
+        "text": "طه حسين"
+      }
+    ],
+    "originalCorrectOptionId": "C",
+    "correctOptionId": "F",
+    "reason": "Remove the repeated-B answer-position cue; preserve all six person choices, the reference answer and usageId. No audio approval."
+  },
+  {
+    "questionId": "character_voice-easy-0009",
+    "decision": "editorial_choice_position",
+    "originalOptions": [
+      {
+        "id": "A",
+        "text": "د. فاروق الباز"
+      },
+      {
+        "id": "B",
+        "text": "د. أحمد زويل"
+      },
+      {
+        "id": "C",
+        "text": "د. مجدي يعقوب"
+      },
+      {
+        "id": "D",
+        "text": "د. مصطفى السيد"
+      },
+      {
+        "id": "E",
+        "text": "د. علي مصطفى مشرفة"
+      },
+      {
+        "id": "F",
+        "text": "د. منير نايفة"
+      }
+    ],
+    "originalCorrectOptionId": "B",
+    "correctOptionId": "D",
+    "reason": "Remove the repeated-B answer-position cue; preserve all six person choices, the reference answer and usageId. No audio approval."
+  },
+  {
+    "questionId": "character_voice-easy-0010",
+    "decision": "editorial_choice_position",
+    "originalOptions": [
+      {
+        "id": "A",
+        "text": "د. زكي نجيب محمود"
+      },
+      {
+        "id": "B",
+        "text": "د. مصطفى محمود"
+      },
+      {
+        "id": "C",
+        "text": "أحمد بهجت"
+      },
+      {
+        "id": "D",
+        "text": "د. عبد الصبور شاهين"
+      },
+      {
+        "id": "E",
+        "text": "د. عبد الوهاب المسيري"
+      },
+      {
+        "id": "F",
+        "text": "د. مصطفى السباعي"
+      }
+    ],
+    "originalCorrectOptionId": "B",
+    "correctOptionId": "A",
+    "reason": "Remove the repeated-B answer-position cue; preserve all six person choices, the reference answer and usageId. No audio approval."
+  },
+  {
+    "questionId": "character_voice-easy-0011",
+    "decision": "editorial_choice_position",
+    "originalOptions": [
+      {
+        "id": "A",
+        "text": "أدونيس"
+      },
+      {
+        "id": "B",
+        "text": "نزار قباني"
+      },
+      {
+        "id": "C",
+        "text": "أحمد عبد المعطي حجازي"
+      },
+      {
+        "id": "D",
+        "text": "محمد الماغوط"
+      },
+      {
+        "id": "E",
+        "text": "عبد الوهاب البياتي"
+      },
+      {
+        "id": "F",
+        "text": "عمر أبو ريشة"
+      }
+    ],
+    "originalCorrectOptionId": "B",
+    "correctOptionId": "C",
+    "reason": "Remove the repeated-B answer-position cue; preserve all six person choices, the reference answer and usageId. No audio approval."
+  },
+  {
+    "questionId": "character_voice-easy-0012",
+    "decision": "editorial_choice_position",
+    "originalOptions": [
+      {
+        "id": "A",
+        "text": "سميح القاسم"
+      },
+      {
+        "id": "B",
+        "text": "معين بسيسو"
+      },
+      {
+        "id": "C",
+        "text": "محمود درويش"
+      },
+      {
+        "id": "D",
+        "text": "توفيق زياد"
+      },
+      {
+        "id": "E",
+        "text": "إبراهيم طوقان"
+      },
+      {
+        "id": "F",
+        "text": "فدوى طوقان"
+      }
+    ],
+    "originalCorrectOptionId": "C",
+    "correctOptionId": "E",
+    "reason": "Remove the repeated-B answer-position cue; preserve all six person choices, the reference answer and usageId. No audio approval."
+  },
+  {
+    "questionId": "character_voice-easy-0013",
+    "decision": "editorial_choice_position",
+    "originalOptions": [
+      {
+        "id": "A",
+        "text": "الملك طلال بن عبد الله"
+      },
+      {
+        "id": "B",
+        "text": "الملك عبد الله الثاني"
+      },
+      {
+        "id": "C",
+        "text": "الملك الحسين بن طلال"
+      },
+      {
+        "id": "D",
+        "text": "الأمير الحسن بن طلال"
+      },
+      {
+        "id": "E",
+        "text": "الملك فيصل الثاني"
+      },
+      {
+        "id": "F",
+        "text": "الشريف حسين بن علي"
+      }
+    ],
+    "originalCorrectOptionId": "C",
+    "correctOptionId": "A",
+    "reason": "Remove the repeated-B answer-position cue; preserve all six person choices, the reference answer and usageId. No audio approval."
+  },
+  {
+    "questionId": "character_voice-easy-0014",
+    "decision": "editorial_choice_position",
+    "originalOptions": [
+      {
+        "id": "A",
+        "text": "باز ألدرين"
+      },
+      {
+        "id": "B",
+        "text": "نيل أرمسترونغ"
+      },
+      {
+        "id": "C",
+        "text": "يوري غاغارين"
+      },
+      {
+        "id": "D",
+        "text": "مايكل كولينز"
+      },
+      {
+        "id": "E",
+        "text": "جون غلين"
+      },
+      {
+        "id": "F",
+        "text": "آلان شيبارد"
+      }
+    ],
+    "originalCorrectOptionId": "B",
+    "correctOptionId": "D",
+    "reason": "Remove the repeated-B answer-position cue; preserve all six person choices, the reference answer and usageId. No audio approval."
+  },
+  {
+    "questionId": "character_voice-easy-0015",
+    "decision": "editorial_choice_position",
+    "originalOptions": [
+      {
+        "id": "A",
+        "text": "ونستون تشرشل"
+      },
+      {
+        "id": "B",
+        "text": "كليمنت أتلي"
+      },
+      {
+        "id": "C",
+        "text": "نيفيل تشامبرلين"
+      },
+      {
+        "id": "D",
+        "text": "أنتوني إيدن"
+      },
+      {
+        "id": "E",
+        "text": "برنارد مونتغمري"
+      },
+      {
+        "id": "F",
+        "text": "هارولد ماكميلان"
+      }
+    ],
+    "originalCorrectOptionId": "A",
+    "correctOptionId": "F",
+    "reason": "Remove the repeated-B answer-position cue; preserve all six person choices, the reference answer and usageId. No audio approval."
+  },
+  {
+    "questionId": "character_voice-easy-0016",
+    "decision": "editorial_choice_position",
+    "originalOptions": [
+      {
+        "id": "A",
+        "text": "مالكوم إكس"
+      },
+      {
+        "id": "B",
+        "text": "مارتن لوثر كينغ"
+      },
+      {
+        "id": "C",
+        "text": "جون لويس"
+      },
+      {
+        "id": "D",
+        "text": "جيسي جاكسون"
+      },
+      {
+        "id": "E",
+        "text": "أندرو يونغ"
+      },
+      {
+        "id": "F",
+        "text": "رالف أبيرناثي"
+      }
+    ],
+    "originalCorrectOptionId": "B",
+    "correctOptionId": "B",
+    "reason": "Remove the repeated-B answer-position cue; preserve all six person choices, the reference answer and usageId. No audio approval."
+  },
+  {
+    "questionId": "character_voice-easy-0017",
+    "decision": "editorial_choice_position",
+    "originalOptions": [
+      {
+        "id": "A",
+        "text": "نيلز بور"
+      },
+      {
+        "id": "B",
+        "text": "ألبرت أينشتاين"
+      },
+      {
+        "id": "C",
+        "text": "إرفين شرودنغر"
+      },
+      {
+        "id": "D",
+        "text": "ماكس بلانك"
+      },
+      {
+        "id": "E",
+        "text": "إنريكو فيرمي"
+      },
+      {
+        "id": "F",
+        "text": "فيرنر هايزنبرغ"
+      }
+    ],
+    "originalCorrectOptionId": "B",
+    "correctOptionId": "E",
+    "reason": "Remove the repeated-B answer-position cue; preserve all six person choices, the reference answer and usageId. No audio approval."
+  },
+  {
+    "questionId": "character_voice-easy-0018",
+    "decision": "editorial_choice_position",
+    "originalOptions": [
+      {
+        "id": "A",
+        "text": "ديزموند توتو"
+      },
+      {
+        "id": "B",
+        "text": "نيلسون مانديلا"
+      },
+      {
+        "id": "C",
+        "text": "كوفي عنان"
+      },
+      {
+        "id": "D",
+        "text": "باتريس لومومبا"
+      },
+      {
+        "id": "E",
+        "text": "جواكيم شيسانو"
+      },
+      {
+        "id": "F",
+        "text": "روبرت موغابي"
+      }
+    ],
+    "originalCorrectOptionId": "B",
+    "correctOptionId": "C",
+    "reason": "Remove the repeated-B answer-position cue; preserve all six person choices, the reference answer and usageId. No audio approval."
+  },
+  {
+    "questionId": "character_voice-easy-0019",
+    "decision": "editorial_choice_position",
+    "originalOptions": [
+      {
+        "id": "A",
+        "text": "جون كينيدي"
+      },
+      {
+        "id": "B",
+        "text": "ريتشارد نيكسون"
+      },
+      {
+        "id": "C",
+        "text": "ليندون جونسون"
+      },
+      {
+        "id": "D",
+        "text": "دوايت أيزنهاور"
+      },
+      {
+        "id": "E",
+        "text": "جيرالد فورد"
+      },
+      {
+        "id": "F",
+        "text": "جيمي كارتر"
+      }
+    ],
+    "originalCorrectOptionId": "A",
+    "correctOptionId": "F",
+    "reason": "Remove the repeated-B answer-position cue; preserve all six person choices, the reference answer and usageId. No audio approval."
+  },
+  {
+    "questionId": "character_voice-easy-0020",
+    "decision": "editorial_choice_position",
+    "originalOptions": [
+      {
+        "id": "A",
+        "text": "جو فريزر"
+      },
+      {
+        "id": "B",
+        "text": "محمد علي كلاي"
+      },
+      {
+        "id": "C",
+        "text": "جورج فورمان"
+      },
+      {
+        "id": "D",
+        "text": "مايك تايسون"
+      },
+      {
+        "id": "E",
+        "text": "سوني ليستون"
+      },
+      {
+        "id": "F",
+        "text": "شوغار راي ليونارد"
+      }
+    ],
+    "originalCorrectOptionId": "B",
+    "correctOptionId": "C",
+    "reason": "Remove the repeated-B answer-position cue; preserve all six person choices, the reference answer and usageId. No audio approval."
+  },
+  {
+    "questionId": "character_voice-easy-0021",
+    "decision": "editorial_choice_position",
+    "originalOptions": [
+      {
+        "id": "A",
+        "text": "تشارلي تشابلن"
+      },
+      {
+        "id": "B",
+        "text": "باستر كيتون"
+      },
+      {
+        "id": "C",
+        "text": "أورسون ويلز"
+      },
+      {
+        "id": "D",
+        "text": "ستان لوريل"
+      },
+      {
+        "id": "E",
+        "text": "مارلون براندو"
+      },
+      {
+        "id": "F",
+        "text": "همفري بوغارت"
+      }
+    ],
+    "originalCorrectOptionId": "A",
+    "correctOptionId": "A",
+    "reason": "Remove the repeated-B answer-position cue; preserve all six person choices, the reference answer and usageId. No audio approval."
+  },
+  {
+    "questionId": "character_voice-easy-0022",
+    "decision": "editorial_choice_position",
+    "originalOptions": [
+      {
+        "id": "A",
+        "text": "كارل ساغان"
+      },
+      {
+        "id": "B",
+        "text": "ستيفن هوكينغ"
+      },
+      {
+        "id": "C",
+        "text": "روجر بنروز"
+      },
+      {
+        "id": "D",
+        "text": "ميشيو كاكو"
+      },
+      {
+        "id": "E",
+        "text": "براين كوكس"
+      },
+      {
+        "id": "F",
+        "text": "نيل ديغراس تايسون"
+      }
+    ],
+    "originalCorrectOptionId": "B",
+    "correctOptionId": "E",
+    "reason": "Remove the repeated-B answer-position cue; preserve all six person choices, the reference answer and usageId. No audio approval."
+  },
+  {
+    "questionId": "character_voice-easy-0023",
+    "decision": "editorial_choice_position",
+    "originalOptions": [
+      {
+        "id": "A",
+        "text": "ثيودور روزفلت"
+      },
+      {
+        "id": "B",
+        "text": "فرانكلين روزفلت"
+      },
+      {
+        "id": "C",
+        "text": "هاري ترومان"
+      },
+      {
+        "id": "D",
+        "text": "وودرو ويلسون"
+      },
+      {
+        "id": "E",
+        "text": "هربرت هوفر"
+      },
+      {
+        "id": "F",
+        "text": "دوايت أيزنهاور"
+      }
+    ],
+    "originalCorrectOptionId": "B",
+    "correctOptionId": "D",
+    "reason": "Remove the repeated-B answer-position cue; preserve all six person choices, the reference answer and usageId. No audio approval."
+  },
+  {
+    "questionId": "character_voice-easy-0024",
+    "decision": "editorial_choice_position",
+    "originalOptions": [
+      {
+        "id": "A",
+        "text": "جواهر لال نهرو"
+      },
+      {
+        "id": "B",
+        "text": "مهاتما غاندي"
+      },
+      {
+        "id": "C",
+        "text": "سوبهاش شاندرا بوز"
+      },
+      {
+        "id": "D",
+        "text": "سردار باتيل"
+      },
+      {
+        "id": "E",
+        "text": "محمد علي جناح"
+      },
+      {
+        "id": "F",
+        "text": "رابندرانات طاغور"
+      }
+    ],
+    "originalCorrectOptionId": "B",
+    "correctOptionId": "B",
+    "reason": "Remove the repeated-B answer-position cue; preserve all six person choices, the reference answer and usageId. No audio approval."
+  },
+  {
+    "questionId": "character_voice-easy-0025",
+    "decision": "editorial_choice_position",
+    "originalOptions": [
+      {
+        "id": "A",
+        "text": "غيرمان تيتوف"
+      },
+      {
+        "id": "B",
+        "text": "يوري غاغارين"
+      },
+      {
+        "id": "C",
+        "text": "أليكسي ليونوف"
+      },
+      {
+        "id": "D",
+        "text": "سيرجي كوروليف"
+      },
+      {
+        "id": "E",
+        "text": "فالنتينا تيريشكوفا"
+      },
+      {
+        "id": "F",
+        "text": "فلاديمير كوماروف"
+      }
+    ],
+    "originalCorrectOptionId": "B",
+    "correctOptionId": "A",
+    "reason": "Remove the repeated-B answer-position cue; preserve all six person choices, the reference answer and usageId. No audio approval."
+  },
+  {
+    "questionId": "character_voice-medium-0001",
+    "decision": "editorial_choice_position",
+    "originalOptions": [
+      {
+        "id": "A",
+        "text": "أحمد لطفي السيد"
+      },
+      {
+        "id": "B",
+        "text": "د. طه حسين"
+      },
+      {
+        "id": "C",
+        "text": "د. زكي مبارك"
+      },
+      {
+        "id": "D",
+        "text": "سلامة موسى"
+      },
+      {
+        "id": "E",
+        "text": "عباس محمود العقاد"
+      },
+      {
+        "id": "F",
+        "text": "مصطفى صادق الرافعي"
+      }
+    ],
+    "originalCorrectOptionId": "B",
+    "correctOptionId": "B",
+    "reason": "Remove the repeated-B answer-position cue; preserve all six person choices, the reference answer and usageId. No audio approval."
+  },
+  {
+    "questionId": "character_voice-medium-0002",
+    "decision": "editorial_choice_position",
+    "originalOptions": [
+      {
+        "id": "A",
+        "text": "صالح بن يوسف"
+      },
+      {
+        "id": "B",
+        "text": "الحبيب بورقيبة"
+      },
+      {
+        "id": "C",
+        "text": "زين العابدين بن علي"
+      },
+      {
+        "id": "D",
+        "text": "الباهي الأدغم"
+      },
+      {
+        "id": "E",
+        "text": "عبد العزيز الثعالبي"
+      },
+      {
+        "id": "F",
+        "text": "الهادي نويرة"
+      }
+    ],
+    "originalCorrectOptionId": "B",
+    "correctOptionId": "E",
+    "reason": "Remove the repeated-B answer-position cue; preserve all six person choices, the reference answer and usageId. No audio approval."
+  },
+  {
+    "questionId": "character_voice-medium-0003",
+    "decision": "editorial_choice_position",
+    "originalOptions": [
+      {
+        "id": "A",
+        "text": "الشيخ محمد رفعت"
+      },
+      {
+        "id": "B",
+        "text": "الشيخ عبد الباسط عبد الصمد"
+      },
+      {
+        "id": "C",
+        "text": "الشيخ محمود خليل الحصري"
+      },
+      {
+        "id": "D",
+        "text": "الشيخ صديق المنشاوي"
+      },
+      {
+        "id": "E",
+        "text": "الشيخ مصطفى إسماعيل"
+      },
+      {
+        "id": "F",
+        "text": "الشيخ محمود علي البنا"
+      }
+    ],
+    "originalCorrectOptionId": "B",
+    "correctOptionId": "A",
+    "reason": "Remove the repeated-B answer-position cue; preserve all six person choices, the reference answer and usageId. No audio approval."
+  },
+  {
+    "questionId": "character_voice-medium-0004",
+    "decision": "editorial_choice_position",
+    "originalOptions": [
+      {
+        "id": "A",
+        "text": "د. عبد العزيز الخويطر"
+      },
+      {
+        "id": "B",
+        "text": "د. غازي القصيبي"
+      },
+      {
+        "id": "C",
+        "text": "عبد الله بن خميس"
+      },
+      {
+        "id": "D",
+        "text": "حمد الجاسر"
+      },
+      {
+        "id": "E",
+        "text": "تركي الحمد"
+      },
+      {
+        "id": "F",
+        "text": "محمد عبده يماني"
+      }
+    ],
+    "originalCorrectOptionId": "B",
+    "correctOptionId": "F",
+    "reason": "Remove the repeated-B answer-position cue; preserve all six person choices, the reference answer and usageId. No audio approval."
+  },
+  {
+    "questionId": "character_voice-medium-0005",
+    "decision": "editorial_choice_position",
+    "originalOptions": [
+      {
+        "id": "A",
+        "text": "د. محمد غنيم"
+      },
+      {
+        "id": "B",
+        "text": "د. مجدي يعقوب"
+      },
+      {
+        "id": "C",
+        "text": "د. هاني عازر"
+      },
+      {
+        "id": "D",
+        "text": "د. يحيى الرخاوي"
+      },
+      {
+        "id": "E",
+        "text": "د. أحمد عكاشة"
+      },
+      {
+        "id": "F",
+        "text": "د. إبراهيم بدران"
+      }
+    ],
+    "originalCorrectOptionId": "B",
+    "correctOptionId": "D",
+    "reason": "Remove the repeated-B answer-position cue; preserve all six person choices, the reference answer and usageId. No audio approval."
+  },
+  {
+    "questionId": "character_voice-medium-0006",
+    "decision": "editorial_choice_position",
+    "originalOptions": [
+      {
+        "id": "A",
+        "text": "د. عصام حجي"
+      },
+      {
+        "id": "B",
+        "text": "د. فاروق الباز"
+      },
+      {
+        "id": "C",
+        "text": "د. أحمد زويل"
+      },
+      {
+        "id": "D",
+        "text": "د. رشدي سعيد"
+      },
+      {
+        "id": "E",
+        "text": "د. مصطفى السيد"
+      },
+      {
+        "id": "F",
+        "text": "د. منير نايفة"
+      }
+    ],
+    "originalCorrectOptionId": "B",
+    "correctOptionId": "C",
+    "reason": "Remove the repeated-B answer-position cue; preserve all six person choices, the reference answer and usageId. No audio approval."
+  },
+  {
+    "questionId": "character_voice-medium-0007",
+    "decision": "editorial_choice_position",
+    "originalOptions": [
+      {
+        "id": "A",
+        "text": "مصطفى صادق الرافعي"
+      },
+      {
+        "id": "B",
+        "text": "عباس محمود العقاد"
+      },
+      {
+        "id": "C",
+        "text": "إبراهيم عبد القادر المازني"
+      },
+      {
+        "id": "D",
+        "text": "محمد حسين هيكل"
+      },
+      {
+        "id": "E",
+        "text": "أحمد حسن الزيات"
+      },
+      {
+        "id": "F",
+        "text": "زكي مبارك"
+      }
+    ],
+    "originalCorrectOptionId": "B",
+    "correctOptionId": "F",
+    "reason": "Remove the repeated-B answer-position cue; preserve all six person choices, the reference answer and usageId. No audio approval."
+  },
+  {
+    "questionId": "character_voice-medium-0008",
+    "decision": "editorial_choice_position",
+    "originalOptions": [
+      {
+        "id": "A",
+        "text": "الملك فيصل الأول"
+      },
+      {
+        "id": "B",
+        "text": "الملك علي بن الحسين"
+      },
+      {
+        "id": "C",
+        "text": "الملك عبد الله الأول بن الحسين"
+      },
+      {
+        "id": "D",
+        "text": "الملك طلال بن عبد الله"
+      },
+      {
+        "id": "E",
+        "text": "الأمير زيد بن الحسين"
+      },
+      {
+        "id": "F",
+        "text": "الملك غازي الأول"
+      }
+    ],
+    "originalCorrectOptionId": "C",
+    "correctOptionId": "D",
+    "reason": "Remove the repeated-B answer-position cue; preserve all six person choices, the reference answer and usageId. No audio approval."
+  },
+  {
+    "questionId": "character_voice-medium-0009",
+    "decision": "editorial_choice_position",
+    "originalOptions": [
+      {
+        "id": "A",
+        "text": "محمد المهدي المجذوب"
+      },
+      {
+        "id": "B",
+        "text": "محمد الفيتوري"
+      },
+      {
+        "id": "C",
+        "text": "صلاح أحمد إبراهيم"
+      },
+      {
+        "id": "D",
+        "text": "التجاني يوسف بشير"
+      },
+      {
+        "id": "E",
+        "text": "محيي الدين فارس"
+      },
+      {
+        "id": "F",
+        "text": "جيلي عبد الرحمن"
+      }
+    ],
+    "originalCorrectOptionId": "B",
+    "correctOptionId": "C",
+    "reason": "Remove the repeated-B answer-position cue; preserve all six person choices, the reference answer and usageId. No audio approval."
+  },
+  {
+    "questionId": "character_voice-medium-0010",
+    "decision": "editorial_choice_position",
+    "originalOptions": [
+      {
+        "id": "A",
+        "text": "أحمد بن بلة"
+      },
+      {
+        "id": "B",
+        "text": "الشاذلي بن جديد"
+      },
+      {
+        "id": "C",
+        "text": "هواري بومدين"
+      },
+      {
+        "id": "D",
+        "text": "محمد بوضياف"
+      },
+      {
+        "id": "E",
+        "text": "عبد العزيز بوتفليقة"
+      },
+      {
+        "id": "F",
+        "text": "مصطفى بن بولعيد"
+      }
+    ],
+    "originalCorrectOptionId": "C",
+    "correctOptionId": "B",
+    "reason": "Remove the repeated-B answer-position cue; preserve all six person choices, the reference answer and usageId. No audio approval."
+  },
+  {
+    "questionId": "character_voice-medium-0011",
+    "decision": "editorial_choice_position",
+    "originalOptions": [
+      {
+        "id": "A",
+        "text": "إبراهيم الكوني"
+      },
+      {
+        "id": "B",
+        "text": "عبد الرحمن منيف"
+      },
+      {
+        "id": "C",
+        "text": "الطيب صالح"
+      },
+      {
+        "id": "D",
+        "text": "واسيني الأعرج"
+      },
+      {
+        "id": "E",
+        "text": "جمال الغيطاني"
+      },
+      {
+        "id": "F",
+        "text": "بهاء طاهر"
+      }
+    ],
+    "originalCorrectOptionId": "C",
+    "correctOptionId": "A",
+    "reason": "Remove the repeated-B answer-position cue; preserve all six person choices, the reference answer and usageId. No audio approval."
+  },
+  {
+    "questionId": "character_voice-medium-0012",
+    "decision": "editorial_choice_position",
+    "originalOptions": [
+      {
+        "id": "A",
+        "text": "د. ذاكر نايك"
+      },
+      {
+        "id": "B",
+        "text": "الشيخ أحمد ديدات"
+      },
+      {
+        "id": "C",
+        "text": "الشيخ يوسف القرضاوي"
+      },
+      {
+        "id": "D",
+        "text": "د. عبد الصبور مرزوق"
+      },
+      {
+        "id": "E",
+        "text": "د. محمد عمارة"
+      },
+      {
+        "id": "F",
+        "text": "الشيخ محمد الغزالي"
+      }
+    ],
+    "originalCorrectOptionId": "B",
+    "correctOptionId": "E",
+    "reason": "Remove the repeated-B answer-position cue; preserve all six person choices, the reference answer and usageId. No audio approval."
+  },
+  {
+    "questionId": "character_voice-medium-0013",
+    "decision": "editorial_choice_position",
+    "originalOptions": [
+      {
+        "id": "A",
+        "text": "أحمد طاهر"
+      },
+      {
+        "id": "B",
+        "text": "وجدي الحكيم"
+      },
+      {
+        "id": "C",
+        "text": "بابا شارو (محمد محمود شعبان)"
+      },
+      {
+        "id": "D",
+        "text": "أبلة فضيلة"
+      },
+      {
+        "id": "E",
+        "text": "طاهر أبو زيد"
+      },
+      {
+        "id": "F",
+        "text": "فهمي عمر"
+      }
+    ],
+    "originalCorrectOptionId": "C",
+    "correctOptionId": "E",
+    "reason": "Remove the repeated-B answer-position cue; preserve all six person choices, the reference answer and usageId. No audio approval."
+  },
+  {
+    "questionId": "character_voice-medium-0014",
+    "decision": "editorial_choice_position",
+    "originalOptions": [
+      {
+        "id": "A",
+        "text": "إنريكو فيرمي"
+      },
+      {
+        "id": "B",
+        "text": "روبرت أوبنهايمر"
+      },
+      {
+        "id": "C",
+        "text": "إدوارد تيلر"
+      },
+      {
+        "id": "D",
+        "text": "ريتشارد فاينمان"
+      },
+      {
+        "id": "E",
+        "text": "نيلز بور"
+      },
+      {
+        "id": "F",
+        "text": "إرنست لورنس"
+      }
+    ],
+    "originalCorrectOptionId": "B",
+    "correctOptionId": "A",
+    "reason": "Remove the repeated-B answer-position cue; preserve all six person choices, the reference answer and usageId. No audio approval."
+  },
+  {
+    "questionId": "character_voice-medium-0015",
+    "decision": "editorial_choice_position",
+    "originalOptions": [
+      {
+        "id": "A",
+        "text": "يوزف غوبلز"
+      },
+      {
+        "id": "B",
+        "text": "أدولف هتلر"
+      },
+      {
+        "id": "C",
+        "text": "هيرمان غورينغ"
+      },
+      {
+        "id": "D",
+        "text": "هاينريش هيملر"
+      },
+      {
+        "id": "E",
+        "text": "بينيتو موسوليني"
+      },
+      {
+        "id": "F",
+        "text": "فرانكو"
+      }
+    ],
+    "originalCorrectOptionId": "B",
+    "correctOptionId": "D",
+    "reason": "Remove the repeated-B answer-position cue; preserve all six person choices, the reference answer and usageId. No audio approval."
+  },
+  {
+    "questionId": "character_voice-medium-0016",
+    "decision": "editorial_choice_position",
+    "originalOptions": [
+      {
+        "id": "A",
+        "text": "فيليب بيتان"
+      },
+      {
+        "id": "B",
+        "text": "شارل ديغول"
+      },
+      {
+        "id": "C",
+        "text": "فرانسوا ميتران"
+      },
+      {
+        "id": "D",
+        "text": "جورج بومبيدو"
+      },
+      {
+        "id": "E",
+        "text": "جان مولان"
+      },
+      {
+        "id": "F",
+        "text": "بيير منديس فرانس"
+      }
+    ],
+    "originalCorrectOptionId": "B",
+    "correctOptionId": "C",
+    "reason": "Remove the repeated-B answer-position cue; preserve all six person choices, the reference answer and usageId. No audio approval."
+  },
+  {
+    "questionId": "character_voice-medium-0017",
+    "decision": "editorial_choice_position",
+    "originalOptions": [
+      {
+        "id": "A",
+        "text": "نيكولا تسلا"
+      },
+      {
+        "id": "B",
+        "text": "توماس إديسون"
+      },
+      {
+        "id": "C",
+        "text": "ألكسندر غراهام بل"
+      },
+      {
+        "id": "D",
+        "text": "غوغلييلمو ماركوني"
+      },
+      {
+        "id": "E",
+        "text": "صمويل مورس"
+      },
+      {
+        "id": "F",
+        "text": "جورج ويستنغهاوس"
+      }
+    ],
+    "originalCorrectOptionId": "B",
+    "correctOptionId": "F",
+    "reason": "Remove the repeated-B answer-position cue; preserve all six person choices, the reference answer and usageId. No audio approval."
+  },
+  {
+    "questionId": "character_voice-medium-0018",
+    "decision": "editorial_choice_position",
+    "originalOptions": [
+      {
+        "id": "A",
+        "text": "إليشا غراي"
+      },
+      {
+        "id": "B",
+        "text": "ألكسندر غراهام بل"
+      },
+      {
+        "id": "C",
+        "text": "أنطونيو ميوتشي"
+      },
+      {
+        "id": "D",
+        "text": "هاينريش هيرتز"
+      },
+      {
+        "id": "E",
+        "text": "صمويل مورس"
+      },
+      {
+        "id": "F",
+        "text": "توماس إديسون"
+      }
+    ],
+    "originalCorrectOptionId": "B",
+    "correctOptionId": "B",
+    "reason": "Remove the repeated-B answer-position cue; preserve all six person choices, the reference answer and usageId. No audio approval."
+  },
+  {
+    "questionId": "character_voice-medium-0019",
+    "decision": "editorial_choice_position",
+    "originalOptions": [
+      {
+        "id": "A",
+        "text": "ليندون جونسون"
+      },
+      {
+        "id": "B",
+        "text": "ريتشارد نيكسون"
+      },
+      {
+        "id": "C",
+        "text": "جيرالد فورد"
+      },
+      {
+        "id": "D",
+        "text": "سبيرو أغنيو"
+      },
+      {
+        "id": "E",
+        "text": "رونالد ريغان"
+      },
+      {
+        "id": "F",
+        "text": "جورج بوش الأب"
+      }
+    ],
+    "originalCorrectOptionId": "B",
+    "correctOptionId": "C",
+    "reason": "Remove the repeated-B answer-position cue; preserve all six person choices, the reference answer and usageId. No audio approval."
+  },
+  {
+    "questionId": "character_voice-medium-0020",
+    "decision": "editorial_choice_position",
+    "originalOptions": [
+      {
+        "id": "A",
+        "text": "تيريزا ماي"
+      },
+      {
+        "id": "B",
+        "text": "مارغريت تاتشر"
+      },
+      {
+        "id": "C",
+        "text": "الملكة إليزابيث الثانية"
+      },
+      {
+        "id": "D",
+        "text": "أنديرا غاندي"
+      },
+      {
+        "id": "E",
+        "text": "غولدا مائير"
+      },
+      {
+        "id": "F",
+        "text": "بينظير بوتو"
+      }
+    ],
+    "originalCorrectOptionId": "B",
+    "correctOptionId": "F",
+    "reason": "Remove the repeated-B answer-position cue; preserve all six person choices, the reference answer and usageId. No audio approval."
+  },
+  {
+    "questionId": "character_voice-medium-0021",
+    "decision": "editorial_choice_position",
+    "originalOptions": [
+      {
+        "id": "A",
+        "text": "نيل ديغراس تايسون"
+      },
+      {
+        "id": "B",
+        "text": "كارل ساغان"
+      },
+      {
+        "id": "C",
+        "text": "ستيفن هوكينغ"
+      },
+      {
+        "id": "D",
+        "text": "إدوين هابل"
+      },
+      {
+        "id": "E",
+        "text": "آرثر كلارك"
+      },
+      {
+        "id": "F",
+        "text": "براين غرين"
+      }
+    ],
+    "originalCorrectOptionId": "B",
+    "correctOptionId": "B",
+    "reason": "Remove the repeated-B answer-position cue; preserve all six person choices, the reference answer and usageId. No audio approval."
+  },
+  {
+    "questionId": "character_voice-medium-0022",
+    "decision": "editorial_choice_position",
+    "originalOptions": [
+      {
+        "id": "A",
+        "text": "بيل غيتس"
+      },
+      {
+        "id": "B",
+        "text": "ستيف جوبز"
+      },
+      {
+        "id": "C",
+        "text": "ستيف فوزنياك"
+      },
+      {
+        "id": "D",
+        "text": "تيم كوك"
+      },
+      {
+        "id": "E",
+        "text": "إيلون ماسك"
+      },
+      {
+        "id": "F",
+        "text": "مارك زوكربيرغ"
+      }
+    ],
+    "originalCorrectOptionId": "B",
+    "correctOptionId": "E",
+    "reason": "Remove the repeated-B answer-position cue; preserve all six person choices, the reference answer and usageId. No audio approval."
+  },
+  {
+    "questionId": "character_voice-medium-0023",
+    "decision": "editorial_choice_position",
+    "originalOptions": [
+      {
+        "id": "A",
+        "text": "موراي جيل مان"
+      },
+      {
+        "id": "B",
+        "text": "ريتشارد فاينمان"
+      },
+      {
+        "id": "C",
+        "text": "بول ديراك"
+      },
+      {
+        "id": "D",
+        "text": "جوليان شوينغر"
+      },
+      {
+        "id": "E",
+        "text": "هانز بيته"
+      },
+      {
+        "id": "F",
+        "text": "جون ويلر"
+      }
+    ],
+    "originalCorrectOptionId": "B",
+    "correctOptionId": "D",
+    "reason": "Remove the repeated-B answer-position cue; preserve all six person choices, the reference answer and usageId. No audio approval."
+  },
+  {
+    "questionId": "character_voice-medium-0024",
+    "decision": "editorial_choice_position",
+    "originalOptions": [
+      {
+        "id": "A",
+        "text": "غارينشيا"
+      },
+      {
+        "id": "B",
+        "text": "بيليه"
+      },
+      {
+        "id": "C",
+        "text": "زيكو"
+      },
+      {
+        "id": "D",
+        "text": "روماريو"
+      },
+      {
+        "id": "E",
+        "text": "رونالدو نازاريو"
+      },
+      {
+        "id": "F",
+        "text": "سقراط"
+      }
+    ],
+    "originalCorrectOptionId": "B",
+    "correctOptionId": "A",
+    "reason": "Remove the repeated-B answer-position cue; preserve all six person choices, the reference answer and usageId. No audio approval."
+  },
+  {
+    "questionId": "character_voice-medium-0025",
+    "decision": "editorial_choice_position",
+    "originalOptions": [
+      {
+        "id": "A",
+        "text": "جورج بوش الأب"
+      },
+      {
+        "id": "B",
+        "text": "رونالد ريغان"
+      },
+      {
+        "id": "C",
+        "text": "جيمي كارتر"
+      },
+      {
+        "id": "D",
+        "text": "ريتشارد نيكسون"
+      },
+      {
+        "id": "E",
+        "text": "بيل كلينتون"
+      },
+      {
+        "id": "F",
+        "text": "جيرالد فورد"
+      }
+    ],
+    "originalCorrectOptionId": "B",
+    "correctOptionId": "B",
+    "reason": "Remove the repeated-B answer-position cue; preserve all six person choices, the reference answer and usageId. No audio approval."
+  },
+  {
+    "questionId": "character_voice-hard-0001",
+    "decision": "editorial_choice_position",
+    "originalOptions": [
+      {
+        "id": "A",
+        "text": "الأمير عبد القادر الجزائري"
+      },
+      {
+        "id": "B",
+        "text": "عمر المختار"
+      },
+      {
+        "id": "C",
+        "text": "محمد عبد الكريم الخطابي"
+      },
+      {
+        "id": "D",
+        "text": "عز الدين القسام"
+      },
+      {
+        "id": "E",
+        "text": "يوسف العظمة"
+      },
+      {
+        "id": "F",
+        "text": "رمضان السويحلي"
+      }
+    ],
+    "originalCorrectOptionId": "B",
+    "correctOptionId": "E",
+    "reason": "Remove the repeated-B answer-position cue; preserve all six person choices, the reference answer and usageId. No audio approval."
+  },
+  {
+    "questionId": "character_voice-hard-0002",
+    "decision": "editorial_choice_position",
+    "originalOptions": [
+      {
+        "id": "A",
+        "text": "حافظ إبراهيم"
+      },
+      {
+        "id": "B",
+        "text": "أحمد شوقي"
+      },
+      {
+        "id": "C",
+        "text": "محمود سامي البارودي"
+      },
+      {
+        "id": "D",
+        "text": "إسماعيل صبري"
+      },
+      {
+        "id": "E",
+        "text": "خليل مطران"
+      },
+      {
+        "id": "F",
+        "text": "ولي الدين يكن"
+      }
+    ],
+    "originalCorrectOptionId": "B",
+    "correctOptionId": "C",
+    "reason": "Remove the repeated-B answer-position cue; preserve all six person choices, the reference answer and usageId. No audio approval."
+  },
+  {
+    "questionId": "character_voice-hard-0003",
+    "decision": "editorial_choice_position",
+    "originalOptions": [
+      {
+        "id": "A",
+        "text": "مصطفى النحاس"
+      },
+      {
+        "id": "B",
+        "text": "سعد زغلول"
+      },
+      {
+        "id": "C",
+        "text": "علي شعراوي"
+      },
+      {
+        "id": "D",
+        "text": "عبد العزيز فهمي"
+      },
+      {
+        "id": "E",
+        "text": "محمد محمود باشا"
+      },
+      {
+        "id": "F",
+        "text": "إسماعيل صدقي"
+      }
+    ],
+    "originalCorrectOptionId": "B",
+    "correctOptionId": "B",
+    "reason": "Remove the repeated-B answer-position cue; preserve all six person choices, the reference answer and usageId. No audio approval."
+  },
+  {
+    "questionId": "character_voice-hard-0004",
+    "decision": "editorial_choice_position",
+    "originalOptions": [
+      {
+        "id": "A",
+        "text": "بشارة الخوري (الأخطل الصغير)"
+      },
+      {
+        "id": "B",
+        "text": "خليل مطران"
+      },
+      {
+        "id": "C",
+        "text": "أحمد زكي أبو شادي"
+      },
+      {
+        "id": "D",
+        "text": "إبراهيم ناجي"
+      },
+      {
+        "id": "E",
+        "text": "شبلي الملاط"
+      },
+      {
+        "id": "F",
+        "text": "أمين ناصر الدين"
+      }
+    ],
+    "originalCorrectOptionId": "B",
+    "correctOptionId": "A",
+    "reason": "Remove the repeated-B answer-position cue; preserve all six person choices, the reference answer and usageId. No audio approval."
+  },
+  {
+    "questionId": "character_voice-hard-0005",
+    "decision": "editorial_choice_position",
+    "originalOptions": [
+      {
+        "id": "A",
+        "text": "طاهر أبو زيد"
+      },
+      {
+        "id": "B",
+        "text": "فهمي عمر"
+      },
+      {
+        "id": "C",
+        "text": "محمد لطيف"
+      },
+      {
+        "id": "D",
+        "text": "علي زيوار"
+      },
+      {
+        "id": "E",
+        "text": "محمود بكر"
+      },
+      {
+        "id": "F",
+        "text": "وجدي الحكيم"
+      }
+    ],
+    "originalCorrectOptionId": "B",
+    "correctOptionId": "F",
+    "reason": "Remove the repeated-B answer-position cue; preserve all six person choices, the reference answer and usageId. No audio approval."
+  },
+  {
+    "questionId": "character_voice-hard-0006",
+    "decision": "editorial_choice_position",
+    "originalOptions": [
+      {
+        "id": "A",
+        "text": "الشيخ حميد بن راشد النعيمي"
+      },
+      {
+        "id": "B",
+        "text": "الشيخ د. سلطان بن محمد القاسمي"
+      },
+      {
+        "id": "C",
+        "text": "الشيخ سعود بن صقر القاسمي"
+      },
+      {
+        "id": "D",
+        "text": "الشيخ حمد بن محمد الشرقي"
+      },
+      {
+        "id": "E",
+        "text": "الشيخ صقر بن محمد القاسمي"
+      },
+      {
+        "id": "F",
+        "text": "الشيخ راشد بن أحمد المعلا"
+      }
+    ],
+    "originalCorrectOptionId": "B",
+    "correctOptionId": "D",
+    "reason": "Remove the repeated-B answer-position cue; preserve all six person choices, the reference answer and usageId. No audio approval."
+  },
+  {
+    "questionId": "character_voice-hard-0007",
+    "decision": "editorial_choice_position",
+    "originalOptions": [
+      {
+        "id": "A",
+        "text": "يحيى حقي"
+      },
+      {
+        "id": "B",
+        "text": "يوسف إدريس"
+      },
+      {
+        "id": "C",
+        "text": "بهاء طاهر"
+      },
+      {
+        "id": "D",
+        "text": "صنع الله إبراهيم"
+      },
+      {
+        "id": "E",
+        "text": "إحسان عبد القدوس"
+      },
+      {
+        "id": "F",
+        "text": "عبد الرحمن الشرقاوي"
+      }
+    ],
+    "originalCorrectOptionId": "B",
+    "correctOptionId": "A",
+    "reason": "Remove the repeated-B answer-position cue; preserve all six person choices, the reference answer and usageId. No audio approval."
+  },
+  {
+    "questionId": "character_voice-hard-0008",
+    "decision": "editorial_choice_position",
+    "originalOptions": [
+      {
+        "id": "A",
+        "text": "نازك الملائكة"
+      },
+      {
+        "id": "B",
+        "text": "عبد الوهاب البياتي"
+      },
+      {
+        "id": "C",
+        "text": "بدر شاكر السياب"
+      },
+      {
+        "id": "D",
+        "text": "بلند الحيدري"
+      },
+      {
+        "id": "E",
+        "text": "معروف الرصافي"
+      },
+      {
+        "id": "F",
+        "text": "جميل صدقي الزهاوي"
+      }
+    ],
+    "originalCorrectOptionId": "C",
+    "correctOptionId": "F",
+    "reason": "Remove the repeated-B answer-position cue; preserve all six person choices, the reference answer and usageId. No audio approval."
+  },
+  {
+    "questionId": "character_voice-hard-0009",
+    "decision": "editorial_choice_position",
+    "originalOptions": [
+      {
+        "id": "A",
+        "text": "الملك خالد بن عبد العزيز"
+      },
+      {
+        "id": "B",
+        "text": "الملك فهد بن عبد العزيز"
+      },
+      {
+        "id": "C",
+        "text": "الملك عبد الله بن عبد العزيز"
+      },
+      {
+        "id": "D",
+        "text": "الملك سلمان بن عبد العزيز"
+      },
+      {
+        "id": "E",
+        "text": "الأمير نايف بن عبد العزيز"
+      },
+      {
+        "id": "F",
+        "text": "الأمير سلطان بن عبد العزيز"
+      }
+    ],
+    "originalCorrectOptionId": "B",
+    "correctOptionId": "E",
+    "reason": "Remove the repeated-B answer-position cue; preserve all six person choices, the reference answer and usageId. No audio approval."
+  },
+  {
+    "questionId": "character_voice-hard-0010",
+    "decision": "editorial_choice_position",
+    "originalOptions": [
+      {
+        "id": "A",
+        "text": "الشيخ أبو العينين شعيشع"
+      },
+      {
+        "id": "B",
+        "text": "الشيخ مصطفى إسماعيل"
+      },
+      {
+        "id": "C",
+        "text": "الشيخ محمود علي البنا"
+      },
+      {
+        "id": "D",
+        "text": "الشيخ طه الفشني"
+      },
+      {
+        "id": "E",
+        "text": "الشيخ عبد الباسط عبد الصمد"
+      },
+      {
+        "id": "F",
+        "text": "الشيخ كامل يوسف البهتيمي"
+      }
+    ],
+    "originalCorrectOptionId": "B",
+    "correctOptionId": "D",
+    "reason": "Remove the repeated-B answer-position cue; preserve all six person choices, the reference answer and usageId. No audio approval."
+  },
+  {
+    "questionId": "character_voice-hard-0011",
+    "decision": "editorial_choice_position",
+    "originalOptions": [
+      {
+        "id": "A",
+        "text": "عز الدين القسام"
+      },
+      {
+        "id": "B",
+        "text": "موسى كاظم الحسيني"
+      },
+      {
+        "id": "C",
+        "text": "الحاج أمين الحسيني"
+      },
+      {
+        "id": "D",
+        "text": "أحمد حلمي عبد الباقي"
+      },
+      {
+        "id": "E",
+        "text": "عبد القادر الحسيني"
+      },
+      {
+        "id": "F",
+        "text": "راغب النشاشيبي"
+      }
+    ],
+    "originalCorrectOptionId": "C",
+    "correctOptionId": "C",
+    "reason": "Remove the repeated-B answer-position cue; preserve all six person choices, the reference answer and usageId. No audio approval."
+  },
+  {
+    "questionId": "character_voice-hard-0012",
+    "decision": "editorial_choice_position",
+    "originalOptions": [
+      {
+        "id": "A",
+        "text": "د. مراد وهبة"
+      },
+      {
+        "id": "B",
+        "text": "د. عبد الرحمن بدوي"
+      },
+      {
+        "id": "C",
+        "text": "د. حسن حنفي"
+      },
+      {
+        "id": "D",
+        "text": "د. فؤاد زكريا"
+      },
+      {
+        "id": "E",
+        "text": "د. عاطف العراقي"
+      },
+      {
+        "id": "F",
+        "text": "د. توفيق الطويل"
+      }
+    ],
+    "originalCorrectOptionId": "B",
+    "correctOptionId": "B",
+    "reason": "Remove the repeated-B answer-position cue; preserve all six person choices, the reference answer and usageId. No audio approval."
+  },
+  {
+    "questionId": "character_voice-hard-0013",
+    "decision": "editorial_choice_position",
+    "originalOptions": [
+      {
+        "id": "A",
+        "text": "سي إس لويس"
+      },
+      {
+        "id": "B",
+        "text": "جي آر آر تولكين"
+      },
+      {
+        "id": "C",
+        "text": "جورج أورويل"
+      },
+      {
+        "id": "D",
+        "text": "ألدوس هكسلي"
+      },
+      {
+        "id": "E",
+        "text": "إتش جي ويلز"
+      },
+      {
+        "id": "F",
+        "text": "آرثر كلارك"
+      }
+    ],
+    "originalCorrectOptionId": "B",
+    "correctOptionId": "D",
+    "reason": "Remove the repeated-B answer-position cue; preserve all six person choices, the reference answer and usageId. No audio approval."
+  },
+  {
+    "questionId": "character_voice-hard-0014",
+    "decision": "editorial_choice_position",
+    "originalOptions": [
+      {
+        "id": "A",
+        "text": "كلارا بارتون"
+      },
+      {
+        "id": "B",
+        "text": "فلورنس نايتينجيل"
+      },
+      {
+        "id": "C",
+        "text": "ماري سيكول"
+      },
+      {
+        "id": "D",
+        "text": "دوروثيا ديكس"
+      },
+      {
+        "id": "E",
+        "text": "ماري كاربنتر"
+      },
+      {
+        "id": "F",
+        "text": "إليزابيث فراي"
+      }
+    ],
+    "originalCorrectOptionId": "B",
+    "correctOptionId": "B",
+    "reason": "Remove the repeated-B answer-position cue; preserve all six person choices, the reference answer and usageId. No audio approval."
+  },
+  {
+    "questionId": "character_voice-hard-0015",
+    "decision": "editorial_choice_position",
+    "originalOptions": [
+      {
+        "id": "A",
+        "text": "فيودور دوستويفسكي"
+      },
+      {
+        "id": "B",
+        "text": "ليو تولستوي"
+      },
+      {
+        "id": "C",
+        "text": "أنطون تشيخوف"
+      },
+      {
+        "id": "D",
+        "text": "مكسيم غوركي"
+      },
+      {
+        "id": "E",
+        "text": "إيفان تورغينيف"
+      },
+      {
+        "id": "F",
+        "text": "ألكسندر بوشكين"
+      }
+    ],
+    "originalCorrectOptionId": "B",
+    "correctOptionId": "A",
+    "reason": "Remove the repeated-B answer-position cue; preserve all six person choices, the reference answer and usageId. No audio approval."
+  },
+  {
+    "questionId": "character_voice-hard-0016",
+    "decision": "editorial_choice_position",
+    "originalOptions": [
+      {
+        "id": "A",
+        "text": "أغاثا كريستي"
+      },
+      {
+        "id": "B",
+        "text": "آرثر كونان دويل"
+      },
+      {
+        "id": "C",
+        "text": "إدغار آلان بو"
+      },
+      {
+        "id": "D",
+        "text": "روبرت لويس ستيفنسون"
+      },
+      {
+        "id": "E",
+        "text": "إتش جي ويلز"
+      },
+      {
+        "id": "F",
+        "text": "جي كي تشسترتون"
+      }
+    ],
+    "originalCorrectOptionId": "B",
+    "correctOptionId": "E",
+    "reason": "Remove the repeated-B answer-position cue; preserve all six person choices, the reference answer and usageId. No audio approval."
+  },
+  {
+    "questionId": "character_voice-hard-0017",
+    "decision": "editorial_choice_position",
+    "originalOptions": [
+      {
+        "id": "A",
+        "text": "أوسكار وايلد"
+      },
+      {
+        "id": "B",
+        "text": "جورج برنارد شو"
+      },
+      {
+        "id": "C",
+        "text": "صامويل بيكيت"
+      },
+      {
+        "id": "D",
+        "text": "جيمس جويس"
+      },
+      {
+        "id": "E",
+        "text": "ويليام بتلر ييتس"
+      },
+      {
+        "id": "F",
+        "text": "شين أوكيسي"
+      }
+    ],
+    "originalCorrectOptionId": "B",
+    "correctOptionId": "F",
+    "reason": "Remove the repeated-B answer-position cue; preserve all six person choices, the reference answer and usageId. No audio approval."
+  },
+  {
+    "questionId": "character_voice-hard-0018",
+    "decision": "editorial_choice_position",
+    "originalOptions": [
+      {
+        "id": "A",
+        "text": "وليام فوكنر"
+      },
+      {
+        "id": "B",
+        "text": "إرنست همنغواي"
+      },
+      {
+        "id": "C",
+        "text": "جون شتاينبك"
+      },
+      {
+        "id": "D",
+        "text": "إف سكوت فيتزجيرالد"
+      },
+      {
+        "id": "E",
+        "text": "ترومان كابوتي"
+      },
+      {
+        "id": "F",
+        "text": "جاك لندن"
+      }
+    ],
+    "originalCorrectOptionId": "B",
+    "correctOptionId": "C",
+    "reason": "Remove the repeated-B answer-position cue; preserve all six person choices, the reference answer and usageId. No audio approval."
+  },
+  {
+    "questionId": "character_voice-hard-0019",
+    "decision": "editorial_choice_position",
+    "originalOptions": [
+      {
+        "id": "A",
+        "text": "جوزيف ستالين"
+      },
+      {
+        "id": "B",
+        "text": "فلاديمير لينين"
+      },
+      {
+        "id": "C",
+        "text": "ليون تروتسكي"
+      },
+      {
+        "id": "D",
+        "text": "نيكيتا خروتشوف"
+      },
+      {
+        "id": "E",
+        "text": "فياتشيسلاف مولوتوف"
+      },
+      {
+        "id": "F",
+        "text": "نيكولاي بوخارين"
+      }
+    ],
+    "originalCorrectOptionId": "B",
+    "correctOptionId": "B",
+    "reason": "Remove the repeated-B answer-position cue; preserve all six person choices, the reference answer and usageId. No audio approval."
+  },
+  {
+    "questionId": "character_voice-hard-0020",
+    "decision": "editorial_choice_position",
+    "originalOptions": [
+      {
+        "id": "A",
+        "text": "فرجينيا وولف"
+      },
+      {
+        "id": "B",
+        "text": "أغاثا كريستي"
+      },
+      {
+        "id": "C",
+        "text": "ماري شيلي"
+      },
+      {
+        "id": "D",
+        "text": "جين أوستن"
+      },
+      {
+        "id": "E",
+        "text": "دوروثي سايرز"
+      },
+      {
+        "id": "F",
+        "text": "إينيد بليتون"
+      }
+    ],
+    "originalCorrectOptionId": "B",
+    "correctOptionId": "D",
+    "reason": "Remove the repeated-B answer-position cue; preserve all six person choices, the reference answer and usageId. No audio approval."
+  },
+  {
+    "questionId": "character_voice-hard-0021",
+    "decision": "editorial_choice_position",
+    "originalOptions": [
+      {
+        "id": "A",
+        "text": "ثور هيردال"
+      },
+      {
+        "id": "B",
+        "text": "جاك كوستو"
+      },
+      {
+        "id": "C",
+        "text": "روبرت بالارد"
+      },
+      {
+        "id": "D",
+        "text": "ويليام بيب"
+      },
+      {
+        "id": "E",
+        "text": "جان فيليب كوستو"
+      },
+      {
+        "id": "F",
+        "text": "ديفيد أتينبورو"
+      }
+    ],
+    "originalCorrectOptionId": "B",
+    "correctOptionId": "C",
+    "reason": "Remove the repeated-B answer-position cue; preserve all six person choices, the reference answer and usageId. No audio approval."
+  },
+  {
+    "questionId": "character_voice-hard-0022",
+    "decision": "editorial_choice_position",
+    "originalOptions": [
+      {
+        "id": "A",
+        "text": "إيمي جونسون"
+      },
+      {
+        "id": "B",
+        "text": "أميليا إيرهارت"
+      },
+      {
+        "id": "C",
+        "text": "بيسي كولمان"
+      },
+      {
+        "id": "D",
+        "text": "جاكلين كوكران"
+      },
+      {
+        "id": "E",
+        "text": "فالنتينا تيريشكوفا"
+      },
+      {
+        "id": "F",
+        "text": "هارييت كيمبي"
+      }
+    ],
+    "originalCorrectOptionId": "B",
+    "correctOptionId": "F",
+    "reason": "Remove the repeated-B answer-position cue; preserve all six person choices, the reference answer and usageId. No audio approval."
+  },
+  {
+    "questionId": "character_voice-hard-0023",
+    "decision": "editorial_choice_position",
+    "originalOptions": [
+      {
+        "id": "A",
+        "text": "روي ديزني"
+      },
+      {
+        "id": "B",
+        "text": "والت ديزني"
+      },
+      {
+        "id": "C",
+        "text": "أوب إيويركس"
+      },
+      {
+        "id": "D",
+        "text": "ماكس فلايشر"
+      },
+      {
+        "id": "E",
+        "text": "تشاك جونز"
+      },
+      {
+        "id": "F",
+        "text": "ويليام هانا"
+      }
+    ],
+    "originalCorrectOptionId": "B",
+    "correctOptionId": "A",
+    "reason": "Remove the repeated-B answer-position cue; preserve all six person choices, the reference answer and usageId. No audio approval."
+  },
+  {
+    "questionId": "character_voice-hard-0024",
+    "decision": "editorial_choice_position",
+    "originalOptions": [
+      {
+        "id": "A",
+        "text": "سلفادور دالي"
+      },
+      {
+        "id": "B",
+        "text": "بابلو بيكاسو"
+      },
+      {
+        "id": "C",
+        "text": "هنري ماتيس"
+      },
+      {
+        "id": "D",
+        "text": "خوان ميرو"
+      },
+      {
+        "id": "E",
+        "text": "جورج براك"
+      },
+      {
+        "id": "F",
+        "text": "فنسنت فان غوخ"
+      }
+    ],
+    "originalCorrectOptionId": "B",
+    "correctOptionId": "E",
+    "reason": "Remove the repeated-B answer-position cue; preserve all six person choices, the reference answer and usageId. No audio approval."
+  },
+  {
+    "questionId": "character_voice-hard-0025",
+    "decision": "editorial_choice_position",
+    "originalOptions": [
+      {
+        "id": "A",
+        "text": "نيلز بور"
+      },
+      {
+        "id": "B",
+        "text": "ماكس بلانك"
+      },
+      {
+        "id": "C",
+        "text": "ألبرت أينشتاين"
+      },
+      {
+        "id": "D",
+        "text": "لويس دي بروي"
+      },
+      {
+        "id": "E",
+        "text": "فيلهلم رونتغن"
+      },
+      {
+        "id": "F",
+        "text": "ماكس بورن"
+      }
+    ],
+    "originalCorrectOptionId": "B",
+    "correctOptionId": "C",
+    "reason": "Remove the repeated-B answer-position cue; preserve all six person choices, the reference answer and usageId. No audio approval."
+  },
+  {
+    "questionId": "character_voice-legendary-0001",
+    "decision": "editorial_choice_position",
+    "originalOptions": [
+      {
+        "id": "A",
+        "text": "الشريف علي حيدر"
+      },
+      {
+        "id": "B",
+        "text": "الشريف حسين بن علي"
+      },
+      {
+        "id": "C",
+        "text": "الملك فيصل الأول"
+      },
+      {
+        "id": "D",
+        "text": "الأمير زيد بن الحسين"
+      },
+      {
+        "id": "E",
+        "text": "الملك عبد الله الأول"
+      },
+      {
+        "id": "F",
+        "text": "الشريف شرف بن راجح"
+      }
+    ],
+    "originalCorrectOptionId": "B",
+    "correctOptionId": "F",
+    "reason": "Remove the repeated-B answer-position cue; preserve all six person choices, the reference answer and usageId. No audio approval."
+  },
+  {
+    "questionId": "character_voice-legendary-0002",
+    "decision": "editorial_choice_position",
+    "originalOptions": [
+      {
+        "id": "A",
+        "text": "بشارة الخوري"
+      },
+      {
+        "id": "B",
+        "text": "رياض الصلح"
+      },
+      {
+        "id": "C",
+        "text": "كميل شمعون"
+      },
+      {
+        "id": "D",
+        "text": "عبد الحميد كرامي"
+      },
+      {
+        "id": "E",
+        "text": "صائب سلام"
+      },
+      {
+        "id": "F",
+        "text": "سليم الحص"
+      }
+    ],
+    "originalCorrectOptionId": "B",
+    "correctOptionId": "B",
+    "reason": "Remove the repeated-B answer-position cue; preserve all six person choices, the reference answer and usageId. No audio approval."
+  },
+  {
+    "questionId": "character_voice-legendary-0003",
+    "decision": "editorial_choice_position",
+    "originalOptions": [
+      {
+        "id": "A",
+        "text": "الملك عبد العزيز آل سعود"
+      },
+      {
+        "id": "B",
+        "text": "الملك سعود بن عبد العزيز"
+      },
+      {
+        "id": "C",
+        "text": "الإمام عبد الرحمن بن فيصل"
+      },
+      {
+        "id": "D",
+        "text": "الملك فيصل بن عبد العزيز"
+      },
+      {
+        "id": "E",
+        "text": "الأمير محمد بن عبد الرحمن"
+      },
+      {
+        "id": "F",
+        "text": "الأمير عبد الله بن عبد الرحمن"
+      }
+    ],
+    "originalCorrectOptionId": "A",
+    "correctOptionId": "D",
+    "reason": "Remove the repeated-B answer-position cue; preserve all six person choices, the reference answer and usageId. No audio approval."
+  },
+  {
+    "questionId": "character_voice-legendary-0004",
+    "decision": "editorial_choice_position",
+    "originalOptions": [
+      {
+        "id": "A",
+        "text": "علي فهمي باشا"
+      },
+      {
+        "id": "B",
+        "text": "محمود سامي البارودي"
+      },
+      {
+        "id": "C",
+        "text": "أحمد عرابي"
+      },
+      {
+        "id": "D",
+        "text": "عبد الله النديم"
+      },
+      {
+        "id": "E",
+        "text": "عبد العال حلمي"
+      },
+      {
+        "id": "F",
+        "text": "محمد عبده"
+      }
+    ],
+    "originalCorrectOptionId": "C",
+    "correctOptionId": "E",
+    "reason": "Remove the repeated-B answer-position cue; preserve all six person choices, the reference answer and usageId. No audio approval."
+  },
+  {
+    "questionId": "character_voice-legendary-0005",
+    "decision": "editorial_choice_position",
+    "originalOptions": [
+      {
+        "id": "A",
+        "text": "أمين الريحاني"
+      },
+      {
+        "id": "B",
+        "text": "ميخائيل نعيمة"
+      },
+      {
+        "id": "C",
+        "text": "إيليا أبو ماضي"
+      },
+      {
+        "id": "D",
+        "text": "نسيب عريضة"
+      },
+      {
+        "id": "E",
+        "text": "رشيد أيوب"
+      },
+      {
+        "id": "F",
+        "text": "ندرة حداد"
+      }
+    ],
+    "originalCorrectOptionId": "B",
+    "correctOptionId": "A",
+    "reason": "Remove the repeated-B answer-position cue; preserve all six person choices, the reference answer and usageId. No audio approval."
+  },
+  {
+    "questionId": "character_voice-legendary-0006",
+    "decision": "editorial_choice_position",
+    "originalOptions": [
+      {
+        "id": "A",
+        "text": "الشيخ علي محمود"
+      },
+      {
+        "id": "B",
+        "text": "الشيخ محمد رفعت"
+      },
+      {
+        "id": "C",
+        "text": "الشيخ منصور بدار"
+      },
+      {
+        "id": "D",
+        "text": "الشيخ أحمد ندا"
+      },
+      {
+        "id": "E",
+        "text": "الشيخ محمد الصيفي"
+      },
+      {
+        "id": "F",
+        "text": "الشيخ عبد الفتاح الشعشاعي"
+      }
+    ],
+    "originalCorrectOptionId": "B",
+    "correctOptionId": "C",
+    "reason": "Remove the repeated-B answer-position cue; preserve all six person choices, the reference answer and usageId. No audio approval."
+  },
+  {
+    "questionId": "character_voice-legendary-0007",
+    "decision": "editorial_choice_position",
+    "originalOptions": [
+      {
+        "id": "A",
+        "text": "د. سميرة موسى"
+      },
+      {
+        "id": "B",
+        "text": "د. علي مصطفى مشرفة"
+      },
+      {
+        "id": "C",
+        "text": "د. مصطفى نظيف"
+      },
+      {
+        "id": "D",
+        "text": "د. يحيى المشد"
+      },
+      {
+        "id": "E",
+        "text": "د. إبراهيم أدهم الدمرداش"
+      },
+      {
+        "id": "F",
+        "text": "د. أحمد مستجير"
+      }
+    ],
+    "originalCorrectOptionId": "B",
+    "correctOptionId": "C",
+    "reason": "Remove the repeated-B answer-position cue; preserve all six person choices, the reference answer and usageId. No audio approval."
+  },
+  {
+    "questionId": "character_voice-legendary-0008",
+    "decision": "editorial_choice_position",
+    "originalOptions": [
+      {
+        "id": "A",
+        "text": "شكيب أرسلان"
+      },
+      {
+        "id": "B",
+        "text": "ساطع الحصري"
+      },
+      {
+        "id": "C",
+        "text": "قسطنطين زريق"
+      },
+      {
+        "id": "D",
+        "text": "نجيب عازوري"
+      },
+      {
+        "id": "E",
+        "text": "عبد الرحمن الكواكبي"
+      },
+      {
+        "id": "F",
+        "text": "رشيد رضا"
+      }
+    ],
+    "originalCorrectOptionId": "B",
+    "correctOptionId": "A",
+    "reason": "Remove the repeated-B answer-position cue; preserve all six person choices, the reference answer and usageId. No audio approval."
+  },
+  {
+    "questionId": "character_voice-legendary-0009",
+    "decision": "editorial_choice_position",
+    "originalOptions": [
+      {
+        "id": "A",
+        "text": "الشيخ عبد الفتاح الشعشاعي"
+      },
+      {
+        "id": "B",
+        "text": "الشيخ محمود خليل الحصري"
+      },
+      {
+        "id": "C",
+        "text": "الشيخ كامل يوسف البهتيمي"
+      },
+      {
+        "id": "D",
+        "text": "الشيخ أحمد الرزيقي"
+      },
+      {
+        "id": "E",
+        "text": "الشيخ شعبان الصياد"
+      },
+      {
+        "id": "F",
+        "text": "الشيخ طه الفشني"
+      }
+    ],
+    "originalCorrectOptionId": "B",
+    "correctOptionId": "E",
+    "reason": "Remove the repeated-B answer-position cue; preserve all six person choices, the reference answer and usageId. No audio approval."
+  },
+  {
+    "questionId": "character_voice-legendary-0010",
+    "decision": "editorial_choice_position",
+    "originalOptions": [
+      {
+        "id": "A",
+        "text": "بطرس غالي باشا"
+      },
+      {
+        "id": "B",
+        "text": "مكرم عبيد باشا"
+      },
+      {
+        "id": "C",
+        "text": "واصف بطرس غالي"
+      },
+      {
+        "id": "D",
+        "text": "سينوت حنا باشا"
+      },
+      {
+        "id": "E",
+        "text": "سري باشا"
+      },
+      {
+        "id": "F",
+        "text": "فخري عبد النور"
+      }
+    ],
+    "originalCorrectOptionId": "B",
+    "correctOptionId": "F",
+    "reason": "Remove the repeated-B answer-position cue; preserve all six person choices, the reference answer and usageId. No audio approval."
+  },
+  {
+    "questionId": "character_voice-legendary-0011",
+    "decision": "editorial_choice_position",
+    "originalOptions": [
+      {
+        "id": "A",
+        "text": "الملك الحسن الثاني"
+      },
+      {
+        "id": "B",
+        "text": "السلطان يوسف بن الحسن"
+      },
+      {
+        "id": "C",
+        "text": "الملك محمد الخامس"
+      },
+      {
+        "id": "D",
+        "text": "السلطان عبد الحفيظ"
+      },
+      {
+        "id": "E",
+        "text": "السلطان عبد العزيز"
+      },
+      {
+        "id": "F",
+        "text": "الأمير مولاي عبد الله"
+      }
+    ],
+    "originalCorrectOptionId": "C",
+    "correctOptionId": "B",
+    "reason": "Remove the repeated-B answer-position cue; preserve all six person choices, the reference answer and usageId. No audio approval."
+  },
+  {
+    "questionId": "character_voice-legendary-0012",
+    "decision": "editorial_choice_position",
+    "originalOptions": [
+      {
+        "id": "A",
+        "text": "الشيخ عبد العزيز جعيط"
+      },
+      {
+        "id": "B",
+        "text": "الشيخ محمد الطاهر بن عاشور"
+      },
+      {
+        "id": "C",
+        "text": "الشيخ محمد الخضر حسين"
+      },
+      {
+        "id": "D",
+        "text": "الشيخ محمد الفاضل بن عاشور"
+      },
+      {
+        "id": "E",
+        "text": "الشيخ سالم بوحاجب"
+      },
+      {
+        "id": "F",
+        "text": "الشيخ محمد بيرم الخامس"
+      }
+    ],
+    "originalCorrectOptionId": "B",
+    "correctOptionId": "D",
+    "reason": "Remove the repeated-B answer-position cue; preserve all six person choices, the reference answer and usageId. No audio approval."
+  },
+  {
+    "questionId": "character_voice-legendary-0013",
+    "decision": "editorial_choice_position",
+    "originalOptions": [
+      {
+        "id": "A",
+        "text": "جيمس جويس"
+      },
+      {
+        "id": "B",
+        "text": "ويليام بتلر ييتس"
+      },
+      {
+        "id": "C",
+        "text": "جورج برنارد شو"
+      },
+      {
+        "id": "D",
+        "text": "تي إس إليوت"
+      },
+      {
+        "id": "E",
+        "text": "إزرا باوند"
+      },
+      {
+        "id": "F",
+        "text": "دبليو إتش أودن"
+      }
+    ],
+    "originalCorrectOptionId": "B",
+    "correctOptionId": "B",
+    "reason": "Remove the repeated-B answer-position cue; preserve all six person choices, the reference answer and usageId. No audio approval."
+  },
+  {
+    "questionId": "character_voice-legendary-0014",
+    "decision": "editorial_choice_position",
+    "originalOptions": [
+      {
+        "id": "A",
+        "text": "مارسيل بروست"
+      },
+      {
+        "id": "B",
+        "text": "جيمس جويس"
+      },
+      {
+        "id": "C",
+        "text": "فرجينيا وولف"
+      },
+      {
+        "id": "D",
+        "text": "فرانز كافكا"
+      },
+      {
+        "id": "E",
+        "text": "صامويل بيكيت"
+      },
+      {
+        "id": "F",
+        "text": "روبرت موزيل"
+      }
+    ],
+    "originalCorrectOptionId": "B",
+    "correctOptionId": "D",
+    "reason": "Remove the repeated-B answer-position cue; preserve all six person choices, the reference answer and usageId. No audio approval."
+  },
+  {
+    "questionId": "character_voice-legendary-0015",
+    "decision": "editorial_choice_position",
+    "originalOptions": [
+      {
+        "id": "A",
+        "text": "إزرا باوند"
+      },
+      {
+        "id": "B",
+        "text": "تي إس إليوت"
+      },
+      {
+        "id": "C",
+        "text": "ويليام ييتس"
+      },
+      {
+        "id": "D",
+        "text": "والاس ستيفنز"
+      },
+      {
+        "id": "E",
+        "text": "روبرت فروست"
+      },
+      {
+        "id": "F",
+        "text": "إي إي كامينغز"
+      }
+    ],
+    "originalCorrectOptionId": "B",
+    "correctOptionId": "F",
+    "reason": "Remove the repeated-B answer-position cue; preserve all six person choices, the reference answer and usageId. No audio approval."
+  },
+  {
+    "questionId": "character_voice-legendary-0016",
+    "decision": "editorial_choice_position",
+    "originalOptions": [
+      {
+        "id": "A",
+        "text": "ستانلي كوبريك"
+      },
+      {
+        "id": "B",
+        "text": "ألفريد هتشكوك"
+      },
+      {
+        "id": "C",
+        "text": "أورسون ويلز"
+      },
+      {
+        "id": "D",
+        "text": "بيلي وايلدر"
+      },
+      {
+        "id": "E",
+        "text": "فرانسوا تروفو"
+      },
+      {
+        "id": "F",
+        "text": "هوارد هوكس"
+      }
+    ],
+    "originalCorrectOptionId": "B",
+    "correctOptionId": "C",
+    "reason": "Remove the repeated-B answer-position cue; preserve all six person choices, the reference answer and usageId. No audio approval."
+  },
+  {
+    "questionId": "character_voice-legendary-0017",
+    "decision": "editorial_choice_position",
+    "originalOptions": [
+      {
+        "id": "A",
+        "text": "سيرجي رحمانينوف"
+      },
+      {
+        "id": "B",
+        "text": "إيغور سترافينسكي"
+      },
+      {
+        "id": "C",
+        "text": "ديمتري شوستاكوفيتش"
+      },
+      {
+        "id": "D",
+        "text": "سيرجي بروكوفييف"
+      },
+      {
+        "id": "E",
+        "text": "أرنولد شوينبيرج"
+      },
+      {
+        "id": "F",
+        "text": "موريس رافيل"
+      }
+    ],
+    "originalCorrectOptionId": "B",
+    "correctOptionId": "E",
+    "reason": "Remove the repeated-B answer-position cue; preserve all six person choices, the reference answer and usageId. No audio approval."
+  },
+  {
+    "questionId": "character_voice-legendary-0018",
+    "decision": "editorial_choice_position",
+    "originalOptions": [
+      {
+        "id": "A",
+        "text": "إرنست رذرفورد"
+      },
+      {
+        "id": "B",
+        "text": "نيلز بور"
+      },
+      {
+        "id": "C",
+        "text": "ماكس بورن"
+      },
+      {
+        "id": "D",
+        "text": "فيرنر هايزنبرغ"
+      },
+      {
+        "id": "E",
+        "text": "فولفغانغ باولي"
+      },
+      {
+        "id": "F",
+        "text": "هندريك لورنتز"
+      }
+    ],
+    "originalCorrectOptionId": "B",
+    "correctOptionId": "A",
+    "reason": "Remove the repeated-B answer-position cue; preserve all six person choices, the reference answer and usageId. No audio approval."
+  },
+  {
+    "questionId": "character_voice-legendary-0019",
+    "decision": "editorial_choice_position",
+    "originalOptions": [
+      {
+        "id": "A",
+        "text": "بول إرليخ"
+      },
+      {
+        "id": "B",
+        "text": "ألكسندر فلمنج"
+      },
+      {
+        "id": "C",
+        "text": "سلمان واكسمان"
+      },
+      {
+        "id": "D",
+        "text": "هوارد فلوري"
+      },
+      {
+        "id": "E",
+        "text": "إرنست تشين"
+      },
+      {
+        "id": "F",
+        "text": "غرهارد دوماك"
+      }
+    ],
+    "originalCorrectOptionId": "B",
+    "correctOptionId": "E",
+    "reason": "Remove the repeated-B answer-position cue; preserve all six person choices, the reference answer and usageId. No audio approval."
+  },
+  {
+    "questionId": "character_voice-legendary-0020",
+    "decision": "editorial_choice_position",
+    "originalOptions": [
+      {
+        "id": "A",
+        "text": "ألكسندر غراهام بل"
+      },
+      {
+        "id": "B",
+        "text": "غوغلييلمو ماركوني"
+      },
+      {
+        "id": "C",
+        "text": "توماس إديسون"
+      },
+      {
+        "id": "D",
+        "text": "نيكولا تسلا"
+      },
+      {
+        "id": "E",
+        "text": "هاينريش هيرتز"
+      },
+      {
+        "id": "F",
+        "text": "ألكسندر بوبوف"
+      }
+    ],
+    "originalCorrectOptionId": "B",
+    "correctOptionId": "C",
+    "reason": "Remove the repeated-B answer-position cue; preserve all six person choices, the reference answer and usageId. No audio approval."
+  },
+  {
+    "questionId": "character_voice-legendary-0021",
+    "decision": "editorial_choice_position",
+    "originalOptions": [
+      {
+        "id": "A",
+        "text": "ونستون تشرشل"
+      },
+      {
+        "id": "B",
+        "text": "كليمنت أتلي"
+      },
+      {
+        "id": "C",
+        "text": "أنتوني إيدن"
+      },
+      {
+        "id": "D",
+        "text": "رامزي ماكدونالد"
+      },
+      {
+        "id": "E",
+        "text": "هارولد ويلسون"
+      },
+      {
+        "id": "F",
+        "text": "نيفيل تشامبرلين"
+      }
+    ],
+    "originalCorrectOptionId": "B",
+    "correctOptionId": "A",
+    "reason": "Remove the repeated-B answer-position cue; preserve all six person choices, the reference answer and usageId. No audio approval."
+  },
+  {
+    "questionId": "character_voice-legendary-0022",
+    "decision": "editorial_choice_position",
+    "originalOptions": [
+      {
+        "id": "A",
+        "text": "مايلز ديفيس"
+      },
+      {
+        "id": "B",
+        "text": "لويس أرمسترونغ"
+      },
+      {
+        "id": "C",
+        "text": "ديوك إلينغتون"
+      },
+      {
+        "id": "D",
+        "text": "جون كولترين"
+      },
+      {
+        "id": "E",
+        "text": "راي تشارلز"
+      },
+      {
+        "id": "F",
+        "text": "نات كينغ كول"
+      }
+    ],
+    "originalCorrectOptionId": "B",
+    "correctOptionId": "D",
+    "reason": "Remove the repeated-B answer-position cue; preserve all six person choices, the reference answer and usageId. No audio approval."
+  },
+  {
+    "questionId": "character_voice-legendary-0023",
+    "decision": "editorial_choice_position",
+    "originalOptions": [
+      {
+        "id": "A",
+        "text": "كوليت"
+      },
+      {
+        "id": "B",
+        "text": "سيمون دي بوفوار"
+      },
+      {
+        "id": "C",
+        "text": "مارغريت دوراس"
+      },
+      {
+        "id": "D",
+        "text": "سيمون فايل"
+      },
+      {
+        "id": "E",
+        "text": "فرانسواز ساغان"
+      },
+      {
+        "id": "F",
+        "text": "مارغريت يورسنار"
+      }
+    ],
+    "originalCorrectOptionId": "B",
+    "correctOptionId": "F",
+    "reason": "Remove the repeated-B answer-position cue; preserve all six person choices, the reference answer and usageId. No audio approval."
+  },
+  {
+    "questionId": "character_voice-legendary-0024",
+    "decision": "editorial_choice_position",
+    "originalOptions": [
+      {
+        "id": "A",
+        "text": "إدموند هوسرل"
+      },
+      {
+        "id": "B",
+        "text": "مارتن هايدغر"
+      },
+      {
+        "id": "C",
+        "text": "هانز جورج غادامير"
+      },
+      {
+        "id": "D",
+        "text": "تيودور أدورنو"
+      },
+      {
+        "id": "E",
+        "text": "لودفيغ فيتغنشتاين"
+      },
+      {
+        "id": "F",
+        "text": "كارل ياسبرز"
+      }
+    ],
+    "originalCorrectOptionId": "B",
+    "correctOptionId": "B",
+    "reason": "Remove the repeated-B answer-position cue; preserve all six person choices, the reference answer and usageId. No audio approval."
+  },
+  {
+    "questionId": "character_voice-legendary-0025",
+    "decision": "editorial_choice_position",
+    "originalOptions": [
+      {
+        "id": "A",
+        "text": "هرمان هيسه"
+      },
+      {
+        "id": "B",
+        "text": "توماس مان"
+      },
+      {
+        "id": "C",
+        "text": "هاينريش بول"
+      },
+      {
+        "id": "D",
+        "text": "برتولت بريشت"
+      },
+      {
+        "id": "E",
+        "text": "شتيفان تسفايغ"
+      },
+      {
+        "id": "F",
+        "text": "فرانتس فرفل"
+      }
+    ],
+    "originalCorrectOptionId": "B",
+    "correctOptionId": "D",
+    "reason": "Remove the repeated-B answer-position cue; preserve all six person choices, the reference answer and usageId. No audio approval."
+  }
+]

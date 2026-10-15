@@ -1,0 +1,19 @@
+const fs = require('fs');
+const jsonPath = 'assets/questions/character_voice.json';
+const bank = JSON.parse(fs.readFileSync(jsonPath, 'utf8'));
+
+bank.questions.forEach(q => {
+  const correctOpt = q.options.find(o => o.id === q.correctOptionId);
+  if (correctOpt) {
+    if (q.answer !== correctOpt.text) {
+      console.log('Fixing answer for [' + q.id + ']: ' + q.answer + ' -> ' + correctOpt.text);
+      if (!q.acceptedAnswers.includes(q.answer)) {
+        q.acceptedAnswers.push(q.answer);
+      }
+      q.answer = correctOpt.text;
+    }
+  }
+});
+
+fs.writeFileSync(jsonPath, JSON.stringify(bank, null, 2), 'utf8');
+console.log('Fixed answer alignment.');

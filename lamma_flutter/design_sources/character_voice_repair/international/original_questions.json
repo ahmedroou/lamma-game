@@ -1,0 +1,2718 @@
+[
+  {
+    "id": "character_voice-easy-0014",
+    "categoryId": "character_voice",
+    "difficulty": "easy",
+    "text": "من صاحب هذا الصوت الشهير المسجل من سطح القمر؟",
+    "answer": "نيل أرمسترونغ",
+    "acceptedAnswers": [
+      "نيل أرمسترونغ",
+      "Neil Armstrong",
+      "نيل ارمسترونغ",
+      "أرمسترونغ"
+    ],
+    "hint": "أول إنسان يضع قدمه على سطح القمر وقائد مهمة أبوللو 11.",
+    "clues": [],
+    "explanation": "التسجيل لرائد الفضاء الأمريكي نيل أرمسترونغ أثناء هبوطه التاريخي على سطح القمر عام 1969.",
+    "sources": [
+      "https://commons.wikimedia.org/wiki/File:Phrase_de_Neil_Armstrong.oga"
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "باز ألدرين"
+      },
+      {
+        "id": "B",
+        "text": "نيل أرمسترونغ"
+      },
+      {
+        "id": "C",
+        "text": "يوري غاغارين"
+      },
+      {
+        "id": "D",
+        "text": "مايكل كولينز"
+      },
+      {
+        "id": "E",
+        "text": "جون غلين"
+      },
+      {
+        "id": "F",
+        "text": "آلان شيبارد"
+      }
+    ],
+    "correctOptionId": "B",
+    "qualityStatus": "reviewed",
+    "usageId": "152994385011296918704562855556851331965",
+    "audio": {
+      "assetPath": "assets/question_audio/voice-051.mp3",
+      "durationMs": 7000,
+      "attribution": "وكالة ناسا الفضائية / المحفوظات الوطنية الأمريكية / ويكيميديا كومنز",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Phrase_de_Neil_Armstrong.oga",
+      "license": "Public Domain / NASA Works"
+    }
+  },
+  {
+    "id": "character_voice-easy-0015",
+    "categoryId": "character_voice",
+    "difficulty": "easy",
+    "text": "من صاحب هذا الصوت القيادي الحازم في الحرب العالمية الثانية؟",
+    "answer": "ونستون تشرشل",
+    "acceptedAnswers": [
+      "ونستون تشرشل",
+      "Winston Churchill",
+      "تشرشل"
+    ],
+    "hint": "رئيس وزراء بريطانيا الشهير صاحب شارة النصر الذي قاد بلاده خلال الحرب العالمية الثانية.",
+    "clues": [],
+    "explanation": "التسجيل للزعيم البريطاني ونستون تشرشل من خطابه التاريخي «سنقاتل على الشواطئ» عام 1940.",
+    "sources": [
+      "https://commons.wikimedia.org/wiki/File:Churchill_we_shall_fight_on_the_beaches.ogg"
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "ونستون تشرشل"
+      },
+      {
+        "id": "B",
+        "text": "كليمنت أتلي"
+      },
+      {
+        "id": "C",
+        "text": "نيفيل تشامبرلين"
+      },
+      {
+        "id": "D",
+        "text": "أنتوني إيدن"
+      },
+      {
+        "id": "E",
+        "text": "برنارد مونتغمري"
+      },
+      {
+        "id": "F",
+        "text": "هارولد ماكميلان"
+      }
+    ],
+    "correctOptionId": "A",
+    "qualityStatus": "reviewed",
+    "usageId": "111508479311515239016076588721734664369",
+    "audio": {
+      "assetPath": "assets/question_audio/voice-052.mp3",
+      "durationMs": 7000,
+      "attribution": "أرشيف البرلمان البريطاني / هيئة الإذاعة البريطانية BBC / ويكيميديا كومنز",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Churchill_we_shall_fight_on_the_beaches.ogg",
+      "license": "Public Domain / Crown Copyright Expired"
+    }
+  },
+  {
+    "id": "character_voice-easy-0016",
+    "categoryId": "character_voice",
+    "difficulty": "easy",
+    "text": "من صاحب هذا الصوت الخطابي الأيقوني للحقوق المدنية؟",
+    "answer": "مارتن لوثر كينغ",
+    "acceptedAnswers": [
+      "مارتن لوثر كينغ",
+      "Martin Luther King Jr.",
+      "كينغ"
+    ],
+    "hint": "زعيم حركة الحقوق المدنية الأمريكية وحائز نوبل للسلام صاحب خطاب «لدي حلم».",
+    "clues": [],
+    "explanation": "التسجيل للمناضل الأمريكي مارتن لوثر كينغ من خطابه الخالد عام 1963.",
+    "sources": [
+      "https://commons.wikimedia.org/wiki/File:I_Have_A_Dream_sample.ogg"
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "مالكوم إكس"
+      },
+      {
+        "id": "B",
+        "text": "مارتن لوثر كينغ"
+      },
+      {
+        "id": "C",
+        "text": "جون لويس"
+      },
+      {
+        "id": "D",
+        "text": "جيسي جاكسون"
+      },
+      {
+        "id": "E",
+        "text": "فريدريك دوغلاس"
+      },
+      {
+        "id": "F",
+        "text": "بوكر واشنطن"
+      }
+    ],
+    "correctOptionId": "B",
+    "qualityStatus": "reviewed",
+    "usageId": "67423981160077152653970662384914258093",
+    "audio": {
+      "assetPath": "assets/question_audio/voice-053.mp3",
+      "durationMs": 7000,
+      "attribution": "أرشيف مسيرة واشنطن / مكتبة الكونغرس / ويكيميديا كومنز",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:I_Have_A_Dream_sample.ogg",
+      "license": "Educational / Public Domain Excerpt"
+    }
+  },
+  {
+    "id": "character_voice-easy-0017",
+    "categoryId": "character_voice",
+    "difficulty": "easy",
+    "text": "من صاحب هذا الصوت العلمي الأيقوني صاحب أشهر معادلة في الفيزياء؟",
+    "answer": "ألبرت أينشتاين",
+    "acceptedAnswers": [
+      "ألبرت أينشتاين",
+      "Albert Einstein",
+      "البرت اينشتاين",
+      "أينشتاين"
+    ],
+    "hint": "عالم الفيزياء النظرية الأشهر وصاحب النسبية الحائز على جائزة نوبل في الفيزياء عام 1921.",
+    "clues": [],
+    "explanation": "التسجيل لصوت العالم ألبرت أينشتاين شارحاً مفهوم تحول الكتلة إلى طاقة.",
+    "sources": [
+      "https://commons.wikimedia.org/wiki/File:Albert_Einstein_voice.ogg"
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "نيلز بور"
+      },
+      {
+        "id": "B",
+        "text": "ألبرت أينشتاين"
+      },
+      {
+        "id": "C",
+        "text": "إرفين شرودنغر"
+      },
+      {
+        "id": "D",
+        "text": "ماكس بلانك"
+      },
+      {
+        "id": "E",
+        "text": "إنريكو فيرمي"
+      },
+      {
+        "id": "F",
+        "text": "فيرنر هايزنبرغ"
+      }
+    ],
+    "correctOptionId": "B",
+    "qualityStatus": "reviewed",
+    "usageId": "140718008990945716678621672321302988398",
+    "audio": {
+      "assetPath": "assets/question_audio/voice-054.mp3",
+      "durationMs": 7000,
+      "attribution": "أرشيف معهد برنستون للدراسات المتقدمة / أرشيف ألبرت أينشتاين الصوتي / ويكيميديا كومنز",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Albert_Einstein_voice.ogg",
+      "license": "Public Domain / CC0"
+    }
+  },
+  {
+    "id": "character_voice-easy-0018",
+    "categoryId": "character_voice",
+    "difficulty": "easy",
+    "text": "من صاحب هذا الصوت النضالي الشهير ضد نظام الفصل العنصري؟",
+    "answer": "نيلسون مانديلا",
+    "acceptedAnswers": [
+      "نيلسون مانديلا",
+      "Nelson Mandela",
+      "مانديلا"
+    ],
+    "hint": "أول رئيس أسود لجنوب إفريقيا وبطل مكافحة الأبارتهايد الحائز على نوبل للسلام.",
+    "clues": [],
+    "explanation": "التسجيل للمناضل والزعيم الإفريقي نيلسون مانديلا من خطابه التاريخي عام 1990.",
+    "sources": [
+      "https://commons.wikimedia.org/wiki/File:Nelson_Mandela_voice.ogg"
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "ديزموند توتو"
+      },
+      {
+        "id": "B",
+        "text": "نيلسون مانديلا"
+      },
+      {
+        "id": "C",
+        "text": "كوفي عنان"
+      },
+      {
+        "id": "D",
+        "text": "باتريس لومومبا"
+      },
+      {
+        "id": "E",
+        "text": "جواكيم شيسانو"
+      },
+      {
+        "id": "F",
+        "text": "روبرت موغابي"
+      }
+    ],
+    "correctOptionId": "B",
+    "qualityStatus": "reviewed",
+    "usageId": "2739166035936255241653223178312558952",
+    "audio": {
+      "assetPath": "assets/question_audio/voice-055.mp3",
+      "durationMs": 7000,
+      "attribution": "مؤسسة نيلسون مانديلا / هيئة الإذاعة في جنوب إفريقيا SABC / ويكيميديا كومنز",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nelson_Mandela_voice.ogg",
+      "license": "Creative Commons Attribution-ShareAlike / Public Record"
+    }
+  },
+  {
+    "id": "character_voice-easy-0019",
+    "categoryId": "character_voice",
+    "difficulty": "easy",
+    "text": "من صاحب هذا الصوت الرئاسي الشاب صاحب أشهر نداء للمواطنة في أمريكا؟",
+    "answer": "جون كينيدي",
+    "acceptedAnswers": [
+      "جون كينيدي",
+      "John F. Kennedy",
+      "كينيدي"
+    ],
+    "hint": "الرئيس الأمريكي الـ35 الذي أطلق مشروع أبوللو للهبوط على القمر واغتيل عام 1963.",
+    "clues": [],
+    "explanation": "التسجيل للرئيس الأمريكي جون كينيدي من خطاب تنصيبه الشهير عام 1961.",
+    "sources": [
+      "https://commons.wikimedia.org/wiki/File:Inaugural_Address_of_John_F._Kennedy.ogg"
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "جون كينيدي"
+      },
+      {
+        "id": "B",
+        "text": "ريتشارد نيكسون"
+      },
+      {
+        "id": "C",
+        "text": "ليندون جونسون"
+      },
+      {
+        "id": "D",
+        "text": "دوايت أيزنهاور"
+      },
+      {
+        "id": "E",
+        "text": "جيرالد فورد"
+      },
+      {
+        "id": "F",
+        "text": "جيمي كارتر"
+      }
+    ],
+    "correctOptionId": "A",
+    "qualityStatus": "reviewed",
+    "usageId": "76703765965791173018264230612903051309",
+    "audio": {
+      "assetPath": "assets/question_audio/voice-056.mp3",
+      "durationMs": 7000,
+      "attribution": "مكتبة جون كينيدي الرئاسية / الأرشيف الوطني الأمريكي NARA / ويكيميديا كومنز",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Inaugural_Address_of_John_F._Kennedy.ogg",
+      "license": "Public Domain / US Federal Government Work"
+    }
+  },
+  {
+    "id": "character_voice-easy-0020",
+    "categoryId": "character_voice",
+    "difficulty": "easy",
+    "text": "من صاحب هذا الصوت الرياضي الأسطوري والنبرة الحماسية السريعة؟",
+    "answer": "محمد علي كلاي",
+    "acceptedAnswers": [
+      "محمد علي كلاي",
+      "Muhammad Ali",
+      "كلاي"
+    ],
+    "hint": "الملاكم الأسطوري الملقب بـ«الأعظم» وبطل العالم للوزن الثقيل ثلاث مرات.",
+    "clues": [],
+    "explanation": "التسجيل لأسطورة الملاكمة العالمية محمد علي كلاي وهو يردد عبارته الخالدة.",
+    "sources": [
+      "https://commons.wikimedia.org/wiki/File:Muhammad_Ali_voice.ogg"
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "جو فريزر"
+      },
+      {
+        "id": "B",
+        "text": "محمد علي كلاي"
+      },
+      {
+        "id": "C",
+        "text": "جورج فورمان"
+      },
+      {
+        "id": "D",
+        "text": "مايك تايسون"
+      },
+      {
+        "id": "E",
+        "text": "سوني ليستون"
+      },
+      {
+        "id": "F",
+        "text": "شوغار راي ليونارد"
+      }
+    ],
+    "correctOptionId": "B",
+    "qualityStatus": "reviewed",
+    "usageId": "136242738735898616973650901084170929889",
+    "audio": {
+      "assetPath": "assets/question_audio/voice-057.mp3",
+      "durationMs": 7000,
+      "attribution": "أرشيف المؤتمرات الصحفية الرياضية / ويكيميديا كومنز",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Muhammad_Ali_voice.ogg",
+      "license": "Public Domain / Historical Press Conference"
+    }
+  },
+  {
+    "id": "character_voice-easy-0021",
+    "categoryId": "character_voice",
+    "difficulty": "easy",
+    "text": "من صاحب هذا الصوت المؤثر في أول فيلم ناطق له يدعو فيه للإنسانية؟",
+    "answer": "تشارلي تشابلن",
+    "acceptedAnswers": [
+      "تشارلي تشابلن",
+      "Charlie Chaplin",
+      "تشابلن"
+    ],
+    "hint": "أيقونة السينما الصامتة بشخصية المتشرد الصغير، صاحب فيلم «الديكتاتور العظيم».",
+    "clues": [],
+    "explanation": "التسجيل للممثل والمخرج العالمي تشارلي تشابلن في خطابه النهائي من فيلم الديكتاتور العظيم عام 1940.",
+    "sources": [
+      "https://commons.wikimedia.org/wiki/File:Charlie_Chaplin_Great_Dictator_speech.ogg"
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "تشارلي تشابلن"
+      },
+      {
+        "id": "B",
+        "text": "باستر كيتون"
+      },
+      {
+        "id": "C",
+        "text": "أورسون ويلز"
+      },
+      {
+        "id": "D",
+        "text": "لوريل وهاردي"
+      },
+      {
+        "id": "E",
+        "text": "مارلون براندو"
+      },
+      {
+        "id": "F",
+        "text": "همفري بوغارت"
+      }
+    ],
+    "correctOptionId": "A",
+    "qualityStatus": "reviewed",
+    "usageId": "46823313253721675964884351821249892992",
+    "audio": {
+      "assetPath": "assets/question_audio/voice-058.mp3",
+      "durationMs": 7000,
+      "attribution": "أرشيف السينما الكلاسيكية / فيلم The Great Dictator / ويكيميديا كومنز",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Charlie_Chaplin_Great_Dictator_speech.ogg",
+      "license": "Public Domain (1940 Copyright not renewed) / CC0"
+    }
+  },
+  {
+    "id": "character_voice-easy-0022",
+    "categoryId": "character_voice",
+    "difficulty": "easy",
+    "text": "من صاحب هذا الصوت الصوتي الآلي الأيقوني لعالم فيزياء الكونيات؟",
+    "answer": "ستيفن هوكينغ",
+    "acceptedAnswers": [
+      "ستيفن هوكينغ",
+      "Stephen Hawking",
+      "هوكينغ"
+    ],
+    "hint": "عالم الفيزياء الفلكية البريطاني الشهير مؤلف كتاب «تاريخ موجز للزمان».",
+    "clues": [],
+    "explanation": "التسجيل لعالم الفيزياء الكونية ستيفن هوكينغ عبر جهاز توليد الصوت الشهير الذي رافقه لعقود.",
+    "sources": [
+      "https://commons.wikimedia.org/wiki/File:Stephen_Hawking_voice.ogg"
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "كارل ساغان"
+      },
+      {
+        "id": "B",
+        "text": "ستيفن هوكينغ"
+      },
+      {
+        "id": "C",
+        "text": "روجر بنروز"
+      },
+      {
+        "id": "D",
+        "text": "ميشيو كاكو"
+      },
+      {
+        "id": "E",
+        "text": "براين كوكس"
+      },
+      {
+        "id": "F",
+        "text": "نيل ديغراس تايسون"
+      }
+    ],
+    "correctOptionId": "B",
+    "qualityStatus": "reviewed",
+    "usageId": "164843036848788868292455244340004906448",
+    "audio": {
+      "assetPath": "assets/question_audio/voice-059.mp3",
+      "durationMs": 7000,
+      "attribution": "مكتبة جامعة كامبريدج / محادثات TED / ويكيميديا كومنز",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Stephen_Hawking_voice.ogg",
+      "license": "Creative Commons Attribution / Educational Audio"
+    }
+  },
+  {
+    "id": "character_voice-easy-0023",
+    "categoryId": "character_voice",
+    "difficulty": "easy",
+    "text": "من صاحب هذا الصوت الرئاسي الملقب بـ FDR صاحب خطاب «يوم العار»؟",
+    "answer": "فرانكلين روزفلت",
+    "acceptedAnswers": [
+      "فرانكلين روزفلت",
+      "Franklin D. Roosevelt",
+      "روزفلت"
+    ],
+    "hint": "الرئيس الأمريكي الوحيد الذي انتُخب لأربع فترات رئاسية وقاد بلاده خلال الكساد الكبير والحرب العالمية الثانية.",
+    "clues": [],
+    "explanation": "التسجيل للرئيس الأمريكي فرانكلين ديلانو روزفلت في خطابه الشهير عام 1941.",
+    "sources": [
+      "https://commons.wikimedia.org/wiki/File:FDR_Day_of_Infamy_Address.ogg"
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "ثيودور روزفلت"
+      },
+      {
+        "id": "B",
+        "text": "فرانكلين روزفلت"
+      },
+      {
+        "id": "C",
+        "text": "هاري ترومان"
+      },
+      {
+        "id": "D",
+        "text": "وودرو ويلسون"
+      },
+      {
+        "id": "E",
+        "text": "هربرت هوفر"
+      },
+      {
+        "id": "F",
+        "text": "دوايت أيزنهاور"
+      }
+    ],
+    "correctOptionId": "B",
+    "qualityStatus": "reviewed",
+    "usageId": "87493632294504892715959695019324030156",
+    "audio": {
+      "assetPath": "assets/question_audio/voice-060.mp3",
+      "durationMs": 7000,
+      "attribution": "المكتبة الرئاسية لفرانكلين روزفلت / الأرشيف الوطني الأمريكي / ويكيميديا كومنز",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:FDR_Day_of_Infamy_Address.ogg",
+      "license": "Public Domain / US Federal Government Work"
+    }
+  },
+  {
+    "id": "character_voice-easy-0024",
+    "categoryId": "character_voice",
+    "difficulty": "easy",
+    "text": "من صاحب هذا الصوت الهادئ لرائد المقاومة السلمية واللاعنف؟",
+    "answer": "مهاتما غاندي",
+    "acceptedAnswers": [
+      "مهاتما غاندي",
+      "Mahatma Gandhi",
+      "غاندي"
+    ],
+    "hint": "زعيم استقلال الهند ورائد فلسفة اللاعنف (الساتياغراها).",
+    "clues": [],
+    "explanation": "التسجيل للزعيم الهندي المهاتما غاندي مسجلاً في لندن عام 1931.",
+    "sources": [
+      "https://commons.wikimedia.org/wiki/File:Mahatma_Gandhi_voice.ogg"
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "جواهر لال نهرو"
+      },
+      {
+        "id": "B",
+        "text": "مهاتما غاندي"
+      },
+      {
+        "id": "C",
+        "text": "سوبهاش شاندرا بوز"
+      },
+      {
+        "id": "D",
+        "text": "سردار باتيل"
+      },
+      {
+        "id": "E",
+        "text": "محمد علي جناح"
+      },
+      {
+        "id": "F",
+        "text": "رابندرانات طاغور"
+      }
+    ],
+    "correctOptionId": "B",
+    "qualityStatus": "reviewed",
+    "usageId": "87417652346682853354732705764482283495",
+    "audio": {
+      "assetPath": "assets/question_audio/voice-061.mp3",
+      "durationMs": 7000,
+      "attribution": "شركة كولومبيا غراموفون / أرشيف الذاكرة الوطنية الهندية / ويكيميديا كومنز",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mahatma_Gandhi_voice.ogg",
+      "license": "Public Domain / Recorded 1931"
+    }
+  },
+  {
+    "id": "character_voice-easy-0025",
+    "categoryId": "character_voice",
+    "difficulty": "easy",
+    "text": "من صاحب هذه الكلمة الروسية الشهيرة لحظة انطلاق أول رحلة بشرية إلى الفضاء؟",
+    "answer": "يوري غاغارين",
+    "acceptedAnswers": [
+      "يوري غاغارين",
+      "Yuri Gagarin",
+      "غاغارين"
+    ],
+    "hint": "رائد الفضاء السوفيتي الذي أصبح عام 1961 أول إنسان يطير في الفضاء الخارجي ويدور حول الأرض.",
+    "clues": [],
+    "explanation": "التسجيل ليوري غاغارين عند إطلاق مركبته الفضائية فوستوك 1 هاتفاً كلمته الخالدة «بواريخالي».",
+    "sources": [
+      "https://commons.wikimedia.org/wiki/File:Poyekhali!.ogg"
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "غيرمان تيتوف"
+      },
+      {
+        "id": "B",
+        "text": "يوري غاغارين"
+      },
+      {
+        "id": "C",
+        "text": "أليكسي ليونوف"
+      },
+      {
+        "id": "D",
+        "text": "سيرجي كوروليف"
+      },
+      {
+        "id": "E",
+        "text": "فالنتينا تيريشكوفا"
+      },
+      {
+        "id": "F",
+        "text": "فلاديمير كوماروف"
+      }
+    ],
+    "correctOptionId": "B",
+    "qualityStatus": "reviewed",
+    "usageId": "114967081543539106236267611797684661333",
+    "audio": {
+      "assetPath": "assets/question_audio/voice-062.mp3",
+      "durationMs": 7000,
+      "attribution": "وكالة الفضاء الروسية روسكوزموس / الأرشيف الصوتي السوفيتي / ويكيميديا كومنز",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Poyekhali!.ogg",
+      "license": "Public Domain / Soviet Space Archives"
+    }
+  },
+  {
+    "id": "character_voice-medium-0014",
+    "categoryId": "character_voice",
+    "difficulty": "medium",
+    "text": "من صاحب هذا الصوت المتأمل الملقب بـ«أبي القنبلة الذرية»؟",
+    "answer": "روبرت أوبنهايمر",
+    "acceptedAnswers": [
+      "روبرت أوبنهايمر",
+      "J. Robert Oppenheimer",
+      "روبرت اوبنهايمر",
+      "أوبنهايمر"
+    ],
+    "hint": "المدير العلمي لمشروع مانهاتن لتطوير أول سلاح نووي في التاريخ.",
+    "clues": [],
+    "explanation": "التسجيل للفيزيائي الأمريكي روبرت أوبنهايمر في مقابلته الشهيرة متحدثاً عن الانفجار النووي الأول.",
+    "sources": [
+      "https://commons.wikimedia.org/wiki/File:JROppenheimer-NowIAmBecomeDeath.ogg"
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "إنريكو فيرمي"
+      },
+      {
+        "id": "B",
+        "text": "روبرت أوبنهايمر"
+      },
+      {
+        "id": "C",
+        "text": "إدوارد تيلر"
+      },
+      {
+        "id": "D",
+        "text": "ريتشارد فاينمان"
+      },
+      {
+        "id": "E",
+        "text": "نيلز بور"
+      },
+      {
+        "id": "F",
+        "text": "إرنست لورنس"
+      }
+    ],
+    "correctOptionId": "B",
+    "qualityStatus": "reviewed",
+    "usageId": "135723672107862505797142458575289538338",
+    "audio": {
+      "assetPath": "assets/question_audio/voice-063.mp3",
+      "durationMs": 7000,
+      "attribution": "هيئة الإذاعة الوطنية NBC / معهد لوس ألاموس الوطني / ويكيميديا كومنز",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:JROppenheimer-NowIAmBecomeDeath.ogg",
+      "license": "Public Domain / US Gov / Historical Interview"
+    }
+  },
+  {
+    "id": "character_voice-medium-0015",
+    "categoryId": "character_voice",
+    "difficulty": "medium",
+    "text": "من صاحب هذا الصوت في التسجيل النادر الوحيد بنبرته الطبيعية الهادئة؟",
+    "answer": "أدولف هتلر",
+    "acceptedAnswers": [
+      "أدولف هتلر",
+      "Adolf Hitler",
+      "ادولف هتلر",
+      "هتلر"
+    ],
+    "hint": "زعيم ألمانيا النازية الذي أشعل الحرب العالمية الثانية، وهذا تسجيله النادر بالصوت الهادئ في فنلندا.",
+    "clues": [],
+    "explanation": "التسجيل لأدولف هتلر عام 1942 في فنلندا، وهو التسجيل الصوتي الوحيد الموثق لنبرة صوته الطبيعية اليومية.",
+    "sources": [
+      "https://commons.wikimedia.org/wiki/File:Hitler_and_Mannerheim_recording.ogg"
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "يوزف غوبلز"
+      },
+      {
+        "id": "B",
+        "text": "أدولف هتلر"
+      },
+      {
+        "id": "C",
+        "text": "هيرمان غورينغ"
+      },
+      {
+        "id": "D",
+        "text": "هاينريش هيملر"
+      },
+      {
+        "id": "E",
+        "text": "بينيتو موسوليني"
+      },
+      {
+        "id": "F",
+        "text": "فرانكو"
+      }
+    ],
+    "correctOptionId": "B",
+    "qualityStatus": "reviewed",
+    "usageId": "84646487601070870614335172041934942246",
+    "audio": {
+      "assetPath": "assets/question_audio/voice-064.mp3",
+      "durationMs": 7000,
+      "attribution": "هيئة الإذاعة الفنلندية YLE / الأرشيف الفيدرالي الألماني / ويكيميديا كومنز",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hitler_and_Mannerheim_recording.ogg",
+      "license": "Public Domain / Yle Finnish Broadcasting Archives (1942)"
+    }
+  },
+  {
+    "id": "character_voice-medium-0016",
+    "categoryId": "character_voice",
+    "difficulty": "medium",
+    "text": "من صاحب هذا الصوت الفرنسي الرخيم قائد قوات فرنسا الحرة ومؤسس الجمهورية الخامسة؟",
+    "answer": "شارل ديغول",
+    "acceptedAnswers": [
+      "شارل ديغول",
+      "Charles de Gaulle",
+      "ديغول"
+    ],
+    "hint": "قائد مقاومة فرنسا الحرة في الحرب العالمية الثانية ومؤسس الجمهورية الفرنسية الخامسة.",
+    "clues": [],
+    "explanation": "التسجيل للجنرال الفرنسي شارل ديغول من ندائه التاريخي للشعب الفرنسي عام 1940.",
+    "sources": [
+      "https://commons.wikimedia.org/wiki/File:Appel_du_18_juin_1940.ogg"
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "فيليب بيتان"
+      },
+      {
+        "id": "B",
+        "text": "شارل ديغول"
+      },
+      {
+        "id": "C",
+        "text": "فرانسوا ميتران"
+      },
+      {
+        "id": "D",
+        "text": "جورج بومبيدو"
+      },
+      {
+        "id": "E",
+        "text": "جان مولان"
+      },
+      {
+        "id": "F",
+        "text": "بيير منديس فرانس"
+      }
+    ],
+    "correctOptionId": "B",
+    "qualityStatus": "reviewed",
+    "usageId": "167217563510840989825508995610099510248",
+    "audio": {
+      "assetPath": "assets/question_audio/voice-065.mp3",
+      "durationMs": 7000,
+      "attribution": "المعهد الوطني للسمعي البصري بفرنسا INA / بي بي سي / ويكيميديا كومنز",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Appel_du_18_juin_1940.ogg",
+      "license": "Public Domain / French Government Historical Heritage"
+    }
+  },
+  {
+    "id": "character_voice-medium-0017",
+    "categoryId": "character_voice",
+    "difficulty": "medium",
+    "text": "من صاحب هذا الصوت لمخترع الفونوغراف والمصباح الكهربائي العملي؟",
+    "answer": "توماس إديسون",
+    "acceptedAnswers": [
+      "توماس إديسون",
+      "Thomas Edison",
+      "توماس اديسون",
+      "إديسون"
+    ],
+    "hint": "المخترع الأمريكي الشهير صاحب أكثر من ألف براءة اختراع منها الفونوغراف والمصباح.",
+    "clues": [],
+    "explanation": "التسجيل للمخترع توماس إديسون وهو يلقي قصيدة الأطفال التي جرب بها تسجيل الصوت لأول مرة.",
+    "sources": [
+      "https://commons.wikimedia.org/wiki/File:Thomas_Edison_-_Mary_had_a_little_lamb.ogg"
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "نيكولا تسلا"
+      },
+      {
+        "id": "B",
+        "text": "توماس إديسون"
+      },
+      {
+        "id": "C",
+        "text": "ألكسندر غراهام بل"
+      },
+      {
+        "id": "D",
+        "text": "غوغلييلمو ماركوني"
+      },
+      {
+        "id": "E",
+        "text": "صمويل مورس"
+      },
+      {
+        "id": "F",
+        "text": "جورج ويستنغهاوس"
+      }
+    ],
+    "correctOptionId": "B",
+    "qualityStatus": "reviewed",
+    "usageId": "100197986056072621097138430273987835651",
+    "audio": {
+      "assetPath": "assets/question_audio/voice-066.mp3",
+      "durationMs": 7000,
+      "attribution": "متنزه توماس إديسون الوطني التاريخي / مكتبة الكونغرس / ويكيميديا كومنز",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Thomas_Edison_-_Mary_had_a_little_lamb.ogg",
+      "license": "Public Domain / US National Park Service"
+    }
+  },
+  {
+    "id": "character_voice-medium-0018",
+    "categoryId": "character_voice",
+    "difficulty": "medium",
+    "text": "من مخترع الهاتف صاحب هذا التسجيل الصوتي النادر المكتشف من القرن التاسع عشر؟",
+    "answer": "ألكسندر غراهام بل",
+    "acceptedAnswers": [
+      "ألكسندر غراهام بل",
+      "Alexander Graham Bell",
+      "الكسندر غراهام بل",
+      "بل"
+    ],
+    "hint": "عالم ومخترع اسكتلندي ارتبط اسمه باختراع الهاتف وتأسيس شركة AT&T.",
+    "clues": [],
+    "explanation": "التسجيل لمخترع الهاتف ألكسندر غراهام بل، وهو التسجيل الصوتي الوحيد المؤكد لصوته المكتشف في مؤسسة سميثسونيان.",
+    "sources": [
+      "https://commons.wikimedia.org/wiki/File:AlexanderGrahamBell%27sVoice.ogg"
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "إليشا غراي"
+      },
+      {
+        "id": "B",
+        "text": "ألكسندر غراهام بل"
+      },
+      {
+        "id": "C",
+        "text": "أنطونيو ميوتشي"
+      },
+      {
+        "id": "D",
+        "text": "هاينريش هيرتز"
+      },
+      {
+        "id": "E",
+        "text": "صمويل مورس"
+      },
+      {
+        "id": "F",
+        "text": "توماس إديسون"
+      }
+    ],
+    "correctOptionId": "B",
+    "qualityStatus": "reviewed",
+    "usageId": "150259839555947463013652346123799208366",
+    "audio": {
+      "assetPath": "assets/question_audio/voice-067.mp3",
+      "durationMs": 7000,
+      "attribution": "متحف سميثسونيان الوطني للتاريخ الأمريكي / مكتبة الكونغرس / ويكيميديا كومنز",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:AlexanderGrahamBell%27sVoice.ogg",
+      "license": "Public Domain / Smithsonian Institution National Museum of American History"
+    }
+  },
+  {
+    "id": "character_voice-medium-0019",
+    "categoryId": "character_voice",
+    "difficulty": "medium",
+    "text": "من صاحب هذا الصوت الرئاسي في خطاب الاستقالة الشهير بعد ووترغيت؟",
+    "answer": "ريتشارد نيكسون",
+    "acceptedAnswers": [
+      "ريتشارد نيكسون",
+      "Richard Nixon",
+      "نيكسون"
+    ],
+    "hint": "الرئيس الأمريكي الـ37 وصاحب زيارة الانفتاح على الصين، والذي استقال بسبب فضيحة ووترغيت.",
+    "clues": [],
+    "explanation": "التسجيل للرئيس الأمريكي ريتشارد نيكسون معلناً استقالته من الرئاسة في 8 أغسطس 1974.",
+    "sources": [
+      "https://commons.wikimedia.org/wiki/File:Nixon_resignation_speech.ogg"
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "ليندون جونسون"
+      },
+      {
+        "id": "B",
+        "text": "ريتشارد نيكسون"
+      },
+      {
+        "id": "C",
+        "text": "جيرالد فورد"
+      },
+      {
+        "id": "D",
+        "text": "سبيرو أغنيو"
+      },
+      {
+        "id": "E",
+        "text": "رونالد ريغان"
+      },
+      {
+        "id": "F",
+        "text": "جورج بوش الأب"
+      }
+    ],
+    "correctOptionId": "B",
+    "qualityStatus": "reviewed",
+    "usageId": "149180061000886065828219886009668635608",
+    "audio": {
+      "assetPath": "assets/question_audio/voice-068.mp3",
+      "durationMs": 7000,
+      "attribution": "المكتبة الرئاسية لريتشارد نيكسون / الأرشيف الوطني الأمريكي NARA / ويكيميديا كومنز",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nixon_resignation_speech.ogg",
+      "license": "Public Domain / US Federal Government Work"
+    }
+  },
+  {
+    "id": "character_voice-medium-0020",
+    "categoryId": "character_voice",
+    "difficulty": "medium",
+    "text": "من صاحبة هذا الصوت الحازم الملقبة بـ«المرأة الحديدية»؟",
+    "answer": "مارغريت تاتشر",
+    "acceptedAnswers": [
+      "مارغريت تاتشر",
+      "Margaret Thatcher",
+      "تاتشر"
+    ],
+    "hint": "أول امرأة تتولى رئاسة وزراء المملكة المتحدة وقادت بلادها خلال حرب الفوكلاند.",
+    "clues": [],
+    "explanation": "التسجيل لرئيسة الوزراء البريطانية مارغريت تاتشر من خطابها الشهير عام 1980.",
+    "sources": [
+      "https://commons.wikimedia.org/wiki/File:Margaret_Thatcher_-_The_lady%27s_not_for_turning.ogg"
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "تيريزا ماي"
+      },
+      {
+        "id": "B",
+        "text": "مارغريت تاتشر"
+      },
+      {
+        "id": "C",
+        "text": "الملكة إليزابيث الثانية"
+      },
+      {
+        "id": "D",
+        "text": "أنديرا غاندي"
+      },
+      {
+        "id": "E",
+        "text": "غولدا مائير"
+      },
+      {
+        "id": "F",
+        "text": "بينظير بوتو"
+      }
+    ],
+    "correctOptionId": "B",
+    "qualityStatus": "reviewed",
+    "usageId": "1235404103353889415071921096420867511",
+    "audio": {
+      "assetPath": "assets/question_audio/voice-069.mp3",
+      "durationMs": 7000,
+      "attribution": "مؤسسة مارغريت تاتشر / حزب المحافظين البريطاني / ويكيميديا كومنز",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Margaret_Thatcher_-_The_lady%27s_not_for_turning.ogg",
+      "license": "Creative Commons Attribution / UK Parliamentary Archives"
+    }
+  },
+  {
+    "id": "character_voice-medium-0021",
+    "categoryId": "character_voice",
+    "difficulty": "medium",
+    "text": "من صاحب هذا الصوت الفلكي الملهم واصفاً الأرض بـ«نقطة زرقاء باهتة»؟",
+    "answer": "كارل ساغان",
+    "acceptedAnswers": [
+      "كارل ساغان",
+      "Carl Sagan",
+      "ساغان"
+    ],
+    "hint": "عالم الفلك الشهير ومقدم السلسلة العلمية العالمية «الكون: رحلة شخصية» (Cosmos).",
+    "clues": [],
+    "explanation": "التسجيل لعالم الفلك الأمريكي كارل ساغان متأملاً صورة الأرض كنقطة زرقاء باهتة في الكون الشاسع.",
+    "sources": [
+      "https://commons.wikimedia.org/wiki/File:Pale_Blue_Dot_Carl_Sagan.ogg"
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "نيل ديغراس تايسون"
+      },
+      {
+        "id": "B",
+        "text": "كارل ساغان"
+      },
+      {
+        "id": "C",
+        "text": "ستيفن هوكينغ"
+      },
+      {
+        "id": "D",
+        "text": "إدوين هابل"
+      },
+      {
+        "id": "E",
+        "text": "آرثر كلارك"
+      },
+      {
+        "id": "F",
+        "text": "براين غرين"
+      }
+    ],
+    "correctOptionId": "B",
+    "qualityStatus": "reviewed",
+    "usageId": "45379533351634110520974895893304905203",
+    "audio": {
+      "assetPath": "assets/question_audio/voice-070.mp3",
+      "durationMs": 7000,
+      "attribution": "وكالة ناسا / مسبار فوياجر 1 / جمعية الكواكب الفلكية / ويكيميديا كومنز",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pale_Blue_Dot_Carl_Sagan.ogg",
+      "license": "Public Domain / NASA Voyager / Educational Fair Use"
+    }
+  },
+  {
+    "id": "character_voice-medium-0022",
+    "categoryId": "character_voice",
+    "difficulty": "medium",
+    "text": "من صاحب هذا الصوت لمؤسس شركة آبل أثناء كشفه عن أول هاتف آيفون؟",
+    "answer": "ستيف جوبز",
+    "acceptedAnswers": [
+      "ستيف جوبز",
+      "Steve Jobs",
+      "جوبز"
+    ],
+    "hint": "المؤسس الشريك لشركة آبل ورائد الحواسيب الشخصية والهواتف الذكية.",
+    "clues": [],
+    "explanation": "التسجيل لستيف جوبز وهو يكشف للعالم عن هاتف الآيفون الأول عام 2007.",
+    "sources": [
+      "https://commons.wikimedia.org/wiki/File:Steve_Jobs_iPhone_announcement_2007.ogg"
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "بيل غيتس"
+      },
+      {
+        "id": "B",
+        "text": "ستيف جوبز"
+      },
+      {
+        "id": "C",
+        "text": "ستيف فوزنياك"
+      },
+      {
+        "id": "D",
+        "text": "تيم كوك"
+      },
+      {
+        "id": "E",
+        "text": "إيلون ماسك"
+      },
+      {
+        "id": "F",
+        "text": "مارك زوكربيرغ"
+      }
+    ],
+    "correctOptionId": "B",
+    "qualityStatus": "reviewed",
+    "usageId": "120400075209033208280082891321266929737",
+    "audio": {
+      "assetPath": "assets/question_audio/voice-071.mp3",
+      "durationMs": 7000,
+      "attribution": "مؤتمر Macworld 2007 / أرشيف ستيف جوبز / ويكيميديا كومنز",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Steve_Jobs_iPhone_announcement_2007.ogg",
+      "license": "Creative Commons Attribution / Historical Presentation"
+    }
+  },
+  {
+    "id": "character_voice-medium-0023",
+    "categoryId": "character_voice",
+    "difficulty": "medium",
+    "text": "من صاحب هذا الصوت الفيزيائي الحائز على نوبل المعروف بأسلوبه المبسط في الشرح؟",
+    "answer": "ريتشارد فاينمان",
+    "acceptedAnswers": [
+      "ريتشارد فاينمان",
+      "Richard Feynman",
+      "فاينمان"
+    ],
+    "hint": "عالم الكهروديناميكا الكمية ومؤلف «محاضرات فاينمان في الفيزياء».",
+    "clues": [],
+    "explanation": "التسجيل لعالم الفيزياء ريتشارد فاينمان متحدثاً عن الطبيعة التساؤلية للعلم.",
+    "sources": [
+      "https://commons.wikimedia.org/wiki/File:Richard_Feynman_voice.ogg"
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "موراي جيل مان"
+      },
+      {
+        "id": "B",
+        "text": "ريتشارد فاينمان"
+      },
+      {
+        "id": "C",
+        "text": "بول ديراك"
+      },
+      {
+        "id": "D",
+        "text": "جوليان شوينغر"
+      },
+      {
+        "id": "E",
+        "text": "هانز بيته"
+      },
+      {
+        "id": "F",
+        "text": "جون ويلر"
+      }
+    ],
+    "correctOptionId": "B",
+    "qualityStatus": "reviewed",
+    "usageId": "56537407515037544874238919906409328310",
+    "audio": {
+      "assetPath": "assets/question_audio/voice-072.mp3",
+      "durationMs": 7000,
+      "attribution": "بي بي سي / معهد كاليفورنيا للتقنية Caltech / ويكيميديا كومنز",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Richard_Feynman_voice.ogg",
+      "license": "Creative Commons Attribution / BBC Interview Archives"
+    }
+  },
+  {
+    "id": "character_voice-medium-0024",
+    "categoryId": "character_voice",
+    "difficulty": "medium",
+    "text": "من صاحب هذا الصوت البرتغالي لملك كرة القدم وبطل كأس العالم ثلاث مرات؟",
+    "answer": "بيليه",
+    "acceptedAnswers": [
+      "بيليه",
+      "Pelé"
+    ],
+    "hint": "الجوهرة السوداء وبطل العالم مع البرازيل في أعوام 1958 و1962 و1970.",
+    "clues": [],
+    "explanation": "التسجيل لأسطورة كرة القدم البرازيلية بيليه فور تسجيل هدفه الألف عام 1969.",
+    "sources": [
+      "https://commons.wikimedia.org/wiki/File:Pele_voice_1000th_goal.ogg"
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "غارينشيا"
+      },
+      {
+        "id": "B",
+        "text": "بيليه"
+      },
+      {
+        "id": "C",
+        "text": "زيكو"
+      },
+      {
+        "id": "D",
+        "text": "روماريو"
+      },
+      {
+        "id": "E",
+        "text": "رونالدو نازاريو"
+      },
+      {
+        "id": "F",
+        "text": "سقراط"
+      }
+    ],
+    "correctOptionId": "B",
+    "qualityStatus": "reviewed",
+    "usageId": "72957308731718967314330823100291017473",
+    "audio": {
+      "assetPath": "assets/question_audio/voice-073.mp3",
+      "durationMs": 7000,
+      "attribution": "راديو غلوبو البرازيلي / أرشيف ملعب ماراكانا / ويكيميديا كومنز",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pele_voice_1000th_goal.ogg",
+      "license": "Public Domain / Brazilian Radio Archive"
+    }
+  },
+  {
+    "id": "character_voice-medium-0025",
+    "categoryId": "character_voice",
+    "difficulty": "medium",
+    "text": "من صاحب هذا الصوت الرئاسي الموجه لغورباتشوف لهدم جدار برلين؟",
+    "answer": "رونالد ريغان",
+    "acceptedAnswers": [
+      "رونالد ريغان",
+      "Ronald Reagan",
+      "ريغان"
+    ],
+    "hint": "الرئيس الأمريكي الـ40 الذي كان ممثلاً هوليوودياً وشهدت فترته نهاية الحرب الباردة.",
+    "clues": [],
+    "explanation": "التسجيل للرئيس الأمريكي رونالد ريغان من خطابه التاريخي عند جدار برلين عام 1987.",
+    "sources": [
+      "https://commons.wikimedia.org/wiki/File:Reagan_Tear_Down_This_Wall.ogg"
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "جورج بوش الأب"
+      },
+      {
+        "id": "B",
+        "text": "رونالد ريغان"
+      },
+      {
+        "id": "C",
+        "text": "جيمي كارتر"
+      },
+      {
+        "id": "D",
+        "text": "ريتشارد نيكسون"
+      },
+      {
+        "id": "E",
+        "text": "بيل كلينتون"
+      },
+      {
+        "id": "F",
+        "text": "جيرالد فورد"
+      }
+    ],
+    "correctOptionId": "B",
+    "qualityStatus": "reviewed",
+    "usageId": "81604690900334331655953257980527071739",
+    "audio": {
+      "assetPath": "assets/question_audio/voice-074.mp3",
+      "durationMs": 7000,
+      "attribution": "المكتبة الرئاسية لرونالد ريغان / الأرشيف الوطني الأمريكي / ويكيميديا كومنز",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Reagan_Tear_Down_This_Wall.ogg",
+      "license": "Public Domain / US Federal Government Work"
+    }
+  },
+  {
+    "id": "character_voice-hard-0013",
+    "categoryId": "character_voice",
+    "difficulty": "hard",
+    "text": "من صاحب هذا الصوت الأدبي وهو يقرأ لغة خيالية اخترعها في رواياته؟",
+    "answer": "جي آر آر تولكين",
+    "acceptedAnswers": [
+      "جي آر آر تولكين",
+      "J.R.R. Tolkien",
+      "جي ار ار تولكين",
+      "تولكين"
+    ],
+    "hint": "مؤلف ملحمتي «سيد الخواتم» و«الهوبيت» وأستاذ فقه اللغة الإنجليزية القديمة في أكسفورد.",
+    "clues": [],
+    "explanation": "التسجيل للكاتب البريطاني جون رونالد تولكين وهو يتلو نصوصاً باللغة الإلفية الخيالية عام 1952.",
+    "sources": [
+      "https://commons.wikimedia.org/wiki/File:Tolkien_reading_Elvish.ogg"
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "سي إس لويس"
+      },
+      {
+        "id": "B",
+        "text": "جي آر آر تولكين"
+      },
+      {
+        "id": "C",
+        "text": "جورج أورويل"
+      },
+      {
+        "id": "D",
+        "text": "ألدوس هكسلي"
+      },
+      {
+        "id": "E",
+        "text": "إتش جي ويلز"
+      },
+      {
+        "id": "F",
+        "text": "آرثر كلارك"
+      }
+    ],
+    "correctOptionId": "B",
+    "qualityStatus": "reviewed",
+    "usageId": "36108168787889905645349481305421499321",
+    "audio": {
+      "assetPath": "assets/question_audio/voice-075.mp3",
+      "durationMs": 7000,
+      "attribution": "جامعة أكسفورد / تسجيلات جورج ساير 1952 / ويكيميديا كومنز",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tolkien_reading_Elvish.ogg",
+      "license": "Public Domain / Tolkien Estate Historical Recording"
+    }
+  },
+  {
+    "id": "character_voice-hard-0014",
+    "categoryId": "character_voice",
+    "difficulty": "hard",
+    "text": "من صاحبة هذا الصوت النسائي التاريخي النادر الملقبة بـ«سيدة المصباح»؟",
+    "answer": "فلورنس نايتينجيل",
+    "acceptedAnswers": [
+      "فلورنس نايتينجيل",
+      "Florence Nightingale",
+      "نايتينجيل"
+    ],
+    "hint": "رائدة التمريض الحديث ومؤسسة أول مدرسة تمريضية في مستشفى سانت توماس بلندن.",
+    "clues": [],
+    "explanation": "التسجيل لرائدة التمريض فلورنس نايتينجيل مسجلاً على أسطوانة فونوغراف شمعية عام 1890.",
+    "sources": [
+      "https://commons.wikimedia.org/wiki/File:Florence_Nightingale_voice_-_1576A_2nd_Rendition_Crop.ogg"
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "كلارا بارتون"
+      },
+      {
+        "id": "B",
+        "text": "فلورنس نايتينجيل"
+      },
+      {
+        "id": "C",
+        "text": "ماري كوري"
+      },
+      {
+        "id": "D",
+        "text": "هيلين كيلر"
+      },
+      {
+        "id": "E",
+        "text": "إيميلين بانكيرست"
+      },
+      {
+        "id": "F",
+        "text": "إليزابيث فراي"
+      }
+    ],
+    "correctOptionId": "B",
+    "qualityStatus": "reviewed",
+    "usageId": "34377466775693384097492346570015442994",
+    "audio": {
+      "assetPath": "assets/question_audio/voice-076.mp3",
+      "durationMs": 7000,
+      "attribution": "مكتبة المملكة المتحدة البريطانية British Library / متحف التمريض / ويكيميديا كومنز",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Florence_Nightingale_voice_-_1576A_2nd_Rendition_Crop.ogg",
+      "license": "Public Domain / Recorded July 30, 1890"
+    }
+  },
+  {
+    "id": "character_voice-hard-0015",
+    "categoryId": "character_voice",
+    "difficulty": "hard",
+    "text": "من صاحب هذا الصوت الروسي العظيم مؤلف «الحرب والسلام» و«أنا كارينينا»؟",
+    "answer": "ليو تولستوي",
+    "acceptedAnswers": [
+      "ليو تولستوي",
+      "Leo Tolstoy",
+      "تولستوي"
+    ],
+    "hint": "عملاق الرواية الروسية في القرن التاسع عشر وصاحب ملحمتي «الحرب والسلام» و«آنا كارينينا».",
+    "clues": [],
+    "explanation": "التسجيل للكاتب الروسي الشهير ليو تولستوي متحدثاً إلى أطفال مدرسته القروية عام 1908.",
+    "sources": [
+      "https://commons.wikimedia.org/wiki/File:Lev_Tolstoy_voice_record_1908_to_children.ogg"
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "فيودور دوستويفسكي"
+      },
+      {
+        "id": "B",
+        "text": "ليو تولستوي"
+      },
+      {
+        "id": "C",
+        "text": "أنطون تشيخوف"
+      },
+      {
+        "id": "D",
+        "text": "مكسيم غوركي"
+      },
+      {
+        "id": "E",
+        "text": "إيفان تورغينيف"
+      },
+      {
+        "id": "F",
+        "text": "ألكسندر بوشكين"
+      }
+    ],
+    "correctOptionId": "B",
+    "qualityStatus": "reviewed",
+    "usageId": "118788327622383986243305808833130035825",
+    "audio": {
+      "assetPath": "assets/question_audio/voice-077.mp3",
+      "durationMs": 7000,
+      "attribution": "متحف ليو تولستوي في موسكو / مكتبة الدولة الروسية / ويكيميديا كومنز",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lev_Tolstoy_voice_record_1908_to_children.ogg",
+      "license": "Public Domain / Recorded 1908 on Edison Phonograph"
+    }
+  },
+  {
+    "id": "character_voice-hard-0016",
+    "categoryId": "character_voice",
+    "difficulty": "hard",
+    "text": "من الكاتب صاحب هذا الصوت مبتكر أشهر محقق في تاريخ الأدب البوليسي؟",
+    "answer": "آرثر كونان دويل",
+    "acceptedAnswers": [
+      "آرثر كونان دويل",
+      "Arthur Conan Doyle",
+      "ارثر كونان دويل",
+      "دويل"
+    ],
+    "hint": "الطبيب والكاتب الأسكتلندي مبتكر شخصيتي شارلوك هولمز ودكتور جون واطسون.",
+    "clues": [],
+    "explanation": "التسجيل للسير آرثر كونان دويل عام 1930 شارحاً فكرة ابتكار محققه شارلوك هولمز.",
+    "sources": [
+      "https://commons.wikimedia.org/wiki/File:Sir_Arthur_Conan_Doyle_speaks.ogg"
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "أغاثا كريستي"
+      },
+      {
+        "id": "B",
+        "text": "آرثر كونان دويل"
+      },
+      {
+        "id": "C",
+        "text": "إدغار آلان بو"
+      },
+      {
+        "id": "D",
+        "text": "روبرت لويس ستيفنسون"
+      },
+      {
+        "id": "E",
+        "text": "إتش جي ويلز"
+      },
+      {
+        "id": "F",
+        "text": "جي كي تشسترتون"
+      }
+    ],
+    "correctOptionId": "B",
+    "qualityStatus": "reviewed",
+    "usageId": "21921742559157958199262140944723260198",
+    "audio": {
+      "assetPath": "assets/question_audio/voice-078.mp3",
+      "durationMs": 7000,
+      "attribution": "أرشيف فوكس موفيتون نيوز / جامعة ساوث كارولينا / ويكيميديا كومنز",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sir_Arthur_Conan_Doyle_speaks.ogg",
+      "license": "Public Domain / Fox Movietone News (1930)"
+    }
+  },
+  {
+    "id": "character_voice-hard-0017",
+    "categoryId": "character_voice",
+    "difficulty": "hard",
+    "text": "من صاحب هذا الصوت الأيرلندي الساخر مؤلف مسرحية «بجماليون»؟",
+    "answer": "جورج برنارد شو",
+    "acceptedAnswers": [
+      "جورج برنارد شو",
+      "George Bernard Shaw",
+      "شو"
+    ],
+    "hint": "الكاتب المسرحي الأيرلندي الشهير بتهكمه وسخريته والوحيد الذي نال نوبل في الأدب والأوسكار معاً.",
+    "clues": [],
+    "explanation": "التسجيل للأديب المسرحي جورج برنارد شو في تسجيل إذاعي عبر بي بي سي عام 1937.",
+    "sources": [
+      "https://commons.wikimedia.org/wiki/File:George_Bernard_Shaw_speaking.ogg"
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "أوسكار وايلد"
+      },
+      {
+        "id": "B",
+        "text": "جورج برنارد شو"
+      },
+      {
+        "id": "C",
+        "text": "صامويل بيكيت"
+      },
+      {
+        "id": "D",
+        "text": "جيمس جويس"
+      },
+      {
+        "id": "E",
+        "text": "ويليام بتلر ييتس"
+      },
+      {
+        "id": "F",
+        "text": "شين أوكيسي"
+      }
+    ],
+    "correctOptionId": "B",
+    "qualityStatus": "reviewed",
+    "usageId": "87660154516584302378479651277576208666",
+    "audio": {
+      "assetPath": "assets/question_audio/voice-079.mp3",
+      "durationMs": 7000,
+      "attribution": "أرشيف بي بي سي الصوتي / الأكاديمية الملكية للفنون المسرحية / ويكيميديا كومنز",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:George_Bernard_Shaw_speaking.ogg",
+      "license": "Public Domain / BBC Historic Archives"
+    }
+  },
+  {
+    "id": "character_voice-hard-0018",
+    "categoryId": "character_voice",
+    "difficulty": "hard",
+    "text": "من صاحب هذا الصوت الأدبي مؤلف «الشيخ والبحر» و«وداعاً للسلاح»؟",
+    "answer": "إرنست همنغواي",
+    "acceptedAnswers": [
+      "إرنست همنغواي",
+      "Ernest Hemingway",
+      "ارنست همنغواي",
+      "همنغواي"
+    ],
+    "hint": "الروائي الأمريكي صاحب نظرية الجبل الجليدي في السرد ومؤلف «الشيخ والبحر».",
+    "clues": [],
+    "explanation": "التسجيل للروائي إرنست همنغواي متحدثاً في كلمته الصوتية لجائزة نوبل عام 1954.",
+    "sources": [
+      "https://commons.wikimedia.org/wiki/File:Ernest_Hemingway_Nobel_speech.ogg"
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "وليام فوكنر"
+      },
+      {
+        "id": "B",
+        "text": "إرنست همنغواي"
+      },
+      {
+        "id": "C",
+        "text": "جون شتاينبك"
+      },
+      {
+        "id": "D",
+        "text": "إف سكوت فيتزجيرالد"
+      },
+      {
+        "id": "E",
+        "text": "ترومان كابوتي"
+      },
+      {
+        "id": "F",
+        "text": "جاك لندن"
+      }
+    ],
+    "correctOptionId": "B",
+    "qualityStatus": "reviewed",
+    "usageId": "87447123281324041076029886741065620754",
+    "audio": {
+      "assetPath": "assets/question_audio/voice-080.mp3",
+      "durationMs": 7000,
+      "attribution": "مؤسسة نوبل العالمية / مكتبة جون كينيدي - قسم همنغواي / ويكيميديا كومنز",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ernest_Hemingway_Nobel_speech.ogg",
+      "license": "Public Domain / Nobel Foundation Historical Recording"
+    }
+  },
+  {
+    "id": "character_voice-hard-0019",
+    "categoryId": "character_voice",
+    "difficulty": "hard",
+    "text": "من صاحب هذا الصوت الروسي لمؤسس الاتحاد السوفيتي وقائد الثورة البلشفية؟",
+    "answer": "فلاديمير لينين",
+    "acceptedAnswers": [
+      "فلاديمير لينين",
+      "Vladimir Lenin",
+      "لينين"
+    ],
+    "hint": "زعيم الثورة الروسية عام 1917 وأول رئيس لحكومة روسيا السوفيتية.",
+    "clues": [],
+    "explanation": "التسجيل الصوتي لفلاديمير لينين من تسجيل أسطوانة رسمية عام 1919 شارحاً طبيعة السلطة السوفيتية.",
+    "sources": [
+      "https://commons.wikimedia.org/wiki/File:Lenin_-_What_is_Soviet_Power.ogg"
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "جوزيف ستالين"
+      },
+      {
+        "id": "B",
+        "text": "فلاديمير لينين"
+      },
+      {
+        "id": "C",
+        "text": "ليون تروتسكي"
+      },
+      {
+        "id": "D",
+        "text": "نيكيتا خروتشوف"
+      },
+      {
+        "id": "E",
+        "text": "فياتشيسلاف مولوتوف"
+      },
+      {
+        "id": "F",
+        "text": "نيكولاي بوخارين"
+      }
+    ],
+    "correctOptionId": "B",
+    "qualityStatus": "reviewed",
+    "usageId": "148525709298391579505890142659356560649",
+    "audio": {
+      "assetPath": "assets/question_audio/voice-081.mp3",
+      "durationMs": 7000,
+      "attribution": "أرشيف الدولة للوثائق الصوتية في روسيا / ويكيميديا كومنز",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lenin_-_What_is_Soviet_Power.ogg",
+      "license": "Public Domain / Soviet State Sound Archives"
+    }
+  },
+  {
+    "id": "character_voice-hard-0020",
+    "categoryId": "character_voice",
+    "difficulty": "hard",
+    "text": "من صاحبة هذا الصوت الإنجليزي الهادئ الملقبة بـ«ملكة الجريمة» وروايات التحقيق؟",
+    "answer": "أغاثا كريستي",
+    "acceptedAnswers": [
+      "أغاثا كريستي",
+      "Agatha Christie",
+      "اغاثا كريستي",
+      "كريستي"
+    ],
+    "hint": "الروائية الإنجليزية مبتكرة شخصيتي المحقق هرقل بوارو والآنسة ماربل، والأكثر مبيعاً في التاريخ.",
+    "clues": [],
+    "explanation": "التسجيل للأديبة الإنجليزية أغاثا كريستي في لقاء إذاعي نادر لبي بي سي.",
+    "sources": [
+      "https://commons.wikimedia.org/wiki/File:Agatha_Christie_voice.ogg"
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "فرجينيا وولف"
+      },
+      {
+        "id": "B",
+        "text": "أغاثا كريستي"
+      },
+      {
+        "id": "C",
+        "text": "ماري شيلي"
+      },
+      {
+        "id": "D",
+        "text": "جين أوستن"
+      },
+      {
+        "id": "E",
+        "text": "دوروثي سايرز"
+      },
+      {
+        "id": "F",
+        "text": "إينيد بليتون"
+      }
+    ],
+    "correctOptionId": "B",
+    "qualityStatus": "reviewed",
+    "usageId": "48673341965003379739189072558937242464",
+    "audio": {
+      "assetPath": "assets/question_audio/voice-082.mp3",
+      "durationMs": 7000,
+      "attribution": "أرشيف الإذاعة البريطانية BBC / أرشيف أغاثا كريستي / ويكيميديا كومنز",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Agatha_Christie_voice.ogg",
+      "license": "Creative Commons Attribution / BBC Historic Interview"
+    }
+  },
+  {
+    "id": "character_voice-hard-0021",
+    "categoryId": "character_voice",
+    "difficulty": "hard",
+    "text": "من صاحب هذا الصوت لعالم المحيطات ومستكشف البحار على سفينة «كاليبسو»؟",
+    "answer": "جاك كوستو",
+    "acceptedAnswers": [
+      "جاك كوستو",
+      "Jacques Cousteau",
+      "كوستو"
+    ],
+    "hint": "عالم ومستكشف البحار الفرنسي وصاحب الأفلام الوثائقية المائية وسفينة «كاليبسو».",
+    "clues": [],
+    "explanation": "التسجيل للبحار والمستكشف الفرنسي جاك إيف كوستو متحدثاً عن شغفه الدائم بالمحيط.",
+    "sources": [
+      "https://commons.wikimedia.org/wiki/File:Jacques_Cousteau_voice.ogg"
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "ثور هيردال"
+      },
+      {
+        "id": "B",
+        "text": "جاك كوستو"
+      },
+      {
+        "id": "C",
+        "text": "روبرت بالارد"
+      },
+      {
+        "id": "D",
+        "text": "ويليام بيب"
+      },
+      {
+        "id": "E",
+        "text": "جان فيليب كوستو"
+      },
+      {
+        "id": "F",
+        "text": "ديفيد أتينبورو"
+      }
+    ],
+    "correctOptionId": "B",
+    "qualityStatus": "reviewed",
+    "usageId": "42625691604153896681257450645675768374",
+    "audio": {
+      "assetPath": "assets/question_audio/voice-083.mp3",
+      "durationMs": 7000,
+      "attribution": "جمعية كوستو للأبحاث البحرية / وثائقيات كاليبسو / ويكيميديا كومنز",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jacques_Cousteau_voice.ogg",
+      "license": "Creative Commons Attribution / Cousteau Society"
+    }
+  },
+  {
+    "id": "character_voice-hard-0022",
+    "categoryId": "character_voice",
+    "difficulty": "hard",
+    "text": "من صاحبة هذا الصوت لأول امرأة تطير بمفردها عبر المحيط الأطلسي؟",
+    "answer": "أميليا إيرهارت",
+    "acceptedAnswers": [
+      "أميليا إيرهارت",
+      "Amelia Earhart",
+      "اميليا ايرهارت",
+      "إيرهارت"
+    ],
+    "hint": "رائدة الطيران الأمريكية الشهيرة التي اختفت طائرتها بشكل غامض فوق المحيط الهادئ عام 1937.",
+    "clues": [],
+    "explanation": "التسجيل لرائدة الطيران أميليا إيرهارت في حديث إذاعي تاريخي عام 1932.",
+    "sources": [
+      "https://commons.wikimedia.org/wiki/File:Amelia_Earhart_voice.ogg"
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "إيمي جونسون"
+      },
+      {
+        "id": "B",
+        "text": "أميليا إيرهارت"
+      },
+      {
+        "id": "C",
+        "text": "بيسي كولمان"
+      },
+      {
+        "id": "D",
+        "text": "جاكلين كوكران"
+      },
+      {
+        "id": "E",
+        "text": "فالنتينا تيريشكوفا"
+      },
+      {
+        "id": "F",
+        "text": "هارييت كيمبي"
+      }
+    ],
+    "correctOptionId": "B",
+    "qualityStatus": "reviewed",
+    "usageId": "87403428752317448209327407025434627336",
+    "audio": {
+      "assetPath": "assets/question_audio/voice-084.mp3",
+      "durationMs": 7000,
+      "attribution": "مكتبة جامعة بوردو للوثائق التاريخية / مكتبة الكونغرس / ويكيميديا كومنز",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Amelia_Earhart_voice.ogg",
+      "license": "Public Domain / Recorded 1932"
+    }
+  },
+  {
+    "id": "character_voice-hard-0023",
+    "categoryId": "character_voice",
+    "difficulty": "hard",
+    "text": "من صاحب هذا الصوت لمبتكر شخصية ميكي ماوس ومدن ديزني الترفيهية؟",
+    "answer": "والت ديزني",
+    "acceptedAnswers": [
+      "والت ديزني",
+      "Walt Disney",
+      "ديزني"
+    ],
+    "hint": "رائد الرسوم المتحركة ومبتكر شخصية ميكي ماوس وحاصد أكبر عدد من جوائز الأوسكار في التاريخ.",
+    "clues": [],
+    "explanation": "التسجيل لوالت ديزني أثناء افتتاحه لمتنزه ديزني لاند في 17 يوليو 1955.",
+    "sources": [
+      "https://commons.wikimedia.org/wiki/File:Walt_Disney_Disneyland_opening.ogg"
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "روي ديزني"
+      },
+      {
+        "id": "B",
+        "text": "والت ديزني"
+      },
+      {
+        "id": "C",
+        "text": "أوب إيويركس"
+      },
+      {
+        "id": "D",
+        "text": "ماكس فلايشر"
+      },
+      {
+        "id": "E",
+        "text": "تشاك جونز"
+      },
+      {
+        "id": "F",
+        "text": "ويليام هانا"
+      }
+    ],
+    "correctOptionId": "B",
+    "qualityStatus": "reviewed",
+    "usageId": "98141914610392121166622154483666640743",
+    "audio": {
+      "assetPath": "assets/question_audio/voice-085.mp3",
+      "durationMs": 7000,
+      "attribution": "أرشيف والت ديزني / شبكة ABC التلفزيونية / ويكيميديا كومنز",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Walt_Disney_Disneyland_opening.ogg",
+      "license": "Public Domain / Broadcast July 17, 1955"
+    }
+  },
+  {
+    "id": "character_voice-hard-0024",
+    "categoryId": "character_voice",
+    "difficulty": "hard",
+    "text": "من صاحب هذا الصوت الرخيم لرائد المدرسة التكعيبية وصاحب لوحة «غيرنيكا»؟",
+    "answer": "بابلو بيكاسو",
+    "acceptedAnswers": [
+      "بابلو بيكاسو",
+      "Pablo Picasso",
+      "بيكاسو"
+    ],
+    "hint": "الرسام الإسباني الشهير رائد التكعيبية ومبدع لوحتي «آنسات أفينيون» و«غيرنيكا».",
+    "clues": [],
+    "explanation": "التسجيل للفنان بابلو بيكاسو متحدثاً عن فلسفة الفن وعلاقته بالروح.",
+    "sources": [
+      "https://commons.wikimedia.org/wiki/File:Picasso_voice.ogg"
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "سلفادور دالي"
+      },
+      {
+        "id": "B",
+        "text": "بابلو بيكاسو"
+      },
+      {
+        "id": "C",
+        "text": "هنري ماتيس"
+      },
+      {
+        "id": "D",
+        "text": "خوان ميرو"
+      },
+      {
+        "id": "E",
+        "text": "جورج براك"
+      },
+      {
+        "id": "F",
+        "text": "فنسنت فان غوخ"
+      }
+    ],
+    "correctOptionId": "B",
+    "qualityStatus": "reviewed",
+    "usageId": "162771822286582788708421634610612633225",
+    "audio": {
+      "assetPath": "assets/question_audio/voice-086.mp3",
+      "durationMs": 7000,
+      "attribution": "أرشيف الإذاعة الفرنسية RTF / متحف بيكاسو في باريس / ويكيميديا كومنز",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Picasso_voice.ogg",
+      "license": "Creative Commons Attribution / French Radio Archives"
+    }
+  },
+  {
+    "id": "character_voice-hard-0025",
+    "categoryId": "character_voice",
+    "difficulty": "hard",
+    "text": "من صاحب هذا الصوت لمؤسس ميكانيكا الكم وصاحب الثابت الفيزيائي الشهير h؟",
+    "answer": "ماكس بلانك",
+    "acceptedAnswers": [
+      "ماكس بلانك",
+      "Max Planck",
+      "بلانك"
+    ],
+    "hint": "عالم الفيزياء الألماني صاحب مفهوم تكميم الطاقة ومكتشف ثابت بلانك.",
+    "clues": [],
+    "explanation": "التسجيل لعالم الفيزياء الألماني ماكس بلانك متأملاً في أسرار الكون والعلم.",
+    "sources": [
+      "https://commons.wikimedia.org/wiki/File:Max_Planck_voice.ogg"
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "نيلز بور"
+      },
+      {
+        "id": "B",
+        "text": "ماكس بلانك"
+      },
+      {
+        "id": "C",
+        "text": "ألبرت أينشتاين"
+      },
+      {
+        "id": "D",
+        "text": "لويس دي بروي"
+      },
+      {
+        "id": "E",
+        "text": "فيلهلم رونتغن"
+      },
+      {
+        "id": "F",
+        "text": "ماكس بورن"
+      }
+    ],
+    "correctOptionId": "B",
+    "qualityStatus": "reviewed",
+    "usageId": "73119326448213385679350378060224951668",
+    "audio": {
+      "assetPath": "assets/question_audio/voice-087.mp3",
+      "durationMs": 7000,
+      "attribution": "جمعية ماكس بلانك للعلوم / أرشيف إذاعة برلين / ويكيميديا كومنز",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Max_Planck_voice.ogg",
+      "license": "Public Domain / Recorded 1942 / Berlin Radio Archives"
+    }
+  },
+  {
+    "id": "character_voice-legendary-0013",
+    "categoryId": "character_voice",
+    "difficulty": "legendary",
+    "text": "من صاحب هذا الصوت الترتيلي المميز لشاعر أيرلندا الأكبر الحائز على نوبل عام 1923؟",
+    "answer": "ويليام بتلر ييتس",
+    "acceptedAnswers": [
+      "ويليام بتلر ييتس",
+      "W.B. Yeats",
+      "ييتس"
+    ],
+    "hint": "شاعر النهضة الأدبية الأيرلندية وصاحب قصيدة «جزيرة بحيرة إينيسفري».",
+    "clues": [],
+    "explanation": "التسجيل للشاعر الأيرلندي ويليام بتلر ييتس يلقي قصيدته الشهيرة بأسلوبه الترتيلي القديم.",
+    "sources": [
+      "https://commons.wikimedia.org/wiki/File:W._B._Yeats_reading_%27The_Lake_Isle_of_Innisfree%27.ogg"
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "جيمس جويس"
+      },
+      {
+        "id": "B",
+        "text": "ويليام بتلر ييتس"
+      },
+      {
+        "id": "C",
+        "text": "جورج برنارد شو"
+      },
+      {
+        "id": "D",
+        "text": "تي إس إليوت"
+      },
+      {
+        "id": "E",
+        "text": "إزرا باوند"
+      },
+      {
+        "id": "F",
+        "text": "دبليو إتش أودن"
+      }
+    ],
+    "correctOptionId": "B",
+    "qualityStatus": "reviewed",
+    "usageId": "46424235730720317674878743904186589033",
+    "audio": {
+      "assetPath": "assets/question_audio/voice-088.mp3",
+      "durationMs": 7000,
+      "attribution": "أرشيف إذاعة بي بي سي / المكتبة الوطنية الأيرلندية / ويكيميديا كومنز",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:W._B._Yeats_reading_%27The_Lake_Isle_of_Innisfree%27.ogg",
+      "license": "Public Domain / Broadcast BBC 1932"
+    }
+  },
+  {
+    "id": "character_voice-legendary-0014",
+    "categoryId": "character_voice",
+    "difficulty": "legendary",
+    "text": "من صاحب هذا الصوت الروائي الطليعي مؤلف «عوليس» و«يقظة فينيغان»؟",
+    "answer": "جيمس جويس",
+    "acceptedAnswers": [
+      "جيمس جويس",
+      "James Joyce",
+      "جويس"
+    ],
+    "hint": "رائد تيار الوعي في الأدب الحديث ومؤلف رواية «عوليس» (Ulysses).",
+    "clues": [],
+    "explanation": "التسجيل للأديب جيمس جويس في تسجيل نادر بباريس عام 1924 يقرأ من روايته عوليس.",
+    "sources": [
+      "https://commons.wikimedia.org/wiki/File:James_Joyce_reading_Ulysses.ogg"
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "مارسيل بروست"
+      },
+      {
+        "id": "B",
+        "text": "جيمس جويس"
+      },
+      {
+        "id": "C",
+        "text": "فرجينيا وولف"
+      },
+      {
+        "id": "D",
+        "text": "فرانز كافكا"
+      },
+      {
+        "id": "E",
+        "text": "صامويل بيكيت"
+      },
+      {
+        "id": "F",
+        "text": "روبرت موزيل"
+      }
+    ],
+    "correctOptionId": "B",
+    "qualityStatus": "reviewed",
+    "usageId": "88711415506649744698599905073864377091",
+    "audio": {
+      "assetPath": "assets/question_audio/voice-089.mp3",
+      "durationMs": 7000,
+      "attribution": "مكتبة شكسبير آند كومباني بباريس / جامعة بافلو / ويكيميديا كومنز",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:James_Joyce_reading_Ulysses.ogg",
+      "license": "Public Domain / Recorded 1924 in Paris by Sylvia Beach"
+    }
+  },
+  {
+    "id": "character_voice-legendary-0015",
+    "categoryId": "character_voice",
+    "difficulty": "legendary",
+    "text": "من صاحب هذا الصوت وهو يقرأ مطلع أشهر قصيدة شعرية حداثية في القرن العشرين؟",
+    "answer": "تي إس إليوت",
+    "acceptedAnswers": [
+      "تي إس إليوت",
+      "T.S. Eliot",
+      "تي اس اليوت",
+      "إليوت"
+    ],
+    "hint": "الشاعر والناقد الحائز على نوبل 1948 صاحب قصيدتي «الأرض اليباب» و«الرجال الجوف».",
+    "clues": [],
+    "explanation": "التسجيل للشاعر تي إس إليوت متلواً مطلع قصيدته الخالدة «الأرض الخراب» عام 1946.",
+    "sources": [
+      "https://commons.wikimedia.org/wiki/File:TS_Eliot_The_Waste_Land.ogg"
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "إزرا باوند"
+      },
+      {
+        "id": "B",
+        "text": "تي إس إليوت"
+      },
+      {
+        "id": "C",
+        "text": "ويليام ييتس"
+      },
+      {
+        "id": "D",
+        "text": "والاس ستيفنز"
+      },
+      {
+        "id": "E",
+        "text": "روبرت فروست"
+      },
+      {
+        "id": "F",
+        "text": "إي إي كامينغز"
+      }
+    ],
+    "correctOptionId": "B",
+    "qualityStatus": "reviewed",
+    "usageId": "149382411468190907357271155275798583655",
+    "audio": {
+      "assetPath": "assets/question_audio/voice-090.mp3",
+      "durationMs": 7000,
+      "attribution": "مكتبة الكونغرس الأمريكية / أرشيف تسجيلات الشعراء / ويكيميديا كومنز",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:TS_Eliot_The_Waste_Land.ogg",
+      "license": "Public Domain / Library of Congress Recording 1946"
+    }
+  },
+  {
+    "id": "character_voice-legendary-0016",
+    "categoryId": "character_voice",
+    "difficulty": "legendary",
+    "text": "من مخرج أفلام التشويق صاحب هذه النبرة الباردة الساخرة الملقب بـ«سيد التشويق»؟",
+    "answer": "ألفريد هتشكوك",
+    "acceptedAnswers": [
+      "ألفريد هتشكوك",
+      "Alfred Hitchcock",
+      "الفريد هتشكوك",
+      "هتشكوك"
+    ],
+    "hint": "المخرج البريطاني الشهير الملقب بـ«سيد التشويق» وصاحب أفلام «سايكو» و«النافذة الخلفية».",
+    "clues": [],
+    "explanation": "التسجيل للمخرج العالمي ألفريد هتشكوك بنبرته الشهيرة في برنامجه التلفزيوني.",
+    "sources": [
+      "https://commons.wikimedia.org/wiki/File:Alfred_Hitchcock_Good_Evening.ogg"
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "ستانلي كوبريك"
+      },
+      {
+        "id": "B",
+        "text": "ألفريد هتشكوك"
+      },
+      {
+        "id": "C",
+        "text": "أورسون ويلز"
+      },
+      {
+        "id": "D",
+        "text": "بيلي وايلدر"
+      },
+      {
+        "id": "E",
+        "text": "فرانسوا تروفو"
+      },
+      {
+        "id": "F",
+        "text": "هوارد هوكس"
+      }
+    ],
+    "correctOptionId": "B",
+    "qualityStatus": "reviewed",
+    "usageId": "90561236153642513478901346889901971478",
+    "audio": {
+      "assetPath": "assets/question_audio/voice-091.mp3",
+      "durationMs": 7000,
+      "attribution": "شبكة تلفزيون CBS / أرشيف ألفريد هتشكوك / ويكيميديا كومنز",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Alfred_Hitchcock_Good_Evening.ogg",
+      "license": "Public Domain / CBS Television 1955"
+    }
+  },
+  {
+    "id": "character_voice-legendary-0017",
+    "categoryId": "character_voice",
+    "difficulty": "legendary",
+    "text": "من صاحب هذا الصوت الروسي لمؤلف باليه «طقس الربيع» و«طائر النار»؟",
+    "answer": "إيغور سترافينسكي",
+    "acceptedAnswers": [
+      "إيغور سترافينسكي",
+      "Igor Stravinsky",
+      "ايغور سترافينسكي",
+      "سترافينسكي"
+    ],
+    "hint": "المؤلف الموسيقي الروسي صاحب «طقس الربيع» التي هزت أوساط الموسيقى الكلاسيكية الحديثة.",
+    "clues": [],
+    "explanation": "التسجيل للمؤلف الموسيقي إيغور سترافينسكي متحدثاً عن الروح والموسيقى.",
+    "sources": [
+      "https://commons.wikimedia.org/wiki/File:Igor_Stravinsky_voice.ogg"
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "سيرجي رحمانينوف"
+      },
+      {
+        "id": "B",
+        "text": "إيغور سترافينسكي"
+      },
+      {
+        "id": "C",
+        "text": "ديمتري شوستاكوفيتش"
+      },
+      {
+        "id": "D",
+        "text": "سيرجي بروكوفييف"
+      },
+      {
+        "id": "E",
+        "text": "أرنولد شوينبيرج"
+      },
+      {
+        "id": "F",
+        "text": "موريس رافيل"
+      }
+    ],
+    "correctOptionId": "B",
+    "qualityStatus": "reviewed",
+    "usageId": "146442222871332381475177198466490905795",
+    "audio": {
+      "assetPath": "assets/question_audio/voice-092.mp3",
+      "durationMs": 7000,
+      "attribution": "مكتبة الكونغرس / كولومبيا ماسترووركس / ويكيميديا كومنز",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Igor_Stravinsky_voice.ogg",
+      "license": "Creative Commons Attribution / Historical Recording"
+    }
+  },
+  {
+    "id": "character_voice-legendary-0018",
+    "categoryId": "character_voice",
+    "difficulty": "legendary",
+    "text": "من صاحب هذا الصوت الدنماركي الحائز على نوبل وقائد مدرسة كوبنهاغن في فيزياء الكم؟",
+    "answer": "نيلز بور",
+    "acceptedAnswers": [
+      "نيلز بور",
+      "Niels Bohr",
+      "بور"
+    ],
+    "hint": "عالم الفيزياء الدنماركي صاحب نموذج بور الذري ومبدأ التكاملية.",
+    "clues": [],
+    "explanation": "التسجيل للعالم الدنماركي نيلز بور من محاضرة له حول ميكانيكا الكم.",
+    "sources": [
+      "https://commons.wikimedia.org/wiki/File:Niels_Bohr_voice.ogg"
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "إرنست رذرفورد"
+      },
+      {
+        "id": "B",
+        "text": "نيلز بور"
+      },
+      {
+        "id": "C",
+        "text": "ماكس بورن"
+      },
+      {
+        "id": "D",
+        "text": "فيرنر هايزنبرغ"
+      },
+      {
+        "id": "E",
+        "text": "فولفغانغ باولي"
+      },
+      {
+        "id": "F",
+        "text": "هندريك لورنتز"
+      }
+    ],
+    "correctOptionId": "B",
+    "qualityStatus": "reviewed",
+    "usageId": "123774927797986635078964178731637376309",
+    "audio": {
+      "assetPath": "assets/question_audio/voice-093.mp3",
+      "durationMs": 7000,
+      "attribution": "أرشيف نيلز بور في كوبنهاغن / المعهد الدنماركي للفيزياء / ويكيميديا كومنز",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Niels_Bohr_voice.ogg",
+      "license": "Public Domain / Niels Bohr Archive Copenhagen"
+    }
+  },
+  {
+    "id": "character_voice-legendary-0019",
+    "categoryId": "character_voice",
+    "difficulty": "legendary",
+    "text": "من صاحب هذا الصوت لعالم الأحياء ومكتشف البنسلين أول مضاد حيوي؟",
+    "answer": "ألكسندر فلمنج",
+    "acceptedAnswers": [
+      "ألكسندر فلمنج",
+      "Alexander Fleming",
+      "الكسندر فلمنج",
+      "فلمنج"
+    ],
+    "hint": "عالم الأحياء الإسكتلندي الحائز على نوبل في الطب عام 1945 لاكتشافه البنسلين.",
+    "clues": [],
+    "explanation": "التسجيل للطبيب الإسكتلندي ألكسندر فلمنج متحدثاً عن اكتشافه للبنسلين عام 1945.",
+    "sources": [
+      "https://commons.wikimedia.org/wiki/File:Alexander_Fleming_voice.ogg"
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "لويس باستور"
+      },
+      {
+        "id": "B",
+        "text": "ألكسندر فلمنج"
+      },
+      {
+        "id": "C",
+        "text": "روبرت كوخ"
+      },
+      {
+        "id": "D",
+        "text": "هوارد فلوري"
+      },
+      {
+        "id": "E",
+        "text": "إرنست تشين"
+      },
+      {
+        "id": "F",
+        "text": "إدوارد جينر"
+      }
+    ],
+    "correctOptionId": "B",
+    "qualityStatus": "reviewed",
+    "usageId": "50695709266622997276793061628423692732",
+    "audio": {
+      "assetPath": "assets/question_audio/voice-094.mp3",
+      "durationMs": 7000,
+      "attribution": "أرشيف الإذاعة البريطانية BBC / متحف مختبر فلمنج بلندن / ويكيميديا كومنز",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Alexander_Fleming_voice.ogg",
+      "license": "Public Domain / BBC Historic Archives 1945"
+    }
+  },
+  {
+    "id": "character_voice-legendary-0020",
+    "categoryId": "character_voice",
+    "difficulty": "legendary",
+    "text": "من صاحب هذا الصوت الإيطالي لرائد الاتصالات اللاسلكية ومخترع الراديو؟",
+    "answer": "غوغلييلمو ماركوني",
+    "acceptedAnswers": [
+      "غوغلييلمو ماركوني",
+      "Guglielmo Marconi",
+      "ماركوني"
+    ],
+    "hint": "المهندس الإيطالي الحائز على نوبل في الفيزياء عام 1909 لتطويره التلغراف اللاسلكي.",
+    "clues": [],
+    "explanation": "التسجيل للمخترع الإيطالي غوغلييلمو ماركوني في بث إذاعي تاريخي عام 1930.",
+    "sources": [
+      "https://commons.wikimedia.org/wiki/File:Guglielmo_Marconi_speaks.ogg"
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "أنطونيو ميوتشي"
+      },
+      {
+        "id": "B",
+        "text": "غوغلييلمو ماركوني"
+      },
+      {
+        "id": "C",
+        "text": "أليساندرو فولتا"
+      },
+      {
+        "id": "D",
+        "text": "نيكولا تسلا"
+      },
+      {
+        "id": "E",
+        "text": "هاينريش هيرتز"
+      },
+      {
+        "id": "F",
+        "text": "صمويل مورس"
+      }
+    ],
+    "correctOptionId": "B",
+    "qualityStatus": "reviewed",
+    "usageId": "134524048855270980700253243703732864782",
+    "audio": {
+      "assetPath": "assets/question_audio/voice-095.mp3",
+      "durationMs": 7000,
+      "attribution": "مؤسسة ماركوني / الأرشيف الإيطالي التاريخي / ويكيميديا كومنز",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Guglielmo_Marconi_speaks.ogg",
+      "license": "Public Domain / Marconi Company Archives 1930"
+    }
+  },
+  {
+    "id": "character_voice-legendary-0021",
+    "categoryId": "character_voice",
+    "difficulty": "legendary",
+    "text": "من صاحب هذا الصوت لرئيس الوزراء البريطاني الذي أسس نظام الرعاية الصحية NHS بعد الحرب؟",
+    "answer": "كليمنت أتلي",
+    "acceptedAnswers": [
+      "كليمنت أتلي",
+      "Clement Attlee",
+      "كليمنت اتلي",
+      "أتلي"
+    ],
+    "hint": "رئيس الوزراء البريطاني العمالي (1945–1951) الذي خلف تشرشل وأسس دولة الرفاه البريطانية.",
+    "clues": [],
+    "explanation": "التسجيل للسياسي البريطاني كليمنت أتلي من خطابه البرلماني عام 1947.",
+    "sources": [
+      "https://commons.wikimedia.org/wiki/File:Clement_Attlee_voice.ogg"
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "ونستون تشرشل"
+      },
+      {
+        "id": "B",
+        "text": "كليمنت أتلي"
+      },
+      {
+        "id": "C",
+        "text": "أنتوني إيدن"
+      },
+      {
+        "id": "D",
+        "text": "رامزي ماكدونالد"
+      },
+      {
+        "id": "E",
+        "text": "هارولد ويلسون"
+      },
+      {
+        "id": "F",
+        "text": "نفييل تشامبرلين"
+      }
+    ],
+    "correctOptionId": "B",
+    "qualityStatus": "reviewed",
+    "usageId": "97978423544279757272804917546011248827",
+    "audio": {
+      "assetPath": "assets/question_audio/voice-096.mp3",
+      "durationMs": 7000,
+      "attribution": "أرشيف البرلمان البريطاني / حزب العمال البريطاني / ويكيميديا كومنز",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Clement_Attlee_voice.ogg",
+      "license": "Public Domain / UK Crown Copyright Expired"
+    }
+  },
+  {
+    "id": "character_voice-legendary-0022",
+    "categoryId": "character_voice",
+    "difficulty": "legendary",
+    "text": "من صاحب هذا الصوت الأجش الفريد الملقب بـ«ساتشمو» وأسطورة موسيقى الجاز؟",
+    "answer": "لويس أرمسترونغ",
+    "acceptedAnswers": [
+      "لويس أرمسترونغ",
+      "Louis Armstrong",
+      "لويس ارمسترونغ",
+      "أرمسترونغ"
+    ],
+    "hint": "أسطورة الجاز الأمريكي وعازف البوق الشهير صاحب أغنية «What a Wonderful World».",
+    "clues": [],
+    "explanation": "التسجيل للموسيقي الأمريكي لويس أرمسترونغ بصوته الأجش الشهير يتحدث قبل أداء أغنيته الخالدة.",
+    "sources": [
+      "https://commons.wikimedia.org/wiki/File:Louis_Armstrong_voice_spoken.ogg"
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "مايلز ديفيس"
+      },
+      {
+        "id": "B",
+        "text": "لويس أرمسترونغ"
+      },
+      {
+        "id": "C",
+        "text": "ديوك إلينغتون"
+      },
+      {
+        "id": "D",
+        "text": "جون كولترين"
+      },
+      {
+        "id": "E",
+        "text": "راي تشارلز"
+      },
+      {
+        "id": "F",
+        "text": "نات كينغ كول"
+      }
+    ],
+    "correctOptionId": "B",
+    "qualityStatus": "reviewed",
+    "usageId": "47815225604033892672691630938195565669",
+    "audio": {
+      "assetPath": "assets/question_audio/voice-097.mp3",
+      "durationMs": 7000,
+      "attribution": "أرشيف تسجيلات لويس أرمسترونغ / كوينز كوليدج نيويورك / ويكيميديا كومنز",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Louis_Armstrong_voice_spoken.ogg",
+      "license": "Creative Commons Attribution / ABC Records 1967"
+    }
+  },
+  {
+    "id": "character_voice-legendary-0023",
+    "categoryId": "character_voice",
+    "difficulty": "legendary",
+    "text": "من صاحبة هذا الصوت الفلسفي الفرنسي مؤلفة كتاب «الجنس الآخر»؟",
+    "answer": "سيمون دي بوفوار",
+    "acceptedAnswers": [
+      "سيمون دي بوفوار",
+      "Simone de Beauvoir",
+      "بوفوار"
+    ],
+    "hint": "الفيلسوفة الوجودية والكاتبة الفرنسية شريكة الفيلسوف جان بول سارتر ومؤلفة «الجنس الآخر».",
+    "clues": [],
+    "explanation": "التسجيل للفيلسوفة الفرنسية سيمون دي بوفوار وهي تتحدث عن أشهر أطروحاتها الفكرية.",
+    "sources": [
+      "https://commons.wikimedia.org/wiki/File:Simone_de_Beauvoir_voice.ogg"
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "كوليت"
+      },
+      {
+        "id": "B",
+        "text": "سيمون دي بوفوار"
+      },
+      {
+        "id": "C",
+        "text": "مارغريت دوراس"
+      },
+      {
+        "id": "D",
+        "text": "سيمون فايل"
+      },
+      {
+        "id": "E",
+        "text": "فرانسواز ساغان"
+      },
+      {
+        "id": "F",
+        "text": "ألبير كامو"
+      }
+    ],
+    "correctOptionId": "B",
+    "qualityStatus": "reviewed",
+    "usageId": "112087848824274362960152670858200448389",
+    "audio": {
+      "assetPath": "assets/question_audio/voice-098.mp3",
+      "durationMs": 7000,
+      "attribution": "المعهد الوطني للسمعي البصري بفرنسا INA / إذاعة فرنسا الثقافية / ويكيميديا كومنز",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Simone_de_Beauvoir_voice.ogg",
+      "license": "Public Domain / RTF French Radio Archive 1959"
+    }
+  },
+  {
+    "id": "character_voice-legendary-0024",
+    "categoryId": "character_voice",
+    "difficulty": "legendary",
+    "text": "من صاحب هذا الصوت الفلسفي الألماني مؤلف كتاب «الوجود والزمان»؟",
+    "answer": "مارتن هايدغر",
+    "acceptedAnswers": [
+      "مارتن هايدغر",
+      "Martin Heidegger",
+      "هايدغر"
+    ],
+    "hint": "الفيلسوف الوجودي والظاهراتي الألماني صاحب عبارة «اللغة هي بيت الكينونة».",
+    "clues": [],
+    "explanation": "التسجيل للفيلسوف الألماني مارتن هايدغر من حواره الفلسفي المتلفز عام 1969.",
+    "sources": [
+      "https://commons.wikimedia.org/wiki/File:Martin_Heidegger_voice.ogg"
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "إدموند هوسرل"
+      },
+      {
+        "id": "B",
+        "text": "مارتن هايدغر"
+      },
+      {
+        "id": "C",
+        "text": "هانز جورج غادامير"
+      },
+      {
+        "id": "D",
+        "text": "تيودور أدورنو"
+      },
+      {
+        "id": "E",
+        "text": "لودفيغ فيتغنشتاين"
+      },
+      {
+        "id": "F",
+        "text": "كارل ياسبرز"
+      }
+    ],
+    "correctOptionId": "B",
+    "qualityStatus": "reviewed",
+    "usageId": "44717748217987296561604931070950038025",
+    "audio": {
+      "assetPath": "assets/question_audio/voice-099.mp3",
+      "durationMs": 7000,
+      "attribution": "التلفزيون الألماني ZDF / أرشيف مارتن هايدغر في مارباخ / ويكيميديا كومنز",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Martin_Heidegger_voice.ogg",
+      "license": "Public Domain / ZDF German Television Archive 1969"
+    }
+  },
+  {
+    "id": "character_voice-legendary-0025",
+    "categoryId": "character_voice",
+    "difficulty": "legendary",
+    "text": "من صاحب هذا الصوت الأدبي الألماني مؤلف «الجبل السحري» و«بودنبروك» الحائز على نوبل؟",
+    "answer": "توماس مان",
+    "acceptedAnswers": [
+      "توماس مان",
+      "Thomas Mann",
+      "مان"
+    ],
+    "hint": "عملاق الرواية الألمانية الحائز على جائزة نوبل في الأدب عام 1929 وصاحب رواية «الجبل السحري».",
+    "clues": [],
+    "explanation": "التسجيل للأديب الألماني توماس مان في بث إذاعي شهير موجه إلى الشعب الألماني عام 1941.",
+    "sources": [
+      "https://commons.wikimedia.org/wiki/File:Thomas_Mann_Deutsche_H%C3%B6rer.ogg"
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "هرمان هيسه"
+      },
+      {
+        "id": "B",
+        "text": "توماس مان"
+      },
+      {
+        "id": "C",
+        "text": "هاينريش بول"
+      },
+      {
+        "id": "D",
+        "text": "برتولت بريشت"
+      },
+      {
+        "id": "E",
+        "text": "شتيفان تسفايغ"
+      },
+      {
+        "id": "F",
+        "text": "فرانتس فرفل"
+      }
+    ],
+    "correctOptionId": "B",
+    "qualityStatus": "reviewed",
+    "usageId": "84090476224098848798782624954841865279",
+    "audio": {
+      "assetPath": "assets/question_audio/voice-100.mp3",
+      "durationMs": 7000,
+      "attribution": "أرشيف إذاعة بي بي سي للقسم الألماني / مكتبة زيورخ المركزية / ويكيميديا كومنز",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Thomas_Mann_Deutsche_H%C3%B6rer.ogg",
+      "license": "Public Domain / BBC Historic Broadcasts 1941"
+    }
+  }
+]

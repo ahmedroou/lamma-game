@@ -44,3 +44,15 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Local evidence from the rejected voice pack, never bundled or redistributed.
+/design_sources/character_voice_repair/**/original_assets/
+/design_sources/character_voice_repair/international/before/
+/design_sources/character_voice_repair/international/sources/
+/design_sources/character_voice_repair/**/*.ogg
+/design_sources/character_voice_repair/**/*.oga
+/design_sources/character_voice_repair/**/*.wav
+/design_sources/character_voice_repair/**/*.webm
+/design_sources/character_voice_repair/**/*.mp3
+/design_sources/character_voice_repair/prepared-*/
+/tool/audio_pipeline/node_modules/

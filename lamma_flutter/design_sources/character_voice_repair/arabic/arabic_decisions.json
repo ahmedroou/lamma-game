@@ -1,0 +1,3638 @@
+{
+  "reviewDate": "2026-10-15",
+  "scope": "voice-001 through voice-050",
+  "decisions": [
+    {
+      "questionId": "character_voice-easy-0001",
+      "usageId": "119280522058275959857882605966156263098",
+      "assetPath": "assets/question_audio/voice-001.mp3",
+      "speaker": "محمد أنور السادات",
+      "decision": "repaired_source_pending_listening",
+      "reason": "السادات: ألغيت نسبة الملف إلى القدس 1977 ونسبة الترخيص إلى الرئاسة المصرية. استبدلت المصدر فعليًا بتسجيل كامب ديفيد 17 سبتمبر 1978 المحدد أدناه. التعليق النصي والتوقيت موثقان، لكن لم يتم سماع الملف، فلا اعتماد نهائي.",
+      "reviewStatus": "sourceVerified",
+      "listeningReviewed": false,
+      "replacement": {
+        "id": "character_voice-easy-0001",
+        "categoryId": "character_voice",
+        "difficulty": "easy",
+        "text": "استمع إلى المقطع: من صاحب هذا الصوت؟",
+        "answer": "محمد أنور السادات",
+        "acceptedAnswers": [
+          "أنور السادات",
+          "السادات",
+          "محمد انور السادات",
+          "الرئيس السادات"
+        ],
+        "hint": "شخصية سياسية مصرية تولت الحكم خلال النصف الثاني من القرن العشرين.",
+        "clues": [],
+        "explanation": "المتحدث محمد أنور السادات، في كلمته الإنجليزية بالبيت الأبيض عند ختام اجتماعات كامب ديفيد في 17 سبتمبر 1978. هذا المقطع ليس من خطاب القدس 1977. لم تتم المراجعة السمعية النهائية.",
+        "sources": [
+          "https://commons.wikimedia.org/wiki/File:Egyptian_President_Sadat%27s_Remarks_at_the_Camp_David_Agreement,_17_September_1978.webm",
+          "https://commons.wikimedia.org/wiki/TimedText:Egyptian_President_Sadat%27s_Remarks_at_the_Camp_David_Agreement,_17_September_1978.webm.en.srt",
+          "https://www.presidency.ucsb.edu/documents/remarks-the-president-president-anwar-al-sadat-egypt-and-prime-minister-menahem-begin"
+        ],
+        "options": [
+          {
+            "id": "A",
+            "text": "جمال عبد الناصر"
+          },
+          {
+            "id": "B",
+            "text": "محمد أنور السادات"
+          },
+          {
+            "id": "C",
+            "text": "حسني مبارك"
+          },
+          {
+            "id": "D",
+            "text": "الحبيب بورقيبة"
+          },
+          {
+            "id": "E",
+            "text": "معمر القذافي"
+          },
+          {
+            "id": "F",
+            "text": "جعفر النميري"
+          }
+        ],
+        "correctOptionId": "B",
+        "qualityStatus": "draft",
+        "usageId": "119280522058275959857882605966156263098",
+        "audio": {
+          "assetPath": "assets/question_audio/voice-001.mp3",
+          "durationMs": 8430,
+          "attribution": "Central Intelligence Agency / U.S. Government, Camp David Agreement ceremony, 17 September 1978; excerpted 00:34.300–00:42.730 and converted to mono MP3 by Lamma. File-specific PD-CIA statement on Wikimedia Commons; no endorsement implied.",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Egyptian_President_Sadat%27s_Remarks_at_the_Camp_David_Agreement,_17_September_1978.webm",
+          "license": "Public domain in the United States — PD-CIA, U.S. Government official work (file-specific source statement)",
+          "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-CIA",
+          "reviewStatus": "sourceVerified",
+          "speaker": "محمد أنور السادات",
+          "recordingId": "cia-camp-david-sadat-1978-09-17-34300-42730",
+          "sourceStartMs": 34300,
+          "sourceEndMs": 42730,
+          "transcript": "The challenge was great, and the risks were high."
+        },
+        "qualityReasons": [
+          "تم إثبات سلسلة المصدر والتوقيت والنص، وتبقى المراجعة السمعية للمقطع النهائي قبل اعتماده."
+        ]
+      },
+      "sourceProof": {
+        "filePage": "https://commons.wikimedia.org/wiki/File:Egyptian_President_Sadat%27s_Remarks_at_the_Camp_David_Agreement,_17_September_1978.webm",
+        "directDownload": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Egyptian_President_Sadat%27s_Remarks_at_the_Camp_David_Agreement%2C_17_September_1978.webm",
+        "author": "Central Intelligence Agency (official channel linked on the file page)",
+        "timedTranscript": "https://commons.wikimedia.org/wiki/TimedText:Egyptian_President_Sadat%27s_Remarks_at_the_Camp_David_Agreement,_17_September_1978.webm.en.srt",
+        "scopeLimit": "Metadata and source/transcript/cut chain reviewed, not listened to; not release approved."
+      }
+    },
+    {
+      "questionId": "character_voice-easy-0002",
+      "usageId": "134824233770247917943440295630655068830",
+      "assetPath": "assets/question_audio/voice-002.mp3",
+      "speaker": "جمال عبد الناصر",
+      "decision": "quarantine",
+      "reason": "عبد الناصر: لا توجد سلسلة مثبتة بين ملف voice-002 وتسجيل الوحدة. ملف Nasser announcing UAR.flac ليس دليلاً كافيًا على الحقوق؛ ملف المنشية البديل موسوم PD-Egypt فقط، ولم يحسم وضع إعادة التوزيع في بقية الأقاليم. لا يوصف تسجيل الدولة تلقائيًا بأنه ملك عام.",
+      "reviewStatus": "unverified",
+      "listeningReviewed": false,
+      "replacement": {
+        "id": "character_voice-easy-0002",
+        "categoryId": "character_voice",
+        "difficulty": "easy",
+        "text": "استمع إلى المقطع: من صاحب هذا الصوت؟",
+        "answer": "جمال عبد الناصر",
+        "acceptedAnswers": [
+          "عبد الناصر",
+          "جمال عبدالناصر",
+          "عبدالناصر",
+          "الرئيس عبد الناصر"
+        ],
+        "hint": "شخصية سياسية مصرية برزت في العقود التالية للحرب العالمية الثانية.",
+        "clues": [],
+        "explanation": "تعذر إثبات أن التسجيل المرفق يعود إلى جمال عبد الناصر من مصدر صوتي موثق يسمح بإعادة استخدامه؛ ليس سؤالًا معتمدًا، ولا يجوز تشغيله أو نسبته إليه قبل استكمال الإثبات والمراجعة السمعية.",
+        "sources": [],
+        "options": [
+          {
+            "id": "A",
+            "text": "جمال عبد الناصر"
+          },
+          {
+            "id": "B",
+            "text": "عبد الكريم قاسم"
+          },
+          {
+            "id": "C",
+            "text": "محمد نجيب"
+          },
+          {
+            "id": "D",
+            "text": "أحمد بن بلة"
+          },
+          {
+            "id": "E",
+            "text": "عبد السلام عارف"
+          },
+          {
+            "id": "F",
+            "text": "شكري القوتلي"
+          }
+        ],
+        "correctOptionId": "A",
+        "qualityStatus": "quarantined",
+        "usageId": "134824233770247917943440295630655068830",
+        "audio": {
+          "assetPath": "assets/question_audio/voice-002.mp3",
+          "durationMs": 0,
+          "attribution": "",
+          "sourceUrl": "",
+          "license": "",
+          "reviewStatus": "unverified",
+          "speaker": "جمال عبد الناصر",
+          "recordingId": "",
+          "licenseUrl": "",
+          "sourceStartMs": 0,
+          "sourceEndMs": 0,
+          "transcript": ""
+        },
+        "qualityReasons": [
+          "عبد الناصر: لا توجد سلسلة مثبتة بين ملف voice-002 وتسجيل الوحدة. ملف Nasser announcing UAR.flac ليس دليلاً كافيًا على الحقوق؛ ملف المنشية البديل موسوم PD-Egypt فقط، ولم يحسم وضع إعادة التوزيع في بقية الأقاليم. لا يوصف تسجيل الدولة تلقائيًا بأنه ملك عام."
+        ]
+      }
+    },
+    {
+      "questionId": "character_voice-easy-0003",
+      "usageId": "7593444637834347720308211755553288457",
+      "assetPath": "assets/question_audio/voice-003.mp3",
+      "speaker": "الشيخ محمد متولي الشعراوي",
+      "decision": "quarantine",
+      "reason": "الشعراوي: مصدر JSON لسورة النحل يختلف عن رابط سورة الحشر في أداة التجهيز. عبارة Creative Commons العامة لا تحدد رخصة ولا صاحب الحق؛ لا يوجد إثبات لملف الخواطر المستخدم أو تفريغه وقصه.",
+      "reviewStatus": "unverified",
+      "listeningReviewed": false,
+      "replacement": {
+        "id": "character_voice-easy-0003",
+        "categoryId": "character_voice",
+        "difficulty": "easy",
+        "text": "استمع إلى المقطع: من صاحب هذا الصوت؟",
+        "answer": "الشيخ محمد متولي الشعراوي",
+        "acceptedAnswers": [
+          "الشعراوي",
+          "محمد متولي الشعراوي",
+          "الشيخ الشعراوي",
+          "محمد متولي الشعراوى"
+        ],
+        "hint": "عالم دين مصري انتشرت دروسه عبر الإذاعة والتلفزيون.",
+        "clues": [],
+        "explanation": "تعذر إثبات أن التسجيل المرفق يعود إلى الشيخ محمد متولي الشعراوي من مصدر صوتي موثق يسمح بإعادة استخدامه؛ ليس سؤالًا معتمدًا، ولا يجوز تشغيله أو نسبته إليه قبل استكمال الإثبات والمراجعة السمعية.",
+        "sources": [],
+        "options": [
+          {
+            "id": "A",
+            "text": "الشيخ عبد الحميد كشك"
+          },
+          {
+            "id": "B",
+            "text": "الشيخ محمد متولي الشعراوي"
+          },
+          {
+            "id": "C",
+            "text": "الشيخ محمد الغزالي"
+          },
+          {
+            "id": "D",
+            "text": "الشيخ جاد الحق علي جاد الحق"
+          },
+          {
+            "id": "E",
+            "text": "الشيخ أحمد حسن الباقوري"
+          },
+          {
+            "id": "F",
+            "text": "الشيخ يوسف القرضاوي"
+          }
+        ],
+        "correctOptionId": "B",
+        "qualityStatus": "quarantined",
+        "usageId": "7593444637834347720308211755553288457",
+        "audio": {
+          "assetPath": "assets/question_audio/voice-003.mp3",
+          "durationMs": 0,
+          "attribution": "",
+          "sourceUrl": "",
+          "license": "",
+          "reviewStatus": "unverified",
+          "speaker": "الشيخ محمد متولي الشعراوي",
+          "recordingId": "",
+          "licenseUrl": "",
+          "sourceStartMs": 0,
+          "sourceEndMs": 0,
+          "transcript": ""
+        },
+        "qualityReasons": [
+          "الشعراوي: مصدر JSON لسورة النحل يختلف عن رابط سورة الحشر في أداة التجهيز. عبارة Creative Commons العامة لا تحدد رخصة ولا صاحب الحق؛ لا يوجد إثبات لملف الخواطر المستخدم أو تفريغه وقصه."
+        ]
+      }
+    },
+    {
+      "questionId": "character_voice-easy-0004",
+      "usageId": "26966747821484112475647008361509436577",
+      "assetPath": "assets/question_audio/voice-004.mp3",
+      "speaker": "الملك فيصل بن عبد العزيز",
+      "decision": "quarantine",
+      "reason": "الملك فيصل: ادعاء وجود تسجيل القدس وحق الخطابات الملكية العام غير موثق. أرشيف نيكسون يتضمن مواد لزيارات فيصل، لكنه يتضمن كذلك نشرات ABC/CBS مملوكة للغير؛ مجرد وجودها فيه لا يرخص الصوت. لم يثبت مصدر صوت ملكي مناسب لهذا الملف.",
+      "reviewStatus": "unverified",
+      "listeningReviewed": false,
+      "replacement": {
+        "id": "character_voice-easy-0004",
+        "categoryId": "character_voice",
+        "difficulty": "easy",
+        "text": "استمع إلى المقطع: من صاحب هذا الصوت؟",
+        "answer": "الملك فيصل بن عبد العزيز",
+        "acceptedAnswers": [
+          "الملك فيصل",
+          "فيصل بن عبد العزيز",
+          "الملك فيصل بن عبدالعزيز",
+          "فيصل بن عبدالعزيز",
+          "الملك فيصل بن عبد العزيز آل سعود"
+        ],
+        "hint": "أحد أفراد الأسرة السعودية الحاكمة الذين برزوا في السياسة خلال القرن العشرين.",
+        "clues": [],
+        "explanation": "تعذر إثبات أن التسجيل المرفق يعود إلى الملك فيصل بن عبد العزيز من مصدر صوتي موثق يسمح بإعادة استخدامه؛ ليس سؤالًا معتمدًا، ولا يجوز تشغيله أو نسبته إليه قبل استكمال الإثبات والمراجعة السمعية.",
+        "sources": [],
+        "options": [
+          {
+            "id": "A",
+            "text": "الملك سعود بن عبد العزيز"
+          },
+          {
+            "id": "B",
+            "text": "الملك فيصل بن عبد العزيز"
+          },
+          {
+            "id": "C",
+            "text": "الملك خالد بن عبد العزيز"
+          },
+          {
+            "id": "D",
+            "text": "الملك فهد بن عبد العزيز"
+          },
+          {
+            "id": "E",
+            "text": "الملك عبد الله بن عبد العزيز"
+          },
+          {
+            "id": "F",
+            "text": "الأمير سلطان بن عبد العزيز"
+          }
+        ],
+        "correctOptionId": "B",
+        "qualityStatus": "quarantined",
+        "usageId": "26966747821484112475647008361509436577",
+        "audio": {
+          "assetPath": "assets/question_audio/voice-004.mp3",
+          "durationMs": 0,
+          "attribution": "",
+          "sourceUrl": "",
+          "license": "",
+          "reviewStatus": "unverified",
+          "speaker": "الملك فيصل بن عبد العزيز",
+          "recordingId": "",
+          "licenseUrl": "",
+          "sourceStartMs": 0,
+          "sourceEndMs": 0,
+          "transcript": ""
+        },
+        "qualityReasons": [
+          "الملك فيصل: ادعاء وجود تسجيل القدس وحق الخطابات الملكية العام غير موثق. أرشيف نيكسون يتضمن مواد لزيارات فيصل، لكنه يتضمن كذلك نشرات ABC/CBS مملوكة للغير؛ مجرد وجودها فيه لا يرخص الصوت. لم يثبت مصدر صوت ملكي مناسب لهذا الملف."
+        ]
+      }
+    },
+    {
+      "questionId": "character_voice-easy-0005",
+      "usageId": "139016896992377677364818418573374607097",
+      "assetPath": "assets/question_audio/voice-005.mp3",
+      "speaker": "الشيخ زايد بن سلطان آل نهيان",
+      "decision": "quarantine",
+      "reason": "الشيخ زايد: اسم أرشيف الإنترنت العام لا يثبت تسجيلًا بعينه أو تصريح الأرشيف الوطني بإعادة توزيعه. لا توجد نقطة قص أو تفريغ أو ترخيص مطابق، والتلميح يمنح الاسم تقريبًا.",
+      "reviewStatus": "unverified",
+      "listeningReviewed": false,
+      "replacement": {
+        "id": "character_voice-easy-0005",
+        "categoryId": "character_voice",
+        "difficulty": "easy",
+        "text": "استمع إلى المقطع: من صاحب هذا الصوت؟",
+        "answer": "الشيخ زايد بن سلطان آل نهيان",
+        "acceptedAnswers": [
+          "الشيخ زايد",
+          "زايد بن سلطان",
+          "زايد بن سلطان آل نهيان",
+          "الشيخ زايد بن سلطان"
+        ],
+        "hint": "شخصية قيادية خليجية ارتبطت ببناء مؤسسات الدولة الحديثة.",
+        "clues": [],
+        "explanation": "تعذر إثبات أن التسجيل المرفق يعود إلى الشيخ زايد بن سلطان آل نهيان من مصدر صوتي موثق يسمح بإعادة استخدامه؛ ليس سؤالًا معتمدًا، ولا يجوز تشغيله أو نسبته إليه قبل استكمال الإثبات والمراجعة السمعية.",
+        "sources": [],
+        "options": [
+          {
+            "id": "A",
+            "text": "الشيخ راشد بن سعيد آل مكتوم"
+          },
+          {
+            "id": "B",
+            "text": "الشيخ زايد بن سلطان آل نهيان"
+          },
+          {
+            "id": "C",
+            "text": "الشيخ جابر الأحمد الصباح"
+          },
+          {
+            "id": "D",
+            "text": "الشيخ خليفة بن زايد آل نهيان"
+          },
+          {
+            "id": "E",
+            "text": "الشيخ عيسى بن سلمان آل خليفة"
+          },
+          {
+            "id": "F",
+            "text": "السلطان قابوس بن سعيد"
+          }
+        ],
+        "correctOptionId": "B",
+        "qualityStatus": "quarantined",
+        "usageId": "139016896992377677364818418573374607097",
+        "audio": {
+          "assetPath": "assets/question_audio/voice-005.mp3",
+          "durationMs": 0,
+          "attribution": "",
+          "sourceUrl": "",
+          "license": "",
+          "reviewStatus": "unverified",
+          "speaker": "الشيخ زايد بن سلطان آل نهيان",
+          "recordingId": "",
+          "licenseUrl": "",
+          "sourceStartMs": 0,
+          "sourceEndMs": 0,
+          "transcript": ""
+        },
+        "qualityReasons": [
+          "الشيخ زايد: اسم أرشيف الإنترنت العام لا يثبت تسجيلًا بعينه أو تصريح الأرشيف الوطني بإعادة توزيعه. لا توجد نقطة قص أو تفريغ أو ترخيص مطابق، والتلميح يمنح الاسم تقريبًا."
+        ]
+      }
+    },
+    {
+      "questionId": "character_voice-easy-0006",
+      "usageId": "19148482614050943546600296561426823139",
+      "assetPath": "assets/question_audio/voice-006.mp3",
+      "speaker": "صدام حسين",
+      "decision": "quarantine",
+      "reason": "صدام حسين: لا دليل يربط ملف الصوت بخطاب محدد له؛ الرسمية والتاريخ لا يساويان الملك العام. لم يثبت ترخيص الملف المنسوب للإذاعة العراقية، ولا يعتمد الصوت البديل الخاص بشخص آخر.",
+      "reviewStatus": "unverified",
+      "listeningReviewed": false,
+      "replacement": {
+        "id": "character_voice-easy-0006",
+        "categoryId": "character_voice",
+        "difficulty": "easy",
+        "text": "استمع إلى المقطع: من صاحب هذا الصوت؟",
+        "answer": "صدام حسين",
+        "acceptedAnswers": [
+          "صدام",
+          "الرئيس صدام حسين"
+        ],
+        "hint": "شخصية سياسية عراقية ارتبطت بفترة حكم حزب البعث.",
+        "clues": [],
+        "explanation": "تعذر إثبات أن التسجيل المرفق يعود إلى صدام حسين من مصدر صوتي موثق يسمح بإعادة استخدامه؛ ليس سؤالًا معتمدًا، ولا يجوز تشغيله أو نسبته إليه قبل استكمال الإثبات والمراجعة السمعية.",
+        "sources": [],
+        "options": [
+          {
+            "id": "A",
+            "text": "أحمد حسن البكر"
+          },
+          {
+            "id": "B",
+            "text": "صدام حسين"
+          },
+          {
+            "id": "C",
+            "text": "طارق عزيز"
+          },
+          {
+            "id": "D",
+            "text": "عبد السلام عارف"
+          },
+          {
+            "id": "E",
+            "text": "برزان التكريتي"
+          },
+          {
+            "id": "F",
+            "text": "طه ياسين رمضان"
+          }
+        ],
+        "correctOptionId": "B",
+        "qualityStatus": "quarantined",
+        "usageId": "19148482614050943546600296561426823139",
+        "audio": {
+          "assetPath": "assets/question_audio/voice-006.mp3",
+          "durationMs": 0,
+          "attribution": "",
+          "sourceUrl": "",
+          "license": "",
+          "reviewStatus": "unverified",
+          "speaker": "صدام حسين",
+          "recordingId": "",
+          "licenseUrl": "",
+          "sourceStartMs": 0,
+          "sourceEndMs": 0,
+          "transcript": ""
+        },
+        "qualityReasons": [
+          "صدام حسين: لا دليل يربط ملف الصوت بخطاب محدد له؛ الرسمية والتاريخ لا يساويان الملك العام. لم يثبت ترخيص الملف المنسوب للإذاعة العراقية، ولا يعتمد الصوت البديل الخاص بشخص آخر."
+        ]
+      }
+    },
+    {
+      "questionId": "character_voice-easy-0007",
+      "usageId": "125443184678504684366652586833161454667",
+      "assetPath": "assets/question_audio/voice-007.mp3",
+      "speaker": "ياسر عرفات",
+      "decision": "quarantine",
+      "reason": "ياسر عرفات: وصف تسجيل الأمم المتحدة بأنه Public Domain غير مثبت. البديل Yassir Arafat.ogv يذكر Visnews كمؤلف بينما يلصق وسم الحكومة الأمريكية؛ هذا التعارض لم يحسم. لا ينسب أي قص إلى خطاب 1974 بلا دليل.",
+      "reviewStatus": "unverified",
+      "listeningReviewed": false,
+      "replacement": {
+        "id": "character_voice-easy-0007",
+        "categoryId": "character_voice",
+        "difficulty": "easy",
+        "text": "استمع إلى المقطع: من صاحب هذا الصوت؟",
+        "answer": "ياسر عرفات",
+        "acceptedAnswers": [
+          "أبو عمار",
+          "عرفات",
+          "ابو عمار",
+          "ياسر عرفات (أبو عمار)"
+        ],
+        "hint": "شخصية سياسية فلسطينية شاركت في العمل الوطني والدبلوماسي.",
+        "clues": [],
+        "explanation": "تعذر إثبات أن التسجيل المرفق يعود إلى ياسر عرفات من مصدر صوتي موثق يسمح بإعادة استخدامه؛ ليس سؤالًا معتمدًا، ولا يجوز تشغيله أو نسبته إليه قبل استكمال الإثبات والمراجعة السمعية.",
+        "sources": [],
+        "options": [
+          {
+            "id": "A",
+            "text": "جورج حبش"
+          },
+          {
+            "id": "B",
+            "text": "أحمد الشقيري"
+          },
+          {
+            "id": "C",
+            "text": "ياسر عرفات"
+          },
+          {
+            "id": "D",
+            "text": "محمود عباس"
+          },
+          {
+            "id": "E",
+            "text": "خليل الوزير (أبو جهاد)"
+          },
+          {
+            "id": "F",
+            "text": "صلاح خلف (أبو إياد)"
+          }
+        ],
+        "correctOptionId": "C",
+        "qualityStatus": "quarantined",
+        "usageId": "125443184678504684366652586833161454667",
+        "audio": {
+          "assetPath": "assets/question_audio/voice-007.mp3",
+          "durationMs": 0,
+          "attribution": "",
+          "sourceUrl": "",
+          "license": "",
+          "reviewStatus": "unverified",
+          "speaker": "ياسر عرفات",
+          "recordingId": "",
+          "licenseUrl": "",
+          "sourceStartMs": 0,
+          "sourceEndMs": 0,
+          "transcript": ""
+        },
+        "qualityReasons": [
+          "ياسر عرفات: وصف تسجيل الأمم المتحدة بأنه Public Domain غير مثبت. البديل Yassir Arafat.ogv يذكر Visnews كمؤلف بينما يلصق وسم الحكومة الأمريكية؛ هذا التعارض لم يحسم. لا ينسب أي قص إلى خطاب 1974 بلا دليل."
+        ]
+      }
+    },
+    {
+      "questionId": "character_voice-easy-0008",
+      "usageId": "146477505021427671219842544160505588043",
+      "assetPath": "assets/question_audio/voice-008.mp3",
+      "speaker": "نجيب محفوظ",
+      "decision": "quarantine",
+      "reason": "نجيب محفوظ: لا سند لادعاء اللقاء الإذاعي أو ترخيصه. لم أستخدم محاضرة نوبل كبديل: موقع نوبل يوضح أن محمد سلماوي قرأها، وليس محفوظ، وبالتالي ليست صوته. ملف الصوت الحالي غير معتمد.",
+      "reviewStatus": "unverified",
+      "listeningReviewed": false,
+      "replacement": {
+        "id": "character_voice-easy-0008",
+        "categoryId": "character_voice",
+        "difficulty": "easy",
+        "text": "استمع إلى المقطع: من صاحب هذا الصوت؟",
+        "answer": "نجيب محفوظ",
+        "acceptedAnswers": [
+          "محفوظ",
+          "نجيب محفوظ عبد العزيز"
+        ],
+        "hint": "أديب مصري تناولت أعماله حياة المجتمع وتحولاته في القرن العشرين.",
+        "clues": [],
+        "explanation": "تعذر إثبات أن التسجيل المرفق يعود إلى نجيب محفوظ من مصدر صوتي موثق يسمح بإعادة استخدامه؛ ليس سؤالًا معتمدًا، ولا يجوز تشغيله أو نسبته إليه قبل استكمال الإثبات والمراجعة السمعية.",
+        "sources": [],
+        "options": [
+          {
+            "id": "A",
+            "text": "يوسف إدريس"
+          },
+          {
+            "id": "B",
+            "text": "توفيق الحكيم"
+          },
+          {
+            "id": "C",
+            "text": "نجيب محفوظ"
+          },
+          {
+            "id": "D",
+            "text": "إحسان عبد القدوس"
+          },
+          {
+            "id": "E",
+            "text": "يحيى حقي"
+          },
+          {
+            "id": "F",
+            "text": "طه حسين"
+          }
+        ],
+        "correctOptionId": "C",
+        "qualityStatus": "quarantined",
+        "usageId": "146477505021427671219842544160505588043",
+        "audio": {
+          "assetPath": "assets/question_audio/voice-008.mp3",
+          "durationMs": 0,
+          "attribution": "",
+          "sourceUrl": "",
+          "license": "",
+          "reviewStatus": "unverified",
+          "speaker": "نجيب محفوظ",
+          "recordingId": "",
+          "licenseUrl": "",
+          "sourceStartMs": 0,
+          "sourceEndMs": 0,
+          "transcript": ""
+        },
+        "qualityReasons": [
+          "نجيب محفوظ: لا سند لادعاء اللقاء الإذاعي أو ترخيصه. لم أستخدم محاضرة نوبل كبديل: موقع نوبل يوضح أن محمد سلماوي قرأها، وليس محفوظ، وبالتالي ليست صوته. ملف الصوت الحالي غير معتمد."
+        ]
+      }
+    },
+    {
+      "questionId": "character_voice-easy-0009",
+      "usageId": "141919469714491720498539584513012443856",
+      "assetPath": "assets/question_audio/voice-009.mp3",
+      "speaker": "د. أحمد زويل",
+      "decision": "quarantine",
+      "reason": "أحمد زويل: رابط الأرشيف العام لا يثبت مقابلة أو ملفًا ولا رخصة CC محددة. لا يكفي ذكر مكتبة الإسكندرية أو الجامعة للسماح بالتوزيع؛ ادعاء محتوى التسجيل غير موثق.",
+      "reviewStatus": "unverified",
+      "listeningReviewed": false,
+      "replacement": {
+        "id": "character_voice-easy-0009",
+        "categoryId": "character_voice",
+        "difficulty": "easy",
+        "text": "استمع إلى المقطع: من صاحب هذا الصوت؟",
+        "answer": "د. أحمد زويل",
+        "acceptedAnswers": [
+          "أحمد زويل",
+          "احمد زويل",
+          "زويل",
+          "دكتور أحمد زويل"
+        ],
+        "hint": "عالم مصري بنى جزءًا من مسيرته العلمية في الولايات المتحدة.",
+        "clues": [],
+        "explanation": "تعذر إثبات أن التسجيل المرفق يعود إلى د. أحمد زويل من مصدر صوتي موثق يسمح بإعادة استخدامه؛ ليس سؤالًا معتمدًا، ولا يجوز تشغيله أو نسبته إليه قبل استكمال الإثبات والمراجعة السمعية.",
+        "sources": [],
+        "options": [
+          {
+            "id": "A",
+            "text": "د. فاروق الباز"
+          },
+          {
+            "id": "B",
+            "text": "د. أحمد زويل"
+          },
+          {
+            "id": "C",
+            "text": "د. مجدي يعقوب"
+          },
+          {
+            "id": "D",
+            "text": "د. مصطفى السيد"
+          },
+          {
+            "id": "E",
+            "text": "د. علي مصطفى مشرفة"
+          },
+          {
+            "id": "F",
+            "text": "د. منير نايفة"
+          }
+        ],
+        "correctOptionId": "B",
+        "qualityStatus": "quarantined",
+        "usageId": "141919469714491720498539584513012443856",
+        "audio": {
+          "assetPath": "assets/question_audio/voice-009.mp3",
+          "durationMs": 0,
+          "attribution": "",
+          "sourceUrl": "",
+          "license": "",
+          "reviewStatus": "unverified",
+          "speaker": "د. أحمد زويل",
+          "recordingId": "",
+          "licenseUrl": "",
+          "sourceStartMs": 0,
+          "sourceEndMs": 0,
+          "transcript": ""
+        },
+        "qualityReasons": [
+          "أحمد زويل: رابط الأرشيف العام لا يثبت مقابلة أو ملفًا ولا رخصة CC محددة. لا يكفي ذكر مكتبة الإسكندرية أو الجامعة للسماح بالتوزيع؛ ادعاء محتوى التسجيل غير موثق."
+        ]
+      }
+    },
+    {
+      "questionId": "character_voice-easy-0010",
+      "usageId": "168465712787056655659577485218288856180",
+      "assetPath": "assets/question_audio/voice-010.mp3",
+      "speaker": "د. مصطفى محمود",
+      "decision": "quarantine",
+      "reason": "مصطفى محمود: مصدر البرنامج في السؤال يختلف عن الملف المشار إليه في أداة التجهيز؛ لا يوجد ترخيص من صاحب حق البرنامج أو ملف موثق. التعليم والإتاحة على الإنترنت لا يحولان تسجيل التلفزيون إلى ملك عام.",
+      "reviewStatus": "unverified",
+      "listeningReviewed": false,
+      "replacement": {
+        "id": "character_voice-easy-0010",
+        "categoryId": "character_voice",
+        "difficulty": "easy",
+        "text": "استمع إلى المقطع: من صاحب هذا الصوت؟",
+        "answer": "د. مصطفى محمود",
+        "acceptedAnswers": [
+          "مصطفى محمود",
+          "دكتور مصطفى محمود",
+          "مصطفى كمال محمود"
+        ],
+        "hint": "مفكر مصري قدم أفكاره إلى جمهور واسع عبر الكتب والتلفزيون.",
+        "clues": [],
+        "explanation": "تعذر إثبات أن التسجيل المرفق يعود إلى د. مصطفى محمود من مصدر صوتي موثق يسمح بإعادة استخدامه؛ ليس سؤالًا معتمدًا، ولا يجوز تشغيله أو نسبته إليه قبل استكمال الإثبات والمراجعة السمعية.",
+        "sources": [],
+        "options": [
+          {
+            "id": "A",
+            "text": "د. زكي نجيب محمود"
+          },
+          {
+            "id": "B",
+            "text": "د. مصطفى محمود"
+          },
+          {
+            "id": "C",
+            "text": "أحمد بهجت"
+          },
+          {
+            "id": "D",
+            "text": "د. عبد الصبور شاهين"
+          },
+          {
+            "id": "E",
+            "text": "د. عبد الوهاب المسيري"
+          },
+          {
+            "id": "F",
+            "text": "د. مصطفى السباعي"
+          }
+        ],
+        "correctOptionId": "B",
+        "qualityStatus": "quarantined",
+        "usageId": "168465712787056655659577485218288856180",
+        "audio": {
+          "assetPath": "assets/question_audio/voice-010.mp3",
+          "durationMs": 0,
+          "attribution": "",
+          "sourceUrl": "",
+          "license": "",
+          "reviewStatus": "unverified",
+          "speaker": "د. مصطفى محمود",
+          "recordingId": "",
+          "licenseUrl": "",
+          "sourceStartMs": 0,
+          "sourceEndMs": 0,
+          "transcript": ""
+        },
+        "qualityReasons": [
+          "مصطفى محمود: مصدر البرنامج في السؤال يختلف عن الملف المشار إليه في أداة التجهيز؛ لا يوجد ترخيص من صاحب حق البرنامج أو ملف موثق. التعليم والإتاحة على الإنترنت لا يحولان تسجيل التلفزيون إلى ملك عام."
+        ]
+      }
+    },
+    {
+      "questionId": "character_voice-easy-0011",
+      "usageId": "94189591512899852525753828948193515080",
+      "assetPath": "assets/question_audio/voice-011.mp3",
+      "speaker": "نزار قباني",
+      "decision": "quarantine",
+      "reason": "نزار قباني: لا ملف أصلي محدد يثبت أنه يلقي يا قدس ولا رخصة للأداء والتسجيل. وصف إلقاء شعري عام ليس رخصة CC، ولا يجوز استبداله بقارئ أو ممثل آخر.",
+      "reviewStatus": "unverified",
+      "listeningReviewed": false,
+      "replacement": {
+        "id": "character_voice-easy-0011",
+        "categoryId": "character_voice",
+        "difficulty": "easy",
+        "text": "استمع إلى المقطع: من صاحب هذا الصوت؟",
+        "answer": "نزار قباني",
+        "acceptedAnswers": [
+          "نزار قبانى",
+          "قباني",
+          "الشاعر نزار قباني"
+        ],
+        "hint": "شاعر من بلاد الشام كتب في الحب وقضايا المجتمع والسياسة.",
+        "clues": [],
+        "explanation": "تعذر إثبات أن التسجيل المرفق يعود إلى نزار قباني من مصدر صوتي موثق يسمح بإعادة استخدامه؛ ليس سؤالًا معتمدًا، ولا يجوز تشغيله أو نسبته إليه قبل استكمال الإثبات والمراجعة السمعية.",
+        "sources": [],
+        "options": [
+          {
+            "id": "A",
+            "text": "أدونيس"
+          },
+          {
+            "id": "B",
+            "text": "نزار قباني"
+          },
+          {
+            "id": "C",
+            "text": "أحمد عبد المعطي حجازي"
+          },
+          {
+            "id": "D",
+            "text": "محمد الماغوط"
+          },
+          {
+            "id": "E",
+            "text": "عبد الوهاب البياتي"
+          },
+          {
+            "id": "F",
+            "text": "عمر أبو ريشة"
+          }
+        ],
+        "correctOptionId": "B",
+        "qualityStatus": "quarantined",
+        "usageId": "94189591512899852525753828948193515080",
+        "audio": {
+          "assetPath": "assets/question_audio/voice-011.mp3",
+          "durationMs": 0,
+          "attribution": "",
+          "sourceUrl": "",
+          "license": "",
+          "reviewStatus": "unverified",
+          "speaker": "نزار قباني",
+          "recordingId": "",
+          "licenseUrl": "",
+          "sourceStartMs": 0,
+          "sourceEndMs": 0,
+          "transcript": ""
+        },
+        "qualityReasons": [
+          "نزار قباني: لا ملف أصلي محدد يثبت أنه يلقي يا قدس ولا رخصة للأداء والتسجيل. وصف إلقاء شعري عام ليس رخصة CC، ولا يجوز استبداله بقارئ أو ممثل آخر."
+        ]
+      }
+    },
+    {
+      "questionId": "character_voice-easy-0012",
+      "usageId": "110114607468566153125708928981203816267",
+      "assetPath": "assets/question_audio/voice-012.mp3",
+      "speaker": "محمود درويش",
+      "decision": "quarantine",
+      "reason": "محمود درويش: لم يثبت أن الملف يحتوي على إلقائه على هذه الأرض أو أن الجهة المالكة سمحت بتضمينه في تطبيق. وصف مهرجان ثقافي مفتوح لا يحدد ترخيص التسجيل أو الأداء.",
+      "reviewStatus": "unverified",
+      "listeningReviewed": false,
+      "replacement": {
+        "id": "character_voice-easy-0012",
+        "categoryId": "character_voice",
+        "difficulty": "easy",
+        "text": "استمع إلى المقطع: من صاحب هذا الصوت؟",
+        "answer": "محمود درويش",
+        "acceptedAnswers": [
+          "درويش",
+          "الشاعر محمود درويش"
+        ],
+        "hint": "شاعر فلسطيني كتب عن الوطن والمنفى وتجربة الإنسان.",
+        "clues": [],
+        "explanation": "تعذر إثبات أن التسجيل المرفق يعود إلى محمود درويش من مصدر صوتي موثق يسمح بإعادة استخدامه؛ ليس سؤالًا معتمدًا، ولا يجوز تشغيله أو نسبته إليه قبل استكمال الإثبات والمراجعة السمعية.",
+        "sources": [],
+        "options": [
+          {
+            "id": "A",
+            "text": "سميح القاسم"
+          },
+          {
+            "id": "B",
+            "text": "معين بسيسو"
+          },
+          {
+            "id": "C",
+            "text": "محمود درويش"
+          },
+          {
+            "id": "D",
+            "text": "توفيق زياد"
+          },
+          {
+            "id": "E",
+            "text": "إبراهيم طوقان"
+          },
+          {
+            "id": "F",
+            "text": "فدوى طوقان"
+          }
+        ],
+        "correctOptionId": "C",
+        "qualityStatus": "quarantined",
+        "usageId": "110114607468566153125708928981203816267",
+        "audio": {
+          "assetPath": "assets/question_audio/voice-012.mp3",
+          "durationMs": 0,
+          "attribution": "",
+          "sourceUrl": "",
+          "license": "",
+          "reviewStatus": "unverified",
+          "speaker": "محمود درويش",
+          "recordingId": "",
+          "licenseUrl": "",
+          "sourceStartMs": 0,
+          "sourceEndMs": 0,
+          "transcript": ""
+        },
+        "qualityReasons": [
+          "محمود درويش: لم يثبت أن الملف يحتوي على إلقائه على هذه الأرض أو أن الجهة المالكة سمحت بتضمينه في تطبيق. وصف مهرجان ثقافي مفتوح لا يحدد ترخيص التسجيل أو الأداء."
+        ]
+      }
+    },
+    {
+      "questionId": "character_voice-easy-0013",
+      "usageId": "132319058158415050276124221262736952608",
+      "assetPath": "assets/question_audio/voice-013.mp3",
+      "speaker": "الملك الحسين بن طلال",
+      "decision": "quarantine",
+      "reason": "الملك الحسين: راجعت ملف خطاب الكرامة في كومنز؛ وسم PD-Jordan يناقش صورًا وفنونًا تطبيقية، فلا يثبت وحده حقوق الصوت الإذاعي. وجدت تسجيلًا آخر رسميًا في مكتبة ريغان لكنه لم يجهز بقص وتفريغ وسماع، فبقي هذا الملف معزولًا.",
+      "reviewStatus": "unverified",
+      "listeningReviewed": false,
+      "replacement": {
+        "id": "character_voice-easy-0013",
+        "categoryId": "character_voice",
+        "difficulty": "easy",
+        "text": "استمع إلى المقطع: من صاحب هذا الصوت؟",
+        "answer": "الملك الحسين بن طلال",
+        "acceptedAnswers": [
+          "الملك حسين",
+          "الحسين بن طلال",
+          "الملك الحسين"
+        ],
+        "hint": "شخصية من الأسرة الهاشمية ارتبطت بتاريخ الأردن الحديث.",
+        "clues": [],
+        "explanation": "تعذر إثبات أن التسجيل المرفق يعود إلى الملك الحسين بن طلال من مصدر صوتي موثق يسمح بإعادة استخدامه؛ ليس سؤالًا معتمدًا، ولا يجوز تشغيله أو نسبته إليه قبل استكمال الإثبات والمراجعة السمعية.",
+        "sources": [],
+        "options": [
+          {
+            "id": "A",
+            "text": "الملك طلال بن عبد الله"
+          },
+          {
+            "id": "B",
+            "text": "الملك عبد الله الثاني"
+          },
+          {
+            "id": "C",
+            "text": "الملك الحسين بن طلال"
+          },
+          {
+            "id": "D",
+            "text": "الأمير الحسن بن طلال"
+          },
+          {
+            "id": "E",
+            "text": "الملك فيصل الثاني"
+          },
+          {
+            "id": "F",
+            "text": "الشريف حسين بن علي"
+          }
+        ],
+        "correctOptionId": "C",
+        "qualityStatus": "quarantined",
+        "usageId": "132319058158415050276124221262736952608",
+        "audio": {
+          "assetPath": "assets/question_audio/voice-013.mp3",
+          "durationMs": 0,
+          "attribution": "",
+          "sourceUrl": "",
+          "license": "",
+          "reviewStatus": "unverified",
+          "speaker": "الملك الحسين بن طلال",
+          "recordingId": "",
+          "licenseUrl": "",
+          "sourceStartMs": 0,
+          "sourceEndMs": 0,
+          "transcript": ""
+        },
+        "qualityReasons": [
+          "الملك الحسين: راجعت ملف خطاب الكرامة في كومنز؛ وسم PD-Jordan يناقش صورًا وفنونًا تطبيقية، فلا يثبت وحده حقوق الصوت الإذاعي. وجدت تسجيلًا آخر رسميًا في مكتبة ريغان لكنه لم يجهز بقص وتفريغ وسماع، فبقي هذا الملف معزولًا."
+        ]
+      }
+    },
+    {
+      "questionId": "character_voice-medium-0001",
+      "usageId": "158427145251886373055589853066803508593",
+      "assetPath": "assets/question_audio/voice-014.mp3",
+      "speaker": "د. طه حسين",
+      "decision": "quarantine",
+      "reason": "طه حسين: المصدر المزعوم للخطابات لا يثبت صوتًا أصليًا أو رخصة. وجود كتب أو قراءة صوتية لكتاب له لا يجعل القارئ طه حسين. النص نفسه يذكر لقبه الشهير فيفسد التعرف على الصوت.",
+      "reviewStatus": "unverified",
+      "listeningReviewed": false,
+      "replacement": {
+        "id": "character_voice-medium-0001",
+        "categoryId": "character_voice",
+        "difficulty": "medium",
+        "text": "استمع إلى المقطع: من صاحب هذا الصوت؟",
+        "answer": "د. طه حسين",
+        "acceptedAnswers": [
+          "طه حسين",
+          "عميد الأدب العربي",
+          "الدكتور طه حسين",
+          "د. طه حسين (عميد الأدب العربي)"
+        ],
+        "hint": "أديب وناقد مصري شارك في النقاش الثقافي والفكري خلال القرن العشرين.",
+        "clues": [],
+        "explanation": "تعذر إثبات أن التسجيل المرفق يعود إلى د. طه حسين من مصدر صوتي موثق يسمح بإعادة استخدامه؛ ليس سؤالًا معتمدًا، ولا يجوز تشغيله أو نسبته إليه قبل استكمال الإثبات والمراجعة السمعية.",
+        "sources": [],
+        "options": [
+          {
+            "id": "A",
+            "text": "أحمد لطفي السيد"
+          },
+          {
+            "id": "B",
+            "text": "د. طه حسين"
+          },
+          {
+            "id": "C",
+            "text": "د. زكي مبارك"
+          },
+          {
+            "id": "D",
+            "text": "سلامة موسى"
+          },
+          {
+            "id": "E",
+            "text": "عباس محمود العقاد"
+          },
+          {
+            "id": "F",
+            "text": "مصطفى صادق الرافعي"
+          }
+        ],
+        "correctOptionId": "B",
+        "qualityStatus": "quarantined",
+        "usageId": "158427145251886373055589853066803508593",
+        "audio": {
+          "assetPath": "assets/question_audio/voice-014.mp3",
+          "durationMs": 0,
+          "attribution": "",
+          "sourceUrl": "",
+          "license": "",
+          "reviewStatus": "unverified",
+          "speaker": "د. طه حسين",
+          "recordingId": "",
+          "licenseUrl": "",
+          "sourceStartMs": 0,
+          "sourceEndMs": 0,
+          "transcript": ""
+        },
+        "qualityReasons": [
+          "طه حسين: المصدر المزعوم للخطابات لا يثبت صوتًا أصليًا أو رخصة. وجود كتب أو قراءة صوتية لكتاب له لا يجعل القارئ طه حسين. النص نفسه يذكر لقبه الشهير فيفسد التعرف على الصوت."
+        ]
+      }
+    },
+    {
+      "questionId": "character_voice-medium-0002",
+      "usageId": "79690049677861111113596068024686825424",
+      "assetPath": "assets/question_audio/voice-015.mp3",
+      "speaker": "الحبيب بورقيبة",
+      "decision": "quarantine",
+      "reason": "بورقيبة: استبعدت رابط خطاب الأرشيف غير الموثق. يوجد بديل حقيقي مرخص CC BY 3.0 لمكتبة ريغان بتاريخ 18 يونيو 1985، لكن المصدر الأولي يقول إنه يتكلم الفرنسية ثم يترجم مترجم؛ لم أثبت نقطة قص بصوت بورقيبة نفسه، فلا أستبدل به الملف الحالي عشوائيًا.",
+      "reviewStatus": "unverified",
+      "listeningReviewed": false,
+      "replacement": {
+        "id": "character_voice-medium-0002",
+        "categoryId": "character_voice",
+        "difficulty": "medium",
+        "text": "استمع إلى المقطع: من صاحب هذا الصوت؟",
+        "answer": "الحبيب بورقيبة",
+        "acceptedAnswers": [
+          "بورقيبة",
+          "الحبيب بورقيبه",
+          "الرئيس الحبيب بورقيبة"
+        ],
+        "hint": "شخصية سياسية تونسية عاصرت الانتقال من الاستعمار إلى بناء الدولة.",
+        "clues": [],
+        "explanation": "تعذر إثبات أن التسجيل المرفق يعود إلى الحبيب بورقيبة من مصدر صوتي موثق يسمح بإعادة استخدامه؛ ليس سؤالًا معتمدًا، ولا يجوز تشغيله أو نسبته إليه قبل استكمال الإثبات والمراجعة السمعية.",
+        "sources": [],
+        "options": [
+          {
+            "id": "A",
+            "text": "صالح بن يوسف"
+          },
+          {
+            "id": "B",
+            "text": "الحبيب بورقيبة"
+          },
+          {
+            "id": "C",
+            "text": "زين العابدين بن علي"
+          },
+          {
+            "id": "D",
+            "text": "الباهي الأدغم"
+          },
+          {
+            "id": "E",
+            "text": "عبد العزيز الثعالبي"
+          },
+          {
+            "id": "F",
+            "text": "الهادي نويرة"
+          }
+        ],
+        "correctOptionId": "B",
+        "qualityStatus": "quarantined",
+        "usageId": "79690049677861111113596068024686825424",
+        "audio": {
+          "assetPath": "assets/question_audio/voice-015.mp3",
+          "durationMs": 0,
+          "attribution": "",
+          "sourceUrl": "",
+          "license": "",
+          "reviewStatus": "unverified",
+          "speaker": "الحبيب بورقيبة",
+          "recordingId": "",
+          "licenseUrl": "",
+          "sourceStartMs": 0,
+          "sourceEndMs": 0,
+          "transcript": ""
+        },
+        "qualityReasons": [
+          "بورقيبة: استبعدت رابط خطاب الأرشيف غير الموثق. يوجد بديل حقيقي مرخص CC BY 3.0 لمكتبة ريغان بتاريخ 18 يونيو 1985، لكن المصدر الأولي يقول إنه يتكلم الفرنسية ثم يترجم مترجم؛ لم أثبت نقطة قص بصوت بورقيبة نفسه، فلا أستبدل به الملف الحالي عشوائيًا."
+        ]
+      }
+    },
+    {
+      "questionId": "character_voice-medium-0003",
+      "usageId": "94197451845870691653563632388524545071",
+      "assetPath": "assets/question_audio/voice-016.mp3",
+      "speaker": "الشيخ عبد الباسط عبد الصمد",
+      "decision": "quarantine",
+      "reason": "عبد الباسط: أداة التجهيز تشير إلى تلاوة الفاتحة، بينما السؤال يدعي لقاء إذاعيًا وحديثًا نثريًا. لم يثبت مصدر اللقاء أو حق تسجيله؛ لا أعتمد التلاوة وكأنها المقابلة الموصوفة.",
+      "reviewStatus": "unverified",
+      "listeningReviewed": false,
+      "replacement": {
+        "id": "character_voice-medium-0003",
+        "categoryId": "character_voice",
+        "difficulty": "medium",
+        "text": "استمع إلى المقطع: من صاحب هذا الصوت؟",
+        "answer": "الشيخ عبد الباسط عبد الصمد",
+        "acceptedAnswers": [
+          "عبد الباسط عبد الصمد",
+          "عبدالباسط عبدالصمد",
+          "الشيخ عبد الباسط",
+          "عبد الباسط"
+        ],
+        "hint": "أحد قراء القرآن المصريين الذين اشتهروا عبر التسجيلات والإذاعة.",
+        "clues": [],
+        "explanation": "تعذر إثبات أن التسجيل المرفق يعود إلى الشيخ عبد الباسط عبد الصمد من مصدر صوتي موثق يسمح بإعادة استخدامه؛ ليس سؤالًا معتمدًا، ولا يجوز تشغيله أو نسبته إليه قبل استكمال الإثبات والمراجعة السمعية.",
+        "sources": [],
+        "options": [
+          {
+            "id": "A",
+            "text": "الشيخ محمد رفعت"
+          },
+          {
+            "id": "B",
+            "text": "الشيخ عبد الباسط عبد الصمد"
+          },
+          {
+            "id": "C",
+            "text": "الشيخ محمود خليل الحصري"
+          },
+          {
+            "id": "D",
+            "text": "الشيخ صديق المنشاوي"
+          },
+          {
+            "id": "E",
+            "text": "الشيخ مصطفى إسماعيل"
+          },
+          {
+            "id": "F",
+            "text": "الشيخ محمود علي البنا"
+          }
+        ],
+        "correctOptionId": "B",
+        "qualityStatus": "quarantined",
+        "usageId": "94197451845870691653563632388524545071",
+        "audio": {
+          "assetPath": "assets/question_audio/voice-016.mp3",
+          "durationMs": 0,
+          "attribution": "",
+          "sourceUrl": "",
+          "license": "",
+          "reviewStatus": "unverified",
+          "speaker": "الشيخ عبد الباسط عبد الصمد",
+          "recordingId": "",
+          "licenseUrl": "",
+          "sourceStartMs": 0,
+          "sourceEndMs": 0,
+          "transcript": ""
+        },
+        "qualityReasons": [
+          "عبد الباسط: أداة التجهيز تشير إلى تلاوة الفاتحة، بينما السؤال يدعي لقاء إذاعيًا وحديثًا نثريًا. لم يثبت مصدر اللقاء أو حق تسجيله؛ لا أعتمد التلاوة وكأنها المقابلة الموصوفة."
+        ]
+      }
+    },
+    {
+      "questionId": "character_voice-medium-0004",
+      "usageId": "162337899605808292835803026716258433911",
+      "assetPath": "assets/question_audio/voice-017.mp3",
+      "speaker": "د. غازي القصيبي",
+      "decision": "quarantine",
+      "reason": "غازي القصيبي: لا تسجيل أو حدث أو تفريغ أو ترخيص محدد يدعم رابط الندوات العام. العنوان والتلميح يسردان مؤلفاته ويجعلان سؤال الصوت سؤال سيرة، ولا يصلح ذلك لتعويض غياب صوت أصلي موثق.",
+      "reviewStatus": "unverified",
+      "listeningReviewed": false,
+      "replacement": {
+        "id": "character_voice-medium-0004",
+        "categoryId": "character_voice",
+        "difficulty": "medium",
+        "text": "استمع إلى المقطع: من صاحب هذا الصوت؟",
+        "answer": "د. غازي القصيبي",
+        "acceptedAnswers": [
+          "غازي القصيبي",
+          "غازي القصيبى",
+          "القصيبي",
+          "دكتور غازي القصيبي"
+        ],
+        "hint": "أديب سعودي جمع بين الكتابة والعمل في مؤسسات الدولة.",
+        "clues": [],
+        "explanation": "تعذر إثبات أن التسجيل المرفق يعود إلى د. غازي القصيبي من مصدر صوتي موثق يسمح بإعادة استخدامه؛ ليس سؤالًا معتمدًا، ولا يجوز تشغيله أو نسبته إليه قبل استكمال الإثبات والمراجعة السمعية.",
+        "sources": [],
+        "options": [
+          {
+            "id": "A",
+            "text": "د. عبد العزيز الخويطر"
+          },
+          {
+            "id": "B",
+            "text": "د. غازي القصيبي"
+          },
+          {
+            "id": "C",
+            "text": "عبد الله بن خميس"
+          },
+          {
+            "id": "D",
+            "text": "حمد الجاسر"
+          },
+          {
+            "id": "E",
+            "text": "تركي الحمد"
+          },
+          {
+            "id": "F",
+            "text": "محمد عبده يماني"
+          }
+        ],
+        "correctOptionId": "B",
+        "qualityStatus": "quarantined",
+        "usageId": "162337899605808292835803026716258433911",
+        "audio": {
+          "assetPath": "assets/question_audio/voice-017.mp3",
+          "durationMs": 0,
+          "attribution": "",
+          "sourceUrl": "",
+          "license": "",
+          "reviewStatus": "unverified",
+          "speaker": "د. غازي القصيبي",
+          "recordingId": "",
+          "licenseUrl": "",
+          "sourceStartMs": 0,
+          "sourceEndMs": 0,
+          "transcript": ""
+        },
+        "qualityReasons": [
+          "غازي القصيبي: لا تسجيل أو حدث أو تفريغ أو ترخيص محدد يدعم رابط الندوات العام. العنوان والتلميح يسردان مؤلفاته ويجعلان سؤال الصوت سؤال سيرة، ولا يصلح ذلك لتعويض غياب صوت أصلي موثق."
+        ]
+      }
+    },
+    {
+      "questionId": "character_voice-medium-0005",
+      "usageId": "5668739587723747913677017364099912372",
+      "assetPath": "assets/question_audio/voice-018.mp3",
+      "speaker": "د. مجدي يعقوب",
+      "decision": "quarantine",
+      "reason": "مجدي يعقوب: لم يثبت أن الملف مقابلة له عن الأطفال، ولا من مالك التسجيل أو رخصته. اللقاء التوعوي العام ليس ترخيصًا لإعادة توزيع تسجيل جهة أخرى.",
+      "reviewStatus": "unverified",
+      "listeningReviewed": false,
+      "replacement": {
+        "id": "character_voice-medium-0005",
+        "categoryId": "character_voice",
+        "difficulty": "medium",
+        "text": "استمع إلى المقطع: من صاحب هذا الصوت؟",
+        "answer": "د. مجدي يعقوب",
+        "acceptedAnswers": [
+          "مجدي يعقوب",
+          "مجدى يعقوب",
+          "سير مجدي يعقوب",
+          "دكتور مجدي يعقوب"
+        ],
+        "hint": "طبيب مصري امتدت خبرته ومشروعاته إلى خارج مصر.",
+        "clues": [],
+        "explanation": "تعذر إثبات أن التسجيل المرفق يعود إلى د. مجدي يعقوب من مصدر صوتي موثق يسمح بإعادة استخدامه؛ ليس سؤالًا معتمدًا، ولا يجوز تشغيله أو نسبته إليه قبل استكمال الإثبات والمراجعة السمعية.",
+        "sources": [],
+        "options": [
+          {
+            "id": "A",
+            "text": "د. محمد غنيم"
+          },
+          {
+            "id": "B",
+            "text": "د. مجدي يعقوب"
+          },
+          {
+            "id": "C",
+            "text": "د. هاني عازر"
+          },
+          {
+            "id": "D",
+            "text": "د. يحيى الرخاوي"
+          },
+          {
+            "id": "E",
+            "text": "د. أحمد عكاشة"
+          },
+          {
+            "id": "F",
+            "text": "د. إبراهيم بدران"
+          }
+        ],
+        "correctOptionId": "B",
+        "qualityStatus": "quarantined",
+        "usageId": "5668739587723747913677017364099912372",
+        "audio": {
+          "assetPath": "assets/question_audio/voice-018.mp3",
+          "durationMs": 0,
+          "attribution": "",
+          "sourceUrl": "",
+          "license": "",
+          "reviewStatus": "unverified",
+          "speaker": "د. مجدي يعقوب",
+          "recordingId": "",
+          "licenseUrl": "",
+          "sourceStartMs": 0,
+          "sourceEndMs": 0,
+          "transcript": ""
+        },
+        "qualityReasons": [
+          "مجدي يعقوب: لم يثبت أن الملف مقابلة له عن الأطفال، ولا من مالك التسجيل أو رخصته. اللقاء التوعوي العام ليس ترخيصًا لإعادة توزيع تسجيل جهة أخرى."
+        ]
+      }
+    },
+    {
+      "questionId": "character_voice-medium-0006",
+      "usageId": "167404926139973539953965554193988547066",
+      "assetPath": "assets/question_audio/voice-019.mp3",
+      "speaker": "د. فاروق الباز",
+      "decision": "quarantine",
+      "reason": "فاروق الباز: ذكر NASA في خانة الحقوق لا يثبت أن هذه المقابلة من إنتاج الوكالة أو أن حقوق الصوت للشخص والمنتج واضحة. رابط عام بلا ملف أو تاريخ أو قص، وبعض الخيارات خارج تخصصه فتضعف المنافسة.",
+      "reviewStatus": "unverified",
+      "listeningReviewed": false,
+      "replacement": {
+        "id": "character_voice-medium-0006",
+        "categoryId": "character_voice",
+        "difficulty": "medium",
+        "text": "استمع إلى المقطع: من صاحب هذا الصوت؟",
+        "answer": "د. فاروق الباز",
+        "acceptedAnswers": [
+          "فاروق الباز",
+          "دكتور فاروق الباز",
+          "الباز"
+        ],
+        "hint": "عالم مصري ارتبط جزء من عمله بمؤسسات بحثية أمريكية.",
+        "clues": [],
+        "explanation": "تعذر إثبات أن التسجيل المرفق يعود إلى د. فاروق الباز من مصدر صوتي موثق يسمح بإعادة استخدامه؛ ليس سؤالًا معتمدًا، ولا يجوز تشغيله أو نسبته إليه قبل استكمال الإثبات والمراجعة السمعية.",
+        "sources": [],
+        "options": [
+          {
+            "id": "A",
+            "text": "د. عصام حجي"
+          },
+          {
+            "id": "B",
+            "text": "د. فاروق الباز"
+          },
+          {
+            "id": "C",
+            "text": "د. أحمد زويل"
+          },
+          {
+            "id": "D",
+            "text": "د. رشدي سعيد"
+          },
+          {
+            "id": "E",
+            "text": "د. مصطفى السيد"
+          },
+          {
+            "id": "F",
+            "text": "د. منير نايفة"
+          }
+        ],
+        "correctOptionId": "B",
+        "qualityStatus": "quarantined",
+        "usageId": "167404926139973539953965554193988547066",
+        "audio": {
+          "assetPath": "assets/question_audio/voice-019.mp3",
+          "durationMs": 0,
+          "attribution": "",
+          "sourceUrl": "",
+          "license": "",
+          "reviewStatus": "unverified",
+          "speaker": "د. فاروق الباز",
+          "recordingId": "",
+          "licenseUrl": "",
+          "sourceStartMs": 0,
+          "sourceEndMs": 0,
+          "transcript": ""
+        },
+        "qualityReasons": [
+          "فاروق الباز: ذكر NASA في خانة الحقوق لا يثبت أن هذه المقابلة من إنتاج الوكالة أو أن حقوق الصوت للشخص والمنتج واضحة. رابط عام بلا ملف أو تاريخ أو قص، وبعض الخيارات خارج تخصصه فتضعف المنافسة."
+        ]
+      }
+    },
+    {
+      "questionId": "character_voice-medium-0007",
+      "usageId": "110575488862828938602613189344396714048",
+      "assetPath": "assets/question_audio/voice-020.mp3",
+      "speaker": "عباس محمود العقاد",
+      "decision": "quarantine",
+      "reason": "العقاد: لم يثبت لقاء العقل وحرية التفكير الموصوف أو تاريخ إذاعته أو صاحب الحق. وصف أرشيف الإذاعة الكلاسيكي لا يثبت الملك العام، وملف عتيق المظهر قد يكون لقارئ لاحق.",
+      "reviewStatus": "unverified",
+      "listeningReviewed": false,
+      "replacement": {
+        "id": "character_voice-medium-0007",
+        "categoryId": "character_voice",
+        "difficulty": "medium",
+        "text": "استمع إلى المقطع: من صاحب هذا الصوت؟",
+        "answer": "عباس محمود العقاد",
+        "acceptedAnswers": [
+          "عباس العقاد",
+          "العقاد",
+          "عباس محمود العقّاد"
+        ],
+        "hint": "كاتب مصري جمع بين الأدب والنقد والبحث الفكري.",
+        "clues": [],
+        "explanation": "تعذر إثبات أن التسجيل المرفق يعود إلى عباس محمود العقاد من مصدر صوتي موثق يسمح بإعادة استخدامه؛ ليس سؤالًا معتمدًا، ولا يجوز تشغيله أو نسبته إليه قبل استكمال الإثبات والمراجعة السمعية.",
+        "sources": [],
+        "options": [
+          {
+            "id": "A",
+            "text": "مصطفى صادق الرافعي"
+          },
+          {
+            "id": "B",
+            "text": "عباس محمود العقاد"
+          },
+          {
+            "id": "C",
+            "text": "إبراهيم عبد القادر المازني"
+          },
+          {
+            "id": "D",
+            "text": "محمد حسين هيكل"
+          },
+          {
+            "id": "E",
+            "text": "أحمد حسن الزيات"
+          },
+          {
+            "id": "F",
+            "text": "زكي مبارك"
+          }
+        ],
+        "correctOptionId": "B",
+        "qualityStatus": "quarantined",
+        "usageId": "110575488862828938602613189344396714048",
+        "audio": {
+          "assetPath": "assets/question_audio/voice-020.mp3",
+          "durationMs": 0,
+          "attribution": "",
+          "sourceUrl": "",
+          "license": "",
+          "reviewStatus": "unverified",
+          "speaker": "عباس محمود العقاد",
+          "recordingId": "",
+          "licenseUrl": "",
+          "sourceStartMs": 0,
+          "sourceEndMs": 0,
+          "transcript": ""
+        },
+        "qualityReasons": [
+          "العقاد: لم يثبت لقاء العقل وحرية التفكير الموصوف أو تاريخ إذاعته أو صاحب الحق. وصف أرشيف الإذاعة الكلاسيكي لا يثبت الملك العام، وملف عتيق المظهر قد يكون لقارئ لاحق."
+        ]
+      }
+    },
+    {
+      "questionId": "character_voice-medium-0008",
+      "usageId": "125146813169521749863945737845219842124",
+      "assetPath": "assets/question_audio/voice-021.mp3",
+      "speaker": "الملك عبد الله الأول بن الحسين",
+      "decision": "quarantine",
+      "reason": "عبد الله الأول: لا مصدر أولي لخطاب مسموع أو حق ملف محدد. لا تطبق رخص الصور الأردنية على تسجيل ملكي لمجرد قدمه، ولم يثبت المتكلم أو نص القص.",
+      "reviewStatus": "unverified",
+      "listeningReviewed": false,
+      "replacement": {
+        "id": "character_voice-medium-0008",
+        "categoryId": "character_voice",
+        "difficulty": "medium",
+        "text": "استمع إلى المقطع: من صاحب هذا الصوت؟",
+        "answer": "الملك عبد الله الأول بن الحسين",
+        "acceptedAnswers": [
+          "عبد الله الأول",
+          "الملك عبد الله الأول بن الحسين",
+          "الملك عبدالله الاول"
+        ],
+        "hint": "شخصية هاشمية شاركت في الحياة السياسية العربية في النصف الأول من القرن العشرين.",
+        "clues": [],
+        "explanation": "تعذر إثبات أن التسجيل المرفق يعود إلى الملك عبد الله الأول بن الحسين من مصدر صوتي موثق يسمح بإعادة استخدامه؛ ليس سؤالًا معتمدًا، ولا يجوز تشغيله أو نسبته إليه قبل استكمال الإثبات والمراجعة السمعية.",
+        "sources": [],
+        "options": [
+          {
+            "id": "A",
+            "text": "الملك فيصل الأول"
+          },
+          {
+            "id": "B",
+            "text": "الملك علي بن الحسين"
+          },
+          {
+            "id": "C",
+            "text": "الملك عبد الله الأول بن الحسين"
+          },
+          {
+            "id": "D",
+            "text": "الملك طلال بن عبد الله"
+          },
+          {
+            "id": "E",
+            "text": "الأمير زيد بن الحسين"
+          },
+          {
+            "id": "F",
+            "text": "الملك غازي الأول"
+          }
+        ],
+        "correctOptionId": "C",
+        "qualityStatus": "quarantined",
+        "usageId": "125146813169521749863945737845219842124",
+        "audio": {
+          "assetPath": "assets/question_audio/voice-021.mp3",
+          "durationMs": 0,
+          "attribution": "",
+          "sourceUrl": "",
+          "license": "",
+          "reviewStatus": "unverified",
+          "speaker": "الملك عبد الله الأول بن الحسين",
+          "recordingId": "",
+          "licenseUrl": "",
+          "sourceStartMs": 0,
+          "sourceEndMs": 0,
+          "transcript": ""
+        },
+        "qualityReasons": [
+          "عبد الله الأول: لا مصدر أولي لخطاب مسموع أو حق ملف محدد. لا تطبق رخص الصور الأردنية على تسجيل ملكي لمجرد قدمه، ولم يثبت المتكلم أو نص القص."
+        ]
+      }
+    },
+    {
+      "questionId": "character_voice-medium-0009",
+      "usageId": "156280845160722263795052193620064562091",
+      "assetPath": "assets/question_audio/voice-022.mp3",
+      "speaker": "محمد الفيتوري",
+      "decision": "quarantine",
+      "reason": "محمد الفيتوري: لا تسجيل موثق له وهو يلقي أصبح الصبح. وجود قصيدة من تأليفه أو أداء غنائي لها ليس صوته؛ لا رخصة محددة للأداء الصوتي الحالي.",
+      "reviewStatus": "unverified",
+      "listeningReviewed": false,
+      "replacement": {
+        "id": "character_voice-medium-0009",
+        "categoryId": "character_voice",
+        "difficulty": "medium",
+        "text": "استمع إلى المقطع: من صاحب هذا الصوت؟",
+        "answer": "محمد الفيتوري",
+        "acceptedAnswers": [
+          "الفيتوري",
+          "محمد مفتاح الفيتوري",
+          "الشاعر محمد الفيتوري"
+        ],
+        "hint": "شاعر سوداني تناولت أعماله الحرية والهوية وتجارب إفريقيا.",
+        "clues": [],
+        "explanation": "تعذر إثبات أن التسجيل المرفق يعود إلى محمد الفيتوري من مصدر صوتي موثق يسمح بإعادة استخدامه؛ ليس سؤالًا معتمدًا، ولا يجوز تشغيله أو نسبته إليه قبل استكمال الإثبات والمراجعة السمعية.",
+        "sources": [],
+        "options": [
+          {
+            "id": "A",
+            "text": "محمد المهدي المجذوب"
+          },
+          {
+            "id": "B",
+            "text": "محمد الفيتوري"
+          },
+          {
+            "id": "C",
+            "text": "صلاح أحمد إبراهيم"
+          },
+          {
+            "id": "D",
+            "text": "التجاني يوسف بشير"
+          },
+          {
+            "id": "E",
+            "text": "محيي الدين فارس"
+          },
+          {
+            "id": "F",
+            "text": "جيلي عبد الرحمن"
+          }
+        ],
+        "correctOptionId": "B",
+        "qualityStatus": "quarantined",
+        "usageId": "156280845160722263795052193620064562091",
+        "audio": {
+          "assetPath": "assets/question_audio/voice-022.mp3",
+          "durationMs": 0,
+          "attribution": "",
+          "sourceUrl": "",
+          "license": "",
+          "reviewStatus": "unverified",
+          "speaker": "محمد الفيتوري",
+          "recordingId": "",
+          "licenseUrl": "",
+          "sourceStartMs": 0,
+          "sourceEndMs": 0,
+          "transcript": ""
+        },
+        "qualityReasons": [
+          "محمد الفيتوري: لا تسجيل موثق له وهو يلقي أصبح الصبح. وجود قصيدة من تأليفه أو أداء غنائي لها ليس صوته؛ لا رخصة محددة للأداء الصوتي الحالي."
+        ]
+      }
+    },
+    {
+      "questionId": "character_voice-medium-0010",
+      "usageId": "104225818787911439258749676055212725514",
+      "assetPath": "assets/question_audio/voice-023.mp3",
+      "speaker": "هواري بومدين",
+      "decision": "quarantine",
+      "reason": "هواري بومدين: الخطاب المنسوب للأمم المتحدة 1974 غير مرتبط بملف وتوقيت موثقين؛ الأمم المتحدة والتلفزيون الجزائري لا يعنيان الملك العام. لا يوجد تصريح إعادة توزيع مطابق لهذا الملف.",
+      "reviewStatus": "unverified",
+      "listeningReviewed": false,
+      "replacement": {
+        "id": "character_voice-medium-0010",
+        "categoryId": "character_voice",
+        "difficulty": "medium",
+        "text": "استمع إلى المقطع: من صاحب هذا الصوت؟",
+        "answer": "هواري بومدين",
+        "acceptedAnswers": [
+          "بومدين",
+          "هواري بومدين (محمد بوخروبة)",
+          "الرئيس هواري بومدين"
+        ],
+        "hint": "شخصية جزائرية ارتبطت بتاريخ الاستقلال وبناء الدولة.",
+        "clues": [],
+        "explanation": "تعذر إثبات أن التسجيل المرفق يعود إلى هواري بومدين من مصدر صوتي موثق يسمح بإعادة استخدامه؛ ليس سؤالًا معتمدًا، ولا يجوز تشغيله أو نسبته إليه قبل استكمال الإثبات والمراجعة السمعية.",
+        "sources": [],
+        "options": [
+          {
+            "id": "A",
+            "text": "أحمد بن بلة"
+          },
+          {
+            "id": "B",
+            "text": "الشاذلي بن جديد"
+          },
+          {
+            "id": "C",
+            "text": "هواري بومدين"
+          },
+          {
+            "id": "D",
+            "text": "محمد بوضياف"
+          },
+          {
+            "id": "E",
+            "text": "عبد العزيز بوتفليقة"
+          },
+          {
+            "id": "F",
+            "text": "مصطفى بن بولعيد"
+          }
+        ],
+        "correctOptionId": "C",
+        "qualityStatus": "quarantined",
+        "usageId": "104225818787911439258749676055212725514",
+        "audio": {
+          "assetPath": "assets/question_audio/voice-023.mp3",
+          "durationMs": 0,
+          "attribution": "",
+          "sourceUrl": "",
+          "license": "",
+          "reviewStatus": "unverified",
+          "speaker": "هواري بومدين",
+          "recordingId": "",
+          "licenseUrl": "",
+          "sourceStartMs": 0,
+          "sourceEndMs": 0,
+          "transcript": ""
+        },
+        "qualityReasons": [
+          "هواري بومدين: الخطاب المنسوب للأمم المتحدة 1974 غير مرتبط بملف وتوقيت موثقين؛ الأمم المتحدة والتلفزيون الجزائري لا يعنيان الملك العام. لا يوجد تصريح إعادة توزيع مطابق لهذا الملف."
+        ]
+      }
+    },
+    {
+      "questionId": "character_voice-medium-0011",
+      "usageId": "88744176026339602309394663172528068657",
+      "assetPath": "assets/question_audio/voice-024.mp3",
+      "speaker": "الطيب صالح",
+      "decision": "quarantine",
+      "reason": "الطيب صالح: مصدر BBC المنسوب ليس ترخيص CC محددًا ولا رابط ملف يثبت المقابلة. نص السؤال يسمي الرواية المميزة فيكشف الهوية قبل الصوت؛ لا يمكن إصلاح غياب تسجيله بصوت قارئ للرواية.",
+      "reviewStatus": "unverified",
+      "listeningReviewed": false,
+      "replacement": {
+        "id": "character_voice-medium-0011",
+        "categoryId": "character_voice",
+        "difficulty": "medium",
+        "text": "استمع إلى المقطع: من صاحب هذا الصوت؟",
+        "answer": "الطيب صالح",
+        "acceptedAnswers": [
+          "الطيب صالح",
+          "الطيب صالح أحمد"
+        ],
+        "hint": "روائي عربي كتب عن علاقة الإنسان ببيئته وتحولات مجتمعه.",
+        "clues": [],
+        "explanation": "تعذر إثبات أن التسجيل المرفق يعود إلى الطيب صالح من مصدر صوتي موثق يسمح بإعادة استخدامه؛ ليس سؤالًا معتمدًا، ولا يجوز تشغيله أو نسبته إليه قبل استكمال الإثبات والمراجعة السمعية.",
+        "sources": [],
+        "options": [
+          {
+            "id": "A",
+            "text": "إبراهيم الكوني"
+          },
+          {
+            "id": "B",
+            "text": "عبد الرحمن منيف"
+          },
+          {
+            "id": "C",
+            "text": "الطيب صالح"
+          },
+          {
+            "id": "D",
+            "text": "واسيني الأعرج"
+          },
+          {
+            "id": "E",
+            "text": "جمال الغيطاني"
+          },
+          {
+            "id": "F",
+            "text": "بهاء طاهر"
+          }
+        ],
+        "correctOptionId": "C",
+        "qualityStatus": "quarantined",
+        "usageId": "88744176026339602309394663172528068657",
+        "audio": {
+          "assetPath": "assets/question_audio/voice-024.mp3",
+          "durationMs": 0,
+          "attribution": "",
+          "sourceUrl": "",
+          "license": "",
+          "reviewStatus": "unverified",
+          "speaker": "الطيب صالح",
+          "recordingId": "",
+          "licenseUrl": "",
+          "sourceStartMs": 0,
+          "sourceEndMs": 0,
+          "transcript": ""
+        },
+        "qualityReasons": [
+          "الطيب صالح: مصدر BBC المنسوب ليس ترخيص CC محددًا ولا رابط ملف يثبت المقابلة. نص السؤال يسمي الرواية المميزة فيكشف الهوية قبل الصوت؛ لا يمكن إصلاح غياب تسجيله بصوت قارئ للرواية."
+        ]
+      }
+    },
+    {
+      "questionId": "character_voice-medium-0012",
+      "usageId": "145602203251814820173050681168200520444",
+      "assetPath": "assets/question_audio/voice-025.mp3",
+      "speaker": "الشيخ أحمد ديدات",
+      "decision": "quarantine",
+      "reason": "أحمد ديدات: أداة التجهيز تقصد محاضرة نيروبي الإنجليزية، بينما السؤال يدعي كلمات موجهة للعالم العربي بمصدر آخر. لم يثبت ترخيص إعادة التوزيع؛ مجانية المحاضرة لا تكفي، وتفسير اللغة والسياق غير موثق.",
+      "reviewStatus": "unverified",
+      "listeningReviewed": false,
+      "replacement": {
+        "id": "character_voice-medium-0012",
+        "categoryId": "character_voice",
+        "difficulty": "medium",
+        "text": "استمع إلى المقطع: من صاحب هذا الصوت؟",
+        "answer": "الشيخ أحمد ديدات",
+        "acceptedAnswers": [
+          "أحمد ديدات",
+          "احمد ديدات",
+          "ديدات",
+          "الشيخ ديدات"
+        ],
+        "hint": "داعية اهتم بالحوار ومقارنة الأديان وخاطب جمهورًا خارج بلده.",
+        "clues": [],
+        "explanation": "تعذر إثبات أن التسجيل المرفق يعود إلى الشيخ أحمد ديدات من مصدر صوتي موثق يسمح بإعادة استخدامه؛ ليس سؤالًا معتمدًا، ولا يجوز تشغيله أو نسبته إليه قبل استكمال الإثبات والمراجعة السمعية.",
+        "sources": [],
+        "options": [
+          {
+            "id": "A",
+            "text": "د. ذاكر نايك"
+          },
+          {
+            "id": "B",
+            "text": "الشيخ أحمد ديدات"
+          },
+          {
+            "id": "C",
+            "text": "الشيخ يوسف القرضاوي"
+          },
+          {
+            "id": "D",
+            "text": "د. عبد الصبور مرزوق"
+          },
+          {
+            "id": "E",
+            "text": "د. محمد عمارة"
+          },
+          {
+            "id": "F",
+            "text": "الشيخ محمد الغزالي"
+          }
+        ],
+        "correctOptionId": "B",
+        "qualityStatus": "quarantined",
+        "usageId": "145602203251814820173050681168200520444",
+        "audio": {
+          "assetPath": "assets/question_audio/voice-025.mp3",
+          "durationMs": 0,
+          "attribution": "",
+          "sourceUrl": "",
+          "license": "",
+          "reviewStatus": "unverified",
+          "speaker": "الشيخ أحمد ديدات",
+          "recordingId": "",
+          "licenseUrl": "",
+          "sourceStartMs": 0,
+          "sourceEndMs": 0,
+          "transcript": ""
+        },
+        "qualityReasons": [
+          "أحمد ديدات: أداة التجهيز تقصد محاضرة نيروبي الإنجليزية، بينما السؤال يدعي كلمات موجهة للعالم العربي بمصدر آخر. لم يثبت ترخيص إعادة التوزيع؛ مجانية المحاضرة لا تكفي، وتفسير اللغة والسياق غير موثق."
+        ]
+      }
+    },
+    {
+      "questionId": "character_voice-medium-0013",
+      "usageId": "44790708602342323277409778436584231929",
+      "assetPath": "assets/question_audio/voice-026.mp3",
+      "speaker": "بابا شارو (محمد محمود شعبان)",
+      "decision": "quarantine",
+      "reason": "بابا شارو: لا حلقة أو مقطع أصلي أو سنة ورخصة يمكن تتبعها. لا أعتمد تسجيل مقلد أو مقدم إذاعي آخر بدلاً منه؛ التلميح يذكر اسم البرنامج المطابق للإجابة.",
+      "reviewStatus": "unverified",
+      "listeningReviewed": false,
+      "replacement": {
+        "id": "character_voice-medium-0013",
+        "categoryId": "character_voice",
+        "difficulty": "medium",
+        "text": "استمع إلى المقطع: من صاحب هذا الصوت؟",
+        "answer": "بابا شارو (محمد محمود شعبان)",
+        "acceptedAnswers": [
+          "بابا شارو",
+          "محمد محمود شعبان",
+          "الإذاعي محمد محمود شعبان"
+        ],
+        "hint": "صوت من أصوات الإذاعة المصرية التي خاطبت العائلة والمستمعين الصغار.",
+        "clues": [],
+        "explanation": "تعذر إثبات أن التسجيل المرفق يعود إلى بابا شارو (محمد محمود شعبان) من مصدر صوتي موثق يسمح بإعادة استخدامه؛ ليس سؤالًا معتمدًا، ولا يجوز تشغيله أو نسبته إليه قبل استكمال الإثبات والمراجعة السمعية.",
+        "sources": [],
+        "options": [
+          {
+            "id": "A",
+            "text": "أحمد طاهر"
+          },
+          {
+            "id": "B",
+            "text": "وجدي الحكيم"
+          },
+          {
+            "id": "C",
+            "text": "بابا شارو (محمد محمود شعبان)"
+          },
+          {
+            "id": "D",
+            "text": "أبلة فضيلة"
+          },
+          {
+            "id": "E",
+            "text": "طاهر أبو زيد"
+          },
+          {
+            "id": "F",
+            "text": "فهمي عمر"
+          }
+        ],
+        "correctOptionId": "C",
+        "qualityStatus": "quarantined",
+        "usageId": "44790708602342323277409778436584231929",
+        "audio": {
+          "assetPath": "assets/question_audio/voice-026.mp3",
+          "durationMs": 0,
+          "attribution": "",
+          "sourceUrl": "",
+          "license": "",
+          "reviewStatus": "unverified",
+          "speaker": "بابا شارو (محمد محمود شعبان)",
+          "recordingId": "",
+          "licenseUrl": "",
+          "sourceStartMs": 0,
+          "sourceEndMs": 0,
+          "transcript": ""
+        },
+        "qualityReasons": [
+          "بابا شارو: لا حلقة أو مقطع أصلي أو سنة ورخصة يمكن تتبعها. لا أعتمد تسجيل مقلد أو مقدم إذاعي آخر بدلاً منه؛ التلميح يذكر اسم البرنامج المطابق للإجابة."
+        ]
+      }
+    },
+    {
+      "questionId": "character_voice-hard-0001",
+      "usageId": "57535944999137466569886108350945724336",
+      "assetPath": "assets/question_audio/voice-027.mp3",
+      "speaker": "عمر المختار",
+      "decision": "quarantine",
+      "reason": "عمر المختار: لا يوجد في البيانات دليل أصلي على تسجيل المحاكمة أو صوته قبيل إعدامه. المقاطع التمثيلية المشهورة ليست صوت عمر المختار. لم أثبت وجود تسجيل أصلي صالح؛ أوقف السؤال ولا أدعي استحالة وجوده مطلقًا.",
+      "reviewStatus": "unverified",
+      "listeningReviewed": false,
+      "replacement": {
+        "id": "character_voice-hard-0001",
+        "categoryId": "character_voice",
+        "difficulty": "hard",
+        "text": "استمع إلى المقطع: من صاحب هذا الصوت؟",
+        "answer": "عمر المختار",
+        "acceptedAnswers": [
+          "عمر المختار",
+          "شيخ الشهداء",
+          "سيدي عمر المختار",
+          "عمر المختار (شيخ الشهداء)"
+        ],
+        "hint": "شخصية من شخصيات المقاومة العربية للاستعمار في النصف الأول من القرن العشرين.",
+        "clues": [],
+        "explanation": "تعذر إثبات أن التسجيل المرفق يعود إلى عمر المختار من مصدر صوتي موثق يسمح بإعادة استخدامه؛ ليس سؤالًا معتمدًا، ولا يجوز تشغيله أو نسبته إليه قبل استكمال الإثبات والمراجعة السمعية.",
+        "sources": [],
+        "options": [
+          {
+            "id": "A",
+            "text": "الأمير عبد القادر الجزائري"
+          },
+          {
+            "id": "B",
+            "text": "عمر المختار"
+          },
+          {
+            "id": "C",
+            "text": "محمد عبد الكريم الخطابي"
+          },
+          {
+            "id": "D",
+            "text": "عز الدين القسام"
+          },
+          {
+            "id": "E",
+            "text": "يوسف العظمة"
+          },
+          {
+            "id": "F",
+            "text": "رمضان السويحلي"
+          }
+        ],
+        "correctOptionId": "B",
+        "qualityStatus": "quarantined",
+        "usageId": "57535944999137466569886108350945724336",
+        "audio": {
+          "assetPath": "assets/question_audio/voice-027.mp3",
+          "durationMs": 0,
+          "attribution": "",
+          "sourceUrl": "",
+          "license": "",
+          "reviewStatus": "unverified",
+          "speaker": "عمر المختار",
+          "recordingId": "",
+          "licenseUrl": "",
+          "sourceStartMs": 0,
+          "sourceEndMs": 0,
+          "transcript": ""
+        },
+        "qualityReasons": [
+          "عمر المختار: لا يوجد في البيانات دليل أصلي على تسجيل المحاكمة أو صوته قبيل إعدامه. المقاطع التمثيلية المشهورة ليست صوت عمر المختار. لم أثبت وجود تسجيل أصلي صالح؛ أوقف السؤال ولا أدعي استحالة وجوده مطلقًا."
+        ]
+      }
+    },
+    {
+      "questionId": "character_voice-hard-0002",
+      "usageId": "148898990825466958398949134093197098046",
+      "assetPath": "assets/question_audio/voice-028.mp3",
+      "speaker": "أحمد شوقي",
+      "decision": "quarantine",
+      "reason": "أحمد شوقي: زعم أسطوانة 1927 ومحتواها لم يدعمه سجل أرشيف أو شركة أسطوانات أو ملف أصلي. صوت قارئ شعره ليس صوته، وقدم التسجيل المزعوم لا يثبت وقوعه أو حقوقه.",
+      "reviewStatus": "unverified",
+      "listeningReviewed": false,
+      "replacement": {
+        "id": "character_voice-hard-0002",
+        "categoryId": "character_voice",
+        "difficulty": "hard",
+        "text": "استمع إلى المقطع: من صاحب هذا الصوت؟",
+        "answer": "أحمد شوقي",
+        "acceptedAnswers": [
+          "شوقي",
+          "امير الشعراء",
+          "أحمد شوقي بك",
+          "احمد شوقي",
+          "أمير الشعراء أحمد شوقي"
+        ],
+        "hint": "شاعر عربي من جيل النهضة الأدبية كتب الشعر الوطني والوجداني.",
+        "clues": [],
+        "explanation": "تعذر إثبات أن التسجيل المرفق يعود إلى أحمد شوقي من مصدر صوتي موثق يسمح بإعادة استخدامه؛ ليس سؤالًا معتمدًا، ولا يجوز تشغيله أو نسبته إليه قبل استكمال الإثبات والمراجعة السمعية.",
+        "sources": [],
+        "options": [
+          {
+            "id": "A",
+            "text": "حافظ إبراهيم"
+          },
+          {
+            "id": "B",
+            "text": "أحمد شوقي"
+          },
+          {
+            "id": "C",
+            "text": "محمود سامي البارودي"
+          },
+          {
+            "id": "D",
+            "text": "إسماعيل صبري"
+          },
+          {
+            "id": "E",
+            "text": "خليل مطران"
+          },
+          {
+            "id": "F",
+            "text": "ولي الدين يكن"
+          }
+        ],
+        "correctOptionId": "B",
+        "qualityStatus": "quarantined",
+        "usageId": "148898990825466958398949134093197098046",
+        "audio": {
+          "assetPath": "assets/question_audio/voice-028.mp3",
+          "durationMs": 0,
+          "attribution": "",
+          "sourceUrl": "",
+          "license": "",
+          "reviewStatus": "unverified",
+          "speaker": "أحمد شوقي",
+          "recordingId": "",
+          "licenseUrl": "",
+          "sourceStartMs": 0,
+          "sourceEndMs": 0,
+          "transcript": ""
+        },
+        "qualityReasons": [
+          "أحمد شوقي: زعم أسطوانة 1927 ومحتواها لم يدعمه سجل أرشيف أو شركة أسطوانات أو ملف أصلي. صوت قارئ شعره ليس صوته، وقدم التسجيل المزعوم لا يثبت وقوعه أو حقوقه."
+        ]
+      }
+    },
+    {
+      "questionId": "character_voice-hard-0003",
+      "usageId": "37709167809485198861115993599081763318",
+      "assetPath": "assets/question_audio/voice-029.mp3",
+      "speaker": "سعد زغلول",
+      "decision": "quarantine",
+      "reason": "سعد زغلول: لا مصدر أولي للأسطوانة المزعومة لعام 1923 أو إثبات للمتكلم ونص القص. لم أجد في المصادر التي راجعتها ملفًا صالحًا للتجهيز؛ لا أحول غياب الدليل إلى تسجيل مصنوع.",
+      "reviewStatus": "unverified",
+      "listeningReviewed": false,
+      "replacement": {
+        "id": "character_voice-hard-0003",
+        "categoryId": "character_voice",
+        "difficulty": "hard",
+        "text": "استمع إلى المقطع: من صاحب هذا الصوت؟",
+        "answer": "سعد زغلول",
+        "acceptedAnswers": [
+          "سعد زغلول",
+          "زعيم الأمة",
+          "سعد باشا زغلول"
+        ],
+        "hint": "سياسي مصري برز في الحركة الوطنية خلال النصف الأول من القرن العشرين.",
+        "clues": [],
+        "explanation": "تعذر إثبات أن التسجيل المرفق يعود إلى سعد زغلول من مصدر صوتي موثق يسمح بإعادة استخدامه؛ ليس سؤالًا معتمدًا، ولا يجوز تشغيله أو نسبته إليه قبل استكمال الإثبات والمراجعة السمعية.",
+        "sources": [],
+        "options": [
+          {
+            "id": "A",
+            "text": "مصطفى النحاس"
+          },
+          {
+            "id": "B",
+            "text": "سعد زغلول"
+          },
+          {
+            "id": "C",
+            "text": "علي شعراوي"
+          },
+          {
+            "id": "D",
+            "text": "عبد العزيز فهمي"
+          },
+          {
+            "id": "E",
+            "text": "محمد محمود باشا"
+          },
+          {
+            "id": "F",
+            "text": "إسماعيل صدقي"
+          }
+        ],
+        "correctOptionId": "B",
+        "qualityStatus": "quarantined",
+        "usageId": "37709167809485198861115993599081763318",
+        "audio": {
+          "assetPath": "assets/question_audio/voice-029.mp3",
+          "durationMs": 0,
+          "attribution": "",
+          "sourceUrl": "",
+          "license": "",
+          "reviewStatus": "unverified",
+          "speaker": "سعد زغلول",
+          "recordingId": "",
+          "licenseUrl": "",
+          "sourceStartMs": 0,
+          "sourceEndMs": 0,
+          "transcript": ""
+        },
+        "qualityReasons": [
+          "سعد زغلول: لا مصدر أولي للأسطوانة المزعومة لعام 1923 أو إثبات للمتكلم ونص القص. لم أجد في المصادر التي راجعتها ملفًا صالحًا للتجهيز؛ لا أحول غياب الدليل إلى تسجيل مصنوع."
+        ]
+      }
+    },
+    {
+      "questionId": "character_voice-hard-0004",
+      "usageId": "156500372812902018057156617745091707680",
+      "assetPath": "assets/question_audio/voice-030.mp3",
+      "speaker": "خليل مطران",
+      "decision": "quarantine",
+      "reason": "خليل مطران: لا سند لتسجيل المساء بالإسكندرية أو حقوقه. المؤلف والإلقاء والحدث ثلاثة أمور مختلفة تحتاج إلى توثيق؛ لا يعتمد ملف fallback ذي المتكلم الآخر.",
+      "reviewStatus": "unverified",
+      "listeningReviewed": false,
+      "replacement": {
+        "id": "character_voice-hard-0004",
+        "categoryId": "character_voice",
+        "difficulty": "hard",
+        "text": "استمع إلى المقطع: من صاحب هذا الصوت؟",
+        "answer": "خليل مطران",
+        "acceptedAnswers": [
+          "مطران",
+          "شاعر القطرين",
+          "خليل مطران بك",
+          "خليل مطران (شاعر القطرين)"
+        ],
+        "hint": "شاعر عربي ارتبط نشاطه الأدبي بمصر وبلاد الشام.",
+        "clues": [],
+        "explanation": "تعذر إثبات أن التسجيل المرفق يعود إلى خليل مطران من مصدر صوتي موثق يسمح بإعادة استخدامه؛ ليس سؤالًا معتمدًا، ولا يجوز تشغيله أو نسبته إليه قبل استكمال الإثبات والمراجعة السمعية.",
+        "sources": [],
+        "options": [
+          {
+            "id": "A",
+            "text": "بشارة الخوري (الأخطل الصغير)"
+          },
+          {
+            "id": "B",
+            "text": "خليل مطران"
+          },
+          {
+            "id": "C",
+            "text": "أحمد زكي أبو شادي"
+          },
+          {
+            "id": "D",
+            "text": "إبراهيم ناجي"
+          },
+          {
+            "id": "E",
+            "text": "شبلي الملاط"
+          },
+          {
+            "id": "F",
+            "text": "أمين ناصر الدين"
+          }
+        ],
+        "correctOptionId": "B",
+        "qualityStatus": "quarantined",
+        "usageId": "156500372812902018057156617745091707680",
+        "audio": {
+          "assetPath": "assets/question_audio/voice-030.mp3",
+          "durationMs": 0,
+          "attribution": "",
+          "sourceUrl": "",
+          "license": "",
+          "reviewStatus": "unverified",
+          "speaker": "خليل مطران",
+          "recordingId": "",
+          "licenseUrl": "",
+          "sourceStartMs": 0,
+          "sourceEndMs": 0,
+          "transcript": ""
+        },
+        "qualityReasons": [
+          "خليل مطران: لا سند لتسجيل المساء بالإسكندرية أو حقوقه. المؤلف والإلقاء والحدث ثلاثة أمور مختلفة تحتاج إلى توثيق؛ لا يعتمد ملف fallback ذي المتكلم الآخر."
+        ]
+      }
+    },
+    {
+      "questionId": "character_voice-hard-0005",
+      "usageId": "41233405530641193753927467950312676938",
+      "assetPath": "assets/question_audio/voice-031.mp3",
+      "speaker": "فهمي عمر",
+      "decision": "quarantine",
+      "reason": "فهمي عمر: لا مقطع أصلي موثق أو رخصة وإذاعة وتوقيت. خيار كمال الشناوي الممثل أضعف من بقية المذيعين فيكشف التفاوت، لكن إصلاح الخيار لا يصحح نسبة الصوت.",
+      "reviewStatus": "unverified",
+      "listeningReviewed": false,
+      "replacement": {
+        "id": "character_voice-hard-0005",
+        "categoryId": "character_voice",
+        "difficulty": "hard",
+        "text": "استمع إلى المقطع: من صاحب هذا الصوت؟",
+        "answer": "فهمي عمر",
+        "acceptedAnswers": [
+          "فهمي عمر",
+          "الإذاعي فهمي عمر",
+          "فهمى عمر",
+          "الإذاعي الكبير فهمي عمر"
+        ],
+        "hint": "إعلامي مصري عمل في الإذاعة وارتبط اسمه بالبرامج الجماهيرية.",
+        "clues": [],
+        "explanation": "تعذر إثبات أن التسجيل المرفق يعود إلى فهمي عمر من مصدر صوتي موثق يسمح بإعادة استخدامه؛ ليس سؤالًا معتمدًا، ولا يجوز تشغيله أو نسبته إليه قبل استكمال الإثبات والمراجعة السمعية.",
+        "sources": [],
+        "options": [
+          {
+            "id": "A",
+            "text": "طاهر أبو زيد"
+          },
+          {
+            "id": "B",
+            "text": "فهمي عمر"
+          },
+          {
+            "id": "C",
+            "text": "محمد لطيف"
+          },
+          {
+            "id": "D",
+            "text": "علي زيوار"
+          },
+          {
+            "id": "E",
+            "text": "محمود بكر"
+          },
+          {
+            "id": "F",
+            "text": "وجدي الحكيم"
+          }
+        ],
+        "correctOptionId": "B",
+        "qualityStatus": "quarantined",
+        "usageId": "41233405530641193753927467950312676938",
+        "audio": {
+          "assetPath": "assets/question_audio/voice-031.mp3",
+          "durationMs": 0,
+          "attribution": "",
+          "sourceUrl": "",
+          "license": "",
+          "reviewStatus": "unverified",
+          "speaker": "فهمي عمر",
+          "recordingId": "",
+          "licenseUrl": "",
+          "sourceStartMs": 0,
+          "sourceEndMs": 0,
+          "transcript": ""
+        },
+        "qualityReasons": [
+          "فهمي عمر: لا مقطع أصلي موثق أو رخصة وإذاعة وتوقيت. خيار كمال الشناوي الممثل أضعف من بقية المذيعين فيكشف التفاوت، لكن إصلاح الخيار لا يصحح نسبة الصوت."
+        ]
+      }
+    },
+    {
+      "questionId": "character_voice-hard-0006",
+      "usageId": "89733131718578236670188585769277199093",
+      "assetPath": "assets/question_audio/voice-032.mp3",
+      "speaker": "الشيخ د. سلطان بن محمد القاسمي",
+      "decision": "quarantine",
+      "reason": "سلطان القاسمي: لا كلمة ثقافية بعينها أو مصدر رسمي برخصة محددة. كلمة رسمية منشورة لا تعني أنها مرخصة للتضمين محليًا، والملف لا يحمل سلسلة مصدر يمكن اعتمادها.",
+      "reviewStatus": "unverified",
+      "listeningReviewed": false,
+      "replacement": {
+        "id": "character_voice-hard-0006",
+        "categoryId": "character_voice",
+        "difficulty": "hard",
+        "text": "استمع إلى المقطع: من صاحب هذا الصوت؟",
+        "answer": "الشيخ د. سلطان بن محمد القاسمي",
+        "acceptedAnswers": [
+          "سلطان القاسمي",
+          "الشيخ سلطان القاسمي",
+          "د. سلطان القاسمي"
+        ],
+        "hint": "شخصية قيادية إماراتية اهتمت بالتاريخ والثقافة إلى جانب العمل العام.",
+        "clues": [],
+        "explanation": "تعذر إثبات أن التسجيل المرفق يعود إلى الشيخ د. سلطان بن محمد القاسمي من مصدر صوتي موثق يسمح بإعادة استخدامه؛ ليس سؤالًا معتمدًا، ولا يجوز تشغيله أو نسبته إليه قبل استكمال الإثبات والمراجعة السمعية.",
+        "sources": [],
+        "options": [
+          {
+            "id": "A",
+            "text": "الشيخ حميد بن راشد النعيمي"
+          },
+          {
+            "id": "B",
+            "text": "الشيخ د. سلطان بن محمد القاسمي"
+          },
+          {
+            "id": "C",
+            "text": "الشيخ سعود بن صقر القاسمي"
+          },
+          {
+            "id": "D",
+            "text": "الشيخ حمد بن محمد الشرقي"
+          },
+          {
+            "id": "E",
+            "text": "الشيخ صقر بن محمد القاسمي"
+          },
+          {
+            "id": "F",
+            "text": "الشيخ راشد بن أحمد المعلا"
+          }
+        ],
+        "correctOptionId": "B",
+        "qualityStatus": "quarantined",
+        "usageId": "89733131718578236670188585769277199093",
+        "audio": {
+          "assetPath": "assets/question_audio/voice-032.mp3",
+          "durationMs": 0,
+          "attribution": "",
+          "sourceUrl": "",
+          "license": "",
+          "reviewStatus": "unverified",
+          "speaker": "الشيخ د. سلطان بن محمد القاسمي",
+          "recordingId": "",
+          "licenseUrl": "",
+          "sourceStartMs": 0,
+          "sourceEndMs": 0,
+          "transcript": ""
+        },
+        "qualityReasons": [
+          "سلطان القاسمي: لا كلمة ثقافية بعينها أو مصدر رسمي برخصة محددة. كلمة رسمية منشورة لا تعني أنها مرخصة للتضمين محليًا، والملف لا يحمل سلسلة مصدر يمكن اعتمادها."
+        ]
+      }
+    },
+    {
+      "questionId": "character_voice-hard-0007",
+      "usageId": "144125487211038850179559670623090803627",
+      "assetPath": "assets/question_audio/voice-033.mp3",
+      "speaker": "يوسف إدريس",
+      "decision": "quarantine",
+      "reason": "يوسف إدريس: لا دليل لحديث فلسفة القصة القصيرة المزعوم أو حق إعادة توزيع التسجيل. لا تثبت الملكية عبارة البرامج الثقافية المصرية، ولا يمكن تمرير هوية المؤلف على أي قارئ.",
+      "reviewStatus": "unverified",
+      "listeningReviewed": false,
+      "replacement": {
+        "id": "character_voice-hard-0007",
+        "categoryId": "character_voice",
+        "difficulty": "hard",
+        "text": "استمع إلى المقطع: من صاحب هذا الصوت؟",
+        "answer": "يوسف إدريس",
+        "acceptedAnswers": [
+          "يوسف ادريس",
+          "إدريس",
+          "يوسف إدريس علي"
+        ],
+        "hint": "كاتب مصري تناول الحياة الاجتماعية في القصص والأعمال المسرحية.",
+        "clues": [],
+        "explanation": "تعذر إثبات أن التسجيل المرفق يعود إلى يوسف إدريس من مصدر صوتي موثق يسمح بإعادة استخدامه؛ ليس سؤالًا معتمدًا، ولا يجوز تشغيله أو نسبته إليه قبل استكمال الإثبات والمراجعة السمعية.",
+        "sources": [],
+        "options": [
+          {
+            "id": "A",
+            "text": "يحيى حقي"
+          },
+          {
+            "id": "B",
+            "text": "يوسف إدريس"
+          },
+          {
+            "id": "C",
+            "text": "بهاء طاهر"
+          },
+          {
+            "id": "D",
+            "text": "صنع الله إبراهيم"
+          },
+          {
+            "id": "E",
+            "text": "إحسان عبد القدوس"
+          },
+          {
+            "id": "F",
+            "text": "عبد الرحمن الشرقاوي"
+          }
+        ],
+        "correctOptionId": "B",
+        "qualityStatus": "quarantined",
+        "usageId": "144125487211038850179559670623090803627",
+        "audio": {
+          "assetPath": "assets/question_audio/voice-033.mp3",
+          "durationMs": 0,
+          "attribution": "",
+          "sourceUrl": "",
+          "license": "",
+          "reviewStatus": "unverified",
+          "speaker": "يوسف إدريس",
+          "recordingId": "",
+          "licenseUrl": "",
+          "sourceStartMs": 0,
+          "sourceEndMs": 0,
+          "transcript": ""
+        },
+        "qualityReasons": [
+          "يوسف إدريس: لا دليل لحديث فلسفة القصة القصيرة المزعوم أو حق إعادة توزيع التسجيل. لا تثبت الملكية عبارة البرامج الثقافية المصرية، ولا يمكن تمرير هوية المؤلف على أي قارئ."
+        ]
+      }
+    },
+    {
+      "questionId": "character_voice-hard-0008",
+      "usageId": "117751015220927605268391517844019322100",
+      "assetPath": "assets/question_audio/voice-034.mp3",
+      "speaker": "بدر شاكر السياب",
+      "decision": "quarantine",
+      "reason": "السياب: لا تسجيل أصلي محدد يثبت إلقاء أنشودة المطر بصوته. العنوان وحده لا يفرق بين أداء شاعر وقارئ لاحق، وحقوق الإذاعة المزعومة غير موثقة.",
+      "reviewStatus": "unverified",
+      "listeningReviewed": false,
+      "replacement": {
+        "id": "character_voice-hard-0008",
+        "categoryId": "character_voice",
+        "difficulty": "hard",
+        "text": "استمع إلى المقطع: من صاحب هذا الصوت؟",
+        "answer": "بدر شاكر السياب",
+        "acceptedAnswers": [
+          "السياب",
+          "بدر شاكر السيّاب",
+          "بدر السياب"
+        ],
+        "hint": "شاعر عراقي شارك في تجديد الشعر العربي خلال القرن العشرين.",
+        "clues": [],
+        "explanation": "تعذر إثبات أن التسجيل المرفق يعود إلى بدر شاكر السياب من مصدر صوتي موثق يسمح بإعادة استخدامه؛ ليس سؤالًا معتمدًا، ولا يجوز تشغيله أو نسبته إليه قبل استكمال الإثبات والمراجعة السمعية.",
+        "sources": [],
+        "options": [
+          {
+            "id": "A",
+            "text": "نازك الملائكة"
+          },
+          {
+            "id": "B",
+            "text": "عبد الوهاب البياتي"
+          },
+          {
+            "id": "C",
+            "text": "بدر شاكر السياب"
+          },
+          {
+            "id": "D",
+            "text": "بلند الحيدري"
+          },
+          {
+            "id": "E",
+            "text": "معروف الرصافي"
+          },
+          {
+            "id": "F",
+            "text": "جميل صدقي الزهاوي"
+          }
+        ],
+        "correctOptionId": "C",
+        "qualityStatus": "quarantined",
+        "usageId": "117751015220927605268391517844019322100",
+        "audio": {
+          "assetPath": "assets/question_audio/voice-034.mp3",
+          "durationMs": 0,
+          "attribution": "",
+          "sourceUrl": "",
+          "license": "",
+          "reviewStatus": "unverified",
+          "speaker": "بدر شاكر السياب",
+          "recordingId": "",
+          "licenseUrl": "",
+          "sourceStartMs": 0,
+          "sourceEndMs": 0,
+          "transcript": ""
+        },
+        "qualityReasons": [
+          "السياب: لا تسجيل أصلي محدد يثبت إلقاء أنشودة المطر بصوته. العنوان وحده لا يفرق بين أداء شاعر وقارئ لاحق، وحقوق الإذاعة المزعومة غير موثقة."
+        ]
+      }
+    },
+    {
+      "questionId": "character_voice-hard-0009",
+      "usageId": "88950893603809987478952776383853740778",
+      "assetPath": "assets/question_audio/voice-035.mp3",
+      "speaker": "الملك فهد بن عبد العزيز",
+      "decision": "quarantine",
+      "reason": "الملك فهد: لا ملف أولي لخطاب المدينة المنورة المقصود ولا تفريغ أو تاريخ أو تصريح استخدام. وصف البيانات الملكية الرسمية لا يثبت الملك العام؛ التلميح يذكر ترتيب الملك ولقبه بصورة كاشفة.",
+      "reviewStatus": "unverified",
+      "listeningReviewed": false,
+      "replacement": {
+        "id": "character_voice-hard-0009",
+        "categoryId": "character_voice",
+        "difficulty": "hard",
+        "text": "استمع إلى المقطع: من صاحب هذا الصوت؟",
+        "answer": "الملك فهد بن عبد العزيز",
+        "acceptedAnswers": [
+          "الملك فهد",
+          "فهد بن عبد العزيز",
+          "خادم الحرمين الملك فهد",
+          "الملك فهد بن عبد العزيز آل سعود"
+        ],
+        "hint": "أحد أبناء الملك عبد العزيز الذين برزوا في قيادة الدولة السعودية.",
+        "clues": [],
+        "explanation": "تعذر إثبات أن التسجيل المرفق يعود إلى الملك فهد بن عبد العزيز من مصدر صوتي موثق يسمح بإعادة استخدامه؛ ليس سؤالًا معتمدًا، ولا يجوز تشغيله أو نسبته إليه قبل استكمال الإثبات والمراجعة السمعية.",
+        "sources": [],
+        "options": [
+          {
+            "id": "A",
+            "text": "الملك خالد بن عبد العزيز"
+          },
+          {
+            "id": "B",
+            "text": "الملك فهد بن عبد العزيز"
+          },
+          {
+            "id": "C",
+            "text": "الملك عبد الله بن عبد العزيز"
+          },
+          {
+            "id": "D",
+            "text": "الملك سلمان بن عبد العزيز"
+          },
+          {
+            "id": "E",
+            "text": "الأمير نايف بن عبد العزيز"
+          },
+          {
+            "id": "F",
+            "text": "الأمير سلطان بن عبد العزيز"
+          }
+        ],
+        "correctOptionId": "B",
+        "qualityStatus": "quarantined",
+        "usageId": "88950893603809987478952776383853740778",
+        "audio": {
+          "assetPath": "assets/question_audio/voice-035.mp3",
+          "durationMs": 0,
+          "attribution": "",
+          "sourceUrl": "",
+          "license": "",
+          "reviewStatus": "unverified",
+          "speaker": "الملك فهد بن عبد العزيز",
+          "recordingId": "",
+          "licenseUrl": "",
+          "sourceStartMs": 0,
+          "sourceEndMs": 0,
+          "transcript": ""
+        },
+        "qualityReasons": [
+          "الملك فهد: لا ملف أولي لخطاب المدينة المنورة المقصود ولا تفريغ أو تاريخ أو تصريح استخدام. وصف البيانات الملكية الرسمية لا يثبت الملك العام؛ التلميح يذكر ترتيب الملك ولقبه بصورة كاشفة."
+        ]
+      }
+    },
+    {
+      "questionId": "character_voice-hard-0010",
+      "usageId": "20251863581192677186958991021255060595",
+      "assetPath": "assets/question_audio/voice-036.mp3",
+      "speaker": "الشيخ مصطفى إسماعيل",
+      "decision": "quarantine",
+      "reason": "مصطفى إسماعيل: أداة التجهيز تشير إلى تلاوة بينما السؤال يدعي حديثًا نثريًا عن الأداء. لم يثبت ملف المقابلة أو حقه؛ لا أعيد تسمية التلاوة لتطابق قصة غير موثقة.",
+      "reviewStatus": "unverified",
+      "listeningReviewed": false,
+      "replacement": {
+        "id": "character_voice-hard-0010",
+        "categoryId": "character_voice",
+        "difficulty": "hard",
+        "text": "استمع إلى المقطع: من صاحب هذا الصوت؟",
+        "answer": "الشيخ مصطفى إسماعيل",
+        "acceptedAnswers": [
+          "مصطفى إسماعيل",
+          "الشيخ مصطفى اسماعيل",
+          "مصطفى اسماعيل"
+        ],
+        "hint": "قارئ مصري اشتهر بتنوع الأداء في التلاوة والإذاعة.",
+        "clues": [],
+        "explanation": "تعذر إثبات أن التسجيل المرفق يعود إلى الشيخ مصطفى إسماعيل من مصدر صوتي موثق يسمح بإعادة استخدامه؛ ليس سؤالًا معتمدًا، ولا يجوز تشغيله أو نسبته إليه قبل استكمال الإثبات والمراجعة السمعية.",
+        "sources": [],
+        "options": [
+          {
+            "id": "A",
+            "text": "الشيخ أبو العينين شعيشع"
+          },
+          {
+            "id": "B",
+            "text": "الشيخ مصطفى إسماعيل"
+          },
+          {
+            "id": "C",
+            "text": "الشيخ محمود علي البنا"
+          },
+          {
+            "id": "D",
+            "text": "الشيخ طه الفشني"
+          },
+          {
+            "id": "E",
+            "text": "الشيخ عبد الباسط عبد الصمد"
+          },
+          {
+            "id": "F",
+            "text": "الشيخ كامل يوسف البهتيمي"
+          }
+        ],
+        "correctOptionId": "B",
+        "qualityStatus": "quarantined",
+        "usageId": "20251863581192677186958991021255060595",
+        "audio": {
+          "assetPath": "assets/question_audio/voice-036.mp3",
+          "durationMs": 0,
+          "attribution": "",
+          "sourceUrl": "",
+          "license": "",
+          "reviewStatus": "unverified",
+          "speaker": "الشيخ مصطفى إسماعيل",
+          "recordingId": "",
+          "licenseUrl": "",
+          "sourceStartMs": 0,
+          "sourceEndMs": 0,
+          "transcript": ""
+        },
+        "qualityReasons": [
+          "مصطفى إسماعيل: أداة التجهيز تشير إلى تلاوة بينما السؤال يدعي حديثًا نثريًا عن الأداء. لم يثبت ملف المقابلة أو حقه؛ لا أعيد تسمية التلاوة لتطابق قصة غير موثقة."
+        ]
+      }
+    },
+    {
+      "questionId": "character_voice-hard-0011",
+      "usageId": "107764819546839822996883070632535326687",
+      "assetPath": "assets/question_audio/voice-037.mp3",
+      "speaker": "الحاج أمين الحسيني",
+      "decision": "quarantine",
+      "reason": "أمين الحسيني: لا خطاب بعينه أو حدث أو تفريغ أو رخصة محددة. مواد الحرب القديمة قد تنطوي على إنتاج إذاعي ودعاية وحقوق متعددة؛ لا يكفي وصف وثائق مؤتمر تاريخي.",
+      "reviewStatus": "unverified",
+      "listeningReviewed": false,
+      "replacement": {
+        "id": "character_voice-hard-0011",
+        "categoryId": "character_voice",
+        "difficulty": "hard",
+        "text": "استمع إلى المقطع: من صاحب هذا الصوت؟",
+        "answer": "الحاج أمين الحسيني",
+        "acceptedAnswers": [
+          "أمين الحسيني",
+          "الحاج امين الحسيني",
+          "مفتي القدس أمين الحسيني"
+        ],
+        "hint": "شخصية فلسطينية شاركت في الحياة السياسية والدينية في زمن الانتداب.",
+        "clues": [],
+        "explanation": "تعذر إثبات أن التسجيل المرفق يعود إلى الحاج أمين الحسيني من مصدر صوتي موثق يسمح بإعادة استخدامه؛ ليس سؤالًا معتمدًا، ولا يجوز تشغيله أو نسبته إليه قبل استكمال الإثبات والمراجعة السمعية.",
+        "sources": [],
+        "options": [
+          {
+            "id": "A",
+            "text": "عز الدين القسام"
+          },
+          {
+            "id": "B",
+            "text": "موسى كاظم الحسيني"
+          },
+          {
+            "id": "C",
+            "text": "الحاج أمين الحسيني"
+          },
+          {
+            "id": "D",
+            "text": "أحمد حلمي عبد الباقي"
+          },
+          {
+            "id": "E",
+            "text": "عبد القادر الحسيني"
+          },
+          {
+            "id": "F",
+            "text": "راغب النشاشيبي"
+          }
+        ],
+        "correctOptionId": "C",
+        "qualityStatus": "quarantined",
+        "usageId": "107764819546839822996883070632535326687",
+        "audio": {
+          "assetPath": "assets/question_audio/voice-037.mp3",
+          "durationMs": 0,
+          "attribution": "",
+          "sourceUrl": "",
+          "license": "",
+          "reviewStatus": "unverified",
+          "speaker": "الحاج أمين الحسيني",
+          "recordingId": "",
+          "licenseUrl": "",
+          "sourceStartMs": 0,
+          "sourceEndMs": 0,
+          "transcript": ""
+        },
+        "qualityReasons": [
+          "أمين الحسيني: لا خطاب بعينه أو حدث أو تفريغ أو رخصة محددة. مواد الحرب القديمة قد تنطوي على إنتاج إذاعي ودعاية وحقوق متعددة؛ لا يكفي وصف وثائق مؤتمر تاريخي."
+        ]
+      }
+    },
+    {
+      "questionId": "character_voice-hard-0012",
+      "usageId": "49836434652227910229260900842036406498",
+      "assetPath": "assets/question_audio/voice-038.mp3",
+      "speaker": "د. عبد الرحمن بدوي",
+      "decision": "quarantine",
+      "reason": "عبد الرحمن بدوي: رابط المقابلة الفلسفية العام لا يثبت ملفًا أصليًا أو جهة إنتاج وحق توزيع. السؤال يسمي الاتجاه الفلسفي قبل الصوت، ولا توجد مادة صوتية موثقة لإصلاح نسبتها.",
+      "reviewStatus": "unverified",
+      "listeningReviewed": false,
+      "replacement": {
+        "id": "character_voice-hard-0012",
+        "categoryId": "character_voice",
+        "difficulty": "hard",
+        "text": "استمع إلى المقطع: من صاحب هذا الصوت؟",
+        "answer": "د. عبد الرحمن بدوي",
+        "acceptedAnswers": [
+          "عبد الرحمن بدوي",
+          "عبدالرحمن بدوي",
+          "دكتور عبد الرحمن بدوي"
+        ],
+        "hint": "أكاديمي مصري اهتم بالفلسفة وترجمة التراث الفكري.",
+        "clues": [],
+        "explanation": "تعذر إثبات أن التسجيل المرفق يعود إلى د. عبد الرحمن بدوي من مصدر صوتي موثق يسمح بإعادة استخدامه؛ ليس سؤالًا معتمدًا، ولا يجوز تشغيله أو نسبته إليه قبل استكمال الإثبات والمراجعة السمعية.",
+        "sources": [],
+        "options": [
+          {
+            "id": "A",
+            "text": "د. مراد وهبة"
+          },
+          {
+            "id": "B",
+            "text": "د. عبد الرحمن بدوي"
+          },
+          {
+            "id": "C",
+            "text": "د. حسن حنفي"
+          },
+          {
+            "id": "D",
+            "text": "د. فؤاد زكريا"
+          },
+          {
+            "id": "E",
+            "text": "د. عاطف العراقي"
+          },
+          {
+            "id": "F",
+            "text": "د. توفيق الطويل"
+          }
+        ],
+        "correctOptionId": "B",
+        "qualityStatus": "quarantined",
+        "usageId": "49836434652227910229260900842036406498",
+        "audio": {
+          "assetPath": "assets/question_audio/voice-038.mp3",
+          "durationMs": 0,
+          "attribution": "",
+          "sourceUrl": "",
+          "license": "",
+          "reviewStatus": "unverified",
+          "speaker": "د. عبد الرحمن بدوي",
+          "recordingId": "",
+          "licenseUrl": "",
+          "sourceStartMs": 0,
+          "sourceEndMs": 0,
+          "transcript": ""
+        },
+        "qualityReasons": [
+          "عبد الرحمن بدوي: رابط المقابلة الفلسفية العام لا يثبت ملفًا أصليًا أو جهة إنتاج وحق توزيع. السؤال يسمي الاتجاه الفلسفي قبل الصوت، ولا توجد مادة صوتية موثقة لإصلاح نسبتها."
+        ]
+      }
+    },
+    {
+      "questionId": "character_voice-legendary-0001",
+      "usageId": "137230988816953275732207732201059509037",
+      "assetPath": "assets/question_audio/voice-039.mp3",
+      "speaker": "الشريف حسين بن علي",
+      "decision": "quarantine",
+      "reason": "الشريف حسين: زعم أسطوانة 1917 فائق الندرة بلا سجل أرشيف أولي أو بيانات شركة أسطوانات. لا يثبت عمر السنة وجود الصوت أو هوية صاحبه؛ لا يعتمد تمثيل أو قراءة لاحقة.",
+      "reviewStatus": "unverified",
+      "listeningReviewed": false,
+      "replacement": {
+        "id": "character_voice-legendary-0001",
+        "categoryId": "character_voice",
+        "difficulty": "legendary",
+        "text": "استمع إلى المقطع: من صاحب هذا الصوت؟",
+        "answer": "الشريف حسين بن علي",
+        "acceptedAnswers": [
+          "الشريف حسين",
+          "شريف مكة الحسين بن علي",
+          "الحسين بن علي"
+        ],
+        "hint": "شخصية هاشمية ارتبطت بالحجاز والسياسة العربية في مطلع القرن العشرين.",
+        "clues": [],
+        "explanation": "تعذر إثبات أن التسجيل المرفق يعود إلى الشريف حسين بن علي من مصدر صوتي موثق يسمح بإعادة استخدامه؛ ليس سؤالًا معتمدًا، ولا يجوز تشغيله أو نسبته إليه قبل استكمال الإثبات والمراجعة السمعية.",
+        "sources": [],
+        "options": [
+          {
+            "id": "A",
+            "text": "الشريف علي حيدر"
+          },
+          {
+            "id": "B",
+            "text": "الشريف حسين بن علي"
+          },
+          {
+            "id": "C",
+            "text": "الملك فيصل الأول"
+          },
+          {
+            "id": "D",
+            "text": "الأمير زيد بن الحسين"
+          },
+          {
+            "id": "E",
+            "text": "الملك عبد الله الأول"
+          },
+          {
+            "id": "F",
+            "text": "الشريف شرف بن راجح"
+          }
+        ],
+        "correctOptionId": "B",
+        "qualityStatus": "quarantined",
+        "usageId": "137230988816953275732207732201059509037",
+        "audio": {
+          "assetPath": "assets/question_audio/voice-039.mp3",
+          "durationMs": 0,
+          "attribution": "",
+          "sourceUrl": "",
+          "license": "",
+          "reviewStatus": "unverified",
+          "speaker": "الشريف حسين بن علي",
+          "recordingId": "",
+          "licenseUrl": "",
+          "sourceStartMs": 0,
+          "sourceEndMs": 0,
+          "transcript": ""
+        },
+        "qualityReasons": [
+          "الشريف حسين: زعم أسطوانة 1917 فائق الندرة بلا سجل أرشيف أولي أو بيانات شركة أسطوانات. لا يثبت عمر السنة وجود الصوت أو هوية صاحبه؛ لا يعتمد تمثيل أو قراءة لاحقة."
+        ]
+      }
+    },
+    {
+      "questionId": "character_voice-legendary-0002",
+      "usageId": "147317542783881650169206591696918819668",
+      "assetPath": "assets/question_audio/voice-040.mp3",
+      "speaker": "رياض الصلح",
+      "decision": "quarantine",
+      "reason": "رياض الصلح: لا دليل محدد على خطاب الاستقلال المسموع أو مصدر ملفه وترخيصه. الوصف الوطني والتأسيسي لا يساوي رخصة، والمقولة المضمنة تحتاج تحققًا منفصلاً ولا تثبت الصوت.",
+      "reviewStatus": "unverified",
+      "listeningReviewed": false,
+      "replacement": {
+        "id": "character_voice-legendary-0002",
+        "categoryId": "character_voice",
+        "difficulty": "legendary",
+        "text": "استمع إلى المقطع: من صاحب هذا الصوت؟",
+        "answer": "رياض الصلح",
+        "acceptedAnswers": [
+          "رياض الصلح",
+          "دولة الرئيس رياض الصلح"
+        ],
+        "hint": "سياسي لبناني شارك في الحياة العامة خلال مرحلة الانتقال إلى الاستقلال.",
+        "clues": [],
+        "explanation": "تعذر إثبات أن التسجيل المرفق يعود إلى رياض الصلح من مصدر صوتي موثق يسمح بإعادة استخدامه؛ ليس سؤالًا معتمدًا، ولا يجوز تشغيله أو نسبته إليه قبل استكمال الإثبات والمراجعة السمعية.",
+        "sources": [],
+        "options": [
+          {
+            "id": "A",
+            "text": "بشارة الخوري"
+          },
+          {
+            "id": "B",
+            "text": "رياض الصلح"
+          },
+          {
+            "id": "C",
+            "text": "كميل شمعون"
+          },
+          {
+            "id": "D",
+            "text": "عبد الحميد كرامي"
+          },
+          {
+            "id": "E",
+            "text": "صائب سلام"
+          },
+          {
+            "id": "F",
+            "text": "سليم الحص"
+          }
+        ],
+        "correctOptionId": "B",
+        "qualityStatus": "quarantined",
+        "usageId": "147317542783881650169206591696918819668",
+        "audio": {
+          "assetPath": "assets/question_audio/voice-040.mp3",
+          "durationMs": 0,
+          "attribution": "",
+          "sourceUrl": "",
+          "license": "",
+          "reviewStatus": "unverified",
+          "speaker": "رياض الصلح",
+          "recordingId": "",
+          "licenseUrl": "",
+          "sourceStartMs": 0,
+          "sourceEndMs": 0,
+          "transcript": ""
+        },
+        "qualityReasons": [
+          "رياض الصلح: لا دليل محدد على خطاب الاستقلال المسموع أو مصدر ملفه وترخيصه. الوصف الوطني والتأسيسي لا يساوي رخصة، والمقولة المضمنة تحتاج تحققًا منفصلاً ولا تثبت الصوت."
+        ]
+      }
+    },
+    {
+      "questionId": "character_voice-legendary-0003",
+      "usageId": "154652641355672716565200469346049379326",
+      "assetPath": "assets/question_audio/voice-041.mp3",
+      "speaker": "الملك عبد العزيز آل سعود",
+      "decision": "quarantine",
+      "reason": "الملك عبد العزيز: لم يثبت تسجيل حواره في لقاء كوينسي 1945. تفريغ NARA للمادة المتاحة يصف راوياً ومترجماً عن اللقاء، لا مقطعاً بصوت الملك؛ لا أنسب رواية المعلق إليه أو أزعم أن مجرد ظهور صورته يثبت صوته.",
+      "reviewStatus": "unverified",
+      "listeningReviewed": false,
+      "replacement": {
+        "id": "character_voice-legendary-0003",
+        "categoryId": "character_voice",
+        "difficulty": "legendary",
+        "text": "استمع إلى المقطع: من صاحب هذا الصوت؟",
+        "answer": "الملك عبد العزيز آل سعود",
+        "acceptedAnswers": [
+          "الملك عبد العزيز",
+          "عبد العزيز بن عبد الرحمن",
+          "الملك عبدالعزيز",
+          "ابن سعود",
+          "الملك المؤسس عبد العزيز آل سعود"
+        ],
+        "hint": "شخصية من آل سعود ارتبطت بقيادة الدولة في النصف الأول من القرن العشرين.",
+        "clues": [],
+        "explanation": "تعذر إثبات أن التسجيل المرفق يعود إلى الملك عبد العزيز آل سعود من مصدر صوتي موثق يسمح بإعادة استخدامه؛ ليس سؤالًا معتمدًا، ولا يجوز تشغيله أو نسبته إليه قبل استكمال الإثبات والمراجعة السمعية.",
+        "sources": [],
+        "options": [
+          {
+            "id": "A",
+            "text": "الملك عبد العزيز آل سعود"
+          },
+          {
+            "id": "B",
+            "text": "الملك سعود بن عبد العزيز"
+          },
+          {
+            "id": "C",
+            "text": "الإمام عبد الرحمن بن فيصل"
+          },
+          {
+            "id": "D",
+            "text": "الملك فيصل بن عبد العزيز"
+          },
+          {
+            "id": "E",
+            "text": "الأمير محمد بن عبد الرحمن"
+          },
+          {
+            "id": "F",
+            "text": "الأمير عبد الله بن عبد الرحمن"
+          }
+        ],
+        "correctOptionId": "A",
+        "qualityStatus": "quarantined",
+        "usageId": "154652641355672716565200469346049379326",
+        "audio": {
+          "assetPath": "assets/question_audio/voice-041.mp3",
+          "durationMs": 0,
+          "attribution": "",
+          "sourceUrl": "",
+          "license": "",
+          "reviewStatus": "unverified",
+          "speaker": "الملك عبد العزيز آل سعود",
+          "recordingId": "",
+          "licenseUrl": "",
+          "sourceStartMs": 0,
+          "sourceEndMs": 0,
+          "transcript": ""
+        },
+        "qualityReasons": [
+          "الملك عبد العزيز: لم يثبت تسجيل حواره في لقاء كوينسي 1945. تفريغ NARA للمادة المتاحة يصف راوياً ومترجماً عن اللقاء، لا مقطعاً بصوت الملك؛ لا أنسب رواية المعلق إليه أو أزعم أن مجرد ظهور صورته يثبت صوته."
+        ]
+      }
+    },
+    {
+      "questionId": "character_voice-legendary-0004",
+      "usageId": "115252196620215182162311050430904633970",
+      "assetPath": "assets/question_audio/voice-042.mp3",
+      "speaker": "أحمد عرابي",
+      "decision": "quarantine",
+      "reason": "أحمد عرابي: لا سجل أولي للأسطوانة الشمعية المزعومة أو تفريغ مؤرخ أو صوت يمكن إثباته. الصيحة التاريخية على لسان ممثل ليست تسجيلًا له؛ يعزل السؤال ولا يصنع صوت تاريخي.",
+      "reviewStatus": "unverified",
+      "listeningReviewed": false,
+      "replacement": {
+        "id": "character_voice-legendary-0004",
+        "categoryId": "character_voice",
+        "difficulty": "legendary",
+        "text": "استمع إلى المقطع: من صاحب هذا الصوت؟",
+        "answer": "أحمد عرابي",
+        "acceptedAnswers": [
+          "أحمد عرابي",
+          "احمد عرابي",
+          "الزعيم أحمد عرابي",
+          "عرابي باشا"
+        ],
+        "hint": "شخصية مصرية شاركت في الحركة الوطنية خلال أواخر القرن التاسع عشر.",
+        "clues": [],
+        "explanation": "تعذر إثبات أن التسجيل المرفق يعود إلى أحمد عرابي من مصدر صوتي موثق يسمح بإعادة استخدامه؛ ليس سؤالًا معتمدًا، ولا يجوز تشغيله أو نسبته إليه قبل استكمال الإثبات والمراجعة السمعية.",
+        "sources": [],
+        "options": [
+          {
+            "id": "A",
+            "text": "علي فهمي باشا"
+          },
+          {
+            "id": "B",
+            "text": "محمود سامي البارودي"
+          },
+          {
+            "id": "C",
+            "text": "أحمد عرابي"
+          },
+          {
+            "id": "D",
+            "text": "عبد الله النديم"
+          },
+          {
+            "id": "E",
+            "text": "عبد العال حلمي"
+          },
+          {
+            "id": "F",
+            "text": "محمد عبده"
+          }
+        ],
+        "correctOptionId": "C",
+        "qualityStatus": "quarantined",
+        "usageId": "115252196620215182162311050430904633970",
+        "audio": {
+          "assetPath": "assets/question_audio/voice-042.mp3",
+          "durationMs": 0,
+          "attribution": "",
+          "sourceUrl": "",
+          "license": "",
+          "reviewStatus": "unverified",
+          "speaker": "أحمد عرابي",
+          "recordingId": "",
+          "licenseUrl": "",
+          "sourceStartMs": 0,
+          "sourceEndMs": 0,
+          "transcript": ""
+        },
+        "qualityReasons": [
+          "أحمد عرابي: لا سجل أولي للأسطوانة الشمعية المزعومة أو تفريغ مؤرخ أو صوت يمكن إثباته. الصيحة التاريخية على لسان ممثل ليست تسجيلًا له؛ يعزل السؤال ولا يصنع صوت تاريخي."
+        ]
+      }
+    },
+    {
+      "questionId": "character_voice-legendary-0005",
+      "usageId": "162807230246764797870355303821082275274",
+      "assetPath": "assets/question_audio/voice-043.mp3",
+      "speaker": "ميخائيل نعيمة",
+      "decision": "quarantine",
+      "reason": "ميخائيل نعيمة: لا لقاء محدد موثق أو حق إذاعي واضح. وصف إذاعة تراثية وCC بلا إصدار ليس رخصة، ولا تثبت قراءة نص مرداد أو الغربال هوية القارئ.",
+      "reviewStatus": "unverified",
+      "listeningReviewed": false,
+      "replacement": {
+        "id": "character_voice-legendary-0005",
+        "categoryId": "character_voice",
+        "difficulty": "legendary",
+        "text": "استمع إلى المقطع: من صاحب هذا الصوت؟",
+        "answer": "ميخائيل نعيمة",
+        "acceptedAnswers": [
+          "ميخائيل نعيمه",
+          "نعيمة",
+          "المفكر ميخائيل نعيمة"
+        ],
+        "hint": "أديب مهجري لبناني جمع بين الكتابة والتأمل الفكري.",
+        "clues": [],
+        "explanation": "تعذر إثبات أن التسجيل المرفق يعود إلى ميخائيل نعيمة من مصدر صوتي موثق يسمح بإعادة استخدامه؛ ليس سؤالًا معتمدًا، ولا يجوز تشغيله أو نسبته إليه قبل استكمال الإثبات والمراجعة السمعية.",
+        "sources": [],
+        "options": [
+          {
+            "id": "A",
+            "text": "أمين الريحاني"
+          },
+          {
+            "id": "B",
+            "text": "ميخائيل نعيمة"
+          },
+          {
+            "id": "C",
+            "text": "إيليا أبو ماضي"
+          },
+          {
+            "id": "D",
+            "text": "نسيب عريضة"
+          },
+          {
+            "id": "E",
+            "text": "رشيد أيوب"
+          },
+          {
+            "id": "F",
+            "text": "ندرة حداد"
+          }
+        ],
+        "correctOptionId": "B",
+        "qualityStatus": "quarantined",
+        "usageId": "162807230246764797870355303821082275274",
+        "audio": {
+          "assetPath": "assets/question_audio/voice-043.mp3",
+          "durationMs": 0,
+          "attribution": "",
+          "sourceUrl": "",
+          "license": "",
+          "reviewStatus": "unverified",
+          "speaker": "ميخائيل نعيمة",
+          "recordingId": "",
+          "licenseUrl": "",
+          "sourceStartMs": 0,
+          "sourceEndMs": 0,
+          "transcript": ""
+        },
+        "qualityReasons": [
+          "ميخائيل نعيمة: لا لقاء محدد موثق أو حق إذاعي واضح. وصف إذاعة تراثية وCC بلا إصدار ليس رخصة، ولا تثبت قراءة نص مرداد أو الغربال هوية القارئ."
+        ]
+      }
+    },
+    {
+      "questionId": "character_voice-legendary-0006",
+      "usageId": "95472949109802007210768076466441619235",
+      "assetPath": "assets/question_audio/voice-044.mp3",
+      "speaker": "الشيخ محمد رفعت",
+      "decision": "quarantine",
+      "reason": "محمد رفعت: أداة التجهيز تقصد تلاوة الفاتحة، بينما السؤال والتفسير يدعيان حديثًا عن أمانة التلاوة. تاريخ افتتاح الإذاعة لا يثبت أن هذا التسجيل حديث نثري له أو أن حقوقه انتهت.",
+      "reviewStatus": "unverified",
+      "listeningReviewed": false,
+      "replacement": {
+        "id": "character_voice-legendary-0006",
+        "categoryId": "character_voice",
+        "difficulty": "legendary",
+        "text": "استمع إلى المقطع: من صاحب هذا الصوت؟",
+        "answer": "الشيخ محمد رفعت",
+        "acceptedAnswers": [
+          "محمد رفعت",
+          "الشيخ محمد رفعت",
+          "قيثارة السماء",
+          "الشيخ محمد رفعت (قيثارة السماء)"
+        ],
+        "hint": "قارئ مصري من جيل التسجيلات المبكرة وبدايات الإذاعة.",
+        "clues": [],
+        "explanation": "تعذر إثبات أن التسجيل المرفق يعود إلى الشيخ محمد رفعت من مصدر صوتي موثق يسمح بإعادة استخدامه؛ ليس سؤالًا معتمدًا، ولا يجوز تشغيله أو نسبته إليه قبل استكمال الإثبات والمراجعة السمعية.",
+        "sources": [],
+        "options": [
+          {
+            "id": "A",
+            "text": "الشيخ علي محمود"
+          },
+          {
+            "id": "B",
+            "text": "الشيخ محمد رفعت"
+          },
+          {
+            "id": "C",
+            "text": "الشيخ منصور بدار"
+          },
+          {
+            "id": "D",
+            "text": "الشيخ أحمد ندا"
+          },
+          {
+            "id": "E",
+            "text": "الشيخ محمد الصيفي"
+          },
+          {
+            "id": "F",
+            "text": "الشيخ عبد الفتاح الشعشاعي"
+          }
+        ],
+        "correctOptionId": "B",
+        "qualityStatus": "quarantined",
+        "usageId": "95472949109802007210768076466441619235",
+        "audio": {
+          "assetPath": "assets/question_audio/voice-044.mp3",
+          "durationMs": 0,
+          "attribution": "",
+          "sourceUrl": "",
+          "license": "",
+          "reviewStatus": "unverified",
+          "speaker": "الشيخ محمد رفعت",
+          "recordingId": "",
+          "licenseUrl": "",
+          "sourceStartMs": 0,
+          "sourceEndMs": 0,
+          "transcript": ""
+        },
+        "qualityReasons": [
+          "محمد رفعت: أداة التجهيز تقصد تلاوة الفاتحة، بينما السؤال والتفسير يدعيان حديثًا عن أمانة التلاوة. تاريخ افتتاح الإذاعة لا يثبت أن هذا التسجيل حديث نثري له أو أن حقوقه انتهت."
+        ]
+      }
+    },
+    {
+      "questionId": "character_voice-legendary-0007",
+      "usageId": "30218162775169964694463256179324370599",
+      "assetPath": "assets/question_audio/voice-045.mp3",
+      "speaker": "د. علي مصطفى مشرفة",
+      "decision": "quarantine",
+      "reason": "مشرفة: لا مصدر أولي لتبسيطه الإذاعي المزعوم عام 1948 أو نص الكلام وحقوقه. لا تثبت الألقاب والتشبيه بأينشتاين هوية الصوت، ولا أقبل ملء الملف بصوت عالم مختلف.",
+      "reviewStatus": "unverified",
+      "listeningReviewed": false,
+      "replacement": {
+        "id": "character_voice-legendary-0007",
+        "categoryId": "character_voice",
+        "difficulty": "legendary",
+        "text": "استمع إلى المقطع: من صاحب هذا الصوت؟",
+        "answer": "د. علي مصطفى مشرفة",
+        "acceptedAnswers": [
+          "علي مصطفى مشرفة",
+          "علي مصطفى مشرفه",
+          "دكتور مشرفة",
+          "علي مشرفة",
+          "د. علي مصطفى مشرفة (أينشتاين العرب)"
+        ],
+        "hint": "باحث مصري اهتم بالعلوم والرياضيات في القرن العشرين.",
+        "clues": [],
+        "explanation": "تعذر إثبات أن التسجيل المرفق يعود إلى د. علي مصطفى مشرفة من مصدر صوتي موثق يسمح بإعادة استخدامه؛ ليس سؤالًا معتمدًا، ولا يجوز تشغيله أو نسبته إليه قبل استكمال الإثبات والمراجعة السمعية.",
+        "sources": [],
+        "options": [
+          {
+            "id": "A",
+            "text": "د. سميرة موسى"
+          },
+          {
+            "id": "B",
+            "text": "د. علي مصطفى مشرفة"
+          },
+          {
+            "id": "C",
+            "text": "د. مصطفى نظيف"
+          },
+          {
+            "id": "D",
+            "text": "د. يحيى المشد"
+          },
+          {
+            "id": "E",
+            "text": "د. إبراهيم أدهم الدمرداش"
+          },
+          {
+            "id": "F",
+            "text": "د. أحمد مستجير"
+          }
+        ],
+        "correctOptionId": "B",
+        "qualityStatus": "quarantined",
+        "usageId": "30218162775169964694463256179324370599",
+        "audio": {
+          "assetPath": "assets/question_audio/voice-045.mp3",
+          "durationMs": 0,
+          "attribution": "",
+          "sourceUrl": "",
+          "license": "",
+          "reviewStatus": "unverified",
+          "speaker": "د. علي مصطفى مشرفة",
+          "recordingId": "",
+          "licenseUrl": "",
+          "sourceStartMs": 0,
+          "sourceEndMs": 0,
+          "transcript": ""
+        },
+        "qualityReasons": [
+          "مشرفة: لا مصدر أولي لتبسيطه الإذاعي المزعوم عام 1948 أو نص الكلام وحقوقه. لا تثبت الألقاب والتشبيه بأينشتاين هوية الصوت، ولا أقبل ملء الملف بصوت عالم مختلف."
+        ]
+      }
+    },
+    {
+      "questionId": "character_voice-legendary-0008",
+      "usageId": "45132875810808966840522126409079207192",
+      "assetPath": "assets/question_audio/voice-046.mp3",
+      "speaker": "ساطع الحصري",
+      "decision": "quarantine",
+      "reason": "ساطع الحصري: لا مؤتمر معرّب بعينه أو مصدر مسموع وتفريغ وترخيص مطابق. نص التعريف يحدد اسمه تقريبًا؛ لا توجد سلسلة مصدر تتيح تصحيح الملف الحالي.",
+      "reviewStatus": "unverified",
+      "listeningReviewed": false,
+      "replacement": {
+        "id": "character_voice-legendary-0008",
+        "categoryId": "character_voice",
+        "difficulty": "legendary",
+        "text": "استمع إلى المقطع: من صاحب هذا الصوت؟",
+        "answer": "ساطع الحصري",
+        "acceptedAnswers": [
+          "ساطع الحصري",
+          "ساطع الحصري (أبو خلدون)",
+          "أبو خلدون الحصري"
+        ],
+        "hint": "مفكر عربي اهتم بالتعليم واللغة وقضايا المجتمع.",
+        "clues": [],
+        "explanation": "تعذر إثبات أن التسجيل المرفق يعود إلى ساطع الحصري من مصدر صوتي موثق يسمح بإعادة استخدامه؛ ليس سؤالًا معتمدًا، ولا يجوز تشغيله أو نسبته إليه قبل استكمال الإثبات والمراجعة السمعية.",
+        "sources": [],
+        "options": [
+          {
+            "id": "A",
+            "text": "شكيب أرسلان"
+          },
+          {
+            "id": "B",
+            "text": "ساطع الحصري"
+          },
+          {
+            "id": "C",
+            "text": "قسطنطين زريق"
+          },
+          {
+            "id": "D",
+            "text": "نجيب عازوري"
+          },
+          {
+            "id": "E",
+            "text": "عبد الرحمن الكواكبي"
+          },
+          {
+            "id": "F",
+            "text": "رشيد رضا"
+          }
+        ],
+        "correctOptionId": "B",
+        "qualityStatus": "quarantined",
+        "usageId": "45132875810808966840522126409079207192",
+        "audio": {
+          "assetPath": "assets/question_audio/voice-046.mp3",
+          "durationMs": 0,
+          "attribution": "",
+          "sourceUrl": "",
+          "license": "",
+          "reviewStatus": "unverified",
+          "speaker": "ساطع الحصري",
+          "recordingId": "",
+          "licenseUrl": "",
+          "sourceStartMs": 0,
+          "sourceEndMs": 0,
+          "transcript": ""
+        },
+        "qualityReasons": [
+          "ساطع الحصري: لا مؤتمر معرّب بعينه أو مصدر مسموع وتفريغ وترخيص مطابق. نص التعريف يحدد اسمه تقريبًا؛ لا توجد سلسلة مصدر تتيح تصحيح الملف الحالي."
+        ]
+      }
+    },
+    {
+      "questionId": "character_voice-legendary-0009",
+      "usageId": "98611460393306177910583803276123927570",
+      "assetPath": "assets/question_audio/voice-047.mp3",
+      "speaker": "الشيخ محمود خليل الحصري",
+      "decision": "quarantine",
+      "reason": "الحصري: رابط التجهيز لتلاوة لا يثبت الحديث النثري الموصوف في السؤال. لا توجد مقابلة محددة أو حقوق مثبتة؛ لا تصير التسجيلات متاحة لإعادة التوزيع لمجرد نسبتها لإذاعة القرآن.",
+      "reviewStatus": "unverified",
+      "listeningReviewed": false,
+      "replacement": {
+        "id": "character_voice-legendary-0009",
+        "categoryId": "character_voice",
+        "difficulty": "legendary",
+        "text": "استمع إلى المقطع: من صاحب هذا الصوت؟",
+        "answer": "الشيخ محمود خليل الحصري",
+        "acceptedAnswers": [
+          "محمود خليل الحصري",
+          "الشيخ الحصري",
+          "الحصري"
+        ],
+        "hint": "قارئ مصري اهتم بالتلاوة وضبط الأداء القرآني.",
+        "clues": [],
+        "explanation": "تعذر إثبات أن التسجيل المرفق يعود إلى الشيخ محمود خليل الحصري من مصدر صوتي موثق يسمح بإعادة استخدامه؛ ليس سؤالًا معتمدًا، ولا يجوز تشغيله أو نسبته إليه قبل استكمال الإثبات والمراجعة السمعية.",
+        "sources": [],
+        "options": [
+          {
+            "id": "A",
+            "text": "الشيخ عبد الفتاح الشعشاعي"
+          },
+          {
+            "id": "B",
+            "text": "الشيخ محمود خليل الحصري"
+          },
+          {
+            "id": "C",
+            "text": "الشيخ كامل يوسف البهتيمي"
+          },
+          {
+            "id": "D",
+            "text": "الشيخ أحمد الرزيقي"
+          },
+          {
+            "id": "E",
+            "text": "الشيخ شعبان الصياد"
+          },
+          {
+            "id": "F",
+            "text": "الشيخ طه الفشني"
+          }
+        ],
+        "correctOptionId": "B",
+        "qualityStatus": "quarantined",
+        "usageId": "98611460393306177910583803276123927570",
+        "audio": {
+          "assetPath": "assets/question_audio/voice-047.mp3",
+          "durationMs": 0,
+          "attribution": "",
+          "sourceUrl": "",
+          "license": "",
+          "reviewStatus": "unverified",
+          "speaker": "الشيخ محمود خليل الحصري",
+          "recordingId": "",
+          "licenseUrl": "",
+          "sourceStartMs": 0,
+          "sourceEndMs": 0,
+          "transcript": ""
+        },
+        "qualityReasons": [
+          "الحصري: رابط التجهيز لتلاوة لا يثبت الحديث النثري الموصوف في السؤال. لا توجد مقابلة محددة أو حقوق مثبتة؛ لا تصير التسجيلات متاحة لإعادة التوزيع لمجرد نسبتها لإذاعة القرآن."
+        ]
+      }
+    },
+    {
+      "questionId": "character_voice-legendary-0010",
+      "usageId": "95656287766275856751009506622793108812",
+      "assetPath": "assets/question_audio/voice-048.mp3",
+      "speaker": "مكرم عبيد باشا",
+      "decision": "quarantine",
+      "reason": "مكرم عبيد: لا ملف أصلي أو خطاب مؤرخ يثبت الصوت أو المقولة المنسوبة ضمن التلميح. وصف الحركة الوطنية لا يرخص تسجيلًا ولا يثبت أن المتكلم هو عبيد.",
+      "reviewStatus": "unverified",
+      "listeningReviewed": false,
+      "replacement": {
+        "id": "character_voice-legendary-0010",
+        "categoryId": "character_voice",
+        "difficulty": "legendary",
+        "text": "استمع إلى المقطع: من صاحب هذا الصوت؟",
+        "answer": "مكرم عبيد باشا",
+        "acceptedAnswers": [
+          "مكرم عبيد",
+          "مكرم باشا عبيد",
+          "وليم مكرم عبيد"
+        ],
+        "hint": "شخصية سياسية مصرية شاركت في العمل الوطني والبرلماني.",
+        "clues": [],
+        "explanation": "تعذر إثبات أن التسجيل المرفق يعود إلى مكرم عبيد باشا من مصدر صوتي موثق يسمح بإعادة استخدامه؛ ليس سؤالًا معتمدًا، ولا يجوز تشغيله أو نسبته إليه قبل استكمال الإثبات والمراجعة السمعية.",
+        "sources": [],
+        "options": [
+          {
+            "id": "A",
+            "text": "بطرس غالي باشا"
+          },
+          {
+            "id": "B",
+            "text": "مكرم عبيد باشا"
+          },
+          {
+            "id": "C",
+            "text": "واصف بطرس غالي"
+          },
+          {
+            "id": "D",
+            "text": "سينوت حنا باشا"
+          },
+          {
+            "id": "E",
+            "text": "سري باشا"
+          },
+          {
+            "id": "F",
+            "text": "فخري عبد النور"
+          }
+        ],
+        "correctOptionId": "B",
+        "qualityStatus": "quarantined",
+        "usageId": "95656287766275856751009506622793108812",
+        "audio": {
+          "assetPath": "assets/question_audio/voice-048.mp3",
+          "durationMs": 0,
+          "attribution": "",
+          "sourceUrl": "",
+          "license": "",
+          "reviewStatus": "unverified",
+          "speaker": "مكرم عبيد باشا",
+          "recordingId": "",
+          "licenseUrl": "",
+          "sourceStartMs": 0,
+          "sourceEndMs": 0,
+          "transcript": ""
+        },
+        "qualityReasons": [
+          "مكرم عبيد: لا ملف أصلي أو خطاب مؤرخ يثبت الصوت أو المقولة المنسوبة ضمن التلميح. وصف الحركة الوطنية لا يرخص تسجيلًا ولا يثبت أن المتكلم هو عبيد."
+        ]
+      }
+    },
+    {
+      "questionId": "character_voice-legendary-0011",
+      "usageId": "125329361526358680390520171547961989430",
+      "assetPath": "assets/question_audio/voice-049.mp3",
+      "speaker": "الملك محمد الخامس",
+      "decision": "quarantine",
+      "reason": "محمد الخامس: لا مصدر صوتي محدد يثبت خطاب إعلان الاستقلال وتاريخه ونصه وحقوقه. نسبة مادة إلى الأرشيف الملكي أو التلفزيون لا تثبت الإذن بالتضمين في اللعبة.",
+      "reviewStatus": "unverified",
+      "listeningReviewed": false,
+      "replacement": {
+        "id": "character_voice-legendary-0011",
+        "categoryId": "character_voice",
+        "difficulty": "legendary",
+        "text": "استمع إلى المقطع: من صاحب هذا الصوت؟",
+        "answer": "الملك محمد الخامس",
+        "acceptedAnswers": [
+          "محمد الخامس",
+          "الملك محمد الخامس بن يوسف",
+          "السلطان محمد الخامس"
+        ],
+        "hint": "شخصية من الأسرة العلوية المغربية ارتبطت بتاريخ البلاد الحديث.",
+        "clues": [],
+        "explanation": "تعذر إثبات أن التسجيل المرفق يعود إلى الملك محمد الخامس من مصدر صوتي موثق يسمح بإعادة استخدامه؛ ليس سؤالًا معتمدًا، ولا يجوز تشغيله أو نسبته إليه قبل استكمال الإثبات والمراجعة السمعية.",
+        "sources": [],
+        "options": [
+          {
+            "id": "A",
+            "text": "الملك الحسن الثاني"
+          },
+          {
+            "id": "B",
+            "text": "السلطان يوسف بن الحسن"
+          },
+          {
+            "id": "C",
+            "text": "الملك محمد الخامس"
+          },
+          {
+            "id": "D",
+            "text": "السلطان عبد الحفيظ"
+          },
+          {
+            "id": "E",
+            "text": "السلطان عبد العزيز"
+          },
+          {
+            "id": "F",
+            "text": "الأمير مولاي عبد الله"
+          }
+        ],
+        "correctOptionId": "C",
+        "qualityStatus": "quarantined",
+        "usageId": "125329361526358680390520171547961989430",
+        "audio": {
+          "assetPath": "assets/question_audio/voice-049.mp3",
+          "durationMs": 0,
+          "attribution": "",
+          "sourceUrl": "",
+          "license": "",
+          "reviewStatus": "unverified",
+          "speaker": "الملك محمد الخامس",
+          "recordingId": "",
+          "licenseUrl": "",
+          "sourceStartMs": 0,
+          "sourceEndMs": 0,
+          "transcript": ""
+        },
+        "qualityReasons": [
+          "محمد الخامس: لا مصدر صوتي محدد يثبت خطاب إعلان الاستقلال وتاريخه ونصه وحقوقه. نسبة مادة إلى الأرشيف الملكي أو التلفزيون لا تثبت الإذن بالتضمين في اللعبة."
+        ]
+      }
+    },
+    {
+      "questionId": "character_voice-legendary-0012",
+      "usageId": "82750739699673788491009343144399772056",
+      "assetPath": "assets/question_audio/voice-050.mp3",
+      "speaker": "الشيخ محمد الطاهر بن عاشور",
+      "decision": "quarantine",
+      "reason": "ابن عاشور: لا درس زيتوني مؤرخ أو ملف أصلي أو ترخيص يدعم التسجيل المزعوم. لا يصح إسناد درس قارئ أو مدرس لاحق إليه لأن عنوانه مقاصد الشريعة، والسؤال نفسه يسمي تفسيره الكاشف للهوية.",
+      "reviewStatus": "unverified",
+      "listeningReviewed": false,
+      "replacement": {
+        "id": "character_voice-legendary-0012",
+        "categoryId": "character_voice",
+        "difficulty": "legendary",
+        "text": "استمع إلى المقطع: من صاحب هذا الصوت؟",
+        "answer": "الشيخ محمد الطاهر بن عاشور",
+        "acceptedAnswers": [
+          "ابن عاشور",
+          "الطاهر بن عاشور",
+          "محمد الطاهر بن عاشور",
+          "الشيخ ابن عاشور"
+        ],
+        "hint": "عالم تونسي ارتبط بالتعليم الديني والإصلاح في بيئة جامع الزيتونة.",
+        "clues": [],
+        "explanation": "تعذر إثبات أن التسجيل المرفق يعود إلى الشيخ محمد الطاهر بن عاشور من مصدر صوتي موثق يسمح بإعادة استخدامه؛ ليس سؤالًا معتمدًا، ولا يجوز تشغيله أو نسبته إليه قبل استكمال الإثبات والمراجعة السمعية.",
+        "sources": [],
+        "options": [
+          {
+            "id": "A",
+            "text": "الشيخ عبد العزيز جعيط"
+          },
+          {
+            "id": "B",
+            "text": "الشيخ محمد الطاهر بن عاشور"
+          },
+          {
+            "id": "C",
+            "text": "الشيخ محمد الخضر حسين"
+          },
+          {
+            "id": "D",
+            "text": "الشيخ محمد الفاضل بن عاشور"
+          },
+          {
+            "id": "E",
+            "text": "الشيخ سالم بوحاجب"
+          },
+          {
+            "id": "F",
+            "text": "الشيخ محمد بيرم الخامس"
+          }
+        ],
+        "correctOptionId": "B",
+        "qualityStatus": "quarantined",
+        "usageId": "82750739699673788491009343144399772056",
+        "audio": {
+          "assetPath": "assets/question_audio/voice-050.mp3",
+          "durationMs": 0,
+          "attribution": "",
+          "sourceUrl": "",
+          "license": "",
+          "reviewStatus": "unverified",
+          "speaker": "الشيخ محمد الطاهر بن عاشور",
+          "recordingId": "",
+          "licenseUrl": "",
+          "sourceStartMs": 0,
+          "sourceEndMs": 0,
+          "transcript": ""
+        },
+        "qualityReasons": [
+          "ابن عاشور: لا درس زيتوني مؤرخ أو ملف أصلي أو ترخيص يدعم التسجيل المزعوم. لا يصح إسناد درس قارئ أو مدرس لاحق إليه لأن عنوانه مقاصد الشريعة، والسؤال نفسه يسمي تفسيره الكاشف للهوية."
+        ]
+      }
+    }
+  ]
+}
