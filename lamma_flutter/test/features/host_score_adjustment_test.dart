@@ -13,12 +13,12 @@ void main() {
     final vm = surprise.model('bonus_20');
     addTearDown(vm.dispose);
     surprise.openQuestion(vm);
-    expect(vm.state.teams.first.score, 320);
+    expect(vm.state.teams.first.score, 500);
     expect(
       vm.setTeamScores({'a': 750, 'b': -50}, expectedScores: scores(vm)),
       true,
     );
-    expect(vm.state.roundData['roundStartingScores'], {'a': 730, 'b': -50});
+    expect(vm.state.roundData['roundStartingScores'], {'a': 550, 'b': -50});
     vm.showAnswer();
     vm.awardAnswer('a');
     expect(scores(vm), {'a': 1150, 'b': -50});
@@ -125,4 +125,20 @@ void main() {
       expect(SessionSave.fromJson(json).state.scoreAdjustments, isEmpty);
     },
   );
+  test('adjustTeamScore adjusts score by +/- 50 atomically with audit logging', () {
+    final vm = managementModel();
+    addTearDown(vm.dispose);
+    final initialA = vm.state.teams[0].score;
+    final initialB = vm.state.teams[1].score;
+
+    expect(vm.adjustTeamScore('a', 50), isTrue);
+    expect(vm.state.teams[0].score, initialA + 50);
+    expect(vm.state.scoreAdjustments.last.delta, 50);
+
+    expect(vm.adjustTeamScore('b', -50), isTrue);
+    expect(vm.state.teams[1].score, initialB - 50);
+    expect(vm.state.scoreAdjustments.last.delta, -50);
+
+    expect(vm.adjustTeamScore('non-existent', 50), isFalse);
+  });
 }

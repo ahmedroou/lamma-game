@@ -16,11 +16,11 @@ abstract final class SurpriseCatalog {
     ),
     SurpriseCard(
       id: 'bonus_20',
-      text: '20 نقطة إضافية',
+      text: '200 نقطة إضافية',
       effect: SurpriseEffect.bonusPoints,
-      amount: 20,
+      amount: 200,
       note:
-          'تُضاف 20 نقطة تلقائيًا إلى رصيد الفريق الأساسي عند كشف هذه الورقة، مرة واحدة.',
+          'تُضاف 200 نقطة تلقائيًا إلى رصيد الفريق الأساسي عند كشف هذه الورقة، مرة واحدة.',
     ),
     SurpriseCard(
       id: 'hint_free',
@@ -66,9 +66,8 @@ abstract final class SurpriseCatalog {
       text: 'كشف الخيارات مقابل 100 نقطة',
       effect: SurpriseEffect.options,
       price: 100,
-      maximumQuestionPoints: 200,
       note:
-          'اختياري: ادفع 100 نقطة لكشف الخيارات الستة. هذه الورقة تظهر فقط للسؤال ذي القيمة الأصلية 200 نقطة أو أقل.',
+          'اختياري: ادفع 100 نقطة لكشف الخيارات الستة. متاحة لجميع فئات الأسئلة. لا يتم الخصم قبل الشراء.',
     ),
     SurpriseCard(
       id: 'options_200',

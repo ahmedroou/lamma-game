@@ -66,6 +66,17 @@ void main() {
         expect(find.byType(AppBar), findsNothing);
         expect(find.byKey(const ValueKey('team-scoreboard')), findsOneWidget);
         expect(find.text('الجلسة محفوظة على الجهاز'), findsNothing);
+        expect(find.byKey(const ValueKey('team-score-plus-a')), findsOneWidget);
+        expect(find.byKey(const ValueKey('team-score-minus-b')), findsOneWidget);
+        await tester.tap(find.byKey(const ValueKey('team-score-plus-a')));
+        await tester.pumpAndSettle();
+        expect(vm.state.teams[0].score, 50);
+
+        await tester.tap(find.byKey(const ValueKey('team-score-minus-b')));
+        await tester.pumpAndSettle();
+        expect(vm.state.teams[1].score, -50);
+        expect(repository.session!.state.scoreAdjustments.length, 2);
+
         vm.selectCategory('myths');
         await tester.pumpAndSettle();
         expect(find.byKey(const ValueKey('team-scoreboard')), findsNothing);
@@ -77,40 +88,16 @@ void main() {
         await tester.tap(find.byTooltip('خيارات اللعبة'));
         await tester.pumpAndSettle();
         await snapshot(tester, boundary, 'host-dropdown-${size.width.toInt()}');
-        await tap(tester, 'تعديل نقاط الفرق');
-        expect(vm.state.isPaused, true);
-        await tester.enterText(
-          find.byKey(const ValueKey('host-score-a')),
-          '٧٥٠',
-        );
-        await tester.enterText(
-          find.byKey(const ValueKey('host-score-b')),
-          '-٥٠',
-        );
-        await tester.enterText(
-          find.byKey(const ValueKey('score-adjustment-reason')),
-          'قرار المضيف',
-        );
+        expect(find.text('تعديل نقاط الفرق'), findsNothing);
+        Navigator.of(
+          tester.element(find.byType(PopupMenuButton<String>).first),
+        ).pop();
         await tester.pumpAndSettle();
-        await snapshot(tester, boundary, 'host-editor-${size.width.toInt()}');
-        await tap(tester, 'حفظ النقاط');
-        await app.flush();
-        await tester.pumpAndSettle();
-        expect(vm.state.teams[0].score, 750);
-        expect(vm.state.teams[1].score, -50);
-        expect(repository.session!.state.scoreAdjustments.length, 2);
-        expect(vm.state.isPaused, false);
-        expect(find.byKey(const ValueKey('team-scoreboard')), findsNothing);
-        await snapshot(
-          tester,
-          boundary,
-          'compact-host-menu-${size.width.toInt()}',
-        );
         vm.showAnswer();
         await tester.pumpAndSettle();
         await tap(tester, 'لا أحد · نكمل');
         expect(find.byKey(const ValueKey('team-scoreboard')), findsOneWidget);
-        expect(find.text('750'), findsOneWidget);
+        expect(find.text('50'), findsOneWidget);
         expect(find.text('-50'), findsOneWidget);
         expect(tester.takeException(), isNull);
         await tester.pumpWidget(const SizedBox());

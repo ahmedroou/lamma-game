@@ -1,7 +1,7 @@
 name: lamma
 description: 'An Arabic Flutter game-night app with an adaptive gaming home and local prototype.'
 publish_to: 'none'
-version: 0.2.4+6
+version: 0.2.5+7
 environment:
   sdk: ^3.11.5
 dependencies:

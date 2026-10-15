@@ -18,8 +18,6 @@ extension _SessionManagement on _SessionScreenState {
               _model.state.isPaused ? _model.resume() : _model.pause();
             case 'history':
               _showHistory();
-            case 'scores':
-              _editScores();
             case 'wallet':
               _chooseWallet();
             case 'save':
@@ -41,11 +39,6 @@ extension _SessionManagement on _SessionScreenState {
               ),
             ),
           const PopupMenuItem(value: 'history', child: Text('سجل الجولات')),
-          PopupMenuItem(
-            value: 'scores',
-            enabled: !_model.revealing,
-            child: const Text('تعديل نقاط الفرق'),
-          ),
           if (_model.abilitiesEnabled ||
               _model.state.teams.any((t) => t.inventory.isNotEmpty))
             const PopupMenuItem(value: 'wallet', child: Text('محافظ القدرات')),
@@ -81,54 +74,6 @@ extension _SessionManagement on _SessionScreenState {
       ),
     );
     if (mounted && team != null) _inventory(team);
-  }
-
-  Future<void> _editScores() async {
-    final wasPaused = _model.state.isPaused;
-    _model.pause(PauseReason.dialog);
-    final teams = _model.state.teams;
-    var resume = true;
-    try {
-      final result = await showDialog<ScoreEditResult>(
-        context: context,
-        builder: (_) => EditTeamScoresDialog(teams: teams),
-      );
-      if (!mounted || result == null) return;
-      final changed = _model.setTeamScores(
-        result.scores,
-        expectedScores: {for (final team in teams) team.id: team.score},
-        reason: result.reason,
-      );
-      if (!changed) {
-        ScaffoldMessenger.of(context).showSnackBar(
-          const SnackBar(
-            content: Text('تغيّرت النقاط أثناء التعديل. افتح النافذة مجددًا.'),
-          ),
-        );
-        return;
-      }
-      try {
-        await _app?.flush();
-      } on Object {
-        resume = false;
-        if (mounted) {
-          ScaffoldMessenger.of(context).showSnackBar(
-            const SnackBar(
-              content: Text(
-                'لم يكتمل حفظ النقاط. أعد محاولة الحفظ قبل المتابعة.',
-              ),
-            ),
-          );
-        }
-      }
-    } finally {
-      if (mounted &&
-          resume &&
-          !wasPaused &&
-          _model.state.pauseReason == PauseReason.dialog) {
-        _model.resume();
-      }
-    }
   }
 
   Future<void> _showScoreChanges() => showModalBottomSheet<void>(

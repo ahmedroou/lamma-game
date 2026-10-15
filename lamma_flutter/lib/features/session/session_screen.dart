@@ -19,7 +19,6 @@ import 'category_replay_options.dart';
 import 'structured_question_panel.dart';
 import 'opening_card_controls.dart';
 import 'cinematic_round_deck.dart';
-import 'edit_team_scores_dialog.dart';
 import '../../domain/abilities/surprise_session_effects.dart';
 import '../../shared/fit_text.dart';
 part 'session_management.dart';
@@ -40,6 +39,12 @@ class _SessionScreenState extends State<SessionScreen>
   bool _allowPop = false, _exitDialogOpen = false;
   void _permitPop() => setState(() => _allowPop = true);
   void refreshView() => setState(() {});
+  void _adjustScore(String teamId, int delta) {
+    final changed = _model.adjustTeamScore(teamId, delta);
+    if (changed) {
+      unawaited(_app?.flush());
+    }
+  }
   @override
   void initState() {
     super.initState();

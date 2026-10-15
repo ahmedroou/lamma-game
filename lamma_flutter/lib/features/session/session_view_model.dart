@@ -1625,6 +1625,21 @@ class SessionViewModel extends ChangeNotifier {
         ),
       )
       .toList();
+  bool adjustTeamScore(String teamId, int delta, {String reason = ''}) {
+    if (!state.teams.any((t) => t.id == teamId)) return false;
+    final scores = {
+      for (final t in state.teams)
+        t.id: t.id == teamId ? t.score + delta : t.score,
+    };
+    return setTeamScores(
+      scores,
+      expectedScores: {for (final t in state.teams) t.id: t.score},
+      reason: reason.isNotEmpty
+          ? reason
+          : (delta >= 0 ? 'تعديل سريع (+$delta)' : 'تعديل سريع ($delta)'),
+    );
+  }
+
   bool setTeamScores(
     Map<String, int> scores, {
     required Map<String, int> expectedScores,

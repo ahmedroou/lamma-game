@@ -19,6 +19,7 @@ class OnlineSyncService {
   static const String _apiKey = 'AIzaSyBX_FpSflsHNb5vduGvULMgwnVK1p6qGpM';
   static const String webViewerBaseUrl = 'https://lamma-live.web.app';
 
+  SessionConfig? _config;
   String? _roomId;
   String? _hostKey;
   String? _createdAtIso;
@@ -71,6 +72,7 @@ class OnlineSyncService {
     required SessionState state,
     String? preferredRoomCode,
   }) async {
+    _config = config;
     _roomId = (preferredRoomCode ?? generateRoomCode()).toUpperCase();
     _hostKey = generateHostKey();
     _createdAtIso = DateTime.now().toUtc().toIso8601String();
@@ -79,6 +81,7 @@ class OnlineSyncService {
     final success = await _pushState(state, isInitialCreate: true);
     if (!success) {
       _isBroadcasting = false;
+      _config = null;
       _roomId = null;
       _hostKey = null;
       return false;
@@ -112,6 +115,7 @@ class OnlineSyncService {
       debugPrint('OnlineSyncService: stopBroadcasting error: $e');
     } finally {
       _isBroadcasting = false;
+      _config = null;
       _roomId = null;
       _hostKey = null;
       _lastSyncedState = null;
@@ -207,6 +211,57 @@ class OnlineSyncService {
       },
     };
 
+    // Serialize categories state for board screen
+    if (_config != null) {
+      final catList = <Map<String, dynamic>>[];
+      for (final catId in _config!.boardCategoryIds) {
+        final cat = gameCategories.where((c) => c.id == catId).firstOrNull;
+        final title = cat?.title ??
+            (catId == GameRules.abilitiesCategoryId
+                ? 'المفاجآت والقدرات'
+                : catId);
+        final usedCount = state.history
+            .where((r) => r.question.categoryId == catId)
+            .length;
+        final remaining =
+            (GameRules.questionsPerCategory - usedCount).clamp(
+              0,
+              GameRules.questionsPerCategory,
+            );
+
+        final cards = [100, 200, 300, 400, 400].asMap().entries.map((entry) {
+          final idx = entry.key;
+          final pts = entry.value;
+          return {
+            'mapValue': {
+              'fields': {
+                'value': {'integerValue': pts},
+                'used': {'booleanValue': idx < usedCount},
+              },
+            },
+          };
+        }).toList();
+
+        catList.add({
+          'mapValue': {
+            'fields': {
+              'id': {'stringValue': catId},
+              'name': {'stringValue': title},
+              'remaining': {'integerValue': remaining},
+              'cards': {
+                'arrayValue': {'values': cards},
+              },
+            },
+          },
+        });
+      }
+      if (catList.isNotEmpty) {
+        fields['categoriesState'] = {
+          'arrayValue': {'values': catList},
+        };
+      }
+    }
+
     if (categoryName != null && question != null) {
       fields['category'] = {
         'mapValue': {
@@ -251,8 +306,13 @@ class OnlineSyncService {
       };
     }
 
-    // Additional round context (opponent window, surprise card, etc.)
-    final roundDataMap = <String, dynamic>{};
+    // Additional round context (3 cards state, surprise, opponent, options, presentation)
+    final roundDataMap = <String, dynamic>{
+      'revealedCards': {'integerValue': state.revealedCards},
+      'availablePoints': {'integerValue': state.availablePoints},
+      'clockSeconds': {'integerValue': state.clockSeconds},
+    };
+
     if (state.opponentTeamId != null) {
       roundDataMap['opponentTeamId'] = {'stringValue': state.opponentTeamId!};
     }
@@ -261,7 +321,72 @@ class OnlineSyncService {
     }
     if (state.surpriseCard != null) {
       roundDataMap['surpriseTitle'] = {'stringValue': state.surpriseCard!.text};
+      roundDataMap['surpriseEffect'] = {
+        'stringValue': state.surpriseCard!.effect.name,
+      };
     }
+    if (state.plankRunning) {
+      roundDataMap['plankRunning'] = {'booleanValue': true};
+      roundDataMap['plankSeconds'] = {'integerValue': state.plankSeconds};
+    }
+    if (state.hintRevealed && question != null && question.hint.isNotEmpty) {
+      roundDataMap['hint'] = {'stringValue': question.hint};
+    }
+    if (state.visibleOptions.isNotEmpty) {
+      roundDataMap['options'] = {
+        'arrayValue': {
+          'values': state.visibleOptions
+              .map((o) => {
+                    'mapValue': {
+                      'fields': {
+                        'id': {'stringValue': o.id},
+                        'text': {'stringValue': o.text},
+                      },
+                    },
+                  })
+              .toList(),
+        },
+      };
+    }
+
+    // Structured Question Presentation (when cards are revealed)
+    if (question != null &&
+        state.revealedCards == 3 &&
+        question.presentation != null) {
+      final pres = question.presentation!;
+      roundDataMap['presentationType'] = {'stringValue': pres.type.name};
+
+      final sectionsValues = pres.sections.map((sec) {
+        final itemsValues = sec.items.map((it) {
+          return {
+            'mapValue': {
+              'fields': {
+                'id': {'stringValue': it.id},
+                'text': {'stringValue': it.text},
+                'missing': {'booleanValue': it.missing},
+              },
+            },
+          };
+        }).toList();
+
+        return {
+          'mapValue': {
+            'fields': {
+              'id': {'stringValue': sec.id},
+              'title': {'stringValue': sec.title},
+              'items': {
+                'arrayValue': {'values': itemsValues},
+              },
+            },
+          },
+        };
+      }).toList();
+
+      roundDataMap['presentationSections'] = {
+        'arrayValue': {'values': sectionsValues},
+      };
+    }
+
     if (roundDataMap.isNotEmpty) {
       fields['roundData'] = {
         'mapValue': {'fields': roundDataMap},

@@ -141,21 +141,21 @@ void main() {
     var bonus = model('bonus_20');
     bonus.selectCategory('myths');
     bonus.revealCard(0);
-    expect(bonus.state.activeTeam.score, 320);
+    expect(bonus.state.activeTeam.score, 500);
     bonus = restored(bonus);
     addTearDown(bonus.dispose);
     bonus.resume();
     bonus.revealCard(1);
     bonus.revealCard(2);
-    expect(bonus.state.activeTeam.score, 320);
+    expect(bonus.state.activeTeam.score, 500);
     bonus.showAnswer();
     bonus.awardAnswer('a');
-    expect(bonus.state.teams.first.score, 720);
-    expect(bonus.state.history.single.scoreDeltas['a'], 420);
+    expect(bonus.state.teams.first.score, 900);
+    expect(bonus.state.history.single.scoreDeltas['a'], 600);
     expect(bonus.correctDecision(bonus.state.history.single.id, null), true);
-    expect(bonus.state.teams.first.score, 320);
+    expect(bonus.state.teams.first.score, 500);
     expect(bonus.undoLastDecision(), true);
-    expect(bonus.state.teams.first.score, 320);
+    expect(bonus.state.teams.first.score, 500);
   });
   test(
     'Paid hint is explicit, charged once and preserved when correcting judgment',
@@ -306,20 +306,21 @@ void main() {
     },
   );
   test(
-    '100-point options draw is restricted to original question values at most 200',
+    '100-point options draw is available for all question point values',
     () {
       expect(
         SurpriseCatalog.eligibleFor(
           specialQuestion,
         ).any((c) => c.id == 'options_100'),
-        false,
+        true,
+        reason: 'options_100 is now available across all question point tiers.',
       );
       expect(
         SurpriseCatalog.eligibleFor(
           seedQuestions.first,
         ).any((c) => c.id == 'options_100'),
         false,
-        reason: 'Options also require six authored choices.',
+        reason: 'Options still require six authored choices.',
       );
       final easy = Question.fromJson({
         ...specialQuestion.toJson(),
@@ -331,7 +332,7 @@ void main() {
       );
       expect(
         SurpriseCatalog.draw(specialQuestion, {'options_100': 1}, Random(1)),
-        isNull,
+        isNotNull,
       );
     },
   );

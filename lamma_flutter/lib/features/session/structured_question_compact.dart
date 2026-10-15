@@ -192,9 +192,10 @@ extension _CompactPremises on _StructuredQuestionPanelState {
       borderRadius: BorderRadius.circular(10),
       onTap: !widget.enabled
           ? null
-          : e.missing
-          ? () => _editMissing(e)
-          : onTap,
+          : (e.missing &&
+                  widget.presentation.type != QuestionPresentationType.matching)
+              ? () => _editMissing(e)
+              : onTap,
       child: Padding(
         padding: const EdgeInsets.all(4),
         child: Column(
@@ -204,7 +205,9 @@ extension _CompactPremises on _StructuredQuestionPanelState {
                 direction: RegExp('[ء-ي]').hasMatch(e.text)
                     ? TextDirection.rtl
                     : TextDirection.ltr,
-                e.missing
+                (e.missing &&
+                        widget.presentation.type !=
+                            QuestionPresentationType.matching)
                     ? widget.draft['missing:${e.id}'] ?? '؟ · أدخل القيمة'
                     : e.text,
                 style: TextStyle(

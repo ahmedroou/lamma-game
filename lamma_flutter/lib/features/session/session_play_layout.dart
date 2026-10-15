@@ -18,9 +18,9 @@ extension _SessionPlayLayout on _SessionScreenState {
                   if (_model.state.phase == SessionPhase.categories) ...[
                     Padding(
                       padding: const EdgeInsetsDirectional.only(end: 42),
-                      child: SizedBox(height: wide ? 36 : 50, child: _scores()),
+                      child: SizedBox(height: wide ? 32 : 44, child: _scores()),
                     ),
-                    SizedBox(height: wide ? 4 : 8),
+                    SizedBox(height: wide ? 3 : 6),
                   ],
                   Expanded(
                     child: _model.state.isPaused
@@ -42,7 +42,7 @@ extension _SessionPlayLayout on _SessionScreenState {
     key: const ValueKey('team-scoreboard'),
     children: [
       for (var i = 0; i < _model.state.teams.length; i++) ...[
-        if (i > 0) const SizedBox(width: 6),
+        if (i > 0) const SizedBox(width: 5),
         Expanded(child: _team(_model.state.teams[i], i)),
       ],
     ],
@@ -53,58 +53,83 @@ extension _SessionPlayLayout on _SessionScreenState {
     final active = team.id == _model.state.answeringTeam.id;
     return Material(
       color: active ? color.withValues(alpha: .12) : AppColors.surface,
-      borderRadius: BorderRadius.circular(14),
+      borderRadius: BorderRadius.circular(10),
       child: InkWell(
-        borderRadius: BorderRadius.circular(14),
+        borderRadius: BorderRadius.circular(10),
         onTap: _model.abilitiesEnabled || team.inventory.isNotEmpty
             ? () => _inventory(team.id)
             : null,
         child: AnimatedContainer(
           duration: const Duration(milliseconds: 220),
-          padding: const EdgeInsets.symmetric(horizontal: 7, vertical: 4),
+          padding: const EdgeInsets.symmetric(horizontal: 5, vertical: 2),
           decoration: BoxDecoration(
-            borderRadius: BorderRadius.circular(14),
-            border: Border.all(color: active ? color : AppColors.border),
+            borderRadius: BorderRadius.circular(10),
+            border: Border.all(
+              color: active ? color : AppColors.border,
+              width: active ? 1.5 : 1,
+            ),
           ),
           child: Column(
             children: [
               Expanded(
-                child: FitText(
-                  team.name,
-                  style: TextStyle(
-                    fontSize: 14,
-                    color: active ? color : AppColors.white,
-                    fontWeight: FontWeight.w700,
-                  ),
-                ),
-              ),
-              Expanded(
+                flex: 4,
                 child: Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    Expanded(
+                    Flexible(
                       child: FitText(
-                        '${team.score}',
+                        team.name,
                         style: TextStyle(
-                          fontSize: 21,
-                          color: color,
-                          fontWeight: FontWeight.w800,
+                          fontSize: 12,
+                          color: active ? color : AppColors.white,
+                          fontWeight: FontWeight.w700,
                         ),
                       ),
                     ),
                     if (_model.abilitiesEnabled ||
                         team.inventory.isNotEmpty) ...[
-                      Icon(Icons.style_outlined, color: color, size: 14),
-                      SizedBox(
-                        width: 42,
-                        child: FitText(
-                          '${team.inventory.length} قدرات',
-                          style: const TextStyle(
-                            fontSize: 10,
-                            color: AppColors.muted,
-                          ),
+                      const SizedBox(width: 3),
+                      Icon(Icons.style_outlined, color: color, size: 11),
+                      const SizedBox(width: 2),
+                      FitText(
+                        '${team.inventory.length}',
+                        style: const TextStyle(
+                          fontSize: 9,
+                          color: AppColors.muted,
                         ),
                       ),
                     ],
+                  ],
+                ),
+              ),
+              Expanded(
+                flex: 5,
+                child: Row(
+                  children: [
+                    _scoreButton(
+                      icon: Icons.remove_rounded,
+                      color: AppColors.peach,
+                      key: ValueKey('team-score-minus-${team.id}'),
+                      tooltip: 'خصم 50 نقطة من ${team.name}',
+                      onTap: () => _adjustScore(team.id, -50),
+                    ),
+                    Expanded(
+                      child: FitText(
+                        '${team.score}',
+                        style: TextStyle(
+                          fontSize: 16,
+                          color: color,
+                          fontWeight: FontWeight.w800,
+                        ),
+                      ),
+                    ),
+                    _scoreButton(
+                      icon: Icons.add_rounded,
+                      color: AppColors.lime,
+                      key: ValueKey('team-score-plus-${team.id}'),
+                      tooltip: 'إضافة 50 نقطة لـ ${team.name}',
+                      onTap: () => _adjustScore(team.id, 50),
+                    ),
                   ],
                 ),
               ),
@@ -114,6 +139,39 @@ extension _SessionPlayLayout on _SessionScreenState {
       ),
     );
   }
+
+  Widget _scoreButton({
+    required IconData icon,
+    required Color color,
+    required Key key,
+    required String tooltip,
+    required VoidCallback onTap,
+  }) => Semantics(
+    button: true,
+    label: tooltip,
+    child: SizedBox(
+      width: 20,
+      height: 20,
+      child: IconButton(
+        key: key,
+        tooltip: tooltip,
+        padding: EdgeInsets.zero,
+        constraints: const BoxConstraints(minWidth: 20, minHeight: 20),
+        iconSize: 13,
+        visualDensity: VisualDensity.compact,
+        style: IconButton.styleFrom(
+          backgroundColor: color.withValues(alpha: .14),
+          foregroundColor: color,
+          shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.circular(5),
+            side: BorderSide(color: color.withValues(alpha: .35), width: 1),
+          ),
+        ),
+        icon: Icon(icon),
+        onPressed: onTap,
+      ),
+    ),
+  );
 
   Widget _surface(
     Widget child, {
@@ -666,13 +724,6 @@ extension _SessionPlayLayout on _SessionScreenState {
                               fontSize: 14,
                               color: AppColors.muted,
                             ),
-                          ),
-                        ),
-                      if (q.acceptedAnswers.isNotEmpty)
-                        Expanded(
-                          child: FitText(
-                            'يُقبل أيضًا: ${q.acceptedAnswers.join('، ')}',
-                            style: const TextStyle(fontSize: 13),
                           ),
                         ),
                     ],
