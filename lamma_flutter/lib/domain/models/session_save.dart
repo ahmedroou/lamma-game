@@ -145,11 +145,29 @@ final class SessionSave {
     if (state.phase == SessionPhase.answer && state.revealedCards != 3) {
       throw const FormatException('Invalid answer phase.');
     }
+    // A wheel transfer starts before the question opens and keeps its full
+    // time. It is distinct from the seven-second opportunity after timeout.
+    final wheelTransfer =
+        state.roundData['wheelTurnPassed'] == true &&
+        state.roundData['opponentReason'] == 'wheel_pass' &&
+        state.surpriseCard?.effect == SurpriseEffect.wheelOfFortune &&
+        state.roundData['surpriseApplied'] == true &&
+        state.roundData['wheelStatus'] == 'completed' &&
+        state.roundData['wheelOutcome'] == 'passTurn' &&
+        state.opponentTeamId != null &&
+        state.revealedCards >= 1 &&
+        !state.isOpponentWindow;
+    if ((state.roundData['wheelTurnPassed'] == true ||
+            state.roundData['opponentReason'] == 'wheel_pass') &&
+        !wheelTransfer) {
+      throw const FormatException('Invalid wheel turn transfer.');
+    }
     if (state.opponentTeamId != null &&
         (!teamIds.contains(state.opponentTeamId) ||
             state.opponentTeamId == state.activeTeam.id ||
-            state.revealedCards != 3 ||
-            state.secondsRemaining > 7 ||
+            !wheelTransfer &&
+                (state.revealedCards != 3 ||
+                    state.secondsRemaining > GameRules.opponentAnswerSeconds) ||
             (state.phase != SessionPhase.cards &&
                 state.phase != SessionPhase.answer))) {
       throw const FormatException('Invalid opponent opportunity.');

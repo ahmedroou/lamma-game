@@ -423,21 +423,21 @@ class SessionViewModel extends ChangeNotifier {
         seenQuestionIds: {...state.seenQuestionIds, question.id},
       ),
     );
-    final checkpoint = SessionSave(
-      id: id,
-      config: config,
-      state: proposed,
-      questions: _pool,
-      createdAt: createdAt,
-      updatedAt: _now(),
-      revision: _revision + 1,
-      replayQuestionIds: _replayQuestionIds,
-      abilityQuestionIds: _abilityQuestionIds,
-    );
     revealing = true;
     revealError = null;
     notifyListeners();
     try {
+      final checkpoint = SessionSave(
+        id: id,
+        config: config,
+        state: proposed,
+        questions: _pool,
+        createdAt: createdAt,
+        updatedAt: _now(),
+        revision: _revision + 1,
+        replayQuestionIds: _replayQuestionIds,
+        abilityQuestionIds: _abilityQuestionIds,
+      );
       await commitReveal!(checkpoint, question);
       _usage.mark(question);
       if (_replayQuestionIds.contains(question.id)) _usage.claim(id, question);
@@ -1283,12 +1283,7 @@ class SessionViewModel extends ChangeNotifier {
   }
 
   bool applyWheelOutcome(WheelOutcome outcome) {
-    if (state.surpriseCard?.effect != SurpriseEffect.wheelOfFortune ||
-        state.roundData['wheelStatus'] != 'pending' ||
-        state.isPaused ||
-        state.phase != SessionPhase.cards) {
-      return false;
-    }
+    if (!canSpinWheel) return false;
 
     final activeId = state.activeTeam.id;
     var teams = state.teams;
