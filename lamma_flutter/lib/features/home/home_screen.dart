@@ -1048,6 +1048,13 @@ class _HomeScreenState extends State<HomeScreen> with WidgetsBindingObserver {
           ),
         ],
         const SizedBox(height: 6),
+        if (available && audio.isMachineReviewed) ...[
+          const Text(
+            'مراجعة مؤقتة بالمصدر والتفريغ الآلي؛ لم يُعتمد باستماع بشري.',
+            style: TextStyle(color: AppColors.muted, fontSize: 12, height: 1.5),
+          ),
+          const SizedBox(height: 6),
+        ],
         SelectableText(audio.attribution, style: const TextStyle(height: 1.5)),
         const SizedBox(height: 6),
         SelectableText(
@@ -1162,7 +1169,7 @@ class _HomeScreenState extends State<HomeScreen> with WidgetsBindingObserver {
                     return const SingleChildScrollView(
                       child: Text(
                         'تسجيلات «صوت الشخصية» قيد المراجعة. لا يتاح أي تسجيل '
-                        'للعب قبل تأكيد هويته ومصدره وترخيصه ومراجعته سمعيًا. '
+                        'للعب قبل توثيق مصدره وترخيصه ومراجعة محتواه. '
                         'ستظهر هنا مصادر وتراخيص المقاطع عند اعتمادها.',
                         style: TextStyle(fontSize: 14, height: 1.7),
                       ),

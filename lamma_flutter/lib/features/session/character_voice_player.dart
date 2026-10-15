@@ -1,7 +1,9 @@
 import 'dart:async';
 
 import 'package:audioplayers/audioplayers.dart';
+import 'package:crypto/crypto.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter/widget_previews.dart';
 
 import '../../core/app_theme.dart';
@@ -114,6 +116,7 @@ class _CharacterVoicePlayerState extends State<CharacterVoicePlayer>
   void didUpdateWidget(CharacterVoicePlayer oldWidget) {
     super.didUpdateWidget(oldWidget);
     if (oldWidget.audio.assetPath != widget.audio.assetPath ||
+        oldWidget.audio.contentSha256 != widget.audio.contentSha256 ||
         (oldWidget.audio.isApproved && !widget.audio.isApproved) ||
         (oldWidget.isActive && !widget.isActive)) {
       _invalidate();
@@ -183,6 +186,7 @@ class _CharacterVoicePlayerState extends State<CharacterVoicePlayer>
     if (!_enabled || _busy) return;
     final epoch = _epoch;
     final path = widget.audio.assetPath;
+    final digest = widget.audio.contentSha256;
     final pause = _playing && !replay;
     setState(() {
       _busy = true;
@@ -193,6 +197,23 @@ class _CharacterVoicePlayerState extends State<CharacterVoicePlayer>
         if (!_current(epoch)) return;
         final player = _player ?? _createPlayer(epoch);
         if (!_sourceReady) {
+          if (digest.isNotEmpty) {
+            final data = await rootBundle.load(path).timeout(_loadTimeout);
+            if (sha256
+                    .convert(
+                      data.buffer.asUint8List(
+                        data.offsetInBytes,
+                        data.lengthInBytes,
+                      ),
+                    )
+                    .toString() !=
+                digest) {
+              throw const FormatException(
+                'Voice clip differs from reviewed bytes.',
+              );
+            }
+            if (!_current(epoch, player)) return;
+          }
           await player.setReleaseMode(ReleaseMode.stop).timeout(_loadTimeout);
           if (!_current(epoch, player)) {
             await _stopStale(player);

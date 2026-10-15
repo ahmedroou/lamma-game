@@ -59,12 +59,27 @@ usageId when repairing its original speaker. Unsupported candidates stay
 quarantined; remove their audio field rather than creating a zero-duration
 QuestionAudio or copying another person's voice.
 
-Runtime approval requires matching `audio.speaker`, proper provenance,
-`reviewStatus: approved`, `listeningStatus: listened`, an actual `reviewedBy`
-and ISO `reviewedAt`, and `qualityStatus: reviewed`. These fields record a review;
-they do not perform one and must never be populated automatically by a builder.
+Human-listening approval records `reviewMethod: humanListening` and
+`listeningStatus: listened` only after actual listening. On 15 October 2026 the
+user explicitly authorized publishing the currently available 27 clips using
+source plus actual-clip machine transcripts instead. This temporary method is
+recorded as `sourceTranscript` / `machineTranscribed`, never `listened`.
 
-This environment cannot ingest voice for listening. Source-backed prepared
-clips are therefore `sourceVerified`, with listening pending. They are not
-available for gameplay until that actual review is completed. The current
-documented state is in `CHARACTER_VOICE_DOCUMENTATION.md`.
+`integrate_temporary_voice_release.py` applies only the individually named
+entries in `temporary_editorial_decisions.json`. Each needs both tiny.en and
+small.en transcripts bound to the actual final file SHA256, documentary source,
+rights, cut, and an explicit editorial decision. File counts alone never approve
+anything. The tool preserves the original bank snapshot, keeps same-person IDs,
+adds new IDs for different people, and retains all historical usage IDs.
+
+The 27 published-method records include their evidence ID, digest, model names,
+reviewer and date. The runtime enforces this metadata and verifies the bytes
+before playback. The archive states the temporary method. The remaining 73
+questions stay quarantined. See `CHARACTER_VOICE_DOCUMENTATION.md`.
+
+New research helpers are `research_voice_sources.py`, `research_bbc_sources.py`,
+`prepare_replacement_candidates.py`, `transcribe_prepared_candidates.py`,
+`stage_replacement_questions.py` and `render_replacement_review.py`. Preparation
+respects source cooldowns; ASR reuses final-file SHA-bound results. Local models,
+Python dependencies and original source downloads are not shipped in the app.
+These helpers prepare candidates; they do not silently authorize future clips.

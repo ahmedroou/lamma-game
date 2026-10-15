@@ -18,6 +18,10 @@ final class QuestionAudio {
     this.listeningStatus = 'pending',
     this.reviewedBy = '',
     this.reviewedAt = '',
+    this.reviewMethod = 'humanListening',
+    this.contentSha256 = '',
+    this.transcriptionModel = '',
+    this.reviewEvidenceId = '',
   });
 
   final String assetPath;
@@ -28,12 +32,25 @@ final class QuestionAudio {
   final String reviewStatus, speaker, recordingId, licenseUrl, transcript;
   final int sourceStartMs, sourceEndMs;
   final String listeningStatus, reviewedBy, reviewedAt;
+  final String reviewMethod,
+      contentSha256,
+      transcriptionModel,
+      reviewEvidenceId;
+
+  bool get isMachineReviewed =>
+      reviewMethod == 'sourceTranscript' &&
+      listeningStatus == 'machineTranscribed' &&
+      RegExp(r'^[a-f0-9]{64}$').hasMatch(contentSha256) &&
+      transcriptionModel == 'faster-whisper-tiny.en,faster-whisper-small.en' &&
+      reviewEvidenceId.trim().isNotEmpty;
 
   /// Legacy metadata and source-only research never authorize playback.
-  /// Approval represents an individual review of the final extracted clip.
+  /// Approval records the actual method used for the final extracted clip.
+  /// Machine transcription is never recorded as human listening.
   bool get isApproved =>
       reviewStatus == 'approved' &&
-      listeningStatus == 'listened' &&
+      ((reviewMethod == 'humanListening' && listeningStatus == 'listened') ||
+          isMachineReviewed) &&
       reviewedBy.trim().isNotEmpty &&
       DateTime.tryParse(reviewedAt) != null &&
       RegExp(
@@ -77,6 +94,12 @@ final class QuestionAudio {
             (json['listeningStatus'] as String?)?.trim() ?? 'pending',
         reviewedBy: (json['reviewedBy'] as String?)?.trim() ?? '',
         reviewedAt: (json['reviewedAt'] as String?)?.trim() ?? '',
+        reviewMethod:
+            (json['reviewMethod'] as String?)?.trim() ?? 'humanListening',
+        contentSha256: (json['contentSha256'] as String?)?.trim() ?? '',
+        transcriptionModel:
+            (json['transcriptionModel'] as String?)?.trim() ?? '',
+        reviewEvidenceId: (json['reviewEvidenceId'] as String?)?.trim() ?? '',
       );
     }
     throw const FormatException(
@@ -100,6 +123,10 @@ final class QuestionAudio {
     'listeningStatus': listeningStatus,
     if (reviewedBy.isNotEmpty) 'reviewedBy': reviewedBy,
     if (reviewedAt.isNotEmpty) 'reviewedAt': reviewedAt,
+    'reviewMethod': reviewMethod,
+    if (contentSha256.isNotEmpty) 'contentSha256': contentSha256,
+    if (transcriptionModel.isNotEmpty) 'transcriptionModel': transcriptionModel,
+    if (reviewEvidenceId.isNotEmpty) 'reviewEvidenceId': reviewEvidenceId,
   };
 
   @override
@@ -121,7 +148,11 @@ final class QuestionAudio {
           transcript == other.transcript &&
           listeningStatus == other.listeningStatus &&
           reviewedBy == other.reviewedBy &&
-          reviewedAt == other.reviewedAt;
+          reviewedAt == other.reviewedAt &&
+          reviewMethod == other.reviewMethod &&
+          contentSha256 == other.contentSha256 &&
+          transcriptionModel == other.transcriptionModel &&
+          reviewEvidenceId == other.reviewEvidenceId;
 
   @override
   int get hashCode => Object.hashAll([
@@ -140,5 +171,9 @@ final class QuestionAudio {
     listeningStatus,
     reviewedBy,
     reviewedAt,
+    reviewMethod,
+    contentSha256,
+    transcriptionModel,
+    reviewEvidenceId,
   ]);
 }
